@@ -1,29 +1,60 @@
 #!/usr/bin/env node
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { fetchJSON, fmtDate, extractRows, loadCompanies, PDF_BASE } from './lib/bse.mjs';
 
 const WINDOW_DAYS = Number(process.env.BSE_WINDOW_DAYS || 90);
+const CHUNK_DAYS = Number(process.env.BSE_CHUNK_DAYS || 180);
 
 const ANN_PAGE_URL = (scripCode, from, to, page) =>
   `https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=${page}&strCat=-1&strPrevDate=${from}&strScrip=${scripCode}&strSearch=P&strToDate=${to}&strType=C`;
 
-async function fetchAnnouncementsPaginated(scripCode, from, to) {
-  const all = [];
+function chunkDateRange(startDate, endDate, chunkDays) {
+  const chunks = [];
+  let cursor = new Date(startDate.getTime());
+  const oneDay = 86400000;
+  while (cursor <= endDate) {
+    const chunkEnd = new Date(Math.min(cursor.getTime() + (chunkDays - 1) * oneDay, endDate.getTime()));
+    chunks.push({ from: fmtDate(cursor), to: fmtDate(chunkEnd) });
+    cursor = new Date(chunkEnd.getTime() + oneDay);
+  }
+  return chunks;
+}
+
+async function fetchAnnouncementsForChunk(scripCode, from, to) {
+  const rows = [];
   let page = 1;
   let totalPages = 1;
-  let firstUrl = ANN_PAGE_URL(scripCode, from, to, 1);
   do {
     const url = ANN_PAGE_URL(scripCode, from, to, page);
     const payload = await fetchJSON(url);
-    const rows = extractRows(payload);
-    all.push(...rows);
-    const reported = Number(rows[0]?.TotalPageCnt);
+    const pageRows = extractRows(payload);
+    rows.push(...pageRows);
+    const reported = Number(pageRows[0]?.TotalPageCnt);
     if (Number.isFinite(reported) && reported > 0) totalPages = reported;
     page++;
-    if (page > 50) break; // safety net
+    if (page > 50) break;
   } while (page <= totalPages);
-  return { rows: all, url: firstUrl, pages: page - 1 };
+  return { rows, pages: page - 1 };
+}
+
+async function fetchAnnouncementsWindow(scripCode, startDate, endDate) {
+  const chunks = chunkDateRange(startDate, endDate, CHUNK_DAYS);
+  const allRows = [];
+  let totalPages = 0;
+  const firstChunk = chunks[0];
+  const firstUrl = ANN_PAGE_URL(scripCode, firstChunk.from, firstChunk.to, 1);
+  for (const { from, to } of chunks) {
+    const { rows, pages } = await fetchAnnouncementsForChunk(scripCode, from, to);
+    allRows.push(...rows);
+    totalPages += pages;
+  }
+  const byId = new Map();
+  for (const r of allRows) {
+    const id = r.NEWSID ?? `${r.SCRIP_CD}-${r.DT_TM}-${r.HEADLINE}`;
+    if (!byId.has(id)) byId.set(id, r);
+  }
+  return { rows: [...byId.values()], url: firstUrl, pages: totalPages, chunks: chunks.length };
 }
 
 function urlOnlyEndpoints(scripCode, from, to) {
@@ -50,33 +81,71 @@ function enrichAnnouncements(rows) {
   });
 }
 
+async function loadExisting(path) {
+  try {
+    return JSON.parse(await readFile(path, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+function mergeAnnouncementRows(existingRows, freshRows) {
+  const byId = new Map();
+  for (const r of existingRows || []) {
+    const id = r.NEWSID ?? `${r.SCRIP_CD}-${r.DT_TM}-${r.HEADLINE}`;
+    byId.set(id, r);
+  }
+  for (const r of freshRows) {
+    const id = r.NEWSID ?? `${r.SCRIP_CD}-${r.DT_TM}-${r.HEADLINE}`;
+    byId.set(id, r); // fresh wins
+  }
+  const out = [...byId.values()];
+  out.sort((a, b) => String(b.DT_TM || '').localeCompare(String(a.DT_TM || '')));
+  return out;
+}
+
 async function scrapeCompany({ scripCode, slug, shortName }) {
   const now = new Date();
-  const FROM = fmtDate(new Date(now.getTime() - WINDOW_DAYS * 86400000));
+  const startDate = new Date(now.getTime() - WINDOW_DAYS * 86400000);
+  const FROM = fmtDate(startDate);
   const TO = fmtDate(now);
+  const path = `data/bse-${slug}.json`;
+  const existing = await loadExisting(path);
 
   const out = {
     scripCode,
     slug,
     name: shortName,
     fetchedAt: new Date().toISOString(),
-    window: { from: FROM, to: TO, days: WINDOW_DAYS },
+    window: { from: FROM, to: TO, days: WINDOW_DAYS, chunkDays: CHUNK_DAYS },
     categories: {},
   };
 
-  // Announcements — paginated
+  // Announcements — chunked window + paginated within each chunk + merged with existing
   console.error(`  announcements…`);
   try {
-    const { rows: raw, url, pages } = await fetchAnnouncementsPaginated(scripCode, FROM, TO);
-    const rows = enrichAnnouncements(raw);
-    out.categories.announcements = { ok: true, url, count: rows.length, pages, tag: 'confirmed', data: rows };
-    console.error(`    ok (${rows.length} rows across ${pages} page(s))`);
+    const { rows: raw, url, pages, chunks } = await fetchAnnouncementsWindow(scripCode, startDate, now);
+    const fresh = enrichAnnouncements(raw);
+    const merged = mergeAnnouncementRows(existing?.categories?.announcements?.data, fresh);
+    out.categories.announcements = {
+      ok: true,
+      url,
+      count: merged.length,
+      countFresh: fresh.length,
+      chunks,
+      pages,
+      tag: 'confirmed',
+      data: merged,
+    };
+    console.error(`    ok (${fresh.length} fresh / ${merged.length} total across ${chunks} chunk(s), ${pages} page(s))`);
   } catch (e) {
-    out.categories.announcements = { ok: false, url: ANN_PAGE_URL(scripCode, FROM, TO, 1), count: 0, tag: 'confirmed', error: e.message, data: [] };
-    console.error(`    FAILED: ${e.message}`);
+    const url = ANN_PAGE_URL(scripCode, FROM, TO, 1);
+    const fallback = existing?.categories?.announcements?.data || [];
+    out.categories.announcements = { ok: false, url, count: fallback.length, tag: 'confirmed', error: e.message, data: fallback };
+    console.error(`    FAILED: ${e.message} (kept ${fallback.length} existing rows)`);
   }
 
-  // Other categories — single call each
+  // Other categories — single call each; preserve existing on transient failure
   for (const [name, { url, tag }] of Object.entries(urlOnlyEndpoints(scripCode, FROM, TO))) {
     console.error(`  ${name}…`);
     try {
@@ -85,18 +154,19 @@ async function scrapeCompany({ scripCode, slug, shortName }) {
       out.categories[name] = { ok: true, url, count: rows.length, tag, data: rows };
       console.error(`    ok (${rows.length})`);
     } catch (e) {
-      out.categories[name] = { ok: false, url, count: 0, tag, error: e.message, data: [] };
-      console.error(`    FAILED: ${e.message}`);
+      const fallback = existing?.categories?.[name]?.data || [];
+      out.categories[name] = { ok: false, url, count: fallback.length, tag, error: e.message, data: fallback };
+      console.error(`    FAILED: ${e.message} (kept ${fallback.length} existing rows)`);
     }
   }
 
   const ann = out.categories.announcements;
-  if (ann?.ok) {
+  if (ann?.data?.length) {
     const rows = ann.data.filter((r) =>
       /result/i.test(r.CATEGORYNAME || r.Categoryname || r.NEWSSUB || '')
     );
     out.categories.results = {
-      ok: true,
+      ok: ann.ok,
       tag: 'derived',
       source: 'announcements',
       count: rows.length,
@@ -113,7 +183,6 @@ async function scrapeCompany({ scripCode, slug, shortName }) {
     };
   }
 
-  const path = `data/bse-${slug}.json`;
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(out, null, 2));
   console.error(`  → ${path}`);
