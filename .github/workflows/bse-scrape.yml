@@ -3,19 +3,19 @@ name: BSE scrape
 on:
   workflow_dispatch:
     inputs:
-      scrip:
-        description: '6-digit BSE scrip code'
-        required: true
-        default: '508869'
-      slug:
-        description: 'slug for output filename (data/bse-<slug>.json)'
-        required: true
-        default: 'apollo-hospitals'
+      window_days:
+        description: 'Date window for filings (days). Default 90; bump for backfill.'
+        required: false
+        default: '90'
   schedule:
-    - cron: '0 1,14 * * *'
+    - cron: '0 14 * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: bse-scrape
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -27,20 +27,22 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run scraper
+      - name: Scrape filings (all companies)
         env:
-          SCRIP: ${{ github.event.inputs.scrip || '508869' }}
-          SLUG: ${{ github.event.inputs.slug || 'apollo-hospitals' }}
-        run: node scripts/scrape-bse-company.mjs "$SCRIP" "$SLUG"
+          BSE_WINDOW_DAYS: ${{ github.event.inputs.window_days || '90' }}
+        run: node scripts/scrape-bse-company.mjs --all
+
+      - name: Scrape quotes (all companies)
+        run: node scripts/scrape-bse-quotes.mjs --all
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bse-*.json
+          git add data/bse-*.json data/quotes/*.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore(data): refresh BSE snapshot"
+            git commit -m "chore(data): refresh BSE filings + quotes"
             git push
           fi
