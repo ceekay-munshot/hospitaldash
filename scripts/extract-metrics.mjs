@@ -162,9 +162,16 @@ async function processCompany(company, budget) {
   };
   if (!existing.byNewsId) existing.byNewsId = {};
 
+  const MAX_RETRY_ATTEMPTS = 3;
   const priorityDocs = collectPriorityDocs(docs);
-  const pending = priorityDocs.filter((d) => !existing.byNewsId[String(d.newsId)]);
-  console.error(`  ${company.slug.padEnd(22)} ${priorityDocs.length} priority docs · ${pending.length} pending · ${Object.keys(existing.byNewsId).length} cached`);
+  const pending = priorityDocs.filter((d) => {
+    const cached = existing.byNewsId[String(d.newsId)];
+    if (!cached) return true;
+    if (cached.metrics) return false; // successful extraction → never re-call
+    return (cached.attemptCount || 1) < MAX_RETRY_ATTEMPTS; // transient failure → retry up to 3 total attempts
+  });
+  const retryCount = pending.filter((d) => existing.byNewsId[String(d.newsId)]?.error).length;
+  console.error(`  ${company.slug.padEnd(22)} ${priorityDocs.length} priority docs · ${pending.length} pending (${retryCount} retries of past failures) · ${Object.keys(existing.byNewsId).length} cached`);
 
   let extracted = 0;
   let errors = 0;
@@ -207,6 +214,8 @@ async function processCompany(company, budget) {
       extracted++;
       console.error(`OK (${nonNull}/${METRIC_KEYS.length} metrics)`);
     } catch (e) {
+      const prior = existing.byNewsId[String(doc.newsId)] || {};
+      const attemptCount = (prior.attemptCount || 0) + 1;
       existing.byNewsId[String(doc.newsId)] = {
         newsId: doc.newsId,
         docType: doc.docType,
@@ -216,10 +225,11 @@ async function processCompany(company, budget) {
         pdfUrl: doc.pdfUrl,
         extractedAt: new Date().toISOString(),
         error: e.message,
+        attemptCount,
         metrics: null,
       };
       errors++;
-      console.error(`FAIL ${e.message}`);
+      console.error(`FAIL (attempt ${attemptCount}) ${e.message}`);
     }
 
     // Persist after every extraction — resumable, never lose progress
