@@ -1,0 +1,82 @@
+{
+  "slug": "hcg",
+  "scripCode": "539787",
+  "snapshots": [
+    {
+      "date": "2026-05-23",
+      "price": 653.75,
+      "open": 634.75,
+      "high": 660.85,
+      "low": 631.3,
+      "prevClose": 627,
+      "change": 26.75,
+      "changePct": null,
+      "volume": null,
+      "value": null,
+      "weekHigh52": null,
+      "weekLow52": null,
+      "marketCapFullCr": null,
+      "marketCapFreeFloatCr": null,
+      "faceValue": null
+    }
+  ],
+  "lastFetchedAt": "2026-05-23T08:31:06.791Z",
+  "latestRaw": {
+    "CurrRate": {
+      "LTP": "653.75",
+      "Chg": "+26.75",
+      "PcChg": "+4.27",
+      "D_Cpricelink": "",
+      "IssueChgVal": "",
+      "IssueChgPC": ""
+    },
+    "Cmpname": {
+      "FullN": "HealthCare Global Enterprises Ltd",
+      "ShortN": "hcg",
+      "SeriesN": "HealthCare Global Enterprises Ltd",
+      "SEOUrlEQ": "/stock-share-price/healthcare-global-enterprises-ltd/hcg/539787/",
+      "SEOUrlDR": "/stock-share-price/future-options/derivatives/539787/",
+      "IsNotPropernFIT": "0",
+      "Category": "Listed",
+      "EquityScrips": "539787"
+    },
+    "Header": {
+      "Noticecnt": "6",
+      "PrevClose": "627.00",
+      "Open": "634.75",
+      "High": "660.85",
+      "Low": "631.30",
+      "LTP": "653.75",
+      "DisplayText": "",
+      "Category": "Listed",
+      "PRE_OPEN_NO_BIDS": null,
+      "PRE_OPEN_NO_I_PRICE": null,
+      "PRE_OPEN_I_PRICE": null,
+      "PRE_OPEN_I_PRICE_QTY": null,
+      "PCAS_NO_BIDS": null,
+      "PCAS_INDICATIVE_PRICE": null,
+      "PCAS_INDICATIVE_QTY": null,
+      "PERODIC_CALL_AUCTION": null,
+      "GSMURL": "",
+      "GSMText": "",
+      "Invit": "0",
+      "Ason": "22 May 26 | 16:00",
+      "NAVRate": "",
+      "NAVdttm": "",
+      "ASMText": "",
+      "SMSText": "",
+      "IRPText": "",
+      "ASMURL": "",
+      "SMSURL": "https://www.bseindia.com/attention_investors.aspx",
+      "IRPURL": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55",
+      "IDB_DisplayText": "",
+      "IsALF": "0",
+      "EMSText": "",
+      "EMSURL": ""
+    },
+    "CompResp": {
+      "compRes": null,
+      "texturl": null
+    }
+  }
+}

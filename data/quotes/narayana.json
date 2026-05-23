@@ -1,0 +1,82 @@
+{
+  "slug": "narayana",
+  "scripCode": "539551",
+  "snapshots": [
+    {
+      "date": "2026-05-23",
+      "price": 1854.35,
+      "open": 1947.4,
+      "high": 1947.4,
+      "low": 1844.15,
+      "prevClose": 1928.7,
+      "change": -74.35,
+      "changePct": null,
+      "volume": null,
+      "value": null,
+      "weekHigh52": null,
+      "weekLow52": null,
+      "marketCapFullCr": null,
+      "marketCapFreeFloatCr": null,
+      "faceValue": null
+    }
+  ],
+  "lastFetchedAt": "2026-05-23T08:31:09.449Z",
+  "latestRaw": {
+    "CurrRate": {
+      "LTP": "1854.35",
+      "Chg": "-74.35",
+      "PcChg": "-3.85",
+      "D_Cpricelink": "",
+      "IssueChgVal": "",
+      "IssueChgPC": ""
+    },
+    "Cmpname": {
+      "FullN": "Narayana Hrudayalaya Ltd",
+      "ShortN": "nh",
+      "SeriesN": "Narayana Hrudayalaya Ltd",
+      "SEOUrlEQ": "/stock-share-price/narayana-hrudayalaya-ltd/nh/539551/",
+      "SEOUrlDR": "/stock-share-price/future-options/derivatives/539551/",
+      "IsNotPropernFIT": "0",
+      "Category": "Listed",
+      "EquityScrips": "539551"
+    },
+    "Header": {
+      "Noticecnt": "4",
+      "PrevClose": "1928.70",
+      "Open": "1947.40",
+      "High": "1947.40",
+      "Low": "1844.15",
+      "LTP": "1854.35",
+      "DisplayText": "",
+      "Category": "Listed",
+      "PRE_OPEN_NO_BIDS": null,
+      "PRE_OPEN_NO_I_PRICE": null,
+      "PRE_OPEN_I_PRICE": null,
+      "PRE_OPEN_I_PRICE_QTY": null,
+      "PCAS_NO_BIDS": null,
+      "PCAS_INDICATIVE_PRICE": null,
+      "PCAS_INDICATIVE_QTY": null,
+      "PERODIC_CALL_AUCTION": null,
+      "GSMURL": "",
+      "GSMText": "",
+      "Invit": "0",
+      "Ason": "22 May 26 | 16:00",
+      "NAVRate": "",
+      "NAVdttm": "",
+      "ASMText": "",
+      "SMSText": "",
+      "IRPText": "",
+      "ASMURL": "",
+      "SMSURL": "https://www.bseindia.com/attention_investors.aspx",
+      "IRPURL": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55",
+      "IDB_DisplayText": "",
+      "IsALF": "0",
+      "EMSText": "",
+      "EMSURL": ""
+    },
+    "CompResp": {
+      "compRes": null,
+      "texturl": null
+    }
+  }
+}

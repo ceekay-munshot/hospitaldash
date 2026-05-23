@@ -1,0 +1,82 @@
+{
+  "slug": "jupiter-lifeline",
+  "scripCode": "543921",
+  "snapshots": [
+    {
+      "date": "2026-05-23",
+      "price": 33.5,
+      "open": 33.5,
+      "high": 33.5,
+      "low": 33.5,
+      "prevClose": 35,
+      "change": -1.5,
+      "changePct": null,
+      "volume": null,
+      "value": null,
+      "weekHigh52": null,
+      "weekLow52": null,
+      "marketCapFullCr": null,
+      "marketCapFreeFloatCr": null,
+      "faceValue": null
+    }
+  ],
+  "lastFetchedAt": "2026-05-23T08:31:10.968Z",
+  "latestRaw": {
+    "CurrRate": {
+      "LTP": "33.50",
+      "Chg": "-1.50",
+      "PcChg": "-4.29",
+      "D_Cpricelink": "",
+      "IssueChgVal": "",
+      "IssueChgPC": ""
+    },
+    "Cmpname": {
+      "FullN": "Comrade Appliances Ltd",
+      "ShortN": "comrade",
+      "SeriesN": "Comrade Appliances Ltd",
+      "SEOUrlEQ": "/stock-share-price/comrade-appliances-ltd/comrade/543921/",
+      "SEOUrlDR": "/stock-share-price/future-options/derivatives/543921/",
+      "IsNotPropernFIT": "0",
+      "Category": "Listed",
+      "EquityScrips": "543921"
+    },
+    "Header": {
+      "Noticecnt": "1",
+      "PrevClose": "35.00",
+      "Open": "33.50",
+      "High": "33.50",
+      "Low": "33.50",
+      "LTP": "33.50",
+      "DisplayText": "",
+      "Category": "Listed",
+      "PRE_OPEN_NO_BIDS": null,
+      "PRE_OPEN_NO_I_PRICE": null,
+      "PRE_OPEN_I_PRICE": null,
+      "PRE_OPEN_I_PRICE_QTY": null,
+      "PCAS_NO_BIDS": null,
+      "PCAS_INDICATIVE_PRICE": null,
+      "PCAS_INDICATIVE_QTY": null,
+      "PERODIC_CALL_AUCTION": null,
+      "GSMURL": "",
+      "GSMText": "",
+      "Invit": "0",
+      "Ason": "21 May 26 | 16:00",
+      "NAVRate": "",
+      "NAVdttm": "",
+      "ASMText": "",
+      "SMSText": "",
+      "IRPText": "",
+      "ASMURL": "",
+      "SMSURL": "https://www.bseindia.com/attention_investors.aspx",
+      "IRPURL": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55",
+      "IDB_DisplayText": "",
+      "IsALF": "0",
+      "EMSText": "",
+      "EMSURL": ""
+    },
+    "CompResp": {
+      "compRes": null,
+      "texturl": null
+    }
+  }
+}

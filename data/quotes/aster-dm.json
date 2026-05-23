@@ -1,0 +1,82 @@
+{
+  "slug": "aster-dm",
+  "scripCode": "540975",
+  "snapshots": [
+    {
+      "date": "2026-05-23",
+      "price": 756.3,
+      "open": 767.35,
+      "high": 769,
+      "low": 753.65,
+      "prevClose": 758.35,
+      "change": -2.05,
+      "changePct": null,
+      "volume": null,
+      "value": null,
+      "weekHigh52": null,
+      "weekLow52": null,
+      "marketCapFullCr": null,
+      "marketCapFreeFloatCr": null,
+      "faceValue": null
+    }
+  ],
+  "lastFetchedAt": "2026-05-23T08:31:07.141Z",
+  "latestRaw": {
+    "CurrRate": {
+      "LTP": "756.30",
+      "Chg": "-2.05",
+      "PcChg": "-0.27",
+      "D_Cpricelink": "",
+      "IssueChgVal": "",
+      "IssueChgPC": ""
+    },
+    "Cmpname": {
+      "FullN": "Aster DM Healthcare Ltd",
+      "ShortN": "asterdm",
+      "SeriesN": "Aster DM Healthcare Ltd",
+      "SEOUrlEQ": "/stock-share-price/aster-dm-healthcare-ltd/asterdm/540975/",
+      "SEOUrlDR": "/stock-share-price/future-options/derivatives/540975/",
+      "IsNotPropernFIT": "0",
+      "Category": "Listed",
+      "EquityScrips": "540975"
+    },
+    "Header": {
+      "Noticecnt": "1",
+      "PrevClose": "758.35",
+      "Open": "767.35",
+      "High": "769.00",
+      "Low": "753.65",
+      "LTP": "756.30",
+      "DisplayText": "",
+      "Category": "Listed",
+      "PRE_OPEN_NO_BIDS": null,
+      "PRE_OPEN_NO_I_PRICE": null,
+      "PRE_OPEN_I_PRICE": null,
+      "PRE_OPEN_I_PRICE_QTY": null,
+      "PCAS_NO_BIDS": null,
+      "PCAS_INDICATIVE_PRICE": null,
+      "PCAS_INDICATIVE_QTY": null,
+      "PERODIC_CALL_AUCTION": null,
+      "GSMURL": "",
+      "GSMText": "",
+      "Invit": "0",
+      "Ason": "22 May 26 | 16:00",
+      "NAVRate": "",
+      "NAVdttm": "",
+      "ASMText": "",
+      "SMSText": "",
+      "IRPText": "",
+      "ASMURL": "",
+      "SMSURL": "https://www.bseindia.com/attention_investors.aspx",
+      "IRPURL": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55",
+      "IDB_DisplayText": "",
+      "IsALF": "0",
+      "EMSText": "",
+      "EMSURL": ""
+    },
+    "CompResp": {
+      "compRes": null,
+      "texturl": null
+    }
+  }
+}

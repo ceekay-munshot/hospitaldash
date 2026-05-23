@@ -1,0 +1,82 @@
+{
+  "slug": "max-healthcare",
+  "scripCode": "543220",
+  "snapshots": [
+    {
+      "date": "2026-05-23",
+      "price": 1023.25,
+      "open": 1069.95,
+      "high": 1069.95,
+      "low": 1010.85,
+      "prevClose": 1091.55,
+      "change": -68.3,
+      "changePct": null,
+      "volume": null,
+      "value": null,
+      "weekHigh52": null,
+      "weekLow52": null,
+      "marketCapFullCr": null,
+      "marketCapFreeFloatCr": null,
+      "faceValue": null
+    }
+  ],
+  "lastFetchedAt": "2026-05-23T08:31:07.383Z",
+  "latestRaw": {
+    "CurrRate": {
+      "LTP": "1023.25",
+      "Chg": "-68.30",
+      "PcChg": "-6.26",
+      "D_Cpricelink": "",
+      "IssueChgVal": "",
+      "IssueChgPC": ""
+    },
+    "Cmpname": {
+      "FullN": "Max Healthcare Institute Ltd",
+      "ShortN": "maxhealth",
+      "SeriesN": "Max Healthcare Institute Ltd",
+      "SEOUrlEQ": "/stock-share-price/max-healthcare-institute-ltd/maxhealth/543220/",
+      "SEOUrlDR": "/stock-share-price/future-options/derivatives/543220/",
+      "IsNotPropernFIT": "0",
+      "Category": "Listed",
+      "EquityScrips": "543220"
+    },
+    "Header": {
+      "Noticecnt": "14",
+      "PrevClose": "1091.55",
+      "Open": "1069.95",
+      "High": "1069.95",
+      "Low": "1010.85",
+      "LTP": "1023.25",
+      "DisplayText": "",
+      "Category": "Listed",
+      "PRE_OPEN_NO_BIDS": null,
+      "PRE_OPEN_NO_I_PRICE": null,
+      "PRE_OPEN_I_PRICE": null,
+      "PRE_OPEN_I_PRICE_QTY": null,
+      "PCAS_NO_BIDS": null,
+      "PCAS_INDICATIVE_PRICE": null,
+      "PCAS_INDICATIVE_QTY": null,
+      "PERODIC_CALL_AUCTION": null,
+      "GSMURL": "",
+      "GSMText": "",
+      "Invit": "0",
+      "Ason": "22 May 26 | 16:00",
+      "NAVRate": "",
+      "NAVdttm": "",
+      "ASMText": "",
+      "SMSText": "",
+      "IRPText": "",
+      "ASMURL": "",
+      "SMSURL": "https://www.bseindia.com/attention_investors.aspx",
+      "IRPURL": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20230210-55",
+      "IDB_DisplayText": "",
+      "IsALF": "0",
+      "EMSText": "",
+      "EMSURL": ""
+    },
+    "CompResp": {
+      "compRes": null,
+      "texturl": null
+    }
+  }
+}
