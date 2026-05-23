@@ -18,34 +18,25 @@ function num(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-function deepFind(obj, predicate, depth = 4) {
-  if (!obj || depth < 0) return null;
-  if (Array.isArray(obj)) {
-    for (const v of obj) {
-      const found = deepFind(v, predicate, depth - 1);
-      if (found != null) return found;
-    }
-    return null;
-  }
-  if (typeof obj === 'object') {
-    for (const [k, v] of Object.entries(obj)) {
-      if (predicate(k, v)) return v;
-      const found = deepFind(v, predicate, depth - 1);
-      if (found != null) return found;
-    }
-  }
-  return null;
-}
+const UNIT_MULT = (label) => {
+  if (!label) return 1;
+  const u = String(label).toLowerCase();
+  if (u.includes('cr')) return 1e7;       // 1 crore = 10,000,000
+  if (u.includes('lakh') || u.includes('lac')) return 1e5;
+  if (u.includes('thousand')) return 1e3;
+  return 1;
+};
 
-const findByKey = (obj, ...names) => {
-  const set = new Set(names.map((n) => n.toLowerCase()));
-  return deepFind(obj, (k) => set.has(String(k).toLowerCase()));
+const withUnit = (value, unitLabel) => {
+  const n = num(value);
+  return n == null ? null : n * UNIT_MULT(unitLabel);
 };
 
 function extractSnapshot({ header, compHeader, stockTrading }) {
   const c = header?.CurrRate || {};
   const h = header?.Header || {};
-  const merged = { header, compHeader, stockTrading };
+  const ch = compHeader || {};
+  const st = stockTrading || {};
 
   return {
     date: todayISO(),
@@ -56,14 +47,29 @@ function extractSnapshot({ header, compHeader, stockTrading }) {
     prevClose: num(h.PrevClose),
     change: num(c.Chg),
     changePct: num(c.PcChg),
-    volume: num(findByKey(merged, 'TotalTradedQuantity', 'TotalQuantityTraded', 'TotalTrdQty', 'Volume', 'VOLUME')),
-    value: num(findByKey(merged, 'TotalTradedValue', 'TotalTradeValue', 'Value', 'VALUE')),
-    weekHigh52: num(findByKey(merged, '52WeekHigh', 'WeekHigh52', 'WeekH', 'YearlyHigh')),
-    weekLow52: num(findByKey(merged, '52WeekLow', 'WeekLow52', 'WeekL', 'YearlyLow')),
-    marketCapFullCr: num(findByKey(merged, 'MktCapFull', 'MarketCapFull', 'MarketCap', 'MCap', 'FFMCap')),
-    marketCapFreeFloatCr: num(findByKey(merged, 'MktCapFreeFloat', 'FreeFloatMcap', 'FFMcap')),
-    faceValue: num(findByKey(merged, 'FaceValue', 'FACEVAL')),
-    deliveryPct: num(findByKey(merged, 'DeliveryPercentage', 'DelPercent', 'DELPER')),
+    volumeShares: withUnit(st.TTQ, st.TTQin),
+    turnoverInr: withUnit(st.Turnover, st.Turnoverin),
+    twoWeekAvgVolumeShares: withUnit(st.TwoWkAvgQty, st.TwoWkAvgQtyin),
+    weightedAvgPrice: num(st.WAP),
+    marketCapFullCr: num(st.MktCapFull),
+    marketCapFreeFloatCr: num(st.MktCapFF),
+    circuitLimits: st.CktLimit || null,
+    faceValue: num(ch.FaceVal ?? h.FaceValue),
+    isin: ch.ISIN || null,
+    ticker: ch.SecurityId || null,
+    industry: ch.Industry || null,
+    industryGroup: ch.IGroup || null,
+    industrySubgroup: ch.ISubGroup || null,
+    sector: ch.Sector || null,
+    bseGroup: ch.Group || null,
+    bseIndex: ch.Index || null,
+    settlementType: ch.SetlType || null,
+    eps: num(ch.EPS),
+    pe: num(ch.PE),
+    pb: num(ch.PB),
+    roe: num(ch.ROE),
+    operatingMargin: num(ch.OPM),
+    netMargin: num(ch.NPM),
   };
 }
 
@@ -105,7 +111,7 @@ async function scrapeQuote(company) {
 
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(existing, null, 2));
-  console.error(`    ok price=${snap.price} mcap=${snap.marketCapFullCr} vol=${snap.volume} (${existing.snapshots.length} snapshots)`);
+  console.error(`    ok price=${snap.price} mcap=${snap.marketCapFullCr}Cr vol=${snap.volumeShares} (${existing.snapshots.length} snapshots)`);
   return { slug: company.slug, ok: true, price: snap.price, mcap: snap.marketCapFullCr };
 }
 
