@@ -1,0 +1,312 @@
+{
+  "slug": "apollo-hospitals",
+  "scripCode": "508869",
+  "name": "Apollo Hospitals Enterprise Ltd",
+  "byNewsId": {
+    "816a0a0b-b3fb-4a5e-a677-78831a464d23": {
+      "newsId": "816a0a0b-b3fb-4a5e-a677-78831a464d23",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-20",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7cfb1747-054b-47c2-8073-a98cba8daca0.pdf",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-23T15:59:44.206Z",
+      "finishReason": "STOP",
+      "promptTokens": 11641,
+      "responseTokens": 1275,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 78,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total 78 Hospitals"
+        },
+        "bedCapacity": {
+          "value": 10970,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total Capacity Census Beds¹ 10,970"
+        },
+        "operationalBeds": {
+          "value": 9620,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total Operational Census Beds 9,620"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2805,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Grand Total Census Beds 2,805"
+        },
+        "newHospitalsPlanned": {
+          "value": 11,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Expected commissioning : FY27 (5 projects listed) ... Expected commissioning : FY29-FY30 (6 projects listed)"
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "68% Occupancy | Established Units 69%"
+        },
+        "alos": {
+          "value": 3.19,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS Q4FY26 3.19"
+        },
+        "ipVolume": {
+          "value": 156728,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "156,728 In-patients"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 64834.7,
+          "unit": "INR_per_day",
+          "confidence": "medium",
+          "quote": "Revenue 32,678 Mio (Healthcare Services Q4FY26) ... Operating beds 8,131 ... Occupancy 68%"
+        },
+        "arpp": {
+          "value": 187208,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "187,208 Avg Revenue per IP Patient"
+        },
+        "revenue": {
+          "value": 6605.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue 66,055 Mio"
+        },
+        "ebitda": {
+          "value": 1010.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA(Post Ind AS) 10,109 Mio"
+        },
+        "ebitdaMargin": {
+          "value": 15.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Margin 15.3%"
+        },
+        "pat": {
+          "value": 529.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT 5,292 Mio"
+        },
+        "netDebt": {
+          "value": 865.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consol Net Debt 8,659"
+        },
+        "capexAnnounced": {
+          "value": 8300,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Project Cost of ~ 8,300 crs with Balance to be spent of ~5,100crs."
+        },
+        "revenueGrowthYoy": {
+          "value": 18,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue Growth YoY(%) 18%"
+        },
+        "roce": {
+          "value": 25.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 25.4%"
+        }
+      },
+      "notes": "All 'Mio' currency values were converted to 'INR_crore' by dividing by 10. ARPOB was derived using Healthcare Services Revenue (32,678 Mio), Operational Beds (8,131), Occupancy (68%), and 91 days in Q4 FY26 (Jan-Mar 2026, including Feb 29 for leap year). New hospitals planned is a count of distinct projects listed in the 'Expansion Plan' tables for future commissioning.",
+      "nonNullMetricCount": 18
+    },
+    "875fac44-5c1f-40d0-ad20-975936b50f0f": {
+      "newsId": "875fac44-5c1f-40d0-ad20-975936b50f0f",
+      "docType": "press-release",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-20",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2a5da236-1dd8-48d2-9678-64d39b635896.pdf",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-23T16:00:04.476Z",
+      "finishReason": "STOP",
+      "promptTokens": 2095,
+      "responseTokens": 999,
+      "reportingPeriod": {
+        "fiscalQuarter": null,
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 76,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today, Apollo is one of the world's largest integrated healthcare platform with over 10,400 beds across 76 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10400,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today, Apollo is one of the world's largest integrated healthcare platform with over 10,400 beds across 76 hospitals"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is a press release announcing a transaction involving a subsidiary's specific verticals (Apollo Health and Lifestyle Limited's Mother & Child and Fertility businesses) and Kids Clinic India Limited (Cloudnine). It is not a quarterly earnings report for Apollo Hospitals Enterprise Ltd. Therefore, most operational and financial metrics for the specified fiscal quarter (FY27-Q1) are not available. The 'numberOfHospitals' and 'bedCapacity' figures are general descriptive statistics for the Apollo Group, not performance metrics for the stated fiscal quarter, hence the 'medium' confidence and null reporting period.",
+      "nonNullMetricCount": 2
+    },
+    "0990e8ec-e137-4864-9473-91d03a609270": {
+      "newsId": "0990e8ec-e137-4864-9473-91d03a609270",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-10",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2256258c-6663-42bc-866c-402f5dcc1cae.pdf",
+      "extractedAt": "2026-05-23T16:01:00.458Z",
+      "error": "HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The document has no pages.\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+      "metrics": null
+    },
+    "7c5313ad-ac1c-40fd-893a-ea9455fdbd25": {
+      "newsId": "7c5313ad-ac1c-40fd-893a-ea9455fdbd25",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4430a828-14c2-4c64-8cff-b68f1a2904f1.pdf",
+      "extractedAt": "2026-05-23T16:01:11.427Z",
+      "error": "HTTP 404",
+      "metrics": null
+    },
+    "9bbd0708-56b3-4aa2-a057-65e96efa0332": {
+      "newsId": "9bbd0708-56b3-4aa2-a057-65e96efa0332",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-09-12",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43e0d471-a98a-4280-88b6-4bb8afa36879.pdf",
+      "extractedAt": "2026-05-23T16:01:22.476Z",
+      "error": "HTTP 404",
+      "metrics": null
+    }
+  },
+  "lastExtractionAt": "2026-05-23T16:01:22.476Z",
+  "model": "gemini-2.5-flash"
+}
