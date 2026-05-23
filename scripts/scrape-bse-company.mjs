@@ -5,12 +5,29 @@ import { fetchJSON, fmtDate, extractRows, loadCompanies, PDF_BASE } from './lib/
 
 const WINDOW_DAYS = Number(process.env.BSE_WINDOW_DAYS || 90);
 
-function endpointsFor(scripCode, from, to) {
+const ANN_PAGE_URL = (scripCode, from, to, page) =>
+  `https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=${page}&strCat=-1&strPrevDate=${from}&strScrip=${scripCode}&strSearch=P&strToDate=${to}&strType=C`;
+
+async function fetchAnnouncementsPaginated(scripCode, from, to) {
+  const all = [];
+  let page = 1;
+  let totalPages = 1;
+  let firstUrl = ANN_PAGE_URL(scripCode, from, to, 1);
+  do {
+    const url = ANN_PAGE_URL(scripCode, from, to, page);
+    const payload = await fetchJSON(url);
+    const rows = extractRows(payload);
+    all.push(...rows);
+    const reported = Number(rows[0]?.TotalPageCnt);
+    if (Number.isFinite(reported) && reported > 0) totalPages = reported;
+    page++;
+    if (page > 50) break; // safety net
+  } while (page <= totalPages);
+  return { rows: all, url: firstUrl, pages: page - 1 };
+}
+
+function urlOnlyEndpoints(scripCode, from, to) {
   return {
-    announcements: {
-      tag: 'confirmed',
-      url: `https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=${from}&strScrip=${scripCode}&strSearch=P&strToDate=${to}&strType=C`,
-    },
     corpActions: {
       tag: 'confirmed',
       url: `https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=${from}&TDate=${to}&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=${scripCode}&segment=0&strSearch=S`,
@@ -37,7 +54,6 @@ async function scrapeCompany({ scripCode, slug, shortName }) {
   const now = new Date();
   const FROM = fmtDate(new Date(now.getTime() - WINDOW_DAYS * 86400000));
   const TO = fmtDate(now);
-  const ENDPOINTS = endpointsFor(scripCode, FROM, TO);
 
   const out = {
     scripCode,
@@ -48,12 +64,24 @@ async function scrapeCompany({ scripCode, slug, shortName }) {
     categories: {},
   };
 
-  for (const [name, { url, tag }] of Object.entries(ENDPOINTS)) {
+  // Announcements — paginated
+  console.error(`  announcements…`);
+  try {
+    const { rows: raw, url, pages } = await fetchAnnouncementsPaginated(scripCode, FROM, TO);
+    const rows = enrichAnnouncements(raw);
+    out.categories.announcements = { ok: true, url, count: rows.length, pages, tag: 'confirmed', data: rows };
+    console.error(`    ok (${rows.length} rows across ${pages} page(s))`);
+  } catch (e) {
+    out.categories.announcements = { ok: false, url: ANN_PAGE_URL(scripCode, FROM, TO, 1), count: 0, tag: 'confirmed', error: e.message, data: [] };
+    console.error(`    FAILED: ${e.message}`);
+  }
+
+  // Other categories — single call each
+  for (const [name, { url, tag }] of Object.entries(urlOnlyEndpoints(scripCode, FROM, TO))) {
     console.error(`  ${name}…`);
     try {
       const payload = await fetchJSON(url);
-      let rows = extractRows(payload);
-      if (name === 'announcements') rows = enrichAnnouncements(rows);
+      const rows = extractRows(payload);
       out.categories[name] = { ok: true, url, count: rows.length, tag, data: rows };
       console.error(`    ok (${rows.length})`);
     } catch (e) {

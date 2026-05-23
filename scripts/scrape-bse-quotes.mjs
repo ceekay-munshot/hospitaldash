@@ -3,8 +3,12 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { fetchJSON, loadCompanies } from './lib/bse.mjs';
 
-const QUOTE_URL = (scripCode) =>
+const HEADER_URL = (scripCode) =>
   `https://api.bseindia.com/BseIndiaAPI/api/getScripHeaderData/w?Debtflag=&scripcode=${scripCode}&seriesid=`;
+const COMP_HEADER_URL = (scripCode) =>
+  `https://api.bseindia.com/BseIndiaAPI/api/ComHeader/w?quotetype=EQ&scripcode=${scripCode}&seriesid=`;
+const STOCK_TRADING_URL = (scripCode) =>
+  `https://api.bseindia.com/BseIndiaAPI/api/StockTrading/w?flag=&quotetype=EQ&scripcode=${scripCode}`;
 
 const todayISO = () => new Date().toISOString().slice(0, 10);
 
@@ -14,44 +18,75 @@ function num(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-function extractSnapshot(payload) {
-  const c = payload?.CurrRate || payload?.Currrate || {};
-  const h = payload?.Header || payload?.header || {};
+function deepFind(obj, predicate, depth = 4) {
+  if (!obj || depth < 0) return null;
+  if (Array.isArray(obj)) {
+    for (const v of obj) {
+      const found = deepFind(v, predicate, depth - 1);
+      if (found != null) return found;
+    }
+    return null;
+  }
+  if (typeof obj === 'object') {
+    for (const [k, v] of Object.entries(obj)) {
+      if (predicate(k, v)) return v;
+      const found = deepFind(v, predicate, depth - 1);
+      if (found != null) return found;
+    }
+  }
+  return null;
+}
+
+const findByKey = (obj, ...names) => {
+  const set = new Set(names.map((n) => n.toLowerCase()));
+  return deepFind(obj, (k) => set.has(String(k).toLowerCase()));
+};
+
+function extractSnapshot({ header, compHeader, stockTrading }) {
+  const c = header?.CurrRate || {};
+  const h = header?.Header || {};
+  const merged = { header, compHeader, stockTrading };
+
   return {
     date: todayISO(),
-    price: num(c.LTP ?? h.CurrRate ?? c.CurrRate),
-    open: num(c.Open ?? h.Open),
-    high: num(c.High ?? h.High),
-    low: num(c.Low ?? h.Low),
-    prevClose: num(c.PrevClose ?? h.PrevClose),
-    change: num(c.Chg ?? c.Change),
-    changePct: num(c.PChg ?? c.PerChange),
-    volume: num(c.TotalTradedQuantity ?? h.TotalTradedQuantity),
-    value: num(c.TotalTradedValue ?? h.TotalTradedValue),
-    weekHigh52: num(h.WeekHighDt ?? h['52WeekHigh'] ?? h.WeekHigh52),
-    weekLow52: num(h.WeekLowDt ?? h['52WeekLow'] ?? h.WeekLow52),
-    marketCapFullCr: num(h.MktCapFull ?? h.MarketCap ?? c.MarketCap),
-    marketCapFreeFloatCr: num(h.MktCapFreeFloat),
-    faceValue: num(h.FaceValue ?? c.FaceValue),
-    raw: payload,
+    price: num(c.LTP ?? h.LTP),
+    open: num(h.Open),
+    high: num(h.High),
+    low: num(h.Low),
+    prevClose: num(h.PrevClose),
+    change: num(c.Chg),
+    changePct: num(c.PcChg),
+    volume: num(findByKey(merged, 'TotalTradedQuantity', 'TotalQuantityTraded', 'TotalTrdQty', 'Volume', 'VOLUME')),
+    value: num(findByKey(merged, 'TotalTradedValue', 'TotalTradeValue', 'Value', 'VALUE')),
+    weekHigh52: num(findByKey(merged, '52WeekHigh', 'WeekHigh52', 'WeekH', 'YearlyHigh')),
+    weekLow52: num(findByKey(merged, '52WeekLow', 'WeekLow52', 'WeekL', 'YearlyLow')),
+    marketCapFullCr: num(findByKey(merged, 'MktCapFull', 'MarketCapFull', 'MarketCap', 'MCap', 'FFMCap')),
+    marketCapFreeFloatCr: num(findByKey(merged, 'MktCapFreeFloat', 'FreeFloatMcap', 'FFMcap')),
+    faceValue: num(findByKey(merged, 'FaceValue', 'FACEVAL')),
+    deliveryPct: num(findByKey(merged, 'DeliveryPercentage', 'DelPercent', 'DELPER')),
   };
 }
 
+async function tryFetch(label, url) {
+  try {
+    return await fetchJSON(url);
+  } catch (e) {
+    console.error(`    ${label} failed (${e.message}) — continuing`);
+    return null;
+  }
+}
+
 async function scrapeQuote(company) {
-  const url = QUOTE_URL(company.scripCode);
   const path = `data/quotes/${company.slug}.json`;
   console.error(`  ${company.slug} (${company.scripCode})`);
 
-  let payload;
-  try {
-    payload = await fetchJSON(url);
-  } catch (e) {
-    console.error(`    FAILED: ${e.message}`);
-    return { slug: company.slug, ok: false, error: e.message };
-  }
+  const header = await tryFetch('header', HEADER_URL(company.scripCode));
+  if (!header) return { slug: company.slug, ok: false, error: 'header endpoint failed' };
 
-  const snap = extractSnapshot(payload);
-  const { raw, ...snapClean } = snap;
+  const compHeader = await tryFetch('compHeader', COMP_HEADER_URL(company.scripCode));
+  const stockTrading = await tryFetch('stockTrading', STOCK_TRADING_URL(company.scripCode));
+
+  const snap = extractSnapshot({ header, compHeader, stockTrading });
 
   let existing = { slug: company.slug, scripCode: company.scripCode, snapshots: [] };
   try {
@@ -63,15 +98,15 @@ async function scrapeQuote(company) {
 
   const today = todayISO();
   existing.snapshots = existing.snapshots.filter((s) => s.date !== today);
-  existing.snapshots.push(snapClean);
+  existing.snapshots.push(snap);
   existing.snapshots.sort((a, b) => a.date.localeCompare(b.date));
   existing.lastFetchedAt = new Date().toISOString();
-  existing.latestRaw = raw;
+  existing.latestRaw = { header, compHeader, stockTrading };
 
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(existing, null, 2));
-  console.error(`    ok price=${snap.price} mcap=${snap.marketCapFullCr} (${existing.snapshots.length} snapshots)`);
-  return { slug: company.slug, ok: true, price: snap.price };
+  console.error(`    ok price=${snap.price} mcap=${snap.marketCapFullCr} vol=${snap.volume} (${existing.snapshots.length} snapshots)`);
+  return { slug: company.slug, ok: true, price: snap.price, mcap: snap.marketCapFullCr };
 }
 
 async function run() {
