@@ -1,0 +1,58 @@
+name: Build dashboard (for Cloudflare)
+
+# When data or dashboard source changes, rebuild dashboard/dist and commit it.
+# Cloudflare watches main → auto-deploys the new dist.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/sector.json'
+      - 'dashboard/src/**'
+      - 'dashboard/index.html'
+      - 'dashboard/package.json'
+      - 'dashboard/package-lock.json'
+      - 'dashboard/vite.config.js'
+      - 'dashboard/prepare.mjs'
+      - '.github/workflows/build-dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-dashboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: dashboard/package-lock.json
+
+      - name: Install deps
+        working-directory: dashboard
+        run: npm install --no-audit --no-fund
+
+      - name: Build (prebuild copies sector.json from ../data)
+        working-directory: dashboard
+        run: npm run build
+
+      - name: Commit dist if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f dashboard/dist
+          if git diff --cached --quiet; then
+            echo "Dashboard dist unchanged — nothing to commit."
+          else
+            git commit -m "build(dashboard): rebuild dist"
+            git pull --rebase origin main || true
+            git push
+          fi

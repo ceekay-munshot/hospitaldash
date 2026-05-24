@@ -1,6 +1,7 @@
 node_modules
-dist
 .vite
 public/sector.json
 *.log
 .DS_Store
+
+# Note: dashboard/dist IS committed (built by CI; Cloudflare serves it).
