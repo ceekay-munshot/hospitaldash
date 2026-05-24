@@ -186,7 +186,7 @@ async function processCompany(company, budget) {
     process.stderr.write(`    ${tag} ${String(doc.subject || '').slice(0, 60)} … `);
 
     try {
-      const pdfBuf = await downloadPdf(doc.pdfUrl);
+      const { buf: pdfBuf, sourcePath } = await downloadPdf(doc.pdfUrl);
       const { parsed, finishReason, usage, model } = await callGeminiWithPdf({
         pdfBuffer: pdfBuf,
         prompt: buildPrompt(company, doc),
@@ -201,6 +201,7 @@ async function processCompany(company, budget) {
         date: doc.date,
         subject: doc.subject,
         pdfUrl: doc.pdfUrl,
+        sourcePath,
         model,
         extractedAt: new Date().toISOString(),
         finishReason: finishReason || null,
@@ -212,7 +213,7 @@ async function processCompany(company, budget) {
         nonNullMetricCount: nonNull,
       };
       extracted++;
-      console.error(`OK (${nonNull}/${METRIC_KEYS.length} metrics)`);
+      console.error(`OK [${sourcePath}] (${nonNull}/${METRIC_KEYS.length} metrics)`);
     } catch (e) {
       const prior = existing.byNewsId[String(doc.newsId)] || {};
       const attemptCount = (prior.attemptCount || 0) + 1;
