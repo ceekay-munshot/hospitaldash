@@ -13,7 +13,7 @@ const SECTION_COLOR = {
   valuation: '#6D28D9',
 };
 
-export default function KpiCard({ metricKey, meta, companyData, rank, totalCos }) {
+export default function KpiCard({ metricKey, meta, companyData, rank, totalCos, onClick }) {
   const series = timeSeries(companyData, metricKey);
   const latest = series[series.length - 1];
   const prev = series[series.length - 2];
@@ -34,7 +34,14 @@ export default function KpiCard({ metricKey, meta, companyData, rank, totalCos }
   const isTop = isRanked && rank === 1;
 
   return (
-    <div className="kpi-card" data-color={meta.section}>
+    <button
+      type="button"
+      className="kpi-card kpi-card--clickable"
+      data-color={meta.section}
+      onClick={onClick}
+      aria-label={`View trend for ${meta.label}`}
+    >
+      <div className="zoom-hint" aria-hidden>⤢</div>
       {isRanked && (
         <div className={`rank ${isTop ? 'top' : ''}`}>
           #{rank} of {totalCos}
@@ -61,6 +68,6 @@ export default function KpiCard({ metricKey, meta, companyData, rank, totalCos }
       <div className="spark">
         <Sparkline series={series} color={color} />
       </div>
-    </div>
+    </button>
   );
 }

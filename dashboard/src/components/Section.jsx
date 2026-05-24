@@ -11,7 +11,7 @@ const SECTION_ICONS = {
   valuation: '🏷',
 };
 
-export default function Section({ id, title, subtitle, metrics, sectorData, companySlug }) {
+export default function Section({ id, title, subtitle, metrics, sectorData, companySlug, onSelectMetric }) {
   if (!metrics.length) return null;
   const companyData = sectorData.byCompany[companySlug];
   if (!companyData) return null;
@@ -46,6 +46,7 @@ export default function Section({ id, title, subtitle, metrics, sectorData, comp
               companyData={companyData}
               rank={ranks[key]?.rank}
               totalCos={ranks[key]?.total}
+              onClick={() => onSelectMetric?.(key)}
             />
           );
         })}

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { loadSectorData } from './lib/data';
 import CompanyHeader from './components/CompanyHeader';
 import Section from './components/Section';
+import MetricDetailModal from './components/MetricDetailModal';
 
 // 6 sections matching Simran's framework
 const SECTIONS = [
@@ -23,6 +24,7 @@ export default function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [slug, setSlug] = useState(null);
+  const [selectedMetric, setSelectedMetric] = useState(null);
 
   useEffect(() => {
     loadSectorData()
@@ -103,13 +105,28 @@ export default function App() {
 
       {company && Object.keys(company.quarters || {}).length > 0 ? (
         SECTIONS.map((s) => (
-          <Section key={s.id} {...s} sectorData={data} companySlug={slug} />
+          <Section
+            key={s.id}
+            {...s}
+            sectorData={data}
+            companySlug={slug}
+            onSelectMetric={setSelectedMetric}
+          />
         ))
       ) : (
         <div className="empty">
           No extracted metrics yet for {company?.name || 'this company'}. Run the Gemini extraction workflow to populate.
         </div>
       )}
+
+      <MetricDetailModal
+        open={!!selectedMetric}
+        onClose={() => setSelectedMetric(null)}
+        metricKey={selectedMetric}
+        meta={selectedMetric ? data.metricMeta?.[selectedMetric] : null}
+        sectorData={data}
+        companySlug={slug}
+      />
 
       <footer>
         <div>
