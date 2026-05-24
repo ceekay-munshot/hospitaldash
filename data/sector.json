@@ -1,0 +1,4335 @@
+{
+  "generatedAt": "2026-05-24T06:49:23.724Z",
+  "companies": [
+    {
+      "slug": "apollo-hospitals",
+      "name": "Apollo Hospitals Enterprise Ltd",
+      "shortName": "Apollo",
+      "ticker": "APOLLOHOSP",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 8359.75,
+        "marketCapCr": 120200.38,
+        "marketCapFreeFloatCr": 85756.72,
+        "changePct": 0.67,
+        "volumeShares": 23000
+      }
+    },
+    {
+      "slug": "fortis-healthcare",
+      "name": "Fortis Healthcare Ltd",
+      "shortName": "Fortis",
+      "ticker": "FORTIS",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 960.45,
+        "marketCapCr": 72509.96,
+        "marketCapFreeFloatCr": 49905.99,
+        "changePct": -0.68,
+        "volumeShares": 27000
+      }
+    },
+    {
+      "slug": "hcg",
+      "name": "Healthcare Global Enterprises Ltd",
+      "shortName": "HCG",
+      "ticker": "HCG",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 653.75,
+        "marketCapCr": 9760.63,
+        "marketCapFreeFloatCr": 3446.78,
+        "changePct": 4.27,
+        "volumeShares": 21000
+      }
+    },
+    {
+      "slug": "aster-dm",
+      "name": "Aster DM Healthcare Ltd",
+      "shortName": "Aster DM",
+      "ticker": "ASTERDM",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 756.3,
+        "marketCapCr": 39185.49,
+        "marketCapFreeFloatCr": 19944.01,
+        "changePct": -0.27,
+        "volumeShares": 27000
+      }
+    },
+    {
+      "slug": "max-healthcare",
+      "name": "Max Healthcare Institute Ltd",
+      "shortName": "Max",
+      "ticker": "MAXHEALTH",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1023.25,
+        "marketCapCr": 99587.17,
+        "marketCapFreeFloatCr": 75332.22,
+        "changePct": -6.26,
+        "volumeShares": 505000
+      }
+    },
+    {
+      "slug": "kims",
+      "name": "Krishna Institute of Medical Sciences Ltd",
+      "shortName": "KIMS",
+      "ticker": "KIMS",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 764.05,
+        "marketCapCr": 30572.62,
+        "marketCapFreeFloatCr": 18817.48,
+        "changePct": -0.75,
+        "volumeShares": 21000
+      }
+    },
+    {
+      "slug": "rainbow-childrens",
+      "name": "Rainbow Children's Medicare Ltd",
+      "shortName": "Rainbow",
+      "ticker": "RAINBOW",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1355.75,
+        "marketCapCr": 13768.88,
+        "marketCapFreeFloatCr": 6887.24,
+        "changePct": 0.77,
+        "volumeShares": 6016
+      }
+    },
+    {
+      "slug": "narayana",
+      "name": "Narayana Hrudayalaya Ltd",
+      "shortName": "Narayana",
+      "ticker": "NH",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1854.35,
+        "marketCapCr": 37895.65,
+        "marketCapFreeFloatCr": 12756.62,
+        "changePct": -3.85,
+        "volumeShares": 22000
+      }
+    },
+    {
+      "slug": "medanta",
+      "name": "Global Health Ltd (Medanta)",
+      "shortName": "Medanta",
+      "ticker": "MEDANTA",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1238.5,
+        "marketCapCr": 33297.31,
+        "marketCapFreeFloatCr": 10574.99,
+        "changePct": -0.1,
+        "volumeShares": 6548
+      }
+    },
+    {
+      "slug": "jupiter-lifeline",
+      "name": "Jupiter Life Line Hospitals Ltd",
+      "shortName": "Jupiter",
+      "ticker": "JLHL",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1357.3,
+        "marketCapCr": 8899.28,
+        "marketCapFreeFloatCr": 5093.99,
+        "changePct": 3.35,
+        "volumeShares": 204000
+      }
+    },
+    {
+      "slug": "yatharth",
+      "name": "Yatharth Hospital & Trauma Care Services Ltd",
+      "shortName": "Yatharth",
+      "ticker": "YATHARTH",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 862.95,
+        "marketCapCr": 8314.9,
+        "marketCapFreeFloatCr": 3675.39,
+        "changePct": 0.45,
+        "volumeShares": 11000
+      }
+    }
+  ],
+  "quarters": [
+    "FY25-Q2",
+    "FY25-Q3",
+    "FY25-Q4",
+    "FY26-Q1",
+    "FY26-Q2",
+    "FY26-Q3",
+    "FY26-Q4"
+  ],
+  "latestQuarter": "FY26-Q4",
+  "metricMeta": {
+    "numberOfHospitals": {
+      "label": "Hospitals",
+      "unit": "count",
+      "section": "network"
+    },
+    "bedCapacity": {
+      "label": "Bed capacity",
+      "unit": "count",
+      "section": "network"
+    },
+    "operationalBeds": {
+      "label": "Operational beds",
+      "unit": "count",
+      "section": "network"
+    },
+    "bedsUnderDevelopment": {
+      "label": "Beds under development",
+      "unit": "count",
+      "section": "network"
+    },
+    "newHospitalsPlanned": {
+      "label": "New hospitals planned",
+      "unit": "count",
+      "section": "network"
+    },
+    "occupancyRate": {
+      "label": "Occupancy",
+      "unit": "%",
+      "section": "operations"
+    },
+    "alos": {
+      "label": "ALOS",
+      "unit": "days",
+      "section": "operations"
+    },
+    "ipVolume": {
+      "label": "IP volume",
+      "unit": "admissions",
+      "section": "operations"
+    },
+    "opVolume": {
+      "label": "OP volume",
+      "unit": "visits",
+      "section": "operations"
+    },
+    "arpob": {
+      "label": "ARPOB",
+      "unit": "INR/day",
+      "section": "revenueQuality"
+    },
+    "arpp": {
+      "label": "ARPP",
+      "unit": "INR/patient",
+      "section": "revenueQuality"
+    },
+    "revenue": {
+      "label": "Revenue",
+      "unit": "INR Cr",
+      "section": "financials"
+    },
+    "ebitda": {
+      "label": "EBITDA",
+      "unit": "INR Cr",
+      "section": "financials"
+    },
+    "ebitdaMargin": {
+      "label": "EBITDA margin",
+      "unit": "%",
+      "section": "profitability"
+    },
+    "pat": {
+      "label": "PAT",
+      "unit": "INR Cr",
+      "section": "financials"
+    },
+    "netDebt": {
+      "label": "Net debt",
+      "unit": "INR Cr",
+      "section": "balanceSheet"
+    },
+    "capexAnnounced": {
+      "label": "Capex announced",
+      "unit": "INR Cr",
+      "section": "expansion"
+    },
+    "revenueGrowthYoy": {
+      "label": "Revenue YoY",
+      "unit": "%",
+      "section": "profitability"
+    },
+    "roce": {
+      "label": "ROCE",
+      "unit": "%",
+      "section": "profitability"
+    },
+    "revenuePerBedYearly": {
+      "label": "Revenue / bed (annualised)",
+      "unit": "INR/bed",
+      "section": "profitability",
+      "derived": true
+    },
+    "ebitdaPerBedYearly": {
+      "label": "EBITDA / bed (annualised)",
+      "unit": "INR/bed",
+      "section": "profitability",
+      "derived": true
+    },
+    "bedTurnoverYearly": {
+      "label": "Bed turnover (annualised)",
+      "unit": "admits/bed/yr",
+      "section": "operations",
+      "derived": true
+    },
+    "bedActivationPct": {
+      "label": "Bed activation",
+      "unit": "%",
+      "section": "network",
+      "derived": true
+    },
+    "enterpriseValueCr": {
+      "label": "Enterprise value",
+      "unit": "INR Cr",
+      "section": "valuation",
+      "derived": true
+    },
+    "evToEbitdaAnnualised": {
+      "label": "EV / EBITDA",
+      "unit": "x",
+      "section": "valuation",
+      "derived": true
+    },
+    "evPerBedCr": {
+      "label": "EV / bed",
+      "unit": "INR Cr/bed",
+      "section": "valuation",
+      "derived": true
+    },
+    "evPerBedLakhs": {
+      "label": "EV / bed",
+      "unit": "₹ lakh/bed",
+      "section": "valuation",
+      "derived": true
+    },
+    "peAnnualised": {
+      "label": "P/E (annualised)",
+      "unit": "x",
+      "section": "valuation",
+      "derived": true
+    }
+  },
+  "byCompany": {
+    "apollo-hospitals": {
+      "slug": "apollo-hospitals",
+      "name": "Apollo Hospitals Enterprise Ltd",
+      "shortName": "Apollo",
+      "scripCode": "508869",
+      "ticker": "APOLLOHOSP",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 8359.75,
+        "marketCapCr": 120200.38,
+        "marketCapFreeFloatCr": 85756.72,
+        "changePct": 0.67,
+        "volumeShares": 23000
+      },
+      "coverage": {
+        "extractedDocs": 19,
+        "quartersWithData": 7,
+        "quarterRange": "FY25-Q2 → FY26-Q4",
+        "classifiedTotalPriorityDocs": 43
+      },
+      "quarters": {
+        "FY25-Q2": {
+          "label": "Q2 FY25",
+          "calendar": "Jul–Sep 2024",
+          "metrics": {
+            "numberOfHospitals": 73,
+            "bedCapacity": 10138,
+            "operationalBeds": 9423,
+            "bedsUnderDevelopment": 3512,
+            "newHospitalsPlanned": 10,
+            "occupancyRate": 73,
+            "alos": 3.35,
+            "ipVolume": 159968,
+            "opVolume": 575089,
+            "arpob": 59011,
+            "arpp": 159379,
+            "revenue": 5589.3,
+            "ebitda": 815.5,
+            "ebitdaMargin": 14.6,
+            "pat": 378.8,
+            "netDebt": -280.2,
+            "capexAnnounced": 6100,
+            "revenueGrowthYoy": 15,
+            "roce": 27.6,
+            "revenuePerBedYearly": 23726202,
+            "ebitdaPerBedYearly": 3461743,
+            "bedTurnoverYearly": 67.91,
+            "bedActivationPct": 92.9,
+            "enterpriseValueCr": 119920.2,
+            "evToEbitdaAnnualised": 36.76,
+            "evPerBedCr": 12.726,
+            "evPerBedLakhs": 1272.6,
+            "peAnnualised": 79.33
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2024-11-06",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c8e1593-fa2f-4a22-b0c9-c6c05d77e1f1.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2024-11-06",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ec481a3-aa65-4738-8ec1-3f32c4b5e565.pdf"
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "numberOfHospitals": 73,
+            "bedCapacity": 10169,
+            "operationalBeds": 9429,
+            "bedsUnderDevelopment": 2877,
+            "newHospitalsPlanned": 10,
+            "occupancyRate": 68,
+            "alos": 3.29,
+            "ipVolume": 150986,
+            "opVolume": 561652,
+            "arpob": 60839,
+            "arpp": 162957,
+            "revenue": 5526.9,
+            "ebitda": 761.5,
+            "ebitdaMargin": 13.8,
+            "pat": 372.3,
+            "netDebt": -137.4,
+            "capexAnnounced": 6100,
+            "revenueGrowthYoy": 14,
+            "roce": 29,
+            "revenuePerBedYearly": 23446389,
+            "ebitdaPerBedYearly": 3230459,
+            "bedTurnoverYearly": 64.05,
+            "bedActivationPct": 92.7,
+            "enterpriseValueCr": 120063,
+            "evToEbitdaAnnualised": 39.42,
+            "evPerBedCr": 12.733,
+            "evPerBedLakhs": 1273.3,
+            "peAnnualised": 80.71
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-02-10",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dce7bcc1-c27f-4f71-87bb-fd3e836c1c2e.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-02-10",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/57df9bb9-13a1-4829-8212-ee29c8e78f8a.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-02-10",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b52ab028-d89a-455f-bc50-6aaa9c8a5515.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2024-11-01",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fe40fb4c-e9a9-422c-9179-b497c2f25fef.pdf"
+            }
+          ]
+        },
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "numberOfHospitals": 73,
+            "bedCapacity": 10187,
+            "operationalBeds": 9458,
+            "bedsUnderDevelopment": 3577,
+            "newHospitalsPlanned": 1,
+            "occupancyRate": 67,
+            "alos": 3.3,
+            "ipVolume": 146434,
+            "opVolume": 559817,
+            "arpob": 63569,
+            "arpp": 171358,
+            "revenue": 5592.2,
+            "ebitda": 769.8,
+            "ebitdaMargin": 13.8,
+            "pat": 389.6,
+            "netDebt": -10.9,
+            "capexAnnounced": 7603,
+            "revenueGrowthYoy": 13,
+            "roce": 27.5,
+            "revenuePerBedYearly": 23650666,
+            "ebitdaPerBedYearly": 3255657,
+            "bedTurnoverYearly": 61.93,
+            "bedActivationPct": 92.8,
+            "enterpriseValueCr": 120189.5,
+            "evToEbitdaAnnualised": 39.03,
+            "evPerBedCr": 12.708,
+            "evPerBedLakhs": 1270.8,
+            "peAnnualised": 77.13
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-06-30",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f30907dc-d76c-4a3b-bbf9-7a8b5121223c.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-30",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a059cf-24b8-4d1a-a641-c917bfff7dda.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-03-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e40636dc-1066-4908-8b83-716ef5b13117.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-03-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11845cd6-d981-4548-81a0-7ef2b9e9ddc5.pdf"
+            }
+          ]
+        },
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "numberOfHospitals": 73,
+            "bedCapacity": 10000,
+            "operationalBeds": 8030,
+            "bedsUnderDevelopment": 2000,
+            "newHospitalsPlanned": 2,
+            "occupancyRate": 65,
+            "revenue": 5842,
+            "ebitda": 852,
+            "ebitdaMargin": 14.58,
+            "pat": 433,
+            "revenueGrowthYoy": 15,
+            "revenuePerBedYearly": 29100872,
+            "ebitdaPerBedYearly": 4244085,
+            "bedActivationPct": 80.3,
+            "enterpriseValueCr": 120200.4,
+            "evToEbitdaAnnualised": 35.27,
+            "evPerBedCr": 14.969,
+            "evPerBedLakhs": 1496.9,
+            "peAnnualised": 69.4
+          },
+          "sources": [
+            {
+              "docType": "quarterly-result",
+              "date": "2025-08-12",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c141ce3-c2fd-4076-ad3c-945894ee9a3e.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-06-30",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4160b6df-4aef-4a5c-a2e9-9117a874d1c8.pdf"
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "numberOfHospitals": 73,
+            "bedCapacity": 10200,
+            "operationalBeds": 9483,
+            "bedsUnderDevelopment": 3657,
+            "newHospitalsPlanned": 2,
+            "occupancyRate": 69,
+            "alos": 3.14,
+            "ipVolume": 162928,
+            "opVolume": 618743,
+            "arpp": 173318,
+            "revenue": 6303.5,
+            "ebitda": 941.2,
+            "ebitdaMargin": 14.9,
+            "pat": 477.2,
+            "netDebt": -332.6,
+            "capexAnnounced": 8300,
+            "revenueGrowthYoy": 13,
+            "roce": 30.3,
+            "revenuePerBedYearly": 26588632,
+            "ebitdaPerBedYearly": 3970052,
+            "bedTurnoverYearly": 68.72,
+            "bedActivationPct": 93,
+            "enterpriseValueCr": 119867.8,
+            "evToEbitdaAnnualised": 31.84,
+            "evPerBedCr": 12.64,
+            "evPerBedLakhs": 1264,
+            "peAnnualised": 62.97
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-06",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4430a828-14c2-4c64-8cff-b68f1a2904f1.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-09-12",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43e0d471-a98a-4280-88b6-4bb8afa36879.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-08-22",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/84f5b368-6718-4af9-b8c1-a4b8a376b533.pdf"
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "numberOfHospitals": 76,
+            "bedCapacity": 10325,
+            "operationalBeds": 9561,
+            "bedsUnderDevelopment": 3630,
+            "newHospitalsPlanned": 8,
+            "occupancyRate": 67,
+            "alos": 3.16,
+            "ipVolume": 157777,
+            "opVolume": 561427,
+            "arpob": 64019.5,
+            "arpp": 180917,
+            "revenue": 6477.4,
+            "ebitda": 965.3,
+            "ebitdaMargin": 14.9,
+            "pat": 502.3,
+            "netDebt": -299.6,
+            "capexAnnounced": 8200,
+            "revenueGrowthYoy": 17,
+            "roce": 29.5,
+            "revenuePerBedYearly": 27099257,
+            "ebitdaPerBedYearly": 4038490,
+            "bedTurnoverYearly": 66.01,
+            "bedActivationPct": 92.6,
+            "enterpriseValueCr": 119900.8,
+            "evToEbitdaAnnualised": 31.05,
+            "evPerBedCr": 12.541,
+            "evPerBedLakhs": 1254.1,
+            "peAnnualised": 59.82
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-02-10",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2256258c-6663-42bc-866c-402f5dcc1cae.pdf"
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "numberOfHospitals": 78,
+            "bedCapacity": 10970,
+            "operationalBeds": 9620,
+            "bedsUnderDevelopment": 2805,
+            "newHospitalsPlanned": 11,
+            "occupancyRate": 68,
+            "alos": 3.19,
+            "ipVolume": 156728,
+            "arpob": 64834.7,
+            "arpp": 187208,
+            "revenue": 6605.5,
+            "ebitda": 1010.9,
+            "ebitdaMargin": 15.3,
+            "pat": 529.2,
+            "netDebt": 865.9,
+            "capexAnnounced": 8300,
+            "revenueGrowthYoy": 18,
+            "roce": 25.4,
+            "revenuePerBedYearly": 27465696,
+            "ebitdaPerBedYearly": 4203326,
+            "bedTurnoverYearly": 65.17,
+            "bedActivationPct": 87.7,
+            "enterpriseValueCr": 121066.3,
+            "evToEbitdaAnnualised": 29.94,
+            "evPerBedCr": 12.585,
+            "evPerBedLakhs": 1258.5,
+            "peAnnualised": 56.78
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7cfb1747-054b-47c2-8073-a98cba8daca0.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2a5da236-1dd8-48d2-9678-64d39b635896.pdf"
+            }
+          ]
+        }
+      }
+    },
+    "fortis-healthcare": {
+      "slug": "fortis-healthcare",
+      "name": "Fortis Healthcare Ltd",
+      "shortName": "Fortis",
+      "scripCode": "532843",
+      "ticker": "FORTIS",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 960.45,
+        "marketCapCr": 72509.96,
+        "marketCapFreeFloatCr": 49905.99,
+        "changePct": -0.68,
+        "volumeShares": 27000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 63
+      },
+      "quarters": {}
+    },
+    "hcg": {
+      "slug": "hcg",
+      "name": "Healthcare Global Enterprises Ltd",
+      "shortName": "HCG",
+      "scripCode": "539787",
+      "ticker": "HCG",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 653.75,
+        "marketCapCr": 9760.63,
+        "marketCapFreeFloatCr": 3446.78,
+        "changePct": 4.27,
+        "volumeShares": 21000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 58
+      },
+      "quarters": {}
+    },
+    "aster-dm": {
+      "slug": "aster-dm",
+      "name": "Aster DM Healthcare Ltd",
+      "shortName": "Aster DM",
+      "scripCode": "540975",
+      "ticker": "ASTERDM",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 756.3,
+        "marketCapCr": 39185.49,
+        "marketCapFreeFloatCr": 19944.01,
+        "changePct": -0.27,
+        "volumeShares": 27000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 83
+      },
+      "quarters": {}
+    },
+    "max-healthcare": {
+      "slug": "max-healthcare",
+      "name": "Max Healthcare Institute Ltd",
+      "shortName": "Max",
+      "scripCode": "543220",
+      "ticker": "MAXHEALTH",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1023.25,
+        "marketCapCr": 99587.17,
+        "marketCapFreeFloatCr": 75332.22,
+        "changePct": -6.26,
+        "volumeShares": 505000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 70
+      },
+      "quarters": {}
+    },
+    "kims": {
+      "slug": "kims",
+      "name": "Krishna Institute of Medical Sciences Ltd",
+      "shortName": "KIMS",
+      "scripCode": "543308",
+      "ticker": "KIMS",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 764.05,
+        "marketCapCr": 30572.62,
+        "marketCapFreeFloatCr": 18817.48,
+        "changePct": -0.75,
+        "volumeShares": 21000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 57
+      },
+      "quarters": {}
+    },
+    "rainbow-childrens": {
+      "slug": "rainbow-childrens",
+      "name": "Rainbow Children's Medicare Ltd",
+      "shortName": "Rainbow",
+      "scripCode": "543524",
+      "ticker": "RAINBOW",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1355.75,
+        "marketCapCr": 13768.88,
+        "marketCapFreeFloatCr": 6887.24,
+        "changePct": 0.77,
+        "volumeShares": 6016
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 46
+      },
+      "quarters": {}
+    },
+    "narayana": {
+      "slug": "narayana",
+      "name": "Narayana Hrudayalaya Ltd",
+      "shortName": "Narayana",
+      "scripCode": "539551",
+      "ticker": "NH",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1854.35,
+        "marketCapCr": 37895.65,
+        "marketCapFreeFloatCr": 12756.62,
+        "changePct": -3.85,
+        "volumeShares": 22000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 55
+      },
+      "quarters": {}
+    },
+    "medanta": {
+      "slug": "medanta",
+      "name": "Global Health Ltd (Medanta)",
+      "shortName": "Medanta",
+      "scripCode": "543654",
+      "ticker": "MEDANTA",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1238.5,
+        "marketCapCr": 33297.31,
+        "marketCapFreeFloatCr": 10574.99,
+        "changePct": -0.1,
+        "volumeShares": 6548
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 63
+      },
+      "quarters": {}
+    },
+    "jupiter-lifeline": {
+      "slug": "jupiter-lifeline",
+      "name": "Jupiter Life Line Hospitals Ltd",
+      "shortName": "Jupiter",
+      "scripCode": "543980",
+      "ticker": "JLHL",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 1357.3,
+        "marketCapCr": 8899.28,
+        "marketCapFreeFloatCr": 5093.99,
+        "changePct": 3.35,
+        "volumeShares": 204000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 36
+      },
+      "quarters": {}
+    },
+    "yatharth": {
+      "slug": "yatharth",
+      "name": "Yatharth Hospital & Trauma Care Services Ltd",
+      "shortName": "Yatharth",
+      "scripCode": "543950",
+      "ticker": "YATHARTH",
+      "sector": "Healthcare",
+      "industry": "Hospital",
+      "latestQuote": {
+        "date": "2026-05-23",
+        "price": 862.95,
+        "marketCapCr": 8314.9,
+        "marketCapFreeFloatCr": 3675.39,
+        "changePct": 0.45,
+        "volumeShares": 11000
+      },
+      "coverage": {
+        "extractedDocs": 0,
+        "quartersWithData": 0,
+        "quarterRange": null,
+        "classifiedTotalPriorityDocs": 48
+      },
+      "quarters": {}
+    }
+  },
+  "byMetric": {
+    "numberOfHospitals": {
+      "label": "Hospitals",
+      "unit": "count",
+      "section": "network",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 73
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 73
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 73
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 73
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 73
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 76
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 78
+        }
+      }
+    },
+    "bedCapacity": {
+      "label": "Bed capacity",
+      "unit": "count",
+      "section": "network",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 10138
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 10169
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 10187
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 10000
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 10200
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 10325
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 10970
+        }
+      }
+    },
+    "operationalBeds": {
+      "label": "Operational beds",
+      "unit": "count",
+      "section": "network",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 9423
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 9429
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 9458
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 8030
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 9483
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 9561
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 9620
+        }
+      }
+    },
+    "bedsUnderDevelopment": {
+      "label": "Beds under development",
+      "unit": "count",
+      "section": "network",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 3512
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 2877
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 3577
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 2000
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 3657
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 3630
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 2805
+        }
+      }
+    },
+    "newHospitalsPlanned": {
+      "label": "New hospitals planned",
+      "unit": "count",
+      "section": "network",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 10
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 10
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 1
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 2
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 2
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 8
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 11
+        }
+      }
+    },
+    "occupancyRate": {
+      "label": "Occupancy",
+      "unit": "%",
+      "section": "operations",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 73
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 68
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 67
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 65
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 69
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 67
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 68
+        }
+      }
+    },
+    "alos": {
+      "label": "ALOS",
+      "unit": "days",
+      "section": "operations",
+      "higherIsBetter": false,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 3.35
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 3.29
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 3.3
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 3.14
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 3.16
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 3.19
+        }
+      }
+    },
+    "ipVolume": {
+      "label": "IP volume",
+      "unit": "admissions",
+      "section": "operations",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 159968
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 150986
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 146434
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 162928
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 157777
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 156728
+        }
+      }
+    },
+    "opVolume": {
+      "label": "OP volume",
+      "unit": "visits",
+      "section": "operations",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 575089
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 561652
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 559817
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 618743
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 561427
+        }
+      }
+    },
+    "arpob": {
+      "label": "ARPOB",
+      "unit": "INR/day",
+      "section": "revenueQuality",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 59011
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 60839
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 63569
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 64019.5
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 64834.7
+        }
+      }
+    },
+    "arpp": {
+      "label": "ARPP",
+      "unit": "INR/patient",
+      "section": "revenueQuality",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 159379
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 162957
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 171358
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 173318
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 180917
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 187208
+        }
+      }
+    },
+    "revenue": {
+      "label": "Revenue",
+      "unit": "INR Cr",
+      "section": "financials",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 5589.3
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 5526.9
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 5592.2
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 5842
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 6303.5
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 6477.4
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 6605.5
+        }
+      }
+    },
+    "ebitda": {
+      "label": "EBITDA",
+      "unit": "INR Cr",
+      "section": "financials",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 815.5
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 761.5
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 769.8
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 852
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 941.2
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 965.3
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 1010.9
+        }
+      }
+    },
+    "ebitdaMargin": {
+      "label": "EBITDA margin",
+      "unit": "%",
+      "section": "profitability",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 14.6
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 13.8
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 13.8
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 14.58
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 14.9
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 14.9
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 15.3
+        }
+      }
+    },
+    "pat": {
+      "label": "PAT",
+      "unit": "INR Cr",
+      "section": "financials",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 378.8
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 372.3
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 389.6
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 433
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 477.2
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 502.3
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 529.2
+        }
+      }
+    },
+    "netDebt": {
+      "label": "Net debt",
+      "unit": "INR Cr",
+      "section": "balanceSheet",
+      "higherIsBetter": false,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": -280.2
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": -137.4
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": -10.9
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": -332.6
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": -299.6
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 865.9
+        }
+      }
+    },
+    "capexAnnounced": {
+      "label": "Capex announced",
+      "unit": "INR Cr",
+      "section": "expansion",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 6100
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 6100
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 7603
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 8300
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 8200
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 8300
+        }
+      }
+    },
+    "revenueGrowthYoy": {
+      "label": "Revenue YoY",
+      "unit": "%",
+      "section": "profitability",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 15
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 14
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 13
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 15
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 13
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 17
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 18
+        }
+      }
+    },
+    "roce": {
+      "label": "ROCE",
+      "unit": "%",
+      "section": "profitability",
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 27.6
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 29
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 27.5
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 30.3
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 29.5
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 25.4
+        }
+      }
+    },
+    "revenuePerBedYearly": {
+      "label": "Revenue / bed (annualised)",
+      "unit": "INR/bed",
+      "section": "profitability",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 23726202
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 23446389
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 23650666
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 29100872
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 26588632
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 27099257
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 27465696
+        }
+      }
+    },
+    "ebitdaPerBedYearly": {
+      "label": "EBITDA / bed (annualised)",
+      "unit": "INR/bed",
+      "section": "profitability",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 3461743
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 3230459
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 3255657
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 4244085
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 3970052
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 4038490
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 4203326
+        }
+      }
+    },
+    "bedTurnoverYearly": {
+      "label": "Bed turnover (annualised)",
+      "unit": "admits/bed/yr",
+      "section": "operations",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 67.91
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 64.05
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 61.93
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 68.72
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 66.01
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 65.17
+        }
+      }
+    },
+    "bedActivationPct": {
+      "label": "Bed activation",
+      "unit": "%",
+      "section": "network",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 92.9
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 92.7
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 92.8
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 80.3
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 93
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 92.6
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 87.7
+        }
+      }
+    },
+    "enterpriseValueCr": {
+      "label": "Enterprise value",
+      "unit": "INR Cr",
+      "section": "valuation",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 119920.2
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 120063
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 120189.5
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 120200.4
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 119867.8
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 119900.8
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 121066.3
+        }
+      }
+    },
+    "evToEbitdaAnnualised": {
+      "label": "EV / EBITDA",
+      "unit": "x",
+      "section": "valuation",
+      "derived": true,
+      "higherIsBetter": false,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 36.76
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 39.42
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 39.03
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 35.27
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 31.84
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 31.05
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 29.94
+        }
+      }
+    },
+    "evPerBedCr": {
+      "label": "EV / bed",
+      "unit": "INR Cr/bed",
+      "section": "valuation",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 12.726
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 12.733
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 12.708
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 14.969
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 12.64
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 12.541
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 12.585
+        }
+      }
+    },
+    "evPerBedLakhs": {
+      "label": "EV / bed",
+      "unit": "₹ lakh/bed",
+      "section": "valuation",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 1272.6
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 1273.3
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 1270.8
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 1496.9
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 1264
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 1254.1
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 1258.5
+        }
+      }
+    },
+    "peAnnualised": {
+      "label": "P/E (annualised)",
+      "unit": "x",
+      "section": "valuation",
+      "derived": true,
+      "higherIsBetter": false,
+      "byQuarter": {
+        "FY25-Q2": {
+          "apollo-hospitals": 79.33
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 80.71
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 77.13
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 69.4
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 62.97
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 59.82
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 56.78
+        }
+      }
+    }
+  },
+  "rankings": {
+    "FY25-Q2": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10138,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9423,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3512,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.35,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 159968,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 575089,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 59011,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 159379,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 5589.3,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 815.5,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.6,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 378.8,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -280.2,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 6100,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 15,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 27.6,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 23726202,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3461743,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 67.91,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 92.9,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 119920.2,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 36.76,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.726,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1272.6,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 79.33,
+          "rank": 1
+        }
+      ]
+    },
+    "FY25-Q3": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10169,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9429,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 2877,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 68,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.29,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 150986,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 561652,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 60839,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 162957,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 5526.9,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 761.5,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 13.8,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 372.3,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -137.4,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 6100,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 29,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 23446389,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3230459,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 64.05,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 92.7,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 120063,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 39.42,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.733,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1273.3,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 80.71,
+          "rank": 1
+        }
+      ]
+    },
+    "FY25-Q4": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10187,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9458,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3577,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 67,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.3,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 146434,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 559817,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 63569,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 171358,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 5592.2,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 769.8,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 13.8,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 389.6,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -10.9,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 7603,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 13,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 27.5,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 23650666,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3255657,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 61.93,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 92.8,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 120189.5,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 39.03,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.708,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1270.8,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 77.13,
+          "rank": 1
+        }
+      ]
+    },
+    "FY26-Q1": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10000,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 8030,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 2000,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 2,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 65,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 5842,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 852,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.58,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 433,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 15,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 29100872,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 4244085,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 80.3,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 120200.4,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 35.27,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.969,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1496.9,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 69.4,
+          "rank": 1
+        }
+      ]
+    },
+    "FY26-Q2": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 73,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10200,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9483,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3657,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 2,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 69,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.14,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 162928,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 618743,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 173318,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 6303.5,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 941.2,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.9,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 477.2,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -332.6,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 8300,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 13,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 30.3,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 26588632,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3970052,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 68.72,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 93,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 119867.8,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 31.84,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.64,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1264,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 62.97,
+          "rank": 1
+        }
+      ]
+    },
+    "FY26-Q3": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 76,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10325,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9561,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3630,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 8,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 67,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.16,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 157777,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 561427,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 64019.5,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 180917,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 6477.4,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 965.3,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.9,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 502.3,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -299.6,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 8200,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 17,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 29.5,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 27099257,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 4038490,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 66.01,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 92.6,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 119900.8,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 31.05,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.541,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1254.1,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 59.82,
+          "rank": 1
+        }
+      ]
+    },
+    "FY26-Q4": {
+      "numberOfHospitals": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 78,
+          "rank": 1
+        }
+      ],
+      "bedCapacity": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 10970,
+          "rank": 1
+        }
+      ],
+      "operationalBeds": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 9620,
+          "rank": 1
+        }
+      ],
+      "bedsUnderDevelopment": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 2805,
+          "rank": 1
+        }
+      ],
+      "newHospitalsPlanned": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 11,
+          "rank": 1
+        }
+      ],
+      "occupancyRate": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 68,
+          "rank": 1
+        }
+      ],
+      "alos": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.19,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 156728,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 64834.7,
+          "rank": 1
+        }
+      ],
+      "arpp": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 187208,
+          "rank": 1
+        }
+      ],
+      "revenue": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 6605.5,
+          "rank": 1
+        }
+      ],
+      "ebitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1010.9,
+          "rank": 1
+        }
+      ],
+      "ebitdaMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 15.3,
+          "rank": 1
+        }
+      ],
+      "pat": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 529.2,
+          "rank": 1
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 865.9,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 8300,
+          "rank": 1
+        }
+      ],
+      "revenueGrowthYoy": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 18,
+          "rank": 1
+        }
+      ],
+      "roce": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 25.4,
+          "rank": 1
+        }
+      ],
+      "revenuePerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 27465696,
+          "rank": 1
+        }
+      ],
+      "ebitdaPerBedYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 4203326,
+          "rank": 1
+        }
+      ],
+      "bedTurnoverYearly": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 65.17,
+          "rank": 1
+        }
+      ],
+      "bedActivationPct": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 87.7,
+          "rank": 1
+        }
+      ],
+      "enterpriseValueCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 121066.3,
+          "rank": 1
+        }
+      ],
+      "evToEbitdaAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 29.94,
+          "rank": 1
+        }
+      ],
+      "evPerBedCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 12.585,
+          "rank": 1
+        }
+      ],
+      "evPerBedLakhs": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 1258.5,
+          "rank": 1
+        }
+      ],
+      "peAnnualised": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 56.78,
+          "rank": 1
+        }
+      ]
+    }
+  },
+  "sectorAggregates": {
+    "FY25-Q2": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10138,
+        "max": 10138,
+        "mean": 10138,
+        "median": 10138
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9423,
+        "max": 9423,
+        "mean": 9423,
+        "median": 9423
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 3512,
+        "max": 3512,
+        "mean": 3512,
+        "median": 3512
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 10,
+        "max": 10,
+        "mean": 10,
+        "median": 10
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.35,
+        "max": 3.35,
+        "mean": 3.35,
+        "median": 3.35
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 159968,
+        "max": 159968,
+        "mean": 159968,
+        "median": 159968
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 575089,
+        "max": 575089,
+        "mean": 575089,
+        "median": 575089
+      },
+      "arpob": {
+        "n": 1,
+        "min": 59011,
+        "max": 59011,
+        "mean": 59011,
+        "median": 59011
+      },
+      "arpp": {
+        "n": 1,
+        "min": 159379,
+        "max": 159379,
+        "mean": 159379,
+        "median": 159379
+      },
+      "revenue": {
+        "n": 1,
+        "min": 5589.3,
+        "max": 5589.3,
+        "mean": 5589.3,
+        "median": 5589.3
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 815.5,
+        "max": 815.5,
+        "mean": 815.5,
+        "median": 815.5
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 14.6,
+        "max": 14.6,
+        "mean": 14.6,
+        "median": 14.6
+      },
+      "pat": {
+        "n": 1,
+        "min": 378.8,
+        "max": 378.8,
+        "mean": 378.8,
+        "median": 378.8
+      },
+      "netDebt": {
+        "n": 1,
+        "min": -280.2,
+        "max": -280.2,
+        "mean": -280.2,
+        "median": -280.2
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 6100,
+        "max": 6100,
+        "mean": 6100,
+        "median": 6100
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 15,
+        "max": 15,
+        "mean": 15,
+        "median": 15
+      },
+      "roce": {
+        "n": 1,
+        "min": 27.6,
+        "max": 27.6,
+        "mean": 27.6,
+        "median": 27.6
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 23726202,
+        "max": 23726202,
+        "mean": 23726202,
+        "median": 23726202
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 3461743,
+        "max": 3461743,
+        "mean": 3461743,
+        "median": 3461743
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 67.91,
+        "max": 67.91,
+        "mean": 67.91,
+        "median": 67.91
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 92.9,
+        "max": 92.9,
+        "mean": 92.9,
+        "median": 92.9
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 119920.2,
+        "max": 119920.2,
+        "mean": 119920.2,
+        "median": 119920.2
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 36.76,
+        "max": 36.76,
+        "mean": 36.76,
+        "median": 36.76
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.726,
+        "max": 12.726,
+        "mean": 12.73,
+        "median": 12.73
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1272.6,
+        "max": 1272.6,
+        "mean": 1272.6,
+        "median": 1272.6
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 79.33,
+        "max": 79.33,
+        "mean": 79.33,
+        "median": 79.33
+      }
+    },
+    "FY25-Q3": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10169,
+        "max": 10169,
+        "mean": 10169,
+        "median": 10169
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9429,
+        "max": 9429,
+        "mean": 9429,
+        "median": 9429
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 2877,
+        "max": 2877,
+        "mean": 2877,
+        "median": 2877
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 10,
+        "max": 10,
+        "mean": 10,
+        "median": 10
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 68,
+        "max": 68,
+        "mean": 68,
+        "median": 68
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.29,
+        "max": 3.29,
+        "mean": 3.29,
+        "median": 3.29
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 150986,
+        "max": 150986,
+        "mean": 150986,
+        "median": 150986
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 561652,
+        "max": 561652,
+        "mean": 561652,
+        "median": 561652
+      },
+      "arpob": {
+        "n": 1,
+        "min": 60839,
+        "max": 60839,
+        "mean": 60839,
+        "median": 60839
+      },
+      "arpp": {
+        "n": 1,
+        "min": 162957,
+        "max": 162957,
+        "mean": 162957,
+        "median": 162957
+      },
+      "revenue": {
+        "n": 1,
+        "min": 5526.9,
+        "max": 5526.9,
+        "mean": 5526.9,
+        "median": 5526.9
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 761.5,
+        "max": 761.5,
+        "mean": 761.5,
+        "median": 761.5
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 13.8,
+        "max": 13.8,
+        "mean": 13.8,
+        "median": 13.8
+      },
+      "pat": {
+        "n": 1,
+        "min": 372.3,
+        "max": 372.3,
+        "mean": 372.3,
+        "median": 372.3
+      },
+      "netDebt": {
+        "n": 1,
+        "min": -137.4,
+        "max": -137.4,
+        "mean": -137.4,
+        "median": -137.4
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 6100,
+        "max": 6100,
+        "mean": 6100,
+        "median": 6100
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 14,
+        "max": 14,
+        "mean": 14,
+        "median": 14
+      },
+      "roce": {
+        "n": 1,
+        "min": 29,
+        "max": 29,
+        "mean": 29,
+        "median": 29
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 23446389,
+        "max": 23446389,
+        "mean": 23446389,
+        "median": 23446389
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 3230459,
+        "max": 3230459,
+        "mean": 3230459,
+        "median": 3230459
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 64.05,
+        "max": 64.05,
+        "mean": 64.05,
+        "median": 64.05
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 92.7,
+        "max": 92.7,
+        "mean": 92.7,
+        "median": 92.7
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 120063,
+        "max": 120063,
+        "mean": 120063,
+        "median": 120063
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 39.42,
+        "max": 39.42,
+        "mean": 39.42,
+        "median": 39.42
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.733,
+        "max": 12.733,
+        "mean": 12.73,
+        "median": 12.73
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1273.3,
+        "max": 1273.3,
+        "mean": 1273.3,
+        "median": 1273.3
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 80.71,
+        "max": 80.71,
+        "mean": 80.71,
+        "median": 80.71
+      }
+    },
+    "FY25-Q4": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10187,
+        "max": 10187,
+        "mean": 10187,
+        "median": 10187
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9458,
+        "max": 9458,
+        "mean": 9458,
+        "median": 9458
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 3577,
+        "max": 3577,
+        "mean": 3577,
+        "median": 3577
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 1,
+        "max": 1,
+        "mean": 1,
+        "median": 1
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 67,
+        "max": 67,
+        "mean": 67,
+        "median": 67
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.3,
+        "max": 3.3,
+        "mean": 3.3,
+        "median": 3.3
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 146434,
+        "max": 146434,
+        "mean": 146434,
+        "median": 146434
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 559817,
+        "max": 559817,
+        "mean": 559817,
+        "median": 559817
+      },
+      "arpob": {
+        "n": 1,
+        "min": 63569,
+        "max": 63569,
+        "mean": 63569,
+        "median": 63569
+      },
+      "arpp": {
+        "n": 1,
+        "min": 171358,
+        "max": 171358,
+        "mean": 171358,
+        "median": 171358
+      },
+      "revenue": {
+        "n": 1,
+        "min": 5592.2,
+        "max": 5592.2,
+        "mean": 5592.2,
+        "median": 5592.2
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 769.8,
+        "max": 769.8,
+        "mean": 769.8,
+        "median": 769.8
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 13.8,
+        "max": 13.8,
+        "mean": 13.8,
+        "median": 13.8
+      },
+      "pat": {
+        "n": 1,
+        "min": 389.6,
+        "max": 389.6,
+        "mean": 389.6,
+        "median": 389.6
+      },
+      "netDebt": {
+        "n": 1,
+        "min": -10.9,
+        "max": -10.9,
+        "mean": -10.9,
+        "median": -10.9
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 7603,
+        "max": 7603,
+        "mean": 7603,
+        "median": 7603
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 13,
+        "max": 13,
+        "mean": 13,
+        "median": 13
+      },
+      "roce": {
+        "n": 1,
+        "min": 27.5,
+        "max": 27.5,
+        "mean": 27.5,
+        "median": 27.5
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 23650666,
+        "max": 23650666,
+        "mean": 23650666,
+        "median": 23650666
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 3255657,
+        "max": 3255657,
+        "mean": 3255657,
+        "median": 3255657
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 61.93,
+        "max": 61.93,
+        "mean": 61.93,
+        "median": 61.93
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 92.8,
+        "max": 92.8,
+        "mean": 92.8,
+        "median": 92.8
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 120189.5,
+        "max": 120189.5,
+        "mean": 120189.5,
+        "median": 120189.5
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 39.03,
+        "max": 39.03,
+        "mean": 39.03,
+        "median": 39.03
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.708,
+        "max": 12.708,
+        "mean": 12.71,
+        "median": 12.71
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1270.8,
+        "max": 1270.8,
+        "mean": 1270.8,
+        "median": 1270.8
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 77.13,
+        "max": 77.13,
+        "mean": 77.13,
+        "median": 77.13
+      }
+    },
+    "FY26-Q1": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10000,
+        "max": 10000,
+        "mean": 10000,
+        "median": 10000
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 8030,
+        "max": 8030,
+        "mean": 8030,
+        "median": 8030
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 2000,
+        "max": 2000,
+        "mean": 2000,
+        "median": 2000
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 2,
+        "max": 2,
+        "mean": 2,
+        "median": 2
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 65,
+        "max": 65,
+        "mean": 65,
+        "median": 65
+      },
+      "revenue": {
+        "n": 1,
+        "min": 5842,
+        "max": 5842,
+        "mean": 5842,
+        "median": 5842
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 852,
+        "max": 852,
+        "mean": 852,
+        "median": 852
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 14.58,
+        "max": 14.58,
+        "mean": 14.58,
+        "median": 14.58
+      },
+      "pat": {
+        "n": 1,
+        "min": 433,
+        "max": 433,
+        "mean": 433,
+        "median": 433
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 15,
+        "max": 15,
+        "mean": 15,
+        "median": 15
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 29100872,
+        "max": 29100872,
+        "mean": 29100872,
+        "median": 29100872
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 4244085,
+        "max": 4244085,
+        "mean": 4244085,
+        "median": 4244085
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 80.3,
+        "max": 80.3,
+        "mean": 80.3,
+        "median": 80.3
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 120200.4,
+        "max": 120200.4,
+        "mean": 120200.4,
+        "median": 120200.4
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 35.27,
+        "max": 35.27,
+        "mean": 35.27,
+        "median": 35.27
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 14.969,
+        "max": 14.969,
+        "mean": 14.97,
+        "median": 14.97
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1496.9,
+        "max": 1496.9,
+        "mean": 1496.9,
+        "median": 1496.9
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 69.4,
+        "max": 69.4,
+        "mean": 69.4,
+        "median": 69.4
+      }
+    },
+    "FY26-Q2": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 73,
+        "max": 73,
+        "mean": 73,
+        "median": 73
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10200,
+        "max": 10200,
+        "mean": 10200,
+        "median": 10200
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9483,
+        "max": 9483,
+        "mean": 9483,
+        "median": 9483
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 3657,
+        "max": 3657,
+        "mean": 3657,
+        "median": 3657
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 2,
+        "max": 2,
+        "mean": 2,
+        "median": 2
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 69,
+        "max": 69,
+        "mean": 69,
+        "median": 69
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.14,
+        "max": 3.14,
+        "mean": 3.14,
+        "median": 3.14
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 162928,
+        "max": 162928,
+        "mean": 162928,
+        "median": 162928
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 618743,
+        "max": 618743,
+        "mean": 618743,
+        "median": 618743
+      },
+      "arpp": {
+        "n": 1,
+        "min": 173318,
+        "max": 173318,
+        "mean": 173318,
+        "median": 173318
+      },
+      "revenue": {
+        "n": 1,
+        "min": 6303.5,
+        "max": 6303.5,
+        "mean": 6303.5,
+        "median": 6303.5
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 941.2,
+        "max": 941.2,
+        "mean": 941.2,
+        "median": 941.2
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 14.9,
+        "max": 14.9,
+        "mean": 14.9,
+        "median": 14.9
+      },
+      "pat": {
+        "n": 1,
+        "min": 477.2,
+        "max": 477.2,
+        "mean": 477.2,
+        "median": 477.2
+      },
+      "netDebt": {
+        "n": 1,
+        "min": -332.6,
+        "max": -332.6,
+        "mean": -332.6,
+        "median": -332.6
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 8300,
+        "max": 8300,
+        "mean": 8300,
+        "median": 8300
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 13,
+        "max": 13,
+        "mean": 13,
+        "median": 13
+      },
+      "roce": {
+        "n": 1,
+        "min": 30.3,
+        "max": 30.3,
+        "mean": 30.3,
+        "median": 30.3
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 26588632,
+        "max": 26588632,
+        "mean": 26588632,
+        "median": 26588632
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 3970052,
+        "max": 3970052,
+        "mean": 3970052,
+        "median": 3970052
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 68.72,
+        "max": 68.72,
+        "mean": 68.72,
+        "median": 68.72
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 93,
+        "max": 93,
+        "mean": 93,
+        "median": 93
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 119867.8,
+        "max": 119867.8,
+        "mean": 119867.8,
+        "median": 119867.8
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 31.84,
+        "max": 31.84,
+        "mean": 31.84,
+        "median": 31.84
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.64,
+        "max": 12.64,
+        "mean": 12.64,
+        "median": 12.64
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1264,
+        "max": 1264,
+        "mean": 1264,
+        "median": 1264
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 62.97,
+        "max": 62.97,
+        "mean": 62.97,
+        "median": 62.97
+      }
+    },
+    "FY26-Q3": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 76,
+        "max": 76,
+        "mean": 76,
+        "median": 76
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10325,
+        "max": 10325,
+        "mean": 10325,
+        "median": 10325
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9561,
+        "max": 9561,
+        "mean": 9561,
+        "median": 9561
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 3630,
+        "max": 3630,
+        "mean": 3630,
+        "median": 3630
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 8,
+        "max": 8,
+        "mean": 8,
+        "median": 8
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 67,
+        "max": 67,
+        "mean": 67,
+        "median": 67
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.16,
+        "max": 3.16,
+        "mean": 3.16,
+        "median": 3.16
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 157777,
+        "max": 157777,
+        "mean": 157777,
+        "median": 157777
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 561427,
+        "max": 561427,
+        "mean": 561427,
+        "median": 561427
+      },
+      "arpob": {
+        "n": 1,
+        "min": 64019.5,
+        "max": 64019.5,
+        "mean": 64019.5,
+        "median": 64019.5
+      },
+      "arpp": {
+        "n": 1,
+        "min": 180917,
+        "max": 180917,
+        "mean": 180917,
+        "median": 180917
+      },
+      "revenue": {
+        "n": 1,
+        "min": 6477.4,
+        "max": 6477.4,
+        "mean": 6477.4,
+        "median": 6477.4
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 965.3,
+        "max": 965.3,
+        "mean": 965.3,
+        "median": 965.3
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 14.9,
+        "max": 14.9,
+        "mean": 14.9,
+        "median": 14.9
+      },
+      "pat": {
+        "n": 1,
+        "min": 502.3,
+        "max": 502.3,
+        "mean": 502.3,
+        "median": 502.3
+      },
+      "netDebt": {
+        "n": 1,
+        "min": -299.6,
+        "max": -299.6,
+        "mean": -299.6,
+        "median": -299.6
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 8200,
+        "max": 8200,
+        "mean": 8200,
+        "median": 8200
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 17,
+        "max": 17,
+        "mean": 17,
+        "median": 17
+      },
+      "roce": {
+        "n": 1,
+        "min": 29.5,
+        "max": 29.5,
+        "mean": 29.5,
+        "median": 29.5
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 27099257,
+        "max": 27099257,
+        "mean": 27099257,
+        "median": 27099257
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 4038490,
+        "max": 4038490,
+        "mean": 4038490,
+        "median": 4038490
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 66.01,
+        "max": 66.01,
+        "mean": 66.01,
+        "median": 66.01
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 92.6,
+        "max": 92.6,
+        "mean": 92.6,
+        "median": 92.6
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 119900.8,
+        "max": 119900.8,
+        "mean": 119900.8,
+        "median": 119900.8
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 31.05,
+        "max": 31.05,
+        "mean": 31.05,
+        "median": 31.05
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.541,
+        "max": 12.541,
+        "mean": 12.54,
+        "median": 12.54
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1254.1,
+        "max": 1254.1,
+        "mean": 1254.1,
+        "median": 1254.1
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 59.82,
+        "max": 59.82,
+        "mean": 59.82,
+        "median": 59.82
+      }
+    },
+    "FY26-Q4": {
+      "numberOfHospitals": {
+        "n": 1,
+        "min": 78,
+        "max": 78,
+        "mean": 78,
+        "median": 78
+      },
+      "bedCapacity": {
+        "n": 1,
+        "min": 10970,
+        "max": 10970,
+        "mean": 10970,
+        "median": 10970
+      },
+      "operationalBeds": {
+        "n": 1,
+        "min": 9620,
+        "max": 9620,
+        "mean": 9620,
+        "median": 9620
+      },
+      "bedsUnderDevelopment": {
+        "n": 1,
+        "min": 2805,
+        "max": 2805,
+        "mean": 2805,
+        "median": 2805
+      },
+      "newHospitalsPlanned": {
+        "n": 1,
+        "min": 11,
+        "max": 11,
+        "mean": 11,
+        "median": 11
+      },
+      "occupancyRate": {
+        "n": 1,
+        "min": 68,
+        "max": 68,
+        "mean": 68,
+        "median": 68
+      },
+      "alos": {
+        "n": 1,
+        "min": 3.19,
+        "max": 3.19,
+        "mean": 3.19,
+        "median": 3.19
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 156728,
+        "max": 156728,
+        "mean": 156728,
+        "median": 156728
+      },
+      "arpob": {
+        "n": 1,
+        "min": 64834.7,
+        "max": 64834.7,
+        "mean": 64834.7,
+        "median": 64834.7
+      },
+      "arpp": {
+        "n": 1,
+        "min": 187208,
+        "max": 187208,
+        "mean": 187208,
+        "median": 187208
+      },
+      "revenue": {
+        "n": 1,
+        "min": 6605.5,
+        "max": 6605.5,
+        "mean": 6605.5,
+        "median": 6605.5
+      },
+      "ebitda": {
+        "n": 1,
+        "min": 1010.9,
+        "max": 1010.9,
+        "mean": 1010.9,
+        "median": 1010.9
+      },
+      "ebitdaMargin": {
+        "n": 1,
+        "min": 15.3,
+        "max": 15.3,
+        "mean": 15.3,
+        "median": 15.3
+      },
+      "pat": {
+        "n": 1,
+        "min": 529.2,
+        "max": 529.2,
+        "mean": 529.2,
+        "median": 529.2
+      },
+      "netDebt": {
+        "n": 1,
+        "min": 865.9,
+        "max": 865.9,
+        "mean": 865.9,
+        "median": 865.9
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 8300,
+        "max": 8300,
+        "mean": 8300,
+        "median": 8300
+      },
+      "revenueGrowthYoy": {
+        "n": 1,
+        "min": 18,
+        "max": 18,
+        "mean": 18,
+        "median": 18
+      },
+      "roce": {
+        "n": 1,
+        "min": 25.4,
+        "max": 25.4,
+        "mean": 25.4,
+        "median": 25.4
+      },
+      "revenuePerBedYearly": {
+        "n": 1,
+        "min": 27465696,
+        "max": 27465696,
+        "mean": 27465696,
+        "median": 27465696
+      },
+      "ebitdaPerBedYearly": {
+        "n": 1,
+        "min": 4203326,
+        "max": 4203326,
+        "mean": 4203326,
+        "median": 4203326
+      },
+      "bedTurnoverYearly": {
+        "n": 1,
+        "min": 65.17,
+        "max": 65.17,
+        "mean": 65.17,
+        "median": 65.17
+      },
+      "bedActivationPct": {
+        "n": 1,
+        "min": 87.7,
+        "max": 87.7,
+        "mean": 87.7,
+        "median": 87.7
+      },
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 121066.3,
+        "max": 121066.3,
+        "mean": 121066.3,
+        "median": 121066.3
+      },
+      "evToEbitdaAnnualised": {
+        "n": 1,
+        "min": 29.94,
+        "max": 29.94,
+        "mean": 29.94,
+        "median": 29.94
+      },
+      "evPerBedCr": {
+        "n": 1,
+        "min": 12.585,
+        "max": 12.585,
+        "mean": 12.59,
+        "median": 12.59
+      },
+      "evPerBedLakhs": {
+        "n": 1,
+        "min": 1258.5,
+        "max": 1258.5,
+        "mean": 1258.5,
+        "median": 1258.5
+      },
+      "peAnnualised": {
+        "n": 1,
+        "min": 56.78,
+        "max": 56.78,
+        "mean": 56.78,
+        "median": 56.78
+      }
+    }
+  }
+}

@@ -48,6 +48,16 @@ jobs:
           GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '4500' }}
         run: node scripts/extract-metrics.mjs
 
+      # Rebuild merged metrics + sector dataset whenever extraction ran (even partially).
+      # Pure local processing — no API calls, always runs.
+      - name: Build per-company metrics
+        if: always()
+        run: node scripts/build-metrics.mjs
+
+      - name: Build sector dataset
+        if: always()
+        run: node scripts/build-sector.mjs
+
       # CRITICAL: always commit progress, even if extraction step crashed/timed out.
       # The script writes to disk after every extraction; we never want to lose it.
       - name: Commit if changed
@@ -55,15 +65,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if ls data/extracted/*.json >/dev/null 2>&1; then
-            git add data/extracted/*.json
-            if git diff --cached --quiet; then
-              echo "No new extractions to commit."
-            else
-              git commit -m "chore(data): extract metrics via Gemini (partial ok)"
-              git pull --rebase origin main || true
-              git push
-            fi
+          git add data/extracted/*.json data/metrics/*.json data/sector.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
           else
-            echo "No extracted data dir yet."
+            git commit -m "chore(data): refresh extracted metrics + sector dataset"
+            git pull --rebase origin main || true
+            git push
           fi
