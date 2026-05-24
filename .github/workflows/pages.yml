@@ -37,13 +37,7 @@ jobs:
         working-directory: dashboard
         run: npm install --no-audit --no-fund
 
-      - name: Copy sector data into public/
-        run: |
-          mkdir -p dashboard/public
-          cp data/sector.json dashboard/public/sector.json
-          echo "sector.json: $(wc -c < dashboard/public/sector.json) bytes"
-
-      - name: Build
+      - name: Build (prebuild copies sector.json from ../data)
         working-directory: dashboard
         env:
           GITHUB_PAGES: 'true'
