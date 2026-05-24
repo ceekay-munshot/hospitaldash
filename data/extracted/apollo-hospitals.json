@@ -1504,9 +1504,9 @@
       "date": "2025-05-30",
       "subject": "Audited Financial Results For The Quarter And Year Ended 31St March 2025",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9eabea1d-0815-47bc-a93c-1cf2310483da.pdf",
-      "extractedAt": "2026-05-24T02:47:25.243Z",
+      "extractedAt": "2026-05-24T15:43:46.255Z",
       "error": "PDF too large for inline data (24.5MB > 19MB cap)",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "metrics": null
     },
     "ea09237c-24a0-4f0a-afaa-2318d8a0ec7c": {
@@ -1516,9 +1516,9 @@
       "date": "2025-05-30",
       "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bbf08707-6f1d-4a57-bf15-38662e933344.pdf",
-      "extractedAt": "2026-05-24T02:47:31.651Z",
+      "extractedAt": "2026-05-24T15:43:53.412Z",
       "error": "PDF too large for inline data (24.5MB > 19MB cap)",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "metrics": null
     },
     "34a64bb3-5755-43ad-bacb-917b22b87f9a": {
@@ -2480,10 +2480,134 @@
       "date": "2024-11-06",
       "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8f79021-7ca4-48b9-96be-1bb024f2718b.pdf",
-      "extractedAt": "2026-05-24T02:59:59.033Z",
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
-      "attemptCount": 2,
-      "metrics": null
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:44:28.591Z",
+      "finishReason": "STOP",
+      "promptTokens": 8287,
+      "responseTokens": 1326,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY25-Q2",
+        "periodEnding": "2024-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 7994,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on September 30, 2024, Apollo Hospitals had 7,994 operating beds across the network (excluding AHLL & managed beds)."
+        },
+        "bedsUnderDevelopment": {
+          "value": 700,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Build and Operate a 500-bed hospital to be established in Worli, Mumbai. ... adding another 200 beds, to be developed on their recent acquisition of a 1.2-acre land."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Build and Operate a 500-bed hospital to be established in Worli, Mumbai."
+        },
+        "occupancyRate": {
+          "value": 73,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The overall occupancy for hospitals was at 73% vs 68% in the same period in the previous year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 5589,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q2 Consolidated Revenues grew 15% YoY to Rs 5,589 Crores"
+        },
+        "ebitda": {
+          "value": 816,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q2 Consolidated EBITDA grew 30% YoY to Rs 816 Crores"
+        },
+        "ebitdaMargin": {
+          "value": 14.6,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Q2 Consolidated EBITDA stood at Rs. 816 Crores; ... Q2 FY25 Revenues grew to Rs. 5,589 Crores"
+        },
+        "pat": {
+          "value": 379,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q2 Consolidated PAT grew 63% YoY to Rs 379 Crores"
+        },
+        "netDebt": {
+          "value": 2638.2,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Borrowings (Non-current liabilities) 38,194 ... Borrowings (Current liabilities) 10,291 ... Cash and cash equivalents 14,353 ... Bank balances 7,750 (all in Rs. in Million, as at 30-Sep-24, Page 11)"
+        },
+        "capexAnnounced": {
+          "value": 1010.5,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Net cash (used in) / generated from Investing Activities (B) (10,105) (Rs. in Million) For the period ended 30-Sep-2024 (Page 12)"
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q2 Consolidated Revenues grew 15% YoY to Rs 5,589 Crores"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency figures converted from Million to Crore by dividing by 10. EBITDA Margin and Net Debt are calculated. Capex is represented by 'Net cash used in investing activities' for the six months ended September 30, 2024 (H1 FY25).",
+      "nonNullMetricCount": 12
     },
     "7f26c711-43c2-4a7c-ac27-4ce1517d1945": {
       "newsId": "7f26c711-43c2-4a7c-ac27-4ce1517d1945",
@@ -2620,8 +2744,2468 @@
       },
       "notes": "This press release primarily focuses on expansion plans and capacity additions. Most financial metrics (revenue, EBITDA, PAT, debt, etc.) and detailed operational metrics (ALOS, IP/OP volume) are not disclosed. The occupancy rate is reported as of Q1 FY2025 end (June 30, 2024), while the document date is November 1, 2024 (FY25-Q3).",
       "nonNullMetricCount": 7
+    },
+    "751abe02-9de1-427a-bd48-2c1e87d304e5": {
+      "newsId": "751abe02-9de1-427a-bd48-2c1e87d304e5",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q2",
+      "date": "2024-08-13",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7080cbe6-f674-42ae-a86b-6ffb155e4b13.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:45:02.131Z",
+      "finishReason": "STOP",
+      "promptTokens": 10867,
+      "responseTokens": 1299,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total Hospitals 73"
+        },
+        "bedCapacity": {
+          "value": 10121,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total Capacity Beds¹ 10,121"
+        },
+        "operationalBeds": {
+          "value": 9363,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Total Operational/Census Beds 9,363"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2860,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Beds 2,860 (from the combined total of Expected commissioning: FY26 and Beyond FY26)"
+        },
+        "newHospitalsPlanned": {
+          "value": 8,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Royal Mudhol Pune, Sonarpur, Kolkata, Gachibowli, Hyderabad, Gurgaon, Malleswaram & Mysore Expansion, Bangalore, OMR, Chennai, Varanasi"
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "68% Occupancy"
+        },
+        "alos": {
+          "value": 3.34,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.34"
+        },
+        "ipVolume": {
+          "value": 146862,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Discharges 146,862"
+        },
+        "opVolume": {
+          "value": 521750,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume (1) 521,750"
+        },
+        "arpob": {
+          "value": 59073,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "59,073 / day ARPOB"
+        },
+        "arpp": {
+          "value": 158250,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "158,250 Avg Revenue per IP Patient"
+        },
+        "revenue": {
+          "value": 5085.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Total Revenues 50,856 Mio"
+        },
+        "ebitda": {
+          "value": 675.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA(Post Ind AS) 6,751 Mio"
+        },
+        "ebitdaMargin": {
+          "value": 13.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA Margin 13.3%"
+        },
+        "pat": {
+          "value": 305.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT 3,051 Mio"
+        },
+        "netDebt": {
+          "value": 1456.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consol Net Debt 14,565 Mio"
+        },
+        "capexAnnounced": {
+          "value": 3435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Balance Project Cost (in Crs) 3,435"
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue Growth YoY(%) 15%"
+        },
+        "roce": {
+          "value": 27.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 27.1%"
+        }
+      },
+      "notes": "Currency conversion from 'Mio' (Million) to 'INR_crore' (10 Million) was applied by dividing by 10. The reporting period end date is inferred as June 30, 2024, based on 'Q1 FY25' and common fiscal quarter endings, despite the cover letter stating 'June 20, 2024'. ROCE is reported for the Healthcare Services segment, not explicitly for the consolidated entity. 'newHospitalsPlanned' is derived by counting distinct projects listed in the expansion plan on page 22.",
+      "nonNullMetricCount": 19
+    },
+    "01e2108d-1407-4c09-8e4b-f17f05bf4c77": {
+      "newsId": "01e2108d-1407-4c09-8e4b-f17f05bf4c77",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q2",
+      "date": "2024-08-13",
+      "subject": "Outcome Of The Board Meeting (Revised) - Financial Results With Segment Report And Limited Review Report With UDIN",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7032671c-f9b9-4b34-a4a7-54673d2525a2.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:45:32.590Z",
+      "finishReason": "STOP",
+      "promptTokens": 6481,
+      "responseTokens": 1172,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY25-Q1",
+        "periodEnding": "2024-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7942,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on June 30, 2024, Apollo Hospitals had 7,942 operating beds across the network (excluding AHLL & managed beds)."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The overall occupancy for hospitals was at 68% vs 62% in the same period in the previous year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": "inpatient (IP) volume increasing by 11%"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": "outpatient (OP) new registrations by 13%."
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 5086,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY25 Revenues grew to Rs. 5,086 Crores; 15% YoY growth"
+        },
+        "ebitda": {
+          "value": 675,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY25 Consolidated EBITDA stood at Rs. 675 Crores; 33% YoY growth"
+        },
+        "ebitdaMargin": {
+          "value": 13.27,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Q1 FY25 Consolidated EBITDA stood at Rs. 675 Crores; 33% YoY growth"
+        },
+        "pat": {
+          "value": 305.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit / (Loss) for the period attributable to: Owners of the parent"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q1 FY25 Revenues grew to Rs. 5,086 Crores; 15% YoY growth"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "EBITDA margin was calculated from reported consolidated EBITDA and Revenue. PAT value used 'Profit / (Loss) for the period attributable to: Owners of the parent' from the consolidated financial statement, which aligns closely with the reported consolidated PAT in the press release.",
+      "nonNullMetricCount": 9
+    },
+    "f9e63981-7836-4d93-9cc1-3624821d33ba": {
+      "newsId": "f9e63981-7836-4d93-9cc1-3624821d33ba",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q2",
+      "date": "2024-08-13",
+      "subject": "Financial Results For The Quarter Ended 30Th June 2024",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ff7272d9-0db3-4375-b3b8-b366e5c12a8a.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:46:01.383Z",
+      "finishReason": "STOP",
+      "promptTokens": 6223,
+      "responseTokens": 1158,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7942,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on June 30, 2024, Apollo Hospitals had 7,942 operating beds across the network (excluding AHLL & managed beds)."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The overall occupancy for hospitals was at 68% vs 62% in the same period in the previous year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": "inpatient (IP) volume increasing by 11%"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": "outpatient (OP) new registrations by 13%."
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 5086,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY25 Revenues grew to Rs. 5,086 Crores"
+        },
+        "ebitda": {
+          "value": 675,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY25 Consolidated EBITDA stood at Rs. 675 Crores"
+        },
+        "ebitdaMargin": {
+          "value": 13.27,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Q1 FY25 Revenues grew to Rs. 5,086 Crores; Q1 FY25 Consolidated EBITDA stood at Rs. 675 Crores"
+        },
+        "pat": {
+          "value": 305,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY25 Consolidated PAT Rs. 305 Crores"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q1 FY25 Revenues grew to Rs. 5,086 Crores; 15% YoY growth"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions from million to crore were performed (10 million = 1 crore). EBITDA margin was calculated. 'Over 10,000 beds' is interpreted as 10000.",
+      "nonNullMetricCount": 9
+    },
+    "10c0e8ed-9691-4ad2-9354-fcd8b49fbc62": {
+      "newsId": "10c0e8ed-9691-4ad2-9354-fcd8b49fbc62",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-05-30",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/406daf7a-494f-4413-9bcd-c0bd50753640.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:46:30.209Z",
+      "finishReason": "STOP",
+      "promptTokens": 8803,
+      "responseTokens": 1281,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY24",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 51,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "45 Owned + 6 Managed Hospitals"
+        },
+        "bedCapacity": {
+          "value": 9500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "9,500 Owned & Managed Beds"
+        },
+        "operationalBeds": {
+          "value": 7945,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating beds Q4 FY24 7,945"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2285,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total 2,860 Total Beds, 2,285 Census Beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 7,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Expected commisioning : FY25 (Gachibowli, Hyderabad, Bangalore, Sonarpur Kolkata, Royal Mudhol Pune), Expected commisioning : FY26 (Gurgaon, SSPM & Mysore Expansion), Expected commisioning : FY27 (OMR Medicity, Varanasi)"
+        },
+        "occupancyRate": {
+          "value": 65,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "65% Occupancy"
+        },
+        "alos": {
+          "value": 3.39,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Inpatient ALOS (days) Q4 FY 24 3.39"
+        },
+        "ipVolume": {
+          "value": 142122,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "142,122 In-patients"
+        },
+        "opVolume": {
+          "value": 459523,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume(8) Q4 FY 24 459,523"
+        },
+        "arpob": {
+          "value": 59523,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "₹ 59,523 / day ARPOB¹"
+        },
+        "arpp": {
+          "value": 144965,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Avg revenue per In Patient (*) Q4 FY 24 144,965"
+        },
+        "revenue": {
+          "value": 4943.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue 49,439 (in ₹ Mio)"
+        },
+        "ebitda": {
+          "value": 640.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA(Post Ind AS) 6,405 (in ₹ Mio)"
+        },
+        "ebitdaMargin": {
+          "value": 12.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA Margin (%) 12.9%"
+        },
+        "pat": {
+          "value": 253.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT 2,538 (in ₹ Mio)"
+        },
+        "netDebt": {
+          "value": 1504,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt HCS 7,613, Health Co 5,540, AHLL 1,887 (Mio)"
+        },
+        "capexAnnounced": {
+          "value": 3435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total 3,435 Project Cost (in Crs)"
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue Growth YoY(%) 15%"
+        },
+        "roce": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 26.1%"
+        }
+      },
+      "notes": "All currency values in 'Mio' have been converted to 'INR_crore' by dividing by 10. Net Debt was calculated by summing individual segment net debts for FY24.",
+      "nonNullMetricCount": 19
+    },
+    "d9f8c294-a63c-405e-8953-a007753ed58f": {
+      "newsId": "d9f8c294-a63c-405e-8953-a007753ed58f",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-05-30",
+      "subject": "Financial Results For The Quarter And Year Ended 31St March 2024",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb047692-491e-48a6-b75e-8f0d601e3ed2.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:47:56.860Z",
+      "finishReason": "STOP",
+      "promptTokens": 11641,
+      "responseTokens": 1427,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q4",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7945,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on March 31, 2024, Apollo Hospitals had 7,945 operating beds across the network (excluding AHLL & managed beds)"
+        },
+        "bedsUnderDevelopment": {
+          "value": 425,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "plan to establish a state of the art 425 bed multi-speciality hospital at Pune."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "plan to establish a state of the art 425 bed multi-speciality hospital at Pune."
+        },
+        "occupancyRate": {
+          "value": 65,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The overall occupancy for hospitals was at 65% vs 64% in the same period in the previous year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4943.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 18,946 (Standalone) and 49,439 (Consolidated) for three months ended 31/03/2024"
+        },
+        "ebitda": {
+          "value": 640.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q4 FY24 Consolidated EBITDA stood at Rs. 640 Crores; 31% YoY growth"
+        },
+        "ebitdaMargin": {
+          "value": 12.96,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Revenue from operations 49,439 (Consolidated) and EBITDA at Rs.6,405 mn for three months ended 31/03/2024"
+        },
+        "pat": {
+          "value": 258.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit/(Loss) for the period/year (7) - (8) 2,584 (Consolidated) for three months ended 31/03/2024"
+        },
+        "netDebt": {
+          "value": 2228.1,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 22,356, Current liabilities (a) Financial Liabilities (i) Borrowings: 9,263, Current assets (b) Financial assets (iii) Cash and cash equivalents: 5,055, Current assets (b) Financial assets (iv) Bank balances: 4,283 (all in Million as at 31-Mar-24)"
+        },
+        "capexAnnounced": {
+          "value": 1136.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Purchase of Property plant & equipment, CWIP & Intangibles For the year ended March 31, 2024 (11,368)"
+        },
+        "revenueGrowthYoy": {
+          "value": 15,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q4 FY24 Revenues grew to Rs. 4,944 Crore; 15% YoY growth"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions from Million to Crore (1 Crore = 10 Million) were applied for Revenue, EBITDA, PAT, Net Debt, and Capex. EBITDA margin and Net Debt were derived from reported figures. Beds under development and new hospitals planned are based on a specific project mentioned, not a consolidated metric. The document reports Q4 FY24 results, not FY25-Q1.",
+      "nonNullMetricCount": 13
+    },
+    "8e5be3fa-ed83-4b65-ba55-0c2fefbbc960": {
+      "newsId": "8e5be3fa-ed83-4b65-ba55-0c2fefbbc960",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-04-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2faa7e2f-97ab-40df-9cbe-a4e59085f27d.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:48:25.052Z",
+      "finishReason": "STOP",
+      "promptTokens": 6223,
+      "responseTokens": 1045,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 10208,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Combined Financial Metrics | Snapshot (YTD 9MDec'23) ... Combined 10,208*"
+        },
+        "ebitda": {
+          "value": 711,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Combined Financial Metrics | Snapshot (YTD 9MDec'23) ... EBIDTA (Pre-Ind AS 116) 1 ... Combined 711"
+        },
+        "ebitdaMargin": {
+          "value": 7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Combined Financial Metrics | Snapshot (YTD 9MDec'23) ... EBIDTA % (Pre-Ind AS 116) 1 ... Combined 7.0%"
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": 18,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Return on Capital Employed FY23 +18%"
+        }
+      },
+      "notes": "Financial metrics (revenue, EBITDA, EBITDA margin) are for the combined Apollo Healthco and Keimed entity for YTD 9M Dec'23 (Q3 FY24). Return on Capital Employed (ROCE) is for FY23. The document does not contain data for FY25-Q1 as requested in the prompt, but rather provides an update on a transaction with historical financial figures.",
+      "nonNullMetricCount": 4
+    },
+    "607bce2e-7942-48bf-94a8-8c3dd6c28a34": {
+      "newsId": "607bce2e-7942-48bf-94a8-8c3dd6c28a34",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-04-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/48a1e92a-2fb4-4492-aa8b-8ba12c3c2157.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:48:47.585Z",
+      "finishReason": "STOP",
+      "promptTokens": 4675,
+      "responseTokens": 958,
+      "reportingPeriod": {
+        "fiscalQuarter": null,
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is a press release regarding a transaction involving Apollo Healthco Limited (AHL), a subsidiary, and Keimed, not a quarterly financial report for Apollo Hospitals Enterprise Ltd (AHEL). Therefore, most operational and financial metrics for AHEL for the specified period are not available. The revenue and EBITDA figures mentioned are future projections for the combined entity (AHL + Keimed), not current AHEL performance.",
+      "nonNullMetricCount": 2
+    },
+    "5b7cf884-14fa-419a-a0a0-6f2ccb7437d0": {
+      "newsId": "5b7cf884-14fa-419a-a0a0-6f2ccb7437d0",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-03-19",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2120e27-4d06-49bf-a5b7-a14bbec86085.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:49:05.755Z",
+      "finishReason": "STOP",
+      "promptTokens": 2095,
+      "responseTokens": 948,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q4",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "This document is a press release primarily focused on management changes and does not contain detailed financial or operational metrics for the reported period. The bed capacity and number of hospitals are general company facts from the 'About Apollo' section, not specific to the FY24-Q4 performance.",
+      "nonNullMetricCount": 2
+    },
+    "3b5ac5c3-1fa6-4f3f-b7ca-16cb2cffad81": {
+      "newsId": "3b5ac5c3-1fa6-4f3f-b7ca-16cb2cffad81",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1bfd4792-5f3f-4f7a-9258-8d9300dc4dd3.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:49:36.950Z",
+      "finishReason": "STOP",
+      "promptTokens": 8803,
+      "responseTokens": 1256,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 51,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "45 Owned + 6 Managed Hospitals"
+        },
+        "bedCapacity": {
+          "value": 9469,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "9,469 Owned & Managed Beds"
+        },
+        "operationalBeds": {
+          "value": 7911,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating beds Q3 FY24 7911"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2860,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total 2,860 beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 8,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Expected commisioning : FY25 (4 projects), Expected commisioning : FY26 (2 projects), Expected commisioning : FY27 (2 projects)"
+        },
+        "occupancyRate": {
+          "value": 66,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "66% Occupancy"
+        },
+        "alos": {
+          "value": 3.3,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Inpatient ALOS (days) Total (7) Q3 FY 24 3.30"
+        },
+        "ipVolume": {
+          "value": 144823,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "144,823 In-patients"
+        },
+        "opVolume": {
+          "value": 457198,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume (8) Total (7) Q3 FY 24 457,198"
+        },
+        "arpob": {
+          "value": 56368,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "₹56,368 / day ARPOB1"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4850.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue (in ₹ Mio) Q3FY24 48,506"
+        },
+        "ebitda": {
+          "value": 613.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA1 (in ₹ Mio) Q3FY24 6,137"
+        },
+        "ebitdaMargin": {
+          "value": 12.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA1 Margin (%) Q3FY24 12.7%"
+        },
+        "pat": {
+          "value": 245.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT (in ₹ Mio) Q3FY24 2,453"
+        },
+        "netDebt": {
+          "value": 1551.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consol Net Debt 15,518"
+        },
+        "capexAnnounced": {
+          "value": 788.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "*CWIP of ₹ 7,882 mio towards new projects under development"
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue Growth YOY(%) Q3FY24 14%"
+        },
+        "roce": {
+          "value": 26.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 26.5%"
+        }
+      },
+      "notes": "Currency conversion from 'Mio' (million) to 'INR_crore' (crore) was applied by dividing by 10. Outpatient volume represents new registrations only. Capex is based on Capital Work In Progress (CWIP) for new projects as of YTD Dec 23.",
+      "nonNullMetricCount": 18
+    },
+    "d0a52d5d-2b7a-414a-a54d-ce586d5edb3c": {
+      "newsId": "d0a52d5d-2b7a-414a-a54d-ce586d5edb3c",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Unaudited Financial Results For The Quarter And Nine Months Ended 31St Dec 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9d1a3a6-772d-4cc5-907a-f7fe8223c2cb.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:50:32.738Z",
+      "finishReason": "STOP",
+      "promptTokens": 4933,
+      "responseTokens": 1207,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Subsequent to the period end, the Company on February 01, 2024, has executed an Indenture of Lease and Business Transfer Agreement with Royal Mudhol Hospital and Research Centre, Pune in connection with the plan to establish a multi-speciality hospital at Pune."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4850.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations...Three months ended 31/12/2023...48,506"
+        },
+        "ebitda": {
+          "value": 1198.1,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Operating Margin (%) ... 24.7% (Page 5) and Revenue from operations ... 48,506 (Page 8)"
+        },
+        "ebitdaMargin": {
+          "value": 24.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating Margin (%) ... 24.7%"
+        },
+        "pat": {
+          "value": 254.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (7) - (8)...Three months ended 31/12/2023...2,544"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 105,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Working capital requirements & Purchase of fixed assets ... 1,050 Millions"
+        },
+        "revenueGrowthYoy": {
+          "value": 13.77,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue from operations...Three months ended 31/12/2023...48,506 (Rs. in Millions) and Corresponding Three months ended 31/12/2022...42,636 (Rs. in Millions)"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "EBITDA was derived by applying the stated 'Operating Margin (%)' of 24.7% to the 'Revenue from operations' for the period, as a direct consolidated EBITDA figure was not explicitly provided in the P&L table. This 'Operating Margin (%)' aligns with the standalone EBITDA margin calculated from the P&L. Revenue growth YOY was calculated based on the current quarter's revenue compared to the corresponding quarter of the previous year. Currency conversions from Millions to Crore (divide by 10) were applied.",
+      "nonNullMetricCount": 7
+    },
+    "f1cb92d1-aeb9-4c4c-b7e4-cec83d0e6534": {
+      "newsId": "f1cb92d1-aeb9-4c4c-b7e4-cec83d0e6534",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/376aa5af-7fee-451b-8960-28f13a684d5b.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:51:01.688Z",
+      "finishReason": "STOP",
+      "promptTokens": 3127,
+      "responseTokens": 1233,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 73,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 73 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7911,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on December 31, 2023, Apollo Hospitals had 7,911 operating beds across the network (excluding AHLL & managed beds)"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "First multi-specialty hospital inaugurated in Rourkela in partnership with SAIL as an asset light model this will be a 290-bed facility at full capacity."
+        },
+        "occupancyRate": {
+          "value": 65,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The overall occupancy for hospitals was at 65% vs 64% in the same period in the previous year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4850.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenues at Rs.48,506 mn vs Rs.42,636 mn in Q3FY23; growth of 14% YoY"
+        },
+        "ebitda": {
+          "value": 613.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA at Rs.6,137 mn vs Rs.5,053 mn in Q3FY23."
+        },
+        "ebitdaMargin": {
+          "value": 12.65,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Revenues at Rs.48,506 mn vs Rs.42,636 mn in Q3FY23; growth of 14% YoY"
+        },
+        "pat": {
+          "value": 245.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Reported PAT at Rs.2,453 mn vs Rs.1,535 mn in Q3FY23"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q3 Consolidated revenue grows by 14% YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversion from million to crore (10 million = 1 crore) applied for revenue, EBITDA, and PAT. EBITDA margin calculated from reported consolidated revenue (Rs.48,506 mn) and EBITDA (Rs.6,137 mn). New hospitals planned count derived from two specific mentions of new facilities (Rourkela and Ranchi).",
+      "nonNullMetricCount": 10
+    },
+    "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81": {
+      "newsId": "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:51:39.443Z",
+      "finishReason": "STOP",
+      "promptTokens": 8803,
+      "responseTokens": 1237,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY24",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 49,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "44 Owned + 5 Managed Hospitals"
+        },
+        "bedCapacity": {
+          "value": 9155,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "9,155 Owned & Managed Beds"
+        },
+        "operationalBeds": {
+          "value": 7765,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating beds Q2 FY24 7765"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2860,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 8,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Healthcare Services : Expansion Plan"
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "68% Occupancy"
+        },
+        "alos": {
+          "value": 3.26,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Inpatient ALOS (days) Q2 FY24 3.26"
+        },
+        "ipVolume": {
+          "value": 149197,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient volume Q2 FY24 149,197"
+        },
+        "opVolume": {
+          "value": 513745,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume (8) Q2 FY24 513,745"
+        },
+        "arpob": {
+          "value": 57391,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "₹ 57,391 / day ARPOB¹"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4846.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue (in ₹ Mio) Q2FY24 48,469"
+        },
+        "ebitda": {
+          "value": 627.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA1 (in ₹ Mio) Q2FY24 6,276"
+        },
+        "ebitdaMargin": {
+          "value": 12.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA1 Margin (%) Q2FY24 12.9%"
+        },
+        "pat": {
+          "value": 232.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT (in ₹ Mio) Q2FY24 2,329"
+        },
+        "netDebt": {
+          "value": 1521.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consol Net Debt 15,216"
+        },
+        "capexAnnounced": {
+          "value": 3435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Project Cost (in Crs)"
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue Growth YOY(%) Q2FY24 14%"
+        },
+        "roce": {
+          "value": 28,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 28%"
+        }
+      },
+      "notes": "Revenue, EBITDA, PAT, and Net Debt were converted from INR Million to INR Crore by dividing by 10. Capex Announced is the sum of 'Project Cost' for all planned projects across FY25-FY27 from the expansion plan table. ARPP for the hospital segment was not explicitly found. EBITDA value on page 7 (6,276 Mio) was used over page 10 (6,275 Mio) due to page 7 being a consolidated summary.",
+      "nonNullMetricCount": 18
+    },
+    "a12f7094-34fc-41f5-9cd2-3de6b82712a7": {
+      "newsId": "a12f7094-34fc-41f5-9cd2-3de6b82712a7",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Financial Results For The Quarter And Half Year Ended 30Th Sept 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f556f47-43c9-4d84-bab2-a78303da66bc.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:52:26.859Z",
+      "finishReason": "STOP",
+      "promptTokens": 9577,
+      "responseTokens": 1479,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q2",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 71,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7765,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on September 30, 2023, Apollo Hospitals had 7,765 operating beds across the network (excluding AHLL & managed beds), out of which 5,051 is occupied beds."
+        },
+        "bedsUnderDevelopment": {
+          "value": 2285,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Proposed Capacity Addition 2,285 beds - details as per Annexure II enclosed"
+        },
+        "newHospitalsPlanned": {
+          "value": 6,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Annexure - II Hospital Expansion Plans - FY24 to FY27 lists Gachibowli, Sonarpur Kolkata, Royal Mudhol Pune, Gurgaon, OMR Medicity, Varanasi as Greenfield or Hospital Asset Acquisition projects."
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Existing Capacity utilisation 68%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4847,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenues grew by 14% YoY to Rs 4,847 cr"
+        },
+        "ebitda": {
+          "value": 628,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q2 Consolidated Reported EBITDA at Rs 628 Cr, due to impact of 24/7 operating costs"
+        },
+        "ebitdaMargin": {
+          "value": 12.96,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Q2 Consolidated Reported EBITDA at Rs 628 Cr, due to impact of 24/7 operating costs, as compared to EBITDA (Post IND AS 116) of Rs 565 Cr in Q2 FY23 (YoY: 11%) and Rs509 Cr in Q1 FY24 (QoQ: 23%)."
+        },
+        "pat": {
+          "value": 233,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT (including Apollo HealthCo and AHLL) at Rs 233 cr, 14% YoY growth"
+        },
+        "netDebt": {
+          "value": 2141,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 20,158 (Rs. in Million); Current liabilities (a) Financial Liabilities (i) Borrowings: 9,942 (Rs. in Million); Current assets (b) Financial assets (iii) Cash and cash equivalents: 4,724 (Rs. in Million); Current assets (b) Financial assets (iv) Bank balances other than (iii) above: 3,966 (Rs. in Million)"
+        },
+        "capexAnnounced": {
+          "value": 3435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million"
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q2FY24 Revenues grew to Rs 4,847 crores; 14% YoY growth"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The user requested FY24-Q3, but the document reports results for the period ended September 30, 2023, which corresponds to Q2 FY24 for a company with a fiscal year ending March 31st. Metrics are extracted for Q2 FY24. Consolidated figures are used for financial metrics where available. EBITDA margin and Net Debt are derived from reported figures. New hospitals planned count is based on Greenfield projects and Hospital Asset Acquisitions listed in Annexure II.",
+      "nonNullMetricCount": 13
+    },
+    "9e943b6a-06f1-4128-8e33-db4177098455": {
+      "newsId": "9e943b6a-06f1-4128-8e33-db4177098455",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c60bcd77-7416-41c7-b578-357072d02fbf.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:53:05.200Z",
+      "finishReason": "STOP",
+      "promptTokens": 9577,
+      "responseTokens": 1472,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q2",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 71,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10145,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "7,860 operational beds (on a consolidated basis)\nProposed Capacity Addition 2,285 beds"
+        },
+        "operationalBeds": {
+          "value": 7860,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "7,860 operational beds (on a consolidated basis)"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2285,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Proposed Capacity Addition 2,285 beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 8,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "On track to add 2300 beds across 8 locations at a cost of Rs 3,400 crs over the next 3 financial years."
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Existing Capacity utilisation 68%\nThe overall occupancy for hospitals was at 68% vs 62% in the trailing quarter"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4847,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenues grew by 14% YoY to Rs 4,847 cr"
+        },
+        "ebitda": {
+          "value": 628,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q2 Consolidated Reported EBITDA at Rs 628 Cr, due to impact of 24/7 operating costs, as compared to EBITDA (Post IND AS 116) of Rs 565 Cr in Q2 FY23 (YoY: 11%) and Rs509 Cr in Q1 FY24 (QoQ: 23%)."
+        },
+        "ebitdaMargin": {
+          "value": 13,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q2 Consolidated Reported EBITDA at Rs 628 Cr, due to impact of 24/7 operating costs, as compared to EBITDA (Post IND AS 116) of Rs 565 Cr in Q2 FY23 (YoY: 11%) and Rs509 Cr in Q1 FY24 (QoQ: 23%).\nConsolidated Revenues grew by 14% YoY to Rs 4,847 cr"
+        },
+        "pat": {
+          "value": 233,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT is Rs 233 Cr, compared to Rs. 204 Cr in Q2FY23 and Rs 167 Cr in Q1 FY24"
+        },
+        "netDebt": {
+          "value": 2141,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings 20,158\nCurrent liabilities (a) Financial Liabilities (i) Borrowings 9,942\nCurrent assets (b) Financial assets (iii) Cash and cash equivalents 4,724\n(iv) Bank balances 3,966"
+        },
+        "capexAnnounced": {
+          "value": 3435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million"
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenues grew by 14% YoY to Rs 4,847 cr"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "EBITDA margin calculated from reported consolidated EBITDA and revenue. Net Debt calculated from consolidated balance sheet figures (Total Borrowings - Cash & Bank Balances). Number of hospitals is a general statement about the platform, not specific to the reporting entity's current operational count for the quarter. Capex is a planned outlay for FY24-FY27, not necessarily spent in Q2 FY24.",
+      "nonNullMetricCount": 13
+    },
+    "70addc5d-66e6-4b99-960b-92c62ccc2fb1": {
+      "newsId": "70addc5d-66e6-4b99-960b-92c62ccc2fb1",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-09-27",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e195a14-08f8-471e-8ba2-2d20ad2cf306.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:53:26.856Z",
+      "finishReason": "STOP",
+      "promptTokens": 2095,
+      "responseTokens": 1080,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q2",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 71,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is India's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today Apollo is India's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "operationalBeds": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is India's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "bedsUnderDevelopment": {
+          "value": 1025,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "acquisition of a partially built hospital in Sonarpur, Kolkata with a total capacity of 325 beds... Apollo will further augment its capacity in the East by an addition of another 700 beds over the next 3 years"
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "acquisition of a partially built hospital in Sonarpur, Kolkata with a total capacity of 325 beds"
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 102,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "INR 1,020 million towards asset purchase"
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is a press release primarily focused on an acquisition, not a comprehensive financial report. Therefore, most financial and operational performance metrics are not available. The 10,000 beds are assumed to be operational as they are described as part of Apollo's current 'integrated healthcare platform'. Capex conversion: 1,020 million INR = 102 crore INR.",
+      "nonNullMetricCount": 6
+    },
+    "74dff397-3291-4f4c-a306-e835e9f92294": {
+      "newsId": "74dff397-3291-4f4c-a306-e835e9f92294",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-11",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d8f2c8a7-22c8-4d1d-8f48-0a38125770aa.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:53:57.850Z",
+      "finishReason": "STOP",
+      "promptTokens": 6739,
+      "responseTokens": 1149,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 49,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "43 Owned + 6 Managed Hospitals"
+        },
+        "bedCapacity": {
+          "value": 9445,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "9,445 Owned & Managed Beds"
+        },
+        "operationalBeds": {
+          "value": 7798,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating beds Q1 FY 24 Healthcare Serv Group 7798"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 62,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Bed Occupancy Rate (%) Total Q1 FY 24 62%"
+        },
+        "alos": {
+          "value": 3.27,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Inpatient ALOS (days) Total Q1 FY 24 3.27"
+        },
+        "ipVolume": {
+          "value": 133846,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient volume Total Q1 FY 24 133,846"
+        },
+        "opVolume": {
+          "value": 458694,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume(7) Total Q1 FY 24 458,694"
+        },
+        "arpob": {
+          "value": 57760,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (₹/day)(8) Total Q1 FY 24 57,760"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4417.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Total Revenues (in ₹ Mio) 44,178"
+        },
+        "ebitda": {
+          "value": 509,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA (in ₹ Mio) 5,090"
+        },
+        "ebitdaMargin": {
+          "value": 11.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA margin (%) 11.5%"
+        },
+        "pat": {
+          "value": 166.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT (Reported) (in ₹ Mio) 1,666"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 635.5,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "*CWIP of ₹ 6,355 mio towards new projects under development"
+        },
+        "revenueGrowthYoy": {
+          "value": 16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "YOY Growth Revenue 16%"
+        },
+        "roce": {
+          "value": 25,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 25%"
+        }
+      },
+      "notes": "Currency conversions from INR Mio to INR Crore assumed (divide by 10). Consolidated Net Debt not explicitly provided in the document.",
+      "nonNullMetricCount": 15
+    },
+    "aed0c021-d66f-4388-8f55-250b2e7e4552": {
+      "newsId": "aed0c021-d66f-4388-8f55-250b2e7e4552",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-11",
+      "subject": "Unaudited Financial Results For The Quarter Ended 30Th June 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2a5e40c7-294a-4e8c-9934-67aa216140e8.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:54:31.322Z",
+      "finishReason": "STOP",
+      "promptTokens": 6481,
+      "responseTokens": 1224,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 71,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "bedCapacity": {
+          "value": 10000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Today Apollo is the world's largest integrated healthcare platform with over 10,000 beds across 71 hospitals"
+        },
+        "operationalBeds": {
+          "value": 7798,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on June 30, 2023, Apollo Hospitals had 7,798 operating beds across the network (excluding AHLL & managed beds)"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4417.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY24 Revenues grew to Rs 44,178 mn; 16% YoY growth"
+        },
+        "ebitda": {
+          "value": 509,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 Consolidated Reported EBITDA at Rs 5090 mn, after 24/7 operating costs of Rs 2,039 mn"
+        },
+        "ebitdaMargin": {
+          "value": 11.52,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Q1 Consolidated Reported EBITDA at Rs 5090 mn, after 24/7 operating costs of Rs 2,039 mn, as compared to EBITDA of Rs 4,907 mn in Q1 FY23"
+        },
+        "pat": {
+          "value": 166.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Q1 FY24 Consolidated PAT is Rs 1,666 mn."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenues grew 16% to Rs.44,178 mn vs Rs.37,956 mn in Q1 FY23"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document reports results for Q1 FY24 (three months ended June 30, 2023), not Q2 FY24 as specified in the prompt. Consolidated figures were prioritized for financial metrics. EBITDA margin was calculated based on reported consolidated EBITDA (5,090 mn) and revenue (44,178 mn). Number of hospitals and bed capacity are from a general company overview, not specific to the reported quarter. Occupancy rate and ARPOB are provided for specific clusters, not consolidated.",
+      "nonNullMetricCount": 8
+    },
+    "1954a027-781d-4e94-ac79-ae3cd3f96f31": {
+      "newsId": "1954a027-781d-4e94-ac79-ae3cd3f96f31",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-30",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf764741-a6db-4794-9622-ebad7e16a5ca.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-24T15:55:03.027Z",
+      "finishReason": "STOP",
+      "promptTokens": 7771,
+      "responseTokens": 1306,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY23",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 48,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "43 Owned + 5 Managed Hospitals"
+        },
+        "bedCapacity": {
+          "value": 9395,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "9,395 Owned & Managed Beds"
+        },
+        "operationalBeds": {
+          "value": 7860,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating beds 7860"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 64,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 64%"
+        },
+        "alos": {
+          "value": 3.41,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Inpatient ALOS (days) FY 23 3.41"
+        },
+        "ipVolume": {
+          "value": 133991,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume grew by 16% from 115,902 in Q4FY22 to 133,991 in Q4FY23."
+        },
+        "opVolume": {
+          "value": 1879171,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient volume (7) 1,879,171"
+        },
+        "arpob": {
+          "value": 53232,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB grew by 10% to ₹ 53,232 in Q4FY23"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4302.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenues at 43,022 Mio for Q4FY23 growth of 21%."
+        },
+        "ebitda": {
+          "value": 488.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA (Post Ind AS 116) 4,882 Mio"
+        },
+        "ebitdaMargin": {
+          "value": 11.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA (Post Ind AS 116) margin (%) 11.3%"
+        },
+        "pat": {
+          "value": 144.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT of ₹1,445 Mio."
+        },
+        "netDebt": {
+          "value": 1509.4,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Gross Debt HCS 20,552 Mio, Health Co 3,999 Mio, AHLL 2,554 Mio. Cash & Cash Equivalents HCS 10,500 Mio, Health Co 303 Mio, AHLL 1,208 Mio."
+        },
+        "capexAnnounced": {
+          "value": 609.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "*CWIP of ₹ 6,098 mio towards new projects under development"
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenues at 43,022 Mio for Q4FY23 growth of 21%."
+        },
+        "roce": {
+          "value": 25,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE 25%"
+        }
+      },
+      "notes": "Currency conversions from 'Mio' to 'INR_crore' by dividing by 10. Net Debt is calculated by summing Gross Debt and Cash & Cash Equivalents across HCS, Health Co, and AHLL segments. IP Volume and ARPOB are for Q4 FY23, while ALOS and OP Volume are for the full FY23 as Q4 specific consolidated figures were not available.",
+      "nonNullMetricCount": 16
+    },
+    "c00226da-06aa-48e4-bc57-ddc2fadbd874": {
+      "newsId": "c00226da-06aa-48e4-bc57-ddc2fadbd874",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-30",
+      "subject": "Audit Report On Audited Financial Results (Both Standalone And Consolidated) For The Quarter And Year Ended March 31, 2023 With UDIN",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2cd3158-475f-4578-9a11-93dc9092f471.pdf",
+      "extractedAt": "2026-05-24T15:55:09.219Z",
+      "error": "GEMINI_DAILY_QUOTA_EXCEEDED: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+      "attemptCount": 1,
+      "metrics": null
     }
   },
-  "lastExtractionAt": "2026-05-24T03:00:25.068Z",
+  "lastExtractionAt": "2026-05-24T15:55:09.219Z",
   "model": "gemini-2.5-flash"
 }
