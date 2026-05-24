@@ -5,13 +5,25 @@ const ENDPOINT = (model) =>
 
 export const DEFAULT_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
 
+// Distinguish "daily quota exhausted" (hard stop) from "rate-limited" (retry-able)
+function classifyQuotaError(bodyText) {
+  if (!bodyText) return null;
+  if (/quota.*per day|requests per day|daily limit|exceeded your current quota/i.test(bodyText)) {
+    return 'daily';
+  }
+  if (/quota|rate limit|exceeded/i.test(bodyText)) {
+    return 'rate';
+  }
+  return null;
+}
+
 export async function callGeminiWithPdf({
   pdfBuffer,
   prompt,
   apiKey,
   model = DEFAULT_MODEL,
   temperature = 0.1,
-  maxAttempts = 5,
+  maxAttempts = 4,
 }) {
   if (!apiKey) throw new Error('GEMINI_API_KEY missing');
   if (pdfBuffer.length > 19 * 1024 * 1024) {
@@ -46,9 +58,19 @@ export async function callGeminiWithPdf({
 
       if (res.status === 429 || res.status === 503) {
         const text = await res.text();
-        const wait = 30_000 * 2 ** (attempt - 1);
-        console.error(`    HTTP ${res.status} (rate/availability) — wait ${wait / 1000}s (${attempt}/${maxAttempts})`);
-        if (attempt === maxAttempts) throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
+        const kind = classifyQuotaError(text);
+
+        // Daily quota → no point retrying; bail out fast so caller can stop the whole run
+        if (kind === 'daily') {
+          const err = new Error(`GEMINI_DAILY_QUOTA_EXCEEDED: ${text.slice(0, 200)}`);
+          err.dailyQuotaExceeded = true;
+          throw err;
+        }
+
+        // Rate limit / availability → bounded backoff (max 60s, not 480s like before)
+        const wait = Math.min(60_000, 10_000 * 2 ** (attempt - 1));
+        console.error(`    HTTP ${res.status} (${kind || 'transient'}) — wait ${wait / 1000}s (${attempt}/${maxAttempts})`);
+        if (attempt === maxAttempts) throw new Error(`HTTP ${res.status} (exhausted): ${text.slice(0, 200)}`);
         await sleep(wait);
         continue;
       }
@@ -81,9 +103,10 @@ export async function callGeminiWithPdf({
         model,
       };
     } catch (e) {
+      if (e.dailyQuotaExceeded) throw e; // never retry on daily quota
       lastErr = e;
       if (attempt < maxAttempts) {
-        const wait = 5000 * attempt;
+        const wait = 4000 * attempt;
         console.error(`    gemini error: ${e.message} — retry in ${wait}ms`);
         await sleep(wait);
       }

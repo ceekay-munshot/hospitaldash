@@ -44,19 +44,26 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ github.event.inputs.model || 'gemini-2.5-flash' }}
-          MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '40' }}
+          MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '25' }}
           GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '4500' }}
         run: node scripts/extract-metrics.mjs
 
+      # CRITICAL: always commit progress, even if extraction step crashed/timed out.
+      # The script writes to disk after every extraction; we never want to lose it.
       - name: Commit if changed
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/extracted/*.json
-          if git diff --cached --quiet; then
-            echo "No new extractions."
+          if ls data/extracted/*.json >/dev/null 2>&1; then
+            git add data/extracted/*.json
+            if git diff --cached --quiet; then
+              echo "No new extractions to commit."
+            else
+              git commit -m "chore(data): extract metrics via Gemini (partial ok)"
+              git pull --rebase origin main || true
+              git push
+            fi
           else
-            git commit -m "chore(data): extract metrics via Gemini"
-            git pull --rebase origin main || true
-            git push
+            echo "No extracted data dir yet."
           fi

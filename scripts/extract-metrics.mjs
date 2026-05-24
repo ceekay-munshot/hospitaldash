@@ -231,6 +231,18 @@ async function processCompany(company, budget) {
       };
       errors++;
       console.error(`FAIL (attempt ${attemptCount}) ${e.message}`);
+
+      // Persist this failure BEFORE bailing on daily quota
+      await mkdir(dirname(outPath), { recursive: true });
+      existing.lastExtractionAt = new Date().toISOString();
+      existing.model = DEFAULT_MODEL;
+      await writeFile(outPath, JSON.stringify(existing, null, 2));
+
+      if (e.dailyQuotaExceeded) {
+        console.error('    ⛔ Gemini daily quota exhausted — aborting run, resume tomorrow');
+        budget.quotaExhausted = true;
+        return { slug: company.slug, extracted, errors, totalCached: Object.keys(existing.byNewsId).length, pendingRemaining: pending.length - extracted - errors, quotaExhausted: true };
+      }
     }
 
     // Persist after every extraction — resumable, never lose progress
@@ -259,6 +271,11 @@ async function run() {
   const summary = [];
 
   for (const c of companies) {
+    if (budget.quotaExhausted) {
+      console.error(`\n— Gemini daily quota exhausted; skipping ${c.slug} —`);
+      summary.push({ slug: c.slug, skipped: true, reason: 'daily quota' });
+      continue;
+    }
     if (budget.remaining <= 0) {
       console.error(`\n— budget exhausted before ${c.slug}; will resume next run —`);
       summary.push({ slug: c.slug, skipped: true });
@@ -266,6 +283,10 @@ async function run() {
     }
     const s = await processCompany(c, budget);
     summary.push(s);
+    if (s.quotaExhausted) {
+      console.error('\n— stopping all further company processing this run —');
+      break;
+    }
   }
 
   console.error('\n=== Extraction summary ===');
