@@ -34,9 +34,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-05-24",
+      "price": 1023.25,
+      "open": 1069.95,
+      "high": 1069.95,
+      "low": 1010.85,
+      "prevClose": 1091.55,
+      "change": -68.3,
+      "changePct": -6.26,
+      "volumeShares": 505000,
+      "turnoverInr": 519500000,
+      "twoWeekAvgVolumeShares": 178000,
+      "weightedAvgPrice": 1029.01,
+      "marketCapFullCr": 99587.17,
+      "marketCapFreeFloatCr": 75332.22,
+      "circuitLimits": "5,04,880.00/920.95",
+      "faceValue": 10,
+      "isin": "INE027H01010",
+      "ticker": "MAXHEALTH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 100",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-05-23T15:17:12.543Z",
+  "lastFetchedAt": "2026-05-24T15:04:21.160Z",
   "latestRaw": {
     "header": {
       "CurrRate": {

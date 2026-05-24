@@ -2,21 +2,21 @@
   "scripCode": "543980",
   "slug": "jupiter-lifeline",
   "name": "Jupiter",
-  "fetchedAt": "2026-05-23T15:16:50.635Z",
+  "fetchedAt": "2026-05-24T15:04:13.147Z",
   "window": {
-    "from": "20230524",
-    "to": "20260523",
-    "days": 1095,
+    "from": "20260223",
+    "to": "20260524",
+    "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20230524&strScrip=543980&strSearch=P&strToDate=20231119&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260223&strScrip=543980&strSearch=P&strToDate=20260524&strType=C",
       "count": 230,
-      "countFresh": 230,
-      "chunks": 7,
-      "pages": 7,
+      "countFresh": 21,
+      "chunks": 1,
+      "pages": 1,
       "tag": "confirmed",
       "data": [
         {
@@ -36,7 +36,7 @@
           "CATEGORYNAME": "Company Update",
           "OLD": 1,
           "RN": 1,
-          "PDFFLAG": 0,
+          "PDFFLAG": 1,
           "NSURL": "https://www.bseindia.com/stock-share-price/jupiter-life-line-hospitals-ltd/jlhl/543980/",
           "SLONGNAME": "Jupiter Life Line Hospitals Ltd",
           "AGENDA_ID": 157,
@@ -6461,38 +6461,10 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20230524&TDate=20260523&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
-      "count": 3,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260223&TDate=20260524&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
+      "count": 1,
       "tag": "confirmed",
       "data": [
-        {
-          "scrip_code": 543980,
-          "short_name": "JLHL",
-          "Ex_date": "02 Aug 2024",
-          "Purpose": "Final Dividend - Rs. - 1.0000",
-          "RD_Date": "02 Aug 2024",
-          "BCRD_FROM": "",
-          "BCRD_TO": "",
-          "ND_START_DATE": "02 Aug 2024",
-          "ND_END_DATE": "02 Aug 2024",
-          "payment_date": "",
-          "exdate": "20240802",
-          "long_name": "Jupiter Life Line Hospitals Ltd"
-        },
-        {
-          "scrip_code": 543980,
-          "short_name": "JLHL",
-          "Ex_date": "04 Jul 2025",
-          "Purpose": "Final Dividend - Rs. - 1.0000",
-          "RD_Date": "04 Jul 2025",
-          "BCRD_FROM": "",
-          "BCRD_TO": "",
-          "ND_START_DATE": "04 Jul 2025",
-          "ND_END_DATE": "04 Jul 2025",
-          "payment_date": "",
-          "exdate": "20250704",
-          "long_name": "Jupiter Life Line Hospitals Ltd"
-        },
         {
           "scrip_code": 543980,
           "short_name": "JLHL",
@@ -6511,7 +6483,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20230524&todate=20260523&scripcode=543980",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260223&todate=20260524&scripcode=543980",
       "count": 0,
       "tag": "confirmed",
       "data": []
