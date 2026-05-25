@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       max_extractions:
-        description: 'Max PDFs to extract this run (Gemini quota budget). Lower = safer.'
+        description: 'Max PDFs to extract this run. 300 covers full backfill in one shot.'
         required: false
-        default: '40'
+        default: '300'
       model:
-        description: 'Gemini model to use (gemini-2.5-flash recommended).'
+        description: 'Gemini model. flash-lite = 1000 RPD (use for backfill); flash = better quality, ~50 RPD.'
         required: false
-        default: 'gemini-2.5-flash'
+        default: 'gemini-2.5-flash-lite'
       call_delay_ms:
-        description: 'Delay between Gemini calls in ms (keeps us under 15 RPM).'
+        description: 'Delay between calls in ms. Lower = faster but watch RPM.'
         required: false
-        default: '4500'
+        default: '4000'
   schedule:
     # 30 min after scrape (scrape is at 14:00 UTC)
     - cron: '30 14 * * *'
@@ -29,7 +29,7 @@ concurrency:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -43,9 +43,9 @@ jobs:
       - name: Run Gemini extraction
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ github.event.inputs.model || 'gemini-2.5-flash' }}
-          MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '25' }}
-          GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '4500' }}
+          GEMINI_MODEL: ${{ github.event.inputs.model || 'gemini-2.5-flash-lite' }}
+          MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '60' }}
+          GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '4000' }}
         run: node scripts/extract-metrics.mjs
 
       # Rebuild merged metrics + sector dataset whenever extraction ran (even partially).
