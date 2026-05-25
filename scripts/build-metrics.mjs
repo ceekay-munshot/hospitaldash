@@ -33,6 +33,28 @@ const METRIC_KEYS = [
   'roce',
 ];
 
+const METRIC_UNIT = {
+  numberOfHospitals: 'count',
+  bedCapacity: 'count',
+  operationalBeds: 'count',
+  bedsUnderDevelopment: 'count',
+  newHospitalsPlanned: 'count',
+  occupancyRate: '%',
+  alos: 'days',
+  ipVolume: 'admissions',
+  opVolume: 'visits',
+  arpob: 'INR_per_day',
+  arpp: 'INR_per_patient',
+  revenue: 'INR_crore',
+  ebitda: 'INR_crore',
+  ebitdaMargin: '%',
+  pat: 'INR_crore',
+  netDebt: 'INR_crore',
+  capexAnnounced: 'INR_crore',
+  revenueGrowthYoy: '%',
+  roce: '%',
+};
+
 async function loadJson(path) {
   try {
     return JSON.parse(await readFile(path, 'utf8'));
@@ -83,10 +105,17 @@ async function processCompany(company) {
   const overrideFile = await loadJson(`data/overrides/${slug}.json`);
   const quoteFile = await loadJson(`data/quotes/${slug}.json`);
   const docsFile = await loadJson(`data/docs/${slug}.json`);
+  const financialsFile = await loadJson(`data/financials/${slug}.json`);
 
   const extractions = extractedFile?.byNewsId
     ? Object.values(extractedFile.byNewsId).filter((e) => e.metrics && !e.error)
     : [];
+
+  // Index BSE financials by fiscal quarter
+  const financialsByFq = new Map();
+  for (const row of financialsFile?.quarterly || []) {
+    if (row.period) financialsByFq.set(row.period, row);
+  }
 
   // Bucket extractions by reporting fiscal quarter
   const byQuarter = new Map();
@@ -97,36 +126,81 @@ async function processCompany(company) {
     byQuarter.get(fq).push(ext);
   }
 
+  // ALSO include quarters that only have BSE financials (no LLM extraction)
+  for (const fq of financialsByFq.keys()) {
+    if (!byQuarter.has(fq)) byQuarter.set(fq, []);
+  }
+
   // Latest quote (for valuation metrics)
   const latestSnap = quoteFile?.snapshots?.[quoteFile.snapshots.length - 1] || null;
   const marketCapCr = latestSnap?.marketCapFullCr ?? null;
+
+  // Build a "metric object" from BSE structured financials (treat as a confirmed source)
+  function metricsFromFinancials(fin) {
+    if (!fin) return {};
+    const m = {};
+    const set = (key, value, label) => {
+      if (value == null) return;
+      m[key] = {
+        value,
+        unit: METRIC_UNIT[key] || '',
+        confidence: 'high',
+        quote: `BSE structured filing (${fin.type}) for ${fin.period}: ${label}`,
+        source: { docType: 'bse-quarterly-result-api', newsId: null, date: fin.periodEnding, pdfUrl: null },
+      };
+    };
+    set('revenue', fin.revenue, 'Revenue from operations');
+    set('ebitda', fin.ebitda, 'EBITDA (derived: PBT + Depr + Finance cost)');
+    set('ebitdaMargin', fin.ebitdaMargin, 'EBITDA margin');
+    set('pat', fin.pat, 'Profit for the period');
+    return m;
+  }
 
   // For every quarter, pick best value per metric, then derive
   const quarters = {};
   for (const fq of [...byQuarter.keys()].sort(compareQuarters)) {
     const exts = byQuarter.get(fq);
-    const metrics = {};
+    const finRow = financialsByFq.get(fq);
+
+    // Start from BSE structured financials (verified, high-confidence)
+    const baseMetrics = metricsFromFinancials(finRow);
+
+    // Overlay LLM extractions — but only fill in metrics not already provided
+    // (BSE structured > LLM extraction for items both can supply)
     for (const key of METRIC_KEYS) {
+      if (baseMetrics[key]) continue; // BSE already provided
       const picked = pickBestForMetric(exts, key);
-      if (picked) metrics[key] = picked;
+      if (picked) baseMetrics[key] = picked;
     }
-    // Apply manual overrides for this quarter (always wins)
-    const merged = applyOverrides(metrics, overrideFile?.[fq]);
+
+    // Apply manual overrides (always wins)
+    const merged = applyOverrides(baseMetrics, overrideFile?.[fq]);
     const derived = deriveMetrics({ metrics: merged, marketCapCr });
 
     const range = quarterRange(fq);
+    const sourceList = exts.map((e) => ({
+      docType: e.docType,
+      newsId: e.newsId,
+      date: e.date,
+      pdfUrl: e.pdfUrl,
+    }));
+    if (finRow) {
+      sourceList.unshift({
+        docType: 'bse-financials-api',
+        newsId: null,
+        date: finRow.periodEnding,
+        pdfUrl: null,
+        note: `${finRow.type} quarterly result`,
+      });
+    }
+
     quarters[fq] = {
       fiscalQuarter: fq,
       label: range?.label || fq,
       calendar: range?.calendar || null,
       from: range?.from || null,
       to: range?.to || null,
-      sourceExtractions: exts.map((e) => ({
-        docType: e.docType,
-        newsId: e.newsId,
-        date: e.date,
-        pdfUrl: e.pdfUrl,
-      })),
+      sourceExtractions: sourceList,
       metrics: merged,
       derived,
     };

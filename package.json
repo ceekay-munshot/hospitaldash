@@ -1,0 +1,16 @@
+{
+  "name": "hospitaldash-scripts",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Server-side scrapers + builders (not the dashboard; see dashboard/ for that). No runtime dependencies — all scripts use Node built-ins only.",
+  "scripts": {
+    "scrape": "node scripts/scrape-bse-company.mjs --all",
+    "quotes": "node scripts/scrape-bse-quotes.mjs --all",
+    "classify": "node scripts/classify-docs.mjs",
+    "financials": "node scripts/scrape-bse-financials.mjs",
+    "extract": "node scripts/extract-metrics.mjs",
+    "build-metrics": "node scripts/build-metrics.mjs",
+    "build-sector": "node scripts/build-sector.mjs"
+  }
+}
