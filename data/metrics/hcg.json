@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-05-25T18:32:18.177Z",
+  "lastBuiltAt": "2026-05-25T18:35:22.259Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 656.7,
@@ -38,20 +38,7 @@
           "note": "derived-from-pdf quarterly result"
         }
       ],
-      "metrics": {
-        "revenue": {
-          "value": 34056,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-12-31",
-            "pdfUrl": null
-          }
-        }
-      },
+      "metrics": {},
       "derived": {
         "enterpriseValueCr": 9804.7
       }
@@ -75,25 +62,25 @@
         "revenue": {
           "value": 26650,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf"
           }
         },
         "pat": {
           "value": 1,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Profit for the period",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf"
           }
         }
       },
@@ -121,25 +108,25 @@
         "revenue": {
           "value": 25819,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY23-Q4: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-03-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf"
           }
         },
         "pat": {
           "value": 31,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY23-Q4: Profit for the period",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-03-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf"
           }
         }
       },

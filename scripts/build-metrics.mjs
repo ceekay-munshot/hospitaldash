@@ -135,7 +135,10 @@ async function processCompany(company) {
   const latestSnap = quoteFile?.snapshots?.[quoteFile.snapshots.length - 1] || null;
   const marketCapCr = latestSnap?.marketCapFullCr ?? null;
 
-  // Build a "metric object" from BSE structured financials (treat as a confirmed source)
+  // Build a "metric object" from BSE structured financials (treat as a confirmed source).
+  // SANITY-FILTERED — PDF-parse output is unreliable (unit detection issues, wrong column
+  // picks) so we drop anything that doesn't pass plausibility checks and demote remaining
+  // values to medium confidence (LLM extractions still win where available).
   function metricsFromFinancials(fin) {
     if (!fin) return {};
     const m = {};
@@ -144,15 +147,36 @@ async function processCompany(company) {
       m[key] = {
         value,
         unit: METRIC_UNIT[key] || '',
-        confidence: 'high',
+        confidence: 'medium',
         quote: `BSE structured filing (${fin.type}) for ${fin.period}: ${label}`,
-        source: { docType: 'bse-quarterly-result-api', newsId: null, date: fin.periodEnding, pdfUrl: null },
+        source: { docType: 'bse-quarterly-result-api', newsId: null, date: fin.periodEnding, pdfUrl: fin.sourcePdfUrl || null },
       };
     };
-    set('revenue', fin.revenue, 'Revenue from operations');
-    set('ebitda', fin.ebitda, 'EBITDA (derived: PBT + Depr + Finance cost)');
-    set('ebitdaMargin', fin.ebitdaMargin, 'EBITDA margin');
-    set('pat', fin.pat, 'Profit for the period');
+    // Sanity: hospital sector quarterly revenue is 50-30,000 Cr
+    if (fin.revenue != null && fin.revenue >= 50 && fin.revenue <= 30000) {
+      set('revenue', fin.revenue, 'Revenue from operations');
+    }
+    // EBITDA margin sanity: -20% to 60%
+    if (
+      fin.ebitda != null &&
+      fin.ebitdaMargin != null &&
+      fin.ebitdaMargin >= -20 &&
+      fin.ebitdaMargin <= 60 &&
+      m.revenue
+    ) {
+      set('ebitda', fin.ebitda, 'EBITDA (derived: PBT + Depr + Finance cost)');
+      set('ebitdaMargin', fin.ebitdaMargin, 'EBITDA margin');
+    }
+    // PAT margin sanity: -50% to 40%
+    if (
+      fin.pat != null &&
+      fin.patMargin != null &&
+      fin.patMargin >= -50 &&
+      fin.patMargin <= 40 &&
+      m.revenue
+    ) {
+      set('pat', fin.pat, 'Profit for the period');
+    }
     return m;
   }
 

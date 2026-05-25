@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-25T18:32:18.174Z",
+  "lastBuiltAt": "2026-05-25T18:35:22.253Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 757.15,
@@ -42,13 +42,13 @@
         "revenue": {
           "value": 6060.29,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-06-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f4cf944-ce12-4663-bd30-395ca5e0ecb9.pdf"
           }
         }
       },

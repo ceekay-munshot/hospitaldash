@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "APOLLOHOSP",
   "isin": "INE437A01024",
-  "lastBuiltAt": "2026-05-25T18:32:18.150Z",
+  "lastBuiltAt": "2026-05-25T18:35:22.184Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 8404.85,
@@ -816,49 +816,49 @@
         "revenue": {
           "value": 21679,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2025-06-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c141ce3-c2fd-4076-ad3c-945894ee9a3e.pdf"
           }
         },
         "ebitda": {
           "value": 1825,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: EBITDA (derived: PBT + Depr + Finance cost)",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2025-06-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c141ce3-c2fd-4076-ad3c-945894ee9a3e.pdf"
           }
         },
         "ebitdaMargin": {
           "value": 8.42,
           "unit": "%",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: EBITDA margin",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2025-06-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c141ce3-c2fd-4076-ad3c-945894ee9a3e.pdf"
           }
         },
         "pat": {
           "value": 3,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: Profit for the period",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2025-06-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c141ce3-c2fd-4076-ad3c-945894ee9a3e.pdf"
           }
         },
         "numberOfHospitals": {
@@ -1003,54 +1003,6 @@
         }
       ],
       "metrics": {
-        "revenue": {
-          "value": 20.75,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": null
-          }
-        },
-        "ebitda": {
-          "value": 2105,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": null
-          }
-        },
-        "ebitdaMargin": {
-          "value": 10143.11,
-          "unit": "%",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": null
-          }
-        },
-        "pat": {
-          "value": 33,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": null
-          }
-        },
         "numberOfHospitals": {
           "value": 73,
           "unit": "count",
@@ -1183,6 +1135,54 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
           }
         },
+        "revenue": {
+          "value": 5592.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue 55,922 (in ₹ Mio)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "f2680946-6a7f-4715-9d0a-d71ee7df4190",
+            "date": "2025-05-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 769.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA(Post Ind AS) 7,698 (in ₹ Mio)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "f2680946-6a7f-4715-9d0a-d71ee7df4190",
+            "date": "2025-05-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 13.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA(Post Ind AS) Margin 13.8%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "f2680946-6a7f-4715-9d0a-d71ee7df4190",
+            "date": "2025-05-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
+          }
+        },
+        "pat": {
+          "value": 389.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT 3,896 (in ₹ Mio)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "f2680946-6a7f-4715-9d0a-d71ee7df4190",
+            "date": "2025-05-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b850535c-b6c7-417c-9899-007a8bd0d2c8.pdf"
+          }
+        },
         "netDebt": {
           "value": -10.9,
           "unit": "INR_crore",
@@ -1233,13 +1233,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 87756,
-        "ebitdaPerBedYearly": 8902516,
+        "revenuePerBedYearly": 23650666,
+        "ebitdaPerBedYearly": 3255657,
         "bedTurnoverYearly": 61.93,
         "bedActivationPct": 92.8,
         "enterpriseValueCr": 120838,
-        "evToEbitdaAnnualised": 14.35,
-        "peAnnualised": 915.52,
+        "evToEbitdaAnnualised": 39.24,
+        "peAnnualised": 77.55,
         "evPerBedCr": 12.776,
         "evPerBedLakhs": 1277.6
       }
@@ -1555,49 +1555,49 @@
         "revenue": {
           "value": 2135.4,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2024-09-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ec481a3-aa65-4738-8ec1-3f32c4b5e565.pdf"
           }
         },
         "ebitda": {
           "value": 107.8,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA (derived: PBT + Depr + Finance cost)",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2024-09-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ec481a3-aa65-4738-8ec1-3f32c4b5e565.pdf"
           }
         },
         "ebitdaMargin": {
           "value": 5.05,
           "unit": "%",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA margin",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2024-09-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ec481a3-aa65-4738-8ec1-3f32c4b5e565.pdf"
           }
         },
         "pat": {
           "value": 711.2,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: Profit for the period",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2024-09-30",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ec481a3-aa65-4738-8ec1-3f32c4b5e565.pdf"
           }
         },
         "numberOfHospitals": {
@@ -2104,25 +2104,13 @@
         "revenue": {
           "value": 18946,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2024-03-31",
-            "pdfUrl": null
-          }
-        },
-        "pat": {
-          "value": 10105,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-03-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb047692-491e-48a6-b75e-8f0d601e3ed2.pdf"
           }
         },
         "numberOfHospitals": {
@@ -2281,6 +2269,18 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/406daf7a-494f-4413-9bcd-c0bd50753640.pdf"
           }
         },
+        "pat": {
+          "value": 253.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated PAT 2,538 (in ₹ Mio)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "10c0e8ed-9691-4ad2-9354-fcd8b49fbc62",
+            "date": "2024-05-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/406daf7a-494f-4413-9bcd-c0bd50753640.pdf"
+          }
+        },
         "netDebt": {
           "value": 1504,
           "unit": "INR_crore",
@@ -2337,7 +2337,7 @@
         "bedActivationPct": 83.6,
         "enterpriseValueCr": 122352.9,
         "evToEbitdaAnnualised": 47.76,
-        "peAnnualised": 2.99,
+        "peAnnualised": 119.04,
         "evPerBedCr": 15.4,
         "evPerBedLakhs": 1540
       }
@@ -2385,49 +2385,49 @@
         "revenue": {
           "value": 18243,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Revenue from operations",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9d1a3a6-772d-4cc5-907a-f7fe8223c2cb.pdf"
           }
         },
         "ebitda": {
           "value": 2095,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: EBITDA (derived: PBT + Depr + Finance cost)",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9d1a3a6-772d-4cc5-907a-f7fe8223c2cb.pdf"
           }
         },
         "ebitdaMargin": {
           "value": 11.48,
           "unit": "%",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: EBITDA margin",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9d1a3a6-772d-4cc5-907a-f7fe8223c2cb.pdf"
           }
         },
         "pat": {
           "value": 31,
           "unit": "INR_crore",
-          "confidence": "high",
+          "confidence": "medium",
           "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Profit for the period",
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
             "date": "2023-12-31",
-            "pdfUrl": null
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d9d1a3a6-772d-4cc5-907a-f7fe8223c2cb.pdf"
           }
         },
         "numberOfHospitals": {
@@ -2651,54 +2651,6 @@
         }
       ],
       "metrics": {
-        "revenue": {
-          "value": 15.8,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": null
-          }
-        },
-        "ebitda": {
-          "value": 1525,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": null
-          }
-        },
-        "ebitdaMargin": {
-          "value": 9651.9,
-          "unit": "%",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": null
-          }
-        },
-        "pat": {
-          "value": -7,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": null
-          }
-        },
         "numberOfHospitals": {
           "value": 49,
           "unit": "count",
@@ -2819,6 +2771,54 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf"
           }
         },
+        "revenue": {
+          "value": 4846.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue (in ₹ Mio) Q2FY24 48,469",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81",
+            "date": "2023-11-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 627.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA1 (in ₹ Mio) Q2FY24 6,276",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81",
+            "date": "2023-11-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 12.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA1 Margin (%) Q2FY24 12.9%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81",
+            "date": "2023-11-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf"
+          }
+        },
+        "pat": {
+          "value": 232.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT (in ₹ Mio) Q2FY24 2,329",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "afcfd8e8-97ad-4b5c-a89e-a3efd6518a81",
+            "date": "2023-11-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/45b8350c-9cee-4c6a-890b-e0da6ec53028.pdf"
+          }
+        },
         "netDebt": {
           "value": 1521.6,
           "unit": "INR_crore",
@@ -2869,12 +2869,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 81391,
-        "ebitdaPerBedYearly": 7855763,
+        "revenuePerBedYearly": 24967933,
+        "ebitdaPerBedYearly": 3232968,
         "bedTurnoverYearly": 76.86,
         "bedActivationPct": 84.8,
         "enterpriseValueCr": 122370.5,
-        "evToEbitdaAnnualised": 20.06,
+        "evToEbitdaAnnualised": 48.75,
+        "peAnnualised": 129.72,
         "evPerBedCr": 15.759,
         "evPerBedLakhs": 1575.9
       }
