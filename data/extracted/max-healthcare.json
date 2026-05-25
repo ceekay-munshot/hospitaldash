@@ -1,0 +1,2877 @@
+{
+  "slug": "max-healthcare",
+  "scripCode": "543220",
+  "name": "Max Healthcare Institute Ltd",
+  "byNewsId": {
+    "2b1890c0-4567-461b-bbec-b2149569c923": {
+      "newsId": "2b1890c0-4567-461b-bbec-b2149569c923",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-21",
+      "subject": "Presentation On Earnings Update",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37289118-d896-4f57-82b5-9cb704e121a0.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:28:09.359Z",
+      "finishReason": "STOP",
+      "promptTokens": 14996,
+      "responseTokens": 1270,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 21,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 21 healthcare facilities (~6,000 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 6000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 21 healthcare facilities (~6,000 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": 4966,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Mar’26 end stood at 4,966."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The Board has approved an investment of ~₹1,400 Cr for construction of a 712-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "occupancyRate": {
+          "value": 75,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Bed occupancy for the quarter was at 75%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": "ALOS was temporarily higher by 9% compared to Q4 FY25, reflecting the impact of significant capacity augmentation"
+        },
+        "ipVolume": {
+          "value": 81791,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes² 81,791"
+        },
+        "opVolume": {
+          "value": 923000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 9.2 lakhs"
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB¹ for the quarter stood at ₹ 77.9k"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2664,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,664 Cr for Q4 FY26"
+        },
+        "ebitda": {
+          "value": 682,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA stood at ₹ 682 Cr in Q4 FY26"
+        },
+        "ebitdaMargin": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating Margin² stood at 26.8%"
+        },
+        "pat": {
+          "value": 387,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT stood at ₹ 387 Cr"
+        },
+        "netDebt": {
+          "value": 1908,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt³ at the end of Mar’26 was ₹ 1,908 Cr"
+        },
+        "capexAnnounced": {
+          "value": 1400,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The Board has approved an investment of ~₹1,400 Cr for construction of a 712-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,664 Cr for Q4 FY26, a growth of +10% YoY"
+        },
+        "roce": {
+          "value": 20.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE for Q4 FY26 stood at 20.9%"
+        }
+      },
+      "notes": "ALOS and ARPP were not explicitly stated for the quarter. ARPOB is provided on a per-quarter basis and assumed to be per day. IP Volume and OP Volume are for the quarter.",
+      "nonNullMetricCount": 16
+    },
+    "1d9335e9-af49-4558-bba6-ff63d6972f6e": {
+      "newsId": "1d9335e9-af49-4558-bba6-ff63d6972f6e",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-21",
+      "subject": "Results For Fourth Quarter And Financial Year Ended March 31, 2026",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd4bf562-4290-439c-81dd-d7ac2aeca9d3.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:28:20.606Z",
+      "finishReason": "STOP",
+      "promptTokens": 7256,
+      "responseTokens": 922,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 214289,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations\n2,14,289"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 34222,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (5-6)\n34,222"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The financial results are for the quarter and year ended March 31, 2026. The revenue and PAT figures are extracted from the consolidated statement of financial results. Other operational metrics were not explicitly stated in the provided document.",
+      "nonNullMetricCount": 2
+    },
+    "d2041cd8-ba4a-4c0c-9f28-ec97a1e770ec": {
+      "newsId": "d2041cd8-ba4a-4c0c-9f28-ec97a1e770ec",
+      "docType": "press-release",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-21",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3f2ca48e-5abb-4100-ac27-ae15f4ddc897.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:28:33.783Z",
+      "finishReason": "STOP",
+      "promptTokens": 14996,
+      "responseTokens": 1346,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 21,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 21 healthcare facilities (~6,000 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 6000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 21 healthcare facilities (~6,000 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": 4966,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Mar’26 end stood at 4,966."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The Board has approved an investment of ~₹1,400 Cr for construction of a 712-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "occupancyRate": {
+          "value": 75,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Bed occupancy for the quarter was at 75%"
+        },
+        "alos": {
+          "value": 4.2,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS was temporarily higher by 9% compared to Q4 FY25, reflecting the impact of significant capacity augmentation"
+        },
+        "ipVolume": {
+          "value": 81791,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes² 81,791"
+        },
+        "opVolume": {
+          "value": 923000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 9.2 lakhs, reflecting a growth of +8% YoY"
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB¹ for the quarter stood at ₹ 77.9k"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2664,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,664 Cr for Q4 FY26, a growth of +10% YoY"
+        },
+        "ebitda": {
+          "value": 682,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA stood at ₹ 682 Cr in Q4 FY26, a growth of +8% YoY"
+        },
+        "ebitdaMargin": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating Margin² stood at 26.8% compared to 27.2% in Q4 FY25 and 26.1% in Q3 FY26"
+        },
+        "pat": {
+          "value": 387,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT stood at ₹ 387 Cr, compared to ₹ 376 Cr in Q4 FY25 and 344 Cr in Q3 FY26, reflecting a growth of +3% YoY"
+        },
+        "netDebt": {
+          "value": 1908,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt² at the end of March, 2026 stood at ₹ 1,908 Cr"
+        },
+        "capexAnnounced": {
+          "value": 1400,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The Board has approved an investment of ~₹1,400 Cr for construction of a 712-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,664 Cr for Q4 FY26, a growth of +10% YoY"
+        },
+        "roce": {
+          "value": 20.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE for Q4 FY26 stood at 20.9%, compared to 23.8% in Q4 FY25 and 20.3% in Q3 FY26"
+        }
+      },
+      "notes": "The document refers to Q4 FY26, which ends on March 31, 2026. The ARPOB is reported in thousands (k) and has been converted to INR per day. The OP volume is reported in lakhs and has been converted to visits.",
+      "nonNullMetricCount": 17
+    },
+    "a539704a-e113-46b5-a0a1-93c8c5ad53e7": {
+      "newsId": "a539704a-e113-46b5-a0a1-93c8c5ad53e7",
+      "docType": "press-release",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-04-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e4fc1a71-65cd-4ebc-b5b0-5646a05ab309.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:28:43.157Z",
+      "finishReason": "STOP",
+      "promptTokens": 4418,
+      "responseTokens": 914,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY27-Q1",
+        "periodEnding": "2026-04-08"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "This document is a press release announcing board meeting outcomes, including an acquisition and director re-appointment. It does not contain specific quarterly operational or financial metrics for Max Healthcare Institute Ltd. The date of the document is April 8, 2026, and it refers to the board meeting held on the same date. The fiscal quarter is inferred as FY27-Q1 based on the document date.",
+      "nonNullMetricCount": 0
+    },
+    "32678fc7-567b-4a6d-a99c-c620d5a63d5a": {
+      "newsId": "32678fc7-567b-4a6d-a99c-c620d5a63d5a",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-20",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed5af43a-ff90-4f5d-a97d-838a61e86fb5.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:28:58.018Z",
+      "finishReason": "STOP",
+      "promptTokens": 12932,
+      "responseTokens": 1250,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Current capacity\n5,200+ beds"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 4600,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Potential to expand capacity by 8,900+ beds, with ~4,600\nbeds being added in next 3-4 years"
+        },
+        "newHospitalsPlanned": {
+          "value": 8,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "In addition to the above, there are 8 new upcoming Network facilities one each in East Delhi (Patparganj), North-West Delhi (Pitampura),\nGurugram (Sector 56), South Delhi (Vikrant, Saket Complex), Maharashtra (Thane), Pune (Yerawada), Punjab (Mohali) and Uttarakhand (Dehradun)"
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~76%\n9M FY26\nOccupancy"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 78000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB1\n(*/OBD) ('000)\n78"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2608,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross revenue\n2,608"
+        },
+        "ebitda": {
+          "value": 648,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA\n648"
+        },
+        "ebitdaMargin": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating EBITDA\n648\n26.1%"
+        },
+        "pat": {
+          "value": 344,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax\n344"
+        },
+        "netDebt": {
+          "value": 2166,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt of ₹ 2,166 Cr\nas on Dec 31, 2025"
+        },
+        "capexAnnounced": {
+          "value": 7157,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Estimated\nOutflow² (₹ Cr)\n7,157"
+        },
+        "revenueGrowthYoy": {
+          "value": 9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross revenue\n2,608\nYoY\nGrowth\n9%"
+        },
+        "roce": {
+          "value": 25.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA ROCE\nMargin\n26.8%1 25.9%1"
+        }
+      },
+      "notes": "ARPOB is presented as '000, so 78 is interpreted as 78,000. The reporting period is inferred as Q3 FY26 based on the P&L statement which shows Q3 FY25, Q2 FY26, and Q3 FY26. The date of the presentation is February 20, 2026, which aligns with the Q3 FY26 period.",
+      "nonNullMetricCount": 13
+    },
+    "92409df6-9de8-4ee1-b676-c667608b4e51": {
+      "newsId": "92409df6-9de8-4ee1-b676-c667608b4e51",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-12",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b765c0b2-67cc-4aea-91e7-7bffcbeff79b.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:29:09.917Z",
+      "finishReason": "STOP",
+      "promptTokens": 7257,
+      "responseTokens": 1169,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 4800,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We are around 4,800 right now."
+        },
+        "bedsUnderDevelopment": {
+          "value": 1200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "And we are adding another 1,200 beds, including Gurgaon."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 74,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average occupancy for the Network stood at 74%, compared to 75% in Q3 last year"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed (ARPOB) for the quarter was INR 77,900,"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2608,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network gross revenue stood at INR 2,608 crore, compared to INR 2,381 crore"
+        },
+        "ebitda": {
+          "value": 648,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network operating EBITDA stood at INR 648 crore, reflecting a growth of 4%"
+        },
+        "ebitdaMargin": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Network operating EBITDA margin was 26.1% for the quarter, compared to"
+        },
+        "pat": {
+          "value": 344,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax (PAT) for the Network, after exceptional items, was INR 344"
+        },
+        "netDebt": {
+          "value": 2166,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net debt for the Network stood at INR 2,166 crore compared to INR 2,067"
+        },
+        "capexAnnounced": {
+          "value": 400,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "we have been doing roughly INR 400 crore - INR 420 crore plus/minus sort of a capex per quarter."
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue increased by 10% year-on-year"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document refers to the quarter and nine months ended December 31, 2025. The reporting period is identified as Q3 FY26. The ARPOB is reported as INR 77,900 for the quarter, which is assumed to be per day. Capex is an average quarterly figure for the current period.",
+      "nonNullMetricCount": 11
+    },
+    "e415a942-3015-4a8f-9a37-434a5de6c07c": {
+      "newsId": "e415a942-3015-4a8f-9a37-434a5de6c07c",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-07",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3dac3a4d-dd64-4107-b1d9-00978230d033.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:29:24.227Z",
+      "finishReason": "STOP",
+      "promptTokens": 12932,
+      "responseTokens": 1051,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Current capacity\n5,200+ beds"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 8900,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Potential to expand capacity by 8,900+ beds, with ~4,600\nbeds being added in next 3-4 years"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~76%\n9M FY26\nOccupancy"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2608,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross revenue\n2,608"
+        },
+        "ebitda": {
+          "value": 648,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA\n648"
+        },
+        "ebitdaMargin": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "26.1%"
+        },
+        "pat": {
+          "value": 344,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax\n344"
+        },
+        "netDebt": {
+          "value": 2166,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt of ₹ 2,166 Cr\nas on Dec 31, 2025"
+        },
+        "capexAnnounced": {
+          "value": 7157,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Estimated\nOutflow² (₹ Cr)\n7,157"
+        },
+        "revenueGrowthYoy": {
+          "value": 9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "YoY\nGrowth\n9%"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The reporting period is identified as Q3 FY26 based on the P&L statement. The Net Debt is as of December 31, 2025, which falls within Q3 FY26. ROCE is not explicitly stated for the current quarter.",
+      "nonNullMetricCount": 10
+    },
+    "d18523cc-21fb-4ebb-986b-6da15a7e7e11": {
+      "newsId": "d18523cc-21fb-4ebb-986b-6da15a7e7e11",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-05",
+      "subject": "Presentation On Earnings Update",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93f49c30-6667-4c08-bfd3-222cb102e715.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:29:38.348Z",
+      "finishReason": "STOP",
+      "promptTokens": 14222,
+      "responseTokens": 1436,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 4853,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Dec'25 end stood at 4,853."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "low",
+          "quote": "The Company executed a Share Purchase Agreement for staggered acquisition of 100% equity stake in Yerawada Properties Pvt. Ltd. (YPPL) for developing a~450 beds hospital, on a land parcel in prime location in Pune"
+        },
+        "occupancyRate": {
+          "value": 74,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall occupancy was 74%, versus 75% in Q3 FY25 and 77% in Q2 FY26."
+        },
+        "alos": {
+          "value": 4.2,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.2 days in Q3 FY26 compared to 4.0 days in Q3 FY25 and Q2 FY26"
+        },
+        "ipVolume": {
+          "value": 81980,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes² 81,980"
+        },
+        "opVolume": {
+          "value": 903000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient consults (‘000) 903"
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB³ for the quarter was ₹ 77.9k compared to ₹ 75.9k in Q3 FY25 and ₹ 77.3k in Q2 FY26, a growth of +3% YoY"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2608,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,608 Cr for Q3 FY26, a growth of +10% YoY"
+        },
+        "ebitda": {
+          "value": 648,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA was ₹ 648 Cr, reflecting a growth of +4% YoY."
+        },
+        "ebitdaMargin": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin¹ for the Network stood at 26.1% compared to 27.3% in Q3 FY25 and 26.9% in Q2 FY26"
+        },
+        "pat": {
+          "value": 344,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT, after exceptional items, stood at ₹ 344 Cr, compared to ₹ 316 Cr in Q3 FY25, reflecting a growth of +9% YoY."
+        },
+        "netDebt": {
+          "value": 2166,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt² at the end of the quarter stood at ₹ 2,166 Cr compared to ₹ 2,067 Cr at the end of September, 2025."
+        },
+        "capexAnnounced": {
+          "value": 408,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Further, ₹ 408 Cr were deployed towards ongoing expansion plans & upgradation of newer units"
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue for the Network was ₹ 2,608 Cr compared to 2,381 Cr in Q3 FY25 and 2,692 Cr in Q2 FY26; reflecting a growth of +10% YoY"
+        },
+        "roce": {
+          "value": 20,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Pre-tax ROCE³ 20%"
+        }
+      },
+      "notes": "The document refers to Q3 FY26, which corresponds to the quarter ended December 31, 2025. The 'numberOfHospitals' and 'bedCapacity' metrics were not explicitly stated for the current period, but the 'operationalBeds' were provided. The 'newHospitalsPlanned' metric is inferred from the mention of a planned ~450 bed hospital development.",
+      "nonNullMetricCount": 15
+    },
+    "d7b0601b-f6db-4154-9a2a-7674f3a6a2fb": {
+      "newsId": "d7b0601b-f6db-4154-9a2a-7674f3a6a2fb",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-05",
+      "subject": "Results - Financial Results For The Quarter And Nine Months Ended December 31, 2025",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6a8dcfb-d00e-468f-b47e-7a976a763e97.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:29:50.485Z",
+      "finishReason": "STOP",
+      "promptTokens": 4160,
+      "responseTokens": 1011,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY26-Q4",
+        "periodEnding": "2025-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 260,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The proposed addition of ~260 beds will be undertaken by MHPL at the existing site where presently ~300-bedded Max Dwarka is operational."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 70,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Max Dwarka reported occupancy of >70% in Q-3, FY 26."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 206752,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "2,06,752"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 30092,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "30,092"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 25,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The investment towards the construction of additional beds will be made by MHPL. The Company will, however, provide an interest free refundable security deposit of ~₹25 Crore."
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Revenue and PAT are extracted from the consolidated statement for the quarter ended December 31, 2025. The occupancy rate is for Max Dwarka and is from Q3 FY26. Beds under development and capex announced are related to the expansion at Max Dwarka.",
+      "nonNullMetricCount": 5
+    },
+    "fe30530c-aa81-431c-882c-ab73dca99a7b": {
+      "newsId": "fe30530c-aa81-431c-882c-ab73dca99a7b",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-05",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a0a7e30c-70b7-46e4-9795-f31d822490ca.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:30:02.896Z",
+      "finishReason": "STOP",
+      "promptTokens": 14222,
+      "responseTokens": 1258,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 4853,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Dec'25 end stood at 4,853."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The Company executed a Share Purchase Agreement for staggered acquisition of 100% equity stake in Yerawada Properties Pvt. Ltd. (YPPL) for developing a~450 beds hospital"
+        },
+        "occupancyRate": {
+          "value": 74,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall occupancy was 74%, versus 75% in Q3 FY25 and 77% in Q2 FY26."
+        },
+        "alos": {
+          "value": 4.2,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.2 days in Q3 FY26 compared to 4.0 days in Q3 FY25 and Q2 FY26"
+        },
+        "ipVolume": {
+          "value": 81980,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes² 81,980"
+        },
+        "opVolume": {
+          "value": 903000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 9.0 lakhs"
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB³ for the quarter was ₹ 77.9k"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2608,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,608 Cr for Q3 FY26"
+        },
+        "ebitda": {
+          "value": 648,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA stood at ₹ 648 Cr in Q3 FY26"
+        },
+        "ebitdaMargin": {
+          "value": 26.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin¹ for the Network stood at 26.1%"
+        },
+        "pat": {
+          "value": 344,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT stood at ₹ 344 Cr"
+        },
+        "netDebt": {
+          "value": 2166,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt² at the end of the quarter stood at ₹ 2,166 Cr"
+        },
+        "capexAnnounced": {
+          "value": 408,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "an amount of 28 Cr was received for issuance of shares on exercise of ESOPs by employees and ₹ 408 Cr was deployed towards ongoing expansion plans and upgradation of newer units."
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,608 Cr for Q3 FY26, a growth of +10% YoY"
+        },
+        "roce": {
+          "value": 20.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE for Q3 FY26 stood at 20.3%"
+        }
+      },
+      "notes": "All figures are for the Network unless otherwise specified. The document refers to Q3 FY26, which corresponds to the quarter ended December 31, 2025.",
+      "nonNullMetricCount": 15
+    },
+    "91ef456c-e632-4f0c-9517-ee2805b949c6": {
+      "newsId": "91ef456c-e632-4f0c-9517-ee2805b949c6",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-12-18",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ffe7c59-6188-42ad-a63d-d030b35f57a9.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:30:13.831Z",
+      "finishReason": "STOP",
+      "promptTokens": 1838,
+      "responseTokens": 1055,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-12-18"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 20,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 450,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare Announces Entry into Pune with a 450-Beds Hospital, Investment of over INR 1000 Cr"
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare Announces Entry into Pune with a 450-Beds Hospital, Investment of over INR 1000 Cr"
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 1000,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Max Healthcare Announces Entry into Pune with a 450-Beds Hospital, Investment of over INR 1000 Cr"
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is a press release announcing a new hospital in Pune and does not contain detailed financial or operational results for the reported quarter. The date of the press release is December 18, 2025, which is assumed to correspond to Q3 FY26. The investment amount of over INR 1000 Cr is interpreted as announced capex for the new hospital.",
+      "nonNullMetricCount": 5
+    },
+    "9dfe58f0-5a4e-4043-be95-3a011f6f5c52": {
+      "newsId": "9dfe58f0-5a4e-4043-be95-3a011f6f5c52",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-21",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a905df4-c8df-4945-8494-e060944ce284.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:30:25.715Z",
+      "finishReason": "STOP",
+      "promptTokens": 7257,
+      "responseTokens": 1221,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 77,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average occupancy for the Network stood at 77% compared to 79% in Q2 last year and 76% in the trailing quarter."
+        },
+        "alos": {
+          "value": 1.2,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS is 1.2x."
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 77300,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed (ARPOB) for the quarter was INR 77,300, registering 1% growth year-on-year."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2692,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network gross revenue stood at INR 2,692 crore compared to INR 2,228 crore in Q2 last year and INR 2,574 crore in the previous quarter."
+        },
+        "ebitda": {
+          "value": 694,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network operating EBITDA stood at INR 694 crore, reflecting a growth of 23% year-on-year and 13% quarter-on-quarter."
+        },
+        "ebitdaMargin": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Network operating EBITDA margin was 26.9% for the quarter."
+        },
+        "pat": {
+          "value": 554,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax (PAT) for the Network was INR 554 crore, against INR 349 crore in Q2 last year and INR 345 crore in the previous quarter."
+        },
+        "netDebt": {
+          "value": 2067,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "As a result, Net Debt for the Network stood at INR 2,067 crore compared to INR 1,755 crore at the end of June 2025."
+        },
+        "capexAnnounced": {
+          "value": 900,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "We spent around INR 900 crore."
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "For the second quarter, revenue grew by 21% year-on-year"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "ARPOB is reported as INR 77,300 for the quarter. Assuming this is per day. Capex for H1 FY26 is INR 900 crore. Capex for H2 FY26 is estimated to be higher, around INR 1,100 crore.",
+      "nonNullMetricCount": 10
+    },
+    "f7b04120-b361-4641-adf0-7569a66fcdbd": {
+      "newsId": "f7b04120-b361-4641-adf0-7569a66fcdbd",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-19",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d5ec090-6da3-4749-b0a9-1d953cef653c.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:30:39.362Z",
+      "finishReason": "STOP",
+      "promptTokens": 12932,
+      "responseTokens": 1006,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY26-Q3",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "~5,200 beds"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~76% H1 FY26 Occupancy"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": 2067,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt of ₹ 2,067 Cr as on Sep 30, 2025"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": 28,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~28% ROCE¹ in H1 FY26"
+        }
+      },
+      "notes": "The document is dated November 19, 2025, and refers to an investor presentation for a Goldman Sachs CIO Tour. The reporting period is inferred as H1 FY26, ending September 30, 2025, based on the data presented. Specific quarterly data for FY26-Q3 is not explicitly available for P&L items. Occupancy rate and ROCE are for H1 FY26. Net Debt is as of Sep 30, 2025.",
+      "nonNullMetricCount": 4
+    },
+    "900a0034-512c-44cf-b667-af3c93393d5c": {
+      "newsId": "900a0034-512c-44cf-b667-af3c93393d5c",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-17",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cee54dc0-5625-40af-b4d9-1e7ebafcf7dd.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:30:59.770Z",
+      "finishReason": "STOP",
+      "promptTokens": 12932,
+      "responseTokens": 1050,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY26-Q3",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "~5,200 beds"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 4800,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "potential to expand capacity by 8,300+ beds, with ~4,800 beds being added in next 3-4 years"
+        },
+        "newHospitalsPlanned": {
+          "value": 7,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "there are 7 new upcoming Network facilities"
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~76% H1 FY26 Occupancy"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 78000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB¹ ('000) 78"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2580,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "2,580"
+        },
+        "ebitda": {
+          "value": 694,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "694"
+        },
+        "ebitdaMargin": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "26.9%"
+        },
+        "pat": {
+          "value": 554,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "554"
+        },
+        "netDebt": {
+          "value": 2067,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt of ₹ 2,067 Cr"
+        },
+        "capexAnnounced": {
+          "value": 6487,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Estimated Outflow² (₹ Cr) 6,487"
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "21%"
+        },
+        "roce": {
+          "value": 38,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "H1 FY26 ROCE is 38% for Existing Units, excl. CWIP"
+        }
+      },
+      "notes": "ARPOB is presented in thousands in the document, so it has been multiplied by 1000. ROCE is for H1 FY26 and is stated as 'for Existing Units, excl. CWIP'.",
+      "nonNullMetricCount": 13
+    },
+    "8175e6fe-c084-4724-9ee4-dbd66c36b160": {
+      "newsId": "8175e6fe-c084-4724-9ee4-dbd66c36b160",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-14",
+      "subject": "Presentation On Earnings Update",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/beb93c9e-e9b6-4b79-be5f-a83dde0943a9.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:31:14.760Z",
+      "finishReason": "STOP",
+      "promptTokens": 13964,
+      "responseTokens": 1322,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 20,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": 4760,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Sep'25 end stood at 4,760."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 77,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall occupancy was 77%, versus 79% in Q2 FY25 and 76% in Q1 FY26."
+        },
+        "alos": {
+          "value": 4,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.0 days in Q2 FY26 compared to 4.1 days in Q2 FY25 and 4.0 days in Q1 FY26"
+        },
+        "ipVolume": {
+          "value": 87629,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "87,629"
+        },
+        "opVolume": {
+          "value": 1010000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "10.1 lakhs"
+        },
+        "arpob": {
+          "value": 77300,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB¹ for the quarter was 77.3k compared to ₹ 76.2k in Q2 FY25 and ₹ 78.0k in Q1 FY26"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2692,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,692 Cr, a growth of +21% YoY and +5% QoQ."
+        },
+        "ebitda": {
+          "value": 694,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA stood at ₹ 694 Cr, a growth of +23% YoY"
+        },
+        "ebitdaMargin": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin for the Network stood at 26.9% compared to 26.6% in Q2 FY25 and 24.9% in Q1 FY26."
+        },
+        "pat": {
+          "value": 554,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT stood at ₹ 554 Cr, compared to ₹ 349 Cr in Q2 FY25 and ≈ 345 Cr in Q1 FY26, reflecting a growth of +59% YoY."
+        },
+        "netDebt": {
+          "value": 2067,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt¹ at the end of the quarter stood at ₹ 2,067 Cr compared to ₹ 1,755 Cr at the end of June 2025."
+        },
+        "capexAnnounced": {
+          "value": 456,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "An amount of 456 Cr was deployed towards ongoing expansion plans and upgradation of facilities at newer units."
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,692 Cr, a growth of +21% YoY and +5% QoQ."
+        },
+        "roce": {
+          "value": 23.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE for Q2 FY26 stood at 23.2%, compared to 27.1% in Q2 FY25 and 21.4% in Q1 FY26."
+        }
+      },
+      "notes": "The document refers to Q2 FY26, which corresponds to the quarter ended September 30, 2025. The provided data is for the quarter unless otherwise specified. IP Volume and OP Volume were converted from '000 to actual numbers.",
+      "nonNullMetricCount": 16
+    },
+    "3e701742-de20-4a89-ab19-612391c74a9a": {
+      "newsId": "3e701742-de20-4a89-ab19-612391c74a9a",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-14",
+      "subject": "Results - Financial Results For The Quarter And Half Year Ended September 30, 2025",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5995bf1c-4b40-495a-a6fe-511dca21e3f8.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:31:27.287Z",
+      "finishReason": "STOP",
+      "promptTokens": 4676,
+      "responseTokens": 904,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2135.47,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations\n2,13,547"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 491.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (7)\n49,130"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Revenue and PAT are extracted from the consolidated statement. All values are in lakhs and converted to crores. No other requested metrics were found in the document.",
+      "nonNullMetricCount": 2
+    },
+    "5b5387a5-521e-4217-a169-be30b2e87ff2": {
+      "newsId": "5b5387a5-521e-4217-a169-be30b2e87ff2",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-14",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd19e91b-ac6b-48fb-afca-3ded50fd03ff.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:31:38.913Z",
+      "finishReason": "STOP",
+      "promptTokens": 13964,
+      "responseTokens": 1301,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 20,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 20 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": 4760,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational bed capacity as at Sep'25 end stood at 4,760."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 77,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall occupancy was 77%, versus 79% in Q2 FY25 and 76% in Q1 FY26."
+        },
+        "alos": {
+          "value": 4,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.0 days in Q2 FY26 compared to 4.1 days in Q2 FY25 and 4.0 days in Q1 FY26"
+        },
+        "ipVolume": {
+          "value": 87629,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes³ 87,629"
+        },
+        "opVolume": {
+          "value": 1010000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 10.1 lakhs, reflecting a growth of +27% YoY"
+        },
+        "arpob": {
+          "value": 77300,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB¹ for the quarter was 77.3k compared to ₹ 76.2k in Q2 FY25 and ₹ 78.0k in Q1 FY26"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2692,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,692 Cr, a growth of +21% YoY and +5% QoQ."
+        },
+        "ebitda": {
+          "value": 694,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA stood at ₹ 694 Cr, a growth of +23% YoY"
+        },
+        "ebitdaMargin": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin¹ for the Network stood at 26.9% compared to 26.6% in Q2 FY25 and 24.9% in Q1 FY26"
+        },
+        "pat": {
+          "value": 554,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network PAT stood at ₹ 554 Cr, compared to ₹ 349 Cr in Q2 FY25 and ≈ 345 Cr in Q1 FY26, reflecting a growth of +59% YoY."
+        },
+        "netDebt": {
+          "value": 2067,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt4 at the end of the quarter stood at ₹ 2,067 Cr compared to ₹ 1,755 Cr at the end of Q1 FY26"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Gross Revenue for the Network was ₹ 2,692 Cr compared to 2,228 Cr in Q2 FY25 and ₹ 2,574 Cr in Q1 FY26; reflecting a growth of +21% YoY and +5% QoQ."
+        },
+        "roce": {
+          "value": 23.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE for Q2 FY26 stood at 23.2%, compared to 27.1% in Q2 FY25 and 21.4% in Q1 FY26."
+        }
+      },
+      "notes": "The document refers to Q2 FY26 results, which corresponds to the period ending September 30, 2025. The fiscal quarter is therefore Q2 FY26.",
+      "nonNullMetricCount": 15
+    },
+    "f1271bda-609a-40d2-b276-ceb863da506c": {
+      "newsId": "f1271bda-609a-40d2-b276-ceb863da506c",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7c00969-35a2-4639-bf42-fbb85d27a7bd.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:31:55.852Z",
+      "finishReason": "STOP",
+      "promptTokens": 12674,
+      "responseTokens": 1250,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 22 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 22 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 4700,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Potential to expand capacity by 8,200+ beds, with ~4,700 beds being added in next 3-4 years"
+        },
+        "newHospitalsPlanned": {
+          "value": 7,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "In addition to the above, there are 7 new upcoming Network facilities one each in East Delhi (Patparganj), North-West Delhi (Pitampura),\nGurugram (Sector 56), South Delhi (Vikrant, Saket Complex), Maharashtra (Thane), Punjab (Mohali) and Uttarakhand (Dehradun)"
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "~76%\nQ1 FY26\nOccupancy"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 78000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB3\n(*/OBD) ('000)\n78"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2460,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net revenue\n2,460\n100.0%"
+        },
+        "ebitda": {
+          "value": 613,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA\n613\n24.9%"
+        },
+        "ebitdaMargin": {
+          "value": 24.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating EBITDA\n613\n24.9%"
+        },
+        "pat": {
+          "value": 345,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax\n345\n14.0%"
+        },
+        "netDebt": {
+          "value": 1755,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt of ₹ 1,755 Cr\nas on Jun 30, 2025"
+        },
+        "capexAnnounced": {
+          "value": 6434,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Estimated\nOutflow² (Cr)\n6,434"
+        },
+        "revenueGrowthYoy": {
+          "value": 27,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Net revenue\n2,460\n100.0%\nYoY\nGrowth\n27%"
+        },
+        "roce": {
+          "value": 25.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "26.8%1 25.9%1"
+        }
+      },
+      "notes": "ARPOB is presented in '000s, so 78 is interpreted as 78,000 INR per day. ROCE is presented for FY25, not Q1 FY26.",
+      "nonNullMetricCount": 14
+    },
+    "5dda87f8-0936-4134-a9fd-0cbdb8c6a855": {
+      "newsId": "5dda87f8-0936-4134-a9fd-0cbdb8c6a855",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-21",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27ca5acb-a339-4512-a857-08805d78d44a.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:32:08.766Z",
+      "finishReason": "STOP",
+      "promptTokens": 5193,
+      "responseTokens": 1351,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 1500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We expect to add approximately 1,000 brownfield and 500 greenfield beds."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "In addition, our Board has recently approved the execution of an agreement-to-lease for a \"built-to-suit\" 130-bed hospital in Dehradun."
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average occupancy for the Network stood at 76% compared to 75% in both Q1 last year and the trailing quarter."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 78000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average revenue per occupied bed for the quarter was Rs. 78,000, growing nominally by 1% year-on-year as well as quarter-on-quarter."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2574,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network gross revenue was Rs. 2,574 crores, up from Rs. 2,028 crores in Q1 last year and Rs. 2,429 crores in the previous quarter."
+        },
+        "ebitda": {
+          "value": 613,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network operating EBITDA stood at Rs. 613 crores, reflecting a growth of 23% year-on-year and a 3% dip quarter-on-quarter"
+        },
+        "ebitdaMargin": {
+          "value": 24.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Network operating EBITDA margin was 24.9% for the quarter."
+        },
+        "pat": {
+          "value": 345,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax for the Network was Rs. 345 crores versus Rs. 295 crores in Q1 last year and Rs. 376 crores in the previous quarter, reflecting a growth of 17% year-on-year."
+        },
+        "netDebt": {
+          "value": 1755,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "As a result, net debt for the Network stood at Rs. 1,755 crores compared to Rs. 1,576 crores at the end of March 2025."
+        },
+        "capexAnnounced": {
+          "value": 435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "We deployed Rs. 435 crores towards ongoing capacity expansion projects and facility upgrades at newer units"
+        },
+        "revenueGrowthYoy": {
+          "value": 27,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "We are pleased to report a strong start to the financial year, with year-on-year growth of 27% in revenue"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is a transcript of an earnings call for Q1 FY26. Some metrics like number of hospitals, bed capacity, ALOS, IP/OP volume, ARPP, and ROCE were not explicitly mentioned or calculable from the provided text. The net debt figure is for the end of March 2025, not the end of Q1 FY26, but it's the latest available point-in-time figure. Capex announced is for the quarter.",
+      "nonNullMetricCount": 11
+    },
+    "580c8698-ff02-4758-bd13-27345da99edc": {
+      "newsId": "580c8698-ff02-4758-bd13-27345da99edc",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-13",
+      "subject": "Presentation On Earnings Update",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1b9cf4a-541e-44da-a2bc-cfa062a0a15e.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:32:25.699Z",
+      "finishReason": "STOP",
+      "promptTokens": 11642,
+      "responseTokens": 1423,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 22 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare operates 22 healthcare facilities (~5,200 beds) with a significant presence in North India."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "On August 13, 2025, the Board of Directors of the Company has approved the execution of an agreement to lease for a built-to-suit ~130 beds hospital in Dehradun."
+        },
+        "occupancyRate": {
+          "value": 76,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Bed occupancy for the quarter was at 76%, with Occupied Bed Days (OBDs) up by +26% YoY"
+        },
+        "alos": {
+          "value": 4,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.0 days in Q1 FY26, same as in Q1 FY25 and in Q4 FY25"
+        },
+        "ipVolume": {
+          "value": 83257,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient Volumes³\n83,257"
+        },
+        "opVolume": {
+          "value": 940000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 9.4 lakhs, reflecting a growth of +29% YoY"
+        },
+        "arpob": {
+          "value": 78000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB5 for Q1 FY26 stood at ₹ 78.0k compared to ₹ 77.1k in Q1 FY25 and Q4 FY25"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2574,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at ₹ 2,574 Cr for Q1 FY26, a growth of 27% YoY and 6% QoQ."
+        },
+        "ebitda": {
+          "value": 613,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network Operating EBITDA grows to ₹ 613 Cr, +23% YoY"
+        },
+        "ebitdaMargin": {
+          "value": 24.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin¹ for the Network stood at 24.9% compared to 25.8% in Q1 FY25 and 27.2% in Q4 FY25"
+        },
+        "pat": {
+          "value": 345,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT grows by +17% YoY to ₹ 345 Cr"
+        },
+        "netDebt": {
+          "value": 1755,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt² at the end of the quarter stood at ₹ 1,755 Cr compared to ₹ 1,576 Cr at the end of Q4 FY25"
+        },
+        "capexAnnounced": {
+          "value": 435,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Further, ₹ 435 Cr were deployed towards ongoing expansion plans & upgradation of facilities at newer units."
+        },
+        "revenueGrowthYoy": {
+          "value": 27,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Max Healthcare Q1 revenue soars to ₹ 2,574 Cr, registering growth of 27% YoY"
+        },
+        "roce": {
+          "value": 21.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall pre-tax ROCE⁴ for Q1 FY26 stood at 21.4%, compared to 24.7% in Q1 FY25 and 23.8% in Q4 FY25."
+        }
+      },
+      "notes": "The document refers to Q1 FY26, which corresponds to the quarter ended June 30, 2025. Operational bed capacity is not explicitly stated, but total bed capacity is given as ~5,200. Outpatient volume was converted from lakhs to absolute numbers.",
+      "nonNullMetricCount": 16
+    },
+    "b55453b4-11e0-4003-ab36-d5752d633d4e": {
+      "newsId": "b55453b4-11e0-4003-ab36-d5752d633d4e",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-13",
+      "subject": "Results - Financial Results For Quarter Ended June 30, 2025",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/77b28dfd-7afd-44d1-8a60-1b08c4600961.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash-lite",
+      "extractedAt": "2026-05-25T10:32:39.585Z",
+      "finishReason": "STOP",
+      "promptTokens": 4160,
+      "responseTokens": 1068,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 5200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare Network has an existing capacity of ~5,200 beds\nas on June 30, 2025."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 130,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "~130 beds are proposed to be added to the Network capacity in\ndue course of time, once the built-to-suit hospital premises are\nhanded over to the Company by Goyal Agrim Infra Realty LLP"
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Approved to enter into an Agreement to Lease with Goyal Agrim Infra Realty LLP for setting up ~130 bedded hospital at\nDehradun, Uttarakhand on a built-to-suit basis."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 202757,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations\n2,02,757"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 30797,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (5-6)\n30,797"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 170,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "bear cost of Stamp duty and incur cost towards Bio-medical\nequipment, furniture, etc., which may range between 170 Crore\nto 200 Crore."
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Revenue and PAT are reported in lakhs in the financial statements and have been converted to crores. Capex announced is an estimated range.",
+      "nonNullMetricCount": 6
+    },
+    "8384c260-ea6c-4134-9c20-856a91853023": {
+      "newsId": "8384c260-ea6c-4134-9c20-856a91853023",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-13",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebfc89b6-6d71-4909-a7a0-4e14a1cc82e2.pdf",
+      "extractedAt": "2026-05-25T10:32:45.775Z",
+      "error": "GEMINI_DAILY_QUOTA_EXCEEDED: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+      "attemptCount": 1,
+      "metrics": null
+    }
+  },
+  "lastExtractionAt": "2026-05-25T10:32:45.776Z",
+  "model": "gemini-2.5-flash-lite"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T10:17:10.099Z",
+  "generatedAt": "2026-05-25T10:32:45.911Z",
   "companies": [
     {
       "slug": "apollo-hospitals",
@@ -169,9 +169,10 @@
     "FY26-Q1",
     "FY26-Q2",
     "FY26-Q3",
-    "FY26-Q4"
+    "FY26-Q4",
+    "FY27-Q1"
   ],
-  "latestQuarter": "FY26-Q4",
+  "latestQuarter": "FY27-Q1",
   "metricMeta": {
     "numberOfHospitals": {
       "label": "Hospitals",
@@ -1020,12 +1021,260 @@
         "volumeShares": 505000
       },
       "coverage": {
-        "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "extractedDocs": 21,
+        "quartersWithData": 5,
+        "quarterRange": "FY26-Q1 → FY27-Q1",
         "classifiedTotalPriorityDocs": 70
       },
-      "quarters": {}
+      "quarters": {
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "numberOfHospitals": 22,
+            "bedCapacity": 5200,
+            "bedsUnderDevelopment": 4700,
+            "newHospitalsPlanned": 7,
+            "occupancyRate": 76,
+            "alos": 4,
+            "ipVolume": 83257,
+            "opVolume": 940000,
+            "arpob": 78000,
+            "revenue": 2460,
+            "ebitda": 613,
+            "ebitdaMargin": 24.9,
+            "pat": 345,
+            "netDebt": 1755,
+            "capexAnnounced": 6434,
+            "revenueGrowthYoy": 27,
+            "roce": 25.9,
+            "enterpriseValueCr": 101342.2,
+            "evToEbitdaAnnualised": 41.33,
+            "peAnnualised": 72.16
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-08-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7c00969-35a2-4639-bf42-fbb85d27a7bd.pdf"
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-08-21",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27ca5acb-a339-4512-a857-08805d78d44a.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-08-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1b9cf4a-541e-44da-a2bc-cfa062a0a15e.pdf"
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "numberOfHospitals": 20,
+            "bedCapacity": 5200,
+            "operationalBeds": 4760,
+            "bedsUnderDevelopment": 130,
+            "newHospitalsPlanned": 1,
+            "occupancyRate": 77,
+            "alos": 4,
+            "ipVolume": 87629,
+            "opVolume": 1010000,
+            "arpob": 77300,
+            "revenue": 2692,
+            "ebitda": 694,
+            "ebitdaMargin": 26.9,
+            "pat": 554,
+            "netDebt": 2067,
+            "capexAnnounced": 456,
+            "revenueGrowthYoy": 21,
+            "roce": 23.2,
+            "revenuePerBedYearly": 22621849,
+            "ebitdaPerBedYearly": 5831933,
+            "bedTurnoverYearly": 73.64,
+            "bedActivationPct": 91.5,
+            "enterpriseValueCr": 101654.2,
+            "evToEbitdaAnnualised": 36.62,
+            "evPerBedCr": 21.356,
+            "evPerBedLakhs": 2135.6,
+            "peAnnualised": 44.94
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-14",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/beb93c9e-e9b6-4b79-be5f-a83dde0943a9.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-14",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd19e91b-ac6b-48fb-afca-3ded50fd03ff.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-08-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/77b28dfd-7afd-44d1-8a60-1b08c4600961.pdf"
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "numberOfHospitals": 20,
+            "bedCapacity": 5200,
+            "operationalBeds": 4853,
+            "bedsUnderDevelopment": 4600,
+            "newHospitalsPlanned": 8,
+            "occupancyRate": 76,
+            "alos": 4.2,
+            "ipVolume": 81980,
+            "opVolume": 903000,
+            "arpob": 78000,
+            "revenue": 2608,
+            "ebitda": 648,
+            "ebitdaMargin": 26.1,
+            "pat": 344,
+            "netDebt": 2166,
+            "capexAnnounced": 7157,
+            "revenueGrowthYoy": 9,
+            "roce": 25.9,
+            "revenuePerBedYearly": 21495982,
+            "ebitdaPerBedYearly": 5341026,
+            "bedTurnoverYearly": 67.57,
+            "bedActivationPct": 93.3,
+            "enterpriseValueCr": 101753.2,
+            "evToEbitdaAnnualised": 39.26,
+            "evPerBedCr": 20.967,
+            "evPerBedLakhs": 2096.7,
+            "peAnnualised": 72.37
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-02-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed5af43a-ff90-4f5d-a97d-838a61e86fb5.pdf"
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-12",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b765c0b2-67cc-4aea-91e7-7bffcbeff79b.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2026-02-07",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3dac3a4d-dd64-4107-b1d9-00978230d033.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2026-02-05",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93f49c30-6667-4c08-bfd3-222cb102e715.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-02-05",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a0a7e30c-70b7-46e4-9795-f31d822490ca.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-12-18",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ffe7c59-6188-42ad-a63d-d030b35f57a9.pdf"
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-11-21",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a905df4-c8df-4945-8494-e060944ce284.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-19",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d5ec090-6da3-4749-b0a9-1d953cef653c.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-17",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cee54dc0-5625-40af-b4d9-1e7ebafcf7dd.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-14",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5995bf1c-4b40-495a-a6fe-511dca21e3f8.pdf"
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "numberOfHospitals": 21,
+            "bedCapacity": 6000,
+            "operationalBeds": 4966,
+            "bedsUnderDevelopment": 260,
+            "newHospitalsPlanned": 1,
+            "occupancyRate": 75,
+            "alos": 4.2,
+            "ipVolume": 81791,
+            "opVolume": 923000,
+            "arpob": 77900,
+            "revenue": 2664,
+            "ebitda": 682,
+            "ebitdaMargin": 26.8,
+            "pat": 387,
+            "netDebt": 1908,
+            "capexAnnounced": 1400,
+            "revenueGrowthYoy": 10,
+            "roce": 20.9,
+            "revenuePerBedYearly": 21457914,
+            "ebitdaPerBedYearly": 5493355,
+            "bedTurnoverYearly": 65.88,
+            "bedActivationPct": 82.8,
+            "enterpriseValueCr": 101495.2,
+            "evToEbitdaAnnualised": 37.2,
+            "evPerBedCr": 20.438,
+            "evPerBedLakhs": 2043.8,
+            "peAnnualised": 64.33
+          },
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-21",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37289118-d896-4f57-82b5-9cb704e121a0.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-21",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd4bf562-4290-439c-81dd-d7ac2aeca9d3.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-21",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3f2ca48e-5abb-4100-ac27-ae15f4ddc897.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-02-05",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6a8dcfb-d00e-468f-b47e-7a976a763e97.pdf"
+            }
+          ]
+        },
+        "FY27-Q1": {
+          "label": "Q1 FY27",
+          "calendar": "Apr–Jun 2026",
+          "metrics": {
+            "enterpriseValueCr": 99587.2
+          },
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2026-04-08",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e4fc1a71-65cd-4ebc-b5b0-5646a05ab309.pdf"
+            }
+          ]
+        }
+      }
     },
     "fortis-healthcare": {
       "slug": "fortis-healthcare",
@@ -1279,16 +1528,20 @@
           "apollo-hospitals": 73
         },
         "FY26-Q1": {
-          "apollo-hospitals": 73
+          "apollo-hospitals": 73,
+          "max-healthcare": 22
         },
         "FY26-Q2": {
-          "apollo-hospitals": 73
+          "apollo-hospitals": 73,
+          "max-healthcare": 20
         },
         "FY26-Q3": {
-          "apollo-hospitals": 76
+          "apollo-hospitals": 76,
+          "max-healthcare": 20
         },
         "FY26-Q4": {
-          "apollo-hospitals": 78
+          "apollo-hospitals": 78,
+          "max-healthcare": 21
         }
       }
     },
@@ -1326,16 +1579,20 @@
           "apollo-hospitals": 10187
         },
         "FY26-Q1": {
-          "apollo-hospitals": 10000
+          "apollo-hospitals": 10000,
+          "max-healthcare": 5200
         },
         "FY26-Q2": {
-          "apollo-hospitals": 10200
+          "apollo-hospitals": 10200,
+          "max-healthcare": 5200
         },
         "FY26-Q3": {
-          "apollo-hospitals": 10325
+          "apollo-hospitals": 10325,
+          "max-healthcare": 5200
         },
         "FY26-Q4": {
-          "apollo-hospitals": 10970
+          "apollo-hospitals": 10970,
+          "max-healthcare": 6000
         }
       }
     },
@@ -1376,13 +1633,16 @@
           "apollo-hospitals": 8030
         },
         "FY26-Q2": {
-          "apollo-hospitals": 9483
+          "apollo-hospitals": 9483,
+          "max-healthcare": 4760
         },
         "FY26-Q3": {
-          "apollo-hospitals": 9561
+          "apollo-hospitals": 9561,
+          "max-healthcare": 4853
         },
         "FY26-Q4": {
-          "apollo-hospitals": 9620
+          "apollo-hospitals": 9620,
+          "max-healthcare": 4966
         }
       }
     },
@@ -1417,16 +1677,20 @@
           "apollo-hospitals": 3577
         },
         "FY26-Q1": {
-          "apollo-hospitals": 2000
+          "apollo-hospitals": 2000,
+          "max-healthcare": 4700
         },
         "FY26-Q2": {
-          "apollo-hospitals": 3657
+          "apollo-hospitals": 3657,
+          "max-healthcare": 130
         },
         "FY26-Q3": {
-          "apollo-hospitals": 3630
+          "apollo-hospitals": 3630,
+          "max-healthcare": 4600
         },
         "FY26-Q4": {
-          "apollo-hospitals": 2805
+          "apollo-hospitals": 2805,
+          "max-healthcare": 260
         }
       }
     },
@@ -1458,16 +1722,20 @@
           "apollo-hospitals": 1
         },
         "FY26-Q1": {
-          "apollo-hospitals": 2
+          "apollo-hospitals": 2,
+          "max-healthcare": 7
         },
         "FY26-Q2": {
-          "apollo-hospitals": 2
+          "apollo-hospitals": 2,
+          "max-healthcare": 1
         },
         "FY26-Q3": {
-          "apollo-hospitals": 8
+          "apollo-hospitals": 8,
+          "max-healthcare": 8
         },
         "FY26-Q4": {
-          "apollo-hospitals": 11
+          "apollo-hospitals": 11,
+          "max-healthcare": 1
         }
       }
     },
@@ -1505,16 +1773,20 @@
           "apollo-hospitals": 67
         },
         "FY26-Q1": {
-          "apollo-hospitals": 65
+          "apollo-hospitals": 65,
+          "max-healthcare": 76
         },
         "FY26-Q2": {
-          "apollo-hospitals": 69
+          "apollo-hospitals": 69,
+          "max-healthcare": 77
         },
         "FY26-Q3": {
-          "apollo-hospitals": 67
+          "apollo-hospitals": 67,
+          "max-healthcare": 76
         },
         "FY26-Q4": {
-          "apollo-hospitals": 68
+          "apollo-hospitals": 68,
+          "max-healthcare": 75
         }
       }
     },
@@ -1551,14 +1823,20 @@
         "FY25-Q4": {
           "apollo-hospitals": 3.3
         },
+        "FY26-Q1": {
+          "max-healthcare": 4
+        },
         "FY26-Q2": {
-          "apollo-hospitals": 3.14
+          "apollo-hospitals": 3.14,
+          "max-healthcare": 4
         },
         "FY26-Q3": {
-          "apollo-hospitals": 3.16
+          "apollo-hospitals": 3.16,
+          "max-healthcare": 4.2
         },
         "FY26-Q4": {
-          "apollo-hospitals": 3.19
+          "apollo-hospitals": 3.19,
+          "max-healthcare": 4.2
         }
       }
     },
@@ -1595,14 +1873,20 @@
         "FY25-Q4": {
           "apollo-hospitals": 146434
         },
+        "FY26-Q1": {
+          "max-healthcare": 83257
+        },
         "FY26-Q2": {
-          "apollo-hospitals": 162928
+          "apollo-hospitals": 162928,
+          "max-healthcare": 87629
         },
         "FY26-Q3": {
-          "apollo-hospitals": 157777
+          "apollo-hospitals": 157777,
+          "max-healthcare": 81980
         },
         "FY26-Q4": {
-          "apollo-hospitals": 156728
+          "apollo-hospitals": 156728,
+          "max-healthcare": 81791
         }
       }
     },
@@ -1639,11 +1923,19 @@
         "FY25-Q4": {
           "apollo-hospitals": 559817
         },
+        "FY26-Q1": {
+          "max-healthcare": 940000
+        },
         "FY26-Q2": {
-          "apollo-hospitals": 618743
+          "apollo-hospitals": 618743,
+          "max-healthcare": 1010000
         },
         "FY26-Q3": {
-          "apollo-hospitals": 561427
+          "apollo-hospitals": 561427,
+          "max-healthcare": 903000
+        },
+        "FY26-Q4": {
+          "max-healthcare": 923000
         }
       }
     },
@@ -1680,11 +1972,19 @@
         "FY25-Q4": {
           "apollo-hospitals": 63569
         },
+        "FY26-Q1": {
+          "max-healthcare": 78000
+        },
+        "FY26-Q2": {
+          "max-healthcare": 77300
+        },
         "FY26-Q3": {
-          "apollo-hospitals": 64019.5
+          "apollo-hospitals": 64019.5,
+          "max-healthcare": 78000
         },
         "FY26-Q4": {
-          "apollo-hospitals": 64834.7
+          "apollo-hospitals": 64834.7,
+          "max-healthcare": 77900
         }
       }
     },
@@ -1754,16 +2054,20 @@
           "apollo-hospitals": 5592.2
         },
         "FY26-Q1": {
-          "apollo-hospitals": 5842
+          "apollo-hospitals": 5842,
+          "max-healthcare": 2460
         },
         "FY26-Q2": {
-          "apollo-hospitals": 6303.5
+          "apollo-hospitals": 6303.5,
+          "max-healthcare": 2692
         },
         "FY26-Q3": {
-          "apollo-hospitals": 6477.4
+          "apollo-hospitals": 6477.4,
+          "max-healthcare": 2608
         },
         "FY26-Q4": {
-          "apollo-hospitals": 6605.5
+          "apollo-hospitals": 6605.5,
+          "max-healthcare": 2664
         }
       }
     },
@@ -1801,16 +2105,20 @@
           "apollo-hospitals": 769.8
         },
         "FY26-Q1": {
-          "apollo-hospitals": 852
+          "apollo-hospitals": 852,
+          "max-healthcare": 613
         },
         "FY26-Q2": {
-          "apollo-hospitals": 941.2
+          "apollo-hospitals": 941.2,
+          "max-healthcare": 694
         },
         "FY26-Q3": {
-          "apollo-hospitals": 965.3
+          "apollo-hospitals": 965.3,
+          "max-healthcare": 648
         },
         "FY26-Q4": {
-          "apollo-hospitals": 1010.9
+          "apollo-hospitals": 1010.9,
+          "max-healthcare": 682
         }
       }
     },
@@ -1848,16 +2156,20 @@
           "apollo-hospitals": 13.8
         },
         "FY26-Q1": {
-          "apollo-hospitals": 14.58
+          "apollo-hospitals": 14.58,
+          "max-healthcare": 24.9
         },
         "FY26-Q2": {
-          "apollo-hospitals": 14.9
+          "apollo-hospitals": 14.9,
+          "max-healthcare": 26.9
         },
         "FY26-Q3": {
-          "apollo-hospitals": 14.9
+          "apollo-hospitals": 14.9,
+          "max-healthcare": 26.1
         },
         "FY26-Q4": {
-          "apollo-hospitals": 15.3
+          "apollo-hospitals": 15.3,
+          "max-healthcare": 26.8
         }
       }
     },
@@ -1895,16 +2207,20 @@
           "apollo-hospitals": 389.6
         },
         "FY26-Q1": {
-          "apollo-hospitals": 433
+          "apollo-hospitals": 433,
+          "max-healthcare": 345
         },
         "FY26-Q2": {
-          "apollo-hospitals": 477.2
+          "apollo-hospitals": 477.2,
+          "max-healthcare": 554
         },
         "FY26-Q3": {
-          "apollo-hospitals": 502.3
+          "apollo-hospitals": 502.3,
+          "max-healthcare": 344
         },
         "FY26-Q4": {
-          "apollo-hospitals": 529.2
+          "apollo-hospitals": 529.2,
+          "max-healthcare": 387
         }
       }
     },
@@ -1938,14 +2254,20 @@
         "FY25-Q4": {
           "apollo-hospitals": -10.9
         },
+        "FY26-Q1": {
+          "max-healthcare": 1755
+        },
         "FY26-Q2": {
-          "apollo-hospitals": -332.6
+          "apollo-hospitals": -332.6,
+          "max-healthcare": 2067
         },
         "FY26-Q3": {
-          "apollo-hospitals": -299.6
+          "apollo-hospitals": -299.6,
+          "max-healthcare": 2166
         },
         "FY26-Q4": {
-          "apollo-hospitals": 865.9
+          "apollo-hospitals": 865.9,
+          "max-healthcare": 1908
         }
       }
     },
@@ -1982,14 +2304,20 @@
         "FY25-Q4": {
           "apollo-hospitals": 7603
         },
+        "FY26-Q1": {
+          "max-healthcare": 6434
+        },
         "FY26-Q2": {
-          "apollo-hospitals": 8300
+          "apollo-hospitals": 8300,
+          "max-healthcare": 456
         },
         "FY26-Q3": {
-          "apollo-hospitals": 8200
+          "apollo-hospitals": 8200,
+          "max-healthcare": 7157
         },
         "FY26-Q4": {
-          "apollo-hospitals": 8300
+          "apollo-hospitals": 8300,
+          "max-healthcare": 1400
         }
       }
     },
@@ -2027,16 +2355,20 @@
           "apollo-hospitals": 13
         },
         "FY26-Q1": {
-          "apollo-hospitals": 15
+          "apollo-hospitals": 15,
+          "max-healthcare": 27
         },
         "FY26-Q2": {
-          "apollo-hospitals": 13
+          "apollo-hospitals": 13,
+          "max-healthcare": 21
         },
         "FY26-Q3": {
-          "apollo-hospitals": 17
+          "apollo-hospitals": 17,
+          "max-healthcare": 9
         },
         "FY26-Q4": {
-          "apollo-hospitals": 18
+          "apollo-hospitals": 18,
+          "max-healthcare": 10
         }
       }
     },
@@ -2073,14 +2405,20 @@
         "FY25-Q4": {
           "apollo-hospitals": 27.5
         },
+        "FY26-Q1": {
+          "max-healthcare": 25.9
+        },
         "FY26-Q2": {
-          "apollo-hospitals": 30.3
+          "apollo-hospitals": 30.3,
+          "max-healthcare": 23.2
         },
         "FY26-Q3": {
-          "apollo-hospitals": 29.5
+          "apollo-hospitals": 29.5,
+          "max-healthcare": 25.9
         },
         "FY26-Q4": {
-          "apollo-hospitals": 25.4
+          "apollo-hospitals": 25.4,
+          "max-healthcare": 20.9
         }
       }
     },
@@ -2122,13 +2460,16 @@
           "apollo-hospitals": 29100872
         },
         "FY26-Q2": {
-          "apollo-hospitals": 26588632
+          "apollo-hospitals": 26588632,
+          "max-healthcare": 22621849
         },
         "FY26-Q3": {
-          "apollo-hospitals": 27099257
+          "apollo-hospitals": 27099257,
+          "max-healthcare": 21495982
         },
         "FY26-Q4": {
-          "apollo-hospitals": 27465696
+          "apollo-hospitals": 27465696,
+          "max-healthcare": 21457914
         }
       }
     },
@@ -2170,13 +2511,16 @@
           "apollo-hospitals": 4244085
         },
         "FY26-Q2": {
-          "apollo-hospitals": 3970052
+          "apollo-hospitals": 3970052,
+          "max-healthcare": 5831933
         },
         "FY26-Q3": {
-          "apollo-hospitals": 4038490
+          "apollo-hospitals": 4038490,
+          "max-healthcare": 5341026
         },
         "FY26-Q4": {
-          "apollo-hospitals": 4203326
+          "apollo-hospitals": 4203326,
+          "max-healthcare": 5493355
         }
       }
     },
@@ -2215,13 +2559,16 @@
           "apollo-hospitals": 61.93
         },
         "FY26-Q2": {
-          "apollo-hospitals": 68.72
+          "apollo-hospitals": 68.72,
+          "max-healthcare": 73.64
         },
         "FY26-Q3": {
-          "apollo-hospitals": 66.01
+          "apollo-hospitals": 66.01,
+          "max-healthcare": 67.57
         },
         "FY26-Q4": {
-          "apollo-hospitals": 65.17
+          "apollo-hospitals": 65.17,
+          "max-healthcare": 65.88
         }
       }
     },
@@ -2263,13 +2610,16 @@
           "apollo-hospitals": 80.3
         },
         "FY26-Q2": {
-          "apollo-hospitals": 93
+          "apollo-hospitals": 93,
+          "max-healthcare": 91.5
         },
         "FY26-Q3": {
-          "apollo-hospitals": 92.6
+          "apollo-hospitals": 92.6,
+          "max-healthcare": 93.3
         },
         "FY26-Q4": {
-          "apollo-hospitals": 87.7
+          "apollo-hospitals": 87.7,
+          "max-healthcare": 82.8
         }
       }
     },
@@ -2308,16 +2658,23 @@
           "apollo-hospitals": 120189.5
         },
         "FY26-Q1": {
-          "apollo-hospitals": 120200.4
+          "apollo-hospitals": 120200.4,
+          "max-healthcare": 101342.2
         },
         "FY26-Q2": {
-          "apollo-hospitals": 119867.8
+          "apollo-hospitals": 119867.8,
+          "max-healthcare": 101654.2
         },
         "FY26-Q3": {
-          "apollo-hospitals": 119900.8
+          "apollo-hospitals": 119900.8,
+          "max-healthcare": 101753.2
         },
         "FY26-Q4": {
-          "apollo-hospitals": 121066.3
+          "apollo-hospitals": 121066.3,
+          "max-healthcare": 101495.2
+        },
+        "FY27-Q1": {
+          "max-healthcare": 99587.2
         }
       }
     },
@@ -2356,16 +2713,20 @@
           "apollo-hospitals": 39.03
         },
         "FY26-Q1": {
-          "apollo-hospitals": 35.27
+          "apollo-hospitals": 35.27,
+          "max-healthcare": 41.33
         },
         "FY26-Q2": {
-          "apollo-hospitals": 31.84
+          "apollo-hospitals": 31.84,
+          "max-healthcare": 36.62
         },
         "FY26-Q3": {
-          "apollo-hospitals": 31.05
+          "apollo-hospitals": 31.05,
+          "max-healthcare": 39.26
         },
         "FY26-Q4": {
-          "apollo-hospitals": 29.94
+          "apollo-hospitals": 29.94,
+          "max-healthcare": 37.2
         }
       }
     },
@@ -2407,13 +2768,16 @@
           "apollo-hospitals": 14.969
         },
         "FY26-Q2": {
-          "apollo-hospitals": 12.64
+          "apollo-hospitals": 12.64,
+          "max-healthcare": 21.356
         },
         "FY26-Q3": {
-          "apollo-hospitals": 12.541
+          "apollo-hospitals": 12.541,
+          "max-healthcare": 20.967
         },
         "FY26-Q4": {
-          "apollo-hospitals": 12.585
+          "apollo-hospitals": 12.585,
+          "max-healthcare": 20.438
         }
       }
     },
@@ -2455,13 +2819,16 @@
           "apollo-hospitals": 1496.9
         },
         "FY26-Q2": {
-          "apollo-hospitals": 1264
+          "apollo-hospitals": 1264,
+          "max-healthcare": 2135.6
         },
         "FY26-Q3": {
-          "apollo-hospitals": 1254.1
+          "apollo-hospitals": 1254.1,
+          "max-healthcare": 2096.7
         },
         "FY26-Q4": {
-          "apollo-hospitals": 1258.5
+          "apollo-hospitals": 1258.5,
+          "max-healthcare": 2043.8
         }
       }
     },
@@ -2500,16 +2867,20 @@
           "apollo-hospitals": 77.13
         },
         "FY26-Q1": {
-          "apollo-hospitals": 69.4
+          "apollo-hospitals": 69.4,
+          "max-healthcare": 72.16
         },
         "FY26-Q2": {
-          "apollo-hospitals": 62.97
+          "apollo-hospitals": 62.97,
+          "max-healthcare": 44.94
         },
         "FY26-Q3": {
-          "apollo-hospitals": 59.82
+          "apollo-hospitals": 59.82,
+          "max-healthcare": 72.37
         },
         "FY26-Q4": {
-          "apollo-hospitals": 56.78
+          "apollo-hospitals": 56.78,
+          "max-healthcare": 64.33
         }
       }
     }
@@ -4247,6 +4618,11 @@
           "slug": "apollo-hospitals",
           "value": 73,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 22,
+          "rank": 2
         }
       ],
       "bedCapacity": [
@@ -4254,6 +4630,11 @@
           "slug": "apollo-hospitals",
           "value": 10000,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 5200,
+          "rank": 2
         }
       ],
       "operationalBeds": [
@@ -4265,22 +4646,65 @@
       ],
       "bedsUnderDevelopment": [
         {
+          "slug": "max-healthcare",
+          "value": 4700,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 2000,
-          "rank": 1
+          "rank": 2
         }
       ],
       "newHospitalsPlanned": [
         {
+          "slug": "max-healthcare",
+          "value": 7,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 2,
-          "rank": 1
+          "rank": 2
         }
       ],
       "occupancyRate": [
         {
+          "slug": "max-healthcare",
+          "value": 76,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 65,
+          "rank": 2
+        }
+      ],
+      "alos": [
+        {
+          "slug": "max-healthcare",
+          "value": 4,
+          "rank": 1
+        }
+      ],
+      "ipVolume": [
+        {
+          "slug": "max-healthcare",
+          "value": 83257,
+          "rank": 1
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "max-healthcare",
+          "value": 940000,
+          "rank": 1
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "max-healthcare",
+          "value": 78000,
           "rank": 1
         }
       ],
@@ -4289,6 +4713,11 @@
           "slug": "apollo-hospitals",
           "value": 5842,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2460,
+          "rank": 2
         }
       ],
       "ebitda": [
@@ -4296,13 +4725,23 @@
           "slug": "apollo-hospitals",
           "value": 852,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 613,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "max-healthcare",
+          "value": 24.9,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 14.58,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
@@ -4310,12 +4749,43 @@
           "slug": "apollo-hospitals",
           "value": 433,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 345,
+          "rank": 2
+        }
+      ],
+      "netDebt": [
+        {
+          "slug": "max-healthcare",
+          "value": 1755,
+          "rank": 1
+        }
+      ],
+      "capexAnnounced": [
+        {
+          "slug": "max-healthcare",
+          "value": 6434,
+          "rank": 1
         }
       ],
       "revenueGrowthYoy": [
         {
+          "slug": "max-healthcare",
+          "value": 27,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 15,
+          "rank": 2
+        }
+      ],
+      "roce": [
+        {
+          "slug": "max-healthcare",
+          "value": 25.9,
           "rank": 1
         }
       ],
@@ -4345,6 +4815,11 @@
           "slug": "apollo-hospitals",
           "value": 120200.4,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 101342.2,
+          "rank": 2
         }
       ],
       "evToEbitdaAnnualised": [
@@ -4352,6 +4827,11 @@
           "slug": "apollo-hospitals",
           "value": 35.27,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 41.33,
+          "rank": 2
         }
       ],
       "evPerBedCr": [
@@ -4373,6 +4853,11 @@
           "slug": "apollo-hospitals",
           "value": 69.4,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 72.16,
+          "rank": 2
         }
       ]
     },
@@ -4382,6 +4867,11 @@
           "slug": "apollo-hospitals",
           "value": 73,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 20,
+          "rank": 2
         }
       ],
       "bedCapacity": [
@@ -4389,6 +4879,11 @@
           "slug": "apollo-hospitals",
           "value": 10200,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 5200,
+          "rank": 2
         }
       ],
       "operationalBeds": [
@@ -4396,6 +4891,11 @@
           "slug": "apollo-hospitals",
           "value": 9483,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4760,
+          "rank": 2
         }
       ],
       "bedsUnderDevelopment": [
@@ -4403,6 +4903,11 @@
           "slug": "apollo-hospitals",
           "value": 3657,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 130,
+          "rank": 2
         }
       ],
       "newHospitalsPlanned": [
@@ -4410,13 +4915,23 @@
           "slug": "apollo-hospitals",
           "value": 2,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1,
+          "rank": 2
         }
       ],
       "occupancyRate": [
         {
+          "slug": "max-healthcare",
+          "value": 77,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 69,
-          "rank": 1
+          "rank": 2
         }
       ],
       "alos": [
@@ -4424,6 +4939,11 @@
           "slug": "apollo-hospitals",
           "value": 3.14,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4,
+          "rank": 2
         }
       ],
       "ipVolume": [
@@ -4431,12 +4951,29 @@
           "slug": "apollo-hospitals",
           "value": 162928,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 87629,
+          "rank": 2
         }
       ],
       "opVolume": [
         {
+          "slug": "max-healthcare",
+          "value": 1010000,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 618743,
+          "rank": 2
+        }
+      ],
+      "arpob": [
+        {
+          "slug": "max-healthcare",
+          "value": 77300,
           "rank": 1
         }
       ],
@@ -4452,6 +4989,11 @@
           "slug": "apollo-hospitals",
           "value": 6303.5,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2692,
+          "rank": 2
         }
       ],
       "ebitda": [
@@ -4459,20 +5001,35 @@
           "slug": "apollo-hospitals",
           "value": 941.2,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 694,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "max-healthcare",
+          "value": 26.9,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 14.9,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
         {
+          "slug": "max-healthcare",
+          "value": 554,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 477.2,
-          "rank": 1
+          "rank": 2
         }
       ],
       "netDebt": [
@@ -4480,6 +5037,11 @@
           "slug": "apollo-hospitals",
           "value": -332.6,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2067,
+          "rank": 2
         }
       ],
       "capexAnnounced": [
@@ -4487,13 +5049,23 @@
           "slug": "apollo-hospitals",
           "value": 8300,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 456,
+          "rank": 2
         }
       ],
       "revenueGrowthYoy": [
         {
+          "slug": "max-healthcare",
+          "value": 21,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 13,
-          "rank": 1
+          "rank": 2
         }
       ],
       "roce": [
@@ -4501,6 +5073,11 @@
           "slug": "apollo-hospitals",
           "value": 30.3,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 23.2,
+          "rank": 2
         }
       ],
       "revenuePerBedYearly": [
@@ -4508,20 +5085,35 @@
           "slug": "apollo-hospitals",
           "value": 26588632,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 22621849,
+          "rank": 2
         }
       ],
       "ebitdaPerBedYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 5831933,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 3970052,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedTurnoverYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 73.64,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 68.72,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedActivationPct": [
@@ -4529,6 +5121,11 @@
           "slug": "apollo-hospitals",
           "value": 93,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 91.5,
+          "rank": 2
         }
       ],
       "enterpriseValueCr": [
@@ -4536,6 +5133,11 @@
           "slug": "apollo-hospitals",
           "value": 119867.8,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 101654.2,
+          "rank": 2
         }
       ],
       "evToEbitdaAnnualised": [
@@ -4543,27 +5145,47 @@
           "slug": "apollo-hospitals",
           "value": 31.84,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 36.62,
+          "rank": 2
         }
       ],
       "evPerBedCr": [
         {
+          "slug": "max-healthcare",
+          "value": 21.356,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 12.64,
-          "rank": 1
+          "rank": 2
         }
       ],
       "evPerBedLakhs": [
         {
+          "slug": "max-healthcare",
+          "value": 2135.6,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 1264,
-          "rank": 1
+          "rank": 2
         }
       ],
       "peAnnualised": [
         {
+          "slug": "max-healthcare",
+          "value": 44.94,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 62.97,
-          "rank": 1
+          "rank": 2
         }
       ]
     },
@@ -4573,6 +5195,11 @@
           "slug": "apollo-hospitals",
           "value": 76,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 20,
+          "rank": 2
         }
       ],
       "bedCapacity": [
@@ -4580,6 +5207,11 @@
           "slug": "apollo-hospitals",
           "value": 10325,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 5200,
+          "rank": 2
         }
       ],
       "operationalBeds": [
@@ -4587,13 +5219,23 @@
           "slug": "apollo-hospitals",
           "value": 9561,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4853,
+          "rank": 2
         }
       ],
       "bedsUnderDevelopment": [
         {
+          "slug": "max-healthcare",
+          "value": 4600,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 3630,
-          "rank": 1
+          "rank": 2
         }
       ],
       "newHospitalsPlanned": [
@@ -4601,13 +5243,23 @@
           "slug": "apollo-hospitals",
           "value": 8,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 8,
+          "rank": 2
         }
       ],
       "occupancyRate": [
         {
+          "slug": "max-healthcare",
+          "value": 76,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 67,
-          "rank": 1
+          "rank": 2
         }
       ],
       "alos": [
@@ -4615,6 +5267,11 @@
           "slug": "apollo-hospitals",
           "value": 3.16,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4.2,
+          "rank": 2
         }
       ],
       "ipVolume": [
@@ -4622,20 +5279,35 @@
           "slug": "apollo-hospitals",
           "value": 157777,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 81980,
+          "rank": 2
         }
       ],
       "opVolume": [
         {
+          "slug": "max-healthcare",
+          "value": 903000,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 561427,
-          "rank": 1
+          "rank": 2
         }
       ],
       "arpob": [
         {
+          "slug": "max-healthcare",
+          "value": 78000,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 64019.5,
-          "rank": 1
+          "rank": 2
         }
       ],
       "arpp": [
@@ -4650,6 +5322,11 @@
           "slug": "apollo-hospitals",
           "value": 6477.4,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2608,
+          "rank": 2
         }
       ],
       "ebitda": [
@@ -4657,13 +5334,23 @@
           "slug": "apollo-hospitals",
           "value": 965.3,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 648,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "max-healthcare",
+          "value": 26.1,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 14.9,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
@@ -4671,6 +5358,11 @@
           "slug": "apollo-hospitals",
           "value": 502.3,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 344,
+          "rank": 2
         }
       ],
       "netDebt": [
@@ -4678,6 +5370,11 @@
           "slug": "apollo-hospitals",
           "value": -299.6,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2166,
+          "rank": 2
         }
       ],
       "capexAnnounced": [
@@ -4685,6 +5382,11 @@
           "slug": "apollo-hospitals",
           "value": 8200,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 7157,
+          "rank": 2
         }
       ],
       "revenueGrowthYoy": [
@@ -4692,6 +5394,11 @@
           "slug": "apollo-hospitals",
           "value": 17,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 9,
+          "rank": 2
         }
       ],
       "roce": [
@@ -4699,6 +5406,11 @@
           "slug": "apollo-hospitals",
           "value": 29.5,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 25.9,
+          "rank": 2
         }
       ],
       "revenuePerBedYearly": [
@@ -4706,27 +5418,47 @@
           "slug": "apollo-hospitals",
           "value": 27099257,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 21495982,
+          "rank": 2
         }
       ],
       "ebitdaPerBedYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 5341026,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 4038490,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedTurnoverYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 67.57,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 66.01,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedActivationPct": [
         {
+          "slug": "max-healthcare",
+          "value": 93.3,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 92.6,
-          "rank": 1
+          "rank": 2
         }
       ],
       "enterpriseValueCr": [
@@ -4734,6 +5466,11 @@
           "slug": "apollo-hospitals",
           "value": 119900.8,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 101753.2,
+          "rank": 2
         }
       ],
       "evToEbitdaAnnualised": [
@@ -4741,20 +5478,35 @@
           "slug": "apollo-hospitals",
           "value": 31.05,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 39.26,
+          "rank": 2
         }
       ],
       "evPerBedCr": [
         {
+          "slug": "max-healthcare",
+          "value": 20.967,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 12.541,
-          "rank": 1
+          "rank": 2
         }
       ],
       "evPerBedLakhs": [
         {
+          "slug": "max-healthcare",
+          "value": 2096.7,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 1254.1,
-          "rank": 1
+          "rank": 2
         }
       ],
       "peAnnualised": [
@@ -4762,6 +5514,11 @@
           "slug": "apollo-hospitals",
           "value": 59.82,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 72.37,
+          "rank": 2
         }
       ]
     },
@@ -4771,6 +5528,11 @@
           "slug": "apollo-hospitals",
           "value": 78,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 21,
+          "rank": 2
         }
       ],
       "bedCapacity": [
@@ -4778,6 +5540,11 @@
           "slug": "apollo-hospitals",
           "value": 10970,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 6000,
+          "rank": 2
         }
       ],
       "operationalBeds": [
@@ -4785,6 +5552,11 @@
           "slug": "apollo-hospitals",
           "value": 9620,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4966,
+          "rank": 2
         }
       ],
       "bedsUnderDevelopment": [
@@ -4792,6 +5564,11 @@
           "slug": "apollo-hospitals",
           "value": 2805,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 260,
+          "rank": 2
         }
       ],
       "newHospitalsPlanned": [
@@ -4799,13 +5576,23 @@
           "slug": "apollo-hospitals",
           "value": 11,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1,
+          "rank": 2
         }
       ],
       "occupancyRate": [
         {
+          "slug": "max-healthcare",
+          "value": 75,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 68,
-          "rank": 1
+          "rank": 2
         }
       ],
       "alos": [
@@ -4813,6 +5600,11 @@
           "slug": "apollo-hospitals",
           "value": 3.19,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4.2,
+          "rank": 2
         }
       ],
       "ipVolume": [
@@ -4820,13 +5612,30 @@
           "slug": "apollo-hospitals",
           "value": 156728,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 81791,
+          "rank": 2
+        }
+      ],
+      "opVolume": [
+        {
+          "slug": "max-healthcare",
+          "value": 923000,
+          "rank": 1
         }
       ],
       "arpob": [
         {
+          "slug": "max-healthcare",
+          "value": 77900,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 64834.7,
-          "rank": 1
+          "rank": 2
         }
       ],
       "arpp": [
@@ -4841,6 +5650,11 @@
           "slug": "apollo-hospitals",
           "value": 6605.5,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2664,
+          "rank": 2
         }
       ],
       "ebitda": [
@@ -4848,13 +5662,23 @@
           "slug": "apollo-hospitals",
           "value": 1010.9,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 682,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "max-healthcare",
+          "value": 26.8,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 15.3,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
@@ -4862,6 +5686,11 @@
           "slug": "apollo-hospitals",
           "value": 529.2,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 387,
+          "rank": 2
         }
       ],
       "netDebt": [
@@ -4869,6 +5698,11 @@
           "slug": "apollo-hospitals",
           "value": 865.9,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1908,
+          "rank": 2
         }
       ],
       "capexAnnounced": [
@@ -4876,6 +5710,11 @@
           "slug": "apollo-hospitals",
           "value": 8300,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1400,
+          "rank": 2
         }
       ],
       "revenueGrowthYoy": [
@@ -4883,6 +5722,11 @@
           "slug": "apollo-hospitals",
           "value": 18,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 10,
+          "rank": 2
         }
       ],
       "roce": [
@@ -4890,6 +5734,11 @@
           "slug": "apollo-hospitals",
           "value": 25.4,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 20.9,
+          "rank": 2
         }
       ],
       "revenuePerBedYearly": [
@@ -4897,20 +5746,35 @@
           "slug": "apollo-hospitals",
           "value": 27465696,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 21457914,
+          "rank": 2
         }
       ],
       "ebitdaPerBedYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 5493355,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 4203326,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedTurnoverYearly": [
         {
+          "slug": "max-healthcare",
+          "value": 65.88,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 65.17,
-          "rank": 1
+          "rank": 2
         }
       ],
       "bedActivationPct": [
@@ -4918,6 +5782,11 @@
           "slug": "apollo-hospitals",
           "value": 87.7,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 82.8,
+          "rank": 2
         }
       ],
       "enterpriseValueCr": [
@@ -4925,6 +5794,11 @@
           "slug": "apollo-hospitals",
           "value": 121066.3,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 101495.2,
+          "rank": 2
         }
       ],
       "evToEbitdaAnnualised": [
@@ -4932,26 +5806,55 @@
           "slug": "apollo-hospitals",
           "value": 29.94,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 37.2,
+          "rank": 2
         }
       ],
       "evPerBedCr": [
         {
+          "slug": "max-healthcare",
+          "value": 20.438,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 12.585,
-          "rank": 1
+          "rank": 2
         }
       ],
       "evPerBedLakhs": [
         {
+          "slug": "max-healthcare",
+          "value": 2043.8,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 1258.5,
-          "rank": 1
+          "rank": 2
         }
       ],
       "peAnnualised": [
         {
           "slug": "apollo-hospitals",
           "value": 56.78,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 64.33,
+          "rank": 2
+        }
+      ]
+    },
+    "FY27-Q1": {
+      "enterpriseValueCr": [
+        {
+          "slug": "max-healthcare",
+          "value": 99587.2,
           "rank": 1
         }
       ]
@@ -6686,18 +7589,18 @@
     },
     "FY26-Q1": {
       "numberOfHospitals": {
-        "n": 1,
-        "min": 73,
+        "n": 2,
+        "min": 22,
         "max": 73,
-        "mean": 73,
-        "median": 73
+        "mean": 47.5,
+        "median": 47.5
       },
       "bedCapacity": {
-        "n": 1,
-        "min": 10000,
+        "n": 2,
+        "min": 5200,
         "max": 10000,
-        "mean": 10000,
-        "median": 10000
+        "mean": 7600,
+        "median": 7600
       },
       "operationalBeds": {
         "n": 1,
@@ -6707,60 +7610,109 @@
         "median": 8030
       },
       "bedsUnderDevelopment": {
-        "n": 1,
+        "n": 2,
         "min": 2000,
-        "max": 2000,
-        "mean": 2000,
-        "median": 2000
+        "max": 4700,
+        "mean": 3350,
+        "median": 3350
       },
       "newHospitalsPlanned": {
-        "n": 1,
+        "n": 2,
         "min": 2,
-        "max": 2,
-        "mean": 2,
-        "median": 2
+        "max": 7,
+        "mean": 4.5,
+        "median": 4.5
       },
       "occupancyRate": {
-        "n": 1,
+        "n": 2,
         "min": 65,
-        "max": 65,
-        "mean": 65,
-        "median": 65
+        "max": 76,
+        "mean": 70.5,
+        "median": 70.5
+      },
+      "alos": {
+        "n": 1,
+        "min": 4,
+        "max": 4,
+        "mean": 4,
+        "median": 4
+      },
+      "ipVolume": {
+        "n": 1,
+        "min": 83257,
+        "max": 83257,
+        "mean": 83257,
+        "median": 83257
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 940000,
+        "max": 940000,
+        "mean": 940000,
+        "median": 940000
+      },
+      "arpob": {
+        "n": 1,
+        "min": 78000,
+        "max": 78000,
+        "mean": 78000,
+        "median": 78000
       },
       "revenue": {
-        "n": 1,
-        "min": 5842,
+        "n": 2,
+        "min": 2460,
         "max": 5842,
-        "mean": 5842,
-        "median": 5842
+        "mean": 4151,
+        "median": 4151
       },
       "ebitda": {
-        "n": 1,
-        "min": 852,
+        "n": 2,
+        "min": 613,
         "max": 852,
-        "mean": 852,
-        "median": 852
+        "mean": 732.5,
+        "median": 732.5
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 14.58,
-        "max": 14.58,
-        "mean": 14.58,
-        "median": 14.58
+        "max": 24.9,
+        "mean": 19.74,
+        "median": 19.74
       },
       "pat": {
-        "n": 1,
-        "min": 433,
+        "n": 2,
+        "min": 345,
         "max": 433,
-        "mean": 433,
-        "median": 433
+        "mean": 389,
+        "median": 389
+      },
+      "netDebt": {
+        "n": 1,
+        "min": 1755,
+        "max": 1755,
+        "mean": 1755,
+        "median": 1755
+      },
+      "capexAnnounced": {
+        "n": 1,
+        "min": 6434,
+        "max": 6434,
+        "mean": 6434,
+        "median": 6434
       },
       "revenueGrowthYoy": {
-        "n": 1,
+        "n": 2,
         "min": 15,
-        "max": 15,
-        "mean": 15,
-        "median": 15
+        "max": 27,
+        "mean": 21,
+        "median": 21
+      },
+      "roce": {
+        "n": 1,
+        "min": 25.9,
+        "max": 25.9,
+        "mean": 25.9,
+        "median": 25.9
       },
       "revenuePerBedYearly": {
         "n": 1,
@@ -6784,18 +7736,18 @@
         "median": 80.3
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 120200.4,
+        "n": 2,
+        "min": 101342.2,
         "max": 120200.4,
-        "mean": 120200.4,
-        "median": 120200.4
+        "mean": 110771.3,
+        "median": 110771.3
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 35.27,
-        "max": 35.27,
-        "mean": 35.27,
-        "median": 35.27
+        "max": 41.33,
+        "mean": 38.3,
+        "median": 38.3
       },
       "evPerBedCr": {
         "n": 1,
@@ -6812,76 +7764,83 @@
         "median": 1496.9
       },
       "peAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 69.4,
-        "max": 69.4,
-        "mean": 69.4,
-        "median": 69.4
+        "max": 72.16,
+        "mean": 70.78,
+        "median": 70.78
       }
     },
     "FY26-Q2": {
       "numberOfHospitals": {
-        "n": 1,
-        "min": 73,
+        "n": 2,
+        "min": 20,
         "max": 73,
+        "mean": 46.5,
+        "median": 46.5
+      },
+      "bedCapacity": {
+        "n": 2,
+        "min": 5200,
+        "max": 10200,
+        "mean": 7700,
+        "median": 7700
+      },
+      "operationalBeds": {
+        "n": 2,
+        "min": 4760,
+        "max": 9483,
+        "mean": 7121.5,
+        "median": 7121.5
+      },
+      "bedsUnderDevelopment": {
+        "n": 2,
+        "min": 130,
+        "max": 3657,
+        "mean": 1893.5,
+        "median": 1893.5
+      },
+      "newHospitalsPlanned": {
+        "n": 2,
+        "min": 1,
+        "max": 2,
+        "mean": 1.5,
+        "median": 1.5
+      },
+      "occupancyRate": {
+        "n": 2,
+        "min": 69,
+        "max": 77,
         "mean": 73,
         "median": 73
       },
-      "bedCapacity": {
-        "n": 1,
-        "min": 10200,
-        "max": 10200,
-        "mean": 10200,
-        "median": 10200
-      },
-      "operationalBeds": {
-        "n": 1,
-        "min": 9483,
-        "max": 9483,
-        "mean": 9483,
-        "median": 9483
-      },
-      "bedsUnderDevelopment": {
-        "n": 1,
-        "min": 3657,
-        "max": 3657,
-        "mean": 3657,
-        "median": 3657
-      },
-      "newHospitalsPlanned": {
-        "n": 1,
-        "min": 2,
-        "max": 2,
-        "mean": 2,
-        "median": 2
-      },
-      "occupancyRate": {
-        "n": 1,
-        "min": 69,
-        "max": 69,
-        "mean": 69,
-        "median": 69
-      },
       "alos": {
-        "n": 1,
+        "n": 2,
         "min": 3.14,
-        "max": 3.14,
-        "mean": 3.14,
-        "median": 3.14
+        "max": 4,
+        "mean": 3.57,
+        "median": 3.57
       },
       "ipVolume": {
-        "n": 1,
-        "min": 162928,
+        "n": 2,
+        "min": 87629,
         "max": 162928,
-        "mean": 162928,
-        "median": 162928
+        "mean": 125278.5,
+        "median": 125278.5
       },
       "opVolume": {
-        "n": 1,
+        "n": 2,
         "min": 618743,
-        "max": 618743,
-        "mean": 618743,
-        "median": 618743
+        "max": 1010000,
+        "mean": 814371.5,
+        "median": 814371.5
+      },
+      "arpob": {
+        "n": 1,
+        "min": 77300,
+        "max": 77300,
+        "mean": 77300,
+        "median": 77300
       },
       "arpp": {
         "n": 1,
@@ -6891,195 +7850,195 @@
         "median": 173318
       },
       "revenue": {
-        "n": 1,
-        "min": 6303.5,
+        "n": 2,
+        "min": 2692,
         "max": 6303.5,
-        "mean": 6303.5,
-        "median": 6303.5
+        "mean": 4497.75,
+        "median": 4497.75
       },
       "ebitda": {
-        "n": 1,
-        "min": 941.2,
+        "n": 2,
+        "min": 694,
         "max": 941.2,
-        "mean": 941.2,
-        "median": 941.2
+        "mean": 817.6,
+        "median": 817.6
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 14.9,
-        "max": 14.9,
-        "mean": 14.9,
-        "median": 14.9
+        "max": 26.9,
+        "mean": 20.9,
+        "median": 20.9
       },
       "pat": {
-        "n": 1,
+        "n": 2,
         "min": 477.2,
-        "max": 477.2,
-        "mean": 477.2,
-        "median": 477.2
+        "max": 554,
+        "mean": 515.6,
+        "median": 515.6
       },
       "netDebt": {
-        "n": 1,
+        "n": 2,
         "min": -332.6,
-        "max": -332.6,
-        "mean": -332.6,
-        "median": -332.6
+        "max": 2067,
+        "mean": 867.2,
+        "median": 867.2
       },
       "capexAnnounced": {
-        "n": 1,
-        "min": 8300,
+        "n": 2,
+        "min": 456,
         "max": 8300,
-        "mean": 8300,
-        "median": 8300
+        "mean": 4378,
+        "median": 4378
       },
       "revenueGrowthYoy": {
-        "n": 1,
+        "n": 2,
         "min": 13,
-        "max": 13,
-        "mean": 13,
-        "median": 13
+        "max": 21,
+        "mean": 17,
+        "median": 17
       },
       "roce": {
-        "n": 1,
-        "min": 30.3,
+        "n": 2,
+        "min": 23.2,
         "max": 30.3,
-        "mean": 30.3,
-        "median": 30.3
+        "mean": 26.75,
+        "median": 26.75
       },
       "revenuePerBedYearly": {
-        "n": 1,
-        "min": 26588632,
+        "n": 2,
+        "min": 22621849,
         "max": 26588632,
-        "mean": 26588632,
-        "median": 26588632
+        "mean": 24605240.5,
+        "median": 24605240.5
       },
       "ebitdaPerBedYearly": {
-        "n": 1,
+        "n": 2,
         "min": 3970052,
-        "max": 3970052,
-        "mean": 3970052,
-        "median": 3970052
+        "max": 5831933,
+        "mean": 4900992.5,
+        "median": 4900992.5
       },
       "bedTurnoverYearly": {
-        "n": 1,
+        "n": 2,
         "min": 68.72,
-        "max": 68.72,
-        "mean": 68.72,
-        "median": 68.72
+        "max": 73.64,
+        "mean": 71.18,
+        "median": 71.18
       },
       "bedActivationPct": {
-        "n": 1,
-        "min": 93,
+        "n": 2,
+        "min": 91.5,
         "max": 93,
-        "mean": 93,
-        "median": 93
+        "mean": 92.25,
+        "median": 92.25
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 119867.8,
+        "n": 2,
+        "min": 101654.2,
         "max": 119867.8,
-        "mean": 119867.8,
-        "median": 119867.8
+        "mean": 110761,
+        "median": 110761
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 31.84,
-        "max": 31.84,
-        "mean": 31.84,
-        "median": 31.84
+        "max": 36.62,
+        "mean": 34.23,
+        "median": 34.23
       },
       "evPerBedCr": {
-        "n": 1,
+        "n": 2,
         "min": 12.64,
-        "max": 12.64,
-        "mean": 12.64,
-        "median": 12.64
+        "max": 21.356,
+        "mean": 17,
+        "median": 17
       },
       "evPerBedLakhs": {
-        "n": 1,
+        "n": 2,
         "min": 1264,
-        "max": 1264,
-        "mean": 1264,
-        "median": 1264
+        "max": 2135.6,
+        "mean": 1699.8,
+        "median": 1699.8
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 62.97,
+        "n": 2,
+        "min": 44.94,
         "max": 62.97,
-        "mean": 62.97,
-        "median": 62.97
+        "mean": 53.95,
+        "median": 53.95
       }
     },
     "FY26-Q3": {
       "numberOfHospitals": {
-        "n": 1,
-        "min": 76,
+        "n": 2,
+        "min": 20,
         "max": 76,
-        "mean": 76,
-        "median": 76
+        "mean": 48,
+        "median": 48
       },
       "bedCapacity": {
-        "n": 1,
-        "min": 10325,
+        "n": 2,
+        "min": 5200,
         "max": 10325,
-        "mean": 10325,
-        "median": 10325
+        "mean": 7762.5,
+        "median": 7762.5
       },
       "operationalBeds": {
-        "n": 1,
-        "min": 9561,
+        "n": 2,
+        "min": 4853,
         "max": 9561,
-        "mean": 9561,
-        "median": 9561
+        "mean": 7207,
+        "median": 7207
       },
       "bedsUnderDevelopment": {
-        "n": 1,
+        "n": 2,
         "min": 3630,
-        "max": 3630,
-        "mean": 3630,
-        "median": 3630
+        "max": 4600,
+        "mean": 4115,
+        "median": 4115
       },
       "newHospitalsPlanned": {
-        "n": 1,
+        "n": 2,
         "min": 8,
         "max": 8,
         "mean": 8,
         "median": 8
       },
       "occupancyRate": {
-        "n": 1,
+        "n": 2,
         "min": 67,
-        "max": 67,
-        "mean": 67,
-        "median": 67
+        "max": 76,
+        "mean": 71.5,
+        "median": 71.5
       },
       "alos": {
-        "n": 1,
+        "n": 2,
         "min": 3.16,
-        "max": 3.16,
-        "mean": 3.16,
-        "median": 3.16
+        "max": 4.2,
+        "mean": 3.68,
+        "median": 3.68
       },
       "ipVolume": {
-        "n": 1,
-        "min": 157777,
+        "n": 2,
+        "min": 81980,
         "max": 157777,
-        "mean": 157777,
-        "median": 157777
+        "mean": 119878.5,
+        "median": 119878.5
       },
       "opVolume": {
-        "n": 1,
+        "n": 2,
         "min": 561427,
-        "max": 561427,
-        "mean": 561427,
-        "median": 561427
+        "max": 903000,
+        "mean": 732213.5,
+        "median": 732213.5
       },
       "arpob": {
-        "n": 1,
+        "n": 2,
         "min": 64019.5,
-        "max": 64019.5,
-        "mean": 64019.5,
-        "median": 64019.5
+        "max": 78000,
+        "mean": 71009.75,
+        "median": 71009.75
       },
       "arpp": {
         "n": 1,
@@ -7089,188 +8048,195 @@
         "median": 180917
       },
       "revenue": {
-        "n": 1,
-        "min": 6477.4,
+        "n": 2,
+        "min": 2608,
         "max": 6477.4,
-        "mean": 6477.4,
-        "median": 6477.4
+        "mean": 4542.7,
+        "median": 4542.7
       },
       "ebitda": {
-        "n": 1,
-        "min": 965.3,
+        "n": 2,
+        "min": 648,
         "max": 965.3,
-        "mean": 965.3,
-        "median": 965.3
+        "mean": 806.65,
+        "median": 806.65
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 14.9,
-        "max": 14.9,
-        "mean": 14.9,
-        "median": 14.9
+        "max": 26.1,
+        "mean": 20.5,
+        "median": 20.5
       },
       "pat": {
-        "n": 1,
-        "min": 502.3,
+        "n": 2,
+        "min": 344,
         "max": 502.3,
-        "mean": 502.3,
-        "median": 502.3
+        "mean": 423.15,
+        "median": 423.15
       },
       "netDebt": {
-        "n": 1,
+        "n": 2,
         "min": -299.6,
-        "max": -299.6,
-        "mean": -299.6,
-        "median": -299.6
+        "max": 2166,
+        "mean": 933.2,
+        "median": 933.2
       },
       "capexAnnounced": {
-        "n": 1,
-        "min": 8200,
+        "n": 2,
+        "min": 7157,
         "max": 8200,
-        "mean": 8200,
-        "median": 8200
+        "mean": 7678.5,
+        "median": 7678.5
       },
       "revenueGrowthYoy": {
-        "n": 1,
-        "min": 17,
+        "n": 2,
+        "min": 9,
         "max": 17,
-        "mean": 17,
-        "median": 17
+        "mean": 13,
+        "median": 13
       },
       "roce": {
-        "n": 1,
-        "min": 29.5,
+        "n": 2,
+        "min": 25.9,
         "max": 29.5,
-        "mean": 29.5,
-        "median": 29.5
+        "mean": 27.7,
+        "median": 27.7
       },
       "revenuePerBedYearly": {
-        "n": 1,
-        "min": 27099257,
+        "n": 2,
+        "min": 21495982,
         "max": 27099257,
-        "mean": 27099257,
-        "median": 27099257
+        "mean": 24297619.5,
+        "median": 24297619.5
       },
       "ebitdaPerBedYearly": {
-        "n": 1,
+        "n": 2,
         "min": 4038490,
-        "max": 4038490,
-        "mean": 4038490,
-        "median": 4038490
+        "max": 5341026,
+        "mean": 4689758,
+        "median": 4689758
       },
       "bedTurnoverYearly": {
-        "n": 1,
+        "n": 2,
         "min": 66.01,
-        "max": 66.01,
-        "mean": 66.01,
-        "median": 66.01
+        "max": 67.57,
+        "mean": 66.79,
+        "median": 66.79
       },
       "bedActivationPct": {
-        "n": 1,
+        "n": 2,
         "min": 92.6,
-        "max": 92.6,
-        "mean": 92.6,
-        "median": 92.6
+        "max": 93.3,
+        "mean": 92.95,
+        "median": 92.95
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 119900.8,
+        "n": 2,
+        "min": 101753.2,
         "max": 119900.8,
-        "mean": 119900.8,
-        "median": 119900.8
+        "mean": 110827,
+        "median": 110827
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 31.05,
-        "max": 31.05,
-        "mean": 31.05,
-        "median": 31.05
+        "max": 39.26,
+        "mean": 35.16,
+        "median": 35.16
       },
       "evPerBedCr": {
-        "n": 1,
+        "n": 2,
         "min": 12.541,
-        "max": 12.541,
-        "mean": 12.54,
-        "median": 12.54
+        "max": 20.967,
+        "mean": 16.75,
+        "median": 16.75
       },
       "evPerBedLakhs": {
-        "n": 1,
+        "n": 2,
         "min": 1254.1,
-        "max": 1254.1,
-        "mean": 1254.1,
-        "median": 1254.1
+        "max": 2096.7,
+        "mean": 1675.4,
+        "median": 1675.4
       },
       "peAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 59.82,
-        "max": 59.82,
-        "mean": 59.82,
-        "median": 59.82
+        "max": 72.37,
+        "mean": 66.09,
+        "median": 66.09
       }
     },
     "FY26-Q4": {
       "numberOfHospitals": {
-        "n": 1,
-        "min": 78,
+        "n": 2,
+        "min": 21,
         "max": 78,
-        "mean": 78,
-        "median": 78
+        "mean": 49.5,
+        "median": 49.5
       },
       "bedCapacity": {
-        "n": 1,
-        "min": 10970,
+        "n": 2,
+        "min": 6000,
         "max": 10970,
-        "mean": 10970,
-        "median": 10970
+        "mean": 8485,
+        "median": 8485
       },
       "operationalBeds": {
-        "n": 1,
-        "min": 9620,
+        "n": 2,
+        "min": 4966,
         "max": 9620,
-        "mean": 9620,
-        "median": 9620
+        "mean": 7293,
+        "median": 7293
       },
       "bedsUnderDevelopment": {
-        "n": 1,
-        "min": 2805,
+        "n": 2,
+        "min": 260,
         "max": 2805,
-        "mean": 2805,
-        "median": 2805
+        "mean": 1532.5,
+        "median": 1532.5
       },
       "newHospitalsPlanned": {
-        "n": 1,
-        "min": 11,
+        "n": 2,
+        "min": 1,
         "max": 11,
-        "mean": 11,
-        "median": 11
+        "mean": 6,
+        "median": 6
       },
       "occupancyRate": {
-        "n": 1,
+        "n": 2,
         "min": 68,
-        "max": 68,
-        "mean": 68,
-        "median": 68
+        "max": 75,
+        "mean": 71.5,
+        "median": 71.5
       },
       "alos": {
-        "n": 1,
+        "n": 2,
         "min": 3.19,
-        "max": 3.19,
-        "mean": 3.19,
-        "median": 3.19
+        "max": 4.2,
+        "mean": 3.7,
+        "median": 3.7
       },
       "ipVolume": {
-        "n": 1,
-        "min": 156728,
+        "n": 2,
+        "min": 81791,
         "max": 156728,
-        "mean": 156728,
-        "median": 156728
+        "mean": 119259.5,
+        "median": 119259.5
+      },
+      "opVolume": {
+        "n": 1,
+        "min": 923000,
+        "max": 923000,
+        "mean": 923000,
+        "median": 923000
       },
       "arpob": {
-        "n": 1,
+        "n": 2,
         "min": 64834.7,
-        "max": 64834.7,
-        "mean": 64834.7,
-        "median": 64834.7
+        "max": 77900,
+        "mean": 71367.35,
+        "median": 71367.35
       },
       "arpp": {
         "n": 1,
@@ -7280,123 +8246,132 @@
         "median": 187208
       },
       "revenue": {
-        "n": 1,
-        "min": 6605.5,
+        "n": 2,
+        "min": 2664,
         "max": 6605.5,
-        "mean": 6605.5,
-        "median": 6605.5
+        "mean": 4634.75,
+        "median": 4634.75
       },
       "ebitda": {
-        "n": 1,
-        "min": 1010.9,
+        "n": 2,
+        "min": 682,
         "max": 1010.9,
-        "mean": 1010.9,
-        "median": 1010.9
+        "mean": 846.45,
+        "median": 846.45
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 15.3,
-        "max": 15.3,
-        "mean": 15.3,
-        "median": 15.3
+        "max": 26.8,
+        "mean": 21.05,
+        "median": 21.05
       },
       "pat": {
-        "n": 1,
-        "min": 529.2,
+        "n": 2,
+        "min": 387,
         "max": 529.2,
-        "mean": 529.2,
-        "median": 529.2
+        "mean": 458.1,
+        "median": 458.1
       },
       "netDebt": {
-        "n": 1,
+        "n": 2,
         "min": 865.9,
-        "max": 865.9,
-        "mean": 865.9,
-        "median": 865.9
+        "max": 1908,
+        "mean": 1386.95,
+        "median": 1386.95
       },
       "capexAnnounced": {
-        "n": 1,
-        "min": 8300,
+        "n": 2,
+        "min": 1400,
         "max": 8300,
-        "mean": 8300,
-        "median": 8300
+        "mean": 4850,
+        "median": 4850
       },
       "revenueGrowthYoy": {
-        "n": 1,
-        "min": 18,
+        "n": 2,
+        "min": 10,
         "max": 18,
-        "mean": 18,
-        "median": 18
+        "mean": 14,
+        "median": 14
       },
       "roce": {
-        "n": 1,
-        "min": 25.4,
+        "n": 2,
+        "min": 20.9,
         "max": 25.4,
-        "mean": 25.4,
-        "median": 25.4
+        "mean": 23.15,
+        "median": 23.15
       },
       "revenuePerBedYearly": {
-        "n": 1,
-        "min": 27465696,
+        "n": 2,
+        "min": 21457914,
         "max": 27465696,
-        "mean": 27465696,
-        "median": 27465696
+        "mean": 24461805,
+        "median": 24461805
       },
       "ebitdaPerBedYearly": {
-        "n": 1,
+        "n": 2,
         "min": 4203326,
-        "max": 4203326,
-        "mean": 4203326,
-        "median": 4203326
+        "max": 5493355,
+        "mean": 4848340.5,
+        "median": 4848340.5
       },
       "bedTurnoverYearly": {
-        "n": 1,
+        "n": 2,
         "min": 65.17,
-        "max": 65.17,
-        "mean": 65.17,
-        "median": 65.17
+        "max": 65.88,
+        "mean": 65.53,
+        "median": 65.53
       },
       "bedActivationPct": {
-        "n": 1,
-        "min": 87.7,
+        "n": 2,
+        "min": 82.8,
         "max": 87.7,
-        "mean": 87.7,
-        "median": 87.7
+        "mean": 85.25,
+        "median": 85.25
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 121066.3,
+        "n": 2,
+        "min": 101495.2,
         "max": 121066.3,
-        "mean": 121066.3,
-        "median": 121066.3
+        "mean": 111280.75,
+        "median": 111280.75
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 29.94,
-        "max": 29.94,
-        "mean": 29.94,
-        "median": 29.94
+        "max": 37.2,
+        "mean": 33.57,
+        "median": 33.57
       },
       "evPerBedCr": {
-        "n": 1,
+        "n": 2,
         "min": 12.585,
-        "max": 12.585,
-        "mean": 12.59,
-        "median": 12.59
+        "max": 20.438,
+        "mean": 16.51,
+        "median": 16.51
       },
       "evPerBedLakhs": {
-        "n": 1,
+        "n": 2,
         "min": 1258.5,
-        "max": 1258.5,
-        "mean": 1258.5,
-        "median": 1258.5
+        "max": 2043.8,
+        "mean": 1651.15,
+        "median": 1651.15
       },
       "peAnnualised": {
-        "n": 1,
+        "n": 2,
         "min": 56.78,
-        "max": 56.78,
-        "mean": 56.78,
-        "median": 56.78
+        "max": 64.33,
+        "mean": 60.55,
+        "median": 60.55
+      }
+    },
+    "FY27-Q1": {
+      "enterpriseValueCr": {
+        "n": 1,
+        "min": 99587.2,
+        "max": 99587.2,
+        "mean": 99587.2,
+        "median": 99587.2
       }
     }
   }
