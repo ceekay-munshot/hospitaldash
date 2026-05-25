@@ -1,46 +1,49 @@
 #!/usr/bin/env node
-// BSE financials scraper — pulls structured quarterly P&L from BSE's
-// Comp_ResultsAlltypeNew endpoint (zero AI, zero quotas, works forever).
+// BSE financials scraper — parses the quarterly-result PDFs we've already
+// classified, extracting Revenue/EBITDA/PAT etc. via Schedule III regex
+// patterns. NO API endpoints to discover, NO LLM, NO quotas.
 //
-// Output: data/financials/<slug>.json
-//   {
-//     slug, scripCode, name,
-//     fetchedAt,
-//     quarterly: [
-//       { period: "FY26-Q4", periodEnding: "2026-03-31", revenue, otherIncome,
-//         totalIncome, totalExpenses, ebitda, depreciation, financeCost, pbt,
-//         tax, pat, eps, ebitdaMargin, patMargin, type: "standalone"|"consolidated" }
-//     ]
-//   }
-import { writeFile, mkdir } from 'node:fs/promises';
+// Output: data/financials/<slug>.json — one row per quarter:
+//   { period: "FY26-Q4", periodEnding, revenue, ebitda, ebitdaMargin,
+//     pat, patMargin, depreciation, financeCost, pbt, eps, type, source }
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
-import { fetchJSON, loadCompanies } from './lib/bse.mjs';
+import { createRequire } from 'node:module';
+import { loadCompanies } from './lib/bse.mjs';
+import { downloadPdf } from './lib/pdf.mjs';
 
-// BSE's "Quarterly Results" page hits this endpoint behind the scenes.
-// typid: 1 = Standalone, 2 = Consolidated, 3 = Segment, 7 = Integrated
-// flag: usually 'qtr' for quarterly
-const ENDPOINTS = {
-  consolidated: (scripcode) =>
-    `https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=${scripcode}&typeid=Q&PeriodFlag=Q&type=C`,
-  standalone: (scripcode) =>
-    `https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=${scripcode}&typeid=Q&PeriodFlag=Q&type=S`,
-};
+const require = createRequire(import.meta.url);
+const pdfParse = require('pdf-parse');
 
-// Fallback endpoint patterns to try if the primary ones don't work
-const FALLBACK_ENDPOINTS = [
-  (scripcode) => `https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsType/w?scripcode=${scripcode}&typeid=Q`,
-  (scripcode) => `https://api.bseindia.com/BseIndiaAPI/api/EQReports_New/w?scripcode=${scripcode}&strdat=&strprdt=Quarterly`,
-  (scripcode) => `https://api.bseindia.com/BseIndiaAPI/api/FinancialResults/w?scripcode=${scripcode}&typid=Q`,
-];
-
-function num(v) {
-  if (v == null || v === '') return null;
-  const cleaned = String(v).replace(/[,₹\s]/g, '').replace(/[()]/g, '-');
-  const n = Number(cleaned);
-  return Number.isFinite(n) ? n : null;
+// ── Number parsing (handles Indian comma format, parentheses for negative) ──
+function parseNum(str) {
+  if (str == null) return null;
+  let s = String(str).trim();
+  if (s === '' || s === '-' || s === '–' || /^N\/?A$/i.test(s)) return null;
+  let negative = false;
+  if (/^\(.*\)$/.test(s)) {
+    negative = true;
+    s = s.slice(1, -1);
+  }
+  s = s.replace(/[,₹\s]/g, '');
+  const n = Number(s);
+  if (!Number.isFinite(n)) return null;
+  return negative ? -n : n;
 }
 
-function indianFiscalQuarter(dateStr) {
+// Multiplier to convert raw values into ₹ Crore
+function detectScaleToCrore(text) {
+  const head = text.slice(0, 3000);
+  if (/in\s+Lakh|in\s+Lacs/i.test(head)) return 0.01; // lakh → Cr (1 Cr = 100 lakh)
+  if (/in\s+Million|in\s+Mio\.?\b/i.test(head)) return 0.1; // mn → Cr
+  if (/in\s+Billion|in\s+Bn\.?\b/i.test(head)) return 100;
+  if (/in\s+Thousand/i.test(head)) return 0.00001;
+  // default: Crore
+  return 1;
+}
+
+// Indian fiscal quarter from filing/period date
+function indianFiscalQuarter(dateStr, isFiling = false) {
   if (!dateStr) return null;
   const d = new Date(dateStr);
   if (Number.isNaN(d.getTime())) return null;
@@ -54,174 +57,276 @@ function indianFiscalQuarter(dateStr) {
     fy = year % 100;
     q = 4;
   }
+  if (isFiling) {
+    // Filings typically report previous quarter
+    q -= 1;
+    if (q === 0) {
+      q = 4;
+      fy = fy === 0 ? 99 : fy - 1;
+    }
+  }
   return `FY${String(fy).padStart(2, '0')}-Q${q}`;
 }
 
-// BSE Comp_Results responses use a variety of field names across endpoints.
-// Map any encountered alias to our canonical field name.
-const FIELD_ALIASES = {
-  revenue: ['REVENUE_FROM_OPERATIONS', 'NetSales', 'Revenue', 'NET_SALES', 'OPERATING_INCOME', 'RevenueFromOperations'],
-  otherIncome: ['OTHER_INCOME', 'OtherIncome'],
-  totalIncome: ['TOTAL_INCOME', 'TotalIncome', 'TOTAL_REVENUE'],
-  totalExpenses: ['TOTAL_EXPENSES', 'TotalExpenses', 'EXPENSES_TOTAL'],
-  depreciation: ['DEPRECIATION', 'Depreciation', 'DEPRECIATION_AMORTISATION'],
-  financeCost: ['FINANCE_COST', 'FinanceCost', 'INTEREST', 'Interest'],
-  pbt: ['PROFIT_BEFORE_TAX', 'ProfitBeforeTax', 'PBT'],
-  tax: ['TAX_EXPENSE', 'TaxExpense', 'CURRENT_TAX', 'Tax'],
-  pat: ['PROFIT_AFTER_TAX', 'NetProfit', 'PROFIT_FOR_THE_PERIOD', 'NetProfitLoss', 'PAT', 'PROFIT_LOSS'],
-  eps: ['EPS_BASIC', 'EPS', 'BasicEPS', 'EARNINGS_PER_SHARE'],
-  period: ['END_DATE', 'PeriodEnding', 'QUARTER_END', 'PERIOD_END_DATE', 'EndDate', 'DT_TM'],
+// ── Pattern library ────────────────────────────────────────────────────
+// First numeric occurrence after each phrase (within 200 chars). Use
+// non-greedy match. Numbers can have commas, decimals, parentheses.
+const NUMBER_RE_SOURCE = '\\(?[\\-–]?[\\d,]+\\.?\\d*\\)?';
+
+function buildPattern(phrase) {
+  return new RegExp(`${phrase}[\\s\\S]{0,200}?(${NUMBER_RE_SOURCE})`, 'i');
+}
+
+const METRIC_PATTERNS = {
+  revenue: [
+    'Revenue from operations',
+    'Income from operations',
+    'Total revenue from operations',
+    'Total income from operations',
+  ],
+  otherIncome: ['Other income'],
+  totalIncome: ['Total income', 'Total revenue'],
+  totalExpenses: ['Total expenses'],
+  depreciation: [
+    'Depreciation and amortisation',
+    'Depreciation, amortisation',
+    'Depreciation/amortisation',
+    'Depreciation expense',
+  ],
+  financeCost: ['Finance cost', 'Finance costs', 'Interest expense'],
+  pbt: [
+    'Profit before tax',
+    'Profit/\\(loss\\) before tax',
+    'Profit/loss before tax',
+    'Profit/\\(Loss\\) before tax',
+  ],
+  tax: ['Tax expense', 'Total tax expense'],
+  pat: [
+    'Profit for the period',
+    'Profit/\\(loss\\) for the period',
+    'Profit for the year',
+    'Profit/\\(loss\\) for the year',
+    'Net profit for the period',
+    'Net Profit',
+  ],
+  eps: ['Earnings per share', 'Basic earnings per share', 'EPS \\(Basic\\)', 'EPS \\(\\u20b9\\)'],
 };
 
-function lookupByAlias(row, canonical) {
-  const aliases = FIELD_ALIASES[canonical] || [];
-  // Case-insensitive lookup across all keys
-  const keys = Object.keys(row);
-  for (const alias of aliases) {
-    const found = keys.find((k) => k.toLowerCase() === alias.toLowerCase());
-    if (found && row[found] != null && row[found] !== '') return row[found];
+function findFirstMetric(text, phrases) {
+  for (const phrase of phrases) {
+    const re = buildPattern(phrase);
+    const m = text.match(re);
+    if (!m) continue;
+    const n = parseNum(m[1]);
+    if (n != null && Math.abs(n) > 0.001) {
+      return { value: n, matchedPhrase: phrase };
+    }
   }
   return null;
 }
 
-function normalizeRow(row, type) {
-  const periodRaw = lookupByAlias(row, 'period');
-  const periodEnding = periodRaw ? String(periodRaw).slice(0, 10) : null;
-  const revenue = num(lookupByAlias(row, 'revenue'));
-  const otherIncome = num(lookupByAlias(row, 'otherIncome'));
-  const totalIncome = num(lookupByAlias(row, 'totalIncome')) ?? ((revenue ?? 0) + (otherIncome ?? 0) || null);
-  const totalExpenses = num(lookupByAlias(row, 'totalExpenses'));
-  const depreciation = num(lookupByAlias(row, 'depreciation'));
-  const financeCost = num(lookupByAlias(row, 'financeCost'));
-  const pbt = num(lookupByAlias(row, 'pbt'));
-  const tax = num(lookupByAlias(row, 'tax'));
-  const pat = num(lookupByAlias(row, 'pat'));
-  const eps = num(lookupByAlias(row, 'eps'));
+async function parseQuarterlyPdf(filing) {
+  const { buf } = await downloadPdf(filing.pdfUrl);
+  const parsed = await pdfParse(buf);
+  const text = parsed.text || '';
+  const scale = detectScaleToCrore(text);
 
-  // EBITDA = PBT + Finance cost + Depreciation (standard derivation)
-  let ebitda = null;
-  if (pbt != null) {
-    ebitda = pbt + (depreciation || 0) + (financeCost || 0);
-  } else if (totalIncome != null && totalExpenses != null) {
-    // Fallback: operating profit + d&a
-    ebitda = totalIncome - totalExpenses + (depreciation || 0) + (financeCost || 0);
+  const extracted = {};
+  const matched = {};
+  for (const [key, phrases] of Object.entries(METRIC_PATTERNS)) {
+    const r = findFirstMetric(text, phrases);
+    if (r) {
+      extracted[key] = key === 'eps' ? r.value : r.value * scale;
+      matched[key] = r.matchedPhrase;
+    } else {
+      extracted[key] = null;
+    }
   }
-  const ebitdaMargin = ebitda != null && revenue ? Number(((ebitda / revenue) * 100).toFixed(2)) : null;
-  const patMargin = pat != null && revenue ? Number(((pat / revenue) * 100).toFixed(2)) : null;
+
+  // Derive EBITDA = PBT + Depreciation + Finance cost
+  const ebitda =
+    extracted.pbt != null
+      ? extracted.pbt + (extracted.depreciation ?? 0) + (extracted.financeCost ?? 0)
+      : null;
+  const ebitdaMargin =
+    ebitda != null && extracted.revenue ? Number(((ebitda / extracted.revenue) * 100).toFixed(2)) : null;
+  const patMargin =
+    extracted.pat != null && extracted.revenue
+      ? Number(((extracted.pat / extracted.revenue) * 100).toFixed(2))
+      : null;
 
   return {
-    period: indianFiscalQuarter(periodEnding),
-    periodEnding,
-    revenue,
-    otherIncome,
-    totalIncome,
-    totalExpenses,
-    depreciation,
-    financeCost,
-    pbt,
-    tax,
-    pat,
-    eps,
-    ebitda,
+    revenue: round(extracted.revenue),
+    otherIncome: round(extracted.otherIncome),
+    totalIncome: round(extracted.totalIncome),
+    totalExpenses: round(extracted.totalExpenses),
+    depreciation: round(extracted.depreciation),
+    financeCost: round(extracted.financeCost),
+    pbt: round(extracted.pbt),
+    tax: round(extracted.tax),
+    pat: round(extracted.pat),
+    eps: extracted.eps,
+    ebitda: round(ebitda),
     ebitdaMargin,
     patMargin,
-    type,
-    raw: row,
+    pdfScale: scale,
+    matchedPhrases: matched,
+    textPreview: text.slice(0, 300).replace(/\s+/g, ' '),
   };
 }
 
-function extractRows(payload) {
-  if (!payload) return [];
-  if (Array.isArray(payload)) return payload;
-  if (Array.isArray(payload.Table)) return payload.Table;
-  if (Array.isArray(payload.Data)) return payload.Data;
-  if (Array.isArray(payload.data)) return payload.data;
-  if (typeof payload === 'object') {
-    for (const v of Object.values(payload)) if (Array.isArray(v) && v.length > 0) return v;
-  }
-  return [];
+function round(n) {
+  if (n == null || !Number.isFinite(n)) return null;
+  return Number(n.toFixed(2));
 }
 
-async function fetchOne(scripcode, urlBuilder, label) {
-  const url = urlBuilder(scripcode);
+async function loadJson(path) {
   try {
-    const payload = await fetchJSON(url, { maxAttempts: 3 });
-    const rows = extractRows(payload);
-    return { ok: true, url, rows, label, samplePayloadKeys: rows[0] ? Object.keys(rows[0]) : [] };
-  } catch (e) {
-    return { ok: false, url, error: e.message, label };
+    return JSON.parse(await readFile(path, 'utf8'));
+  } catch {
+    return null;
   }
 }
 
 async function processCompany(company) {
-  const { scripCode, slug, name } = company;
+  const { slug, scripCode, name } = company;
   console.error(`\n[${slug}] (${scripCode})`);
 
-  // Try consolidated first (preferred for hospital groups), then standalone, then fallbacks
-  const tries = [
-    { label: 'consolidated', url: ENDPOINTS.consolidated },
-    { label: 'standalone', url: ENDPOINTS.standalone },
-    ...FALLBACK_ENDPOINTS.map((u, i) => ({ label: `fallback-${i + 1}`, url: u })),
-  ];
-
-  const allRows = [];
-  const attemptsLog = [];
-  for (const { label, url } of tries) {
-    const res = await fetchOne(scripCode, url, label);
-    attemptsLog.push({ label, ok: res.ok, rowCount: res.rows?.length || 0, error: res.error, urlSample: res.url, sampleKeys: res.samplePayloadKeys });
-    if (res.ok && res.rows.length > 0) {
-      console.error(`  ✓ ${label}: ${res.rows.length} rows (keys: ${res.samplePayloadKeys.slice(0, 5).join(', ')}…)`);
-      for (const row of res.rows) allRows.push({ ...row, _sourceLabel: label });
-    } else if (res.ok) {
-      console.error(`  · ${label}: 200 OK but no rows`);
-    } else {
-      console.error(`  · ${label}: ${res.error}`);
-    }
+  const docsFile = await loadJson(`data/docs/${slug}.json`);
+  if (!docsFile) {
+    console.error(`  no docs file — skipping`);
+    return { slug, quarters: 0, error: 'no docs file' };
   }
 
-  // Normalize all rows. Prefer consolidated for any given period.
-  const byPeriod = new Map();
-  for (const row of allRows) {
-    const type = row._sourceLabel?.includes('consolidated') ? 'consolidated' : 'standalone';
-    const normalized = normalizeRow(row, type);
-    if (!normalized.period) continue;
-
-    const existing = byPeriod.get(normalized.period);
-    if (!existing) {
-      byPeriod.set(normalized.period, normalized);
-    } else if (existing.type !== 'consolidated' && normalized.type === 'consolidated') {
-      byPeriod.set(normalized.period, normalized);
-    }
-  }
-
-  const quarterly = [...byPeriod.values()].sort((a, b) =>
-    String(a.periodEnding).localeCompare(String(b.periodEnding))
-  );
-
-  // Strip the raw payload to keep file size reasonable
-  const clean = quarterly.map(({ raw, ...rest }) => rest);
-
-  const out = {
-    slug,
-    scripCode,
-    name,
-    fetchedAt: new Date().toISOString(),
-    quarterCount: clean.length,
-    quarterly: clean,
-    attempts: attemptsLog,
+  // Load existing financials cache (avoid re-parsing already-done PDFs)
+  const existingPath = `data/financials/${slug}.json`;
+  const existing = (await loadJson(existingPath)) || {
+    slug, scripCode, name, quarterly: [], byNewsId: {},
   };
+  if (!existing.byNewsId) existing.byNewsId = {};
 
-  const path = `data/financials/${slug}.json`;
-  await mkdir(dirname(path), { recursive: true });
-  await writeFile(path, JSON.stringify(out, null, 2));
-  console.error(`  → ${path} (${clean.length} quarters)`);
+  // Collect ALL quarterly-result filings across quarters
+  const candidates = [];
+  for (const fq of Object.keys(docsFile.byQuarter || {})) {
+    const qDocs = docsFile.byQuarter[fq]?.priorityDocs?.['quarterly-result'] || [];
+    for (const d of qDocs) {
+      if (d.pdfUrl) candidates.push({ ...d, filingQuarter: fq });
+    }
+  }
 
-  return { slug, quarters: clean.length, periods: clean.map((q) => q.period) };
+  // De-dup by newsId; newest first
+  const seen = new Set();
+  const unique = [];
+  for (const c of candidates.sort((a, b) => String(b.date).localeCompare(String(a.date)))) {
+    const id = String(c.newsId);
+    if (seen.has(id)) continue;
+    seen.add(id);
+    unique.push(c);
+  }
+
+  console.error(`  ${unique.length} quarterly-result PDFs to parse (${Object.keys(existing.byNewsId).length} cached)`);
+
+  let parsed = 0, errors = 0, skipped = 0;
+  for (const filing of unique) {
+    const newsId = String(filing.newsId);
+    if (existing.byNewsId[newsId]?.revenue != null) {
+      skipped++;
+      continue;
+    }
+    const reportingQuarter = indianFiscalQuarter(filing.date, true);
+    process.stderr.write(`    [${reportingQuarter || '?'}] ${(filing.subject || '').slice(0, 60)} … `);
+    try {
+      const result = await parseQuarterlyPdf(filing);
+      const periodEnding = guessPeriodEndingFromQuarter(reportingQuarter);
+      existing.byNewsId[newsId] = {
+        newsId,
+        filingDate: filing.date,
+        period: reportingQuarter,
+        periodEnding,
+        pdfUrl: filing.pdfUrl,
+        ...result,
+        parsedAt: new Date().toISOString(),
+      };
+      parsed++;
+      const nonNull = ['revenue', 'pbt', 'pat'].filter((k) => result[k] != null).length;
+      console.error(`OK rev=${result.revenue ?? '—'} ebitda=${result.ebitda ?? '—'} pat=${result.pat ?? '—'} (${nonNull}/3 core)`);
+    } catch (e) {
+      existing.byNewsId[newsId] = {
+        newsId,
+        filingDate: filing.date,
+        period: reportingQuarter,
+        pdfUrl: filing.pdfUrl,
+        error: e.message,
+        parsedAt: new Date().toISOString(),
+      };
+      errors++;
+      console.error(`FAIL ${e.message.slice(0, 80)}`);
+    }
+  }
+
+  // Build quarterly time-series: for each period, pick the best parsed row
+  // (most recent filing date wins, ties broken by more non-null metrics)
+  const byPeriod = new Map();
+  for (const row of Object.values(existing.byNewsId)) {
+    if (!row.period || row.revenue == null) continue;
+    const cur = byPeriod.get(row.period);
+    if (!cur) {
+      byPeriod.set(row.period, row);
+    } else {
+      const curScore = ['revenue', 'pbt', 'pat'].filter((k) => cur[k] != null).length;
+      const newScore = ['revenue', 'pbt', 'pat'].filter((k) => row[k] != null).length;
+      if (newScore > curScore || (newScore === curScore && row.filingDate > cur.filingDate)) {
+        byPeriod.set(row.period, row);
+      }
+    }
+  }
+
+  const quarterly = [...byPeriod.values()]
+    .map((r) => ({
+      period: r.period,
+      periodEnding: r.periodEnding,
+      revenue: r.revenue,
+      otherIncome: r.otherIncome,
+      totalIncome: r.totalIncome,
+      depreciation: r.depreciation,
+      financeCost: r.financeCost,
+      pbt: r.pbt,
+      tax: r.tax,
+      pat: r.pat,
+      eps: r.eps,
+      ebitda: r.ebitda,
+      ebitdaMargin: r.ebitdaMargin,
+      patMargin: r.patMargin,
+      type: 'derived-from-pdf',
+      sourceNewsId: r.newsId,
+      sourcePdfUrl: r.pdfUrl,
+    }))
+    .sort((a, b) => String(a.periodEnding).localeCompare(String(b.periodEnding)));
+
+  existing.quarterly = quarterly;
+  existing.quarterCount = quarterly.length;
+  existing.lastBuiltAt = new Date().toISOString();
+
+  await mkdir(dirname(existingPath), { recursive: true });
+  await writeFile(existingPath, JSON.stringify(existing, null, 2));
+
+  console.error(`  → ${existingPath}: +${parsed} parsed, ${errors} errors, ${skipped} cached, ${quarterly.length} unique quarters`);
+  return { slug, quarters: quarterly.length, parsed, errors, periods: quarterly.map((q) => q.period) };
+}
+
+function guessPeriodEndingFromQuarter(fq) {
+  const m = /^FY(\d{2})-Q([1-4])$/.exec(fq || '');
+  if (!m) return null;
+  const fy = 2000 + Number(m[1]);
+  const q = Number(m[2]);
+  const ends = { 1: `${fy - 1}-06-30`, 2: `${fy - 1}-09-30`, 3: `${fy - 1}-12-31`, 4: `${fy}-03-31` };
+  return ends[q] || null;
 }
 
 async function run() {
   const companies = await loadCompanies();
-  console.error(`Fetching BSE structured quarterly financials for ${companies.length} cos…`);
+  console.error(`Parsing quarterly-result PDFs for ${companies.length} cos…`);
+
   const summary = [];
   for (const c of companies) {
     try {
@@ -231,9 +336,15 @@ async function run() {
       summary.push({ slug: c.slug, quarters: 0, error: e.message });
     }
   }
-  console.error('\n=== Summary ===');
+
+  console.error('\n=== Financials summary ===');
   for (const s of summary) {
-    console.error(`  ${s.slug.padEnd(22)} ${String(s.quarters).padStart(3)} quarters ${s.periods ? `(${s.periods[0]} → ${s.periods[s.periods.length - 1]})` : ''}`);
+    const range = s.periods?.length
+      ? `${s.periods[0]} → ${s.periods[s.periods.length - 1]}`
+      : '—';
+    console.error(
+      `  ${s.slug.padEnd(22)} ${String(s.quarters).padStart(3)} quarters (+${s.parsed || 0} parsed, ${s.errors || 0} errors) · ${range}`
+    );
   }
 }
 
