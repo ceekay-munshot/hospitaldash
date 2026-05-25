@@ -1,0 +1,45 @@
+{
+  "slug": "max-healthcare",
+  "scripCode": "543220",
+  "name": "Max Healthcare Institute Ltd",
+  "fetchedAt": "2026-05-25T18:16:32.277Z",
+  "quarterCount": 0,
+  "quarterly": [],
+  "attempts": [
+    {
+      "label": "consolidated",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=543220&typeid=Q&PeriodFlag=Q&type=C"
+    },
+    {
+      "label": "standalone",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=543220&typeid=Q&PeriodFlag=Q&type=S"
+    },
+    {
+      "label": "fallback-1",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsType/w?scripcode=543220&typeid=Q"
+    },
+    {
+      "label": "fallback-2",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/EQReports_New/w?scripcode=543220&strdat=&strprdt=Quarterly"
+    },
+    {
+      "label": "fallback-3",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/FinancialResults/w?scripcode=543220&typid=Q"
+    }
+  ]
+}

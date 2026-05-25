@@ -1,0 +1,45 @@
+{
+  "slug": "yatharth",
+  "scripCode": "543950",
+  "name": "Yatharth Hospital & Trauma Care Services Ltd",
+  "fetchedAt": "2026-05-25T18:21:29.667Z",
+  "quarterCount": 0,
+  "quarterly": [],
+  "attempts": [
+    {
+      "label": "consolidated",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=543950&typeid=Q&PeriodFlag=Q&type=C"
+    },
+    {
+      "label": "standalone",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsAlltypeNew/w?scripcode=543950&typeid=Q&PeriodFlag=Q&type=S"
+    },
+    {
+      "label": "fallback-1",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/Comp_ResultsType/w?scripcode=543950&typeid=Q"
+    },
+    {
+      "label": "fallback-2",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/EQReports_New/w?scripcode=543950&strdat=&strprdt=Quarterly"
+    },
+    {
+      "label": "fallback-3",
+      "ok": false,
+      "rowCount": 0,
+      "error": "Received HTML instead of JSON — wrong endpoint path",
+      "urlSample": "https://api.bseindia.com/BseIndiaAPI/api/FinancialResults/w?scripcode=543950&typid=Q"
+    }
+  ]
+}
