@@ -7,14 +7,18 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-25T10:32:45.853Z",
+<<<<<<< Updated upstream
+  "lastBuiltAt": "2026-05-25T16:38:55.211Z",
+=======
+  "lastBuiltAt": "2026-05-25T18:12:42.833Z",
+>>>>>>> Stashed changes
   "latestQuote": {
-    "date": "2026-05-24",
-    "price": 764.05,
-    "marketCapCr": 30572.62,
-    "marketCapFreeFloatCr": 18817.48,
-    "changePct": -0.75,
-    "volumeShares": 21000
+    "date": "2026-05-25",
+    "price": 757.15,
+    "marketCapCr": 30296.52,
+    "marketCapFreeFloatCr": 18647.54,
+    "changePct": -0.9,
+    "volumeShares": 12000
   },
   "coverage": {
     "extractedDocs": 0,

@@ -2,23 +2,23 @@
   "slug": "yatharth",
   "scripCode": "543950",
   "name": "Yatharth Hospital & Trauma Care Services Ltd",
-  "generatedAt": "2026-05-24T15:04:27.270Z",
+  "generatedAt": "2026-05-25T16:23:29.891Z",
   "summary": {
-    "totalAnnouncements": 281,
+    "totalAnnouncements": 285,
     "totalAnnualReportsMaster": 3,
     "byDocType": {
+      "investor-presentation": 13,
+      "press-release": 21,
+      "quarterly-result": 5,
+      "board-meeting-intimation": 25,
       "analyst-meet-intimation": 40,
-      "board-meeting-intimation": 24,
       "other": 75,
       "agm-egm": 19,
-      "press-release": 20,
       "compliance": 15,
       "newspaper-advert": 20,
       "insider-trading": 19,
       "concall-transcript": 12,
       "investor-meet-outcome": 7,
-      "investor-presentation": 12,
-      "quarterly-result": 4,
       "credit-rating": 2,
       "integrated-filing": 1,
       "annual-report": 2,
@@ -39,7 +39,33 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "investor-presentation": [
+          {
+            "newsId": "1ab0dc54-2fe7-4bbb-b495-8e98e333fee1",
+            "date": "2026-05-25",
+            "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "headline": "We hereby submit Investor Presentation for Q4 & FY26.",
+            "category": "Company Update",
+            "docType": "investor-presentation",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01083635-f989-43ae-a16f-e82deabe067c.pdf",
+            "attachmentName": "01083635-f989-43ae-a16f-e82deabe067c.pdf"
+          }
+        ],
         "press-release": [
+          {
+            "newsId": "e848655c-6bbe-4087-b0b0-e4c3fa852507",
+            "date": "2026-05-25",
+            "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "headline": "We hereby submit Press Release for Q4 and FY2026.",
+            "category": "Company Update",
+            "docType": "press-release",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73bbe9f9-4291-496e-9ff3-84c14c0d4180.pdf",
+            "attachmentName": "73bbe9f9-4291-496e-9ff3-84c14c0d4180.pdf"
+          },
           {
             "newsId": "6f60a773-8d02-4347-abf9-394cb840a0d7",
             "date": "2026-05-13",
@@ -52,9 +78,23 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/752c8245-ea85-4d5b-81ba-abdf178fdd12.pdf",
             "attachmentName": "752c8245-ea85-4d5b-81ba-abdf178fdd12.pdf"
           }
+        ],
+        "quarterly-result": [
+          {
+            "newsId": "0f805a8f-3bcc-41be-88e9-79adac197c93",
+            "date": "2026-05-25",
+            "subject": "Audited Financial Results Q4 And FY2026",
+            "headline": "We hereby submit Audited Financial Results Q4 and FY2026",
+            "category": "Result",
+            "docType": "quarterly-result",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46f85f88-0d0d-44e5-ad3b-8cc68bb996e5.pdf",
+            "attachmentName": "46f85f88-0d0d-44e5-ad3b-8cc68bb996e5.pdf"
+          }
         ]
       },
-      "lowPriorityCount": 14
+      "lowPriorityCount": 15
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -953,6 +993,54 @@
     }
   ],
   "all": [
+    {
+      "newsId": "1ab0dc54-2fe7-4bbb-b495-8e98e333fee1",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "headline": "We hereby submit Investor Presentation for Q4 & FY26.",
+      "category": "Company Update",
+      "docType": "investor-presentation",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01083635-f989-43ae-a16f-e82deabe067c.pdf",
+      "attachmentName": "01083635-f989-43ae-a16f-e82deabe067c.pdf"
+    },
+    {
+      "newsId": "e848655c-6bbe-4087-b0b0-e4c3fa852507",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "headline": "We hereby submit Press Release for Q4 and FY2026.",
+      "category": "Company Update",
+      "docType": "press-release",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73bbe9f9-4291-496e-9ff3-84c14c0d4180.pdf",
+      "attachmentName": "73bbe9f9-4291-496e-9ff3-84c14c0d4180.pdf"
+    },
+    {
+      "newsId": "0f805a8f-3bcc-41be-88e9-79adac197c93",
+      "date": "2026-05-25",
+      "subject": "Audited Financial Results Q4 And FY2026",
+      "headline": "We hereby submit Audited Financial Results Q4 and FY2026",
+      "category": "Result",
+      "docType": "quarterly-result",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46f85f88-0d0d-44e5-ad3b-8cc68bb996e5.pdf",
+      "attachmentName": "46f85f88-0d0d-44e5-ad3b-8cc68bb996e5.pdf"
+    },
+    {
+      "newsId": "e289bdcf-f7a4-45bc-91d6-a46ed683903f",
+      "date": "2026-05-25",
+      "subject": "Board Meeting Outcome for Board Meeting Outcome For Audited Financial Result For Q4 & FY2026",
+      "headline": "We hereby submit Audited Financial Results for Q4 and FY2026",
+      "category": "Board Meeting",
+      "docType": "board-meeting-intimation",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8c1fc502-8aac-434f-b37b-68064f8a65e1.pdf",
+      "attachmentName": "8c1fc502-8aac-434f-b37b-68064f8a65e1.pdf"
+    },
     {
       "newsId": "e9b5b3f2-b691-4a84-bd3e-5f2d8b03d505",
       "date": "2026-05-21",

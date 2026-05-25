@@ -7,19 +7,23 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-25T18:11:38.073Z",
+<<<<<<< Updated upstream
+  "lastBuiltAt": "2026-05-25T16:38:55.195Z",
+=======
+  "lastBuiltAt": "2026-05-25T18:12:42.813Z",
+>>>>>>> Stashed changes
   "latestQuote": {
-    "date": "2026-05-24",
-    "price": 1023.25,
-    "marketCapCr": 99587.17,
-    "marketCapFreeFloatCr": 75332.22,
-    "changePct": -6.26,
-    "volumeShares": 505000
+    "date": "2026-05-25",
+    "price": 1000.6,
+    "marketCapCr": 97382.77,
+    "marketCapFreeFloatCr": 73664.71,
+    "changePct": -2.21,
+    "volumeShares": 480999.99999999994
   },
   "coverage": {
-    "extractedDocs": 21,
-    "quartersWithData": 5,
-    "quarterRange": "FY26-Q1 → FY27-Q1",
+    "extractedDocs": 24,
+    "quartersWithData": 6,
+    "quarterRange": "FY25-Q4 → FY27-Q1",
     "classifiedTotalPriorityDocs": 70
   },
   "quarters": {
@@ -39,7 +43,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 99587.2
+        "enterpriseValueCr": 97382.8
       }
     },
     "FY26-Q4": {
@@ -297,11 +301,11 @@
         "ebitdaPerBedYearly": 5493355,
         "bedTurnoverYearly": 65.88,
         "bedActivationPct": 82.8,
-        "enterpriseValueCr": 101495.2,
-        "evToEbitdaAnnualised": 37.2,
-        "peAnnualised": 64.33,
-        "evPerBedCr": 20.438,
-        "evPerBedLakhs": 2043.8
+        "enterpriseValueCr": 99290.8,
+        "evToEbitdaAnnualised": 36.4,
+        "peAnnualised": 62.91,
+        "evPerBedCr": 19.994,
+        "evPerBedLakhs": 1999.4
       }
     },
     "FY26-Q3": {
@@ -595,11 +599,11 @@
         "ebitdaPerBedYearly": 5341026,
         "bedTurnoverYearly": 67.57,
         "bedActivationPct": 93.3,
-        "enterpriseValueCr": 101753.2,
-        "evToEbitdaAnnualised": 39.26,
-        "peAnnualised": 72.37,
-        "evPerBedCr": 20.967,
-        "evPerBedLakhs": 2096.7
+        "enterpriseValueCr": 99548.8,
+        "evToEbitdaAnnualised": 38.41,
+        "peAnnualised": 70.77,
+        "evPerBedCr": 20.513,
+        "evPerBedLakhs": 2051.3
       }
     },
     "FY26-Q2": {
@@ -851,11 +855,11 @@
         "ebitdaPerBedYearly": 5831933,
         "bedTurnoverYearly": 73.64,
         "bedActivationPct": 91.5,
-        "enterpriseValueCr": 101654.2,
-        "evToEbitdaAnnualised": 36.62,
-        "peAnnualised": 44.94,
-        "evPerBedCr": 21.356,
-        "evPerBedLakhs": 2135.6
+        "enterpriseValueCr": 99449.8,
+        "evToEbitdaAnnualised": 35.82,
+        "peAnnualised": 43.95,
+        "evPerBedCr": 20.893,
+        "evPerBedLakhs": 2089.3
       }
     },
     "FY26-Q1": {
@@ -882,6 +886,18 @@
           "newsId": "580c8698-ff02-4758-bd13-27345da99edc",
           "date": "2025-08-13",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1b9cf4a-541e-44da-a2bc-cfa062a0a15e.pdf"
+        },
+        {
+          "docType": "press-release",
+          "newsId": "8384c260-ea6c-4134-9c20-856a91853023",
+          "date": "2025-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebfc89b6-6d71-4909-a7a0-4e14a1cc82e2.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "6b810ecf-ba30-4a0e-83d2-588cc5c5797c",
+          "date": "2025-05-31",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c0c60b6e-0c90-4917-b0b8-d1cd46715157.pdf"
         }
       ],
       "metrics": {
@@ -993,6 +1009,18 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7c00969-35a2-4639-bf42-fbb85d27a7bd.pdf"
           }
         },
+        "arpp": {
+          "value": 857,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "857\nAverage Revenue Per Patient\n(+8% Y-o-Y)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "6b810ecf-ba30-4a0e-83d2-588cc5c5797c",
+            "date": "2025-05-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c0c60b6e-0c90-4917-b0b8-d1cd46715157.pdf"
+          }
+        },
         "revenue": {
           "value": 2460,
           "unit": "INR_crore",
@@ -1091,9 +1119,115 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 101342.2,
-        "evToEbitdaAnnualised": 41.33,
-        "peAnnualised": 72.16
+        "enterpriseValueCr": 99137.8,
+        "evToEbitdaAnnualised": 40.43,
+        "peAnnualised": 70.57
+      }
+    },
+    "FY25-Q4": {
+      "fiscalQuarter": "FY25-Q4",
+      "label": "Q4 FY25",
+      "calendar": "Jan–Mar 2025",
+      "from": "2025-01-01",
+      "to": "2025-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+          "date": "2025-08-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+        }
+      ],
+      "metrics": {
+        "bedCapacity": {
+          "value": 5100,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "with 22 world-class facilities, over 5,100 beds and a\nglobal reputation for clinical excellence.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 3900,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "All of\nthese will collectively add over 3,900 new beds over the next 3-4 years to\nthe current capacity of 5,100 beds.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 3500000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "During the past year, we treated over 35 lakh patients",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "revenue": {
+          "value": 9065,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our Network's gross revenue grew by 26% year-on-year to ₹9,065 crore,",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 2319,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "while operating EBITDA increased by almost 22% to 2,319 crore.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "pat": {
+          "value": 1392,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit\nAfter Tax stood at 1,392 crore, excluding one-time exceptional cost and\ngain of non-recurring nature, underscoring the strength of our financial\nfoundation.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 26,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Our Network's gross revenue grew by 26% year-on-year to ₹9,065 crore,",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "98aec000-16b4-47ff-b7ae-25f8f9bb5377",
+            "date": "2025-08-05",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6069e7e5-47e8-4b2c-86f1-06e24d09b388.pdf"
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 97382.8,
+        "evToEbitdaAnnualised": 10.5,
+        "peAnnualised": 17.49
       }
     }
   }

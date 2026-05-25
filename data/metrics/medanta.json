@@ -7,14 +7,18 @@
   "industry": "Hospital",
   "ticker": "MEDANTA",
   "isin": "INE474Q01031",
-  "lastBuiltAt": "2026-05-25T18:11:38.211Z",
+<<<<<<< Updated upstream
+  "lastBuiltAt": "2026-05-25T16:38:55.202Z",
+=======
+  "lastBuiltAt": "2026-05-25T18:12:42.822Z",
+>>>>>>> Stashed changes
   "latestQuote": {
-    "date": "2026-05-24",
-    "price": 1238.5,
-    "marketCapCr": 33297.31,
-    "marketCapFreeFloatCr": 10574.99,
-    "changePct": -0.1,
-    "volumeShares": 6548
+    "date": "2026-05-25",
+    "price": 1248.45,
+    "marketCapCr": 33564.81,
+    "marketCapFreeFloatCr": 10659.95,
+    "changePct": 0.8,
+    "volumeShares": 38000
   },
   "coverage": {
     "extractedDocs": 0,

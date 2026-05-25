@@ -2,11 +2,12 @@
   "slug": "fortis-healthcare",
   "scripCode": "532843",
   "name": "Fortis Healthcare Ltd",
-  "generatedAt": "2026-05-24T15:04:27.191Z",
+  "generatedAt": "2026-05-25T16:23:29.818Z",
   "summary": {
-    "totalAnnouncements": 450,
+    "totalAnnouncements": 451,
     "totalAnnualReportsMaster": 17,
     "byDocType": {
+      "investor-meet-outcome": 4,
       "newspaper-advert": 34,
       "other": 167,
       "compliance": 29,
@@ -20,7 +21,6 @@
       "insider-trading": 17,
       "agm-egm": 42,
       "concall-transcript": 14,
-      "investor-meet-outcome": 3,
       "credit-rating": 4,
       "annual-report": 6,
       "concall-audio": 8,
@@ -81,7 +81,7 @@
           }
         ]
       },
-      "lowPriorityCount": 18
+      "lowPriorityCount": 19
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1492,6 +1492,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "f8f5be06-76fa-4639-8716-02f38ebf9398",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "Relevant disclosure attached",
+      "category": "Company Update",
+      "docType": "investor-meet-outcome",
+      "priority": "medium",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/442c4b10-4af8-4e94-8c3f-79d00730029b.pdf",
+      "attachmentName": "442c4b10-4af8-4e94-8c3f-79d00730029b.pdf"
+    },
     {
       "newsId": "c2c23549-7003-4aa5-bf25-326db797511d",
       "date": "2026-05-23",

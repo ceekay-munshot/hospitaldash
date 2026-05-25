@@ -7,14 +7,18 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-05-25T10:32:45.855Z",
+<<<<<<< Updated upstream
+  "lastBuiltAt": "2026-05-25T16:38:55.213Z",
+=======
+  "lastBuiltAt": "2026-05-25T18:12:42.837Z",
+>>>>>>> Stashed changes
   "latestQuote": {
-    "date": "2026-05-24",
-    "price": 653.75,
-    "marketCapCr": 9760.63,
-    "marketCapFreeFloatCr": 3446.78,
-    "changePct": 4.27,
-    "volumeShares": 21000
+    "date": "2026-05-25",
+    "price": 656.7,
+    "marketCapCr": 9804.68,
+    "marketCapFreeFloatCr": 3462.33,
+    "changePct": 0.45,
+    "volumeShares": 215000
   },
   "coverage": {
     "extractedDocs": 0,

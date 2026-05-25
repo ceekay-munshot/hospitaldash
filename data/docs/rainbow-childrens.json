@@ -2,11 +2,13 @@
   "slug": "rainbow-childrens",
   "scripCode": "543524",
   "name": "Rainbow Children's Medicare Ltd",
-  "generatedAt": "2026-05-24T15:04:27.237Z",
+  "generatedAt": "2026-05-25T16:23:29.879Z",
   "summary": {
-    "totalAnnouncements": 274,
+    "totalAnnouncements": 276,
     "totalAnnualReportsMaster": 4,
     "byDocType": {
+      "concall-audio": 12,
+      "newspaper-advert": 19,
       "other": 63,
       "investor-presentation": 12,
       "press-release": 12,
@@ -16,8 +18,6 @@
       "analyst-meet-intimation": 36,
       "insider-trading": 15,
       "concall-transcript": 11,
-      "newspaper-advert": 18,
-      "concall-audio": 11,
       "quarterly-result": 11,
       "agm-egm": 18,
       "credit-rating": 3,
@@ -37,6 +37,20 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "concall-audio": [
+          {
+            "newsId": "b7c818c8-37ae-44f5-8bba-103e1d38fe36",
+            "date": "2026-05-25",
+            "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "headline": "Audio Recording of Investors Conference Call",
+            "category": "Company Update",
+            "docType": "concall-audio",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5a9ac79-e8a4-4978-8c7b-9f7ae5498f0e.pdf",
+            "attachmentName": "d5a9ac79-e8a4-4978-8c7b-9f7ae5498f0e.pdf"
+          }
+        ],
         "investor-presentation": [
           {
             "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
@@ -66,7 +80,7 @@
           }
         ]
       },
-      "lowPriorityCount": 19
+      "lowPriorityCount": 20
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1096,6 +1110,30 @@
     }
   ],
   "all": [
+    {
+      "newsId": "b7c818c8-37ae-44f5-8bba-103e1d38fe36",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "Audio Recording of Investors Conference Call",
+      "category": "Company Update",
+      "docType": "concall-audio",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5a9ac79-e8a4-4978-8c7b-9f7ae5498f0e.pdf",
+      "attachmentName": "d5a9ac79-e8a4-4978-8c7b-9f7ae5498f0e.pdf"
+    },
+    {
+      "newsId": "5c620364-b59c-43cc-a169-3dda96786ce1",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+      "headline": "Intimation for Newspaper publication.",
+      "category": "Company Update",
+      "docType": "newspaper-advert",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/671c6cf2-906d-43a7-b8ff-ec0189b8b7e1.pdf",
+      "attachmentName": "671c6cf2-906d-43a7-b8ff-ec0189b8b7e1.pdf"
+    },
     {
       "newsId": "94ce1a7d-b75b-4377-aad2-618fb943ffb3",
       "date": "2026-05-23",
