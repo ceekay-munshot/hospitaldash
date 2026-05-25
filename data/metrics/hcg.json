@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-05-25T18:21:29.944Z",
+  "lastBuiltAt": "2026-05-25T18:32:18.177Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 656.7,
@@ -18,9 +18,135 @@
   },
   "coverage": {
     "extractedDocs": 0,
-    "quartersWithData": 0,
-    "quarterRange": null,
+    "quartersWithData": 3,
+    "quarterRange": "FY23-Q4 → FY26-Q3",
     "classifiedTotalPriorityDocs": 58
   },
-  "quarters": {}
+  "quarters": {
+    "FY26-Q3": {
+      "fiscalQuarter": "FY26-Q3",
+      "label": "Q3 FY26",
+      "calendar": "Oct–Dec 2025",
+      "from": "2025-10-01",
+      "to": "2025-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2025-12-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 34056,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-12-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 9804.7
+      }
+    },
+    "FY24-Q3": {
+      "fiscalQuarter": "FY24-Q3",
+      "label": "Q3 FY24",
+      "calendar": "Oct–Dec 2023",
+      "from": "2023-10-01",
+      "to": "2023-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2023-12-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 26650,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-12-31",
+            "pdfUrl": null
+          }
+        },
+        "pat": {
+          "value": 1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q3: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-12-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 9804.7,
+        "peAnnualised": 2451.17
+      }
+    },
+    "FY23-Q4": {
+      "fiscalQuarter": "FY23-Q4",
+      "label": "Q4 FY23",
+      "calendar": "Jan–Mar 2023",
+      "from": "2023-01-01",
+      "to": "2023-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2023-03-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 25819,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY23-Q4: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-03-31",
+            "pdfUrl": null
+          }
+        },
+        "pat": {
+          "value": 31,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY23-Q4: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-03-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 9804.7,
+        "peAnnualised": 79.07
+      }
+    }
+  }
 }

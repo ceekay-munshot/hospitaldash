@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-25T18:21:29.934Z",
+  "lastBuiltAt": "2026-05-25T18:32:18.168Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 1938.9,
@@ -18,9 +18,420 @@
   },
   "coverage": {
     "extractedDocs": 0,
-    "quartersWithData": 0,
-    "quarterRange": null,
+    "quartersWithData": 9,
+    "quarterRange": "FY24-Q2 → FY26-Q3",
     "classifiedTotalPriorityDocs": 55
   },
-  "quarters": {}
+  "quarters": {
+    "FY26-Q3": {
+      "fiscalQuarter": "FY26-Q3",
+      "label": "Q3 FY26",
+      "calendar": "Oct–Dec 2025",
+      "from": "2025-10-01",
+      "to": "2025-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2025-12-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 9687.81,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-12-31",
+            "pdfUrl": null
+          }
+        },
+        "pat": {
+          "value": -13.01,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-12-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5
+      }
+    },
+    "FY26-Q2": {
+      "fiscalQuarter": "FY26-Q2",
+      "label": "Q2 FY26",
+      "calendar": "Jul–Sep 2025",
+      "from": "2025-07-01",
+      "to": "2025-09-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2025-09-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 16832.17,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q2: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-09-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5
+      }
+    },
+    "FY26-Q1": {
+      "fiscalQuarter": "FY26-Q1",
+      "label": "Q1 FY26",
+      "calendar": "Apr–Jun 2025",
+      "from": "2025-04-01",
+      "to": "2025-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2025-06-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 15432.05,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-06-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5
+      }
+    },
+    "FY25-Q4": {
+      "fiscalQuarter": "FY25-Q4",
+      "label": "Q4 FY25",
+      "calendar": "Jan–Mar 2025",
+      "from": "2025-01-01",
+      "to": "2025-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2025-03-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-03-31",
+            "pdfUrl": null
+          }
+        },
+        "pat": {
+          "value": 31,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2025-03-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5,
+        "peAnnualised": 319.54
+      }
+    },
+    "FY25-Q3": {
+      "fiscalQuarter": "FY25-Q3",
+      "label": "Q3 FY25",
+      "calendar": "Oct–Dec 2024",
+      "from": "2024-10-01",
+      "to": "2024-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2024-12-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 8650.43,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q3: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-12-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5
+      }
+    },
+    "FY25-Q2": {
+      "fiscalQuarter": "FY25-Q2",
+      "label": "Q2 FY25",
+      "calendar": "Jul–Sep 2024",
+      "from": "2024-07-01",
+      "to": "2024-09-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2024-09-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 14004.17,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-09-30",
+            "pdfUrl": null
+          }
+        },
+        "ebitda": {
+          "value": 2324.74,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA (derived: PBT + Depr + Finance cost)",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-09-30",
+            "pdfUrl": null
+          }
+        },
+        "ebitdaMargin": {
+          "value": 16.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA margin",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-09-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5,
+        "evToEbitdaAnnualised": 4.26
+      }
+    },
+    "FY25-Q1": {
+      "fiscalQuarter": "FY25-Q1",
+      "label": "Q1 FY25",
+      "calendar": "Apr–Jun 2024",
+      "from": "2024-04-01",
+      "to": "2024-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2024-06-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 8717.61,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-06-30",
+            "pdfUrl": null
+          }
+        },
+        "ebitda": {
+          "value": 7155.67,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: EBITDA (derived: PBT + Depr + Finance cost)",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-06-30",
+            "pdfUrl": null
+          }
+        },
+        "ebitdaMargin": {
+          "value": 82.08,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: EBITDA margin",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-06-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5,
+        "evToEbitdaAnnualised": 1.38
+      }
+    },
+    "FY24-Q4": {
+      "fiscalQuarter": "FY24-Q4",
+      "label": "Q4 FY24",
+      "calendar": "Jan–Mar 2024",
+      "from": "2024-01-01",
+      "to": "2024-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2024-03-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 8463.09,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-03-31",
+            "pdfUrl": null
+          }
+        },
+        "ebitda": {
+          "value": 6899.08,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: EBITDA (derived: PBT + Depr + Finance cost)",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-03-31",
+            "pdfUrl": null
+          }
+        },
+        "ebitdaMargin": {
+          "value": 81.52,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: EBITDA margin",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-03-31",
+            "pdfUrl": null
+          }
+        },
+        "pat": {
+          "value": 31,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q4: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2024-03-31",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5,
+        "evToEbitdaAnnualised": 1.44,
+        "peAnnualised": 319.54
+      }
+    },
+    "FY24-Q2": {
+      "fiscalQuarter": "FY24-Q2",
+      "label": "Q2 FY24",
+      "calendar": "Jul–Sep 2023",
+      "from": "2023-07-01",
+      "to": "2023-09-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2023-09-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 8.52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-09-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 39623.5
+      }
+    }
+  }
 }

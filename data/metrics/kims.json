@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-25T18:21:29.940Z",
+  "lastBuiltAt": "2026-05-25T18:32:18.174Z",
   "latestQuote": {
     "date": "2026-05-25",
     "price": 757.15,
@@ -18,9 +18,43 @@
   },
   "coverage": {
     "extractedDocs": 0,
-    "quartersWithData": 0,
-    "quarterRange": null,
+    "quartersWithData": 1,
+    "quarterRange": "FY24-Q1 → FY24-Q1",
     "classifiedTotalPriorityDocs": 57
   },
-  "quarters": {}
+  "quarters": {
+    "FY24-Q1": {
+      "fiscalQuarter": "FY24-Q1",
+      "label": "Q1 FY24",
+      "calendar": "Apr–Jun 2023",
+      "from": "2023-04-01",
+      "to": "2023-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2023-06-30",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 6060.29,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2023-06-30",
+            "pdfUrl": null
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 30296.5
+      }
+    }
+  }
 }

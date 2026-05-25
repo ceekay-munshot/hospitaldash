@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T18:21:30.007Z",
+  "generatedAt": "2026-05-25T18:32:18.238Z",
   "companies": [
     {
       "slug": "apollo-hospitals",
@@ -458,25 +458,29 @@
             "ipVolume": 149197,
             "opVolume": 513745,
             "arpob": 57391,
-            "revenue": 4846.9,
-            "ebitda": 627.6,
-            "ebitdaMargin": 12.9,
-            "pat": 232.9,
+            "revenue": 15.8,
+            "ebitda": 1525,
+            "ebitdaMargin": 9651.9,
+            "pat": -7,
             "netDebt": 1521.6,
             "capexAnnounced": 3435,
             "revenueGrowthYoy": 14,
             "roce": 28,
-            "revenuePerBedYearly": 24967933,
-            "ebitdaPerBedYearly": 3232968,
+            "revenuePerBedYearly": 81391,
+            "ebitdaPerBedYearly": 7855763,
             "bedTurnoverYearly": 76.86,
             "bedActivationPct": 84.8,
             "enterpriseValueCr": 122370.5,
-            "evToEbitdaAnnualised": 48.75,
+            "evToEbitdaAnnualised": 20.06,
             "evPerBedCr": 15.759,
-            "evPerBedLakhs": 1575.9,
-            "peAnnualised": 129.72
+            "evPerBedLakhs": 1575.9
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2023-11-09",
@@ -513,25 +517,30 @@
             "ipVolume": 144823,
             "opVolume": 457198,
             "arpob": 56368,
-            "revenue": 10208,
-            "ebitda": 711,
-            "ebitdaMargin": 7,
-            "pat": 245.3,
+            "revenue": 18243,
+            "ebitda": 2095,
+            "ebitdaMargin": 11.48,
+            "pat": 31,
             "netDebt": 1551.8,
             "capexAnnounced": 788.2,
             "revenueGrowthYoy": 14,
             "roce": 18,
-            "revenuePerBedYearly": 51614208,
-            "ebitdaPerBedYearly": 3594994,
+            "revenuePerBedYearly": 92241183,
+            "ebitdaPerBedYearly": 10592845,
             "bedTurnoverYearly": 73.23,
             "bedActivationPct": 83.5,
             "enterpriseValueCr": 122400.7,
-            "evToEbitdaAnnualised": 43.04,
+            "evToEbitdaAnnualised": 14.61,
             "evPerBedCr": 15.472,
             "evPerBedLakhs": 1547.2,
-            "peAnnualised": 123.16
+            "peAnnualised": 974.59
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2024-04-26",
@@ -569,15 +578,15 @@
             "opVolume": 459523,
             "arpob": 59523,
             "arpp": 144965,
-            "revenue": 4943.9,
+            "revenue": 18946,
             "ebitda": 640.5,
             "ebitdaMargin": 12.9,
-            "pat": 253.8,
+            "pat": 10105,
             "netDebt": 1504,
             "capexAnnounced": 3435,
             "revenueGrowthYoy": 15,
             "roce": 26.1,
-            "revenuePerBedYearly": 24890623,
+            "revenuePerBedYearly": 95385777,
             "ebitdaPerBedYearly": 3224670,
             "bedTurnoverYearly": 71.55,
             "bedActivationPct": 83.6,
@@ -585,9 +594,14 @@
             "evToEbitdaAnnualised": 47.76,
             "evPerBedCr": 15.4,
             "evPerBedLakhs": 1540,
-            "peAnnualised": 119.04
+            "peAnnualised": 2.99
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2024-05-30",
@@ -676,25 +690,30 @@
             "opVolume": 575089,
             "arpob": 59011,
             "arpp": 159379,
-            "revenue": 5589.3,
-            "ebitda": 815.5,
-            "ebitdaMargin": 14.6,
-            "pat": 378.8,
+            "revenue": 2135.4,
+            "ebitda": 107.8,
+            "ebitdaMargin": 5.05,
+            "pat": 711.2,
             "netDebt": -280.2,
             "capexAnnounced": 6100,
             "revenueGrowthYoy": 15,
             "roce": 27.6,
-            "revenuePerBedYearly": 23726202,
-            "ebitdaPerBedYearly": 3461743,
+            "revenuePerBedYearly": 9064629,
+            "ebitdaPerBedYearly": 457604,
             "bedTurnoverYearly": 67.91,
             "bedActivationPct": 92.9,
             "enterpriseValueCr": 120568.7,
-            "evToEbitdaAnnualised": 36.96,
+            "evToEbitdaAnnualised": 279.61,
             "evPerBedCr": 12.795,
             "evPerBedLakhs": 1279.5,
-            "peAnnualised": 79.76
+            "peAnnualised": 42.48
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-09-30",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2024-11-06",
@@ -783,25 +802,30 @@
             "opVolume": 559817,
             "arpob": 63569,
             "arpp": 171358,
-            "revenue": 5592.2,
-            "ebitda": 769.8,
-            "ebitdaMargin": 13.8,
-            "pat": 389.6,
+            "revenue": 20.75,
+            "ebitda": 2105,
+            "ebitdaMargin": 10143.11,
+            "pat": 33,
             "netDebt": -10.9,
             "capexAnnounced": 7603,
             "revenueGrowthYoy": 13,
             "roce": 27.5,
-            "revenuePerBedYearly": 23650666,
-            "ebitdaPerBedYearly": 3255657,
+            "revenuePerBedYearly": 87756,
+            "ebitdaPerBedYearly": 8902516,
             "bedTurnoverYearly": 61.93,
             "bedActivationPct": 92.8,
             "enterpriseValueCr": 120838,
-            "evToEbitdaAnnualised": 39.24,
+            "evToEbitdaAnnualised": 14.35,
             "evPerBedCr": 12.776,
             "evPerBedLakhs": 1277.6,
-            "peAnnualised": 77.55
+            "peAnnualised": 915.52
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2025-06-30",
@@ -839,21 +863,26 @@
             "bedsUnderDevelopment": 2000,
             "newHospitalsPlanned": 2,
             "occupancyRate": 65,
-            "revenue": 5842,
-            "ebitda": 852,
-            "ebitdaMargin": 14.58,
-            "pat": 433,
+            "revenue": 21679,
+            "ebitda": 1825,
+            "ebitdaMargin": 8.42,
+            "pat": 3,
             "revenueGrowthYoy": 15,
-            "revenuePerBedYearly": 29100872,
-            "ebitdaPerBedYearly": 4244085,
+            "revenuePerBedYearly": 107990037,
+            "ebitdaPerBedYearly": 9090909,
             "bedActivationPct": 80.3,
             "enterpriseValueCr": 120848.9,
-            "evToEbitdaAnnualised": 35.46,
+            "evToEbitdaAnnualised": 16.55,
             "evPerBedCr": 15.05,
             "evPerBedLakhs": 1505,
-            "peAnnualised": 69.77
+            "peAnnualised": 10070.74
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-06-30",
+              "pdfUrl": null
+            },
             {
               "docType": "quarterly-result",
               "date": "2025-08-12",
@@ -1022,11 +1051,123 @@
       },
       "coverage": {
         "extractedDocs": 24,
-        "quartersWithData": 6,
-        "quarterRange": "FY25-Q4 → FY27-Q1",
+        "quartersWithData": 13,
+        "quarterRange": "FY24-Q1 → FY27-Q1",
         "classifiedTotalPriorityDocs": 70
       },
       "quarters": {
+        "FY24-Q1": {
+          "label": "Q1 FY24",
+          "calendar": "Apr–Jun 2023",
+          "metrics": {
+            "revenue": 54363,
+            "enterpriseValueCr": 97382.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 59687,
+            "enterpriseValueCr": 97382.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q3": {
+          "label": "Q3 FY24",
+          "calendar": "Oct–Dec 2023",
+          "metrics": {
+            "revenue": 59075,
+            "enterpriseValueCr": 97382.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q4": {
+          "label": "Q4 FY24",
+          "calendar": "Jan–Mar 2024",
+          "metrics": {
+            "revenue": 61011,
+            "ebitda": 1475,
+            "ebitdaMargin": 2.42,
+            "pat": 312024,
+            "enterpriseValueCr": 97382.8,
+            "evToEbitdaAnnualised": 16.51,
+            "peAnnualised": 0.08
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q1": {
+          "label": "Q1 FY25",
+          "calendar": "Apr–Jun 2024",
+          "metrics": {
+            "revenue": 62139,
+            "enterpriseValueCr": 97382.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q2": {
+          "label": "Q2 FY25",
+          "calendar": "Jul–Sep 2024",
+          "metrics": {
+            "revenue": 68611,
+            "pat": 3,
+            "enterpriseValueCr": 97382.8,
+            "peAnnualised": 8115.23
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "revenue": 69740,
+            "enterpriseValueCr": 97382.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
         "FY25-Q4": {
           "label": "Q4 FY25",
           "calendar": "Jan–Mar 2025",
@@ -1034,15 +1175,21 @@
             "bedCapacity": 5100,
             "bedsUnderDevelopment": 3900,
             "opVolume": 3500000,
-            "revenue": 9065,
-            "ebitda": 2319,
-            "pat": 1392,
+            "revenue": 190974,
+            "ebitda": 5524,
+            "ebitdaMargin": 2.89,
+            "pat": 1,
             "revenueGrowthYoy": 26,
             "enterpriseValueCr": 97382.8,
-            "evToEbitdaAnnualised": 10.5,
-            "peAnnualised": 17.49
+            "evToEbitdaAnnualised": 4.41,
+            "peAnnualised": 24345.69
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            },
             {
               "docType": "concall-transcript",
               "date": "2025-08-05",
@@ -1118,15 +1265,15 @@
             "ipVolume": 87629,
             "opVolume": 1010000,
             "arpob": 77300,
-            "revenue": 2692,
+            "revenue": 213547,
             "ebitda": 694,
             "ebitdaMargin": 26.9,
-            "pat": 554,
+            "pat": 51,
             "netDebt": 2067,
             "capexAnnounced": 456,
             "revenueGrowthYoy": 21,
             "roce": 23.2,
-            "revenuePerBedYearly": 22621849,
+            "revenuePerBedYearly": 1794512605,
             "ebitdaPerBedYearly": 5831933,
             "bedTurnoverYearly": 73.64,
             "bedActivationPct": 91.5,
@@ -1134,9 +1281,14 @@
             "evToEbitdaAnnualised": 35.82,
             "evPerBedCr": 20.893,
             "evPerBedLakhs": 2089.3,
-            "peAnnualised": 43.95
+            "peAnnualised": 477.37
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2025-11-14",
@@ -1168,25 +1320,29 @@
             "ipVolume": 81980,
             "opVolume": 903000,
             "arpob": 78000,
-            "revenue": 2608,
+            "revenue": 206752,
             "ebitda": 648,
             "ebitdaMargin": 26.1,
-            "pat": 344,
+            "pat": -106,
             "netDebt": 2166,
             "capexAnnounced": 7157,
             "revenueGrowthYoy": 9,
             "roce": 25.9,
-            "revenuePerBedYearly": 21495982,
+            "revenuePerBedYearly": 1704117041,
             "ebitdaPerBedYearly": 5341026,
             "bedTurnoverYearly": 67.57,
             "bedActivationPct": 93.3,
             "enterpriseValueCr": 99548.8,
             "evToEbitdaAnnualised": 38.41,
             "evPerBedCr": 20.513,
-            "evPerBedLakhs": 2051.3,
-            "peAnnualised": 70.77
+            "evPerBedLakhs": 2051.3
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2026-02-20",
@@ -1253,25 +1409,30 @@
             "ipVolume": 81791,
             "opVolume": 923000,
             "arpob": 77900,
-            "revenue": 2664,
-            "ebitda": 682,
-            "ebitdaMargin": 26.8,
-            "pat": 387,
+            "revenue": 2,
+            "ebitda": 18971,
+            "ebitdaMargin": 948550,
+            "pat": 3,
             "netDebt": 1908,
             "capexAnnounced": 1400,
             "revenueGrowthYoy": 10,
             "roce": 20.9,
-            "revenuePerBedYearly": 21457914,
-            "ebitdaPerBedYearly": 5493355,
+            "revenuePerBedYearly": 16110,
+            "ebitdaPerBedYearly": 152807088,
             "bedTurnoverYearly": 65.88,
             "bedActivationPct": 82.8,
             "enterpriseValueCr": 99290.8,
-            "evToEbitdaAnnualised": 36.4,
+            "evToEbitdaAnnualised": 1.31,
             "evPerBedCr": 19.994,
             "evPerBedLakhs": 1999.4,
-            "peAnnualised": 62.91
+            "peAnnualised": 8115.23
           },
           "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2026-03-31",
+              "pdfUrl": null
+            },
             {
               "docType": "investor-presentation",
               "date": "2026-05-21",
@@ -1328,11 +1489,211 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 11,
+        "quarterRange": "FY24-Q1 → FY26-Q4",
         "classifiedTotalPriorityDocs": 63
       },
-      "quarters": {}
+      "quarters": {
+        "FY24-Q1": {
+          "label": "Q1 FY24",
+          "calendar": "Apr–Jun 2023",
+          "metrics": {
+            "revenue": 186741,
+            "pat": 30,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 610.35
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 176995,
+            "ebitda": 40344,
+            "ebitdaMargin": 22.79,
+            "pat": 4195,
+            "enterpriseValueCr": 73242.3,
+            "evToEbitdaAnnualised": 0.45,
+            "peAnnualised": 4.36
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q3": {
+          "label": "Q3 FY24",
+          "calendar": "Oct–Dec 2023",
+          "metrics": {
+            "revenue": 167968,
+            "pat": 31,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 590.66
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q4": {
+          "label": "Q4 FY24",
+          "calendar": "Jan–Mar 2024",
+          "metrics": {
+            "revenue": 30748,
+            "ebitda": 26500,
+            "ebitdaMargin": 86.18,
+            "pat": 31,
+            "enterpriseValueCr": 73242.3,
+            "evToEbitdaAnnualised": 0.69,
+            "peAnnualised": 590.66
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q1": {
+          "label": "Q1 FY25",
+          "calendar": "Apr–Jun 2024",
+          "metrics": {
+            "revenue": 33340,
+            "pat": 5050,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 3.63
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q2": {
+          "label": "Q2 FY25",
+          "calendar": "Jul–Sep 2024",
+          "metrics": {
+            "revenue": 198839,
+            "ebitda": 62258,
+            "ebitdaMargin": 31.31,
+            "pat": 30,
+            "enterpriseValueCr": 73242.3,
+            "evToEbitdaAnnualised": 0.29,
+            "peAnnualised": 610.35
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "revenue": 192826,
+            "pat": 31,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 590.66
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "revenue": 38847,
+            "ebitda": 19685,
+            "ebitdaMargin": 50.67,
+            "pat": 31,
+            "enterpriseValueCr": 73242.3,
+            "evToEbitdaAnnualised": 0.93,
+            "peAnnualised": 590.66
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "revenue": 45581,
+            "pat": 11315,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 1.62
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 44293,
+            "pat": 2970,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 6.17
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "revenue": 236467,
+            "pat": 31,
+            "enterpriseValueCr": 73242.3,
+            "peAnnualised": 590.66
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2026-03-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "medanta": {
       "slug": "medanta",
@@ -1352,11 +1713,156 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 8,
+        "quarterRange": "FY23-Q4 → FY26-Q4",
         "classifiedTotalPriorityDocs": 63
       },
-      "quarters": {}
+      "quarters": {
+        "FY23-Q4": {
+          "label": "Q4 FY23",
+          "calendar": "Jan–Mar 2023",
+          "metrics": {
+            "revenue": 50290.99,
+            "ebitda": 1044611.32,
+            "ebitdaMargin": 2077.13,
+            "pat": 31,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 0.01,
+            "peAnnualised": 270.68
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q1": {
+          "label": "Q1 FY24",
+          "calendar": "Apr–Jun 2023",
+          "metrics": {
+            "revenue": 11,
+            "enterpriseValueCr": 33564.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q4": {
+          "label": "Q4 FY24",
+          "calendar": "Jan–Mar 2024",
+          "metrics": {
+            "revenue": 1,
+            "pat": 31,
+            "enterpriseValueCr": 33564.8,
+            "peAnnualised": 270.68
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "revenue": 9434.36,
+            "ebitda": 2053.43,
+            "ebitdaMargin": 21.77,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 4.09
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "revenue": 8821.56,
+            "ebitda": 2490.12,
+            "ebitdaMargin": 28.23,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 3.37
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "revenue": 9264.28,
+            "ebitda": 2647.66,
+            "ebitdaMargin": 28.58,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 3.17
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 5,
+            "ebitda": 747.68,
+            "ebitdaMargin": 14953.6,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 11.22
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "revenue": 960629,
+            "ebitda": 2291.47,
+            "ebitdaMargin": 0.24,
+            "pat": 31,
+            "enterpriseValueCr": 33564.8,
+            "evToEbitdaAnnualised": 3.66,
+            "peAnnualised": 270.68
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2026-03-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "narayana": {
       "slug": "narayana",
@@ -1376,11 +1882,161 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 9,
+        "quarterRange": "FY24-Q2 → FY26-Q3",
         "classifiedTotalPriorityDocs": 55
       },
-      "quarters": {}
+      "quarters": {
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 8.52,
+            "enterpriseValueCr": 39623.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q4": {
+          "label": "Q4 FY24",
+          "calendar": "Jan–Mar 2024",
+          "metrics": {
+            "revenue": 8463.09,
+            "ebitda": 6899.08,
+            "ebitdaMargin": 81.52,
+            "pat": 31,
+            "enterpriseValueCr": 39623.5,
+            "evToEbitdaAnnualised": 1.44,
+            "peAnnualised": 319.54
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q1": {
+          "label": "Q1 FY25",
+          "calendar": "Apr–Jun 2024",
+          "metrics": {
+            "revenue": 8717.61,
+            "ebitda": 7155.67,
+            "ebitdaMargin": 82.08,
+            "enterpriseValueCr": 39623.5,
+            "evToEbitdaAnnualised": 1.38
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q2": {
+          "label": "Q2 FY25",
+          "calendar": "Jul–Sep 2024",
+          "metrics": {
+            "revenue": 14004.17,
+            "ebitda": 2324.74,
+            "ebitdaMargin": 16.6,
+            "enterpriseValueCr": 39623.5,
+            "evToEbitdaAnnualised": 4.26
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "revenue": 8650.43,
+            "enterpriseValueCr": 39623.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "revenue": 9,
+            "pat": 31,
+            "enterpriseValueCr": 39623.5,
+            "peAnnualised": 319.54
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "revenue": 15432.05,
+            "enterpriseValueCr": 39623.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "revenue": 16832.17,
+            "enterpriseValueCr": 39623.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 9687.81,
+            "pat": -13.01,
+            "enterpriseValueCr": 39623.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "aster-dm": {
       "slug": "aster-dm",
@@ -1400,11 +2056,154 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 8,
+        "quarterRange": "FY23-Q4 → FY26-Q4",
         "classifiedTotalPriorityDocs": 83
       },
-      "quarters": {}
+      "quarters": {
+        "FY23-Q4": {
+          "label": "Q4 FY23",
+          "calendar": "Jan–Mar 2023",
+          "metrics": {
+            "revenue": 429.46,
+            "pat": 31,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 311.77
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 509.21,
+            "pat": 0.01,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 966490
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q3": {
+          "label": "Q3 FY24",
+          "calendar": "Oct–Dec 2023",
+          "metrics": {
+            "revenue": 524.5,
+            "pat": 162.17,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 59.6
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q4": {
+          "label": "Q4 FY24",
+          "calendar": "Jan–Mar 2024",
+          "metrics": {
+            "revenue": 545.56,
+            "ebitda": 13.02,
+            "ebitdaMargin": 2.39,
+            "pat": 3.9,
+            "enterpriseValueCr": 38659.6,
+            "evToEbitdaAnnualised": 742.31,
+            "peAnnualised": 2478.18
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q1": {
+          "label": "Q1 FY25",
+          "calendar": "Apr–Jun 2024",
+          "metrics": {
+            "revenue": 565.62,
+            "ebitda": -20.82,
+            "ebitdaMargin": -3.68,
+            "pat": 17.18,
+            "enterpriseValueCr": 38659.6,
+            "evToEbitdaAnnualised": -464.21,
+            "peAnnualised": 562.57
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "revenue": 613.04,
+            "pat": 0.12,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 80540.83
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "revenue": 681.81,
+            "pat": 0.19,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 50867.89
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "revenue": 655.1,
+            "pat": 31,
+            "enterpriseValueCr": 38659.6,
+            "peAnnualised": 311.77
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2026-03-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "kims": {
       "slug": "kims",
@@ -1424,11 +2223,27 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 1,
+        "quarterRange": "FY24-Q1 → FY24-Q1",
         "classifiedTotalPriorityDocs": 57
       },
-      "quarters": {}
+      "quarters": {
+        "FY24-Q1": {
+          "label": "Q1 FY24",
+          "calendar": "Apr–Jun 2023",
+          "metrics": {
+            "revenue": 6060.29,
+            "enterpriseValueCr": 30296.5
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-06-30",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "hcg": {
       "slug": "hcg",
@@ -1448,11 +2263,61 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 3,
+        "quarterRange": "FY23-Q4 → FY26-Q3",
         "classifiedTotalPriorityDocs": 58
       },
-      "quarters": {}
+      "quarters": {
+        "FY23-Q4": {
+          "label": "Q4 FY23",
+          "calendar": "Jan–Mar 2023",
+          "metrics": {
+            "revenue": 25819,
+            "pat": 31,
+            "enterpriseValueCr": 9804.7,
+            "peAnnualised": 79.07
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q3": {
+          "label": "Q3 FY24",
+          "calendar": "Oct–Dec 2023",
+          "metrics": {
+            "revenue": 26650,
+            "pat": 1,
+            "enterpriseValueCr": 9804.7,
+            "peAnnualised": 2451.17
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 34056,
+            "enterpriseValueCr": 9804.7
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "rainbow-childrens": {
       "slug": "rainbow-childrens",
@@ -1472,11 +2337,185 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 9,
+        "quarterRange": "FY24-Q1 → FY26-Q3",
         "classifiedTotalPriorityDocs": 46
       },
-      "quarters": {}
+      "quarters": {
+        "FY24-Q1": {
+          "label": "Q1 FY24",
+          "calendar": "Apr–Jun 2023",
+          "metrics": {
+            "revenue": 2703.5,
+            "ebitda": 406.77,
+            "ebitdaMargin": 15.05,
+            "pat": 17,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 8.43,
+            "peAnnualised": 201.64
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 3186.65,
+            "pat": 17,
+            "enterpriseValueCr": 13711.5,
+            "peAnnualised": 201.64
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q1": {
+          "label": "Q1 FY25",
+          "calendar": "Apr–Jun 2024",
+          "metrics": {
+            "revenue": 3150.23,
+            "ebitda": 511.77,
+            "ebitdaMargin": 16.25,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.7
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q2": {
+          "label": "Q2 FY25",
+          "calendar": "Jul–Sep 2024",
+          "metrics": {
+            "revenue": 4039.25,
+            "ebitda": 507.12,
+            "ebitdaMargin": 12.55,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.76
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q3": {
+          "label": "Q3 FY25",
+          "calendar": "Oct–Dec 2024",
+          "metrics": {
+            "revenue": 3980.82,
+            "ebitda": 512.04,
+            "ebitdaMargin": 12.86,
+            "pat": 19.69,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.69,
+            "peAnnualised": 174.09
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2024-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "revenue": 3539.95,
+            "ebitda": 500.63,
+            "ebitdaMargin": 14.14,
+            "pat": 1,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.85,
+            "peAnnualised": 3427.88
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q1": {
+          "label": "Q1 FY26",
+          "calendar": "Apr–Jun 2025",
+          "metrics": {
+            "revenue": 3529.29,
+            "ebitda": 510.86,
+            "ebitdaMargin": 14.47,
+            "pat": 20,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.71,
+            "peAnnualised": 171.39
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-06-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q2": {
+          "label": "Q2 FY26",
+          "calendar": "Jul–Sep 2025",
+          "metrics": {
+            "revenue": 4,
+            "ebitda": 518.31,
+            "ebitdaMargin": 12957.75,
+            "pat": 16.62,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 6.61,
+            "peAnnualised": 206.25
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 3943.52,
+            "ebitda": 588.7,
+            "ebitdaMargin": 14.93,
+            "pat": 30.54,
+            "enterpriseValueCr": 13711.5,
+            "evToEbitdaAnnualised": 5.82,
+            "peAnnualised": 112.24
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "jupiter-lifeline": {
       "slug": "jupiter-lifeline",
@@ -1496,11 +2535,67 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 3,
+        "quarterRange": "FY24-Q2 → FY25-Q4",
         "classifiedTotalPriorityDocs": 36
       },
-      "quarters": {}
+      "quarters": {
+        "FY24-Q2": {
+          "label": "Q2 FY24",
+          "calendar": "Jul–Sep 2023",
+          "metrics": {
+            "revenue": 2078.73,
+            "ebitda": 565.68,
+            "ebitdaMargin": 27.21,
+            "pat": 304.4,
+            "enterpriseValueCr": 8846.8,
+            "evToEbitdaAnnualised": 3.91,
+            "peAnnualised": 7.27
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-09-30",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY24-Q3": {
+          "label": "Q3 FY24",
+          "calendar": "Oct–Dec 2023",
+          "metrics": {
+            "revenue": 230379,
+            "ebitda": 9072.6,
+            "ebitdaMargin": 3.94,
+            "pat": 42235,
+            "enterpriseValueCr": 8846.8,
+            "evToEbitdaAnnualised": 0.24,
+            "peAnnualised": 0.05
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2023-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "revenue": 0.01,
+            "enterpriseValueCr": 8846.8
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     },
     "yatharth": {
       "slug": "yatharth",
@@ -1520,11 +2615,72 @@
       },
       "coverage": {
         "extractedDocs": 0,
-        "quartersWithData": 0,
-        "quarterRange": null,
+        "quartersWithData": 3,
+        "quarterRange": "FY25-Q4 → FY26-Q4",
         "classifiedTotalPriorityDocs": 51
       },
-      "quarters": {}
+      "quarters": {
+        "FY25-Q4": {
+          "label": "Q4 FY25",
+          "calendar": "Jan–Mar 2025",
+          "metrics": {
+            "revenue": 2317.81,
+            "ebitda": 1382.47,
+            "ebitdaMargin": 59.65,
+            "pat": 218.96,
+            "enterpriseValueCr": 7902,
+            "evToEbitdaAnnualised": 1.43,
+            "peAnnualised": 9.02
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-03-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q3": {
+          "label": "Q3 FY26",
+          "calendar": "Oct–Dec 2025",
+          "metrics": {
+            "revenue": 1581.5,
+            "ebitda": 420.18,
+            "ebitdaMargin": 26.57,
+            "pat": 10,
+            "enterpriseValueCr": 7902,
+            "evToEbitdaAnnualised": 4.7,
+            "peAnnualised": 197.55
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2025-12-31",
+              "pdfUrl": null
+            }
+          ]
+        },
+        "FY26-Q4": {
+          "label": "Q4 FY26",
+          "calendar": "Jan–Mar 2026",
+          "metrics": {
+            "revenue": 1638.71,
+            "ebitda": 654.87,
+            "ebitdaMargin": 39.96,
+            "pat": 237,
+            "enterpriseValueCr": 7902,
+            "evToEbitdaAnnualised": 3.02,
+            "peAnnualised": 8.34
+          },
+          "sources": [
+            {
+              "docType": "bse-financials-api",
+              "date": "2026-03-31",
+              "pdfUrl": null
+            }
+          ]
+        }
+      }
     }
   },
   "byMetric": {
@@ -2067,48 +3223,110 @@
       "higherIsBetter": true,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 4302.2
+          "apollo-hospitals": 4302.2,
+          "medanta": 50290.99,
+          "aster-dm": 429.46,
+          "hcg": 25819
         },
         "FY24-Q1": {
-          "apollo-hospitals": 4417.8
+          "apollo-hospitals": 4417.8,
+          "max-healthcare": 54363,
+          "fortis-healthcare": 186741,
+          "medanta": 11,
+          "kims": 6060.29,
+          "rainbow-childrens": 2703.5
         },
         "FY24-Q2": {
-          "apollo-hospitals": 4846.9
+          "apollo-hospitals": 15.8,
+          "max-healthcare": 59687,
+          "fortis-healthcare": 176995,
+          "narayana": 8.52,
+          "aster-dm": 509.21,
+          "rainbow-childrens": 3186.65,
+          "jupiter-lifeline": 2078.73
         },
         "FY24-Q3": {
-          "apollo-hospitals": 10208
+          "apollo-hospitals": 18243,
+          "max-healthcare": 59075,
+          "fortis-healthcare": 167968,
+          "aster-dm": 524.5,
+          "hcg": 26650,
+          "jupiter-lifeline": 230379
         },
         "FY24-Q4": {
-          "apollo-hospitals": 4943.9
+          "apollo-hospitals": 18946,
+          "max-healthcare": 61011,
+          "fortis-healthcare": 30748,
+          "medanta": 1,
+          "narayana": 8463.09,
+          "aster-dm": 545.56
         },
         "FY25-Q1": {
-          "apollo-hospitals": 5085.6
+          "apollo-hospitals": 5085.6,
+          "max-healthcare": 62139,
+          "fortis-healthcare": 33340,
+          "narayana": 8717.61,
+          "aster-dm": 565.62,
+          "rainbow-childrens": 3150.23
         },
         "FY25-Q2": {
-          "apollo-hospitals": 5589.3
+          "apollo-hospitals": 2135.4,
+          "max-healthcare": 68611,
+          "fortis-healthcare": 198839,
+          "narayana": 14004.17,
+          "rainbow-childrens": 4039.25
         },
         "FY25-Q3": {
-          "apollo-hospitals": 5526.9
+          "apollo-hospitals": 5526.9,
+          "max-healthcare": 69740,
+          "fortis-healthcare": 192826,
+          "medanta": 9434.36,
+          "narayana": 8650.43,
+          "rainbow-childrens": 3980.82
         },
         "FY25-Q4": {
-          "apollo-hospitals": 5592.2,
-          "max-healthcare": 9065
+          "apollo-hospitals": 20.75,
+          "max-healthcare": 190974,
+          "fortis-healthcare": 38847,
+          "narayana": 9,
+          "rainbow-childrens": 3539.95,
+          "jupiter-lifeline": 0.01,
+          "yatharth": 2317.81
         },
         "FY26-Q1": {
-          "apollo-hospitals": 5842,
-          "max-healthcare": 2460
+          "apollo-hospitals": 21679,
+          "max-healthcare": 2460,
+          "medanta": 8821.56,
+          "narayana": 15432.05,
+          "aster-dm": 613.04,
+          "rainbow-childrens": 3529.29
         },
         "FY26-Q2": {
           "apollo-hospitals": 6303.5,
-          "max-healthcare": 2692
+          "max-healthcare": 213547,
+          "fortis-healthcare": 45581,
+          "medanta": 9264.28,
+          "narayana": 16832.17,
+          "aster-dm": 681.81,
+          "rainbow-childrens": 4
         },
         "FY26-Q3": {
           "apollo-hospitals": 6477.4,
-          "max-healthcare": 2608
+          "max-healthcare": 206752,
+          "fortis-healthcare": 44293,
+          "medanta": 5,
+          "narayana": 9687.81,
+          "hcg": 34056,
+          "rainbow-childrens": 3943.52,
+          "yatharth": 1581.5
         },
         "FY26-Q4": {
           "apollo-hospitals": 6605.5,
-          "max-healthcare": 2664
+          "max-healthcare": 2,
+          "fortis-healthcare": 236467,
+          "medanta": 960629,
+          "aster-dm": 655.1,
+          "yatharth": 1638.71
         }
       }
     },
@@ -2119,48 +3337,77 @@
       "higherIsBetter": true,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 488.2
+          "apollo-hospitals": 488.2,
+          "medanta": 1044611.32
         },
         "FY24-Q1": {
-          "apollo-hospitals": 509
+          "apollo-hospitals": 509,
+          "rainbow-childrens": 406.77
         },
         "FY24-Q2": {
-          "apollo-hospitals": 627.6
+          "apollo-hospitals": 1525,
+          "fortis-healthcare": 40344,
+          "jupiter-lifeline": 565.68
         },
         "FY24-Q3": {
-          "apollo-hospitals": 711
+          "apollo-hospitals": 2095,
+          "jupiter-lifeline": 9072.6
         },
         "FY24-Q4": {
-          "apollo-hospitals": 640.5
+          "apollo-hospitals": 640.5,
+          "max-healthcare": 1475,
+          "fortis-healthcare": 26500,
+          "narayana": 6899.08,
+          "aster-dm": 13.02
         },
         "FY25-Q1": {
-          "apollo-hospitals": 675.1
+          "apollo-hospitals": 675.1,
+          "narayana": 7155.67,
+          "aster-dm": -20.82,
+          "rainbow-childrens": 511.77
         },
         "FY25-Q2": {
-          "apollo-hospitals": 815.5
+          "apollo-hospitals": 107.8,
+          "fortis-healthcare": 62258,
+          "narayana": 2324.74,
+          "rainbow-childrens": 507.12
         },
         "FY25-Q3": {
-          "apollo-hospitals": 761.5
+          "apollo-hospitals": 761.5,
+          "medanta": 2053.43,
+          "rainbow-childrens": 512.04
         },
         "FY25-Q4": {
-          "apollo-hospitals": 769.8,
-          "max-healthcare": 2319
+          "apollo-hospitals": 2105,
+          "max-healthcare": 5524,
+          "fortis-healthcare": 19685,
+          "rainbow-childrens": 500.63,
+          "yatharth": 1382.47
         },
         "FY26-Q1": {
-          "apollo-hospitals": 852,
-          "max-healthcare": 613
+          "apollo-hospitals": 1825,
+          "max-healthcare": 613,
+          "medanta": 2490.12,
+          "rainbow-childrens": 510.86
         },
         "FY26-Q2": {
           "apollo-hospitals": 941.2,
-          "max-healthcare": 694
+          "max-healthcare": 694,
+          "medanta": 2647.66,
+          "rainbow-childrens": 518.31
         },
         "FY26-Q3": {
           "apollo-hospitals": 965.3,
-          "max-healthcare": 648
+          "max-healthcare": 648,
+          "medanta": 747.68,
+          "rainbow-childrens": 588.7,
+          "yatharth": 420.18
         },
         "FY26-Q4": {
           "apollo-hospitals": 1010.9,
-          "max-healthcare": 682
+          "max-healthcare": 18971,
+          "medanta": 2291.47,
+          "yatharth": 654.87
         }
       }
     },
@@ -2171,47 +3418,77 @@
       "higherIsBetter": true,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 11.3
+          "apollo-hospitals": 11.3,
+          "medanta": 2077.13
         },
         "FY24-Q1": {
-          "apollo-hospitals": 11.5
+          "apollo-hospitals": 11.5,
+          "rainbow-childrens": 15.05
         },
         "FY24-Q2": {
-          "apollo-hospitals": 12.9
+          "apollo-hospitals": 9651.9,
+          "fortis-healthcare": 22.79,
+          "jupiter-lifeline": 27.21
         },
         "FY24-Q3": {
-          "apollo-hospitals": 7
+          "apollo-hospitals": 11.48,
+          "jupiter-lifeline": 3.94
         },
         "FY24-Q4": {
-          "apollo-hospitals": 12.9
+          "apollo-hospitals": 12.9,
+          "max-healthcare": 2.42,
+          "fortis-healthcare": 86.18,
+          "narayana": 81.52,
+          "aster-dm": 2.39
         },
         "FY25-Q1": {
-          "apollo-hospitals": 13.3
+          "apollo-hospitals": 13.3,
+          "narayana": 82.08,
+          "aster-dm": -3.68,
+          "rainbow-childrens": 16.25
         },
         "FY25-Q2": {
-          "apollo-hospitals": 14.6
+          "apollo-hospitals": 5.05,
+          "fortis-healthcare": 31.31,
+          "narayana": 16.6,
+          "rainbow-childrens": 12.55
         },
         "FY25-Q3": {
-          "apollo-hospitals": 13.8
+          "apollo-hospitals": 13.8,
+          "medanta": 21.77,
+          "rainbow-childrens": 12.86
         },
         "FY25-Q4": {
-          "apollo-hospitals": 13.8
+          "apollo-hospitals": 10143.11,
+          "max-healthcare": 2.89,
+          "fortis-healthcare": 50.67,
+          "rainbow-childrens": 14.14,
+          "yatharth": 59.65
         },
         "FY26-Q1": {
-          "apollo-hospitals": 14.58,
-          "max-healthcare": 24.9
+          "apollo-hospitals": 8.42,
+          "max-healthcare": 24.9,
+          "medanta": 28.23,
+          "rainbow-childrens": 14.47
         },
         "FY26-Q2": {
           "apollo-hospitals": 14.9,
-          "max-healthcare": 26.9
+          "max-healthcare": 26.9,
+          "medanta": 28.58,
+          "rainbow-childrens": 12957.75
         },
         "FY26-Q3": {
           "apollo-hospitals": 14.9,
-          "max-healthcare": 26.1
+          "max-healthcare": 26.1,
+          "medanta": 14953.6,
+          "rainbow-childrens": 14.93,
+          "yatharth": 26.57
         },
         "FY26-Q4": {
           "apollo-hospitals": 15.3,
-          "max-healthcare": 26.8
+          "max-healthcare": 948550,
+          "medanta": 0.24,
+          "yatharth": 39.96
         }
       }
     },
@@ -2222,48 +3499,89 @@
       "higherIsBetter": true,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 144.5
+          "apollo-hospitals": 144.5,
+          "medanta": 31,
+          "aster-dm": 31,
+          "hcg": 31
         },
         "FY24-Q1": {
-          "apollo-hospitals": 166.6
+          "apollo-hospitals": 166.6,
+          "fortis-healthcare": 30,
+          "rainbow-childrens": 17
         },
         "FY24-Q2": {
-          "apollo-hospitals": 232.9
+          "apollo-hospitals": -7,
+          "fortis-healthcare": 4195,
+          "aster-dm": 0.01,
+          "rainbow-childrens": 17,
+          "jupiter-lifeline": 304.4
         },
         "FY24-Q3": {
-          "apollo-hospitals": 245.3
+          "apollo-hospitals": 31,
+          "fortis-healthcare": 31,
+          "aster-dm": 162.17,
+          "hcg": 1,
+          "jupiter-lifeline": 42235
         },
         "FY24-Q4": {
-          "apollo-hospitals": 253.8
+          "apollo-hospitals": 10105,
+          "max-healthcare": 312024,
+          "fortis-healthcare": 31,
+          "medanta": 31,
+          "narayana": 31,
+          "aster-dm": 3.9
         },
         "FY25-Q1": {
-          "apollo-hospitals": 305.1
+          "apollo-hospitals": 305.1,
+          "fortis-healthcare": 5050,
+          "aster-dm": 17.18
         },
         "FY25-Q2": {
-          "apollo-hospitals": 378.8
+          "apollo-hospitals": 711.2,
+          "max-healthcare": 3,
+          "fortis-healthcare": 30
         },
         "FY25-Q3": {
-          "apollo-hospitals": 372.3
+          "apollo-hospitals": 372.3,
+          "fortis-healthcare": 31,
+          "rainbow-childrens": 19.69
         },
         "FY25-Q4": {
-          "apollo-hospitals": 389.6,
-          "max-healthcare": 1392
+          "apollo-hospitals": 33,
+          "max-healthcare": 1,
+          "fortis-healthcare": 31,
+          "narayana": 31,
+          "rainbow-childrens": 1,
+          "yatharth": 218.96
         },
         "FY26-Q1": {
-          "apollo-hospitals": 433,
-          "max-healthcare": 345
+          "apollo-hospitals": 3,
+          "max-healthcare": 345,
+          "aster-dm": 0.12,
+          "rainbow-childrens": 20
         },
         "FY26-Q2": {
           "apollo-hospitals": 477.2,
-          "max-healthcare": 554
+          "max-healthcare": 51,
+          "fortis-healthcare": 11315,
+          "aster-dm": 0.19,
+          "rainbow-childrens": 16.62
         },
         "FY26-Q3": {
           "apollo-hospitals": 502.3,
-          "max-healthcare": 344
+          "max-healthcare": -106,
+          "fortis-healthcare": 2970,
+          "narayana": -13.01,
+          "rainbow-childrens": 30.54,
+          "yatharth": 10
         },
         "FY26-Q4": {
           "apollo-hospitals": 529.2,
-          "max-healthcare": 387
+          "max-healthcare": 3,
+          "fortis-healthcare": 31,
+          "medanta": 31,
+          "aster-dm": 31,
+          "yatharth": 237
         }
       }
     },
@@ -2480,40 +3798,40 @@
           "apollo-hospitals": 22661195
         },
         "FY24-Q2": {
-          "apollo-hospitals": 24967933
+          "apollo-hospitals": 81391
         },
         "FY24-Q3": {
-          "apollo-hospitals": 51614208
+          "apollo-hospitals": 92241183
         },
         "FY24-Q4": {
-          "apollo-hospitals": 24890623
+          "apollo-hospitals": 95385777
         },
         "FY25-Q1": {
           "apollo-hospitals": 21726370
         },
         "FY25-Q2": {
-          "apollo-hospitals": 23726202
+          "apollo-hospitals": 9064629
         },
         "FY25-Q3": {
           "apollo-hospitals": 23446389
         },
         "FY25-Q4": {
-          "apollo-hospitals": 23650666
+          "apollo-hospitals": 87756
         },
         "FY26-Q1": {
-          "apollo-hospitals": 29100872
+          "apollo-hospitals": 107990037
         },
         "FY26-Q2": {
           "apollo-hospitals": 26588632,
-          "max-healthcare": 22621849
+          "max-healthcare": 1794512605
         },
         "FY26-Q3": {
           "apollo-hospitals": 27099257,
-          "max-healthcare": 21495982
+          "max-healthcare": 1704117041
         },
         "FY26-Q4": {
           "apollo-hospitals": 27465696,
-          "max-healthcare": 21457914
+          "max-healthcare": 16110
         }
       }
     },
@@ -2531,10 +3849,10 @@
           "apollo-hospitals": 2610926
         },
         "FY24-Q2": {
-          "apollo-hospitals": 3232968
+          "apollo-hospitals": 7855763
         },
         "FY24-Q3": {
-          "apollo-hospitals": 3594994
+          "apollo-hospitals": 10592845
         },
         "FY24-Q4": {
           "apollo-hospitals": 3224670
@@ -2543,16 +3861,16 @@
           "apollo-hospitals": 2884118
         },
         "FY25-Q2": {
-          "apollo-hospitals": 3461743
+          "apollo-hospitals": 457604
         },
         "FY25-Q3": {
           "apollo-hospitals": 3230459
         },
         "FY25-Q4": {
-          "apollo-hospitals": 3255657
+          "apollo-hospitals": 8902516
         },
         "FY26-Q1": {
-          "apollo-hospitals": 4244085
+          "apollo-hospitals": 9090909
         },
         "FY26-Q2": {
           "apollo-hospitals": 3970052,
@@ -2564,7 +3882,7 @@
         },
         "FY26-Q4": {
           "apollo-hospitals": 4203326,
-          "max-healthcare": 5493355
+          "max-healthcare": 152807088
         }
       }
     },
@@ -2675,48 +3993,110 @@
       "higherIsBetter": true,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 122783.3
+          "apollo-hospitals": 122783.3,
+          "medanta": 33564.8,
+          "aster-dm": 38659.6,
+          "hcg": 9804.7
         },
         "FY24-Q1": {
-          "apollo-hospitals": 120848.9
+          "apollo-hospitals": 120848.9,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "kims": 30296.5,
+          "rainbow-childrens": 13711.5
         },
         "FY24-Q2": {
-          "apollo-hospitals": 122370.5
+          "apollo-hospitals": 122370.5,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "narayana": 39623.5,
+          "aster-dm": 38659.6,
+          "rainbow-childrens": 13711.5,
+          "jupiter-lifeline": 8846.8
         },
         "FY24-Q3": {
-          "apollo-hospitals": 122400.7
+          "apollo-hospitals": 122400.7,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "aster-dm": 38659.6,
+          "hcg": 9804.7,
+          "jupiter-lifeline": 8846.8
         },
         "FY24-Q4": {
-          "apollo-hospitals": 122352.9
+          "apollo-hospitals": 122352.9,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "narayana": 39623.5,
+          "aster-dm": 38659.6
         },
         "FY25-Q1": {
-          "apollo-hospitals": 122305.4
+          "apollo-hospitals": 122305.4,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "narayana": 39623.5,
+          "aster-dm": 38659.6,
+          "rainbow-childrens": 13711.5
         },
         "FY25-Q2": {
-          "apollo-hospitals": 120568.7
+          "apollo-hospitals": 120568.7,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "narayana": 39623.5,
+          "rainbow-childrens": 13711.5
         },
         "FY25-Q3": {
-          "apollo-hospitals": 120711.5
+          "apollo-hospitals": 120711.5,
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "narayana": 39623.5,
+          "rainbow-childrens": 13711.5
         },
         "FY25-Q4": {
           "apollo-hospitals": 120838,
-          "max-healthcare": 97382.8
+          "max-healthcare": 97382.8,
+          "fortis-healthcare": 73242.3,
+          "narayana": 39623.5,
+          "rainbow-childrens": 13711.5,
+          "jupiter-lifeline": 8846.8,
+          "yatharth": 7902
         },
         "FY26-Q1": {
           "apollo-hospitals": 120848.9,
-          "max-healthcare": 99137.8
+          "max-healthcare": 99137.8,
+          "medanta": 33564.8,
+          "narayana": 39623.5,
+          "aster-dm": 38659.6,
+          "rainbow-childrens": 13711.5
         },
         "FY26-Q2": {
           "apollo-hospitals": 120516.3,
-          "max-healthcare": 99449.8
+          "max-healthcare": 99449.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "narayana": 39623.5,
+          "aster-dm": 38659.6,
+          "rainbow-childrens": 13711.5
         },
         "FY26-Q3": {
           "apollo-hospitals": 120549.3,
-          "max-healthcare": 99548.8
+          "max-healthcare": 99548.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "narayana": 39623.5,
+          "hcg": 9804.7,
+          "rainbow-childrens": 13711.5,
+          "yatharth": 7902
         },
         "FY26-Q4": {
           "apollo-hospitals": 121714.8,
-          "max-healthcare": 99290.8
+          "max-healthcare": 99290.8,
+          "fortis-healthcare": 73242.3,
+          "medanta": 33564.8,
+          "aster-dm": 38659.6,
+          "yatharth": 7902
         },
         "FY27-Q1": {
           "max-healthcare": 97382.8
@@ -2731,48 +4111,77 @@
       "higherIsBetter": false,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 62.88
+          "apollo-hospitals": 62.88,
+          "medanta": 0.01
         },
         "FY24-Q1": {
-          "apollo-hospitals": 59.36
+          "apollo-hospitals": 59.36,
+          "rainbow-childrens": 8.43
         },
         "FY24-Q2": {
-          "apollo-hospitals": 48.75
+          "apollo-hospitals": 20.06,
+          "fortis-healthcare": 0.45,
+          "jupiter-lifeline": 3.91
         },
         "FY24-Q3": {
-          "apollo-hospitals": 43.04
+          "apollo-hospitals": 14.61,
+          "jupiter-lifeline": 0.24
         },
         "FY24-Q4": {
-          "apollo-hospitals": 47.76
+          "apollo-hospitals": 47.76,
+          "max-healthcare": 16.51,
+          "fortis-healthcare": 0.69,
+          "narayana": 1.44,
+          "aster-dm": 742.31
         },
         "FY25-Q1": {
-          "apollo-hospitals": 45.29
+          "apollo-hospitals": 45.29,
+          "narayana": 1.38,
+          "aster-dm": -464.21,
+          "rainbow-childrens": 6.7
         },
         "FY25-Q2": {
-          "apollo-hospitals": 36.96
+          "apollo-hospitals": 279.61,
+          "fortis-healthcare": 0.29,
+          "narayana": 4.26,
+          "rainbow-childrens": 6.76
         },
         "FY25-Q3": {
-          "apollo-hospitals": 39.63
+          "apollo-hospitals": 39.63,
+          "medanta": 4.09,
+          "rainbow-childrens": 6.69
         },
         "FY25-Q4": {
-          "apollo-hospitals": 39.24,
-          "max-healthcare": 10.5
+          "apollo-hospitals": 14.35,
+          "max-healthcare": 4.41,
+          "fortis-healthcare": 0.93,
+          "rainbow-childrens": 6.85,
+          "yatharth": 1.43
         },
         "FY26-Q1": {
-          "apollo-hospitals": 35.46,
-          "max-healthcare": 40.43
+          "apollo-hospitals": 16.55,
+          "max-healthcare": 40.43,
+          "medanta": 3.37,
+          "rainbow-childrens": 6.71
         },
         "FY26-Q2": {
           "apollo-hospitals": 32.01,
-          "max-healthcare": 35.82
+          "max-healthcare": 35.82,
+          "medanta": 3.17,
+          "rainbow-childrens": 6.61
         },
         "FY26-Q3": {
           "apollo-hospitals": 31.22,
-          "max-healthcare": 38.41
+          "max-healthcare": 38.41,
+          "medanta": 11.22,
+          "rainbow-childrens": 5.82,
+          "yatharth": 4.7
         },
         "FY26-Q4": {
           "apollo-hospitals": 30.1,
-          "max-healthcare": 36.4
+          "max-healthcare": 1.31,
+          "medanta": 3.66,
+          "yatharth": 3.02
         }
       }
     },
@@ -2886,48 +4295,86 @@
       "higherIsBetter": false,
       "byQuarter": {
         "FY23-Q4": {
-          "apollo-hospitals": 209.08
+          "apollo-hospitals": 209.08,
+          "medanta": 270.68,
+          "aster-dm": 311.77,
+          "hcg": 79.07
         },
         "FY24-Q1": {
-          "apollo-hospitals": 181.35
+          "apollo-hospitals": 181.35,
+          "fortis-healthcare": 610.35,
+          "rainbow-childrens": 201.64
         },
         "FY24-Q2": {
-          "apollo-hospitals": 129.72
+          "fortis-healthcare": 4.36,
+          "aster-dm": 966490,
+          "rainbow-childrens": 201.64,
+          "jupiter-lifeline": 7.27
         },
         "FY24-Q3": {
-          "apollo-hospitals": 123.16
+          "apollo-hospitals": 974.59,
+          "fortis-healthcare": 590.66,
+          "aster-dm": 59.6,
+          "hcg": 2451.17,
+          "jupiter-lifeline": 0.05
         },
         "FY24-Q4": {
-          "apollo-hospitals": 119.04
+          "apollo-hospitals": 2.99,
+          "max-healthcare": 0.08,
+          "fortis-healthcare": 590.66,
+          "medanta": 270.68,
+          "narayana": 319.54,
+          "aster-dm": 2478.18
         },
         "FY25-Q1": {
-          "apollo-hospitals": 99.02
+          "apollo-hospitals": 99.02,
+          "fortis-healthcare": 3.63,
+          "aster-dm": 562.57
         },
         "FY25-Q2": {
-          "apollo-hospitals": 79.76
+          "apollo-hospitals": 42.48,
+          "max-healthcare": 8115.23,
+          "fortis-healthcare": 610.35
         },
         "FY25-Q3": {
-          "apollo-hospitals": 81.15
+          "apollo-hospitals": 81.15,
+          "fortis-healthcare": 590.66,
+          "rainbow-childrens": 174.09
         },
         "FY25-Q4": {
-          "apollo-hospitals": 77.55,
-          "max-healthcare": 17.49
+          "apollo-hospitals": 915.52,
+          "max-healthcare": 24345.69,
+          "fortis-healthcare": 590.66,
+          "narayana": 319.54,
+          "rainbow-childrens": 3427.88,
+          "yatharth": 9.02
         },
         "FY26-Q1": {
-          "apollo-hospitals": 69.77,
-          "max-healthcare": 70.57
+          "apollo-hospitals": 10070.74,
+          "max-healthcare": 70.57,
+          "aster-dm": 80540.83,
+          "rainbow-childrens": 171.39
         },
         "FY26-Q2": {
           "apollo-hospitals": 63.31,
-          "max-healthcare": 43.95
+          "max-healthcare": 477.37,
+          "fortis-healthcare": 1.62,
+          "aster-dm": 50867.89,
+          "rainbow-childrens": 206.25
         },
         "FY26-Q3": {
           "apollo-hospitals": 60.15,
-          "max-healthcare": 70.77
+          "fortis-healthcare": 6.17,
+          "rainbow-childrens": 112.24,
+          "yatharth": 197.55
         },
         "FY26-Q4": {
           "apollo-hospitals": 57.09,
-          "max-healthcare": 62.91
+          "max-healthcare": 8115.23,
+          "fortis-healthcare": 590.66,
+          "medanta": 270.68,
+          "aster-dm": 311.77,
+          "yatharth": 8.34
         }
       }
     }
@@ -2999,23 +4446,48 @@
       ],
       "revenue": [
         {
+          "slug": "medanta",
+          "value": 50290.99,
+          "rank": 1
+        },
+        {
+          "slug": "hcg",
+          "value": 25819,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 4302.2,
-          "rank": 1
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 429.46,
+          "rank": 4
         }
       ],
       "ebitda": [
         {
+          "slug": "medanta",
+          "value": 1044611.32,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 488.2,
-          "rank": 1
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "medanta",
+          "value": 2077.13,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 11.3,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
@@ -3023,6 +4495,21 @@
           "slug": "apollo-hospitals",
           "value": 144.5,
           "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": 31,
+          "rank": 2
+        },
+        {
+          "slug": "aster-dm",
+          "value": 31,
+          "rank": 3
+        },
+        {
+          "slug": "hcg",
+          "value": 31,
+          "rank": 4
         }
       ],
       "netDebt": [
@@ -3086,13 +4573,33 @@
           "slug": "apollo-hospitals",
           "value": 122783.3,
           "rank": 1
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 3
+        },
+        {
+          "slug": "hcg",
+          "value": 9804.7,
+          "rank": 4
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "medanta",
+          "value": 0.01,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 62.88,
-          "rank": 1
+          "rank": 2
         }
       ],
       "evPerBedCr": [
@@ -3111,9 +4618,24 @@
       ],
       "peAnnualised": [
         {
+          "slug": "hcg",
+          "value": 79.07,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 209.08,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 270.68,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 311.77,
+          "rank": 4
         }
       ]
     },
@@ -3176,9 +4698,34 @@
       ],
       "revenue": [
         {
+          "slug": "fortis-healthcare",
+          "value": 186741,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 54363,
+          "rank": 2
+        },
+        {
+          "slug": "kims",
+          "value": 6060.29,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 4417.8,
-          "rank": 1
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2703.5,
+          "rank": 5
+        },
+        {
+          "slug": "medanta",
+          "value": 11,
+          "rank": 6
         }
       ],
       "ebitda": [
@@ -3186,13 +4733,23 @@
           "slug": "apollo-hospitals",
           "value": 509,
           "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 406.77,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "rainbow-childrens",
+          "value": 15.05,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 11.5,
-          "rank": 1
+          "rank": 2
         }
       ],
       "pat": [
@@ -3200,6 +4757,16 @@
           "slug": "apollo-hospitals",
           "value": 166.6,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 30,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 17,
+          "rank": 3
         }
       ],
       "capexAnnounced": [
@@ -3256,13 +4823,43 @@
           "slug": "apollo-hospitals",
           "value": 120848.9,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 4
+        },
+        {
+          "slug": "kims",
+          "value": 30296.5,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "rainbow-childrens",
+          "value": 8.43,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 59.36,
-          "rank": 1
+          "rank": 2
         }
       ],
       "evPerBedCr": [
@@ -3284,6 +4881,16 @@
           "slug": "apollo-hospitals",
           "value": 181.35,
           "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 201.64,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 610.35,
+          "rank": 3
         }
       ]
     },
@@ -3360,30 +4967,100 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 4846.9,
+          "slug": "fortis-healthcare",
+          "value": 176995,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 59687,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3186.65,
+          "rank": 3
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 2078.73,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 509.21,
+          "rank": 5
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 15.8,
+          "rank": 6
+        },
+        {
+          "slug": "narayana",
+          "value": 8.52,
+          "rank": 7
         }
       ],
       "ebitda": [
         {
-          "slug": "apollo-hospitals",
-          "value": 627.6,
+          "slug": "fortis-healthcare",
+          "value": 40344,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 1525,
+          "rank": 2
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 565.68,
+          "rank": 3
         }
       ],
       "ebitdaMargin": [
         {
           "slug": "apollo-hospitals",
-          "value": 12.9,
+          "value": 9651.9,
           "rank": 1
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 27.21,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 22.79,
+          "rank": 3
         }
       ],
       "pat": [
         {
-          "slug": "apollo-hospitals",
-          "value": 232.9,
+          "slug": "fortis-healthcare",
+          "value": 4195,
           "rank": 1
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 304.4,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 17,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.01,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": -7,
+          "rank": 5
         }
       ],
       "netDebt": [
@@ -3417,14 +5094,14 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 24967933,
+          "value": 81391,
           "rank": 1
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 3232968,
+          "value": 7855763,
           "rank": 1
         }
       ],
@@ -3447,13 +5124,53 @@
           "slug": "apollo-hospitals",
           "value": 122370.5,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 8846.8,
+          "rank": 7
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 48.75,
+          "slug": "fortis-healthcare",
+          "value": 0.45,
           "rank": 1
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 3.91,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 20.06,
+          "rank": 3
         }
       ],
       "evPerBedCr": [
@@ -3472,9 +5189,24 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 129.72,
+          "slug": "fortis-healthcare",
+          "value": 4.36,
           "rank": 1
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 7.27,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 201.64,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 966490,
+          "rank": 4
         }
       ]
     },
@@ -3551,30 +5283,85 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 10208,
+          "slug": "jupiter-lifeline",
+          "value": 230379,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 167968,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 59075,
+          "rank": 3
+        },
+        {
+          "slug": "hcg",
+          "value": 26650,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 18243,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 524.5,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
-          "slug": "apollo-hospitals",
-          "value": 711,
+          "slug": "jupiter-lifeline",
+          "value": 9072.6,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2095,
+          "rank": 2
         }
       ],
       "ebitdaMargin": [
         {
           "slug": "apollo-hospitals",
-          "value": 7,
+          "value": 11.48,
           "rank": 1
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 3.94,
+          "rank": 2
         }
       ],
       "pat": [
         {
-          "slug": "apollo-hospitals",
-          "value": 245.3,
+          "slug": "jupiter-lifeline",
+          "value": 42235,
           "rank": 1
+        },
+        {
+          "slug": "aster-dm",
+          "value": 162.17,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 31,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 31,
+          "rank": 4
+        },
+        {
+          "slug": "hcg",
+          "value": 1,
+          "rank": 5
         }
       ],
       "netDebt": [
@@ -3608,14 +5395,14 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 51614208,
+          "value": 92241183,
           "rank": 1
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 3594994,
+          "value": 10592845,
           "rank": 1
         }
       ],
@@ -3638,13 +5425,43 @@
           "slug": "apollo-hospitals",
           "value": 122400.7,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 4
+        },
+        {
+          "slug": "hcg",
+          "value": 9804.7,
+          "rank": 5
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 8846.8,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 43.04,
+          "slug": "jupiter-lifeline",
+          "value": 0.24,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.61,
+          "rank": 2
         }
       ],
       "evPerBedCr": [
@@ -3663,9 +5480,29 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 123.16,
+          "slug": "jupiter-lifeline",
+          "value": 0.05,
           "rank": 1
+        },
+        {
+          "slug": "aster-dm",
+          "value": 59.6,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 590.66,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 974.59,
+          "rank": 4
+        },
+        {
+          "slug": "hcg",
+          "value": 2451.17,
+          "rank": 5
         }
       ]
     },
@@ -3749,30 +5586,120 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 4943.9,
+          "slug": "max-healthcare",
+          "value": 61011,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 30748,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 18946,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 8463.09,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 545.56,
+          "rank": 5
+        },
+        {
+          "slug": "medanta",
+          "value": 1,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
+          "slug": "fortis-healthcare",
+          "value": 26500,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 6899.08,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1475,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 640.5,
-          "rank": 1
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 13.02,
+          "rank": 5
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "fortis-healthcare",
+          "value": 86.18,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 81.52,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 12.9,
-          "rank": 1
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2.42,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 2.39,
+          "rank": 5
         }
       ],
       "pat": [
         {
-          "slug": "apollo-hospitals",
-          "value": 253.8,
+          "slug": "max-healthcare",
+          "value": 312024,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 10105,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 31,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 31,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 31,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 3.9,
+          "rank": 6
         }
       ],
       "netDebt": [
@@ -3806,7 +5733,7 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 24890623,
+          "value": 95385777,
           "rank": 1
         }
       ],
@@ -3836,13 +5763,58 @@
           "slug": "apollo-hospitals",
           "value": 122352.9,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 5
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "fortis-healthcare",
+          "value": 0.69,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 1.44,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 16.51,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 47.76,
-          "rank": 1
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 742.31,
+          "rank": 5
         }
       ],
       "evPerBedCr": [
@@ -3861,9 +5833,34 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 119.04,
+          "slug": "max-healthcare",
+          "value": 0.08,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2.99,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 270.68,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 319.54,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 590.66,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 2478.18,
+          "rank": 6
         }
       ]
     },
@@ -3947,30 +5944,95 @@
       ],
       "revenue": [
         {
+          "slug": "max-healthcare",
+          "value": 62139,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 33340,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 8717.61,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 5085.6,
-          "rank": 1
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3150.23,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 565.62,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
+          "slug": "narayana",
+          "value": 7155.67,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 675.1,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 511.77,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": -20.82,
+          "rank": 4
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "narayana",
+          "value": 82.08,
+          "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 16.25,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 13.3,
-          "rank": 1
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": -3.68,
+          "rank": 4
         }
       ],
       "pat": [
         {
+          "slug": "fortis-healthcare",
+          "value": 5050,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 305.1,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "aster-dm",
+          "value": 17.18,
+          "rank": 3
         }
       ],
       "netDebt": [
@@ -4034,13 +6096,53 @@
           "slug": "apollo-hospitals",
           "value": 122305.4,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "aster-dm",
+          "value": -464.21,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 1.38,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.7,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 45.29,
-          "rank": 1
+          "rank": 4
         }
       ],
       "evPerBedCr": [
@@ -4059,9 +6161,19 @@
       ],
       "peAnnualised": [
         {
+          "slug": "fortis-healthcare",
+          "value": 3.63,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 99.02,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "aster-dm",
+          "value": 562.57,
+          "rank": 3
         }
       ]
     },
@@ -4145,30 +6257,90 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 5589.3,
+          "slug": "fortis-healthcare",
+          "value": 198839,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 68611,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 14004.17,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 4039.25,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2135.4,
+          "rank": 5
         }
       ],
       "ebitda": [
         {
-          "slug": "apollo-hospitals",
-          "value": 815.5,
+          "slug": "fortis-healthcare",
+          "value": 62258,
           "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 2324.74,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 507.12,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 107.8,
+          "rank": 4
         }
       ],
       "ebitdaMargin": [
         {
-          "slug": "apollo-hospitals",
-          "value": 14.6,
+          "slug": "fortis-healthcare",
+          "value": 31.31,
           "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 16.6,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 12.55,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 5.05,
+          "rank": 4
         }
       ],
       "pat": [
         {
           "slug": "apollo-hospitals",
-          "value": 378.8,
+          "value": 711.2,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 30,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 3,
+          "rank": 3
         }
       ],
       "netDebt": [
@@ -4202,14 +6374,14 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 23726202,
+          "value": 9064629,
           "rank": 1
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 3461743,
+          "value": 457604,
           "rank": 1
         }
       ],
@@ -4232,13 +6404,48 @@
           "slug": "apollo-hospitals",
           "value": 120568.7,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 5
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 36.96,
+          "slug": "fortis-healthcare",
+          "value": 0.29,
           "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 4.26,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.76,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 279.61,
+          "rank": 4
         }
       ],
       "evPerBedCr": [
@@ -4258,8 +6465,18 @@
       "peAnnualised": [
         {
           "slug": "apollo-hospitals",
-          "value": 79.76,
+          "value": 42.48,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 610.35,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 8115.23,
+          "rank": 3
         }
       ]
     },
@@ -4343,23 +6560,68 @@
       ],
       "revenue": [
         {
+          "slug": "fortis-healthcare",
+          "value": 192826,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 69740,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 9434.36,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 8650.43,
+          "rank": 4
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 5526.9,
-          "rank": 1
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3980.82,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
+          "slug": "medanta",
+          "value": 2053.43,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 761.5,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 512.04,
+          "rank": 3
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "medanta",
+          "value": 21.77,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 13.8,
-          "rank": 1
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 12.86,
+          "rank": 3
         }
       ],
       "pat": [
@@ -4367,6 +6629,16 @@
           "slug": "apollo-hospitals",
           "value": 372.3,
           "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 31,
+          "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 19.69,
+          "rank": 3
         }
       ],
       "netDebt": [
@@ -4430,13 +6702,48 @@
           "slug": "apollo-hospitals",
           "value": 120711.5,
           "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 97382.8,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "medanta",
+          "value": 4.09,
+          "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.69,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 39.63,
-          "rank": 1
+          "rank": 3
         }
       ],
       "evPerBedCr": [
@@ -4458,6 +6765,16 @@
           "slug": "apollo-hospitals",
           "value": 81.15,
           "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 174.09,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 590.66,
+          "rank": 3
         }
       ]
     },
@@ -4557,44 +6874,124 @@
       "revenue": [
         {
           "slug": "max-healthcare",
-          "value": 9065,
+          "value": 190974,
           "rank": 1
         },
         {
-          "slug": "apollo-hospitals",
-          "value": 5592.2,
+          "slug": "fortis-healthcare",
+          "value": 38847,
           "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3539.95,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 2317.81,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 20.75,
+          "rank": 5
+        },
+        {
+          "slug": "narayana",
+          "value": 9,
+          "rank": 6
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 0.01,
+          "rank": 7
         }
       ],
       "ebitda": [
         {
-          "slug": "max-healthcare",
-          "value": 2319,
+          "slug": "fortis-healthcare",
+          "value": 19685,
           "rank": 1
         },
         {
-          "slug": "apollo-hospitals",
-          "value": 769.8,
+          "slug": "max-healthcare",
+          "value": 5524,
           "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2105,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 1382.47,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 500.63,
+          "rank": 5
         }
       ],
       "ebitdaMargin": [
         {
           "slug": "apollo-hospitals",
-          "value": 13.8,
+          "value": 10143.11,
           "rank": 1
+        },
+        {
+          "slug": "yatharth",
+          "value": 59.65,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 50.67,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 14.14,
+          "rank": 4
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2.89,
+          "rank": 5
         }
       ],
       "pat": [
         {
-          "slug": "max-healthcare",
-          "value": 1392,
+          "slug": "yatharth",
+          "value": 218.96,
           "rank": 1
         },
         {
           "slug": "apollo-hospitals",
-          "value": 389.6,
+          "value": 33,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 31,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 31,
+          "rank": 4
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 1,
+          "rank": 6
         }
       ],
       "netDebt": [
@@ -4633,14 +7030,14 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 23650666,
+          "value": 87756,
           "rank": 1
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 3255657,
+          "value": 8902516,
           "rank": 1
         }
       ],
@@ -4668,18 +7065,58 @@
           "slug": "max-healthcare",
           "value": 97382.8,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 5
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 8846.8,
+          "rank": 6
+        },
+        {
+          "slug": "yatharth",
+          "value": 7902,
+          "rank": 7
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "max-healthcare",
-          "value": 10.5,
+          "slug": "fortis-healthcare",
+          "value": 0.93,
           "rank": 1
         },
         {
-          "slug": "apollo-hospitals",
-          "value": 39.24,
+          "slug": "yatharth",
+          "value": 1.43,
           "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 4.41,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.85,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 14.35,
+          "rank": 5
         }
       ],
       "evPerBedCr": [
@@ -4698,14 +7135,34 @@
       ],
       "peAnnualised": [
         {
-          "slug": "max-healthcare",
-          "value": 17.49,
+          "slug": "yatharth",
+          "value": 9.02,
           "rank": 1
         },
         {
-          "slug": "apollo-hospitals",
-          "value": 77.55,
+          "slug": "narayana",
+          "value": 319.54,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 590.66,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 915.52,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3427.88,
+          "rank": 5
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 24345.69,
+          "rank": 6
         }
       ]
     },
@@ -4815,49 +7272,99 @@
       "revenue": [
         {
           "slug": "apollo-hospitals",
-          "value": 5842,
+          "value": 21679,
           "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 15432.05,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 8821.56,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3529.29,
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 2460,
-          "rank": 2
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 613.04,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
-          "slug": "apollo-hospitals",
-          "value": 852,
+          "slug": "medanta",
+          "value": 2490.12,
           "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 1825,
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 613,
-          "rank": 2
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 510.86,
+          "rank": 4
         }
       ],
       "ebitdaMargin": [
         {
-          "slug": "max-healthcare",
-          "value": 24.9,
+          "slug": "medanta",
+          "value": 28.23,
           "rank": 1
         },
         {
-          "slug": "apollo-hospitals",
-          "value": 14.58,
+          "slug": "max-healthcare",
+          "value": 24.9,
           "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 14.47,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 8.42,
+          "rank": 4
         }
       ],
       "pat": [
         {
-          "slug": "apollo-hospitals",
-          "value": 433,
+          "slug": "max-healthcare",
+          "value": 345,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 345,
+          "slug": "rainbow-childrens",
+          "value": 20,
           "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.12,
+          "rank": 4
         }
       ],
       "netDebt": [
@@ -4896,14 +7403,14 @@
       "revenuePerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 29100872,
+          "value": 107990037,
           "rank": 1
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "apollo-hospitals",
-          "value": 4244085,
+          "value": 9090909,
           "rank": 1
         }
       ],
@@ -4924,18 +7431,48 @@
           "slug": "max-healthcare",
           "value": 99137.8,
           "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 4
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 35.46,
+          "slug": "medanta",
+          "value": 3.37,
           "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.71,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 16.55,
+          "rank": 3
         },
         {
           "slug": "max-healthcare",
           "value": 40.43,
-          "rank": 2
+          "rank": 4
         }
       ],
       "evPerBedCr": [
@@ -4954,14 +7491,24 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 69.77,
+          "slug": "max-healthcare",
+          "value": 70.57,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 70.57,
+          "slug": "rainbow-childrens",
+          "value": 171.39,
           "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 10070.74,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 80540.83,
+          "rank": 4
         }
       ]
     },
@@ -5090,50 +7637,110 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 6303.5,
+          "slug": "max-healthcare",
+          "value": 213547,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 2692,
+          "slug": "fortis-healthcare",
+          "value": 45581,
           "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 16832.17,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 9264.28,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6303.5,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 681.81,
+          "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 4,
+          "rank": 7
         }
       ],
       "ebitda": [
         {
+          "slug": "medanta",
+          "value": 2647.66,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 941.2,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 694,
-          "rank": 2
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 518.31,
+          "rank": 4
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "rainbow-childrens",
+          "value": 12957.75,
+          "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": 28.58,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 26.9,
-          "rank": 1
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 14.9,
-          "rank": 2
+          "rank": 4
         }
       ],
       "pat": [
         {
-          "slug": "max-healthcare",
-          "value": 554,
+          "slug": "fortis-healthcare",
+          "value": 11315,
           "rank": 1
         },
         {
           "slug": "apollo-hospitals",
           "value": 477.2,
           "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 51,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 16.62,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.19,
+          "rank": 5
         }
       ],
       "netDebt": [
@@ -5186,13 +7793,13 @@
       ],
       "revenuePerBedYearly": [
         {
-          "slug": "apollo-hospitals",
-          "value": 26588632,
+          "slug": "max-healthcare",
+          "value": 1794512605,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 22621849,
+          "slug": "apollo-hospitals",
+          "value": 26588632,
           "rank": 2
         }
       ],
@@ -5242,18 +7849,53 @@
           "slug": "max-healthcare",
           "value": 99449.8,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 5
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 7
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "medanta",
+          "value": 3.17,
+          "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.61,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 32.01,
-          "rank": 1
+          "rank": 3
         },
         {
           "slug": "max-healthcare",
           "value": 35.82,
-          "rank": 2
+          "rank": 4
         }
       ],
       "evPerBedCr": [
@@ -5282,14 +7924,29 @@
       ],
       "peAnnualised": [
         {
-          "slug": "max-healthcare",
-          "value": 43.95,
+          "slug": "fortis-healthcare",
+          "value": 1.62,
           "rank": 1
         },
         {
           "slug": "apollo-hospitals",
           "value": 63.31,
           "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 206.25,
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 477.37,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 50867.89,
+          "rank": 5
         }
       ]
     },
@@ -5423,14 +8080,44 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 6477.4,
+          "slug": "max-healthcare",
+          "value": 206752,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 2608,
+          "slug": "fortis-healthcare",
+          "value": 44293,
           "rank": 2
+        },
+        {
+          "slug": "hcg",
+          "value": 34056,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 9687.81,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6477.4,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 3943.52,
+          "rank": 6
+        },
+        {
+          "slug": "yatharth",
+          "value": 1581.5,
+          "rank": 7
+        },
+        {
+          "slug": "medanta",
+          "value": 5,
+          "rank": 8
         }
       ],
       "ebitda": [
@@ -5440,33 +8127,83 @@
           "rank": 1
         },
         {
+          "slug": "medanta",
+          "value": 747.68,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 648,
-          "rank": 2
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 588.7,
+          "rank": 4
+        },
+        {
+          "slug": "yatharth",
+          "value": 420.18,
+          "rank": 5
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "medanta",
+          "value": 14953.6,
+          "rank": 1
+        },
+        {
+          "slug": "yatharth",
+          "value": 26.57,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 26.1,
-          "rank": 1
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 14.93,
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 14.9,
-          "rank": 2
+          "rank": 5
         }
       ],
       "pat": [
         {
-          "slug": "apollo-hospitals",
-          "value": 502.3,
+          "slug": "fortis-healthcare",
+          "value": 2970,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 344,
+          "slug": "apollo-hospitals",
+          "value": 502.3,
           "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 30.54,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 10,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": -13.01,
+          "rank": 5
+        },
+        {
+          "slug": "max-healthcare",
+          "value": -106,
+          "rank": 6
         }
       ],
       "netDebt": [
@@ -5519,13 +8256,13 @@
       ],
       "revenuePerBedYearly": [
         {
-          "slug": "apollo-hospitals",
-          "value": 27099257,
+          "slug": "max-healthcare",
+          "value": 1704117041,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 21495982,
+          "slug": "apollo-hospitals",
+          "value": 27099257,
           "rank": 2
         }
       ],
@@ -5575,18 +8312,63 @@
           "slug": "max-healthcare",
           "value": 99548.8,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 39623.5,
+          "rank": 4
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 13711.5,
+          "rank": 6
+        },
+        {
+          "slug": "hcg",
+          "value": 9804.7,
+          "rank": 7
+        },
+        {
+          "slug": "yatharth",
+          "value": 7902,
+          "rank": 8
         }
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "yatharth",
+          "value": 4.7,
+          "rank": 1
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 5.82,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 11.22,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 31.22,
-          "rank": 1
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 38.41,
-          "rank": 2
+          "rank": 5
         }
       ],
       "evPerBedCr": [
@@ -5615,14 +8397,24 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 60.15,
+          "slug": "fortis-healthcare",
+          "value": 6.17,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 70.77,
+          "slug": "apollo-hospitals",
+          "value": 60.15,
           "rank": 2
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 112.24,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 197.55,
+          "rank": 4
         }
       ]
     },
@@ -5751,38 +8543,78 @@
       ],
       "revenue": [
         {
-          "slug": "apollo-hospitals",
-          "value": 6605.5,
+          "slug": "medanta",
+          "value": 960629,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 2664,
+          "slug": "fortis-healthcare",
+          "value": 236467,
           "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6605.5,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 1638.71,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 655.1,
+          "rank": 5
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2,
+          "rank": 6
         }
       ],
       "ebitda": [
         {
-          "slug": "apollo-hospitals",
-          "value": 1010.9,
+          "slug": "max-healthcare",
+          "value": 18971,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 682,
+          "slug": "medanta",
+          "value": 2291.47,
           "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 1010.9,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 654.87,
+          "rank": 4
         }
       ],
       "ebitdaMargin": [
         {
           "slug": "max-healthcare",
-          "value": 26.8,
+          "value": 948550,
           "rank": 1
+        },
+        {
+          "slug": "yatharth",
+          "value": 39.96,
+          "rank": 2
         },
         {
           "slug": "apollo-hospitals",
           "value": 15.3,
-          "rank": 2
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 0.24,
+          "rank": 4
         }
       ],
       "pat": [
@@ -5792,9 +8624,29 @@
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 387,
+          "slug": "yatharth",
+          "value": 237,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 31,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 31,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 31,
+          "rank": 5
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 3,
+          "rank": 6
         }
       ],
       "netDebt": [
@@ -5853,14 +8705,14 @@
         },
         {
           "slug": "max-healthcare",
-          "value": 21457914,
+          "value": 16110,
           "rank": 2
         }
       ],
       "ebitdaPerBedYearly": [
         {
           "slug": "max-healthcare",
-          "value": 5493355,
+          "value": 152807088,
           "rank": 1
         },
         {
@@ -5903,18 +8755,48 @@
           "slug": "max-healthcare",
           "value": 99290.8,
           "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 73242.3,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 38659.6,
+          "rank": 4
+        },
+        {
+          "slug": "medanta",
+          "value": 33564.8,
+          "rank": 5
+        },
+        {
+          "slug": "yatharth",
+          "value": 7902,
+          "rank": 6
         }
       ],
       "evToEbitdaAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 30.1,
+          "slug": "max-healthcare",
+          "value": 1.31,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 36.4,
+          "slug": "yatharth",
+          "value": 3.02,
           "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 3.66,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 30.1,
+          "rank": 4
         }
       ],
       "evPerBedCr": [
@@ -5943,14 +8825,34 @@
       ],
       "peAnnualised": [
         {
-          "slug": "apollo-hospitals",
-          "value": 57.09,
+          "slug": "yatharth",
+          "value": 8.34,
           "rank": 1
         },
         {
-          "slug": "max-healthcare",
-          "value": 62.91,
+          "slug": "apollo-hospitals",
+          "value": 57.09,
           "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 270.68,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 311.77,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 590.66,
+          "rank": 5
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 8115.23,
+          "rank": 6
         }
       ]
     },
@@ -6030,32 +8932,32 @@
         "median": 53232
       },
       "revenue": {
-        "n": 1,
-        "min": 4302.2,
-        "max": 4302.2,
-        "mean": 4302.2,
-        "median": 4302.2
+        "n": 4,
+        "min": 429.46,
+        "max": 50290.99,
+        "mean": 20210.41,
+        "median": 15060.6
       },
       "ebitda": {
-        "n": 1,
+        "n": 2,
         "min": 488.2,
-        "max": 488.2,
-        "mean": 488.2,
-        "median": 488.2
+        "max": 1044611.32,
+        "mean": 522549.76,
+        "median": 522549.76
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 11.3,
-        "max": 11.3,
-        "mean": 11.3,
-        "median": 11.3
+        "max": 2077.13,
+        "mean": 1044.22,
+        "median": 1044.22
       },
       "pat": {
-        "n": 1,
-        "min": 144.5,
+        "n": 4,
+        "min": 31,
         "max": 144.5,
-        "mean": 144.5,
-        "median": 144.5
+        "mean": 59.38,
+        "median": 31
       },
       "netDebt": {
         "n": 1,
@@ -6114,18 +9016,18 @@
         "median": 83.7
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 122783.3,
+        "n": 4,
+        "min": 9804.7,
         "max": 122783.3,
-        "mean": 122783.3,
-        "median": 122783.3
+        "mean": 51203.1,
+        "median": 36112.2
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 62.88,
+        "n": 2,
+        "min": 0.01,
         "max": 62.88,
-        "mean": 62.88,
-        "median": 62.88
+        "mean": 31.45,
+        "median": 31.45
       },
       "evPerBedCr": {
         "n": 1,
@@ -6142,11 +9044,11 @@
         "median": 1562.1
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 209.08,
-        "max": 209.08,
-        "mean": 209.08,
-        "median": 209.08
+        "n": 4,
+        "min": 79.07,
+        "max": 311.77,
+        "mean": 217.65,
+        "median": 239.88
       }
     },
     "FY24-Q1": {
@@ -6207,32 +9109,32 @@
         "median": 57760
       },
       "revenue": {
-        "n": 1,
-        "min": 4417.8,
-        "max": 4417.8,
-        "mean": 4417.8,
-        "median": 4417.8
+        "n": 6,
+        "min": 11,
+        "max": 186741,
+        "mean": 42382.76,
+        "median": 5239.05
       },
       "ebitda": {
-        "n": 1,
-        "min": 509,
+        "n": 2,
+        "min": 406.77,
         "max": 509,
-        "mean": 509,
-        "median": 509
+        "mean": 457.88,
+        "median": 457.88
       },
       "ebitdaMargin": {
-        "n": 1,
+        "n": 2,
         "min": 11.5,
-        "max": 11.5,
-        "mean": 11.5,
-        "median": 11.5
+        "max": 15.05,
+        "mean": 13.28,
+        "median": 13.28
       },
       "pat": {
-        "n": 1,
-        "min": 166.6,
+        "n": 3,
+        "min": 17,
         "max": 166.6,
-        "mean": 166.6,
-        "median": 166.6
+        "mean": 71.2,
+        "median": 30
       },
       "capexAnnounced": {
         "n": 1,
@@ -6284,18 +9186,18 @@
         "median": 82.6
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 120848.9,
+        "n": 6,
+        "min": 13711.5,
         "max": 120848.9,
-        "mean": 120848.9,
-        "median": 120848.9
+        "mean": 61507.8,
+        "median": 53403.55
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 59.36,
+        "n": 2,
+        "min": 8.43,
         "max": 59.36,
-        "mean": 59.36,
-        "median": 59.36
+        "mean": 33.89,
+        "median": 33.89
       },
       "evPerBedCr": {
         "n": 1,
@@ -6312,11 +9214,11 @@
         "median": 1549.7
       },
       "peAnnualised": {
-        "n": 1,
+        "n": 3,
         "min": 181.35,
-        "max": 181.35,
-        "mean": 181.35,
-        "median": 181.35
+        "max": 610.35,
+        "mean": 331.11,
+        "median": 201.64
       }
     },
     "FY24-Q2": {
@@ -6391,32 +9293,32 @@
         "median": 57391
       },
       "revenue": {
-        "n": 1,
-        "min": 4846.9,
-        "max": 4846.9,
-        "mean": 4846.9,
-        "median": 4846.9
+        "n": 7,
+        "min": 8.52,
+        "max": 176995,
+        "mean": 34640.13,
+        "median": 2078.73
       },
       "ebitda": {
-        "n": 1,
-        "min": 627.6,
-        "max": 627.6,
-        "mean": 627.6,
-        "median": 627.6
+        "n": 3,
+        "min": 565.68,
+        "max": 40344,
+        "mean": 14144.89,
+        "median": 1525
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 12.9,
-        "max": 12.9,
-        "mean": 12.9,
-        "median": 12.9
+        "n": 3,
+        "min": 22.79,
+        "max": 9651.9,
+        "mean": 3233.97,
+        "median": 27.21
       },
       "pat": {
-        "n": 1,
-        "min": 232.9,
-        "max": 232.9,
-        "mean": 232.9,
-        "median": 232.9
+        "n": 5,
+        "min": -7,
+        "max": 4195,
+        "mean": 901.88,
+        "median": 17
       },
       "netDebt": {
         "n": 1,
@@ -6448,17 +9350,17 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 24967933,
-        "max": 24967933,
-        "mean": 24967933,
-        "median": 24967933
+        "min": 81391,
+        "max": 81391,
+        "mean": 81391,
+        "median": 81391
       },
       "ebitdaPerBedYearly": {
         "n": 1,
-        "min": 3232968,
-        "max": 3232968,
-        "mean": 3232968,
-        "median": 3232968
+        "min": 7855763,
+        "max": 7855763,
+        "mean": 7855763,
+        "median": 7855763
       },
       "bedTurnoverYearly": {
         "n": 1,
@@ -6475,18 +9377,18 @@
         "median": 84.8
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 122370.5,
+        "n": 7,
+        "min": 8846.8,
         "max": 122370.5,
-        "mean": 122370.5,
-        "median": 122370.5
+        "mean": 56262.43,
+        "median": 39623.5
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 48.75,
-        "max": 48.75,
-        "mean": 48.75,
-        "median": 48.75
+        "n": 3,
+        "min": 0.45,
+        "max": 20.06,
+        "mean": 8.14,
+        "median": 3.91
       },
       "evPerBedCr": {
         "n": 1,
@@ -6503,11 +9405,11 @@
         "median": 1575.9
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 129.72,
-        "max": 129.72,
-        "mean": 129.72,
-        "median": 129.72
+        "n": 4,
+        "min": 4.36,
+        "max": 966490,
+        "mean": 241675.82,
+        "median": 104.45
       }
     },
     "FY24-Q3": {
@@ -6582,32 +9484,32 @@
         "median": 56368
       },
       "revenue": {
-        "n": 1,
-        "min": 10208,
-        "max": 10208,
-        "mean": 10208,
-        "median": 10208
+        "n": 6,
+        "min": 524.5,
+        "max": 230379,
+        "mean": 83806.58,
+        "median": 42862.5
       },
       "ebitda": {
-        "n": 1,
-        "min": 711,
-        "max": 711,
-        "mean": 711,
-        "median": 711
+        "n": 2,
+        "min": 2095,
+        "max": 9072.6,
+        "mean": 5583.8,
+        "median": 5583.8
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 7,
-        "max": 7,
-        "mean": 7,
-        "median": 7
+        "n": 2,
+        "min": 3.94,
+        "max": 11.48,
+        "mean": 7.71,
+        "median": 7.71
       },
       "pat": {
-        "n": 1,
-        "min": 245.3,
-        "max": 245.3,
-        "mean": 245.3,
-        "median": 245.3
+        "n": 5,
+        "min": 1,
+        "max": 42235,
+        "mean": 8492.03,
+        "median": 31
       },
       "netDebt": {
         "n": 1,
@@ -6639,17 +9541,17 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 51614208,
-        "max": 51614208,
-        "mean": 51614208,
-        "median": 51614208
+        "min": 92241183,
+        "max": 92241183,
+        "mean": 92241183,
+        "median": 92241183
       },
       "ebitdaPerBedYearly": {
         "n": 1,
-        "min": 3594994,
-        "max": 3594994,
-        "mean": 3594994,
-        "median": 3594994
+        "min": 10592845,
+        "max": 10592845,
+        "mean": 10592845,
+        "median": 10592845
       },
       "bedTurnoverYearly": {
         "n": 1,
@@ -6666,18 +9568,18 @@
         "median": 83.5
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 122400.7,
+        "n": 6,
+        "min": 8846.8,
         "max": 122400.7,
-        "mean": 122400.7,
-        "median": 122400.7
+        "mean": 58389.48,
+        "median": 55950.95
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 43.04,
-        "max": 43.04,
-        "mean": 43.04,
-        "median": 43.04
+        "n": 2,
+        "min": 0.24,
+        "max": 14.61,
+        "mean": 7.42,
+        "median": 7.42
       },
       "evPerBedCr": {
         "n": 1,
@@ -6694,11 +9596,11 @@
         "median": 1547.2
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 123.16,
-        "max": 123.16,
-        "mean": 123.16,
-        "median": 123.16
+        "n": 5,
+        "min": 0.05,
+        "max": 2451.17,
+        "mean": 815.21,
+        "median": 590.66
       }
     },
     "FY24-Q4": {
@@ -6780,32 +9682,32 @@
         "median": 144965
       },
       "revenue": {
-        "n": 1,
-        "min": 4943.9,
-        "max": 4943.9,
-        "mean": 4943.9,
-        "median": 4943.9
+        "n": 6,
+        "min": 1,
+        "max": 61011,
+        "mean": 19952.44,
+        "median": 13704.55
       },
       "ebitda": {
-        "n": 1,
-        "min": 640.5,
-        "max": 640.5,
-        "mean": 640.5,
-        "median": 640.5
+        "n": 5,
+        "min": 13.02,
+        "max": 26500,
+        "mean": 7105.52,
+        "median": 1475
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 12.9,
-        "max": 12.9,
-        "mean": 12.9,
+        "n": 5,
+        "min": 2.39,
+        "max": 86.18,
+        "mean": 37.08,
         "median": 12.9
       },
       "pat": {
-        "n": 1,
-        "min": 253.8,
-        "max": 253.8,
-        "mean": 253.8,
-        "median": 253.8
+        "n": 6,
+        "min": 3.9,
+        "max": 312024,
+        "mean": 53704.32,
+        "median": 31
       },
       "netDebt": {
         "n": 1,
@@ -6837,10 +9739,10 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 24890623,
-        "max": 24890623,
-        "mean": 24890623,
-        "median": 24890623
+        "min": 95385777,
+        "max": 95385777,
+        "mean": 95385777,
+        "median": 95385777
       },
       "ebitdaPerBedYearly": {
         "n": 1,
@@ -6864,18 +9766,18 @@
         "median": 83.6
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 122352.9,
+        "n": 6,
+        "min": 33564.8,
         "max": 122352.9,
-        "mean": 122352.9,
-        "median": 122352.9
+        "mean": 67470.98,
+        "median": 56432.9
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 47.76,
-        "max": 47.76,
-        "mean": 47.76,
-        "median": 47.76
+        "n": 5,
+        "min": 0.69,
+        "max": 742.31,
+        "mean": 161.74,
+        "median": 16.51
       },
       "evPerBedCr": {
         "n": 1,
@@ -6892,11 +9794,11 @@
         "median": 1540
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 119.04,
-        "max": 119.04,
-        "mean": 119.04,
-        "median": 119.04
+        "n": 6,
+        "min": 0.08,
+        "max": 2478.18,
+        "mean": 610.36,
+        "median": 295.11
       }
     },
     "FY25-Q1": {
@@ -6978,31 +9880,31 @@
         "median": 158250
       },
       "revenue": {
-        "n": 1,
-        "min": 5085.6,
-        "max": 5085.6,
-        "mean": 5085.6,
-        "median": 5085.6
+        "n": 6,
+        "min": 565.62,
+        "max": 62139,
+        "mean": 18833.01,
+        "median": 6901.61
       },
       "ebitda": {
-        "n": 1,
-        "min": 675.1,
-        "max": 675.1,
-        "mean": 675.1,
-        "median": 675.1
+        "n": 4,
+        "min": -20.82,
+        "max": 7155.67,
+        "mean": 2080.43,
+        "median": 593.43
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 13.3,
-        "max": 13.3,
-        "mean": 13.3,
-        "median": 13.3
+        "n": 4,
+        "min": -3.68,
+        "max": 82.08,
+        "mean": 26.99,
+        "median": 14.78
       },
       "pat": {
-        "n": 1,
-        "min": 305.1,
-        "max": 305.1,
-        "mean": 305.1,
+        "n": 3,
+        "min": 17.18,
+        "max": 5050,
+        "mean": 1790.76,
         "median": 305.1
       },
       "netDebt": {
@@ -7062,18 +9964,18 @@
         "median": 92.5
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 122305.4,
+        "n": 6,
+        "min": 13711.5,
         "max": 122305.4,
-        "mean": 122305.4,
-        "median": 122305.4
+        "mean": 64154.18,
+        "median": 56432.9
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 45.29,
+        "n": 4,
+        "min": -464.21,
         "max": 45.29,
-        "mean": 45.29,
-        "median": 45.29
+        "mean": -102.71,
+        "median": 4.04
       },
       "evPerBedCr": {
         "n": 1,
@@ -7090,10 +9992,10 @@
         "median": 1306.3
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 99.02,
-        "max": 99.02,
-        "mean": 99.02,
+        "n": 3,
+        "min": 3.63,
+        "max": 562.57,
+        "mean": 221.74,
         "median": 99.02
       }
     },
@@ -7176,32 +10078,32 @@
         "median": 159379
       },
       "revenue": {
-        "n": 1,
-        "min": 5589.3,
-        "max": 5589.3,
-        "mean": 5589.3,
-        "median": 5589.3
+        "n": 5,
+        "min": 2135.4,
+        "max": 198839,
+        "mean": 57525.76,
+        "median": 14004.17
       },
       "ebitda": {
-        "n": 1,
-        "min": 815.5,
-        "max": 815.5,
-        "mean": 815.5,
-        "median": 815.5
+        "n": 4,
+        "min": 107.8,
+        "max": 62258,
+        "mean": 16299.42,
+        "median": 1415.93
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 14.6,
-        "max": 14.6,
-        "mean": 14.6,
-        "median": 14.6
+        "n": 4,
+        "min": 5.05,
+        "max": 31.31,
+        "mean": 16.38,
+        "median": 14.58
       },
       "pat": {
-        "n": 1,
-        "min": 378.8,
-        "max": 378.8,
-        "mean": 378.8,
-        "median": 378.8
+        "n": 3,
+        "min": 3,
+        "max": 711.2,
+        "mean": 248.07,
+        "median": 30
       },
       "netDebt": {
         "n": 1,
@@ -7233,17 +10135,17 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 23726202,
-        "max": 23726202,
-        "mean": 23726202,
-        "median": 23726202
+        "min": 9064629,
+        "max": 9064629,
+        "mean": 9064629,
+        "median": 9064629
       },
       "ebitdaPerBedYearly": {
         "n": 1,
-        "min": 3461743,
-        "max": 3461743,
-        "mean": 3461743,
-        "median": 3461743
+        "min": 457604,
+        "max": 457604,
+        "mean": 457604,
+        "median": 457604
       },
       "bedTurnoverYearly": {
         "n": 1,
@@ -7260,18 +10162,18 @@
         "median": 92.9
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 120568.7,
+        "n": 5,
+        "min": 13711.5,
         "max": 120568.7,
-        "mean": 120568.7,
-        "median": 120568.7
+        "mean": 68905.76,
+        "median": 73242.3
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 36.96,
-        "max": 36.96,
-        "mean": 36.96,
-        "median": 36.96
+        "n": 4,
+        "min": 0.29,
+        "max": 279.61,
+        "mean": 72.73,
+        "median": 5.51
       },
       "evPerBedCr": {
         "n": 1,
@@ -7288,11 +10190,11 @@
         "median": 1279.5
       },
       "peAnnualised": {
-        "n": 1,
-        "min": 79.76,
-        "max": 79.76,
-        "mean": 79.76,
-        "median": 79.76
+        "n": 3,
+        "min": 42.48,
+        "max": 8115.23,
+        "mean": 2922.69,
+        "median": 610.35
       }
     },
     "FY25-Q3": {
@@ -7374,32 +10276,32 @@
         "median": 162957
       },
       "revenue": {
-        "n": 1,
-        "min": 5526.9,
-        "max": 5526.9,
-        "mean": 5526.9,
-        "median": 5526.9
+        "n": 6,
+        "min": 3980.82,
+        "max": 192826,
+        "mean": 48359.75,
+        "median": 9042.4
       },
       "ebitda": {
-        "n": 1,
-        "min": 761.5,
-        "max": 761.5,
-        "mean": 761.5,
+        "n": 3,
+        "min": 512.04,
+        "max": 2053.43,
+        "mean": 1108.99,
         "median": 761.5
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 13.8,
-        "max": 13.8,
-        "mean": 13.8,
+        "n": 3,
+        "min": 12.86,
+        "max": 21.77,
+        "mean": 16.14,
         "median": 13.8
       },
       "pat": {
-        "n": 1,
-        "min": 372.3,
+        "n": 3,
+        "min": 19.69,
         "max": 372.3,
-        "mean": 372.3,
-        "median": 372.3
+        "mean": 141,
+        "median": 31
       },
       "netDebt": {
         "n": 1,
@@ -7458,18 +10360,18 @@
         "median": 92.7
       },
       "enterpriseValueCr": {
-        "n": 1,
-        "min": 120711.5,
+        "n": 6,
+        "min": 13711.5,
         "max": 120711.5,
-        "mean": 120711.5,
-        "median": 120711.5
+        "mean": 63039.4,
+        "median": 56432.9
       },
       "evToEbitdaAnnualised": {
-        "n": 1,
-        "min": 39.63,
+        "n": 3,
+        "min": 4.09,
         "max": 39.63,
-        "mean": 39.63,
-        "median": 39.63
+        "mean": 16.8,
+        "median": 6.69
       },
       "evPerBedCr": {
         "n": 1,
@@ -7486,11 +10388,11 @@
         "median": 1280.2
       },
       "peAnnualised": {
-        "n": 1,
+        "n": 3,
         "min": 81.15,
-        "max": 81.15,
-        "mean": 81.15,
-        "median": 81.15
+        "max": 590.66,
+        "mean": 281.97,
+        "median": 174.09
       }
     },
     "FY25-Q4": {
@@ -7572,32 +10474,32 @@
         "median": 171358
       },
       "revenue": {
-        "n": 2,
-        "min": 5592.2,
-        "max": 9065,
-        "mean": 7328.6,
-        "median": 7328.6
+        "n": 7,
+        "min": 0.01,
+        "max": 190974,
+        "mean": 33672.65,
+        "median": 2317.81
       },
       "ebitda": {
-        "n": 2,
-        "min": 769.8,
-        "max": 2319,
-        "mean": 1544.4,
-        "median": 1544.4
+        "n": 5,
+        "min": 500.63,
+        "max": 19685,
+        "mean": 5839.42,
+        "median": 2105
       },
       "ebitdaMargin": {
-        "n": 1,
-        "min": 13.8,
-        "max": 13.8,
-        "mean": 13.8,
-        "median": 13.8
+        "n": 5,
+        "min": 2.89,
+        "max": 10143.11,
+        "mean": 2054.09,
+        "median": 50.67
       },
       "pat": {
-        "n": 2,
-        "min": 389.6,
-        "max": 1392,
-        "mean": 890.8,
-        "median": 890.8
+        "n": 6,
+        "min": 1,
+        "max": 218.96,
+        "mean": 52.66,
+        "median": 31
       },
       "netDebt": {
         "n": 1,
@@ -7629,17 +10531,17 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 23650666,
-        "max": 23650666,
-        "mean": 23650666,
-        "median": 23650666
+        "min": 87756,
+        "max": 87756,
+        "mean": 87756,
+        "median": 87756
       },
       "ebitdaPerBedYearly": {
         "n": 1,
-        "min": 3255657,
-        "max": 3255657,
-        "mean": 3255657,
-        "median": 3255657
+        "min": 8902516,
+        "max": 8902516,
+        "mean": 8902516,
+        "median": 8902516
       },
       "bedTurnoverYearly": {
         "n": 1,
@@ -7656,18 +10558,18 @@
         "median": 92.8
       },
       "enterpriseValueCr": {
-        "n": 2,
-        "min": 97382.8,
+        "n": 7,
+        "min": 7902,
         "max": 120838,
-        "mean": 109110.4,
-        "median": 109110.4
+        "mean": 51649.56,
+        "median": 39623.5
       },
       "evToEbitdaAnnualised": {
-        "n": 2,
-        "min": 10.5,
-        "max": 39.24,
-        "mean": 24.87,
-        "median": 24.87
+        "n": 5,
+        "min": 0.93,
+        "max": 14.35,
+        "mean": 5.59,
+        "median": 4.41
       },
       "evPerBedCr": {
         "n": 1,
@@ -7684,11 +10586,11 @@
         "median": 1277.6
       },
       "peAnnualised": {
-        "n": 2,
-        "min": 17.49,
-        "max": 77.55,
-        "mean": 47.52,
-        "median": 47.52
+        "n": 6,
+        "min": 9.02,
+        "max": 24345.69,
+        "mean": 4934.72,
+        "median": 753.09
       }
     },
     "FY26-Q1": {
@@ -7770,32 +10672,32 @@
         "median": 857
       },
       "revenue": {
-        "n": 2,
-        "min": 2460,
-        "max": 5842,
-        "mean": 4151,
-        "median": 4151
+        "n": 6,
+        "min": 613.04,
+        "max": 21679,
+        "mean": 8755.82,
+        "median": 6175.42
       },
       "ebitda": {
-        "n": 2,
-        "min": 613,
-        "max": 852,
-        "mean": 732.5,
-        "median": 732.5
+        "n": 4,
+        "min": 510.86,
+        "max": 2490.12,
+        "mean": 1359.74,
+        "median": 1219
       },
       "ebitdaMargin": {
-        "n": 2,
-        "min": 14.58,
-        "max": 24.9,
-        "mean": 19.74,
-        "median": 19.74
+        "n": 4,
+        "min": 8.42,
+        "max": 28.23,
+        "mean": 19,
+        "median": 19.68
       },
       "pat": {
-        "n": 2,
-        "min": 345,
-        "max": 433,
-        "mean": 389,
-        "median": 389
+        "n": 4,
+        "min": 0.12,
+        "max": 345,
+        "mean": 92.03,
+        "median": 11.5
       },
       "netDebt": {
         "n": 1,
@@ -7827,17 +10729,17 @@
       },
       "revenuePerBedYearly": {
         "n": 1,
-        "min": 29100872,
-        "max": 29100872,
-        "mean": 29100872,
-        "median": 29100872
+        "min": 107990037,
+        "max": 107990037,
+        "mean": 107990037,
+        "median": 107990037
       },
       "ebitdaPerBedYearly": {
         "n": 1,
-        "min": 4244085,
-        "max": 4244085,
-        "mean": 4244085,
-        "median": 4244085
+        "min": 9090909,
+        "max": 9090909,
+        "mean": 9090909,
+        "median": 9090909
       },
       "bedActivationPct": {
         "n": 1,
@@ -7847,18 +10749,18 @@
         "median": 80.3
       },
       "enterpriseValueCr": {
-        "n": 2,
-        "min": 99137.8,
+        "n": 6,
+        "min": 13711.5,
         "max": 120848.9,
-        "mean": 109993.35,
-        "median": 109993.35
+        "mean": 57591.02,
+        "median": 39141.55
       },
       "evToEbitdaAnnualised": {
-        "n": 2,
-        "min": 35.46,
+        "n": 4,
+        "min": 3.37,
         "max": 40.43,
-        "mean": 37.95,
-        "median": 37.95
+        "mean": 16.77,
+        "median": 11.63
       },
       "evPerBedCr": {
         "n": 1,
@@ -7875,11 +10777,11 @@
         "median": 1505
       },
       "peAnnualised": {
-        "n": 2,
-        "min": 69.77,
-        "max": 70.57,
-        "mean": 70.17,
-        "median": 70.17
+        "n": 4,
+        "min": 70.57,
+        "max": 80540.83,
+        "mean": 22713.38,
+        "median": 5121.06
       }
     },
     "FY26-Q2": {
@@ -7961,32 +10863,32 @@
         "median": 173318
       },
       "revenue": {
-        "n": 2,
-        "min": 2692,
-        "max": 6303.5,
-        "mean": 4497.75,
-        "median": 4497.75
+        "n": 7,
+        "min": 4,
+        "max": 213547,
+        "mean": 41744.82,
+        "median": 9264.28
       },
       "ebitda": {
-        "n": 2,
-        "min": 694,
-        "max": 941.2,
-        "mean": 817.6,
+        "n": 4,
+        "min": 518.31,
+        "max": 2647.66,
+        "mean": 1200.29,
         "median": 817.6
       },
       "ebitdaMargin": {
-        "n": 2,
+        "n": 4,
         "min": 14.9,
-        "max": 26.9,
-        "mean": 20.9,
-        "median": 20.9
+        "max": 12957.75,
+        "mean": 3257.03,
+        "median": 27.74
       },
       "pat": {
-        "n": 2,
-        "min": 477.2,
-        "max": 554,
-        "mean": 515.6,
-        "median": 515.6
+        "n": 5,
+        "min": 0.19,
+        "max": 11315,
+        "mean": 2372,
+        "median": 51
       },
       "netDebt": {
         "n": 2,
@@ -8018,10 +10920,10 @@
       },
       "revenuePerBedYearly": {
         "n": 2,
-        "min": 22621849,
-        "max": 26588632,
-        "mean": 24605240.5,
-        "median": 24605240.5
+        "min": 26588632,
+        "max": 1794512605,
+        "mean": 910550618.5,
+        "median": 910550618.5
       },
       "ebitdaPerBedYearly": {
         "n": 2,
@@ -8045,18 +10947,18 @@
         "median": 92.25
       },
       "enterpriseValueCr": {
-        "n": 2,
-        "min": 99449.8,
+        "n": 7,
+        "min": 13711.5,
         "max": 120516.3,
-        "mean": 109983.05,
-        "median": 109983.05
+        "mean": 59823.97,
+        "median": 39623.5
       },
       "evToEbitdaAnnualised": {
-        "n": 2,
-        "min": 32.01,
+        "n": 4,
+        "min": 3.17,
         "max": 35.82,
-        "mean": 33.91,
-        "median": 33.91
+        "mean": 19.4,
+        "median": 19.31
       },
       "evPerBedCr": {
         "n": 2,
@@ -8073,11 +10975,11 @@
         "median": 1680.1
       },
       "peAnnualised": {
-        "n": 2,
-        "min": 43.95,
-        "max": 63.31,
-        "mean": 53.63,
-        "median": 53.63
+        "n": 5,
+        "min": 1.62,
+        "max": 50867.89,
+        "mean": 10323.29,
+        "median": 206.25
       }
     },
     "FY26-Q3": {
@@ -8159,32 +11061,32 @@
         "median": 180917
       },
       "revenue": {
-        "n": 2,
-        "min": 2608,
-        "max": 6477.4,
-        "mean": 4542.7,
-        "median": 4542.7
+        "n": 8,
+        "min": 5,
+        "max": 206752,
+        "mean": 38349.53,
+        "median": 8082.6
       },
       "ebitda": {
-        "n": 2,
-        "min": 648,
+        "n": 5,
+        "min": 420.18,
         "max": 965.3,
-        "mean": 806.65,
-        "median": 806.65
+        "mean": 673.97,
+        "median": 648
       },
       "ebitdaMargin": {
-        "n": 2,
+        "n": 5,
         "min": 14.9,
-        "max": 26.1,
-        "mean": 20.5,
-        "median": 20.5
+        "max": 14953.6,
+        "mean": 3007.22,
+        "median": 26.1
       },
       "pat": {
-        "n": 2,
-        "min": 344,
-        "max": 502.3,
-        "mean": 423.15,
-        "median": 423.15
+        "n": 6,
+        "min": -106,
+        "max": 2970,
+        "mean": 565.64,
+        "median": 20.27
       },
       "netDebt": {
         "n": 2,
@@ -8216,10 +11118,10 @@
       },
       "revenuePerBedYearly": {
         "n": 2,
-        "min": 21495982,
-        "max": 27099257,
-        "mean": 24297619.5,
-        "median": 24297619.5
+        "min": 27099257,
+        "max": 1704117041,
+        "mean": 865608149,
+        "median": 865608149
       },
       "ebitdaPerBedYearly": {
         "n": 2,
@@ -8243,18 +11145,18 @@
         "median": 92.95
       },
       "enterpriseValueCr": {
-        "n": 2,
-        "min": 99548.8,
+        "n": 8,
+        "min": 7902,
         "max": 120549.3,
-        "mean": 110049.05,
-        "median": 110049.05
+        "mean": 49743.36,
+        "median": 36594.15
       },
       "evToEbitdaAnnualised": {
-        "n": 2,
-        "min": 31.22,
+        "n": 5,
+        "min": 4.7,
         "max": 38.41,
-        "mean": 34.81,
-        "median": 34.81
+        "mean": 18.27,
+        "median": 11.22
       },
       "evPerBedCr": {
         "n": 2,
@@ -8271,11 +11173,11 @@
         "median": 1656.05
       },
       "peAnnualised": {
-        "n": 2,
-        "min": 60.15,
-        "max": 70.77,
-        "mean": 65.46,
-        "median": 65.46
+        "n": 4,
+        "min": 6.17,
+        "max": 197.55,
+        "mean": 94.03,
+        "median": 86.19
       }
     },
     "FY26-Q4": {
@@ -8357,32 +11259,32 @@
         "median": 187208
       },
       "revenue": {
-        "n": 2,
-        "min": 2664,
-        "max": 6605.5,
-        "mean": 4634.75,
-        "median": 4634.75
+        "n": 6,
+        "min": 2,
+        "max": 960629,
+        "mean": 200999.55,
+        "median": 4122.1
       },
       "ebitda": {
-        "n": 2,
-        "min": 682,
-        "max": 1010.9,
-        "mean": 846.45,
-        "median": 846.45
+        "n": 4,
+        "min": 654.87,
+        "max": 18971,
+        "mean": 5732.06,
+        "median": 1651.18
       },
       "ebitdaMargin": {
-        "n": 2,
-        "min": 15.3,
-        "max": 26.8,
-        "mean": 21.05,
-        "median": 21.05
+        "n": 4,
+        "min": 0.24,
+        "max": 948550,
+        "mean": 237151.38,
+        "median": 27.63
       },
       "pat": {
-        "n": 2,
-        "min": 387,
+        "n": 6,
+        "min": 3,
         "max": 529.2,
-        "mean": 458.1,
-        "median": 458.1
+        "mean": 143.7,
+        "median": 31
       },
       "netDebt": {
         "n": 2,
@@ -8414,17 +11316,17 @@
       },
       "revenuePerBedYearly": {
         "n": 2,
-        "min": 21457914,
+        "min": 16110,
         "max": 27465696,
-        "mean": 24461805,
-        "median": 24461805
+        "mean": 13740903,
+        "median": 13740903
       },
       "ebitdaPerBedYearly": {
         "n": 2,
         "min": 4203326,
-        "max": 5493355,
-        "mean": 4848340.5,
-        "median": 4848340.5
+        "max": 152807088,
+        "mean": 78505207,
+        "median": 78505207
       },
       "bedTurnoverYearly": {
         "n": 2,
@@ -8441,18 +11343,18 @@
         "median": 85.25
       },
       "enterpriseValueCr": {
-        "n": 2,
-        "min": 99290.8,
+        "n": 6,
+        "min": 7902,
         "max": 121714.8,
-        "mean": 110502.8,
-        "median": 110502.8
+        "mean": 62395.72,
+        "median": 55950.95
       },
       "evToEbitdaAnnualised": {
-        "n": 2,
-        "min": 30.1,
-        "max": 36.4,
-        "mean": 33.25,
-        "median": 33.25
+        "n": 4,
+        "min": 1.31,
+        "max": 30.1,
+        "mean": 9.52,
+        "median": 3.34
       },
       "evPerBedCr": {
         "n": 2,
@@ -8469,11 +11371,11 @@
         "median": 1632.3
       },
       "peAnnualised": {
-        "n": 2,
-        "min": 57.09,
-        "max": 62.91,
-        "mean": 60,
-        "median": 60
+        "n": 6,
+        "min": 8.34,
+        "max": 8115.23,
+        "mean": 1558.96,
+        "median": 291.23
       }
     },
     "FY27-Q1": {
