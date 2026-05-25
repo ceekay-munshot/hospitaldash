@@ -2,23 +2,51 @@
   "scripCode": "539787",
   "slug": "hcg",
   "name": "HCG",
-  "fetchedAt": "2026-05-24T15:04:02.818Z",
+  "fetchedAt": "2026-05-25T16:22:57.294Z",
   "window": {
-    "from": "20260223",
-    "to": "20260524",
+    "from": "20260224",
+    "to": "20260525",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260223&strScrip=539787&strSearch=P&strToDate=20260524&strType=C",
-      "count": 337,
-      "countFresh": 35,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260224&strScrip=539787&strSearch=P&strToDate=20260525&strType=C",
+      "count": 338,
+      "countFresh": 36,
       "chunks": 1,
       "pages": 1,
       "tag": "confirmed",
       "data": [
+        {
+          "NEWSID": "7516e22c-68d3-4ba2-9578-bd89921b7389",
+          "SCRIP_CD": 539787,
+          "XML_NAME": "ANN_539787_7516E22C-68D3-4BA2-9578-BD89921B7389",
+          "NEWSSUB": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+          "DT_TM": "2026-05-25T18:11:25.053",
+          "NEWS_DT": "2026-05-25T18:11:25.053",
+          "CRITICALNEWS": 0,
+          "ANNOUNCEMENT_TYPE": "A",
+          "QUARTER_ID": null,
+          "FILESTATUS": "N    ",
+          "ATTACHMENTNAME": "566c692b-0a29-47f5-8e8b-69c821b940bd.pdf",
+          "MORE": "Resignation of Interim CFO: Pursuant to the approval accorded by the Board of Directors at its meeting held on May 19, 2026, for the appointment of Mr. Sanjeev Kumar as the Chief Financial Officer and Key Managerial Personnel of the Company, and consequent upon his assumption of office with effect from May 25, 2026, Dr. Manish Mattoo, Executive Director and Chief Executive Officer of the Company, has relinquished the additional charge of Interim Chief Financial Officer of the Company with effect from May 25, 2026.",
+          "HEADLINE": "Resignation of Interim CFO: Pursuant to the approval accorded by the Board of Directors at its meeting held on May 19, 2026, for the appointment of Mr. Sanjeev Kumar as the Chief Financial Officer and Key Managerial Personnel of the Company, and consequent upon his assumption of office with effect from May 25, 2026, Dr. Manish Mattoo, Executive Director and Chief Executive Officer of the Company, has relinquished the additional charge of Interim ....",
+          "CATEGORYNAME": "Company Update",
+          "OLD": 1,
+          "RN": 1,
+          "PDFFLAG": 0,
+          "NSURL": "https://www.bseindia.com/stock-share-price/healthcare-global-enterprises-ltd/hcg/539787/",
+          "SLONGNAME": "HealthCare Global Enterprises Ltd",
+          "AGENDA_ID": 106,
+          "TotalPageCnt": 1,
+          "News_submission_dt": "2026-05-25T18:11:25",
+          "DissemDT": "2026-05-25T18:11:25.053",
+          "TimeDiff": "00:00:00",
+          "Fld_Attachsize": 327133,
+          "PDF_URL": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/566c692b-0a29-47f5-8e8b-69c821b940bd.pdf"
+        },
         {
           "NEWSID": "7910ddbb-a65e-4a84-af63-619c78ec0be7",
           "SCRIP_CD": 539787,
@@ -9457,7 +9485,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260223&TDate=20260524&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539787&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260224&TDate=20260525&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539787&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -9479,7 +9507,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260223&todate=20260524&scripcode=539787",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260224&todate=20260525&scripcode=539787",
       "count": 0,
       "tag": "confirmed",
       "data": []

@@ -2,11 +2,12 @@
   "slug": "narayana",
   "scripCode": "539551",
   "name": "Narayana Hrudayalaya Ltd",
-  "generatedAt": "2026-05-24T15:04:27.245Z",
+  "generatedAt": "2026-05-25T16:23:29.840Z",
   "summary": {
-    "totalAnnouncements": 381,
+    "totalAnnouncements": 382,
     "totalAnnualReportsMaster": 12,
     "byDocType": {
+      "newspaper-advert": 24,
       "other": 82,
       "agm-egm": 22,
       "investor-presentation": 16,
@@ -15,7 +16,6 @@
       "board-meeting-intimation": 22,
       "quarterly-result": 14,
       "analyst-meet-intimation": 120,
-      "newspaper-advert": 23,
       "scrutinizer-report": 3,
       "insider-trading": 17,
       "concall-transcript": 13,
@@ -81,7 +81,7 @@
           }
         ]
       },
-      "lowPriorityCount": 16
+      "lowPriorityCount": 17
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1331,6 +1331,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "d8e7c542-b639-45eb-8e5b-bfd2b639d397",
+      "date": "2026-05-24",
+      "subject": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+      "headline": "Copy of newspaper publication of the audited (Standalone and consolidated) financial results of the company for the quarter and year ended March 31 2026",
+      "category": "Company Update",
+      "docType": "newspaper-advert",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7ca6679-92ff-4943-8931-74ed5ff547df.pdf",
+      "attachmentName": "b7ca6679-92ff-4943-8931-74ed5ff547df.pdf"
+    },
     {
       "newsId": "6e1f96f2-b905-45f5-8b93-8307c2f44346",
       "date": "2026-05-22",

@@ -2,14 +2,15 @@
   "slug": "apollo-hospitals",
   "scripCode": "508869",
   "name": "Apollo Hospitals Enterprise Ltd",
-  "generatedAt": "2026-05-24T15:04:27.179Z",
+  "generatedAt": "2026-05-25T16:23:29.796Z",
   "summary": {
-    "totalAnnouncements": 393,
+    "totalAnnouncements": 396,
     "totalAnnualReportsMaster": 15,
     "byDocType": {
-      "other": 76,
+      "other": 77,
+      "newspaper-advert": 3,
+      "investor-meet-outcome": 31,
       "agm-egm": 17,
-      "investor-meet-outcome": 30,
       "board-meeting-outcome": 9,
       "press-release": 16,
       "investor-presentation": 15,
@@ -20,7 +21,6 @@
       "compliance": 122,
       "insider-trading": 19,
       "esop": 1,
-      "newspaper-advert": 2,
       "quarterly-result": 12,
       "integrated-filing": 1,
       "annual-report": 1
@@ -65,7 +65,7 @@
           }
         ]
       },
-      "lowPriorityCount": 21
+      "lowPriorityCount": 24
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1012,6 +1012,42 @@
     }
   ],
   "all": [
+    {
+      "newsId": "546b7b53-1555-450f-9ad1-f007fe3a5d75",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+      "headline": "As per annexure enclosed - Publication of advertisement - NCLT convened meetings",
+      "category": "Company Update",
+      "docType": "other",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a1debad-2bcd-4420-b475-c15208716194.pdf",
+      "attachmentName": "9a1debad-2bcd-4420-b475-c15208716194.pdf"
+    },
+    {
+      "newsId": "ffd97eca-afe6-45e0-8dca-7f7bebfb7f89",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+      "headline": "as per annexure enclosed",
+      "category": "Company Update",
+      "docType": "newspaper-advert",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fe72794c-98d0-48bd-97a4-975f21cf0d88.pdf",
+      "attachmentName": "fe72794c-98d0-48bd-97a4-975f21cf0d88.pdf"
+    },
+    {
+      "newsId": "8250e25e-cc20-49ed-b8c5-c06f5854d44d",
+      "date": "2026-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "as per annexure enclosed",
+      "category": "Company Update",
+      "docType": "investor-meet-outcome",
+      "priority": "medium",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6c372fe-a13f-4e96-832c-52aea4b1b831.pdf",
+      "attachmentName": "a6c372fe-a13f-4e96-832c-52aea4b1b831.pdf"
+    },
     {
       "newsId": "c2792583-7b01-413b-8871-2f4e3f081d1a",
       "date": "2026-05-21",
