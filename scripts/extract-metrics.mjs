@@ -3,9 +3,10 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { loadCompanies } from './lib/bse.mjs';
 import { downloadPdf } from './lib/pdf.mjs';
-import { callGeminiWithPdf, DEFAULT_MODEL } from './lib/gemini.mjs';
+import { callGeminiWithPdf, DEFAULT_MODEL, KeyPool } from './lib/gemini.mjs';
 
-const API_KEY = process.env.GEMINI_API_KEY;
+const RAW_KEYS = process.env.GEMINI_API_KEY || '';
+const KEY_POOL = new KeyPool(RAW_KEYS);
 const MAX_PER_RUN = Number(process.env.MAX_EXTRACTIONS_PER_RUN || 40);
 const PER_CALL_DELAY_MS = Number(process.env.GEMINI_CALL_DELAY_MS || 4500); // ~13 RPM, under 15 RPM limit
 const PRIORITY_TYPES = ['investor-presentation', 'quarterly-result', 'concall-transcript', 'press-release'];
@@ -195,10 +196,10 @@ async function processCompany(company, budget) {
 
     try {
       const { buf: pdfBuf, sourcePath } = await downloadPdf(doc.pdfUrl);
-      const { parsed, finishReason, usage, model } = await callGeminiWithPdf({
+      const { parsed, finishReason, usage, model, keyIndex } = await callGeminiWithPdf({
         pdfBuffer: pdfBuf,
         prompt: buildPrompt(company, doc),
-        apiKey: API_KEY,
+        keyPool: KEY_POOL,
       });
       const norm = normalizeExtraction(parsed);
       const nonNull = Object.values(norm.metrics).filter((m) => m.value != null).length;
@@ -268,11 +269,13 @@ async function processCompany(company, budget) {
 }
 
 async function run() {
-  if (!API_KEY) {
+  if (KEY_POOL.size() === 0) {
     console.error('ERROR: GEMINI_API_KEY env var not set. Add it to the workflow with `env: GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}` or export locally.');
+    console.error('       Multiple keys supported — comma-separate them in the same secret.');
     process.exit(0);
   }
-  console.error(`Gemini extraction — model=${DEFAULT_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms\n`);
+  console.error(`Gemini extraction — model=${DEFAULT_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms`);
+  console.error(`  keys available: ${KEY_POOL.size()} (rotating round-robin; dead keys skipped)\n`);
 
   const companies = await loadCompanies();
   const budget = { remaining: MAX_PER_RUN };
