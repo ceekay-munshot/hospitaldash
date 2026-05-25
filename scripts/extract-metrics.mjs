@@ -74,13 +74,21 @@ RULES — read carefully:
    - "ARPOB ₹66,500" → arpob.value = 66500 (per day, in rupees)
    - If the doc gives ARPOB monthly, convert to per-day (÷ 30)
 3. Percentages as numbers (e.g., 65.5 = 65.5%, not 0.655).
-4. Pick the MOST RECENT period reported (this quarter, not last year's comparison) unless the document is for a full year.
+4. **PERIOD — CRITICAL.** For P&L flow items (revenue, ebitda, pat, ipVolume, opVolume, capexAnnounced), extract values for the SINGLE QUARTER only. Never use YTD, H1, 9M, or full-year totals for these items:
+   - Q1 deck → only Q1 numbers (NOT YTD)
+   - Q2 deck → only Q2 numbers (NOT H1)
+   - Q3 deck → only Q3 numbers (NOT 9M YTD)
+   - Q4 / annual deck → only Q4 quarterly numbers (NOT full-year FY)
+   - Decks typically show side-by-side columns like "Q3 FY26" and "9M FY26". Always use the single-quarter column.
+   - If a flow item is ONLY reported as YTD/H1/9M/FY (no single-quarter breakout), set value=null with quote="".
+   For STOCK / point-in-time metrics (occupancy, ARPOB, ARPP, ALOS, bed counts, hospital counts, netDebt), use the latest period-end snapshot from the document — those are typically reported as the single value, not cumulative.
 5. For mix-percentages (revenue mix, payor mix), this version only asks for top-level totals — don't include mix details.
-6. Confidence guide:
+6. Pick the MOST RECENT period reported (this quarter, not last year's prior comparison).
+7. Confidence guide:
    - high: explicitly stated as a metric label and value (e.g., "Occupancy: 65.2%")
    - medium: clearly derivable from text (e.g., "occupancy improved to 65%")
    - low: inferred or buried in narrative
-7. The "quote" must be a direct copy of text from the document (max ~200 chars). Use this so an analyst can verify.
+8. The "quote" must be a direct copy of text from the document (max ~200 chars). Use this so an analyst can verify.
 
 ALSO return:
 - reportingPeriod: { "fiscalQuarter": "<like Q3 FY26 if discernible from doc, else null>", "periodEnding": "<YYYY-MM-DD if mentioned>" }
