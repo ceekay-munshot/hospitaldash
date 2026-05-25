@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "APOLLOHOSP",
   "isin": "INE437A01024",
-  "lastBuiltAt": "2026-05-24T15:55:09.273Z",
+  "lastBuiltAt": "2026-05-25T10:13:11.253Z",
   "latestQuote": {
     "date": "2026-05-24",
     "price": 8359.75,
@@ -17,7 +17,7 @@
     "volumeShares": 23000
   },
   "coverage": {
-    "extractedDocs": 38,
+    "extractedDocs": 41,
     "quartersWithData": 13,
     "quarterRange": "FY23-Q4 → FY26-Q4",
     "classifiedTotalPriorityDocs": 43
@@ -3064,6 +3064,24 @@
           "newsId": "1954a027-781d-4e94-ac79-ae3cd3f96f31",
           "date": "2023-05-30",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf764741-a6db-4794-9622-ebad7e16a5ca.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "c00226da-06aa-48e4-bc57-ddc2fadbd874",
+          "date": "2023-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2cd3158-475f-4578-9a11-93dc9092f471.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "022ab993-83ee-4955-be46-7088ba13c994",
+          "date": "2023-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22c767-46b6-4ec7-96af-7fbc2fbc6735.pdf"
+        },
+        {
+          "docType": "press-release",
+          "newsId": "7676281a-4f87-4b1b-8c0f-0a1729c238b8",
+          "date": "2023-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/435d4d74-e8f3-4cb8-b59d-8d9554c7408f.pdf"
         }
       ],
       "metrics": {
@@ -3101,6 +3119,18 @@
             "newsId": "1954a027-781d-4e94-ac79-ae3cd3f96f31",
             "date": "2023-05-30",
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf764741-a6db-4794-9622-ebad7e16a5ca.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "On track to add 2000 beds with over Rs.3000 crs in the next 4 years in key metros.",
+          "source": {
+            "docType": "press-release",
+            "newsId": "7676281a-4f87-4b1b-8c0f-0a1729c238b8",
+            "date": "2023-05-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/435d4d74-e8f3-4cb8-b59d-8d9554c7408f.pdf"
           }
         },
         "occupancyRate": {
@@ -3212,15 +3242,15 @@
           }
         },
         "netDebt": {
-          "value": 1509.4,
+          "value": 1934.48,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "Gross Debt HCS 20,552 Mio, Health Co 3,999 Mio, AHLL 2,554 Mio. Cash & Cash Equivalents HCS 10,500 Mio, Health Co 303 Mio, AHLL 1,208 Mio.",
+          "confidence": "high",
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings ... 1,93,759; Current liabilities (a) Financial Liabilities (i) Borrowings ... 77,272; Current assets (b) Financial assets (iii) Cash and cash equivalents ... 43,342; (iv) Bank balances ... 34,241 (all as at 31-Mar-23)",
           "source": {
-            "docType": "investor-presentation",
-            "newsId": "1954a027-781d-4e94-ac79-ae3cd3f96f31",
+            "docType": "quarterly-result",
+            "newsId": "022ab993-83ee-4955-be46-7088ba13c994",
             "date": "2023-05-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf764741-a6db-4794-9622-ebad7e16a5ca.pdf"
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22c767-46b6-4ec7-96af-7fbc2fbc6735.pdf"
           }
         },
         "capexAnnounced": {
@@ -3265,11 +3295,11 @@
         "ebitdaPerBedYearly": 2484478,
         "bedTurnoverYearly": 68.19,
         "bedActivationPct": 83.7,
-        "enterpriseValueCr": 121709.8,
-        "evToEbitdaAnnualised": 62.33,
+        "enterpriseValueCr": 122134.9,
+        "evToEbitdaAnnualised": 62.54,
         "peAnnualised": 207.96,
-        "evPerBedCr": 15.485,
-        "evPerBedLakhs": 1548.5
+        "evPerBedCr": 15.539,
+        "evPerBedLakhs": 1553.9
       }
     }
   }

@@ -5200,12 +5200,408 @@
       "date": "2023-05-30",
       "subject": "Audit Report On Audited Financial Results (Both Standalone And Consolidated) For The Quarter And Year Ended March 31, 2023 With UDIN",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2cd3158-475f-4578-9a11-93dc9092f471.pdf",
-      "extractedAt": "2026-05-24T15:55:09.219Z",
-      "error": "GEMINI_DAILY_QUOTA_EXCEEDED: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
-      "attemptCount": 1,
-      "metrics": null
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-25T10:01:52.001Z",
+      "finishReason": "STOP",
+      "promptTokens": 3643,
+      "responseTokens": 993,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY23",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 440.49,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "total revenues of Rs. 44,049 Lakhs ... for the three months and year ended March 31, 2023 respectively"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 28.78,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "total net profit after tax of Rs. 2,878 Lakhs ... for the three months and year ended March 31, 2023 respectively"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document is an auditor's report for the financial results for the quarter and year ended March 31, 2023 (Q4 FY23), not the full financial statement or investor presentation. Therefore, most operational and detailed financial metrics are not available. Currency conversion from Lakhs to Crore (1 Lakh = 0.01 Crore) has been applied for revenue and PAT.",
+      "nonNullMetricCount": 2
+    },
+    "022ab993-83ee-4955-be46-7088ba13c994": {
+      "newsId": "022ab993-83ee-4955-be46-7088ba13c994",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-30",
+      "subject": "Audited Financial Results For The Quarter And Year Ended 31St March 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba22c767-46b6-4ec7-96af-7fbc2fbc6735.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-25T10:02:36.144Z",
+      "finishReason": "STOP",
+      "promptTokens": 9577,
+      "responseTokens": 1375,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY23-Q4",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4302.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "1 Income (a) Revenue from Operations ... Three months ended 31/03/2023 ... 4,30,220"
+        },
+        "ebitda": {
+          "value": 491.72,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "1 Income (b) Other Income ... 1,635; 2 Expenses (e) Finance Costs ... 9,541; (f) Depreciation and amortisation expense ... 15,906; 7 Profit before tax (5) + (6) ... 25,360 (all for three months ended 31/03/2023)"
+        },
+        "ebitdaMargin": {
+          "value": 11.43,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "1 Income (a) Revenue from Operations ... Three months ended 31/03/2023 ... 4,30,220; EBITDA derived from PBT + Finance Costs + D&A - Other Income"
+        },
+        "pat": {
+          "value": 144.52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit/ (Loss) for the period attributable to: Owners of the parent ... Three months ended 31/03/2023 ... 14,452"
+        },
+        "netDebt": {
+          "value": 1934.48,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings ... 1,93,759; Current liabilities (a) Financial Liabilities (i) Borrowings ... 77,272; Current assets (b) Financial assets (iii) Cash and cash equivalents ... 43,342; (iv) Bank balances ... 34,241 (all as at 31-Mar-23)"
+        },
+        "capexAnnounced": {
+          "value": 1128.52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "B. Cash flow from Investing Activities Purchase of Property Plant & Equipment including CWIP and Intangible ... (1,12,852) (for the year ended Mar 31, 2023)"
+        },
+        "revenueGrowthYoy": {
+          "value": 21.31,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "1 Income (a) Revenue from Operations ... Three months ended 31/03/2023 ... 4,30,220; Corresponding three months ended 31/03/2022 ... 3,54,643"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "The document provides financial results for the three months and year ended March 31, 2023 (FY23-Q4 and FY23 respectively), not FY24-Q1. EBITDA is derived as Profit Before Tax + Finance Costs + Depreciation & Amortisation - Other Income, based on the implied definition of operating profit in the standalone operating margin calculation. Capex is reported for the full year FY23.",
+      "nonNullMetricCount": 7
+    },
+    "7676281a-4f87-4b1b-8c0f-0a1729c238b8": {
+      "newsId": "7676281a-4f87-4b1b-8c0f-0a1729c238b8",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-30",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/435d4d74-e8f3-4cb8-b59d-8d9554c7408f.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gemini-2.5-flash",
+      "extractedAt": "2026-05-25T10:03:17.540Z",
+      "finishReason": "STOP",
+      "promptTokens": 3901,
+      "responseTokens": 1334,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY23",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 70,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on March 31, 2023, Apollo Hospitals had total 70 hospitals with 9957 operating beds across the network (including 562 beds in AHLL), out of which 14 hospitals were new with 2384 operating beds."
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 9957,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "As on March 31, 2023, Apollo Hospitals had total 70 hospitals with 9957 operating beds across the network (including 562 beds in AHLL), out of which 14 hospitals were new with 2384 operating beds."
+        },
+        "bedsUnderDevelopment": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "On track to add 2000 beds with over Rs.3000 crs in the next 4 years in key metros."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4302.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenues grew 21% to Rs.43,022 mn vs Rs.35,464 mn in Q4 FY22"
+        },
+        "ebitda": {
+          "value": 488.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA post 24/7 Operating Cost and ESOP charge at Rs.4882 mn vs Rs. 4632 mn in Q4FY22; 5% YoY growth"
+        },
+        "ebitdaMargin": {
+          "value": 11.35,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Revenues grew 21% to Rs.43,022 mn vs Rs.35,464 mn in Q4 FY22"
+        },
+        "pat": {
+          "value": 144.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT grew 60% to Rs.1,445 mn vs Rs. 901 mn in Q4 FY23"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 3000,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "On track to add 2000 beds with over Rs.3000 crs in the next 4 years in key metros."
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Q4 FY23 Revenues grew to Rs 4,302 Crores; 21% YoY growth"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions from millions to crores were applied (1 Crore = 10 Million). Occupancy rate, ARPOB, and IP volume are provided for specific clusters/types of hospitals, not consolidated. Beds under development and capex are for a future 4-year period, not specifically for Q4 FY23. The prompt asked for FY24-Q1, but the document reports Q4 FY23 and FY23 full year results. Q4 FY23 data has been used as it is the most recent period reported in the document.",
+      "nonNullMetricCount": 9
     }
   },
-  "lastExtractionAt": "2026-05-24T15:55:09.219Z",
+  "lastExtractionAt": "2026-05-25T10:03:17.541Z",
   "model": "gemini-2.5-flash"
 }
