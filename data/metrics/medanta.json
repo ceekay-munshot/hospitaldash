@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "MEDANTA",
   "isin": "INE474Q01031",
-  "lastBuiltAt": "2026-05-25T18:35:22.236Z",
+  "lastBuiltAt": "2026-05-26T17:28:04.528Z",
   "latestQuote": {
-    "date": "2026-05-25",
-    "price": 1248.45,
-    "marketCapCr": 33564.81,
-    "marketCapFreeFloatCr": 10659.95,
-    "changePct": 0.8,
-    "volumeShares": 38000
+    "date": "2026-05-26",
+    "price": 1228.25,
+    "marketCapCr": 33021.73,
+    "marketCapFreeFloatCr": 10487.47,
+    "changePct": -1.62,
+    "volumeShares": 8196
   },
   "coverage": {
     "extractedDocs": 0,
@@ -40,7 +40,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 33564.8
+        "enterpriseValueCr": 33021.7
       }
     },
     "FY26-Q3": {
@@ -60,7 +60,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 33564.8
+        "enterpriseValueCr": 33021.7
       }
     },
     "FY26-Q2": {
@@ -117,8 +117,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 33564.8,
-        "evToEbitdaAnnualised": 3.17
+        "enterpriseValueCr": 33021.7,
+        "evToEbitdaAnnualised": 3.12
       }
     },
     "FY26-Q1": {
@@ -175,8 +175,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 33564.8,
-        "evToEbitdaAnnualised": 3.37
+        "enterpriseValueCr": 33021.7,
+        "evToEbitdaAnnualised": 3.32
       }
     },
     "FY25-Q3": {
@@ -233,8 +233,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 33564.8,
-        "evToEbitdaAnnualised": 4.09
+        "enterpriseValueCr": 33021.7,
+        "evToEbitdaAnnualised": 4.02
       }
     },
     "FY24-Q4": {
@@ -254,7 +254,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 33564.8
+        "enterpriseValueCr": 33021.7
       }
     },
     "FY24-Q1": {
@@ -274,7 +274,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 33564.8
+        "enterpriseValueCr": 33021.7
       }
     },
     "FY23-Q4": {
@@ -294,7 +294,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 33564.8
+        "enterpriseValueCr": 33021.7
       }
     }
   }

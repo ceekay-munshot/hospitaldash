@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "YATHARTH",
   "isin": "INE0JO301016",
-  "lastBuiltAt": "2026-05-25T18:35:22.270Z",
+  "lastBuiltAt": "2026-05-26T17:28:04.549Z",
   "latestQuote": {
-    "date": "2026-05-25",
-    "price": 820.1,
-    "marketCapCr": 7902.02,
-    "marketCapFreeFloatCr": 3492.88,
-    "changePct": -4.97,
-    "volumeShares": 93000
+    "date": "2026-05-26",
+    "price": 815.4,
+    "marketCapCr": 7856.73,
+    "marketCapFreeFloatCr": 3472.87,
+    "changePct": -0.57,
+    "volumeShares": 27000
   },
   "coverage": {
     "extractedDocs": 0,
@@ -89,9 +89,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 7902,
-        "evToEbitdaAnnualised": 3.02,
-        "peAnnualised": 8.34
+        "enterpriseValueCr": 7856.7,
+        "evToEbitdaAnnualised": 3,
+        "peAnnualised": 8.29
       }
     },
     "FY26-Q3": {
@@ -160,9 +160,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 7902,
-        "evToEbitdaAnnualised": 4.7,
-        "peAnnualised": 197.55
+        "enterpriseValueCr": 7856.7,
+        "evToEbitdaAnnualised": 4.67,
+        "peAnnualised": 196.42
       }
     },
     "FY25-Q4": {
@@ -231,9 +231,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 7902,
-        "evToEbitdaAnnualised": 1.43,
-        "peAnnualised": 9.02
+        "enterpriseValueCr": 7856.7,
+        "evToEbitdaAnnualised": 1.42,
+        "peAnnualised": 8.97
       }
     }
   }

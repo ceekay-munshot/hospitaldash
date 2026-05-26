@@ -2,11 +2,12 @@
   "slug": "narayana",
   "scripCode": "539551",
   "name": "Narayana Hrudayalaya Ltd",
-  "generatedAt": "2026-05-25T18:32:18.032Z",
+  "generatedAt": "2026-05-26T17:28:04.393Z",
   "summary": {
-    "totalAnnouncements": 382,
+    "totalAnnouncements": 383,
     "totalAnnualReportsMaster": 12,
     "byDocType": {
+      "concall-audio": 13,
       "newspaper-advert": 24,
       "other": 82,
       "agm-egm": 22,
@@ -19,7 +20,6 @@
       "scrutinizer-report": 3,
       "insider-trading": 17,
       "concall-transcript": 13,
-      "concall-audio": 12,
       "credit-rating": 4,
       "board-meeting-outcome": 1,
       "annual-report": 3,
@@ -38,6 +38,20 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "concall-audio": [
+          {
+            "newsId": "ede35be0-7460-4e65-8682-9cbbcf655ef7",
+            "date": "2026-05-26",
+            "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "headline": "Audio recording of the earning call scheduled on  May 26 2026 for the quarter and financial year ended  March 31 2026",
+            "category": "Company Update",
+            "docType": "concall-audio",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf",
+            "attachmentName": "b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf"
+          }
+        ],
         "investor-presentation": [
           {
             "newsId": "5517966d-dd09-474a-8a13-ad94d9cb4953",
@@ -1331,6 +1345,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "ede35be0-7460-4e65-8682-9cbbcf655ef7",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "Audio recording of the earning call scheduled on  May 26 2026 for the quarter and financial year ended  March 31 2026",
+      "category": "Company Update",
+      "docType": "concall-audio",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf",
+      "attachmentName": "b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf"
+    },
     {
       "newsId": "d8e7c542-b639-45eb-8e5b-bfd2b639d397",
       "date": "2026-05-24",

@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-25T18:35:22.214Z",
+  "lastBuiltAt": "2026-05-26T17:28:04.520Z",
   "latestQuote": {
-    "date": "2026-05-25",
-    "price": 1000.6,
-    "marketCapCr": 97382.77,
-    "marketCapFreeFloatCr": 73664.71,
-    "changePct": -2.21,
-    "volumeShares": 480999.99999999994
+    "date": "2026-05-26",
+    "price": 993.65,
+    "marketCapCr": 96706.37,
+    "marketCapFreeFloatCr": 73153.05,
+    "changePct": -0.69,
+    "volumeShares": 158000
   },
   "coverage": {
     "extractedDocs": 24,
@@ -39,7 +39,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY26-Q4": {
@@ -304,11 +304,11 @@
         "ebitdaPerBedYearly": 5493355,
         "bedTurnoverYearly": 65.88,
         "bedActivationPct": 82.8,
-        "enterpriseValueCr": 99290.8,
-        "evToEbitdaAnnualised": 36.4,
-        "peAnnualised": 62.91,
-        "evPerBedCr": 19.994,
-        "evPerBedLakhs": 1999.4
+        "enterpriseValueCr": 98614.4,
+        "evToEbitdaAnnualised": 36.15,
+        "peAnnualised": 62.47,
+        "evPerBedCr": 19.858,
+        "evPerBedLakhs": 1985.8
       }
     },
     "FY26-Q3": {
@@ -609,11 +609,11 @@
         "ebitdaPerBedYearly": 5341026,
         "bedTurnoverYearly": 67.57,
         "bedActivationPct": 93.3,
-        "enterpriseValueCr": 99548.8,
-        "evToEbitdaAnnualised": 38.41,
-        "peAnnualised": 70.77,
-        "evPerBedCr": 20.513,
-        "evPerBedLakhs": 2051.3
+        "enterpriseValueCr": 98872.4,
+        "evToEbitdaAnnualised": 38.15,
+        "peAnnualised": 70.28,
+        "evPerBedCr": 20.373,
+        "evPerBedLakhs": 2037.3
       }
     },
     "FY26-Q2": {
@@ -872,11 +872,11 @@
         "ebitdaPerBedYearly": 5831933,
         "bedTurnoverYearly": 73.64,
         "bedActivationPct": 91.5,
-        "enterpriseValueCr": 99449.8,
-        "evToEbitdaAnnualised": 35.82,
-        "peAnnualised": 43.95,
-        "evPerBedCr": 20.893,
-        "evPerBedLakhs": 2089.3
+        "enterpriseValueCr": 98773.4,
+        "evToEbitdaAnnualised": 35.58,
+        "peAnnualised": 43.64,
+        "evPerBedCr": 20.751,
+        "evPerBedLakhs": 2075.1
       }
     },
     "FY26-Q1": {
@@ -1136,9 +1136,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 99137.8,
-        "evToEbitdaAnnualised": 40.43,
-        "peAnnualised": 70.57
+        "enterpriseValueCr": 98461.4,
+        "evToEbitdaAnnualised": 40.16,
+        "peAnnualised": 70.08
       }
     },
     "FY25-Q4": {
@@ -1249,9 +1249,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 97382.8,
-        "evToEbitdaAnnualised": 10.5,
-        "peAnnualised": 17.49
+        "enterpriseValueCr": 96706.4,
+        "evToEbitdaAnnualised": 10.43,
+        "peAnnualised": 17.37
       }
     },
     "FY25-Q3": {
@@ -1271,7 +1271,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY25-Q2": {
@@ -1291,7 +1291,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY25-Q1": {
@@ -1311,7 +1311,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY24-Q4": {
@@ -1331,7 +1331,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY24-Q3": {
@@ -1351,7 +1351,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY24-Q2": {
@@ -1371,7 +1371,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     },
     "FY24-Q1": {
@@ -1391,7 +1391,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 97382.8
+        "enterpriseValueCr": 96706.4
       }
     }
   }

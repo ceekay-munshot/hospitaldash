@@ -2,11 +2,12 @@
   "slug": "hcg",
   "scripCode": "539787",
   "name": "Healthcare Global Enterprises Ltd",
-  "generatedAt": "2026-05-25T18:32:18.066Z",
+  "generatedAt": "2026-05-26T17:28:04.430Z",
   "summary": {
-    "totalAnnouncements": 338,
+    "totalAnnouncements": 339,
     "totalAnnualReportsMaster": 10,
     "byDocType": {
+      "concall-transcript": 12,
       "other": 110,
       "newspaper-advert": 29,
       "compliance": 19,
@@ -18,7 +19,6 @@
       "insider-trading": 28,
       "analyst-meet-intimation": 19,
       "corp-action": 1,
-      "concall-transcript": 11,
       "esop": 5,
       "agm-egm": 19,
       "annual-report": 8,
@@ -38,6 +38,20 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "concall-transcript": [
+          {
+            "newsId": "42bee449-a3aa-41ca-9fca-bd1688f5adb3",
+            "date": "2026-05-26",
+            "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "headline": "Please see attached herewith the Transcript of the Earnings Call held on May 20, 2026, with Analysts/Investors to discuss the Audited Financial Results (both Standalone & Consolidated) of the Company for the quarter and year ended March 31, 2026.",
+            "category": "Company Update",
+            "docType": "concall-transcript",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8d14639f-8db9-44e5-a378-22bb7b4c9754.pdf",
+            "attachmentName": "8d14639f-8db9-44e5-a378-22bb7b4c9754.pdf"
+          }
+        ],
         "concall-audio": [
           {
             "newsId": "3871fe19-2388-4554-8031-13f8694102ae",
@@ -1329,6 +1343,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "42bee449-a3aa-41ca-9fca-bd1688f5adb3",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "Please see attached herewith the Transcript of the Earnings Call held on May 20, 2026, with Analysts/Investors to discuss the Audited Financial Results (both Standalone & Consolidated) of the Company for the quarter and year ended March 31, 2026.",
+      "category": "Company Update",
+      "docType": "concall-transcript",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8d14639f-8db9-44e5-a378-22bb7b4c9754.pdf",
+      "attachmentName": "8d14639f-8db9-44e5-a378-22bb7b4c9754.pdf"
+    },
     {
       "newsId": "7516e22c-68d3-4ba2-9578-bd89921b7389",
       "date": "2026-05-25",

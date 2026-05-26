@@ -2,23 +2,51 @@
   "scripCode": "539551",
   "slug": "narayana",
   "name": "Narayana",
-  "fetchedAt": "2026-05-25T18:28:33.621Z",
+  "fetchedAt": "2026-05-26T17:26:42.696Z",
   "window": {
-    "from": "20260224",
-    "to": "20260525",
+    "from": "20260225",
+    "to": "20260526",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260224&strScrip=539551&strSearch=P&strToDate=20260525&strType=C",
-      "count": 382,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260225&strScrip=539551&strSearch=P&strToDate=20260526&strType=C",
+      "count": 383,
       "countFresh": 33,
       "chunks": 1,
       "pages": 1,
       "tag": "confirmed",
       "data": [
+        {
+          "NEWSID": "ede35be0-7460-4e65-8682-9cbbcf655ef7",
+          "SCRIP_CD": 539551,
+          "XML_NAME": "ANN_539551_EDE35BE0-7460-4E65-8682-9CBBCF655EF7",
+          "NEWSSUB": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+          "DT_TM": "2026-05-26T22:35:21.817",
+          "NEWS_DT": "2026-05-26T22:35:21.817",
+          "CRITICALNEWS": 0,
+          "ANNOUNCEMENT_TYPE": "A",
+          "QUARTER_ID": null,
+          "FILESTATUS": "N    ",
+          "ATTACHMENTNAME": "b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf",
+          "MORE": "",
+          "HEADLINE": "Audio recording of the earning call scheduled on  May 26 2026 for the quarter and financial year ended  March 31 2026",
+          "CATEGORYNAME": "Company Update",
+          "OLD": 1,
+          "RN": 1,
+          "PDFFLAG": 0,
+          "NSURL": "https://www.bseindia.com/stock-share-price/narayana-hrudayalaya-ltd/nh/539551/",
+          "SLONGNAME": "Narayana Hrudayalaya Ltd",
+          "AGENDA_ID": 80,
+          "TotalPageCnt": 1,
+          "News_submission_dt": "2026-05-26T22:35:21",
+          "DissemDT": "2026-05-26T22:35:21.817",
+          "TimeDiff": "00:00:00",
+          "Fld_Attachsize": 2678836,
+          "PDF_URL": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b6aecfa1-6ec9-465c-a1f2-d93f4fa43047.pdf"
+        },
         {
           "NEWSID": "d8e7c542-b639-45eb-8e5b-bfd2b639d397",
           "SCRIP_CD": 539551,
@@ -10717,14 +10745,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260224&TDate=20260525&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260225&TDate=20260526&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260224&todate=20260525&scripcode=539551",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260225&todate=20260526&scripcode=539551",
       "count": 0,
       "tag": "confirmed",
       "data": []

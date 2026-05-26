@@ -2,23 +2,23 @@
   "slug": "yatharth",
   "scripCode": "543950",
   "name": "Yatharth Hospital & Trauma Care Services Ltd",
-  "generatedAt": "2026-05-25T18:32:18.087Z",
+  "generatedAt": "2026-05-26T17:28:04.452Z",
   "summary": {
-    "totalAnnouncements": 285,
+    "totalAnnouncements": 288,
     "totalAnnualReportsMaster": 3,
     "byDocType": {
+      "investor-meet-outcome": 8,
+      "newspaper-advert": 21,
+      "analyst-meet-intimation": 41,
       "investor-presentation": 13,
       "press-release": 21,
       "quarterly-result": 5,
       "board-meeting-intimation": 25,
-      "analyst-meet-intimation": 40,
       "other": 75,
       "agm-egm": 19,
       "compliance": 15,
-      "newspaper-advert": 20,
       "insider-trading": 19,
       "concall-transcript": 12,
-      "investor-meet-outcome": 7,
       "credit-rating": 2,
       "integrated-filing": 1,
       "annual-report": 2,
@@ -94,7 +94,7 @@
           }
         ]
       },
-      "lowPriorityCount": 15
+      "lowPriorityCount": 18
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -993,6 +993,42 @@
     }
   ],
   "all": [
+    {
+      "newsId": "840b6ade-54c5-45cf-9fdd-4f6b019cdb0c",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "headline": "We hereby submit Earnings Call Recording for Q4FY26",
+      "category": "Company Update",
+      "docType": "investor-meet-outcome",
+      "priority": "medium",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b9751e02-0491-4a52-ae55-a7e879fed2c2.pdf",
+      "attachmentName": "b9751e02-0491-4a52-ae55-a7e879fed2c2.pdf"
+    },
+    {
+      "newsId": "cf53e15e-83b7-4f15-9a62-807b8eeff5c2",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+      "headline": "We hereby submit Newspaper Publication of Financial Results - Q4 & FY26.",
+      "category": "Company Update",
+      "docType": "newspaper-advert",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8524ce9-d7e2-4d41-8852-20a718fc8533.pdf",
+      "attachmentName": "a8524ce9-d7e2-4d41-8852-20a718fc8533.pdf"
+    },
+    {
+      "newsId": "c869a40f-9f06-4fff-8807-fe8d6ee93201",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+      "headline": "We hereby submit intimation regarding Schedule of Conference Call.",
+      "category": "Company Update",
+      "docType": "analyst-meet-intimation",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b8c3c205-5815-43b2-af9c-89272312adf8.pdf",
+      "attachmentName": "b8c3c205-5815-43b2-af9c-89272312adf8.pdf"
+    },
     {
       "newsId": "1ab0dc54-2fe7-4bbb-b495-8e98e333fee1",
       "date": "2026-05-25",
