@@ -2,16 +2,16 @@
   "slug": "max-healthcare",
   "scripCode": "543220",
   "name": "Max Healthcare Institute Ltd",
-  "generatedAt": "2026-05-26T17:28:04.355Z",
+  "generatedAt": "2026-05-27T17:20:33.595Z",
   "summary": {
-    "totalAnnouncements": 380,
+    "totalAnnouncements": 381,
     "totalAnnualReportsMaster": 6,
     "byDocType": {
+      "investor-presentation": 27,
       "other": 125,
       "analyst-meet-intimation": 28,
       "newspaper-advert": 22,
       "concall-audio": 12,
-      "investor-presentation": 26,
       "press-release": 17,
       "board-meeting-intimation": 24,
       "quarterly-result": 12,
@@ -37,6 +37,32 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "investor-presentation": [
+          {
+            "newsId": "508c62c9-6edd-4e45-a0f2-e5a428a28bd9",
+            "date": "2026-05-26",
+            "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "headline": "Presentation for Investor Conference",
+            "category": "Company Update",
+            "docType": "investor-presentation",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/49477928-7f1d-4f60-a0b8-0b5f70111e4d.pdf",
+            "attachmentName": "49477928-7f1d-4f60-a0b8-0b5f70111e4d.pdf"
+          },
+          {
+            "newsId": "2b1890c0-4567-461b-bbec-b2149569c923",
+            "date": "2026-05-21",
+            "subject": "Presentation On Earnings Update",
+            "headline": "Presentation on earnings update for the fourth quarter and financial year ended March 31, 2026",
+            "category": "Company Update",
+            "docType": "investor-presentation",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37289118-d896-4f57-82b5-9cb704e121a0.pdf",
+            "attachmentName": "37289118-d896-4f57-82b5-9cb704e121a0.pdf"
+          }
+        ],
         "concall-audio": [
           {
             "newsId": "4288d5c3-d494-4588-8e7b-b43f0930b164",
@@ -49,20 +75,6 @@
             "fiscalQuarter": "FY27-Q1",
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50d64ac8-994f-4c38-8fca-1bccf296c0cd.pdf",
             "attachmentName": "50d64ac8-994f-4c38-8fca-1bccf296c0cd.pdf"
-          }
-        ],
-        "investor-presentation": [
-          {
-            "newsId": "2b1890c0-4567-461b-bbec-b2149569c923",
-            "date": "2026-05-21",
-            "subject": "Presentation On Earnings Update",
-            "headline": "Presentation on earnings update for the fourth quarter and financial year ended March 31, 2026",
-            "category": "Company Update",
-            "docType": "investor-presentation",
-            "priority": "high",
-            "fiscalQuarter": "FY27-Q1",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37289118-d896-4f57-82b5-9cb704e121a0.pdf",
-            "attachmentName": "37289118-d896-4f57-82b5-9cb704e121a0.pdf"
           }
         ],
         "press-release": [
@@ -1412,6 +1424,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "508c62c9-6edd-4e45-a0f2-e5a428a28bd9",
+      "date": "2026-05-26",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "headline": "Presentation for Investor Conference",
+      "category": "Company Update",
+      "docType": "investor-presentation",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/49477928-7f1d-4f60-a0b8-0b5f70111e4d.pdf",
+      "attachmentName": "49477928-7f1d-4f60-a0b8-0b5f70111e4d.pdf"
+    },
     {
       "newsId": "08b0307e-af77-4ab9-b322-a1064450d0e9",
       "date": "2026-05-24",

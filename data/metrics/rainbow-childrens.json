@@ -7,20 +7,20 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-05-26T17:48:53.048Z",
+  "lastBuiltAt": "2026-05-27T17:20:33.770Z",
   "latestQuote": {
-    "date": "2026-05-26",
-    "price": 1365.65,
-    "marketCapCr": 13869.43,
-    "marketCapFreeFloatCr": 6937.53,
-    "changePct": 1.15,
-    "volumeShares": 16000
+    "date": "2026-05-27",
+    "price": 1376.75,
+    "marketCapCr": 13982.16,
+    "marketCapFreeFloatCr": 6993.92,
+    "changePct": 0.81,
+    "volumeShares": 6238
   },
   "coverage": {
     "extractedDocs": 0,
     "quartersWithData": 9,
     "quarterRange": "FY24-Q1 → FY26-Q3",
-    "classifiedTotalPriorityDocs": 46
+    "classifiedTotalPriorityDocs": 48
   },
   "quarters": {
     "FY26-Q3": {
@@ -89,9 +89,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 5.89,
-        "peAnnualised": 113.53
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 5.94,
+        "peAnnualised": 114.46
       }
     },
     "FY26-Q2": {
@@ -111,7 +111,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 13869.4
+        "enterpriseValueCr": 13982.2
       }
     },
     "FY26-Q1": {
@@ -180,9 +180,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 6.79,
-        "peAnnualised": 173.37
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.84,
+        "peAnnualised": 174.78
       }
     },
     "FY25-Q4": {
@@ -251,9 +251,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 6.93,
-        "peAnnualised": 3467.36
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.98,
+        "peAnnualised": 3495.54
       }
     },
     "FY25-Q3": {
@@ -322,9 +322,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 6.77,
-        "peAnnualised": 176.1
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.83,
+        "peAnnualised": 177.53
       }
     },
     "FY25-Q2": {
@@ -381,8 +381,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 6.84
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.89
       }
     },
     "FY25-Q1": {
@@ -439,8 +439,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 6.78
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.83
       }
     },
     "FY24-Q2": {
@@ -485,8 +485,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "peAnnualised": 203.96
+        "enterpriseValueCr": 13982.2,
+        "peAnnualised": 205.62
       }
     },
     "FY24-Q1": {
@@ -555,9 +555,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 13869.4,
-        "evToEbitdaAnnualised": 8.52,
-        "peAnnualised": 203.96
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 8.59,
+        "peAnnualised": 205.62
       }
     }
   }

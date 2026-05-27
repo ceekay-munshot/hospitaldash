@@ -7,20 +7,20 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-26T17:48:53.023Z",
+  "lastBuiltAt": "2026-05-27T17:20:33.746Z",
   "latestQuote": {
-    "date": "2026-05-26",
-    "price": 993.65,
-    "marketCapCr": 96706.37,
-    "marketCapFreeFloatCr": 73153.05,
-    "changePct": -0.69,
-    "volumeShares": 158000
+    "date": "2026-05-27",
+    "price": 995.15,
+    "marketCapCr": 96852.36,
+    "marketCapFreeFloatCr": 73263.48,
+    "changePct": 0.15,
+    "volumeShares": 49000
   },
   "coverage": {
     "extractedDocs": 46,
     "quartersWithData": 13,
     "quarterRange": "FY24-Q1 → FY27-Q1",
-    "classifiedTotalPriorityDocs": 70
+    "classifiedTotalPriorityDocs": 71
   },
   "quarters": {
     "FY27-Q1": {
@@ -39,7 +39,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 96706.4
+        "enterpriseValueCr": 96852.4
       }
     },
     "FY26-Q4": {
@@ -304,11 +304,11 @@
         "ebitdaPerBedYearly": 5493355,
         "bedTurnoverYearly": 65.88,
         "bedActivationPct": 82.8,
-        "enterpriseValueCr": 98614.4,
-        "evToEbitdaAnnualised": 36.15,
-        "peAnnualised": 62.47,
-        "evPerBedCr": 19.858,
-        "evPerBedLakhs": 1985.8
+        "enterpriseValueCr": 98760.4,
+        "evToEbitdaAnnualised": 36.2,
+        "peAnnualised": 62.57,
+        "evPerBedCr": 19.887,
+        "evPerBedLakhs": 1988.7
       }
     },
     "FY26-Q3": {
@@ -609,11 +609,11 @@
         "ebitdaPerBedYearly": 5341026,
         "bedTurnoverYearly": 67.57,
         "bedActivationPct": 93.3,
-        "enterpriseValueCr": 98872.4,
-        "evToEbitdaAnnualised": 38.15,
-        "peAnnualised": 70.28,
-        "evPerBedCr": 20.373,
-        "evPerBedLakhs": 2037.3
+        "enterpriseValueCr": 99018.4,
+        "evToEbitdaAnnualised": 38.2,
+        "peAnnualised": 70.39,
+        "evPerBedCr": 20.404,
+        "evPerBedLakhs": 2040.4
       }
     },
     "FY26-Q2": {
@@ -872,11 +872,11 @@
         "ebitdaPerBedYearly": 5831933,
         "bedTurnoverYearly": 73.64,
         "bedActivationPct": 91.5,
-        "enterpriseValueCr": 98773.4,
-        "evToEbitdaAnnualised": 35.58,
-        "peAnnualised": 43.64,
-        "evPerBedCr": 20.751,
-        "evPerBedLakhs": 2075.1
+        "enterpriseValueCr": 98919.4,
+        "evToEbitdaAnnualised": 35.63,
+        "peAnnualised": 43.71,
+        "evPerBedCr": 20.781,
+        "evPerBedLakhs": 2078.1
       }
     },
     "FY26-Q1": {
@@ -1142,9 +1142,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 98461.4,
-        "evToEbitdaAnnualised": 40.16,
-        "peAnnualised": 70.08
+        "enterpriseValueCr": 98607.4,
+        "evToEbitdaAnnualised": 40.22,
+        "peAnnualised": 70.18
       }
     },
     "FY25-Q4": {
@@ -1409,11 +1409,11 @@
         "ebitdaPerBedYearly": 5431887,
         "bedTurnoverYearly": 67.63,
         "bedActivationPct": 91.3,
-        "enterpriseValueCr": 98282.4,
-        "evToEbitdaAnnualised": 38.88,
-        "peAnnualised": 64.3,
-        "evPerBedCr": 21.118,
-        "evPerBedLakhs": 2111.8
+        "enterpriseValueCr": 98428.4,
+        "evToEbitdaAnnualised": 38.94,
+        "peAnnualised": 64.4,
+        "evPerBedCr": 21.149,
+        "evPerBedLakhs": 2114.9
       }
     },
     "FY25-Q3": {
@@ -1644,9 +1644,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 98314.4,
-        "evToEbitdaAnnualised": 39.52,
-        "peAnnualised": 61.99
+        "enterpriseValueCr": 98460.4,
+        "evToEbitdaAnnualised": 39.57,
+        "peAnnualised": 62.08
       }
     },
     "FY25-Q2": {
@@ -1901,9 +1901,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 97019.4,
-        "evToEbitdaAnnualised": 42.85,
-        "peAnnualised": 69.27
+        "enterpriseValueCr": 97165.4,
+        "evToEbitdaAnnualised": 42.92,
+        "peAnnualised": 69.38
       }
     },
     "FY25-Q1": {
@@ -2156,11 +2156,11 @@
         "ebitdaPerBedYearly": 212340426,
         "bedTurnoverYearly": 2808.98,
         "bedActivationPct": 2.2,
-        "enterpriseValueCr": 96640.4,
-        "evToEbitdaAnnualised": 48.42,
-        "peAnnualised": 81.95,
-        "evPerBedCr": 1028.089,
-        "evPerBedLakhs": 102808.9
+        "enterpriseValueCr": 96786.4,
+        "evToEbitdaAnnualised": 48.49,
+        "peAnnualised": 82.08,
+        "evPerBedCr": 1029.642,
+        "evPerBedLakhs": 102964.2
       }
     },
     "FY24-Q4": {
@@ -2373,9 +2373,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 96728.4,
-        "evToEbitdaAnnualised": 48.08,
-        "peAnnualised": 77.74
+        "enterpriseValueCr": 96874.4,
+        "evToEbitdaAnnualised": 48.15,
+        "peAnnualised": 77.86
       }
     },
     "FY24-Q3": {
@@ -2395,7 +2395,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 96706.4
+        "enterpriseValueCr": 96852.4
       }
     },
     "FY24-Q2": {
@@ -2415,7 +2415,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 96706.4
+        "enterpriseValueCr": 96852.4
       }
     },
     "FY24-Q1": {
@@ -2435,7 +2435,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 96706.4
+        "enterpriseValueCr": 96852.4
       }
     }
   }

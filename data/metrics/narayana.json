@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-26T17:48:53.035Z",
+  "lastBuiltAt": "2026-05-27T17:20:33.758Z",
   "latestQuote": {
-    "date": "2026-05-26",
-    "price": 1891.3,
-    "marketCapCr": 38650.76,
-    "marketCapFreeFloatCr": 13010.81,
-    "changePct": -2.46,
-    "volumeShares": 13000
+    "date": "2026-05-27",
+    "price": 1919.4,
+    "marketCapCr": 39225.01,
+    "marketCapFreeFloatCr": 13204.12,
+    "changePct": 1.49,
+    "volumeShares": 8655
   },
   "coverage": {
     "extractedDocs": 0,
@@ -65,7 +65,7 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY26-Q2": {
@@ -98,7 +98,7 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY26-Q1": {
@@ -131,7 +131,7 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY25-Q4": {
@@ -151,7 +151,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY25-Q3": {
@@ -184,7 +184,7 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY25-Q2": {
@@ -241,8 +241,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8,
-        "evToEbitdaAnnualised": 4.16
+        "enterpriseValueCr": 39225,
+        "evToEbitdaAnnualised": 4.22
       }
     },
     "FY25-Q1": {
@@ -275,7 +275,7 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     },
     "FY24-Q4": {
@@ -320,8 +320,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 38650.8,
-        "peAnnualised": 311.7
+        "enterpriseValueCr": 39225,
+        "peAnnualised": 316.33
       }
     },
     "FY24-Q2": {
@@ -341,7 +341,7 @@
       ],
       "metrics": {},
       "derived": {
-        "enterpriseValueCr": 38650.8
+        "enterpriseValueCr": 39225
       }
     }
   }

@@ -2,11 +2,12 @@
   "slug": "rainbow-childrens",
   "scripCode": "543524",
   "name": "Rainbow Children's Medicare Ltd",
-  "generatedAt": "2026-05-26T17:28:04.438Z",
+  "generatedAt": "2026-05-27T17:20:33.669Z",
   "summary": {
-    "totalAnnouncements": 276,
+    "totalAnnouncements": 278,
     "totalAnnualReportsMaster": 4,
     "byDocType": {
+      "quarterly-result": 13,
       "concall-audio": 12,
       "newspaper-advert": 19,
       "other": 63,
@@ -18,7 +19,6 @@
       "analyst-meet-intimation": 36,
       "insider-trading": 15,
       "concall-transcript": 11,
-      "quarterly-result": 11,
       "agm-egm": 18,
       "credit-rating": 3,
       "esop": 4,
@@ -37,6 +37,32 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "quarterly-result": [
+          {
+            "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
+            "date": "2026-05-27",
+            "subject": "March 31, 2026",
+            "headline": "Financial Results approved in the Board Meeting dated March 23, 2026.",
+            "category": "Result",
+            "docType": "quarterly-result",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
+            "attachmentName": "f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+          },
+          {
+            "newsId": "6cb9f5b7-e8d0-49d7-b42d-8de3cd881f3b",
+            "date": "2026-05-27",
+            "subject": "March 31, 2026",
+            "headline": "Financial Results approved in the Board Meeting held on May 23, 2026.",
+            "category": "Result",
+            "docType": "quarterly-result",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
+            "attachmentName": "a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf"
+          }
+        ],
         "concall-audio": [
           {
             "newsId": "b7c818c8-37ae-44f5-8bba-103e1d38fe36",
@@ -1110,6 +1136,30 @@
     }
   ],
   "all": [
+    {
+      "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
+      "date": "2026-05-27",
+      "subject": "March 31, 2026",
+      "headline": "Financial Results approved in the Board Meeting dated March 23, 2026.",
+      "category": "Result",
+      "docType": "quarterly-result",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
+      "attachmentName": "f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+    },
+    {
+      "newsId": "6cb9f5b7-e8d0-49d7-b42d-8de3cd881f3b",
+      "date": "2026-05-27",
+      "subject": "March 31, 2026",
+      "headline": "Financial Results approved in the Board Meeting held on May 23, 2026.",
+      "category": "Result",
+      "docType": "quarterly-result",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
+      "attachmentName": "a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf"
+    },
     {
       "newsId": "b7c818c8-37ae-44f5-8bba-103e1d38fe36",
       "date": "2026-05-25",

@@ -2,17 +2,17 @@
   "scripCode": "540975",
   "slug": "aster-dm",
   "name": "Aster DM",
-  "fetchedAt": "2026-05-26T17:26:44.260Z",
+  "fetchedAt": "2026-05-27T17:18:58.127Z",
   "window": {
-    "from": "20260225",
-    "to": "20260526",
+    "from": "20260226",
+    "to": "20260527",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260225&strScrip=540975&strSearch=P&strToDate=20260526&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260226&strScrip=540975&strSearch=P&strToDate=20260527&strType=C",
       "count": 439,
       "countFresh": 37,
       "chunks": 1,
@@ -12310,7 +12310,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260225&TDate=20260526&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=540975&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260226&TDate=20260527&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=540975&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -12332,7 +12332,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260225&todate=20260526&scripcode=540975",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260226&todate=20260527&scripcode=540975",
       "count": 0,
       "tag": "confirmed",
       "data": []

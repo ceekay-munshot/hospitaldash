@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "ASTERDM",
   "isin": "INE914M01019",
-  "lastBuiltAt": "2026-05-26T17:48:53.039Z",
+  "lastBuiltAt": "2026-05-27T17:20:33.762Z",
   "latestQuote": {
-    "date": "2026-05-26",
-    "price": 757.95,
-    "marketCapCr": 39270.98,
-    "marketCapFreeFloatCr": 19987.52,
-    "changePct": 1.58,
-    "volumeShares": 9892
+    "date": "2026-05-27",
+    "price": 741.05,
+    "marketCapCr": 38395.36,
+    "marketCapFreeFloatCr": 19541.86,
+    "changePct": -2.23,
+    "volumeShares": 22000
   },
   "coverage": {
     "extractedDocs": 0,
@@ -65,8 +65,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 316.7
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 309.64
       }
     },
     "FY26-Q2": {
@@ -111,8 +111,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 51672.34
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 50520.21
       }
     },
     "FY26-Q1": {
@@ -157,8 +157,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 81814.54
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 79990.33
       }
     },
     "FY25-Q1": {
@@ -227,9 +227,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "evToEbitdaAnnualised": -471.55,
-        "peAnnualised": 571.46
+        "enterpriseValueCr": 38395.4,
+        "evToEbitdaAnnualised": -461.04,
+        "peAnnualised": 558.72
       }
     },
     "FY24-Q4": {
@@ -298,9 +298,9 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "evToEbitdaAnnualised": 754.05,
-        "peAnnualised": 2517.37
+        "enterpriseValueCr": 38395.4,
+        "evToEbitdaAnnualised": 737.24,
+        "peAnnualised": 2461.24
       }
     },
     "FY24-Q3": {
@@ -345,8 +345,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 60.54
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 59.19
       }
     },
     "FY24-Q2": {
@@ -391,8 +391,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 981774.5
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 959884
       }
     },
     "FY23-Q4": {
@@ -437,8 +437,8 @@
         }
       },
       "derived": {
-        "enterpriseValueCr": 39271,
-        "peAnnualised": 316.7
+        "enterpriseValueCr": 38395.4,
+        "peAnnualised": 309.64
       }
     }
   }
