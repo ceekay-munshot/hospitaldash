@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-28T06:47:49.322Z",
+  "lastBuiltAt": "2026-05-28T07:09:35.573Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 995.15,
@@ -168,7 +168,11 @@
       "derived": {
         "enterpriseValueCr": 98760.4,
         "evToEbitdaAnnualised": 36.2,
-        "peAnnualised": 62.57
+        "peAnnualised": 62.57,
+        "patMargin": 14.53,
+        "ebitdaTtmCr": 2706,
+        "netDebtToEbitda": 0.71,
+        "revenueCagr3yr": 17.82
       }
     },
     "FY26-Q4": {
@@ -437,7 +441,10 @@
         "evToEbitdaAnnualised": 36.2,
         "peAnnualised": 62.57,
         "evPerBedCr": 19.887,
-        "evPerBedLakhs": 1988.7
+        "evPerBedLakhs": 1988.7,
+        "patMargin": 14.53,
+        "ebitdaTtmCr": 2637,
+        "netDebtToEbitda": 0.72
       }
     },
     "FY26-Q3": {
@@ -742,7 +749,10 @@
         "evToEbitdaAnnualised": 38.2,
         "peAnnualised": 70.39,
         "evPerBedCr": 20.404,
-        "evPerBedLakhs": 2040.4
+        "evPerBedLakhs": 2040.4,
+        "patMargin": 13.19,
+        "ebitdaTtmCr": 2587,
+        "netDebtToEbitda": 0.84
       }
     },
     "FY26-Q2": {
@@ -1005,7 +1015,10 @@
         "evToEbitdaAnnualised": 35.63,
         "peAnnualised": 43.71,
         "evPerBedCr": 20.781,
-        "evPerBedLakhs": 2078.1
+        "evPerBedLakhs": 2078.1,
+        "patMargin": 20.58,
+        "ebitdaTtmCr": 2561,
+        "netDebtToEbitda": 0.81
       }
     },
     "FY26-Q1": {
@@ -1273,7 +1286,10 @@
       "derived": {
         "enterpriseValueCr": 98607.4,
         "evToEbitdaAnnualised": 40.22,
-        "peAnnualised": 70.18
+        "peAnnualised": 70.18,
+        "patMargin": 14.02,
+        "ebitdaTtmCr": 2433,
+        "netDebtToEbitda": 0.72
       }
     },
     "FY25-Q4": {
@@ -1542,7 +1558,10 @@
         "evToEbitdaAnnualised": 38.94,
         "peAnnualised": 64.4,
         "evPerBedCr": 21.149,
-        "evPerBedLakhs": 2114.9
+        "evPerBedLakhs": 2114.9,
+        "patMargin": 15.48,
+        "ebitdaTtmCr": 2319,
+        "netDebtToEbitda": 0.68
       }
     },
     "FY25-Q3": {
@@ -1775,7 +1794,10 @@
       "derived": {
         "enterpriseValueCr": 98460.4,
         "evToEbitdaAnnualised": 39.57,
-        "peAnnualised": 62.08
+        "peAnnualised": 62.08,
+        "patMargin": 16.38,
+        "ebitdaTtmCr": 2190,
+        "netDebtToEbitda": 0.73
       }
     },
     "FY25-Q2": {
@@ -2032,7 +2054,10 @@
       "derived": {
         "enterpriseValueCr": 97165.4,
         "evToEbitdaAnnualised": 42.92,
-        "peAnnualised": 69.38
+        "peAnnualised": 69.38,
+        "patMargin": 15.66,
+        "ebitdaTtmCr": 2039,
+        "netDebtToEbitda": 0.15
       }
     },
     "FY25-Q1": {
@@ -2319,7 +2344,10 @@
         "evToEbitdaAnnualised": 48.49,
         "peAnnualised": 82.08,
         "evPerBedCr": 1029.642,
-        "evPerBedLakhs": 102964.2
+        "evPerBedLakhs": 102964.2,
+        "patMargin": 15.25,
+        "ebitdaTtmCr": 1970,
+        "netDebtToEbitda": -0.03
       }
     },
     "FY24-Q4": {
@@ -2600,7 +2628,10 @@
         "evToEbitdaAnnualised": 48.15,
         "peAnnualised": 77.86,
         "evPerBedCr": 484.372,
-        "evPerBedLakhs": 48437.2
+        "evPerBedLakhs": 48437.2,
+        "patMargin": 16.46,
+        "ebitdaTtmCr": 1907,
+        "netDebtToEbitda": 0.01
       }
     },
     "FY24-Q3": {
@@ -2863,7 +2894,8 @@
       "derived": {
         "enterpriseValueCr": 98147.4,
         "evToEbitdaAnnualised": 52.1,
-        "peAnnualised": 71.64
+        "peAnnualised": 71.64,
+        "patMargin": 20.01
       }
     },
     "FY24-Q2": {
@@ -3102,7 +3134,8 @@
       "derived": {
         "enterpriseValueCr": 94859.4,
         "evToEbitdaAnnualised": 47.72,
-        "peAnnualised": 71.64
+        "peAnnualised": 71.64,
+        "patMargin": 18.5
       }
     },
     "FY24-Q1": {
@@ -3377,7 +3410,8 @@
         "evToEbitdaAnnualised": 54.99,
         "peAnnualised": 83.21,
         "evPerBedCr": 38.761,
-        "evPerBedLakhs": 3876.1
+        "evPerBedLakhs": 3876.1,
+        "patMargin": 17.86
       }
     }
   }

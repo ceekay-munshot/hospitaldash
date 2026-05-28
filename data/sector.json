@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T06:47:49.974Z",
+  "generatedAt": "2026-05-28T07:09:35.691Z",
   "companies": [
     {
       "slug": "apollo-hospitals",
@@ -249,6 +249,12 @@
       "unit": "INR Cr",
       "section": "financials"
     },
+    "patMargin": {
+      "label": "PAT margin",
+      "unit": "%",
+      "section": "profitability",
+      "derived": true
+    },
     "netDebt": {
       "label": "Net debt",
       "unit": "INR Cr",
@@ -263,6 +269,12 @@
       "label": "Revenue YoY",
       "unit": "%",
       "section": "profitability"
+    },
+    "revenueCagr3yr": {
+      "label": "Revenue CAGR (3yr)",
+      "unit": "%",
+      "section": "profitability",
+      "derived": true
     },
     "roce": {
       "label": "ROCE",
@@ -279,6 +291,18 @@
       "label": "EBITDA / bed (annualised)",
       "unit": "INR/bed",
       "section": "profitability",
+      "derived": true
+    },
+    "ebitdaTtmCr": {
+      "label": "EBITDA (TTM)",
+      "unit": "INR Cr",
+      "section": "financials",
+      "derived": true
+    },
+    "netDebtToEbitda": {
+      "label": "Net debt / EBITDA",
+      "unit": "x",
+      "section": "balanceSheet",
       "derived": true
     },
     "bedTurnoverYearly": {
@@ -365,6 +389,7 @@
             "ebitda": 488.2,
             "ebitdaMargin": 11.3,
             "pat": 144.5,
+            "patMargin": 3.36,
             "netDebt": 1934.48,
             "capexAnnounced": 609.8,
             "revenueGrowthYoy": 21,
@@ -418,6 +443,7 @@
             "ebitda": 509,
             "ebitdaMargin": 11.5,
             "pat": 166.6,
+            "patMargin": 3.77,
             "capexAnnounced": 635.5,
             "revenueGrowthYoy": 16,
             "roce": 25,
@@ -462,6 +488,7 @@
             "ebitda": 627.6,
             "ebitdaMargin": 12.9,
             "pat": 232.9,
+            "patMargin": 4.81,
             "netDebt": 1521.6,
             "capexAnnounced": 3435,
             "revenueGrowthYoy": 14,
@@ -522,12 +549,15 @@
             "ebitda": 2095,
             "ebitdaMargin": 11.48,
             "pat": 31,
+            "patMargin": 0.17,
             "netDebt": 1551.8,
             "capexAnnounced": 788.2,
             "revenueGrowthYoy": 14,
             "roce": 18,
             "revenuePerBedYearly": 92241183,
             "ebitdaPerBedYearly": 10592845,
+            "ebitdaTtmCr": 3719.8,
+            "netDebtToEbitda": 0.42,
             "bedTurnoverYearly": 73.23,
             "bedActivationPct": 83.5,
             "enterpriseValueCr": 120550.9,
@@ -583,12 +613,15 @@
             "ebitda": 640.5,
             "ebitdaMargin": 12.9,
             "pat": 253.8,
+            "patMargin": 1.34,
             "netDebt": 1504,
             "capexAnnounced": 3435,
             "revenueGrowthYoy": 15,
             "roce": 26.1,
             "revenuePerBedYearly": 95385777,
             "ebitdaPerBedYearly": 3224670,
+            "ebitdaTtmCr": 3872.1,
+            "netDebtToEbitda": 0.39,
             "bedTurnoverYearly": 71.55,
             "bedActivationPct": 83.6,
             "enterpriseValueCr": 120503.1,
@@ -644,12 +677,15 @@
             "ebitda": 675.1,
             "ebitdaMargin": 13.3,
             "pat": 305.1,
+            "patMargin": 6,
             "netDebt": 1456.5,
             "capexAnnounced": 3435,
             "revenueGrowthYoy": 15,
             "roce": 27.1,
             "revenuePerBedYearly": 21726370,
             "ebitdaPerBedYearly": 2884118,
+            "ebitdaTtmCr": 4038.2,
+            "netDebtToEbitda": 0.36,
             "bedTurnoverYearly": 62.74,
             "bedActivationPct": 92.5,
             "enterpriseValueCr": 120455.6,
@@ -695,12 +731,15 @@
             "ebitda": 107.8,
             "ebitdaMargin": 5.05,
             "pat": 711.2,
+            "patMargin": 33.31,
             "netDebt": -280.2,
             "capexAnnounced": 6100,
             "revenueGrowthYoy": 15,
             "roce": 27.6,
             "revenuePerBedYearly": 9064629,
             "ebitdaPerBedYearly": 457604,
+            "ebitdaTtmCr": 3518.4,
+            "netDebtToEbitda": -0.08,
             "bedTurnoverYearly": 67.91,
             "bedActivationPct": 92.9,
             "enterpriseValueCr": 118718.9,
@@ -751,12 +790,15 @@
             "ebitda": 761.5,
             "ebitdaMargin": 13.8,
             "pat": 372.3,
+            "patMargin": 6.74,
             "netDebt": -137.4,
             "capexAnnounced": 6100,
             "revenueGrowthYoy": 14,
             "roce": 29,
             "revenuePerBedYearly": 23446389,
             "ebitdaPerBedYearly": 3230459,
+            "ebitdaTtmCr": 2184.9,
+            "netDebtToEbitda": -0.06,
             "bedTurnoverYearly": 64.05,
             "bedActivationPct": 92.7,
             "enterpriseValueCr": 118861.7,
@@ -807,12 +849,15 @@
             "ebitda": 769.8,
             "ebitdaMargin": 13.8,
             "pat": 389.6,
+            "patMargin": 6.97,
             "netDebt": -10.9,
             "capexAnnounced": 7603,
             "revenueGrowthYoy": 13,
             "roce": 27.5,
             "revenuePerBedYearly": 23650666,
             "ebitdaPerBedYearly": 3255657,
+            "ebitdaTtmCr": 2314.2,
+            "netDebtToEbitda": 0,
             "bedTurnoverYearly": 61.93,
             "bedActivationPct": 92.8,
             "enterpriseValueCr": 118988.2,
@@ -868,9 +913,11 @@
             "ebitda": 1825,
             "ebitdaMargin": 8.42,
             "pat": 3,
+            "patMargin": 0.01,
             "revenueGrowthYoy": 15,
             "revenuePerBedYearly": 107990037,
             "ebitdaPerBedYearly": 9090909,
+            "ebitdaTtmCr": 3464.1,
             "bedActivationPct": 80.3,
             "enterpriseValueCr": 118999.1,
             "evToEbitdaAnnualised": 16.3,
@@ -914,12 +961,15 @@
             "ebitda": 941.2,
             "ebitdaMargin": 14.9,
             "pat": 477.2,
+            "patMargin": 7.57,
             "netDebt": -332.6,
             "capexAnnounced": 8300,
             "revenueGrowthYoy": 13,
             "roce": 30.3,
             "revenuePerBedYearly": 26588632,
             "ebitdaPerBedYearly": 3970052,
+            "ebitdaTtmCr": 4297.5,
+            "netDebtToEbitda": -0.08,
             "bedTurnoverYearly": 68.72,
             "bedActivationPct": 93,
             "enterpriseValueCr": 118666.5,
@@ -965,12 +1015,15 @@
             "ebitda": 965.3,
             "ebitdaMargin": 14.9,
             "pat": 502.3,
+            "patMargin": 7.75,
             "netDebt": -299.6,
             "capexAnnounced": 8200,
             "revenueGrowthYoy": 17,
             "roce": 29.5,
             "revenuePerBedYearly": 27099257,
             "ebitdaPerBedYearly": 4038490,
+            "ebitdaTtmCr": 4501.3,
+            "netDebtToEbitda": -0.07,
             "bedTurnoverYearly": 66.01,
             "bedActivationPct": 92.6,
             "enterpriseValueCr": 118699.5,
@@ -1005,12 +1058,16 @@
             "ebitda": 1010.9,
             "ebitdaMargin": 15.3,
             "pat": 529.2,
+            "patMargin": 8.01,
             "netDebt": 865.9,
             "capexAnnounced": 8300,
             "revenueGrowthYoy": 18,
+            "revenueCagr3yr": 15.36,
             "roce": 25.4,
             "revenuePerBedYearly": 27465696,
             "ebitdaPerBedYearly": 4203326,
+            "ebitdaTtmCr": 4742.4,
+            "netDebtToEbitda": 0.18,
             "bedTurnoverYearly": 65.17,
             "bedActivationPct": 87.7,
             "enterpriseValueCr": 119865,
@@ -1075,6 +1132,7 @@
             "ebitda": 436,
             "ebitdaMargin": 26.8,
             "pat": 291,
+            "patMargin": 17.86,
             "netDebt": -957,
             "capexAnnounced": 38,
             "revenueGrowthYoy": 17,
@@ -1138,6 +1196,7 @@
             "ebitda": 497,
             "ebitdaMargin": 28.7,
             "pat": 338,
+            "patMargin": 18.5,
             "netDebt": -1993,
             "capexAnnounced": 90,
             "revenueGrowthYoy": 17,
@@ -1190,6 +1249,7 @@
             "ebitda": 471,
             "ebitdaMargin": 27.9,
             "pat": 338,
+            "patMargin": 20.01,
             "netDebt": 1295,
             "capexAnnounced": 552,
             "revenueGrowthYoy": 14,
@@ -1264,12 +1324,15 @@
             "ebitda": 503,
             "ebitdaMargin": 27.9,
             "pat": 311,
+            "patMargin": 16.46,
             "netDebt": 22,
             "capexAnnounced": 176,
             "revenueGrowthYoy": 15,
             "roce": 28,
             "revenuePerBedYearly": 378000000,
             "ebitdaPerBedYearly": 100600000,
+            "ebitdaTtmCr": 1907,
+            "netDebtToEbitda": 0.01,
             "bedTurnoverYearly": 1163.06,
             "bedActivationPct": 5,
             "enterpriseValueCr": 96874.4,
@@ -1334,12 +1397,15 @@
             "ebitda": 499,
             "ebitdaMargin": 25.8,
             "pat": 295,
+            "patMargin": 15.25,
             "netDebt": -66,
             "capexAnnounced": 1344,
             "revenueGrowthYoy": 19,
             "roce": 33,
             "revenuePerBedYearly": 823404255,
             "ebitdaPerBedYearly": 212340426,
+            "ebitdaTtmCr": 1970,
+            "netDebtToEbitda": -0.03,
             "bedTurnoverYearly": 2808.98,
             "bedActivationPct": 2.2,
             "enterpriseValueCr": 96786.4,
@@ -1408,10 +1474,13 @@
             "ebitda": 566,
             "ebitdaMargin": 26.6,
             "pat": 349,
+            "patMargin": 15.66,
             "netDebt": 313,
             "capexAnnounced": 217,
             "revenueGrowthYoy": 22,
             "roce": 27.1,
+            "ebitdaTtmCr": 2039,
+            "netDebtToEbitda": 0.15,
             "enterpriseValueCr": 97165.4,
             "evToEbitdaAnnualised": 42.92,
             "peAnnualised": 69.38
@@ -1465,9 +1534,12 @@
             "ebitda": 622,
             "ebitdaMargin": 27.3,
             "pat": 390,
+            "patMargin": 16.38,
             "netDebt": 1608,
             "revenueGrowthYoy": 34,
             "roce": 24.6,
+            "ebitdaTtmCr": 2190,
+            "netDebtToEbitda": 0.73,
             "enterpriseValueCr": 98460.4,
             "evToEbitdaAnnualised": 39.57,
             "peAnnualised": 62.08
@@ -1522,12 +1594,15 @@
             "ebitda": 632,
             "ebitdaMargin": 27.2,
             "pat": 376,
+            "patMargin": 15.48,
             "netDebt": 1576,
             "capexAnnounced": 390,
             "revenueGrowthYoy": 29,
             "roce": 23.8,
             "revenuePerBedYearly": 20876665,
             "ebitdaPerBedYearly": 5431887,
+            "ebitdaTtmCr": 2319,
+            "netDebtToEbitda": 0.68,
             "bedTurnoverYearly": 67.63,
             "bedActivationPct": 91.3,
             "enterpriseValueCr": 98428.4,
@@ -1592,10 +1667,13 @@
             "ebitda": 613,
             "ebitdaMargin": 24.9,
             "pat": 345,
+            "patMargin": 14.02,
             "netDebt": 1755,
             "capexAnnounced": 6434,
             "revenueGrowthYoy": 27,
             "roce": 25.9,
+            "ebitdaTtmCr": 2433,
+            "netDebtToEbitda": 0.72,
             "enterpriseValueCr": 98607.4,
             "evToEbitdaAnnualised": 40.22,
             "peAnnualised": 70.18
@@ -1651,12 +1729,15 @@
             "ebitda": 694,
             "ebitdaMargin": 26.9,
             "pat": 554,
+            "patMargin": 20.58,
             "netDebt": 2067,
             "capexAnnounced": 456,
             "revenueGrowthYoy": 21,
             "roce": 23.2,
             "revenuePerBedYearly": 22621849,
             "ebitdaPerBedYearly": 5831933,
+            "ebitdaTtmCr": 2561,
+            "netDebtToEbitda": 0.81,
             "bedTurnoverYearly": 73.64,
             "bedActivationPct": 91.5,
             "enterpriseValueCr": 98919.4,
@@ -1706,12 +1787,15 @@
             "ebitda": 648,
             "ebitdaMargin": 26.1,
             "pat": 344,
+            "patMargin": 13.19,
             "netDebt": 2166,
             "capexAnnounced": 7157,
             "revenueGrowthYoy": 9,
             "roce": 25.9,
             "revenuePerBedYearly": 21495982,
             "ebitdaPerBedYearly": 5341026,
+            "ebitdaTtmCr": 2587,
+            "netDebtToEbitda": 0.84,
             "bedTurnoverYearly": 67.57,
             "bedActivationPct": 93.3,
             "enterpriseValueCr": 99018.4,
@@ -1796,12 +1880,15 @@
             "ebitda": 682,
             "ebitdaMargin": 26.8,
             "pat": 387,
+            "patMargin": 14.53,
             "netDebt": 1908,
             "capexAnnounced": 1400,
             "revenueGrowthYoy": 10,
             "roce": 20.9,
             "revenuePerBedYearly": 21457914,
             "ebitdaPerBedYearly": 5493355,
+            "ebitdaTtmCr": 2637,
+            "netDebtToEbitda": 0.72,
             "bedTurnoverYearly": 65.88,
             "bedActivationPct": 82.8,
             "enterpriseValueCr": 98760.4,
@@ -1849,9 +1936,13 @@
             "ebitda": 682,
             "ebitdaMargin": 26.8,
             "pat": 387,
+            "patMargin": 14.53,
             "netDebt": 1908,
             "revenueGrowthYoy": 9,
+            "revenueCagr3yr": 17.82,
             "roce": 23.1,
+            "ebitdaTtmCr": 2706,
+            "netDebtToEbitda": 0.71,
             "enterpriseValueCr": 98760.4,
             "evToEbitdaAnnualised": 36.2,
             "peAnnualised": 62.57
@@ -1910,6 +2001,7 @@
             "ebitda": 206.4,
             "ebitdaMargin": 15.2,
             "pat": 122.5,
+            "patMargin": 9.05,
             "netDebt": 393,
             "capexAnnounced": 300,
             "revenueGrowthYoy": 11.4,
@@ -1970,6 +2062,7 @@
             "ebitda": 268,
             "ebitdaMargin": 18.4,
             "pat": 184,
+            "patMargin": 12.66,
             "netDebt": 393,
             "revenueGrowthYoy": 10.1,
             "revenuePerBedYearly": 12915556,
@@ -2025,6 +2118,7 @@
             "ebitda": 284,
             "ebitdaMargin": 16.9,
             "pat": 134,
+            "patMargin": 7.98,
             "netDebt": 518,
             "revenueGrowthYoy": 7.7,
             "revenuePerBedYearly": 14933333,
@@ -2078,8 +2172,11 @@
             "ebitda": 290.78,
             "ebitdaMargin": 17.3,
             "pat": 134.23,
+            "patMargin": 7.99,
             "netDebt": 518,
             "revenueGrowthYoy": 8,
+            "ebitdaTtmCr": 1049.2,
+            "netDebtToEbitda": 0.49,
             "enterpriseValueCr": 73046.8,
             "evToEbitdaAnnualised": 62.8,
             "peAnnualised": 135.08
@@ -2125,11 +2222,14 @@
             "ebitda": 287,
             "ebitdaMargin": 18.5,
             "pat": 174,
+            "patMargin": 11.23,
             "netDebt": 308,
             "capexAnnounced": 1200,
             "revenueGrowthYoy": 14.4,
             "revenuePerBedYearly": 13469565,
             "ebitdaPerBedYearly": 2495652,
+            "ebitdaTtmCr": 1129.8,
+            "netDebtToEbitda": 0.27,
             "bedTurnoverYearly": 2.36,
             "bedActivationPct": 71.9,
             "enterpriseValueCr": 72836.8,
@@ -2202,10 +2302,13 @@
             "ebitda": 355,
             "ebitdaMargin": 21.4,
             "pat": 193,
+            "patMargin": 11.66,
             "netDebt": 281,
             "revenueGrowthYoy": 12.3,
             "revenuePerBedYearly": 22524668,
             "ebitdaPerBedYearly": 4831575,
+            "ebitdaTtmCr": 1216.8,
+            "netDebtToEbitda": 0.23,
             "bedTurnoverYearly": 4,
             "bedActivationPct": 62.5,
             "enterpriseValueCr": 72809.8,
@@ -2264,10 +2367,13 @@
             "ebitda": 375,
             "ebitdaMargin": 19.4,
             "pat": 254,
+            "patMargin": 13.17,
             "netDebt": 644,
             "revenueGrowthYoy": 14.8,
             "revenuePerBedYearly": 27641577,
             "ebitdaPerBedYearly": 5376344,
+            "ebitdaTtmCr": 1307.8,
+            "netDebtToEbitda": 0.49,
             "bedTurnoverYearly": 45.39,
             "bedActivationPct": 59.4,
             "enterpriseValueCr": 73172.8,
@@ -2326,9 +2432,11 @@
             "ebitda": 396.01,
             "ebitdaMargin": 20.54,
             "pat": 254.3,
+            "patMargin": 13.19,
             "capexAnnounced": 462,
             "revenuePerBedYearly": 16410723,
             "ebitdaPerBedYearly": 3370298,
+            "ebitdaTtmCr": 1413,
             "bedTurnoverYearly": 21.58,
             "bedActivationPct": 100,
             "enterpriseValueCr": 72528.8,
@@ -2372,11 +2480,14 @@
             "ebitda": 491,
             "ebitdaMargin": 22.6,
             "pat": 260,
+            "patMargin": 12,
             "netDebt": 1869,
             "capexAnnounced": 200,
             "revenueGrowthYoy": 16.6,
             "revenuePerBedYearly": 15207018,
             "ebitdaPerBedYearly": 3445614,
+            "ebitdaTtmCr": 1617,
+            "netDebtToEbitda": 1.16,
             "bedTurnoverYearly": 2.05,
             "bedActivationPct": 76,
             "enterpriseValueCr": 74397.8,
@@ -2435,10 +2546,13 @@
             "ebitda": 452,
             "ebitdaMargin": 22.9,
             "pat": 329,
+            "patMargin": 16.67,
             "netDebt": 2219,
             "revenueGrowthYoy": 19.3,
             "revenuePerBedYearly": 13613793,
             "ebitdaPerBedYearly": 3117241,
+            "ebitdaTtmCr": 1714,
+            "netDebtToEbitda": 1.29,
             "bedTurnoverYearly": 2.29,
             "bedActivationPct": 76.3,
             "enterpriseValueCr": 74747.8,
@@ -2517,11 +2631,14 @@
             "ebitda": 420,
             "ebitdaMargin": 21.7,
             "pat": 194,
+            "patMargin": 10.01,
             "netDebt": 2547,
             "capexAnnounced": 410,
             "revenueGrowthYoy": 19.4,
             "revenuePerBedYearly": 12920000,
             "ebitdaPerBedYearly": 2800000,
+            "ebitdaTtmCr": 1759,
+            "netDebtToEbitda": 1.45,
             "bedTurnoverYearly": 2.13,
             "bedActivationPct": 78.9,
             "enterpriseValueCr": 75075.8,
@@ -2576,11 +2693,14 @@
             "ebitda": 114.98,
             "ebitdaMargin": 25.92,
             "pat": 28.4,
+            "patMargin": 4.19,
             "netDebt": 2547,
             "capexAnnounced": 430,
             "revenueGrowthYoy": 17.5,
             "revenuePerBedYearly": 4598576,
             "ebitdaPerBedYearly": 779525,
+            "ebitdaTtmCr": 1478,
+            "netDebtToEbitda": 1.72,
             "bedTurnoverYearly": 2.01,
             "bedActivationPct": 77.6,
             "enterpriseValueCr": 75075.8,
@@ -2633,10 +2753,14 @@
             "ebitda": 446,
             "ebitdaMargin": 22.1,
             "pat": 271,
+            "patMargin": 13.4,
             "netDebt": 2334,
             "revenueGrowthYoy": 19,
+            "revenueCagr3yr": 14.32,
             "revenuePerBedYearly": 13265574,
             "ebitdaPerBedYearly": 2924590,
+            "ebitdaTtmCr": 1433,
+            "netDebtToEbitda": 1.63,
             "bedTurnoverYearly": 2.19,
             "enterpriseValueCr": 74862.8,
             "evToEbitdaAnnualised": 41.96,
@@ -2720,6 +2844,7 @@
             "ebitda": 1915,
             "ebitdaMargin": 26.2,
             "pat": 1011,
+            "patMargin": 14.37,
             "netDebt": -469.2,
             "capexAnnounced": 284.6,
             "revenueGrowthYoy": 37.3,
@@ -2784,6 +2909,7 @@
             "ebitda": 233.6,
             "ebitdaMargin": 27,
             "pat": 125.2,
+            "patMargin": 14.48,
             "netDebt": -604,
             "capexAnnounced": 127.6,
             "revenueGrowthYoy": 24.5,
@@ -2856,6 +2982,7 @@
             "ebitda": 17060.37,
             "ebitdaMargin": 27.4,
             "pat": 12516.09,
+            "patMargin": 14.83,
             "netDebt": 10000,
             "capexAnnounced": 5000,
             "revenueGrowthYoy": 21,
@@ -2895,10 +3022,12 @@
             "ebitda": 234,
             "ebitdaMargin": 27.4,
             "pat": 123.5,
+            "patMargin": 14.45,
             "capexAnnounced": 17.7,
             "revenueGrowthYoy": 21,
             "revenuePerBedYearly": 15375619,
             "ebitdaPerBedYearly": 4210526,
+            "ebitdaTtmCr": 19443,
             "bedTurnoverYearly": 71.51,
             "bedActivationPct": 81.6,
             "enterpriseValueCr": 32509.6,
@@ -2948,11 +3077,14 @@
             "ebitda": 873.7,
             "ebitdaMargin": 26.1,
             "pat": 478.1,
+            "patMargin": 14.27,
             "netDebt": -772,
             "capexAnnounced": 303.5,
             "revenueGrowthYoy": 21.4,
             "revenuePerBedYearly": 60059166,
             "ebitdaPerBedYearly": 15664724,
+            "ebitdaTtmCr": 18401.7,
+            "netDebtToEbitda": -0.04,
             "bedTurnoverYearly": 279.54,
             "bedActivationPct": 79,
             "enterpriseValueCr": 31737.6,
@@ -3012,11 +3144,14 @@
             "ebitda": 208.2,
             "ebitdaMargin": 23.6,
             "pat": 106.3,
+            "patMargin": 12.04,
             "netDebt": -718.6,
             "capexAnnounced": 250,
             "revenueGrowthYoy": 11.1,
             "revenuePerBedYearly": 15004248,
             "ebitdaPerBedYearly": 3537808,
+            "ebitdaTtmCr": 18376.3,
+            "netDebtToEbitda": -0.04,
             "bedTurnoverYearly": 70.17,
             "bedActivationPct": 81.5,
             "enterpriseValueCr": 31791,
@@ -3067,12 +3202,15 @@
             "ebitda": 2053.43,
             "ebitdaMargin": 21.77,
             "pat": 130.8,
+            "patMargin": 1.39,
             "netDebt": -718.6,
             "capexAnnounced": 370.2,
             "revenueGrowthYoy": 12.7,
             "roce": 12.5,
             "revenuePerBedYearly": 154282257,
             "ebitdaPerBedYearly": 33580213,
+            "ebitdaTtmCr": 3369.3,
+            "netDebtToEbitda": -0.21,
             "bedTurnoverYearly": 73.87,
             "bedActivationPct": 81.3,
             "enterpriseValueCr": 31791,
@@ -3132,10 +3270,12 @@
             "ebitda": 253.8,
             "ebitdaMargin": 26.5,
             "pat": 142.9,
+            "patMargin": 14.89,
             "capexAnnounced": 442,
             "revenueGrowthYoy": 12.3,
             "revenuePerBedYearly": 15475806,
             "ebitdaPerBedYearly": 4093548,
+            "ebitdaTtmCr": 3389.1,
             "bedTurnoverYearly": 72.35,
             "bedActivationPct": 81.5,
             "enterpriseValueCr": 32509.6,
@@ -3175,11 +3315,14 @@
             "ebitda": 2490.12,
             "ebitdaMargin": 28.23,
             "pat": 4813,
+            "patMargin": 54.56,
             "netDebt": -812.3,
             "capexAnnounced": 644.9,
             "revenueGrowthYoy": 12.6,
             "revenuePerBedYearly": 142283226,
             "ebitdaPerBedYearly": 40163226,
+            "ebitdaTtmCr": 5005.5,
+            "netDebtToEbitda": -0.16,
             "bedTurnoverYearly": 281,
             "bedActivationPct": 81.5,
             "enterpriseValueCr": 31697.3,
@@ -3254,10 +3397,12 @@
             "ebitda": 2647.66,
             "ebitdaMargin": 28.58,
             "pat": 159,
+            "patMargin": 1.72,
             "capexAnnounced": 195,
             "revenueGrowthYoy": 19.1,
             "revenuePerBedYearly": 149003297,
             "ebitdaPerBedYearly": 42583997,
+            "ebitdaTtmCr": 7445,
             "bedTurnoverYearly": 75.83,
             "bedActivationPct": 81.2,
             "enterpriseValueCr": 32509.6,
@@ -3312,11 +3457,14 @@
             "ebitda": 249.4,
             "ebitdaMargin": 21.8,
             "pat": 95,
+            "patMargin": 8.31,
             "netDebt": -708.2,
             "capexAnnounced": 624.6,
             "revenueGrowthYoy": 19.1,
             "revenuePerBedYearly": 139365854,
             "ebitdaPerBedYearly": 30414634,
+            "ebitdaTtmCr": 5641,
+            "netDebtToEbitda": -0.13,
             "bedTurnoverYearly": 625.3,
             "bedActivationPct": 9.2,
             "enterpriseValueCr": 31801.4,
@@ -3386,11 +3534,14 @@
             "ebitda": 249.4,
             "ebitdaMargin": 21.8,
             "pat": 79.907,
+            "patMargin": 84.99,
             "netDebt": -600,
             "capexAnnounced": 550,
             "revenueGrowthYoy": 19,
             "revenuePerBedYearly": 11465427,
             "ebitdaPerBedYearly": 30414634,
+            "ebitdaTtmCr": 5636.6,
+            "netDebtToEbitda": -0.11,
             "bedTurnoverYearly": 115.85,
             "bedActivationPct": 12.3,
             "enterpriseValueCr": 31909.6,
@@ -3440,12 +3591,15 @@
             "ebitda": 290.6,
             "ebitdaMargin": 24.3,
             "pat": 141.7,
+            "patMargin": 11.85,
             "netDebt": -590.6,
             "capexAnnounced": 940,
             "revenueGrowthYoy": 25.3,
             "roce": 21.3,
             "revenuePerBedYearly": 17476069,
             "ebitdaPerBedYearly": 4246986,
+            "ebitdaTtmCr": 3437.1,
+            "netDebtToEbitda": -0.17,
             "bedTurnoverYearly": 77.11,
             "bedActivationPct": 74.7,
             "enterpriseValueCr": 31919,
@@ -3549,6 +3703,7 @@
             "ebitda": 285.8,
             "ebitdaMargin": 23.2,
             "pat": 184,
+            "patMargin": 149.11,
             "netDebt": 18.8,
             "capexAnnounced": 110,
             "revenueGrowthYoy": 19.4,
@@ -3599,6 +3754,7 @@
             "ebitda": 326.5,
             "ebitdaMargin": 25,
             "pat": 22.67,
+            "patMargin": 17.37,
             "netDebt": 86.3,
             "capexAnnounced": 394,
             "revenueGrowthYoy": 14.3,
@@ -3660,10 +3816,13 @@
             "ebitda": 29.68,
             "ebitdaMargin": 24.7,
             "pat": 18.81,
+            "patMargin": 15.63,
             "netDebt": -2.51,
             "revenueGrowthYoy": 6.7,
             "revenuePerBedYearly": 2581448,
             "ebitdaPerBedYearly": 636568,
+            "ebitdaTtmCr": 932.4,
+            "netDebtToEbitda": 0,
             "bedTurnoverYearly": 1.3,
             "bedActivationPct": 35.2,
             "enterpriseValueCr": 39222.5,
@@ -3707,9 +3866,12 @@
             "ebitda": 31.84,
             "ebitdaMargin": 24.9,
             "pat": 31,
+            "patMargin": 0.37,
             "netDebt": 1840,
             "capexAnnounced": 900,
             "revenueGrowthYoy": 4.7,
+            "ebitdaTtmCr": 673.8,
+            "netDebtToEbitda": 2.73,
             "enterpriseValueCr": 41065,
             "evToEbitdaAnnualised": 322.43,
             "peAnnualised": 316.33
@@ -3756,11 +3918,14 @@
             "ebitda": 3274,
             "ebitdaMargin": 24.4,
             "pat": 2015,
+            "patMargin": 23.11,
             "netDebt": 1549,
             "capexAnnounced": 28000,
             "revenueGrowthYoy": 8.7,
             "revenuePerBedYearly": 87307061,
             "ebitdaPerBedYearly": 32789184,
+            "ebitdaTtmCr": 3662,
+            "netDebtToEbitda": 0.42,
             "bedTurnoverYearly": 130.2,
             "bedActivationPct": 73.5,
             "enterpriseValueCr": 40774,
@@ -3825,11 +3990,14 @@
             "ebitda": 2324.74,
             "ebitdaMargin": 16.6,
             "pat": 1988,
+            "patMargin": 14.2,
             "netDebt": 2684,
             "capexAnnounced": 530,
             "revenueGrowthYoy": 7.3,
             "revenuePerBedYearly": 100912772,
             "ebitdaPerBedYearly": 16751865,
+            "ebitdaTtmCr": 5660.3,
+            "netDebtToEbitda": 0.47,
             "bedTurnoverYearly": 97.35,
             "bedActivationPct": 96.4,
             "enterpriseValueCr": 41909,
@@ -3884,10 +4052,13 @@
             "ebitda": 325.4,
             "ebitdaMargin": 23.8,
             "pat": 193.1,
+            "patMargin": 2.23,
             "netDebt": 28.37,
             "revenueGrowthYoy": 13.5,
             "revenuePerBedYearly": 85669027,
             "ebitdaPerBedYearly": 3222580,
+            "ebitdaTtmCr": 5956,
+            "netDebtToEbitda": 0,
             "bedTurnoverYearly": 0.7,
             "bedActivationPct": 72,
             "enterpriseValueCr": 39253.4,
@@ -3928,6 +4099,8 @@
             "ebitda": 165.316,
             "ebitdaMargin": 19.06,
             "pat": 79.223,
+            "patMargin": 91.58,
+            "ebitdaTtmCr": 6089.5,
             "enterpriseValueCr": 39225,
             "evToEbitdaAnnualised": 59.32,
             "peAnnualised": 123.78
@@ -3969,11 +4142,14 @@
             "ebitda": 36.07,
             "ebitdaMargin": 23.9,
             "pat": 19.61,
+            "patMargin": 0.13,
             "netDebt": 343,
             "capexAnnounced": 668,
             "revenueGrowthYoy": 15.4,
             "revenuePerBedYearly": 117309388,
             "ebitdaPerBedYearly": 274192,
+            "ebitdaTtmCr": 2851.5,
+            "netDebtToEbitda": 0.12,
             "bedTurnoverYearly": 0.44,
             "bedActivationPct": 100,
             "enterpriseValueCr": 39568,
@@ -4042,11 +4218,14 @@
             "ebitda": 426.5,
             "ebitdaMargin": 25.9,
             "pat": 258.3,
+            "patMargin": 1.53,
             "netDebt": 246.6,
             "capexAnnounced": 420,
             "revenueGrowthYoy": 20.3,
             "revenuePerBedYearly": 128074339,
             "ebitdaPerBedYearly": 3245197,
+            "ebitdaTtmCr": 953.3,
+            "netDebtToEbitda": 0.26,
             "bedTurnoverYearly": 0.47,
             "bedActivationPct": 100,
             "enterpriseValueCr": 39471.6,
@@ -4102,10 +4281,13 @@
             "ebitda": 39.04,
             "ebitdaMargin": 18.2,
             "pat": -13.01,
+            "patMargin": -0.13,
             "netDebt": 2232.1,
             "revenueGrowthYoy": 61.2,
             "revenuePerBedYearly": 73032868,
             "ebitdaPerBedYearly": 294308,
+            "ebitdaTtmCr": 666.9,
+            "netDebtToEbitda": 3.35,
             "bedTurnoverYearly": 118.51,
             "bedActivationPct": 85,
             "enterpriseValueCr": 41457.1,
@@ -4172,10 +4354,13 @@
             "ebitda": 22.06,
             "ebitdaMargin": 22.83,
             "pat": 75.74,
+            "patMargin": 78.19,
             "netDebt": 223.97,
             "revenueGrowthYoy": 75.8,
             "revenuePerBedYearly": 656746,
             "ebitdaPerBedYearly": 149559,
+            "ebitdaTtmCr": 523.7,
+            "netDebtToEbitda": 0.43,
             "bedActivationPct": 95.2,
             "enterpriseValueCr": 39449,
             "evToEbitdaAnnualised": 447.06,
@@ -4217,10 +4402,13 @@
             "ebitda": 539.2,
             "ebitdaMargin": 20.8,
             "pat": 228,
+            "patMargin": 8.79,
             "netDebt": 2239.7,
             "revenueGrowthYoy": 75.8,
             "revenuePerBedYearly": 19033572,
             "ebitdaPerBedYearly": 3956705,
+            "ebitdaTtmCr": 1026.8,
+            "netDebtToEbitda": 2.18,
             "bedTurnoverYearly": 0.12,
             "bedActivationPct": 87.3,
             "enterpriseValueCr": 41464.7,
@@ -4273,6 +4461,7 @@
           "metrics": {
             "revenue": 429.46,
             "pat": 31,
+            "patMargin": 7.22,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 309.64
           },
@@ -4290,6 +4479,7 @@
           "metrics": {
             "revenue": 509.21,
             "pat": 0.01,
+            "patMargin": 0,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 959884
           },
@@ -4307,6 +4497,7 @@
           "metrics": {
             "revenue": 524.5,
             "pat": 162.17,
+            "patMargin": 30.92,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 59.19
           },
@@ -4326,6 +4517,7 @@
             "ebitda": 13.02,
             "ebitdaMargin": 2.39,
             "pat": 3.9,
+            "patMargin": 0.71,
             "enterpriseValueCr": 38395.4,
             "evToEbitdaAnnualised": 737.24,
             "peAnnualised": 2461.24
@@ -4346,6 +4538,7 @@
             "ebitda": -20.82,
             "ebitdaMargin": -3.68,
             "pat": 17.18,
+            "patMargin": 3.04,
             "enterpriseValueCr": 38395.4,
             "evToEbitdaAnnualised": -461.04,
             "peAnnualised": 558.72
@@ -4364,6 +4557,7 @@
           "metrics": {
             "revenue": 613.04,
             "pat": 0.12,
+            "patMargin": 0.02,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 79990.33
           },
@@ -4381,6 +4575,7 @@
           "metrics": {
             "revenue": 681.81,
             "pat": 0.19,
+            "patMargin": 0.03,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 50520.21
           },
@@ -4398,6 +4593,7 @@
           "metrics": {
             "revenue": 655.1,
             "pat": 31,
+            "patMargin": 4.73,
             "enterpriseValueCr": 38395.4,
             "peAnnualised": 309.64
           },
@@ -4428,6 +4624,7 @@
             "ebitda": 244,
             "ebitdaMargin": 20.7,
             "pat": 140,
+            "patMargin": 11.84,
             "netDebt": -626,
             "capexAnnounced": 549,
             "revenueGrowthYoy": 18,
@@ -4531,6 +4728,7 @@
           "metrics": {
             "revenue": 25819,
             "pat": 31,
+            "patMargin": 0.12,
             "enterpriseValueCr": 9846.5,
             "peAnnualised": 79.41
           },
@@ -4548,6 +4746,7 @@
           "metrics": {
             "revenue": 26650,
             "pat": 1,
+            "patMargin": 0,
             "enterpriseValueCr": 9846.5,
             "peAnnualised": 2461.62
           },
@@ -4606,6 +4805,7 @@
             "ebitda": 406.77,
             "ebitdaMargin": 15.05,
             "pat": 17,
+            "patMargin": 0.63,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 8.59,
             "peAnnualised": 205.62
@@ -4624,6 +4824,7 @@
           "metrics": {
             "revenue": 3186.65,
             "pat": 17,
+            "patMargin": 0.53,
             "enterpriseValueCr": 13982.2,
             "peAnnualised": 205.62
           },
@@ -4679,6 +4880,7 @@
             "ebitda": 512.04,
             "ebitdaMargin": 12.86,
             "pat": 19.69,
+            "patMargin": 0.49,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.83,
             "peAnnualised": 177.53
@@ -4699,6 +4901,8 @@
             "ebitda": 500.63,
             "ebitdaMargin": 14.14,
             "pat": 1,
+            "patMargin": 0.03,
+            "ebitdaTtmCr": 2031.6,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.98,
             "peAnnualised": 3495.54
@@ -4719,6 +4923,8 @@
             "ebitda": 510.86,
             "ebitdaMargin": 14.47,
             "pat": 20,
+            "patMargin": 0.57,
+            "ebitdaTtmCr": 2030.7,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.84,
             "peAnnualised": 174.78
@@ -4753,6 +4959,7 @@
             "ebitda": 588.7,
             "ebitdaMargin": 14.93,
             "pat": 30.54,
+            "patMargin": 0.77,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 5.94,
             "peAnnualised": 114.46
@@ -4798,6 +5005,7 @@
             "ebitda": 565.68,
             "ebitdaMargin": 27.21,
             "pat": 304.4,
+            "patMargin": 14.64,
             "enterpriseValueCr": 8713.4,
             "evToEbitdaAnnualised": 3.85,
             "peAnnualised": 7.16
@@ -4871,6 +5079,7 @@
             "ebitda": 1382.47,
             "ebitdaMargin": 59.65,
             "pat": 218.96,
+            "patMargin": 9.45,
             "enterpriseValueCr": 7838.9,
             "evToEbitdaAnnualised": 1.42,
             "peAnnualised": 8.95
@@ -4891,6 +5100,7 @@
             "ebitda": 420.18,
             "ebitdaMargin": 26.57,
             "pat": 10,
+            "patMargin": 0.63,
             "enterpriseValueCr": 7838.9,
             "evToEbitdaAnnualised": 4.66,
             "peAnnualised": 195.97
@@ -4911,6 +5121,7 @@
             "ebitda": 654.87,
             "ebitdaMargin": 39.96,
             "pat": 237,
+            "patMargin": 14.46,
             "enterpriseValueCr": 7838.9,
             "evToEbitdaAnnualised": 2.99,
             "peAnnualised": 8.27
@@ -6392,6 +6603,129 @@
         }
       }
     },
+    "patMargin": {
+      "label": "PAT margin",
+      "unit": "%",
+      "section": "profitability",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY23-Q4": {
+          "apollo-hospitals": 3.36,
+          "aster-dm": 7.22,
+          "hcg": 0.12
+        },
+        "FY24-Q1": {
+          "apollo-hospitals": 3.77,
+          "max-healthcare": 17.86,
+          "fortis-healthcare": 9.05,
+          "medanta": 14.37,
+          "narayana": 149.11,
+          "rainbow-childrens": 0.63
+        },
+        "FY24-Q2": {
+          "apollo-hospitals": 4.81,
+          "max-healthcare": 18.5,
+          "fortis-healthcare": 12.66,
+          "medanta": 14.48,
+          "narayana": 17.37,
+          "aster-dm": 0,
+          "rainbow-childrens": 0.53,
+          "jupiter-lifeline": 14.64
+        },
+        "FY24-Q3": {
+          "apollo-hospitals": 0.17,
+          "max-healthcare": 20.01,
+          "fortis-healthcare": 7.98,
+          "medanta": 14.83,
+          "narayana": 15.63,
+          "aster-dm": 30.92,
+          "hcg": 0
+        },
+        "FY24-Q4": {
+          "apollo-hospitals": 1.34,
+          "max-healthcare": 16.46,
+          "fortis-healthcare": 7.99,
+          "medanta": 14.45,
+          "narayana": 0.37,
+          "aster-dm": 0.71
+        },
+        "FY25-Q1": {
+          "apollo-hospitals": 6,
+          "max-healthcare": 15.25,
+          "fortis-healthcare": 11.23,
+          "medanta": 14.27,
+          "narayana": 23.11,
+          "aster-dm": 3.04
+        },
+        "FY25-Q2": {
+          "apollo-hospitals": 33.31,
+          "max-healthcare": 15.66,
+          "fortis-healthcare": 11.66,
+          "medanta": 12.04,
+          "narayana": 14.2
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 6.74,
+          "max-healthcare": 16.38,
+          "fortis-healthcare": 13.17,
+          "medanta": 1.39,
+          "narayana": 2.23,
+          "rainbow-childrens": 0.49
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 6.97,
+          "max-healthcare": 15.48,
+          "fortis-healthcare": 13.19,
+          "medanta": 14.89,
+          "narayana": 91.58,
+          "rainbow-childrens": 0.03,
+          "yatharth": 9.45
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 0.01,
+          "max-healthcare": 14.02,
+          "fortis-healthcare": 12,
+          "medanta": 54.56,
+          "narayana": 0.13,
+          "aster-dm": 0.02,
+          "rainbow-childrens": 0.57
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 7.57,
+          "max-healthcare": 20.58,
+          "fortis-healthcare": 16.67,
+          "medanta": 1.72,
+          "narayana": 1.53,
+          "aster-dm": 0.03
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 7.75,
+          "max-healthcare": 13.19,
+          "fortis-healthcare": 10.01,
+          "medanta": 8.31,
+          "narayana": -0.13,
+          "rainbow-childrens": 0.77,
+          "yatharth": 0.63
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 8.01,
+          "max-healthcare": 14.53,
+          "fortis-healthcare": 4.19,
+          "medanta": 84.99,
+          "narayana": 78.19,
+          "aster-dm": 4.73,
+          "yatharth": 14.46
+        },
+        "FY27-Q1": {
+          "max-healthcare": 14.53,
+          "fortis-healthcare": 13.4,
+          "medanta": 11.85,
+          "narayana": 8.79,
+          "aster-dm": 11.84
+        }
+      }
+    },
     "netDebt": {
       "label": "Net debt",
       "unit": "INR Cr",
@@ -6675,6 +7009,22 @@
         }
       }
     },
+    "revenueCagr3yr": {
+      "label": "Revenue CAGR (3yr)",
+      "unit": "%",
+      "section": "profitability",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY26-Q4": {
+          "apollo-hospitals": 15.36
+        },
+        "FY27-Q1": {
+          "max-healthcare": 17.82,
+          "fortis-healthcare": 14.32
+        }
+      }
+    },
     "roce": {
       "label": "ROCE",
       "unit": "%",
@@ -6925,6 +7275,166 @@
           "medanta": 4246986,
           "narayana": 3956705,
           "aster-dm": 934955
+        }
+      }
+    },
+    "ebitdaTtmCr": {
+      "label": "EBITDA (TTM)",
+      "unit": "INR Cr",
+      "section": "financials",
+      "derived": true,
+      "higherIsBetter": true,
+      "byQuarter": {
+        "FY24-Q3": {
+          "apollo-hospitals": 3719.8,
+          "narayana": 932.4
+        },
+        "FY24-Q4": {
+          "apollo-hospitals": 3872.1,
+          "max-healthcare": 1907,
+          "fortis-healthcare": 1049.2,
+          "medanta": 19443,
+          "narayana": 673.8
+        },
+        "FY25-Q1": {
+          "apollo-hospitals": 4038.2,
+          "max-healthcare": 1970,
+          "fortis-healthcare": 1129.8,
+          "medanta": 18401.7,
+          "narayana": 3662
+        },
+        "FY25-Q2": {
+          "apollo-hospitals": 3518.4,
+          "max-healthcare": 2039,
+          "fortis-healthcare": 1216.8,
+          "medanta": 18376.3,
+          "narayana": 5660.3
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": 2184.9,
+          "max-healthcare": 2190,
+          "fortis-healthcare": 1307.8,
+          "medanta": 3369.3,
+          "narayana": 5956
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 2314.2,
+          "max-healthcare": 2319,
+          "fortis-healthcare": 1413,
+          "medanta": 3389.1,
+          "narayana": 6089.5,
+          "rainbow-childrens": 2031.6
+        },
+        "FY26-Q1": {
+          "apollo-hospitals": 3464.1,
+          "max-healthcare": 2433,
+          "fortis-healthcare": 1617,
+          "medanta": 5005.5,
+          "narayana": 2851.5,
+          "rainbow-childrens": 2030.7
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": 4297.5,
+          "max-healthcare": 2561,
+          "fortis-healthcare": 1714,
+          "medanta": 7445,
+          "narayana": 953.3
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": 4501.3,
+          "max-healthcare": 2587,
+          "fortis-healthcare": 1759,
+          "medanta": 5641,
+          "narayana": 666.9
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 4742.4,
+          "max-healthcare": 2637,
+          "fortis-healthcare": 1478,
+          "medanta": 5636.6,
+          "narayana": 523.7
+        },
+        "FY27-Q1": {
+          "max-healthcare": 2706,
+          "fortis-healthcare": 1433,
+          "medanta": 3437.1,
+          "narayana": 1026.8
+        }
+      }
+    },
+    "netDebtToEbitda": {
+      "label": "Net debt / EBITDA",
+      "unit": "x",
+      "section": "balanceSheet",
+      "derived": true,
+      "higherIsBetter": false,
+      "byQuarter": {
+        "FY24-Q3": {
+          "apollo-hospitals": 0.42,
+          "narayana": 0
+        },
+        "FY24-Q4": {
+          "apollo-hospitals": 0.39,
+          "max-healthcare": 0.01,
+          "fortis-healthcare": 0.49,
+          "narayana": 2.73
+        },
+        "FY25-Q1": {
+          "apollo-hospitals": 0.36,
+          "max-healthcare": -0.03,
+          "fortis-healthcare": 0.27,
+          "medanta": -0.04,
+          "narayana": 0.42
+        },
+        "FY25-Q2": {
+          "apollo-hospitals": -0.08,
+          "max-healthcare": 0.15,
+          "fortis-healthcare": 0.23,
+          "medanta": -0.04,
+          "narayana": 0.47
+        },
+        "FY25-Q3": {
+          "apollo-hospitals": -0.06,
+          "max-healthcare": 0.73,
+          "fortis-healthcare": 0.49,
+          "medanta": -0.21,
+          "narayana": 0
+        },
+        "FY25-Q4": {
+          "apollo-hospitals": 0,
+          "max-healthcare": 0.68
+        },
+        "FY26-Q1": {
+          "max-healthcare": 0.72,
+          "fortis-healthcare": 1.16,
+          "medanta": -0.16,
+          "narayana": 0.12
+        },
+        "FY26-Q2": {
+          "apollo-hospitals": -0.08,
+          "max-healthcare": 0.81,
+          "fortis-healthcare": 1.29,
+          "narayana": 0.26
+        },
+        "FY26-Q3": {
+          "apollo-hospitals": -0.07,
+          "max-healthcare": 0.84,
+          "fortis-healthcare": 1.45,
+          "medanta": -0.13,
+          "narayana": 3.35
+        },
+        "FY26-Q4": {
+          "apollo-hospitals": 0.18,
+          "max-healthcare": 0.72,
+          "fortis-healthcare": 1.72,
+          "medanta": -0.11,
+          "narayana": 0.43
+        },
+        "FY27-Q1": {
+          "max-healthcare": 0.71,
+          "fortis-healthcare": 1.63,
+          "medanta": -0.17,
+          "narayana": 2.18
         }
       }
     },
@@ -7799,6 +8309,23 @@
           "rank": 3
         }
       ],
+      "patMargin": [
+        {
+          "slug": "aster-dm",
+          "value": 7.22,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.36,
+          "rank": 2
+        },
+        {
+          "slug": "hcg",
+          "value": 0.12,
+          "rank": 3
+        }
+      ],
       "netDebt": [
         {
           "slug": "apollo-hospitals",
@@ -8314,6 +8841,38 @@
         {
           "slug": "rainbow-childrens",
           "value": 17,
+          "rank": 6
+        }
+      ],
+      "patMargin": [
+        {
+          "slug": "narayana",
+          "value": 149.11,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 17.86,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 14.37,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 9.05,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3.77,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.63,
           "rank": 6
         }
       ],
@@ -9065,6 +9624,48 @@
           "rank": 8
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 18.5,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 17.37,
+          "rank": 2
+        },
+        {
+          "slug": "jupiter-lifeline",
+          "value": 14.64,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 14.48,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 12.66,
+          "rank": 5
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 4.81,
+          "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.53,
+          "rank": 7
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0,
+          "rank": 8
+        }
+      ],
       "netDebt": [
         {
           "slug": "max-healthcare",
@@ -9753,6 +10354,43 @@
           "rank": 7
         }
       ],
+      "patMargin": [
+        {
+          "slug": "aster-dm",
+          "value": 30.92,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 20.01,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 15.63,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 14.83,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 7.98,
+          "rank": 5
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.17,
+          "rank": 6
+        },
+        {
+          "slug": "hcg",
+          "value": 0,
+          "rank": 7
+        }
+      ],
       "netDebt": [
         {
           "slug": "narayana",
@@ -9873,6 +10511,30 @@
           "slug": "narayana",
           "value": 636568,
           "rank": 3
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 3719.8,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 932.4,
+          "rank": 2
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "narayana",
+          "value": 0,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.42,
+          "rank": 2
         }
       ],
       "bedTurnoverYearly": [
@@ -10401,6 +11063,38 @@
           "rank": 6
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 16.46,
+          "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": 14.45,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 7.99,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 1.34,
+          "rank": 4
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.71,
+          "rank": 5
+        },
+        {
+          "slug": "narayana",
+          "value": 0.37,
+          "rank": 6
+        }
+      ],
       "netDebt": [
         {
           "slug": "max-healthcare",
@@ -10516,6 +11210,55 @@
           "slug": "apollo-hospitals",
           "value": 3224670,
           "rank": 3
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 19443,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3872.1,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1907,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1049.2,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 673.8,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "max-healthcare",
+          "value": 0.01,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.39,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 0.49,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 2.73,
+          "rank": 4
         }
       ],
       "bedTurnoverYearly": [
@@ -11109,6 +11852,38 @@
           "rank": 6
         }
       ],
+      "patMargin": [
+        {
+          "slug": "narayana",
+          "value": 23.11,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 15.25,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 14.27,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 11.23,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 3.04,
+          "rank": 6
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -11253,6 +12028,60 @@
         {
           "slug": "fortis-healthcare",
           "value": 2495652,
+          "rank": 5
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 18401.7,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 4038.2,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 3662,
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 1970,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1129.8,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.04,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": -0.03,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 0.27,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.36,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 0.42,
           "rank": 5
         }
       ],
@@ -11857,6 +12686,33 @@
           "rank": 5
         }
       ],
+      "patMargin": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 33.31,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 15.66,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 14.2,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 12.04,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 11.66,
+          "rank": 5
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -11987,6 +12843,60 @@
           "slug": "apollo-hospitals",
           "value": 457604,
           "rank": 4
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 18376.3,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 5660.3,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3518.4,
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2039,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1216.8,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -0.08,
+          "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": -0.04,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.15,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 0.23,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 0.47,
+          "rank": 5
         }
       ],
       "bedTurnoverYearly": [
@@ -12565,6 +13475,38 @@
           "rank": 6
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 16.38,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 13.17,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6.74,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 2.23,
+          "rank": 4
+        },
+        {
+          "slug": "medanta",
+          "value": 1.39,
+          "rank": 5
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.49,
+          "rank": 6
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -12690,6 +13632,60 @@
           "slug": "narayana",
           "value": 3222580,
           "rank": 4
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "narayana",
+          "value": 5956,
+          "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": 3369.3,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2190,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2184.9,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1307.8,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.21,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": -0.06,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 0,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 0.49,
+          "rank": 4
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.73,
+          "rank": 5
         }
       ],
       "bedTurnoverYearly": [
@@ -13223,6 +14219,43 @@
           "rank": 7
         }
       ],
+      "patMargin": [
+        {
+          "slug": "narayana",
+          "value": 91.58,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 15.48,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 14.89,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 13.19,
+          "rank": 4
+        },
+        {
+          "slug": "yatharth",
+          "value": 9.45,
+          "rank": 5
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 6.97,
+          "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.03,
+          "rank": 7
+        }
+      ],
       "netDebt": [
         {
           "slug": "apollo-hospitals",
@@ -13328,6 +14361,50 @@
           "slug": "apollo-hospitals",
           "value": 3255657,
           "rank": 4
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "narayana",
+          "value": 6089.5,
+          "rank": 1
+        },
+        {
+          "slug": "medanta",
+          "value": 3389.1,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2319,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 2314.2,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2031.6,
+          "rank": 5
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1413,
+          "rank": 6
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 0,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.68,
+          "rank": 2
         }
       ],
       "bedTurnoverYearly": [
@@ -13926,6 +15003,43 @@
           "rank": 7
         }
       ],
+      "patMargin": [
+        {
+          "slug": "medanta",
+          "value": 54.56,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 14.02,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 12,
+          "rank": 3
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.57,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 0.13,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.02,
+          "rank": 6
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.01,
+          "rank": 7
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -14045,6 +15159,60 @@
         {
           "slug": "narayana",
           "value": 274192,
+          "rank": 4
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 5005.5,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 3464.1,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 2851.5,
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2433,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2030.7,
+          "rank": 5
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1617,
+          "rank": 6
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.16,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 0.12,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.72,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1.16,
           "rank": 4
         }
       ],
@@ -14619,6 +15787,38 @@
           "rank": 6
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 20.58,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 16.67,
+          "rank": 2
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 7.57,
+          "rank": 3
+        },
+        {
+          "slug": "medanta",
+          "value": 1.72,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 1.53,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 0.03,
+          "rank": 6
+        }
+      ],
       "netDebt": [
         {
           "slug": "apollo-hospitals",
@@ -14754,6 +15954,55 @@
           "slug": "fortis-healthcare",
           "value": 3117241,
           "rank": 5
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 7445,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 4297.5,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2561,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1714,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 953.3,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "apollo-hospitals",
+          "value": -0.08,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 0.26,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.81,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1.29,
+          "rank": 4
         }
       ],
       "bedTurnoverYearly": [
@@ -15387,6 +16636,43 @@
           "rank": 7
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 13.19,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 10.01,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 8.31,
+          "rank": 3
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 7.75,
+          "rank": 4
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 0.77,
+          "rank": 5
+        },
+        {
+          "slug": "yatharth",
+          "value": 0.63,
+          "rank": 6
+        },
+        {
+          "slug": "narayana",
+          "value": -0.13,
+          "rank": 7
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -15526,6 +16812,60 @@
         {
           "slug": "narayana",
           "value": 294308,
+          "rank": 5
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 5641,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 4501.3,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2587,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1759,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 666.9,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.13,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": -0.07,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.84,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1.45,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 3.35,
           "rank": 5
         }
       ],
@@ -16125,6 +17465,43 @@
           "rank": 7
         }
       ],
+      "patMargin": [
+        {
+          "slug": "medanta",
+          "value": 84.99,
+          "rank": 1
+        },
+        {
+          "slug": "narayana",
+          "value": 78.19,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 14.53,
+          "rank": 3
+        },
+        {
+          "slug": "yatharth",
+          "value": 14.46,
+          "rank": 4
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 8.01,
+          "rank": 5
+        },
+        {
+          "slug": "aster-dm",
+          "value": 4.73,
+          "rank": 6
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 4.19,
+          "rank": 7
+        }
+      ],
       "netDebt": [
         {
           "slug": "medanta",
@@ -16201,6 +17578,13 @@
           "rank": 5
         }
       ],
+      "revenueCagr3yr": [
+        {
+          "slug": "apollo-hospitals",
+          "value": 15.36,
+          "rank": 1
+        }
+      ],
       "roce": [
         {
           "slug": "apollo-hospitals",
@@ -16264,6 +17648,60 @@
         {
           "slug": "narayana",
           "value": 149559,
+          "rank": 5
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 5636.6,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 4742.4,
+          "rank": 2
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2637,
+          "rank": 3
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1478,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 523.7,
+          "rank": 5
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.11,
+          "rank": 1
+        },
+        {
+          "slug": "apollo-hospitals",
+          "value": 0.18,
+          "rank": 2
+        },
+        {
+          "slug": "narayana",
+          "value": 0.43,
+          "rank": 3
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.72,
+          "rank": 4
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1.72,
           "rank": 5
         }
       ],
@@ -16808,6 +18246,33 @@
           "rank": 5
         }
       ],
+      "patMargin": [
+        {
+          "slug": "max-healthcare",
+          "value": 14.53,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 13.4,
+          "rank": 2
+        },
+        {
+          "slug": "medanta",
+          "value": 11.85,
+          "rank": 3
+        },
+        {
+          "slug": "aster-dm",
+          "value": 11.84,
+          "rank": 4
+        },
+        {
+          "slug": "narayana",
+          "value": 8.79,
+          "rank": 5
+        }
+      ],
       "netDebt": [
         {
           "slug": "aster-dm",
@@ -16874,6 +18339,18 @@
           "rank": 5
         }
       ],
+      "revenueCagr3yr": [
+        {
+          "slug": "max-healthcare",
+          "value": 17.82,
+          "rank": 1
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 14.32,
+          "rank": 2
+        }
+      ],
       "roce": [
         {
           "slug": "max-healthcare",
@@ -16932,6 +18409,50 @@
         {
           "slug": "aster-dm",
           "value": 934955,
+          "rank": 4
+        }
+      ],
+      "ebitdaTtmCr": [
+        {
+          "slug": "medanta",
+          "value": 3437.1,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 2706,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1433,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 1026.8,
+          "rank": 4
+        }
+      ],
+      "netDebtToEbitda": [
+        {
+          "slug": "medanta",
+          "value": -0.17,
+          "rank": 1
+        },
+        {
+          "slug": "max-healthcare",
+          "value": 0.71,
+          "rank": 2
+        },
+        {
+          "slug": "fortis-healthcare",
+          "value": 1.63,
+          "rank": 3
+        },
+        {
+          "slug": "narayana",
+          "value": 2.18,
           "rank": 4
         }
       ],
@@ -17194,6 +18715,13 @@
         "mean": 68.83,
         "median": 31
       },
+      "patMargin": {
+        "n": 3,
+        "min": 0.12,
+        "max": 7.22,
+        "mean": 3.57,
+        "median": 3.36
+      },
       "netDebt": {
         "n": 1,
         "min": 1934.48,
@@ -17391,6 +18919,13 @@
         "max": 1011,
         "mean": 298.68,
         "median": 175.3
+      },
+      "patMargin": {
+        "n": 6,
+        "min": 0.63,
+        "max": 149.11,
+        "mean": 32.47,
+        "median": 11.71
       },
       "netDebt": {
         "n": 4,
@@ -17590,6 +19125,13 @@
         "mean": 153.02,
         "median": 154.6
       },
+      "patMargin": {
+        "n": 8,
+        "min": 0,
+        "max": 18.5,
+        "mean": 10.37,
+        "median": 13.57
+      },
       "netDebt": {
         "n": 5,
         "min": -1993,
@@ -17788,6 +19330,13 @@
         "mean": 1885.87,
         "median": 134
       },
+      "patMargin": {
+        "n": 7,
+        "min": 0,
+        "max": 30.92,
+        "mean": 12.79,
+        "median": 14.83
+      },
       "netDebt": {
         "n": 5,
         "min": -2.51,
@@ -17829,6 +19378,20 @@
         "max": 10592845,
         "mean": 4584619,
         "median": 2524444
+      },
+      "ebitdaTtmCr": {
+        "n": 2,
+        "min": 932.4,
+        "max": 3719.8,
+        "mean": 2326.1,
+        "median": 2326.1
+      },
+      "netDebtToEbitda": {
+        "n": 2,
+        "min": 0,
+        "max": 0.42,
+        "mean": 0.21,
+        "median": 0.21
       },
       "bedTurnoverYearly": {
         "n": 3,
@@ -17986,6 +19549,13 @@
         "mean": 142.91,
         "median": 128.87
       },
+      "patMargin": {
+        "n": 6,
+        "min": 0.37,
+        "max": 16.46,
+        "mean": 6.89,
+        "median": 4.67
+      },
       "netDebt": {
         "n": 4,
         "min": 22,
@@ -18027,6 +19597,20 @@
         "max": 100600000,
         "mean": 36011732,
         "median": 4210526
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 673.8,
+        "max": 19443,
+        "mean": 5389.02,
+        "median": 1907
+      },
+      "netDebtToEbitda": {
+        "n": 4,
+        "min": 0.01,
+        "max": 2.73,
+        "mean": 0.91,
+        "median": 0.44
       },
       "bedTurnoverYearly": {
         "n": 3,
@@ -18184,6 +19768,13 @@
         "mean": 547.4,
         "median": 300.05
       },
+      "patMargin": {
+        "n": 6,
+        "min": 3.04,
+        "max": 23.11,
+        "mean": 12.15,
+        "median": 12.75
+      },
       "netDebt": {
         "n": 5,
         "min": -772,
@@ -18225,6 +19816,20 @@
         "max": 212340426,
         "mean": 53234820.8,
         "median": 15664724
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 1129.8,
+        "max": 18401.7,
+        "mean": 5840.34,
+        "median": 3662
+      },
+      "netDebtToEbitda": {
+        "n": 5,
+        "min": -0.04,
+        "max": 0.42,
+        "mean": 0.2,
+        "median": 0.27
       },
       "bedTurnoverYearly": {
         "n": 5,
@@ -18382,6 +19987,13 @@
         "mean": 669.5,
         "median": 349
       },
+      "patMargin": {
+        "n": 5,
+        "min": 11.66,
+        "max": 33.31,
+        "mean": 17.37,
+        "median": 14.2
+      },
       "netDebt": {
         "n": 5,
         "min": -718.6,
@@ -18423,6 +20035,20 @@
         "max": 16751865,
         "mean": 6394713,
         "median": 4184691.5
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 1216.8,
+        "max": 18376.3,
+        "mean": 6162.16,
+        "median": 3518.4
+      },
+      "netDebtToEbitda": {
+        "n": 5,
+        "min": -0.08,
+        "max": 0.47,
+        "mean": 0.15,
+        "median": 0.15
       },
       "bedTurnoverYearly": {
         "n": 4,
@@ -18580,6 +20206,13 @@
         "mean": 226.65,
         "median": 223.55
       },
+      "patMargin": {
+        "n": 6,
+        "min": 0.49,
+        "max": 16.38,
+        "mean": 6.73,
+        "median": 4.49
+      },
       "netDebt": {
         "n": 5,
         "min": -718.6,
@@ -18621,6 +20254,20 @@
         "max": 33580213,
         "mean": 11352399,
         "median": 4303401.5
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 1307.8,
+        "max": 5956,
+        "mean": 3001.6,
+        "median": 2190
+      },
+      "netDebtToEbitda": {
+        "n": 5,
+        "min": -0.21,
+        "max": 0.73,
+        "mean": 0.19,
+        "median": 0
       },
       "bedTurnoverYearly": {
         "n": 4,
@@ -18778,6 +20425,13 @@
         "mean": 208.85,
         "median": 218.96
       },
+      "patMargin": {
+        "n": 7,
+        "min": 0.03,
+        "max": 91.58,
+        "mean": 21.66,
+        "median": 13.19
+      },
       "netDebt": {
         "n": 2,
         "min": -10.9,
@@ -18819,6 +20473,20 @@
         "max": 5431887,
         "mean": 4037847.5,
         "median": 3731923
+      },
+      "ebitdaTtmCr": {
+        "n": 6,
+        "min": 1413,
+        "max": 6089.5,
+        "mean": 2926.07,
+        "median": 2316.6
+      },
+      "netDebtToEbitda": {
+        "n": 2,
+        "min": 0,
+        "max": 0.68,
+        "mean": 0.34,
+        "median": 0.34
       },
       "bedTurnoverYearly": {
         "n": 4,
@@ -18976,6 +20644,13 @@
         "mean": 780.1,
         "median": 20
       },
+      "patMargin": {
+        "n": 7,
+        "min": 0.01,
+        "max": 54.56,
+        "mean": 11.62,
+        "median": 0.57
+      },
       "netDebt": {
         "n": 4,
         "min": -812.3,
@@ -19017,6 +20692,20 @@
         "max": 40163226,
         "mean": 13243485.25,
         "median": 6268261.5
+      },
+      "ebitdaTtmCr": {
+        "n": 6,
+        "min": 1617,
+        "max": 5005.5,
+        "mean": 2900.3,
+        "median": 2642.25
+      },
+      "netDebtToEbitda": {
+        "n": 4,
+        "min": -0.16,
+        "max": 1.16,
+        "mean": 0.46,
+        "median": 0.42
       },
       "bedTurnoverYearly": {
         "n": 3,
@@ -19174,6 +20863,13 @@
         "mean": 296.28,
         "median": 293.65
       },
+      "patMargin": {
+        "n": 6,
+        "min": 0.03,
+        "max": 20.58,
+        "mean": 8.02,
+        "median": 4.65
+      },
       "netDebt": {
         "n": 4,
         "min": -332.6,
@@ -19215,6 +20911,20 @@
         "max": 42583997,
         "mean": 11749684,
         "median": 3970052
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 953.3,
+        "max": 7445,
+        "mean": 3394.16,
+        "median": 2561
+      },
+      "netDebtToEbitda": {
+        "n": 4,
+        "min": -0.08,
+        "max": 1.29,
+        "mean": 0.57,
+        "median": 0.54
       },
       "bedTurnoverYearly": {
         "n": 5,
@@ -19372,6 +21082,13 @@
         "mean": 166.12,
         "median": 95
       },
+      "patMargin": {
+        "n": 7,
+        "min": -0.13,
+        "max": 13.19,
+        "mean": 5.79,
+        "median": 7.75
+      },
       "netDebt": {
         "n": 5,
         "min": -708.2,
@@ -19413,6 +21130,20 @@
         "max": 30414634,
         "mean": 8577691.6,
         "median": 4038490
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 666.9,
+        "max": 5641,
+        "mean": 3031.04,
+        "median": 2587
+      },
+      "netDebtToEbitda": {
+        "n": 5,
+        "min": -0.13,
+        "max": 3.35,
+        "mean": 1.09,
+        "median": 0.84
       },
       "bedTurnoverYearly": {
         "n": 5,
@@ -19570,6 +21301,13 @@
         "mean": 195.46,
         "median": 79.91
       },
+      "patMargin": {
+        "n": 7,
+        "min": 4.19,
+        "max": 84.99,
+        "mean": 29.87,
+        "median": 14.46
+      },
       "netDebt": {
         "n": 5,
         "min": -600,
@@ -19591,6 +21329,13 @@
         "mean": 28.06,
         "median": 18
       },
+      "revenueCagr3yr": {
+        "n": 1,
+        "min": 15.36,
+        "max": 15.36,
+        "mean": 15.36,
+        "median": 15.36
+      },
       "roce": {
         "n": 2,
         "min": 20.9,
@@ -19611,6 +21356,20 @@
         "max": 30414634,
         "mean": 8208079.8,
         "median": 4203326
+      },
+      "ebitdaTtmCr": {
+        "n": 5,
+        "min": 523.7,
+        "max": 5636.6,
+        "mean": 3003.54,
+        "median": 2637
+      },
+      "netDebtToEbitda": {
+        "n": 5,
+        "min": -0.11,
+        "max": 1.72,
+        "mean": 0.59,
+        "median": 0.43
       },
       "bedTurnoverYearly": {
         "n": 4,
@@ -19768,6 +21527,13 @@
         "mean": 233.54,
         "median": 228
       },
+      "patMargin": {
+        "n": 5,
+        "min": 8.79,
+        "max": 14.53,
+        "mean": 12.08,
+        "median": 11.85
+      },
       "netDebt": {
         "n": 5,
         "min": -626,
@@ -19789,6 +21555,13 @@
         "mean": 29.42,
         "median": 19
       },
+      "revenueCagr3yr": {
+        "n": 2,
+        "min": 14.32,
+        "max": 17.82,
+        "mean": 16.07,
+        "median": 16.07
+      },
       "roce": {
         "n": 3,
         "min": 21.3,
@@ -19809,6 +21582,20 @@
         "max": 4246986,
         "mean": 3015809,
         "median": 3440647.5
+      },
+      "ebitdaTtmCr": {
+        "n": 4,
+        "min": 1026.8,
+        "max": 3437.1,
+        "mean": 2150.72,
+        "median": 2069.5
+      },
+      "netDebtToEbitda": {
+        "n": 4,
+        "min": -0.17,
+        "max": 2.18,
+        "mean": 1.09,
+        "median": 1.17
       },
       "bedTurnoverYearly": {
         "n": 4,

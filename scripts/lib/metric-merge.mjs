@@ -146,6 +146,11 @@ export function deriveMetrics({ metrics, marketCapCr }) {
     }
   }
 
+  // PAT margin (per-quarter calculation)
+  if (patCr != null && revenueCr != null && revenueCr > 0) {
+    derived.patMargin = Number(((patCr / revenueCr) * 100).toFixed(2));
+  }
+
   // ARPOB derivation removed: revenue here is consolidated (includes pharmacy/
   // diagnostics for Apollo, Aster etc.), so dividing by hospital beds × occupancy
   // overstates hospital-only ARPOB. Direct ARPOB extraction is far more reliable.

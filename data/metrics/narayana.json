@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-28T06:47:49.642Z",
+  "lastBuiltAt": "2026-05-28T07:09:35.598Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 1919.4,
@@ -222,7 +222,10 @@
         "evToEbitdaAnnualised": 19.23,
         "peAnnualised": 43.01,
         "evPerBedCr": 7.607,
-        "evPerBedLakhs": 760.7
+        "evPerBedLakhs": 760.7,
+        "patMargin": 8.79,
+        "ebitdaTtmCr": 1026.8,
+        "netDebtToEbitda": 2.18
       }
     },
     "FY26-Q4": {
@@ -369,7 +372,10 @@
         "evToEbitdaAnnualised": 447.06,
         "peAnnualised": 129.47,
         "evPerBedCr": 6.686,
-        "evPerBedLakhs": 668.6
+        "evPerBedLakhs": 668.6,
+        "patMargin": 78.19,
+        "ebitdaTtmCr": 523.7,
+        "netDebtToEbitda": 0.43
       }
     },
     "FY26-Q3": {
@@ -649,7 +655,10 @@
         "enterpriseValueCr": 41457.1,
         "evToEbitdaAnnualised": 265.48,
         "evPerBedCr": 7.813,
-        "evPerBedLakhs": 781.3
+        "evPerBedLakhs": 781.3,
+        "patMargin": -0.13,
+        "ebitdaTtmCr": 666.9,
+        "netDebtToEbitda": 3.35
       }
     },
     "FY26-Q2": {
@@ -894,7 +903,10 @@
         "evToEbitdaAnnualised": 23.14,
         "peAnnualised": 37.96,
         "evPerBedCr": 7.508,
-        "evPerBedLakhs": 750.8
+        "evPerBedLakhs": 750.8,
+        "patMargin": 1.53,
+        "ebitdaTtmCr": 953.3,
+        "netDebtToEbitda": 0.26
       }
     },
     "FY26-Q1": {
@@ -1181,7 +1193,10 @@
         "evToEbitdaAnnualised": 274.24,
         "peAnnualised": 500.06,
         "evPerBedCr": 7.52,
-        "evPerBedLakhs": 752
+        "evPerBedLakhs": 752,
+        "patMargin": 0.13,
+        "ebitdaTtmCr": 2851.5,
+        "netDebtToEbitda": 0.12
       }
     },
     "FY25-Q4": {
@@ -1276,7 +1291,9 @@
       "derived": {
         "enterpriseValueCr": 39225,
         "evToEbitdaAnnualised": 59.32,
-        "peAnnualised": 123.78
+        "peAnnualised": 123.78,
+        "patMargin": 91.58,
+        "ebitdaTtmCr": 6089.5
       }
     },
     "FY25-Q3": {
@@ -1515,7 +1532,10 @@
         "evToEbitdaAnnualised": 30.16,
         "peAnnualised": 50.78,
         "evPerBedCr": 9.719,
-        "evPerBedLakhs": 971.9
+        "evPerBedLakhs": 971.9,
+        "patMargin": 2.23,
+        "ebitdaTtmCr": 5956,
+        "netDebtToEbitda": 0
       }
     },
     "FY25-Q2": {
@@ -1772,7 +1792,10 @@
         "evToEbitdaAnnualised": 4.51,
         "peAnnualised": 4.93,
         "evPerBedCr": 7.55,
-        "evPerBedLakhs": 755
+        "evPerBedLakhs": 755,
+        "patMargin": 14.2,
+        "ebitdaTtmCr": 5660.3,
+        "netDebtToEbitda": 0.47
       }
     },
     "FY25-Q1": {
@@ -2053,7 +2076,10 @@
         "evToEbitdaAnnualised": 3.11,
         "peAnnualised": 4.87,
         "evPerBedCr": 10.209,
-        "evPerBedLakhs": 1020.9
+        "evPerBedLakhs": 1020.9,
+        "patMargin": 23.11,
+        "ebitdaTtmCr": 3662,
+        "netDebtToEbitda": 0.42
       }
     },
     "FY24-Q4": {
@@ -2226,7 +2252,10 @@
       "derived": {
         "enterpriseValueCr": 41065,
         "evToEbitdaAnnualised": 322.43,
-        "peAnnualised": 316.33
+        "peAnnualised": 316.33,
+        "patMargin": 0.37,
+        "ebitdaTtmCr": 673.8,
+        "netDebtToEbitda": 2.73
       }
     },
     "FY24-Q3": {
@@ -2428,7 +2457,10 @@
         "evToEbitdaAnnualised": 330.38,
         "peAnnualised": 521.33,
         "evPerBedCr": 21.031,
-        "evPerBedLakhs": 2103.1
+        "evPerBedLakhs": 2103.1,
+        "patMargin": 15.63,
+        "ebitdaTtmCr": 932.4,
+        "netDebtToEbitda": 0
       }
     },
     "FY24-Q2": {
@@ -2691,7 +2723,8 @@
         "evToEbitdaAnnualised": 30.1,
         "peAnnualised": 432.57,
         "evPerBedCr": 9.459,
-        "evPerBedLakhs": 945.9
+        "evPerBedLakhs": 945.9,
+        "patMargin": 17.37
       }
     },
     "FY24-Q1": {
@@ -2911,7 +2944,8 @@
         "evToEbitdaAnnualised": 34.33,
         "peAnnualised": 53.29,
         "evPerBedCr": 6.692,
-        "evPerBedLakhs": 669.2
+        "evPerBedLakhs": 669.2,
+        "patMargin": 149.11
       }
     },
     "FY23-Q4": {

@@ -230,6 +230,47 @@ async function processCompany(company) {
     };
   }
 
+  // ── Second pass: time-series derived metrics (need historical quarters) ──
+  // Iterate OLDEST → NEWEST so each quarter can look back.
+  const oldestFirst = [...byQuarter.keys()].sort(compareQuarters);
+  for (let i = 0; i < oldestFirst.length; i++) {
+    const fq = oldestFirst[i];
+    const q = quarters[fq];
+
+    // TTM EBITDA = sum of current + previous 3 quarters' EBITDA
+    if (i >= 3) {
+      const last4 = oldestFirst.slice(i - 3, i + 1).map((f) => quarters[f].metrics?.ebitda?.value).filter((v) => v != null);
+      if (last4.length === 4) {
+        const ttm = last4.reduce((s, v) => s + v, 0);
+        q.derived.ebitdaTtmCr = Number(ttm.toFixed(1));
+
+        // Net debt / EBITDA (TTM) — Simran's metric #28
+        const netDebt = q.metrics?.netDebt?.value;
+        if (netDebt != null && ttm > 0) {
+          q.derived.netDebtToEbitda = Number((netDebt / ttm).toFixed(2));
+        }
+      }
+    }
+
+    // Revenue CAGR 3-yr — Simran's metric #24
+    // Needs revenue 12 quarters ago AND current. Sanity-filter against
+    // historical data inconsistency (some old quarters have unfixed units):
+    // realistic Indian hospital sector CAGR is -10% to +40%.
+    if (i >= 12) {
+      const oldFq = oldestFirst[i - 12];
+      const oldRev = quarters[oldFq]?.metrics?.revenue?.value;
+      const newRev = q.metrics?.revenue?.value;
+      if (oldRev != null && newRev != null && oldRev > 0) {
+        const ratio = newRev / oldRev;
+        // Skip if the 3yr ratio is wildly off (suggests data unit mismatch)
+        if (ratio >= 0.7 && ratio <= 3.5) {
+          const cagr = (Math.pow(ratio, 1 / 3) - 1) * 100;
+          q.derived.revenueCagr3yr = Number(cagr.toFixed(2));
+        }
+      }
+    }
+  }
+
   // Sort quarters newest-first for dashboard convenience
   const sortedFqs = [...byQuarter.keys()].sort((a, b) => compareQuarters(b, a));
   const orderedQuarters = Object.fromEntries(sortedFqs.map((fq) => [fq, quarters[fq]]));

@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MEDANTA",
   "isin": "INE474Q01031",
-  "lastBuiltAt": "2026-05-28T06:47:49.355Z",
+  "lastBuiltAt": "2026-05-28T07:09:35.590Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 1209.2,
@@ -294,7 +294,10 @@
         "evToEbitdaAnnualised": 27.46,
         "peAnnualised": 57.36,
         "evPerBedCr": 11.662,
-        "evPerBedLakhs": 1166.2
+        "evPerBedLakhs": 1166.2,
+        "patMargin": 11.85,
+        "ebitdaTtmCr": 3437.1,
+        "netDebtToEbitda": -0.17
       }
     },
     "FY26-Q4": {
@@ -545,7 +548,10 @@
         "evToEbitdaAnnualised": 31.99,
         "peAnnualised": 101.71,
         "evPerBedCr": 97.285,
-        "evPerBedLakhs": 9728.5
+        "evPerBedLakhs": 9728.5,
+        "patMargin": 84.99,
+        "ebitdaTtmCr": 5636.6,
+        "netDebtToEbitda": -0.11
       }
     },
     "FY26-Q3": {
@@ -820,7 +826,10 @@
         "evToEbitdaAnnualised": 31.88,
         "peAnnualised": 85.55,
         "evPerBedCr": 96.955,
-        "evPerBedLakhs": 9695.5
+        "evPerBedLakhs": 9695.5,
+        "patMargin": 8.31,
+        "ebitdaTtmCr": 5641,
+        "netDebtToEbitda": -0.13
       }
     },
     "FY26-Q2": {
@@ -1065,7 +1074,9 @@
         "evToEbitdaAnnualised": 3.07,
         "peAnnualised": 51.12,
         "evPerBedCr": 13.072,
-        "evPerBedLakhs": 1307.2
+        "evPerBedLakhs": 1307.2,
+        "patMargin": 1.72,
+        "ebitdaTtmCr": 7445
       }
     },
     "FY26-Q1": {
@@ -1346,7 +1357,10 @@
         "evToEbitdaAnnualised": 3.18,
         "peAnnualised": 1.69,
         "evPerBedCr": 12.781,
-        "evPerBedLakhs": 1278.1
+        "evPerBedLakhs": 1278.1,
+        "patMargin": 54.56,
+        "ebitdaTtmCr": 5005.5,
+        "netDebtToEbitda": -0.16
       }
     },
     "FY25-Q4": {
@@ -1572,7 +1586,9 @@
         "evToEbitdaAnnualised": 32.02,
         "peAnnualised": 56.87,
         "evPerBedCr": 13.109,
-        "evPerBedLakhs": 1310.9
+        "evPerBedLakhs": 1310.9,
+        "patMargin": 14.89,
+        "ebitdaTtmCr": 3389.1
       }
     },
     "FY25-Q3": {
@@ -1859,7 +1875,10 @@
         "evToEbitdaAnnualised": 3.87,
         "peAnnualised": 62.14,
         "evPerBedCr": 12.997,
-        "evPerBedLakhs": 1299.7
+        "evPerBedLakhs": 1299.7,
+        "patMargin": 1.39,
+        "ebitdaTtmCr": 3369.3,
+        "netDebtToEbitda": -0.21
       }
     },
     "FY25-Q2": {
@@ -2109,7 +2128,10 @@
         "evToEbitdaAnnualised": 38.17,
         "peAnnualised": 76.46,
         "evPerBedCr": 13.505,
-        "evPerBedLakhs": 1350.5
+        "evPerBedLakhs": 1350.5,
+        "patMargin": 12.04,
+        "ebitdaTtmCr": 18376.3,
+        "netDebtToEbitda": -0.04
       }
     },
     "FY25-Q1": {
@@ -2371,7 +2393,10 @@
         "evToEbitdaAnnualised": 9.08,
         "peAnnualised": 17,
         "evPerBedCr": 14.226,
-        "evPerBedLakhs": 1422.6
+        "evPerBedLakhs": 1422.6,
+        "patMargin": 14.27,
+        "ebitdaTtmCr": 18401.7,
+        "netDebtToEbitda": -0.04
       }
     },
     "FY24-Q4": {
@@ -2610,7 +2635,9 @@
         "evToEbitdaAnnualised": 34.73,
         "peAnnualised": 65.81,
         "evPerBedCr": 14.624,
-        "evPerBedLakhs": 1462.4
+        "evPerBedLakhs": 1462.4,
+        "patMargin": 14.45,
+        "ebitdaTtmCr": 19443
       }
     },
     "FY24-Q3": {
@@ -2830,7 +2857,8 @@
       "derived": {
         "enterpriseValueCr": 42509.6,
         "evToEbitdaAnnualised": 0.62,
-        "peAnnualised": 0.65
+        "peAnnualised": 0.65,
+        "patMargin": 14.83
       }
     },
     "FY24-Q2": {
@@ -3104,7 +3132,8 @@
         "evToEbitdaAnnualised": 34.15,
         "peAnnualised": 64.92,
         "evPerBedCr": 14.352,
-        "evPerBedLakhs": 1435.2
+        "evPerBedLakhs": 1435.2,
+        "patMargin": 14.48
       }
     },
     "FY24-Q1": {
@@ -3379,7 +3408,8 @@
         "evToEbitdaAnnualised": 4.18,
         "peAnnualised": 8.04,
         "evPerBedCr": 14.986,
-        "evPerBedLakhs": 1498.6
+        "evPerBedLakhs": 1498.6,
+        "patMargin": 14.37
       }
     },
     "FY23-Q4": {

@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "APOLLOHOSP",
   "isin": "INE437A01024",
-  "lastBuiltAt": "2026-05-28T06:47:49.310Z",
+  "lastBuiltAt": "2026-05-28T07:09:35.564Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 8276.2,
@@ -270,7 +270,11 @@
         "evToEbitdaAnnualised": 29.64,
         "peAnnualised": 56.22,
         "evPerBedCr": 12.46,
-        "evPerBedLakhs": 1246
+        "evPerBedLakhs": 1246,
+        "patMargin": 8.01,
+        "ebitdaTtmCr": 4742.4,
+        "netDebtToEbitda": 0.18,
+        "revenueCagr3yr": 15.36
       }
     },
     "FY26-Q3": {
@@ -526,7 +530,10 @@
         "evToEbitdaAnnualised": 30.74,
         "peAnnualised": 59.23,
         "evPerBedCr": 12.415,
-        "evPerBedLakhs": 1241.5
+        "evPerBedLakhs": 1241.5,
+        "patMargin": 7.75,
+        "ebitdaTtmCr": 4501.3,
+        "netDebtToEbitda": -0.07
       }
     },
     "FY26-Q2": {
@@ -782,7 +789,10 @@
         "evToEbitdaAnnualised": 31.52,
         "peAnnualised": 62.34,
         "evPerBedCr": 12.514,
-        "evPerBedLakhs": 1251.4
+        "evPerBedLakhs": 1251.4,
+        "patMargin": 7.57,
+        "ebitdaTtmCr": 4297.5,
+        "netDebtToEbitda": -0.08
       }
     },
     "FY26-Q1": {
@@ -954,7 +964,9 @@
         "evToEbitdaAnnualised": 16.3,
         "peAnnualised": 9916.59,
         "evPerBedCr": 14.819,
-        "evPerBedLakhs": 1481.9
+        "evPerBedLakhs": 1481.9,
+        "patMargin": 0.01,
+        "ebitdaTtmCr": 3464.1
       }
     },
     "FY25-Q4": {
@@ -1241,7 +1253,10 @@
         "evToEbitdaAnnualised": 38.64,
         "peAnnualised": 76.36,
         "evPerBedCr": 12.581,
-        "evPerBedLakhs": 1258.1
+        "evPerBedLakhs": 1258.1,
+        "patMargin": 6.97,
+        "ebitdaTtmCr": 2314.2,
+        "netDebtToEbitda": 0
       }
     },
     "FY25-Q3": {
@@ -1515,7 +1530,10 @@
         "evToEbitdaAnnualised": 39.02,
         "peAnnualised": 79.91,
         "evPerBedCr": 12.606,
-        "evPerBedLakhs": 1260.6
+        "evPerBedLakhs": 1260.6,
+        "patMargin": 6.74,
+        "ebitdaTtmCr": 2184.9,
+        "netDebtToEbitda": -0.06
       }
     },
     "FY25-Q2": {
@@ -1790,7 +1808,10 @@
         "evToEbitdaAnnualised": 275.32,
         "peAnnualised": 41.83,
         "evPerBedCr": 12.599,
-        "evPerBedLakhs": 1259.9
+        "evPerBedLakhs": 1259.9,
+        "patMargin": 33.31,
+        "ebitdaTtmCr": 3518.4,
+        "netDebtToEbitda": -0.08
       }
     },
     "FY25-Q1": {
@@ -2058,7 +2079,10 @@
         "evToEbitdaAnnualised": 44.61,
         "peAnnualised": 97.51,
         "evPerBedCr": 12.865,
-        "evPerBedLakhs": 1286.5
+        "evPerBedLakhs": 1286.5,
+        "patMargin": 6,
+        "ebitdaTtmCr": 4038.2,
+        "netDebtToEbitda": 0.36
       }
     },
     "FY24-Q4": {
@@ -2339,7 +2363,10 @@
         "evToEbitdaAnnualised": 47.03,
         "peAnnualised": 117.22,
         "evPerBedCr": 15.167,
-        "evPerBedLakhs": 1516.7
+        "evPerBedLakhs": 1516.7,
+        "patMargin": 1.34,
+        "ebitdaTtmCr": 3872.1,
+        "netDebtToEbitda": 0.39
       }
     },
     "FY24-Q3": {
@@ -2608,7 +2635,10 @@
         "evToEbitdaAnnualised": 14.39,
         "peAnnualised": 959.67,
         "evPerBedCr": 15.238,
-        "evPerBedLakhs": 1523.8
+        "evPerBedLakhs": 1523.8,
+        "patMargin": 0.17,
+        "ebitdaTtmCr": 3719.8,
+        "netDebtToEbitda": 0.42
       }
     },
     "FY24-Q2": {
@@ -2877,7 +2907,8 @@
         "evToEbitdaAnnualised": 48.01,
         "peAnnualised": 127.74,
         "evPerBedCr": 15.521,
-        "evPerBedLakhs": 1552.1
+        "evPerBedLakhs": 1552.1,
+        "patMargin": 4.81
       }
     },
     "FY24-Q1": {
@@ -3091,7 +3122,8 @@
         "evToEbitdaAnnualised": 58.45,
         "peAnnualised": 178.57,
         "evPerBedCr": 15.26,
-        "evPerBedLakhs": 1526
+        "evPerBedLakhs": 1526,
+        "patMargin": 3.77
       }
     },
     "FY23-Q4": {
@@ -3341,7 +3373,8 @@
         "evToEbitdaAnnualised": 61.93,
         "peAnnualised": 205.88,
         "evPerBedCr": 15.386,
-        "evPerBedLakhs": 1538.6
+        "evPerBedLakhs": 1538.6,
+        "patMargin": 3.36
       }
     }
   }

@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "ASTERDM",
   "isin": "INE914M01019",
-  "lastBuiltAt": "2026-05-28T06:47:49.778Z",
+  "lastBuiltAt": "2026-05-28T07:09:35.604Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 741.05,
@@ -288,7 +288,8 @@
         "evToEbitdaAnnualised": 38.7,
         "peAnnualised": 68.56,
         "evPerBedCr": 3.618,
-        "evPerBedLakhs": 361.8
+        "evPerBedLakhs": 361.8,
+        "patMargin": 11.84
       }
     },
     "FY26-Q4": {
@@ -334,7 +335,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 309.64
+        "peAnnualised": 309.64,
+        "patMargin": 4.73
       }
     },
     "FY26-Q2": {
@@ -380,7 +382,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 50520.21
+        "peAnnualised": 50520.21,
+        "patMargin": 0.03
       }
     },
     "FY26-Q1": {
@@ -426,7 +429,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 79990.33
+        "peAnnualised": 79990.33,
+        "patMargin": 0.02
       }
     },
     "FY25-Q1": {
@@ -497,7 +501,8 @@
       "derived": {
         "enterpriseValueCr": 38395.4,
         "evToEbitdaAnnualised": -461.04,
-        "peAnnualised": 558.72
+        "peAnnualised": 558.72,
+        "patMargin": 3.04
       }
     },
     "FY24-Q4": {
@@ -568,7 +573,8 @@
       "derived": {
         "enterpriseValueCr": 38395.4,
         "evToEbitdaAnnualised": 737.24,
-        "peAnnualised": 2461.24
+        "peAnnualised": 2461.24,
+        "patMargin": 0.71
       }
     },
     "FY24-Q3": {
@@ -614,7 +620,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 59.19
+        "peAnnualised": 59.19,
+        "patMargin": 30.92
       }
     },
     "FY24-Q2": {
@@ -660,7 +667,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 959884
+        "peAnnualised": 959884,
+        "patMargin": 0
       }
     },
     "FY23-Q4": {
@@ -706,7 +714,8 @@
       },
       "derived": {
         "enterpriseValueCr": 38395.4,
-        "peAnnualised": 309.64
+        "peAnnualised": 309.64,
+        "patMargin": 7.22
       }
     }
   }
