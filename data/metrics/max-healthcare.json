@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-27T17:47:00.719Z",
+  "lastBuiltAt": "2026-05-28T04:53:46.084Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 995.15,
@@ -17,7 +17,7 @@
     "volumeShares": 49000
   },
   "coverage": {
-    "extractedDocs": 67,
+    "extractedDocs": 68,
     "quartersWithData": 13,
     "quarterRange": "FY24-Q1 → FY27-Q1",
     "classifiedTotalPriorityDocs": 71
@@ -2879,6 +2879,12 @@
           "newsId": "08efb3e7-1842-4e10-a484-b929885b47f5",
           "date": "2023-11-06",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f408d99b-a3e6-4a28-bd6c-53893f481571.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "cf46d84c-6014-4614-abd4-4181c2ff3d00",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a47fcdd8-1e48-40c7-920c-b33a9de7c8df.pdf"
         }
       ],
       "metrics": {
