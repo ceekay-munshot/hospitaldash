@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "ASTERDM",
   "isin": "INE914M01019",
-  "lastBuiltAt": "2026-05-28T04:56:31.006Z",
+  "lastBuiltAt": "2026-05-28T06:38:10.329Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 741.05,
@@ -17,12 +17,280 @@
     "volumeShares": 22000
   },
   "coverage": {
-    "extractedDocs": 0,
-    "quartersWithData": 8,
-    "quarterRange": "FY23-Q4 → FY26-Q4",
+    "extractedDocs": 3,
+    "quartersWithData": 9,
+    "quarterRange": "FY23-Q4 → FY27-Q1",
     "classifiedTotalPriorityDocs": 83
   },
   "quarters": {
+    "FY27-Q1": {
+      "fiscalQuarter": "FY27-Q1",
+      "label": "Q1 FY27",
+      "calendar": "Apr–Jun 2026",
+      "from": "2026-04-01",
+      "to": "2026-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "195620d5-c076-41ab-8cd2-148acde7f32c",
+          "date": "2026-05-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+          "date": "2026-04-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "dcc50b90-fad2-488c-a7bb-2fa8d826436a",
+          "date": "2026-04-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de3ae2ae-ab24-49c0-900c-b800a3d87a3c.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 20,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "No. of Hospitals (Nos) 20",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 10623,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "taking bed capacity to 10,623 as on Mar 31, 2026",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 10439,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds (Census) 10,439",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 4445,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "4,445 beds to be added in coming years",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 0,
+          "unit": "count",
+          "confidence": "low",
+          "quote": "",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "195620d5-c076-41ab-8cd2-148acde7f32c",
+            "date": "2026-05-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 61,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy (%) 61%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.1,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (Days) FY26 : 3.1 days",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 68231,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "In-patient visits 68,231",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 3.62,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient Visits (mn) FY26 : 3.62 mn",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "arpob": {
+          "value": 51800,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (INR) 51,800",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "arpp": {
+          "value": 129779,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP IP (INR) 129,779",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "revenue": {
+          "value": 1182,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue (INR Cr) Q4FY26 : INR 1,182 Cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 244,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA (INR Cr) Q4FY26 : INR 244 Cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 20.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Op EBITDA Margin Q4FY26 : 20.7%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "pat": {
+          "value": 140,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Normalised PAT Q4FY26 : INR 140 Cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "netDebt": {
+          "value": -626,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt (INR Cr) (626)",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 549,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "For the year ended 31st March 2026, our capital expenditure stood at INR 549 crores.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "195620d5-c076-41ab-8cd2-148acde7f32c",
+            "date": "2026-05-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 18,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "YoY Growth Revenue (INR Cr) 18%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        },
+        "roce": {
+          "value": 21.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE Q4FY26 : 21.3%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "5feafff2-6224-400d-bff7-1d226ee25062",
+            "date": "2026-04-30",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 4529169,
+        "ebitdaPerBedYearly": 934955,
+        "bedTurnoverYearly": 26.14,
+        "bedActivationPct": 98.3,
+        "enterpriseValueCr": 37769.4,
+        "evToEbitdaAnnualised": 38.7,
+        "peAnnualised": 68.56,
+        "evPerBedCr": 3.618,
+        "evPerBedLakhs": 361.8
+      }
+    },
     "FY26-Q4": {
       "fiscalQuarter": "FY26-Q4",
       "label": "Q4 FY26",

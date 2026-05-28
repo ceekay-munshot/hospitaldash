@@ -6810,10 +6810,134 @@
       "date": "2024-05-22",
       "subject": "Results- Financial Results For Quarter And Financial Year Ended March 31, 2024",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a22a199a-8fd8-4c12-817e-0054fcf9df0f.pdf",
-      "extractedAt": "2026-05-28T04:53:26.809Z",
-      "error": "PDF too large for inline data (27.0MB > 19MB cap)",
-      "attemptCount": 2,
-      "metrics": null
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T05:08:54.884Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 36,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare Network has existing capacity of ~3550 beds as on December 31, 2023, which includes 104 bedded Hospital in Gurugram."
+        },
+        "bedCapacity": {
+          "value": 3550,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Max Healthcare Network has existing capacity of ~3550 beds as on December 31, 2023."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 680,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The proposed construction will be completed within ~27 months from start of the civil construction and bed capacity will be made available in a phased manner."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The construction of Phase I of Max Super Speciality Hospital will cater to the healthcare needs of communities residing in and around NCR region."
+        },
+        "occupancyRate": {
+          "value": 75,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Capacity Utilization for Q-4, FY 24 was > 75%."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 24177,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Profit for the period/year (3-4) 24,177."
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 610.11,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 61,011."
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 241.77,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (3-4) 24,177."
+        },
+        "netDebt": {
+          "value": 31.34,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 31,344."
+        },
+        "capexAnnounced": {
+          "value": 1038,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The construction & equipment cost of up to ~₹1038 Crore."
+        },
+        "revenueGrowthYoy": {
+          "value": 20.5,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "Revenue growth year-on-year, percentage."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Data extracted from the quarterly results document dated May 22, 2024. Currency conversions assumed where applicable.",
+      "nonNullMetricCount": 11
     },
     "54d2601d-fcb3-438f-884d-66e6a3bdbbf1": {
       "newsId": "54d2601d-fcb3-438f-884d-66e6a3bdbbf1",
@@ -9270,12 +9394,272 @@
       "date": "2023-08-07",
       "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9b03d99c-e1f7-4f77-b0b8-2bb798ec0706.pdf",
-      "extractedAt": "2026-05-28T04:53:46.014Z",
-      "error": "GEMINI_DAILY_QUOTA_EXCEEDED on all 1 key(s). ",
-      "attemptCount": 1,
-      "metrics": null
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T05:09:23.224Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 17,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "MHIL has major concentration in North India consisting of a network of 17 healthcare facilities."
+        },
+        "bedCapacity": {
+          "value": 3550,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Current capacity ~3,550 beds."
+        },
+        "operationalBeds": {
+          "value": 3244,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational beds (as at end of Jun’23) 3,244."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 74,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Bed occupancy in Q1 FY24 stood at 74%."
+        },
+        "alos": {
+          "value": 4.1,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS stood at 4.1 days in Q1 FY24."
+        },
+        "ipVolume": {
+          "value": 1260,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "1,260 patients in IPD from the economically weaker sections."
+        },
+        "opVolume": {
+          "value": 624000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP consults stood at 6.24 lakhs reflecting a growth of +14% over Q1 FY23."
+        },
+        "arpob": {
+          "value": 74800,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB for Q1 FY24 stood at INR 74.8k."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1719,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross Revenue stood at INR 1,719 Cr for Q1 FY24."
+        },
+        "ebitda": {
+          "value": 436,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA stood at INR 436 Cr."
+        },
+        "ebitdaMargin": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Operating Margin stood at 26.8%."
+        },
+        "pat": {
+          "value": 291,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for the quarter grew by +27% YoY to INR 291 Cr."
+        },
+        "netDebt": {
+          "value": -957,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Cash surplus at the end of Jun 2023 stood at INR 957 Cr."
+        },
+        "capexAnnounced": {
+          "value": 38,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "INR 38 Cr was spent towards ongoing capacity expansion projects."
+        },
+        "revenueGrowthYoy": {
+          "value": 17,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue grew by +17% YoY to INR 1,719 Cr."
+        },
+        "roce": {
+          "value": 34.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Pre-tax ROCE for Q1 FY24 stood at 34.6%."
+        }
+      },
+      "notes": "All currency conversions assumed; figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 16
+    },
+    "e5f2267e-73ff-491f-b015-537a30719335": {
+      "newsId": "e5f2267e-73ff-491f-b015-537a30719335",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-24",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/283db70c-cda3-4563-a165-a40875b7dced.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T05:10:00.160Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q1",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 100,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "we have recently signed an ATS (Agreement to Sell) for purchase of land to enable expansion of Max Vaishali, which is consistently operating at more than 80% occupancy."
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "For 300 beds at Dwarka, interior work is in progress... For 329 beds at Nanavati the work is in full swing at the site."
+        },
+        "occupancyRate": {
+          "value": 77,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy for the quarter improved to 77% from 68% in Q4 last year."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 1200,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "we treated approximately 36,600 OPD and 1200 IPD patients from economically weaker sections of society free of charge."
+        },
+        "opVolume": {
+          "value": 36600,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "we treated approximately 36,600 OPD and 1200 IPD patients from economically weaker sections of society free of charge."
+        },
+        "arpob": {
+          "value": 70700,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB for the quarter rose to approximately Rs. 70,700, reflecting a growth of 11% year-on-year."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1637,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network gross revenue was Rs. 1,637 crore compared to Rs. 1,298 crore in Q4 last year."
+        },
+        "ebitda": {
+          "value": 437,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "We reported our highest-ever network operating EBITDA of Rs. 437 crore compared to Rs. 304 crore in Q4 last year."
+        },
+        "ebitdaMargin": {
+          "value": 28.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The Network operating EBITDA margin stood at 28.2% versus 24.8% in Q4 last year."
+        },
+        "pat": {
+          "value": 320,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax was Rs. 320 crore versus Rs. 172 crore in Q4 last year."
+        },
+        "netDebt": {
+          "value": -733,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The Net Cash position improved to Rs. 733 crore at the end of March 2023 compared to Net Debt of Rs. 441 crore last year."
+        },
+        "capexAnnounced": {
+          "value": 900,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Routine would be Rs. 170 crore and ongoing projects would be Rs. 900 crore."
+        },
+        "revenueGrowthYoy": {
+          "value": 26,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "This reflects a growth of 26% year-on-year and 5% quarter-on-quarter."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 13
     }
   },
-  "lastExtractionAt": "2026-05-28T04:53:46.015Z",
+  "lastExtractionAt": "2026-05-28T05:10:00.160Z",
   "model": "gemini-2.5-flash-lite"
 }

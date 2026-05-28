@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-28T04:56:30.990Z",
+  "lastBuiltAt": "2026-05-28T06:38:10.300Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 995.15,
@@ -17,7 +17,7 @@
     "volumeShares": 49000
   },
   "coverage": {
-    "extractedDocs": 68,
+    "extractedDocs": 71,
     "quartersWithData": 13,
     "quarterRange": "FY24-Q1 → FY27-Q1",
     "classifiedTotalPriorityDocs": 71
@@ -2084,6 +2084,12 @@
           "newsId": "80cb6e74-1b54-4dd6-ac9c-a2fbedfc0339",
           "date": "2024-05-28",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aab5ce0f-d8ea-4b51-a6c7-c391ed890479.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "472ebb4e-fa58-4c6d-963d-cddc891ed7d2",
+          "date": "2024-05-22",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a22a199a-8fd8-4c12-817e-0054fcf9df0f.pdf"
         }
       ],
       "metrics": {
@@ -2121,6 +2127,18 @@
             "newsId": "c4314a5a-ea91-42a3-9748-2473310e6fd4",
             "date": "2024-08-08",
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b38d88aa-d7b4-4f6b-9827-3e00b2d06515.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 680,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The proposed construction will be completed within ~27 months from start of the civil construction and bed capacity will be made available in a phased manner.",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "472ebb4e-fa58-4c6d-963d-cddc891ed7d2",
+            "date": "2024-05-22",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a22a199a-8fd8-4c12-817e-0054fcf9df0f.pdf"
           }
         },
         "newHospitalsPlanned": {
@@ -3118,6 +3136,18 @@
           "newsId": "0f7cd850-5531-4950-8740-22b5ce13cfce",
           "date": "2023-08-07",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/301853ac-aeb5-46ab-a465-2253b41a708d.pdf"
+        },
+        {
+          "docType": "press-release",
+          "newsId": "0fb5c45e-c42f-4e25-b623-343e0810296c",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9b03d99c-e1f7-4f77-b0b8-2bb798ec0706.pdf"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "e5f2267e-73ff-491f-b015-537a30719335",
+          "date": "2023-05-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/283db70c-cda3-4563-a165-a40875b7dced.pdf"
         }
       ],
       "metrics": {
@@ -3157,16 +3187,28 @@
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/301853ac-aeb5-46ab-a465-2253b41a708d.pdf"
           }
         },
-        "newHospitalsPlanned": {
-          "value": 5,
+        "bedsUnderDevelopment": {
+          "value": 100,
           "unit": "count",
-          "confidence": "low",
-          "quote": "For 300 beds at Dwarka – The majority of the MEP and interior work are complete, while application for power, water and sewage connections are in progress.\nFor 329 beds at Nanavati Hospital in Phase I - Excavation and Raft work are nearly complete. Steel fabrication and wall casting for LINAC and Brachytherapy are in progress.\nFor 300 beds at Sector 56 Gurgaon in Phase I - 50% of site excavation i",
+          "confidence": "high",
+          "quote": "we have recently signed an ATS (Agreement to Sell) for purchase of land to enable expansion of Max Vaishali, which is consistently operating at more than 80% occupancy.",
           "source": {
             "docType": "concall-transcript",
-            "newsId": "860c993b-954b-4456-be5f-d6bc9ef3a43c",
-            "date": "2023-08-14",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/302e0ab7-7f87-450f-be03-84eb7e9a35ef.pdf"
+            "newsId": "e5f2267e-73ff-491f-b015-537a30719335",
+            "date": "2023-05-24",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/283db70c-cda3-4563-a165-a40875b7dced.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "For 300 beds at Dwarka, interior work is in progress... For 329 beds at Nanavati the work is in full swing at the site.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "e5f2267e-73ff-491f-b015-537a30719335",
+            "date": "2023-05-24",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/283db70c-cda3-4563-a165-a40875b7dced.pdf"
           }
         },
         "occupancyRate": {
