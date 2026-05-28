@@ -2,17 +2,17 @@
   "scripCode": "543980",
   "slug": "jupiter-lifeline",
   "name": "Jupiter",
-  "fetchedAt": "2026-05-27T17:19:04.596Z",
+  "fetchedAt": "2026-05-28T17:35:21.567Z",
   "window": {
-    "from": "20260226",
-    "to": "20260527",
+    "from": "20260227",
+    "to": "20260528",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260226&strScrip=543980&strSearch=P&strToDate=20260527&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260227&strScrip=543980&strSearch=P&strToDate=20260528&strType=C",
       "count": 230,
       "countFresh": 21,
       "chunks": 1,
@@ -6460,10 +6460,11 @@
       ]
     },
     "corpActions": {
-      "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260226&TDate=20260527&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
+      "ok": false,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260227&TDate=20260528&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
+      "error": "Received HTML instead of JSON — wrong endpoint path",
       "data": [
         {
           "scrip_code": 543980,
@@ -6483,7 +6484,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260226&todate=20260527&scripcode=543980",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260227&todate=20260528&scripcode=543980",
       "count": 0,
       "tag": "confirmed",
       "data": []

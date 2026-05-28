@@ -7,9 +7,9 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-05-28T11:26:44.460Z",
+  "lastBuiltAt": "2026-05-28T17:38:32.630Z",
   "latestQuote": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "price": 1376.75,
     "marketCapCr": 13982.16,
     "marketCapFreeFloatCr": 6993.92,
@@ -18,11 +18,83 @@
   },
   "coverage": {
     "extractedDocs": 0,
-    "quartersWithData": 9,
-    "quarterRange": "FY24-Q1 → FY26-Q3",
+    "quartersWithData": 10,
+    "quarterRange": "FY24-Q1 → FY26-Q4",
     "classifiedTotalPriorityDocs": 48
   },
   "quarters": {
+    "FY26-Q4": {
+      "fiscalQuarter": "FY26-Q4",
+      "label": "Q4 FY26",
+      "calendar": "Jan–Mar 2026",
+      "from": "2026-01-01",
+      "to": "2026-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "bse-financials-api",
+          "newsId": null,
+          "date": "2026-03-31",
+          "pdfUrl": null,
+          "note": "derived-from-pdf quarterly result"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "value": 4080.64,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: Revenue from operations",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2026-03-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 554.76,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: EBITDA (derived: PBT + Depr + Finance cost)",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2026-03-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 13.59,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: EBITDA margin",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2026-03-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+          }
+        },
+        "pat": {
+          "value": 31,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: Profit for the period",
+          "source": {
+            "docType": "bse-quarterly-result-api",
+            "newsId": null,
+            "date": "2026-03-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 13982.2,
+        "evToEbitdaAnnualised": 6.3,
+        "peAnnualised": 112.76,
+        "patMargin": 0.76
+      }
+    },
     "FY26-Q3": {
       "fiscalQuarter": "FY26-Q3",
       "label": "Q3 FY26",

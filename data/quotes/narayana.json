@@ -166,9 +166,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-05-28",
+      "price": 1919.4,
+      "open": 1905.8,
+      "high": 1927.95,
+      "low": 1875,
+      "prevClose": 1891.3,
+      "change": 28.1,
+      "changePct": 1.49,
+      "volumeShares": 8655,
+      "turnoverInr": 16500000,
+      "twoWeekAvgVolumeShares": 20000,
+      "weightedAvgPrice": 1904.34,
+      "marketCapFullCr": 39225.01,
+      "marketCapFreeFloatCr": 13204.12,
+      "circuitLimits": "8,655.00/1,535.55",
+      "faceValue": 10,
+      "isin": "INE410P01011",
+      "ticker": "NH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-05-27T17:19:13.705Z",
+  "lastFetchedAt": "2026-05-28T17:36:46.931Z",
   "latestRaw": {
     "header": {
       "CurrRate": {

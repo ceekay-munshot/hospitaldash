@@ -2,14 +2,14 @@
   "slug": "max-healthcare",
   "scripCode": "543220",
   "name": "Max Healthcare Institute Ltd",
-  "generatedAt": "2026-05-27T17:20:33.595Z",
+  "generatedAt": "2026-05-28T17:38:32.415Z",
   "summary": {
-    "totalAnnouncements": 381,
+    "totalAnnouncements": 382,
     "totalAnnualReportsMaster": 6,
     "byDocType": {
+      "analyst-meet-intimation": 29,
       "investor-presentation": 27,
       "other": 125,
-      "analyst-meet-intimation": 28,
       "newspaper-advert": 22,
       "concall-audio": 12,
       "press-release": 17,
@@ -118,7 +118,7 @@
           }
         ]
       },
-      "lowPriorityCount": 28
+      "lowPriorityCount": 29
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1424,6 +1424,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "75408654-2a47-4dc6-9d49-ea87b50c358a",
+      "date": "2026-05-28",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+      "headline": "Schedule of Investor Conference",
+      "category": "Company Update",
+      "docType": "analyst-meet-intimation",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c34d2ac5-47a7-430d-af05-e171250df407.pdf",
+      "attachmentName": "c34d2ac5-47a7-430d-af05-e171250df407.pdf"
+    },
     {
       "newsId": "508c62c9-6edd-4e45-a0f2-e5a428a28bd9",
       "date": "2026-05-26",

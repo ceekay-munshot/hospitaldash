@@ -3,7 +3,7 @@
   "scripCode": "543524",
   "name": "Rainbow Children's Medicare Ltd",
   "fetchedAt": "2026-05-25T18:20:23.689Z",
-  "quarterCount": 9,
+  "quarterCount": 10,
   "quarterly": [
     {
       "period": "FY24-Q1",
@@ -175,6 +175,25 @@
       "type": "derived-from-pdf",
       "sourceNewsId": "7bb44038-f64b-4042-8461-3c71206e1a61",
       "sourcePdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
+    },
+    {
+      "period": "FY26-Q4",
+      "periodEnding": "2026-03-31",
+      "revenue": 4080.64,
+      "otherIncome": 52.4,
+      "totalIncome": 133,
+      "depreciation": 356.52,
+      "financeCost": 185.24,
+      "pbt": 13,
+      "tax": 230.37,
+      "pat": 31,
+      "eps": null,
+      "ebitda": 554.76,
+      "ebitdaMargin": 13.59,
+      "patMargin": 0.76,
+      "type": "derived-from-pdf",
+      "sourceNewsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
+      "sourcePdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
     }
   ],
   "attempts": [
@@ -478,7 +497,7 @@
         "pat": "Net Profit"
       },
       "textPreview": " May 19, 2024 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, Block G, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051. Symbol: RAINBOW BSE Limited Corporate Relationship Department, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400001. Scrip Code: 543524 Su",
-      "parsedAt": "2026-05-27T17:20:17.814Z"
+      "parsedAt": "2026-05-28T17:38:19.830Z"
     },
     "f5fbafa7-58e3-409b-9583-5cf943f89dc1": {
       "newsId": "f5fbafa7-58e3-409b-9583-5cf943f89dc1",
@@ -509,7 +528,7 @@
         "tax": "Tax expense"
       },
       "textPreview": " January 24, 2024 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, G Block, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051. Symbol: RAINBOW BSE Limited Corporate Relationship Department, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400001. Scrip Code: 543524",
-      "parsedAt": "2026-05-27T17:20:18.412Z"
+      "parsedAt": "2026-05-28T17:38:21.281Z"
     },
     "1d9cec50-205c-4803-8c3e-220f20c606d2": {
       "newsId": "1d9cec50-205c-4803-8c3e-220f20c606d2",
@@ -576,7 +595,75 @@
       },
       "textPreview": " August 7, 2023 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, Block G, Bandra Kurla Complex, Bandra (E), Mumbai – 400 051. Symbol: RAINBOW BSE Limited Corporate Relationship Department, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400001. Scrip Code: 5435",
       "parsedAt": "2026-05-25T18:31:55.781Z"
+    },
+    "dbcc983d-b546-4640-a340-58ee28fc02e5": {
+      "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
+      "filingDate": "2026-05-27",
+      "period": "FY26-Q4",
+      "periodEnding": "2026-03-31",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
+      "revenue": 4080.64,
+      "otherIncome": 52.4,
+      "totalIncome": 133,
+      "totalExpenses": 3333,
+      "depreciation": 356.52,
+      "financeCost": 185.24,
+      "pbt": 13,
+      "tax": 230.37,
+      "pat": 31,
+      "eps": null,
+      "ebitda": 554.76,
+      "ebitdaMargin": 13.59,
+      "patMargin": 0.76,
+      "pdfScale": 1,
+      "matchedPhrases": {
+        "revenue": "Revenue from operations",
+        "otherIncome": "Other income",
+        "totalIncome": "Total income",
+        "totalExpenses": "Total expenses",
+        "depreciation": "Depreciation and amortisation",
+        "financeCost": "Finance cost",
+        "pbt": "Profit before tax",
+        "tax": "Tax expense",
+        "pat": "Net Profit"
+      },
+      "textPreview": " May 23, 2026 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, G Block, Bandra Kurla Complex, Bandra (E), Mumbai - 400051. Symbol: RAINBOW BSE Limited Corporate Relationship Department, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400001. Scrip Cod",
+      "parsedAt": "2026-05-28T17:38:18.721Z"
+    },
+    "6cb9f5b7-e8d0-49d7-b42d-8de3cd881f3b": {
+      "newsId": "6cb9f5b7-e8d0-49d7-b42d-8de3cd881f3b",
+      "filingDate": "2026-05-27",
+      "period": "FY26-Q4",
+      "periodEnding": "2026-03-31",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
+      "revenue": 4080.64,
+      "otherIncome": 52.4,
+      "totalIncome": 133,
+      "totalExpenses": 3333,
+      "depreciation": 356.52,
+      "financeCost": 185.24,
+      "pbt": 13,
+      "tax": 230.37,
+      "pat": 31,
+      "eps": null,
+      "ebitda": 554.76,
+      "ebitdaMargin": 13.59,
+      "patMargin": 0.76,
+      "pdfScale": 1,
+      "matchedPhrases": {
+        "revenue": "Revenue from operations",
+        "otherIncome": "Other income",
+        "totalIncome": "Total income",
+        "totalExpenses": "Total expenses",
+        "depreciation": "Depreciation and amortisation",
+        "financeCost": "Finance cost",
+        "pbt": "Profit before tax",
+        "tax": "Tax expense",
+        "pat": "Net Profit"
+      },
+      "textPreview": " May 23, 2026 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, G Block, Bandra Kurla Complex, Bandra (E), Mumbai - 400051. Symbol: RAINBOW BSE Limited Corporate Relationship Department, Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400001. Scrip Cod",
+      "parsedAt": "2026-05-28T17:38:18.977Z"
     }
   },
-  "lastBuiltAt": "2026-05-27T17:20:18.412Z"
+  "lastBuiltAt": "2026-05-28T17:38:21.281Z"
 }
