@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MEDANTA",
   "isin": "INE474Q01031",
-  "lastBuiltAt": "2026-05-28T06:38:10.318Z",
+  "lastBuiltAt": "2026-05-28T06:47:49.355Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 1209.2,
@@ -189,7 +189,7 @@
           }
         },
         "revenue": {
-          "value": 11958,
+          "value": 1195.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Income INR 11,958 million",
@@ -201,7 +201,7 @@
           }
         },
         "ebitda": {
-          "value": 2906,
+          "value": 290.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA INR 2,906 million",
@@ -225,7 +225,7 @@
           }
         },
         "pat": {
-          "value": 1417,
+          "value": 141.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit after Tax was INR 1,417 million",
@@ -237,7 +237,7 @@
           }
         },
         "netDebt": {
-          "value": -5906,
+          "value": -590.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 5,906 million at the end of 31st March, 2026",
@@ -249,7 +249,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 9400,
+          "value": 940,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "INR 9,400 million of capex incurred during the year",
@@ -286,15 +286,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 174760687,
-        "ebitdaPerBedYearly": 42469858,
+        "revenuePerBedYearly": 17476069,
+        "ebitdaPerBedYearly": 4246986,
         "bedTurnoverYearly": 77.11,
         "bedActivationPct": 74.7,
-        "enterpriseValueCr": 26603.6,
-        "evToEbitdaAnnualised": 2.29,
-        "peAnnualised": 5.74,
-        "evPerBedCr": 9.72,
-        "evPerBedLakhs": 972
+        "enterpriseValueCr": 31919,
+        "evToEbitdaAnnualised": 27.46,
+        "peAnnualised": 57.36,
+        "evPerBedCr": 11.662,
+        "evPerBedLakhs": 1166.2
       }
     },
     "FY26-Q4": {
@@ -464,7 +464,7 @@
           }
         },
         "ebitda": {
-          "value": 2494,
+          "value": 249.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA, including Noida, stood at Rs.2,494 million",
@@ -538,11 +538,11 @@
       },
       "derived": {
         "revenuePerBedYearly": 11465427,
-        "ebitdaPerBedYearly": 304146341,
+        "ebitdaPerBedYearly": 30414634,
         "bedTurnoverYearly": 115.85,
         "bedActivationPct": 12.3,
         "enterpriseValueCr": 31909.6,
-        "evToEbitdaAnnualised": 3.2,
+        "evToEbitdaAnnualised": 31.99,
         "peAnnualised": 101.71,
         "evPerBedCr": 97.285,
         "evPerBedLakhs": 9728.5
@@ -727,7 +727,7 @@
           }
         },
         "revenue": {
-          "value": 11428,
+          "value": 1142.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Income was INR 11,428 million, up by 19.1 % y-o-y",
@@ -739,7 +739,7 @@
           }
         },
         "ebitda": {
-          "value": 2494,
+          "value": 249.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA Including Noida, was INR 2,494 million, down by 1.7% y-o-y",
@@ -763,7 +763,7 @@
           }
         },
         "pat": {
-          "value": 950,
+          "value": 95,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax was INR 950 million",
@@ -775,7 +775,7 @@
           }
         },
         "netDebt": {
-          "value": -7082,
+          "value": -708.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 7,082 million at the end of 30th September, 2025",
@@ -787,7 +787,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 6246,
+          "value": 624.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "In 9M FY2026, INR 6,246 million of capex incurred",
@@ -812,15 +812,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 1393658537,
-        "ebitdaPerBedYearly": 304146341,
+        "revenuePerBedYearly": 139365854,
+        "ebitdaPerBedYearly": 30414634,
         "bedTurnoverYearly": 625.3,
         "bedActivationPct": 9.2,
-        "enterpriseValueCr": 25427.6,
-        "evToEbitdaAnnualised": 2.55,
-        "peAnnualised": 8.56,
-        "evPerBedCr": 77.523,
-        "evPerBedLakhs": 7752.3
+        "enterpriseValueCr": 31801.4,
+        "evToEbitdaAnnualised": 31.88,
+        "peAnnualised": 85.55,
+        "evPerBedCr": 96.955,
+        "evPerBedLakhs": 9695.5
       }
     },
     "FY26-Q2": {
@@ -1020,7 +1020,7 @@
           }
         },
         "pat": {
-          "value": 1590,
+          "value": 159,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit after tax was INR 1,590 million",
@@ -1032,7 +1032,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 1950,
+          "value": 195,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "In Q1 FY2026, Rs. 1,950 million of capex incurred",
@@ -1063,7 +1063,7 @@
         "bedActivationPct": 81.2,
         "enterpriseValueCr": 32509.6,
         "evToEbitdaAnnualised": 3.07,
-        "peAnnualised": 5.11,
+        "peAnnualised": 51.12,
         "evPerBedCr": 13.072,
         "evPerBedLakhs": 1307.2
       }
@@ -1301,7 +1301,7 @@
           }
         },
         "netDebt": {
-          "value": -8123,
+          "value": -812.3,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 8,123 million at the end of 31st March, 2025",
@@ -1313,7 +1313,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 6449,
+          "value": 644.9,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Capex of INR 6,449 million incurred during the year",
@@ -1342,11 +1342,11 @@
         "ebitdaPerBedYearly": 40163226,
         "bedTurnoverYearly": 281,
         "bedActivationPct": 81.5,
-        "enterpriseValueCr": 24386.6,
-        "evToEbitdaAnnualised": 2.45,
+        "enterpriseValueCr": 31697.3,
+        "evToEbitdaAnnualised": 3.18,
         "peAnnualised": 1.69,
-        "evPerBedCr": 9.833,
-        "evPerBedLakhs": 983.3
+        "evPerBedCr": 12.781,
+        "evPerBedLakhs": 1278.1
       }
     },
     "FY25-Q4": {
@@ -1491,7 +1491,7 @@
           }
         },
         "revenue": {
-          "value": 9595,
+          "value": 959.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated Total Income of INR 9,595 million, grew by 12.3% y-o-y.",
@@ -1503,7 +1503,7 @@
           }
         },
         "ebitda": {
-          "value": 2538,
+          "value": 253.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA was INR 2,538 million, growth of 8.4% y-o-y.",
@@ -1527,7 +1527,7 @@
           }
         },
         "pat": {
-          "value": 1429,
+          "value": 142.9,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit after tax of INR 1,429 million, growth of 15.6% y-o-y.",
@@ -1564,13 +1564,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 154758065,
-        "ebitdaPerBedYearly": 40935484,
+        "revenuePerBedYearly": 15475806,
+        "ebitdaPerBedYearly": 4093548,
         "bedTurnoverYearly": 72.35,
         "bedActivationPct": 81.5,
         "enterpriseValueCr": 32509.6,
-        "evToEbitdaAnnualised": 3.2,
-        "peAnnualised": 5.69,
+        "evToEbitdaAnnualised": 32.02,
+        "peAnnualised": 56.87,
         "evPerBedCr": 13.109,
         "evPerBedLakhs": 1310.9
       }
@@ -1790,7 +1790,7 @@
           }
         },
         "pat": {
-          "value": 1308,
+          "value": 130.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax was INR 1,308 million.",
@@ -1802,7 +1802,7 @@
           }
         },
         "netDebt": {
-          "value": -7186,
+          "value": -718.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 7,186 million at the end of 30th September, 2024.",
@@ -1814,7 +1814,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 3702,
+          "value": 370.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "INR 3,702 million of capex incurred including INR 1,314 million related to acquisition of Land in Mumbai.",
@@ -1855,11 +1855,11 @@
         "ebitdaPerBedYearly": 33580213,
         "bedTurnoverYearly": 73.87,
         "bedActivationPct": 81.3,
-        "enterpriseValueCr": 25323.6,
-        "evToEbitdaAnnualised": 3.08,
-        "peAnnualised": 6.21,
-        "evPerBedCr": 10.353,
-        "evPerBedLakhs": 1035.3
+        "enterpriseValueCr": 31791,
+        "evToEbitdaAnnualised": 3.87,
+        "peAnnualised": 62.14,
+        "evPerBedCr": 12.997,
+        "evPerBedLakhs": 1299.7
       }
     },
     "FY25-Q2": {
@@ -2016,7 +2016,7 @@
           }
         },
         "revenue": {
-          "value": 8830,
+          "value": 883,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated Total Income of INR 8,830 million",
@@ -2028,7 +2028,7 @@
           }
         },
         "ebitda": {
-          "value": 2082,
+          "value": 208.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA was INR 2,082 million",
@@ -2052,7 +2052,7 @@
           }
         },
         "pat": {
-          "value": 1063,
+          "value": 106.3,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax was INR 1,063 million",
@@ -2064,7 +2064,7 @@
           }
         },
         "netDebt": {
-          "value": -7186,
+          "value": -718.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Our balance sheet remains strong with a net cash surplus of INR 7,186 million",
@@ -2101,15 +2101,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 150042481,
-        "ebitdaPerBedYearly": 35378080,
+        "revenuePerBedYearly": 15004248,
+        "ebitdaPerBedYearly": 3537808,
         "bedTurnoverYearly": 70.17,
         "bedActivationPct": 81.5,
-        "enterpriseValueCr": 25323.6,
-        "evToEbitdaAnnualised": 3.04,
-        "peAnnualised": 7.65,
-        "evPerBedCr": 10.758,
-        "evPerBedLakhs": 1075.8
+        "enterpriseValueCr": 31791,
+        "evToEbitdaAnnualised": 38.17,
+        "peAnnualised": 76.46,
+        "evPerBedCr": 13.505,
+        "evPerBedLakhs": 1350.5
       }
     },
     "FY25-Q1": {
@@ -2278,7 +2278,7 @@
           }
         },
         "revenue": {
-          "value": 33498,
+          "value": 3349.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated Total Income of INR 33,498 million",
@@ -2290,7 +2290,7 @@
           }
         },
         "ebitda": {
-          "value": 8737,
+          "value": 873.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA was INR 8,737 million",
@@ -2314,7 +2314,7 @@
           }
         },
         "pat": {
-          "value": 4781,
+          "value": 478.1,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit after tax was INR 4,781 million",
@@ -2326,7 +2326,7 @@
           }
         },
         "netDebt": {
-          "value": -7720,
+          "value": -772,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 7,720 million at the end of 31st March, 2024",
@@ -2338,7 +2338,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 3035,
+          "value": 303.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Capex of INR 3,035 million incurred during the year",
@@ -2363,15 +2363,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 600591663,
-        "ebitdaPerBedYearly": 156647243,
+        "revenuePerBedYearly": 60059166,
+        "ebitdaPerBedYearly": 15664724,
         "bedTurnoverYearly": 279.54,
         "bedActivationPct": 79,
-        "enterpriseValueCr": 24789.6,
-        "evToEbitdaAnnualised": 0.71,
-        "peAnnualised": 1.7,
-        "evPerBedCr": 11.111,
-        "evPerBedLakhs": 1111.1
+        "enterpriseValueCr": 31737.6,
+        "evToEbitdaAnnualised": 9.08,
+        "peAnnualised": 17,
+        "evPerBedCr": 14.226,
+        "evPerBedLakhs": 1422.6
       }
     },
     "FY24-Q4": {
@@ -2529,7 +2529,7 @@
           }
         },
         "revenue": {
-          "value": 8545,
+          "value": 854.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated Total Income of INR 8,545 million.",
@@ -2541,7 +2541,7 @@
           }
         },
         "ebitda": {
-          "value": 2340,
+          "value": 234,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA was INR 2,340 million.",
@@ -2565,7 +2565,7 @@
           }
         },
         "pat": {
-          "value": 1235,
+          "value": 123.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax was INR 1,235 million.",
@@ -2577,7 +2577,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 177,
+          "value": 17.7,
           "unit": "INR_crore",
           "confidence": "low",
           "quote": "We have incurred capex of approximately INR 1,770 million during nine-month-ended December '23.",
@@ -2602,13 +2602,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 153756185,
-        "ebitdaPerBedYearly": 42105263,
+        "revenuePerBedYearly": 15375619,
+        "ebitdaPerBedYearly": 4210526,
         "bedTurnoverYearly": 71.51,
         "bedActivationPct": 81.6,
         "enterpriseValueCr": 32509.6,
-        "evToEbitdaAnnualised": 3.47,
-        "peAnnualised": 6.58,
+        "evToEbitdaAnnualised": 34.73,
+        "peAnnualised": 65.81,
         "evPerBedCr": 14.624,
         "evPerBedLakhs": 1462.4
       }
@@ -3011,7 +3011,7 @@
           }
         },
         "revenue": {
-          "value": 8647,
+          "value": 864.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total income: INR 8,647 million",
@@ -3023,7 +3023,7 @@
           }
         },
         "ebitda": {
-          "value": 2336,
+          "value": 233.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA: INR 2,336 million",
@@ -3047,7 +3047,7 @@
           }
         },
         "pat": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax was INR 1,252 million",
@@ -3059,7 +3059,7 @@
           }
         },
         "netDebt": {
-          "value": -6040,
+          "value": -604,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 6,040 million at the end of 30th Sep, 2023",
@@ -3071,7 +3071,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 1276,
+          "value": 127.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Capex of INR 1,276 million incurred during April to September 2023",
@@ -3096,15 +3096,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 155591543,
-        "ebitdaPerBedYearly": 42033288,
+        "revenuePerBedYearly": 15559154,
+        "ebitdaPerBedYearly": 4203329,
         "bedTurnoverYearly": 74.68,
         "bedActivationPct": 81.6,
-        "enterpriseValueCr": 26469.6,
-        "evToEbitdaAnnualised": 2.83,
-        "peAnnualised": 6.49,
-        "evPerBedCr": 11.907,
-        "evPerBedLakhs": 1190.7
+        "enterpriseValueCr": 31905.6,
+        "evToEbitdaAnnualised": 34.15,
+        "peAnnualised": 64.92,
+        "evPerBedCr": 14.352,
+        "evPerBedLakhs": 1435.2
       }
     },
     "FY24-Q1": {
@@ -3334,7 +3334,7 @@
           }
         },
         "netDebt": {
-          "value": -4692,
+          "value": -469.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash surplus of INR 4,692 million at the end of 31st March, 2023",
@@ -3346,7 +3346,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 2846,
+          "value": 284.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Capex of INR 2,846 million incurred during the year",
@@ -3375,11 +3375,11 @@
         "ebitdaPerBedYearly": 35827877,
         "bedTurnoverYearly": 63.3,
         "bedActivationPct": 79.3,
-        "enterpriseValueCr": 27817.6,
-        "evToEbitdaAnnualised": 3.63,
+        "enterpriseValueCr": 32040.4,
+        "evToEbitdaAnnualised": 4.18,
         "peAnnualised": 8.04,
-        "evPerBedCr": 13.011,
-        "evPerBedLakhs": 1301.1
+        "evPerBedCr": 14.986,
+        "evPerBedLakhs": 1498.6
       }
     },
     "FY23-Q4": {

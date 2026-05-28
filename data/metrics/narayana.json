@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-28T06:38:10.324Z",
+  "lastBuiltAt": "2026-05-28T06:47:49.642Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 1919.4,
@@ -141,7 +141,7 @@
           }
         },
         "revenue": {
-          "value": 25938,
+          "value": 2593.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Operating Revenue: ₹ 25,938 Mn",
@@ -153,7 +153,7 @@
           }
         },
         "ebitda": {
-          "value": 5392,
+          "value": 539.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA: ₹ 5,392 Mn",
@@ -177,7 +177,7 @@
           }
         },
         "pat": {
-          "value": 2280,
+          "value": 228,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Profit After Tax: ₹ 2,280 Mn",
@@ -189,7 +189,7 @@
           }
         },
         "netDebt": {
-          "value": 22397,
+          "value": 2239.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Debt: ₹ 22,397 Mn",
@@ -214,15 +214,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 190335718,
-        "ebitdaPerBedYearly": 39567052,
+        "revenuePerBedYearly": 19033572,
+        "ebitdaPerBedYearly": 3956705,
         "bedTurnoverYearly": 0.12,
         "bedActivationPct": 87.3,
-        "enterpriseValueCr": 61622,
-        "evToEbitdaAnnualised": 2.86,
-        "peAnnualised": 4.3,
-        "evPerBedCr": 11.305,
-        "evPerBedLakhs": 1130.5
+        "enterpriseValueCr": 41464.7,
+        "evToEbitdaAnnualised": 19.23,
+        "peAnnualised": 43.01,
+        "evPerBedCr": 7.607,
+        "evPerBedLakhs": 760.7
       }
     },
     "FY26-Q4": {
@@ -337,7 +337,7 @@
           }
         },
         "netDebt": {
-          "value": 2239.7,
+          "value": 223.97,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Borrowings less Cash & Bank Balance and Investments were INR 22,397 Mn",
@@ -365,11 +365,11 @@
         "revenuePerBedYearly": 656746,
         "ebitdaPerBedYearly": 149559,
         "bedActivationPct": 95.2,
-        "enterpriseValueCr": 41464.7,
-        "evToEbitdaAnnualised": 469.91,
+        "enterpriseValueCr": 39449,
+        "evToEbitdaAnnualised": 447.06,
         "peAnnualised": 129.47,
-        "evPerBedCr": 7.028,
-        "evPerBedLakhs": 702.8
+        "evPerBedCr": 6.686,
+        "evPerBedLakhs": 668.6
       }
     },
     "FY26-Q3": {
@@ -593,7 +593,7 @@
           }
         },
         "ebitda": {
-          "value": 390.4,
+          "value": 39.04,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of ₹ 3,904 Mn",
@@ -643,11 +643,11 @@
       },
       "derived": {
         "revenuePerBedYearly": 73032868,
-        "ebitdaPerBedYearly": 2943083,
+        "ebitdaPerBedYearly": 294308,
         "bedTurnoverYearly": 118.51,
         "bedActivationPct": 85,
         "enterpriseValueCr": 41457.1,
-        "evToEbitdaAnnualised": 26.55,
+        "evToEbitdaAnnualised": 265.48,
         "evPerBedCr": 7.813,
         "evPerBedLakhs": 781.3
       }
@@ -813,7 +813,7 @@
           }
         },
         "ebitda": {
-          "value": 4265,
+          "value": 426.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of ₹ 4,265 Mn",
@@ -837,7 +837,7 @@
           }
         },
         "pat": {
-          "value": 2583,
+          "value": 258.3,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "consolidated PAT of ₹ 2,583 Mn",
@@ -849,7 +849,7 @@
           }
         },
         "netDebt": {
-          "value": 2466,
+          "value": 246.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Borrowings less Cash & Bank Balance and Investments of ₹ 2,466 Mn",
@@ -887,14 +887,14 @@
       },
       "derived": {
         "revenuePerBedYearly": 128074339,
-        "ebitdaPerBedYearly": 32451969,
+        "ebitdaPerBedYearly": 3245197,
         "bedTurnoverYearly": 0.47,
         "bedActivationPct": 100,
-        "enterpriseValueCr": 41691,
-        "evToEbitdaAnnualised": 2.44,
-        "peAnnualised": 3.8,
-        "evPerBedCr": 7.931,
-        "evPerBedLakhs": 793.1
+        "enterpriseValueCr": 39471.6,
+        "evToEbitdaAnnualised": 23.14,
+        "peAnnualised": 37.96,
+        "evPerBedCr": 7.508,
+        "evPerBedLakhs": 750.8
       }
     },
     "FY26-Q1": {
@@ -1100,7 +1100,7 @@
           }
         },
         "ebitda": {
-          "value": 360.7,
+          "value": 36.07,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of ₹ 3,607 Mn",
@@ -1124,7 +1124,7 @@
           }
         },
         "pat": {
-          "value": 196.1,
+          "value": 19.61,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT of ₹ 1,961 Mn",
@@ -1174,12 +1174,12 @@
       },
       "derived": {
         "revenuePerBedYearly": 117309388,
-        "ebitdaPerBedYearly": 2741923,
+        "ebitdaPerBedYearly": 274192,
         "bedTurnoverYearly": 0.44,
         "bedActivationPct": 100,
         "enterpriseValueCr": 39568,
-        "evToEbitdaAnnualised": 27.42,
-        "peAnnualised": 50.01,
+        "evToEbitdaAnnualised": 274.24,
+        "peAnnualised": 500.06,
         "evPerBedCr": 7.52,
         "evPerBedLakhs": 752
       }
@@ -1482,7 +1482,7 @@
           }
         },
         "netDebt": {
-          "value": 283.7,
+          "value": 28.37,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Borrowings less Cash & Bank Balance and Investments of INR 2,837 Mn",
@@ -1511,11 +1511,11 @@
         "ebitdaPerBedYearly": 3222580,
         "bedTurnoverYearly": 0.7,
         "bedActivationPct": 72,
-        "enterpriseValueCr": 39508.7,
-        "evToEbitdaAnnualised": 30.35,
+        "enterpriseValueCr": 39253.4,
+        "evToEbitdaAnnualised": 30.16,
         "peAnnualised": 50.78,
-        "evPerBedCr": 9.782,
-        "evPerBedLakhs": 978.2
+        "evPerBedCr": 9.719,
+        "evPerBedLakhs": 971.9
       }
     },
     "FY25-Q2": {
@@ -2020,7 +2020,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 280,
+          "value": 28000,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "We have incurred a capital outlay of INR 2.8 billion directed towards purchase of land in Bangalore for Greenfield expansion",
@@ -2163,7 +2163,7 @@
           }
         },
         "ebitda": {
-          "value": 318.4,
+          "value": 31.84,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of INR 3,184 million for Q4 FY 24",
@@ -2225,7 +2225,7 @@
       },
       "derived": {
         "enterpriseValueCr": 41065,
-        "evToEbitdaAnnualised": 32.24,
+        "evToEbitdaAnnualised": 322.43,
         "peAnnualised": 316.33
       }
     },
@@ -2347,7 +2347,7 @@
           }
         },
         "revenue": {
-          "value": 1203.6,
+          "value": 120.36,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated operating revenues of INR 12,036 mn in Q3 FY24",
@@ -2359,7 +2359,7 @@
           }
         },
         "ebitda": {
-          "value": 296.8,
+          "value": 29.68,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of INR 2,968 mn in Q3 FY24",
@@ -2383,7 +2383,7 @@
           }
         },
         "pat": {
-          "value": 188.1,
+          "value": 18.81,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated PAT of INR 1,881 mn at a PAT margin of 15.6%",
@@ -2395,7 +2395,7 @@
           }
         },
         "netDebt": {
-          "value": -25.1,
+          "value": -2.51,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Borrowings less Cash, Bank Balance and Current Investments was -INR 251 mn (Net Cash)",
@@ -2420,15 +2420,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 25814477,
-        "ebitdaPerBedYearly": 6365684,
+        "revenuePerBedYearly": 2581448,
+        "ebitdaPerBedYearly": 636568,
         "bedTurnoverYearly": 1.3,
         "bedActivationPct": 35.2,
-        "enterpriseValueCr": 39199.9,
-        "evToEbitdaAnnualised": 33.02,
-        "peAnnualised": 52.13,
-        "evPerBedCr": 21.019,
-        "evPerBedLakhs": 2101.9
+        "enterpriseValueCr": 39222.5,
+        "evToEbitdaAnnualised": 330.38,
+        "peAnnualised": 521.33,
+        "evPerBedCr": 21.031,
+        "evPerBedLakhs": 2103.1
       }
     },
     "FY24-Q2": {
@@ -2598,7 +2598,7 @@
           }
         },
         "revenue": {
-          "value": 1305.2,
+          "value": 130.52,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated operating revenues of INR 13,052 mn in Q2 FY24",
@@ -2634,7 +2634,7 @@
           }
         },
         "pat": {
-          "value": 226.7,
+          "value": 22.67,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "consolidated PAT of INR 2,267 mn at a PAT margin of 17.4%",
@@ -2683,13 +2683,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 12562079,
+        "revenuePerBedYearly": 1256208,
         "ebitdaPerBedYearly": 3142445,
         "bedTurnoverYearly": 65.93,
         "bedActivationPct": 101.9,
         "enterpriseValueCr": 39311.3,
         "evToEbitdaAnnualised": 30.1,
-        "peAnnualised": 43.26,
+        "peAnnualised": 432.57,
         "evPerBedCr": 9.459,
         "evPerBedLakhs": 945.9
       }
@@ -2806,7 +2806,7 @@
           }
         },
         "revenue": {
-          "value": 1234,
+          "value": 123.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated operating revenues of INR 12,334 mn in Q1 FY24",
@@ -2818,7 +2818,7 @@
           }
         },
         "ebitda": {
-          "value": 2858,
+          "value": 285.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated EBITDA of INR 2,858 mn in Q1 FY24",
@@ -2842,7 +2842,7 @@
           }
         },
         "pat": {
-          "value": 1840,
+          "value": 184,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated PAT of INR 1,840 mn at a PAT margin of 14.9%",
@@ -2854,7 +2854,7 @@
           }
         },
         "netDebt": {
-          "value": 188,
+          "value": 18.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Borrowings less Cash, Bank Balance and Current Investments was INR 188 mn",
@@ -2866,7 +2866,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 1.1,
+          "value": 110,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "we have incurred a capital outlay of close to INR 1.1 billion for Q1",
@@ -2903,15 +2903,15 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 8417462,
-        "ebitdaPerBedYearly": 19495225,
+        "revenuePerBedYearly": 841746,
+        "ebitdaPerBedYearly": 1949523,
         "bedTurnoverYearly": 0.42,
         "bedActivationPct": 95.1,
-        "enterpriseValueCr": 39413,
-        "evToEbitdaAnnualised": 3.45,
-        "peAnnualised": 5.33,
-        "evPerBedCr": 6.721,
-        "evPerBedLakhs": 672.1
+        "enterpriseValueCr": 39243.8,
+        "evToEbitdaAnnualised": 34.33,
+        "peAnnualised": 53.29,
+        "evPerBedCr": 6.692,
+        "evPerBedLakhs": 669.2
       }
     },
     "FY23-Q4": {
@@ -2942,7 +2942,7 @@
           }
         },
         "revenue": {
-          "value": 12216,
+          "value": 1221.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Consolidated revenue for the current quarter stood at INR 12,216 million.",
@@ -2954,7 +2954,7 @@
           }
         },
         "ebitda": {
-          "value": 2904,
+          "value": 290.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "NHL generated Consolidated EBITDA of INR 2,904 million in Q4 FY23.",
@@ -3016,7 +3016,7 @@
       },
       "derived": {
         "enterpriseValueCr": 39225,
-        "evToEbitdaAnnualised": 3.38
+        "evToEbitdaAnnualised": 33.77
       }
     }
   }

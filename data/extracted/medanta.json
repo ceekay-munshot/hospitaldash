@@ -88,16 +88,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11958,
+          "value": 1195.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income for the quarter stood at INR 11,958 million."
+          "quote": "Total income for the quarter stood at INR 11,958 million.",
+          "originalValue": 11958,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2906,
+          "value": 290.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA including Noida stood at INR 2,906 million."
+          "quote": "EBITDA including Noida stood at INR 2,906 million.",
+          "originalValue": 2906,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -106,16 +110,20 @@
           "quote": "EBITDA including Noida stood at INR 2,906 million, reflecting a growth of 17% year-on-year with a margin of 24.3%."
         },
         "pat": {
-          "value": 1417,
+          "value": 141.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax for the quarter stood at INR 1,417 million."
+          "quote": "Profit after tax for the quarter stood at INR 1,417 million.",
+          "originalValue": 1417,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": 5906,
+          "value": 590.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "We exited FY2026 with a net cash position of INR 5,906 million."
+          "quote": "We exited FY2026 with a net cash position of INR 5,906 million.",
+          "originalValue": 5906,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 800,
@@ -224,16 +232,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11958,
+          "value": 1195.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income INR 11,958 million"
+          "quote": "Total Income INR 11,958 million",
+          "originalValue": 11958,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2906,
+          "value": 290.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA INR 2,906 million"
+          "quote": "EBITDA INR 2,906 million",
+          "originalValue": 2906,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -242,22 +254,28 @@
           "quote": "EBITDA margins of 24.3%"
         },
         "pat": {
-          "value": 1417,
+          "value": 141.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after Tax was INR 1,417 million"
+          "quote": "Profit after Tax was INR 1,417 million",
+          "originalValue": 1417,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -5906,
+          "value": -590.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 5,906 million at the end of 31st March, 2026"
+          "quote": "Net Cash surplus of INR 5,906 million at the end of 31st March, 2026",
+          "originalValue": -5906,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 9400,
+          "value": 940,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "INR 9,400 million of capex incurred during the year"
+          "quote": "INR 9,400 million of capex incurred during the year",
+          "originalValue": 9400,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 25.3,
@@ -496,16 +514,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11958,
+          "value": 1195.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Highest ever quarterly total income of INR 11,958 million"
+          "quote": "Highest ever quarterly total income of INR 11,958 million",
+          "originalValue": 11958,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2906,
+          "value": 290.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA INR 2,906 million in Q4 FY26"
+          "quote": "EBITDA INR 2,906 million in Q4 FY26",
+          "originalValue": 2906,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -514,10 +536,12 @@
           "quote": "margins of 24.3%"
         },
         "pat": {
-          "value": 1417,
+          "value": 141.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 1,417 million"
+          "quote": "Profit after tax was INR 1,417 million",
+          "originalValue": 1417,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -1040,16 +1064,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11428,
+          "value": 1142.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income for the quarter stood at Rs.11,428 million"
+          "quote": "Total income for the quarter stood at Rs.11,428 million",
+          "originalValue": 11428,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2494,
+          "value": 249.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA, including Noida, stood at Rs.2,494 million"
+          "quote": "EBITDA, including Noida, stood at Rs.2,494 million",
+          "originalValue": 2494,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 21.8,
@@ -1058,10 +1086,12 @@
           "quote": "EBITDA, including Noida, stood at Rs.2,494 million, with margins of 21.8%"
         },
         "pat": {
-          "value": 950,
+          "value": 95,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated profit after tax stood at Rs.950 million"
+          "quote": "Consolidated profit after tax stood at Rs.950 million",
+          "originalValue": 950,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -600,
@@ -1176,16 +1206,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11428,
+          "value": 1142.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income was INR 11,428 million, up by 19.1 % y-o-y"
+          "quote": "Total Income was INR 11,428 million, up by 19.1 % y-o-y",
+          "originalValue": 11428,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2494,
+          "value": 249.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Including Noida, was INR 2,494 million, down by 1.7% y-o-y"
+          "quote": "EBITDA Including Noida, was INR 2,494 million, down by 1.7% y-o-y",
+          "originalValue": 2494,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 21.8,
@@ -1194,10 +1228,12 @@
           "quote": "with margins at 21.8%"
         },
         "pat": {
-          "value": 950,
+          "value": 95,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 950 million"
+          "quote": "Profit After Tax was INR 950 million",
+          "originalValue": 950,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -1206,10 +1242,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 6246,
+          "value": 624.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "In 9M FY2026, INR 6,246 million of capex incurred"
+          "quote": "In 9M FY2026, INR 6,246 million of capex incurred",
+          "originalValue": 6246,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 19.1,
@@ -1454,10 +1492,12 @@
           "quote": "Total income 9,595 11,189 11,428"
         },
         "ebitda": {
-          "value": 2494,
+          "value": 249.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Including Noida, was INR 2,494 million"
+          "quote": "EBITDA Including Noida, was INR 2,494 million",
+          "originalValue": 2494,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 21.8,
@@ -1466,10 +1506,12 @@
           "quote": "with margins at 21.8%"
         },
         "pat": {
-          "value": 950,
+          "value": 95,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 950 million"
+          "quote": "Profit After Tax was INR 950 million",
+          "originalValue": 950,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -1720,16 +1762,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1118.9,
+          "value": 111.89,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, consolidated total income was INR 11,189 million."
+          "quote": "During the quarter, consolidated total income was INR 11,189 million.",
+          "originalValue": 1118.9,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 260.7,
+          "value": 26.07,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA, including Noida, was INR 2,607 million."
+          "quote": "EBITDA, including Noida, was INR 2,607 million.",
+          "originalValue": 260.7,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.3,
@@ -1738,22 +1784,28 @@
           "quote": "EBITDA, including Noida, was INR 2,607 million, up 6% year-on-year with margins at 23.3%."
         },
         "pat": {
-          "value": 158.4,
+          "value": 15.84,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax for the period was INR 1,584 million."
+          "quote": "Profit after tax for the period was INR 1,584 million.",
+          "originalValue": 158.4,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -708.2,
+          "value": -70.82,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our balance sheet remains extremely strong with a net cash surplus of INR 7,082 million at the end of September 2025."
+          "quote": "Our balance sheet remains extremely strong with a net cash surplus of INR 7,082 million at the end of September 2025.",
+          "originalValue": -708.2,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 425.2,
+          "value": 42.52,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "capex was approximately INR 4,252 million, primarily towards our Noida project."
+          "quote": "capex was approximately INR 4,252 million, primarily towards our Noida project.",
+          "originalValue": 425.2,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 15,
@@ -1856,16 +1908,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11189,
+          "value": 1118.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 11,189 million"
+          "quote": "Consolidated Total Income of INR 11,189 million",
+          "originalValue": 11189,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2607,
+          "value": 260.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Including Noida, EBITDA was INR 2,607 million"
+          "quote": "Including Noida, EBITDA was INR 2,607 million",
+          "originalValue": 2607,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.3,
@@ -1874,22 +1930,28 @@
           "quote": "EBITDA was INR 2,607 million, up 5.7% y-o-y, with margins at 23.3%"
         },
         "pat": {
-          "value": 1584,
+          "value": 158.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 1,584 million"
+          "quote": "Profit after tax was INR 1,584 million",
+          "originalValue": 1584,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -7082,
+          "value": -708.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 7,082 million at the end of 30th September, 2025"
+          "quote": "Net Cash surplus of INR 7,082 million at the end of 30th September, 2025",
+          "originalValue": -7082,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 4252,
+          "value": 425.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "In H1 FY2026, INR 4,252 million of capex incurred"
+          "quote": "In H1 FY2026, INR 4,252 million of capex incurred",
+          "originalValue": 4252,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14.8,
@@ -2128,16 +2190,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 11189,
+          "value": 1118.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 11,189 million"
+          "quote": "Consolidated Total Income of INR 11,189 million",
+          "originalValue": 11189,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2607,
+          "value": 260.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Including Noida, EBITDA was INR 2,607 million"
+          "quote": "Including Noida, EBITDA was INR 2,607 million",
+          "originalValue": 2607,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.3,
@@ -2146,10 +2212,12 @@
           "quote": "margins at 23.3%"
         },
         "pat": {
-          "value": 1584,
+          "value": 158.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,584 million"
+          "quote": "Profit After Tax was INR 1,584 million",
+          "originalValue": 1584,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2158,10 +2226,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 15300,
+          "value": 1530,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "the project cost including land and FSI purchase is estimated at ~INR 15,300 million"
+          "quote": "the project cost including land and FSI purchase is estimated at ~INR 15,300 million",
+          "originalValue": 15300,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14.8,
@@ -2400,16 +2470,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 10513,
+          "value": 1051.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta delivered total income of INR10,513 million."
+          "quote": "Medanta delivered total income of INR10,513 million.",
+          "originalValue": 10513,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2553,
+          "value": 255.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter was INR2,553 million."
+          "quote": "EBITDA for the quarter was INR2,553 million.",
+          "originalValue": 2553,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -2418,10 +2492,12 @@
           "quote": "with an improved EBITDA margin of 24.3% year-on-year."
         },
         "pat": {
-          "value": 1590,
+          "value": 159,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax for the period was INR1,590 million."
+          "quote": "Profit after tax for the period was INR1,590 million.",
+          "originalValue": 1590,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2536,16 +2612,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 10513,
+          "value": 1051.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 10,513 million"
+          "quote": "Consolidated Total Income of INR 10,513 million",
+          "originalValue": 10513,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2553,
+          "value": 255.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,553 million"
+          "quote": "EBITDA was INR 2,553 million",
+          "originalValue": 2553,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -2554,10 +2634,12 @@
           "quote": "EBITDA margins improved to 24.3%"
         },
         "pat": {
-          "value": 1590,
+          "value": 159,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 1,590 million"
+          "quote": "Profit after tax was INR 1,590 million",
+          "originalValue": 1590,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2566,10 +2648,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 1950,
+          "value": 195,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "In Q1 FY2026, Rs. 1,950 million of capex incurred"
+          "quote": "In Q1 FY2026, Rs. 1,950 million of capex incurred",
+          "originalValue": 1950,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 19.1,
@@ -2808,16 +2892,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1051.3,
+          "value": 105.13,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income of INR 10,513 million"
+          "quote": "Total Income of INR 10,513 million",
+          "originalValue": 1051.3,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 255.3,
+          "value": 25.53,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,553 million"
+          "quote": "EBITDA was INR 2,553 million",
+          "originalValue": 255.3,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.3,
@@ -2826,10 +2914,12 @@
           "quote": "EBITDA margins improved to 24.3%"
         },
         "pat": {
-          "value": 159,
+          "value": 15.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,590 million"
+          "quote": "Profit After Tax was INR 1,590 million",
+          "originalValue": 159,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -3080,16 +3170,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9542,
+          "value": 954.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta delivered total income of INR 9,542 million"
+          "quote": "Medanta delivered total income of INR 9,542 million",
+          "originalValue": 9542,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2476,
+          "value": 247.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter was INR 2,476 million"
+          "quote": "EBITDA for the quarter was INR 2,476 million",
+          "originalValue": 2476,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26,
@@ -3098,22 +3192,28 @@
           "quote": "with an improved EBITDA margin of 26.0%"
         },
         "pat": {
-          "value": 1014,
+          "value": 101.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after the tax for the period was INR 1,014 million"
+          "quote": "Profit after the tax for the period was INR 1,014 million",
+          "originalValue": 1014,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -8123,
+          "value": -812.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we ended the year with a strong net cash surplus of INR 8,123 million"
+          "quote": "we ended the year with a strong net cash surplus of INR 8,123 million",
+          "originalValue": -8123,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 6449,
+          "value": 644.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 6,449 million was incurred during the year"
+          "quote": "Capex of INR 6,449 million was incurred during the year",
+          "originalValue": 6449,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14,
@@ -3240,16 +3340,20 @@
           "quote": "Profit after tax 4,781 4,813 0.7%"
         },
         "netDebt": {
-          "value": -8123,
+          "value": -812.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 8,123 million at the end of 31st March, 2025"
+          "quote": "Net Cash surplus of INR 8,123 million at the end of 31st March, 2025",
+          "originalValue": -8123,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 6449,
+          "value": 644.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 6,449 million incurred during the year"
+          "quote": "Capex of INR 6,449 million incurred during the year",
+          "originalValue": 6449,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 12.6,
@@ -3352,16 +3456,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9542,
+          "value": 954.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 9,542 million, grew by 14.1% y-o-y"
+          "quote": "Consolidated Total Income of INR 9,542 million, grew by 14.1% y-o-y",
+          "originalValue": 9542,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2476,
+          "value": 247.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,476 million, growth of 19.8% y-o-y"
+          "quote": "EBITDA was INR 2,476 million, growth of 19.8% y-o-y",
+          "originalValue": 2476,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26,
@@ -3370,22 +3478,28 @@
           "quote": "EBITDA margins improved from 24.7% in Q4 FY24 to 26.0% in Q4 FY25"
         },
         "pat": {
-          "value": 1014,
+          "value": 101.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,014 million with PAT margins of 10.6%"
+          "quote": "Profit After Tax was INR 1,014 million with PAT margins of 10.6%",
+          "originalValue": 1014,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -8123,
+          "value": -812.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net cash surplus of INR 8,123 million at the end of 31st March, 2025"
+          "quote": "Net cash surplus of INR 8,123 million at the end of 31st March, 2025",
+          "originalValue": -8123,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 6449,
+          "value": 644.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 6,449 million incurred during the year out of which INR 1,367 million incurred towards Mumbai hospital"
+          "quote": "Capex of INR 6,449 million incurred during the year out of which INR 1,367 million incurred towards Mumbai hospital",
+          "originalValue": 6449,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14.1,
@@ -3624,16 +3738,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9539.42,
+          "value": 953.942,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 9,542 million"
+          "quote": "Consolidated Total Income of INR 9,542 million",
+          "originalValue": 9539.42,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2476,
+          "value": 247.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,476 million"
+          "quote": "EBITDA was INR 2,476 million",
+          "originalValue": 2476,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26,
@@ -3642,16 +3760,20 @@
           "quote": "EBITDA margins improved from 24.7% in Q4 FY24 to 26.0% in Q4 FY25"
         },
         "pat": {
-          "value": 1014,
+          "value": 101.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,014 million"
+          "quote": "Profit After Tax was INR 1,014 million",
+          "originalValue": 1014,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -8123,
+          "value": -812.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "strong balance sheet with net cash position of INR 8,123 million"
+          "quote": "strong balance sheet with net cash position of INR 8,123 million",
+          "originalValue": -8123,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -3896,16 +4018,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 959.5,
+          "value": 95.95,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta delivered a total income of Rs. 9,595 million."
+          "quote": "Medanta delivered a total income of Rs. 9,595 million.",
+          "originalValue": 959.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 253.8,
+          "value": 25.38,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter was Rs. 2,538 million."
+          "quote": "EBITDA for the quarter was Rs. 2,538 million.",
+          "originalValue": 253.8,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.5,
@@ -3914,10 +4040,12 @@
           "quote": "an improved EBITDA margin of 27.5%."
         },
         "pat": {
-          "value": 142.9,
+          "value": 14.29,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax for the period was Rs.1,429 million."
+          "quote": "Profit after tax for the period was Rs.1,429 million.",
+          "originalValue": 142.9,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -1085,
@@ -4032,16 +4160,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9595,
+          "value": 959.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 9,595 million, grew by 12.3% y-o-y."
+          "quote": "Consolidated Total Income of INR 9,595 million, grew by 12.3% y-o-y.",
+          "originalValue": 9595,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2538,
+          "value": 253.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,538 million, growth of 8.4% y-o-y."
+          "quote": "EBITDA was INR 2,538 million, growth of 8.4% y-o-y.",
+          "originalValue": 2538,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.5,
@@ -4050,10 +4182,12 @@
           "quote": "EBITDA margins at 26.5% in Q3 FY25."
         },
         "pat": {
-          "value": 1429,
+          "value": 142.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax of INR 1,429 million, growth of 15.6% y-o-y."
+          "quote": "Profit after tax of INR 1,429 million, growth of 15.6% y-o-y.",
+          "originalValue": 1429,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4304,16 +4438,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9595,
+          "value": 959.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income of Rs. 9,595 million"
+          "quote": "Total income of Rs. 9,595 million",
+          "originalValue": 9595,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2538,
+          "value": 253.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of Rs. 2,538 million"
+          "quote": "EBITDA of Rs. 2,538 million",
+          "originalValue": 2538,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.5,
@@ -4322,10 +4460,12 @@
           "quote": "EBITDA margins at 26.5%"
         },
         "pat": {
-          "value": 1429,
+          "value": 142.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax of Rs. 1,429 million"
+          "quote": "Profit after tax of Rs. 1,429 million",
+          "originalValue": 1429,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4440,16 +4580,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 974.8,
+          "value": 97.48,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "the company delivered consolidated total income of INR 9,748 million"
+          "quote": "the company delivered consolidated total income of INR 9,748 million",
+          "originalValue": 974.8,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 246.5,
+          "value": 24.65,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,465 million"
+          "quote": "EBITDA was INR 2,465 million",
+          "originalValue": 246.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -4458,16 +4602,20 @@
           "quote": "EBITDA margins were at 25.3% in Q2 FY25"
         },
         "pat": {
-          "value": 130.8,
+          "value": 13.08,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 1,308 million"
+          "quote": "Profit after tax was INR 1,308 million",
+          "originalValue": 130.8,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -7186,
+          "value": -718.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our balance sheet remains strong with a net cash surplus of INR 7,186 million"
+          "quote": "Our balance sheet remains strong with a net cash surplus of INR 7,186 million",
+          "originalValue": -7186,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 370,
@@ -4576,16 +4724,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9748,
+          "value": 974.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 9,748 million."
+          "quote": "Consolidated Total Income of INR 9,748 million.",
+          "originalValue": 9748,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2465,
+          "value": 246.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,465 million."
+          "quote": "EBITDA was INR 2,465 million.",
+          "originalValue": 2465,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -4594,22 +4746,28 @@
           "quote": "EBITDA margins were at 25.3% in Q2 FY25."
         },
         "pat": {
-          "value": 1308,
+          "value": 130.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,308 million."
+          "quote": "Profit After Tax was INR 1,308 million.",
+          "originalValue": 1308,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -7186,
+          "value": -718.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 7,186 million at the end of 30th September, 2024."
+          "quote": "Net Cash surplus of INR 7,186 million at the end of 30th September, 2024.",
+          "originalValue": -7186,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 3702,
+          "value": 370.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "INR 3,702 million of capex incurred including INR 1,314 million related to acquisition of Land in Mumbai."
+          "quote": "INR 3,702 million of capex incurred including INR 1,314 million related to acquisition of Land in Mumbai.",
+          "originalValue": 3702,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 12.7,
@@ -4712,16 +4870,20 @@
           "quote": "Average Revenue Per Patient: ₹1,20,000"
         },
         "revenue": {
-          "value": 9565.55,
+          "value": 956.555,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income: ₹9,565.55 million"
+          "quote": "Total income: ₹9,565.55 million",
+          "originalValue": 9565.55,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1810.99,
+          "value": 181.099,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA: ₹1,810.99 million"
+          "quote": "EBITDA: ₹1,810.99 million",
+          "originalValue": 1810.99,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 18.93,
@@ -4730,10 +4892,12 @@
           "quote": "EBITDA margin: 18.93%"
         },
         "pat": {
-          "value": 1308.18,
+          "value": 130.818,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax: ₹1,308.18 million"
+          "quote": "Profit After Tax: ₹1,308.18 million",
+          "originalValue": 1308.18,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": 0,
@@ -4848,16 +5012,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 9748,
+          "value": 974.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income of Rs. 9,748 million in Q2 FY25"
+          "quote": "Total Income of Rs. 9,748 million in Q2 FY25",
+          "originalValue": 9748,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2465,
+          "value": 246.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was Rs. 2,465 million"
+          "quote": "EBITDA was Rs. 2,465 million",
+          "originalValue": 2465,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -4866,16 +5034,20 @@
           "quote": "EBITDA margins were at 25.3% in Q2 FY25"
         },
         "pat": {
-          "value": 1308,
+          "value": 130.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was Rs. 1,308 million"
+          "quote": "Profit after tax was Rs. 1,308 million",
+          "originalValue": 1308,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -7186,
+          "value": -718.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net cash surplus of Rs. 7,186 million at the end of 30th September, 2024"
+          "quote": "Net cash surplus of Rs. 7,186 million at the end of 30th September, 2024",
+          "originalValue": -7186,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5120,16 +5292,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8830,
+          "value": 883,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta has delivered a total income of Rs. 8,830 million."
+          "quote": "Medanta has delivered a total income of Rs. 8,830 million.",
+          "originalValue": 8830,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2082,
+          "value": 208.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter was Rs. 2,082 million."
+          "quote": "EBITDA for the quarter was Rs. 2,082 million.",
+          "originalValue": 2082,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.6,
@@ -5138,10 +5314,12 @@
           "quote": "with an EBITDA margin of 23.6%."
         },
         "pat": {
-          "value": 1063,
+          "value": 106.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our profit after tax for the period was Rs. 1,063 million."
+          "quote": "Our profit after tax for the period was Rs. 1,063 million.",
+          "originalValue": 1063,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5256,16 +5434,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8830,
+          "value": 883,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 8,830 million"
+          "quote": "Consolidated Total Income of INR 8,830 million",
+          "originalValue": 8830,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2082,
+          "value": 208.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,082 million"
+          "quote": "EBITDA was INR 2,082 million",
+          "originalValue": 2082,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.6,
@@ -5274,10 +5456,12 @@
           "quote": "EBITDA margins declined to 23.6%"
         },
         "pat": {
-          "value": 1063,
+          "value": 106.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,063 million"
+          "quote": "Profit After Tax was INR 1,063 million",
+          "originalValue": 1063,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5528,16 +5712,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8830,
+          "value": 883,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income of Rs. 8,830 million"
+          "quote": "Total income of Rs. 8,830 million",
+          "originalValue": 8830,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2082,
+          "value": 208.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of Rs. 2,082 million"
+          "quote": "EBITDA of Rs. 2,082 million",
+          "originalValue": 2082,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.6,
@@ -5546,10 +5734,12 @@
           "quote": "EBITDA margins at 23.6%"
         },
         "pat": {
-          "value": 1063,
+          "value": 106.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax of Rs. 1,063 million"
+          "quote": "Profit after tax of Rs. 1,063 million",
+          "originalValue": 1063,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5664,16 +5854,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8361,
+          "value": 836.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta has delivered a total income of INR 8,361 million."
+          "quote": "Medanta has delivered a total income of INR 8,361 million.",
+          "originalValue": 8361,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2068,
+          "value": 206.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter was INR 2,068 million."
+          "quote": "EBITDA for the quarter was INR 2,068 million.",
+          "originalValue": 2068,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.7,
@@ -5682,16 +5876,20 @@
           "quote": "with the EBITDA margin of 24.7%."
         },
         "pat": {
-          "value": 1273,
+          "value": 127.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax for the period was INR 1,273 million."
+          "quote": "Profit after tax for the period was INR 1,273 million.",
+          "originalValue": 1273,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": 7720,
+          "value": 772,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we closed the year with a net cash surplus of INR 7,720 million."
+          "quote": "we closed the year with a net cash surplus of INR 7,720 million.",
+          "originalValue": 7720,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5800,16 +5998,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 33498,
+          "value": 3349.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 33,498 million"
+          "quote": "Consolidated Total Income of INR 33,498 million",
+          "originalValue": 33498,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 8737,
+          "value": 873.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 8,737 million"
+          "quote": "EBITDA was INR 8,737 million",
+          "originalValue": 8737,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.1,
@@ -5818,22 +6020,28 @@
           "quote": "EBITDA Margins % 24.5% 26.1% 154 bps"
         },
         "pat": {
-          "value": 4781,
+          "value": 478.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 4,781 million"
+          "quote": "Profit after tax was INR 4,781 million",
+          "originalValue": 4781,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -7720,
+          "value": -772,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 7,720 million at the end of 31st March, 2024"
+          "quote": "Net Cash surplus of INR 7,720 million at the end of 31st March, 2024",
+          "originalValue": -7720,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 3035,
+          "value": 303.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 3,035 million incurred during the year"
+          "quote": "Capex of INR 3,035 million incurred during the year",
+          "originalValue": 3035,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 21.4,
@@ -6096,10 +6304,12 @@
           "quote": ""
         },
         "netDebt": {
-          "value": 7720,
+          "value": 772,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net cash surplus of Rs. 7,720 million"
+          "quote": "Net cash surplus of Rs. 7,720 million",
+          "originalValue": 7720,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -6208,16 +6418,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 854.5,
+          "value": 85.45,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta reported consolidated total income of INR 8,545 million."
+          "quote": "Medanta reported consolidated total income of INR 8,545 million.",
+          "originalValue": 854.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 234,
+          "value": 23.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,340 million."
+          "quote": "EBITDA was INR 2,340 million.",
+          "originalValue": 234,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.4,
@@ -6226,10 +6440,12 @@
           "quote": "EBITDA margins increased by 305 basis points from 24.3% in Q3 FY23 to 27.4% in Q3 FY24."
         },
         "pat": {
-          "value": 123.5,
+          "value": 12.35,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was INR 1,235 million."
+          "quote": "Profit after tax was INR 1,235 million.",
+          "originalValue": 123.5,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6238,10 +6454,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 177,
+          "value": 17.7,
           "unit": "INR_crore",
           "confidence": "low",
-          "quote": "We have incurred capex of approximately INR 1,770 million during nine-month-ended December '23."
+          "quote": "We have incurred capex of approximately INR 1,770 million during nine-month-ended December '23.",
+          "originalValue": 177,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 21,
@@ -6344,16 +6562,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8545,
+          "value": 854.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of INR 8,545 million."
+          "quote": "Consolidated Total Income of INR 8,545 million.",
+          "originalValue": 8545,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2340,
+          "value": 234,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR 2,340 million."
+          "quote": "EBITDA was INR 2,340 million.",
+          "originalValue": 2340,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.4,
@@ -6362,10 +6584,12 @@
           "quote": "EBITDA margins increased from 24.3% in Q3 FY23 to 27.4% in Q3 FY24."
         },
         "pat": {
-          "value": 1235,
+          "value": 123.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,235 million."
+          "quote": "Profit After Tax was INR 1,235 million.",
+          "originalValue": 1235,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6616,16 +6840,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 854.5,
+          "value": 85.45,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income grew by 21% y-o-y to Rs. 8,545 million in Q3 FY24"
+          "quote": "Total income grew by 21% y-o-y to Rs. 8,545 million in Q3 FY24",
+          "originalValue": 854.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 234,
+          "value": 23.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA grew by 36% y-o-y to Rs. 2,340 million in Q3 FY24"
+          "quote": "EBITDA grew by 36% y-o-y to Rs. 2,340 million in Q3 FY24",
+          "originalValue": 234,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.4,
@@ -6634,10 +6862,12 @@
           "quote": "EBITDA margins improved by 305 bps from 24.3% in Q3 FY23 to 27.4% in Q3 FY24"
         },
         "pat": {
-          "value": 123.5,
+          "value": 12.35,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax grew by 53% y-o-y to Rs. 1,235 million in Q3 FY24"
+          "quote": "Profit after tax grew by 53% y-o-y to Rs. 1,235 million in Q3 FY24",
+          "originalValue": 123.5,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6752,16 +6982,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8647,
+          "value": 864.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Medanta has delivered a total consolidated income of INR8,647 million."
+          "quote": "Medanta has delivered a total consolidated income of INR8,647 million.",
+          "originalValue": 8647,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2336,
+          "value": 233.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was INR2,336 million which is a growth of 35.7% year-on-year."
+          "quote": "EBITDA was INR2,336 million which is a growth of 35.7% year-on-year.",
+          "originalValue": 2336,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27,
@@ -6770,10 +7004,12 @@
           "quote": "EBITDA margins have also improved by 224 basis points from 24.8% in Q2 FY ‘23 to 27% in Q2 FY ‘24."
         },
         "pat": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profits after tax was INR1,252 million which is a growth of 46.1% year-on-year."
+          "quote": "Profits after tax was INR1,252 million which is a growth of 46.1% year-on-year.",
+          "originalValue": 1252,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6782,10 +7018,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 1276,
+          "value": 127.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we have incurred a capex of INR1,276 million during H1 FY ‘24."
+          "quote": "we have incurred a capex of INR1,276 million during H1 FY ‘24.",
+          "originalValue": 1276,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 24.5,
@@ -6888,16 +7126,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8647,
+          "value": 864.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income: INR 8,647 million"
+          "quote": "Total income: INR 8,647 million",
+          "originalValue": 8647,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2336,
+          "value": 233.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA: INR 2,336 million"
+          "quote": "EBITDA: INR 2,336 million",
+          "originalValue": 2336,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27,
@@ -6906,22 +7148,28 @@
           "quote": "EBITDA margins improved to 27.0%"
         },
         "pat": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax was INR 1,252 million"
+          "quote": "Profit After Tax was INR 1,252 million",
+          "originalValue": 1252,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -6040,
+          "value": -604,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 6,040 million at the end of 30th Sep, 2023"
+          "quote": "Net Cash surplus of INR 6,040 million at the end of 30th Sep, 2023",
+          "originalValue": -6040,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 1276,
+          "value": 127.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 1,276 million incurred during April to September 2023"
+          "quote": "Capex of INR 1,276 million incurred during April to September 2023",
+          "originalValue": 1276,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 24.5,
@@ -7160,16 +7408,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 8647,
+          "value": 864.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated Total Income of Rs. 8,647 million in Q2 FY24"
+          "quote": "Consolidated Total Income of Rs. 8,647 million in Q2 FY24",
+          "originalValue": 8647,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 2336,
+          "value": 233.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of Rs. 2,336 million; growth of 35.7% y-o-y"
+          "quote": "EBITDA of Rs. 2,336 million; growth of 35.7% y-o-y",
+          "originalValue": 2336,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27,
@@ -7178,10 +7430,12 @@
           "quote": "EBITDA margins improved from 24.8% in Q2 FY23 to 27% in Q2 FY24"
         },
         "pat": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was at Rs. 1,252 million; up by 46.1% y-o-y"
+          "quote": "Profit after tax was at Rs. 1,252 million; up by 46.1% y-o-y",
+          "originalValue": 1252,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -7432,16 +7686,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 7945,
+          "value": 794.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "consolidated total income of INR7,945 million"
+          "quote": "consolidated total income of INR7,945 million",
+          "originalValue": 7945,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1993,
+          "value": 199.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of the quarter was at INR1,993 million"
+          "quote": "EBITDA of the quarter was at INR1,993 million",
+          "originalValue": 1993,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -7450,10 +7708,12 @@
           "quote": "EBITDA margins improving from 22.6% to 25.1%"
         },
         "pat": {
-          "value": 1020,
+          "value": 102,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our profit after tax was at INR1,020 million"
+          "quote": "Our profit after tax was at INR1,020 million",
+          "originalValue": 1020,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -7568,16 +7828,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 7945,
+          "value": 794.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income: INR 7,945 million"
+          "quote": "Total Income: INR 7,945 million",
+          "originalValue": 7945,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1993,
+          "value": 199.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA: INR 1,993 million"
+          "quote": "EBITDA: INR 1,993 million",
+          "originalValue": 1993,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -7586,10 +7850,12 @@
           "quote": "EBITDA margins improved to 25.1%"
         },
         "pat": {
-          "value": 1020,
+          "value": 102,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax: INR 1,020 million"
+          "quote": "Profit after tax: INR 1,020 million",
+          "originalValue": 1020,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -7840,16 +8106,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 7945,
+          "value": 794.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total income of Rs. 7,945 million; growth of 26.8% y-o-y."
+          "quote": "Total income of Rs. 7,945 million; growth of 26.8% y-o-y.",
+          "originalValue": 7945,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1993,
+          "value": 199.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of Rs. 1,993 million; growth of 40.7% y-o-y."
+          "quote": "EBITDA of Rs. 1,993 million; growth of 40.7% y-o-y.",
+          "originalValue": 1993,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -7858,10 +8128,12 @@
           "quote": "EBITDA margins improved from 22.6% in Q1 FY23 to 25.1% in Q1 FY24."
         },
         "pat": {
-          "value": 1020,
+          "value": 102,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax was at Rs. 1,020 million; up by 73.7% y-o-y."
+          "quote": "Profit after tax was at Rs. 1,020 million; up by 73.7% y-o-y.",
+          "originalValue": 1020,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -8112,16 +8384,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 7318,
+          "value": 731.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "We've concluded our first full year on a very strong note and we have reported our highest quarterly revenue in this quarter of INR 7,318 million."
+          "quote": "We've concluded our first full year on a very strong note and we have reported our highest quarterly revenue in this quarter of INR 7,318 million.",
+          "originalValue": 7318,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1915,
+          "value": 191.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was also INR 1,915 million, which is a growth of almost 108% year-on-year."
+          "quote": "EBITDA was also INR 1,915 million, which is a growth of almost 108% year-on-year.",
+          "originalValue": 1915,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.2,
@@ -8130,16 +8406,20 @@
           "quote": "EBITDA margins improving from 17.3% to 26.2% in quarter 4 FY23."
         },
         "pat": {
-          "value": 1011,
+          "value": 101.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our profit after tax was INR 1,011 million, which is a growth of almost 478%."
+          "quote": "Our profit after tax was INR 1,011 million, which is a growth of almost 478%.",
+          "originalValue": 1011,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -4692,
+          "value": -469.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "We became a net debt-free company. In fact, we had a net cash surplus of INR 4,692 million at the end of March 2023."
+          "quote": "We became a net debt-free company. In fact, we had a net cash surplus of INR 4,692 million at the end of March 2023.",
+          "originalValue": -4692,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 450,
@@ -8272,16 +8552,20 @@
           "quote": "Profit after tax... 1,011"
         },
         "netDebt": {
-          "value": -4692,
+          "value": -469.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash surplus of INR 4,692 million at the end of 31st March, 2023"
+          "quote": "Net Cash surplus of INR 4,692 million at the end of 31st March, 2023",
+          "originalValue": -4692,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 2846,
+          "value": 284.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Capex of INR 2,846 million incurred during the year"
+          "quote": "Capex of INR 2,846 million incurred during the year",
+          "originalValue": 2846,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 37.3,
@@ -8520,16 +8804,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 731.8,
+          "value": 73.18,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Highest ever quarterly total income of Rs. 7,318 million"
+          "quote": "Highest ever quarterly total income of Rs. 7,318 million",
+          "originalValue": 731.8,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 191.5,
+          "value": 19.15,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of Rs. 1,915 million"
+          "quote": "EBITDA of Rs. 1,915 million",
+          "originalValue": 191.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.2,
@@ -8538,10 +8826,12 @@
           "quote": "margins improved to 26.2%"
         },
         "pat": {
-          "value": 101.1,
+          "value": 10.11,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit after tax of Rs. 1,011 million"
+          "quote": "Profit after tax of Rs. 1,011 million",
+          "originalValue": 101.1,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -469.2,
@@ -8573,5 +8863,6 @@
     }
   },
   "lastExtractionAt": "2026-05-28T06:12:00.678Z",
-  "model": "gemini-2.5-flash-lite"
+  "model": "gemini-2.5-flash-lite",
+  "lastFixedAt": "2026-05-28T06:44:26.444Z"
 }

@@ -660,10 +660,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 573,
+          "value": 57.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Setting up a Comprehensive Oncology facility including a Single Gantry Proton Proteus One System at Gurugram at an investment of Rs 5,730 million."
+          "quote": "Setting up a Comprehensive Oncology facility including a Single Gantry Proton Proteus One System at Gurugram at an investment of Rs 5,730 million.",
+          "originalValue": 573,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": null,
@@ -2582,16 +2584,20 @@
           "quote": "Q2 Consolidated PAT grew 63% YoY to Rs 379 Crores"
         },
         "netDebt": {
-          "value": 2638.2,
+          "value": 263.82,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "Borrowings (Non-current liabilities) 38,194 ... Borrowings (Current liabilities) 10,291 ... Cash and cash equivalents 14,353 ... Bank balances 7,750 (all in Rs. in Million, as at 30-Sep-24, Page 11)"
+          "quote": "Borrowings (Non-current liabilities) 38,194 ... Borrowings (Current liabilities) 10,291 ... Cash and cash equivalents 14,353 ... Bank balances 7,750 (all in Rs. in Million, as at 30-Sep-24, Page 11)",
+          "originalValue": 2638.2,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 1010.5,
+          "value": 101.05,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "Net cash (used in) / generated from Investing Activities (B) (10,105) (Rs. in Million) For the period ended 30-Sep-2024 (Page 12)"
+          "quote": "Net cash (used in) / generated from Investing Activities (B) (10,105) (Rs. in Million) For the period ended 30-Sep-2024 (Page 12)",
+          "originalValue": 1010.5,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 15,
@@ -3398,10 +3404,12 @@
           "quote": "Profit/(Loss) for the period/year (7) - (8) 2,584 (Consolidated) for three months ended 31/03/2024"
         },
         "netDebt": {
-          "value": 2228.1,
+          "value": 222.81,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 22,356, Current liabilities (a) Financial Liabilities (i) Borrowings: 9,263, Current assets (b) Financial assets (iii) Cash and cash equivalents: 5,055, Current assets (b) Financial assets (iv) Bank balances: 4,283 (all in Million as at 31-Mar-24)"
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 22,356, Current liabilities (a) Financial Liabilities (i) Borrowings: 9,263, Current assets (b) Financial assets (iii) Cash and cash equivalents: 5,055, Current assets (b) Financial assets (iv) Bank balances: 4,283 (all in Million as at 31-Mar-24)",
+          "originalValue": 2228.1,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 1136.8,
@@ -4084,10 +4092,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 105,
+          "value": 10.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Working capital requirements & Purchase of fixed assets ... 1,050 Millions"
+          "quote": "Working capital requirements & Purchase of fixed assets ... 1,050 Millions",
+          "originalValue": 105,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 13.77,
@@ -4190,16 +4200,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 4850.6,
+          "value": 485.06,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenues at Rs.48,506 mn vs Rs.42,636 mn in Q3FY23; growth of 14% YoY"
+          "quote": "Revenues at Rs.48,506 mn vs Rs.42,636 mn in Q3FY23; growth of 14% YoY",
+          "originalValue": 4850.6,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 613.7,
+          "value": 61.37,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs.6,137 mn vs Rs.5,053 mn in Q3FY23."
+          "quote": "EBITDA at Rs.6,137 mn vs Rs.5,053 mn in Q3FY23.",
+          "originalValue": 613.7,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 12.65,
@@ -4208,10 +4222,12 @@
           "quote": "Revenues at Rs.48,506 mn vs Rs.42,636 mn in Q3FY23; growth of 14% YoY"
         },
         "pat": {
-          "value": 245.3,
+          "value": 24.53,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Reported PAT at Rs.2,453 mn vs Rs.1,535 mn in Q3FY23"
+          "quote": "Reported PAT at Rs.2,453 mn vs Rs.1,535 mn in Q3FY23",
+          "originalValue": 245.3,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4486,16 +4502,20 @@
           "quote": "Consolidated PAT (including Apollo HealthCo and AHLL) at Rs 233 cr, 14% YoY growth"
         },
         "netDebt": {
-          "value": 2141,
+          "value": 214.1,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 20,158 (Rs. in Million); Current liabilities (a) Financial Liabilities (i) Borrowings: 9,942 (Rs. in Million); Current assets (b) Financial assets (iii) Cash and cash equivalents: 4,724 (Rs. in Million); Current assets (b) Financial assets (iv) Bank balances other than (iii) above: 3,966 (Rs. in Million)"
+          "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings: 20,158 (Rs. in Million); Current liabilities (a) Financial Liabilities (i) Borrowings: 9,942 (Rs. in Million); Current assets (b) Financial assets (iii) Cash and cash equivalents: 4,724 (Rs. in Million); Current assets (b) Financial assets (iv) Bank balances other than (iii) above: 3,966 (Rs. in Million)",
+          "originalValue": 2141,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
-          "value": 3435,
+          "value": 343.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million"
+          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million",
+          "originalValue": 3435,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14,
@@ -4628,10 +4648,12 @@
           "quote": "Non-current liabilities (a) Financial Liabilities (i) Borrowings 20,158\nCurrent liabilities (a) Financial Liabilities (i) Borrowings 9,942\nCurrent assets (b) Financial assets (iii) Cash and cash equivalents 4,724\n(iv) Bank balances 3,966"
         },
         "capexAnnounced": {
-          "value": 3435,
+          "value": 343.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million"
+          "quote": "The Board, based on the recommendations of the Investment Committee, has evaluated and approved an expansion plan of the Company involving a balance capital outlay of around Rs. 34,350 million",
+          "originalValue": 3435,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": 14,
@@ -4764,10 +4786,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 102,
+          "value": 10.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "INR 1,020 million towards asset purchase"
+          "quote": "INR 1,020 million towards asset purchase",
+          "originalValue": 102,
+          "unitFixApplied": "million → crore"
         },
         "revenueGrowthYoy": {
           "value": null,
@@ -5006,16 +5030,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 4417.8,
+          "value": 441.78,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Q1 FY24 Revenues grew to Rs 44,178 mn; 16% YoY growth"
+          "quote": "Q1 FY24 Revenues grew to Rs 44,178 mn; 16% YoY growth",
+          "originalValue": 4417.8,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 509,
+          "value": 50.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Q1 Consolidated Reported EBITDA at Rs 5090 mn, after 24/7 operating costs of Rs 2,039 mn"
+          "quote": "Q1 Consolidated Reported EBITDA at Rs 5090 mn, after 24/7 operating costs of Rs 2,039 mn",
+          "originalValue": 509,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 11.52,
@@ -5024,10 +5052,12 @@
           "quote": "Q1 Consolidated Reported EBITDA at Rs 5090 mn, after 24/7 operating costs of Rs 2,039 mn, as compared to EBITDA of Rs 4,907 mn in Q1 FY23"
         },
         "pat": {
-          "value": 166.6,
+          "value": 16.66,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Q1 FY24 Consolidated PAT is Rs 1,666 mn."
+          "quote": "Q1 FY24 Consolidated PAT is Rs 1,666 mn.",
+          "originalValue": 166.6,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5296,10 +5326,12 @@
           "quote": ""
         },
         "pat": {
-          "value": 28.78,
+          "value": 0.288,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "total net profit after tax of Rs. 2,878 Lakhs ... for the three months and year ended March 31, 2023 respectively"
+          "quote": "total net profit after tax of Rs. 2,878 Lakhs ... for the three months and year ended March 31, 2023 respectively",
+          "originalValue": 28.78,
+          "unitFixApplied": "lakh → crore"
         },
         "netDebt": {
           "value": null,
@@ -5550,16 +5582,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 4302.2,
+          "value": 430.22,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenues grew 21% to Rs.43,022 mn vs Rs.35,464 mn in Q4 FY22"
+          "quote": "Revenues grew 21% to Rs.43,022 mn vs Rs.35,464 mn in Q4 FY22",
+          "originalValue": 4302.2,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 488.2,
+          "value": 48.82,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA post 24/7 Operating Cost and ESOP charge at Rs.4882 mn vs Rs. 4632 mn in Q4FY22; 5% YoY growth"
+          "quote": "EBITDA post 24/7 Operating Cost and ESOP charge at Rs.4882 mn vs Rs. 4632 mn in Q4FY22; 5% YoY growth",
+          "originalValue": 488.2,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 11.35,
@@ -5568,10 +5604,12 @@
           "quote": "Revenues grew 21% to Rs.43,022 mn vs Rs.35,464 mn in Q4 FY22"
         },
         "pat": {
-          "value": 144.5,
+          "value": 14.45,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT grew 60% to Rs.1,445 mn vs Rs. 901 mn in Q4 FY23"
+          "quote": "PAT grew 60% to Rs.1,445 mn vs Rs. 901 mn in Q4 FY23",
+          "originalValue": 144.5,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5603,5 +5641,6 @@
     }
   },
   "lastExtractionAt": "2026-05-25T10:03:17.541Z",
-  "model": "gemini-2.5-flash"
+  "model": "gemini-2.5-flash",
+  "lastFixedAt": "2026-05-28T06:44:26.415Z"
 }
