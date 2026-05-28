@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-28T11:25:08.291Z",
+  "lastBuiltAt": "2026-05-28T11:26:44.447Z",
   "latestQuote": {
     "date": "2026-05-27",
     "price": 784.7,
@@ -177,7 +177,7 @@
           }
         },
         "revenue": {
-          "value": 39308,
+          "value": 3930.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Total Revenue (Rs.in Mn) 39,308",
@@ -189,7 +189,7 @@
           }
         },
         "ebitda": {
-          "value": 8282,
+          "value": 828.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA (Rs.in Mn) 8,282",
@@ -213,7 +213,7 @@
           }
         },
         "pat": {
-          "value": 2420,
+          "value": 242,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT (Rs. in Mn) 2,420",
@@ -250,18 +250,18 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 324056059,
-        "ebitdaPerBedYearly": 68276999,
+        "revenuePerBedYearly": 32405606,
+        "ebitdaPerBedYearly": 6827700,
         "bedTurnoverYearly": 203.05,
         "bedActivationPct": 75.1,
         "enterpriseValueCr": 34398.9,
-        "evToEbitdaAnnualised": 1.04,
-        "peAnnualised": 3.24,
+        "evToEbitdaAnnualised": 10.38,
+        "peAnnualised": 32.44,
         "evPerBedCr": 7.09,
         "evPerBedLakhs": 709,
         "patMargin": 6.16,
-        "ebitdaTtmCr": 10727,
-        "netDebtToEbitda": 0.28
+        "ebitdaTtmCr": 3273.2,
+        "netDebtToEbitda": 0.92
       }
     },
     "FY26-Q4": {

@@ -224,16 +224,20 @@
           "quote": "ARPP 1,59,575"
         },
         "revenue": {
-          "value": 39308,
+          "value": 3930.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Revenue (Rs.in Mn) 39,308"
+          "quote": "Total Revenue (Rs.in Mn) 39,308",
+          "originalValue": 39308,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 8282,
+          "value": 828.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA (Rs.in Mn) 8,282"
+          "quote": "EBITDA (Rs.in Mn) 8,282",
+          "originalValue": 8282,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 21.1,
@@ -242,10 +246,12 @@
           "quote": "EBITDA % to Total Revenue 21.1%"
         },
         "pat": {
-          "value": 2420,
+          "value": 242,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT (Rs. in Mn) 2,420"
+          "quote": "PAT (Rs. in Mn) 2,420",
+          "originalValue": 2420,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4221,5 +4227,6 @@
     }
   },
   "lastExtractionAt": "2026-05-28T11:24:54.157Z",
-  "model": "gemini-2.5-flash-lite"
+  "model": "gemini-2.5-flash-lite",
+  "lastFixedAt": "2026-05-28T11:26:44.060Z"
 }
