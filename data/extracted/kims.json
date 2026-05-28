@@ -1,0 +1,4225 @@
+{
+  "slug": "kims",
+  "scripCode": "543308",
+  "name": "Krishna Institute of Medical Sciences Ltd",
+  "byNewsId": {
+    "6fa275b4-75af-4b09-8f5f-d5fe212c00f4": {
+      "newsId": "6fa275b4-75af-4b09-8f5f-d5fe212c00f4",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-22",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0fbbe0a-35fc-4ed0-9ddf-da65222c638f.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:11:16.569Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY27",
+        "periodEnding": "2026-05-22"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 60.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Maharashtra is 60.5% occupancy for Q4."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 75000,
+          "unit": "INR_per_day",
+          "confidence": "medium",
+          "quote": "you should assume 75,000 ARPOB and model the ramp up based on that."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1084,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total revenue of INR 1,084 crore, a growth of 35.3% on year-on-year."
+        },
+        "ebitda": {
+          "value": 216,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 216 crore, a growth of 6.8% on year-on-year."
+        },
+        "ebitdaMargin": {
+          "value": 19.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 19.9% versus 25.3% in Quarter 4 Financial Year '25."
+        },
+        "pat": {
+          "value": 33,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 33 crores in Quarter 4 Financial Year '26."
+        },
+        "netDebt": {
+          "value": 3000,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "the debt has reached its peak, close to INR 3,000 plus crores."
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 35.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 35.3% on year-on-year."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 8
+    },
+    "0d1421f4-1a98-48e7-b70e-3d95614d7124": {
+      "newsId": "0d1421f4-1a98-48e7-b70e-3d95614d7124",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-16",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a088671-c9a5-4286-b3b5-33801f59fccd.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:11:45.894Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY27-Q1",
+        "periodEnding": "2026-05-16"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 6464,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Bed Capacity of 8600+ Beds"
+        },
+        "operationalBeds": {
+          "value": 4852,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,852"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 50.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 50.5%"
+        },
+        "alos": {
+          "value": 3.57,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.57"
+        },
+        "ipVolume": {
+          "value": 246297,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP volume 2,46,297"
+        },
+        "opVolume": {
+          "value": 2300360,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP volume 23,00,360"
+        },
+        "arpob": {
+          "value": 44644,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 44,644"
+        },
+        "arpp": {
+          "value": 159575,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP 1,59,575"
+        },
+        "revenue": {
+          "value": 39308,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue (Rs.in Mn) 39,308"
+        },
+        "ebitda": {
+          "value": 8282,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA (Rs.in Mn) 8,282"
+        },
+        "ebitdaMargin": {
+          "value": 21.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA % to Total Revenue 21.1%"
+        },
+        "pat": {
+          "value": 2420,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT (Rs. in Mn) 2,420"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 28.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Yo Y FY25 Vs FY26 (%) 28.2%"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated.",
+      "nonNullMetricCount": 13
+    },
+    "e55624fd-9ead-423d-86ab-15aa29fdc1d8": {
+      "newsId": "e55624fd-9ead-423d-86ab-15aa29fdc1d8",
+      "docType": "press-release",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-16",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f3da36b-ee6e-4abb-8426-5a4a91b9c917.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:12:05.342Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY27",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 26,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The group operates 26 hospitals"
+        },
+        "bedCapacity": {
+          "value": 7300,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "over 7,300 beds across Telangana, Andhra Pradesh, Karnataka, Kerala, and Maharashtra"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 1300,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "plans to add more than 1,300 beds through upcoming projects"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 63595,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 63,595"
+        },
+        "opVolume": {
+          "value": 609724,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 6,09,724"
+        },
+        "arpob": {
+          "value": 47132,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 47,132"
+        },
+        "arpp": {
+          "value": 169983,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs) 1,69,983"
+        },
+        "revenue": {
+          "value": 1074.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 1,074.6"
+        },
+        "ebitda": {
+          "value": 216,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 216 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 19.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 19.9%"
+        },
+        "pat": {
+          "value": 33,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 33 Cr in Q4 FY26"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 35.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 35.3% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated.",
+      "nonNullMetricCount": 12
+    },
+    "764d24f5-c323-4e36-94b1-da16ab98f8ea": {
+      "newsId": "764d24f5-c323-4e36-94b1-da16ab98f8ea",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-15",
+      "subject": "Results",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8d7b5174-f1a9-4a79-a09e-7b132c9bbcee.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:12:31.919Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY27",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "No specific operational or financial metrics were extracted from the document.",
+      "nonNullMetricCount": 0
+    },
+    "23a3b98d-723e-4528-9b19-889bf820c49b": {
+      "newsId": "23a3b98d-723e-4528-9b19-889bf820c49b",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-13",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/426c91b3-b646-40b0-a5c3-6659b740a2e6.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:12:53.806Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-02-13"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We now have 25 hospitals across 5 states."
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 75,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Anantpur is expected to be commissioned in the current quarter. 50 beds got commissioned."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS entered into an agreement with Andrea Saba for its land to construct and operate a hospital at Chennai."
+        },
+        "occupancyRate": {
+          "value": 52.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "occupancies, our occupancies are still let's say for first 9 month on an operating bed basis hovering somewhere around 52.5%."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 61139,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP volume (61,139) grew by 13.2% year-on-year."
+        },
+        "opVolume": {
+          "value": 585499,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP volumes (5,85,499) an increase of 24.5% year-on-year."
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "medium",
+          "quote": "ARPOB ₹66,500."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1003,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total revenue of INR1,003 crores."
+        },
+        "ebitda": {
+          "value": 204,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The EBITDA of INR204 crores."
+        },
+        "ebitdaMargin": {
+          "value": 20.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin stood at 20.4%."
+        },
+        "pat": {
+          "value": 52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR52 crores in Q3 FY '26."
+        },
+        "netDebt": {
+          "value": 2850,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Chirag, it is about INR2,850-odd crores at a consolidated level as on 31st of December '25."
+        },
+        "capexAnnounced": {
+          "value": 500,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "quote": "Capex for '27, the full closure and capex will be another incremental INR500 crores to INR600 crores."
+        },
+        "revenueGrowthYoy": {
+          "value": 2.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 2.2% on year-on."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics inferred from context.",
+      "nonNullMetricCount": 14
+    },
+    "587bf1b4-b3d8-4ab9-8b08-5a9a08ab5a54": {
+      "newsId": "587bf1b4-b3d8-4ab9-8b08-5a9a08ab5a54",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1a208c6-041a-4186-a2fc-242d56fa1f36.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:13:15.034Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2026-02-06"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 18,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka and Kerala."
+        },
+        "bedCapacity": {
+          "value": 6464,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Bed Capacity of 9100+ Beds"
+        },
+        "operationalBeds": {
+          "value": 4825,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,825"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 49,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 49.0%"
+        },
+        "alos": {
+          "value": 3.54,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.54"
+        },
+        "ipVolume": {
+          "value": 61139,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 61,139"
+        },
+        "opVolume": {
+          "value": 585491,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 585,491"
+        },
+        "arpob": {
+          "value": 46341,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 46,341"
+        },
+        "arpp": {
+          "value": 164232,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs) 164,232"
+        },
+        "revenue": {
+          "value": 10029,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue 10,029"
+        },
+        "ebitda": {
+          "value": 2041,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 2,041"
+        },
+        "ebitdaMargin": {
+          "value": 20.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA (%) on Total Revenue 20.4%"
+        },
+        "pat": {
+          "value": 519,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT * 519"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "YoY(%) 26.9%"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 14
+    },
+    "7e9cb373-4cfd-4414-9585-853df1735dc8": {
+      "newsId": "7e9cb373-4cfd-4414-9585-853df1735dc8",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-06",
+      "subject": "Q3FY26",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8138661d-5652-479a-b229-aeef34f1fb38.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:13:36.577Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY26",
+        "periodEnding": "2026-02-06"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "No operational or financial metrics were provided in the document.",
+      "nonNullMetricCount": 0
+    },
+    "cd41edb9-ccff-4033-a251-40c21571e6f7": {
+      "newsId": "cd41edb9-ccff-4033-a251-40c21571e6f7",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q4",
+      "date": "2026-02-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/069b558a-99a5-488a-a729-10d26e82ba02.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:13:54.301Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The group operates 25 hospitals"
+        },
+        "bedCapacity": {
+          "value": 7100,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "over 7,100 beds across Telangana, Andhra Pradesh, Karnataka, Kerala, and Maharashtra"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "plans to add more than 2,000 beds through upcoming projects"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1003,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue of INR 1003 Cr"
+        },
+        "ebitda": {
+          "value": 204,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 204 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 20.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin stood at 20.4%"
+        },
+        "pat": {
+          "value": 52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 52 Cr in Q3 FY26"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 26.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 26.9% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 8
+    },
+    "110fce0a-8670-4a02-8edf-6127d71d6dec": {
+      "newsId": "110fce0a-8670-4a02-8edf-6127d71d6dec",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-14",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/87852130-8394-44b2-9379-218416cf1976.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:14:37.055Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 130,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "This will be around 130 beds operational."
+        },
+        "bedsUnderDevelopment": {
+          "value": 550,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Kondapur, which will get commissioned over the next 6 months, which will be an incremental 550 beds."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 64288,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP volume 64,288 grew by 12.2% on a quarter-on-quarter basis."
+        },
+        "opVolume": {
+          "value": 592725,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP volume, 5,92,725 grew by 18% on quarter-on-quarter."
+        },
+        "arpob": {
+          "value": 42016,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Currently driving around INR42,016 in average revenue per occupied bed."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 965,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "total revenue of INR965 crores, a growth of 23.3% on year-on-year."
+        },
+        "ebitda": {
+          "value": 208,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA INR208 crores, a decline of 6.7% on year-on-year."
+        },
+        "ebitdaMargin": {
+          "value": 21.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 21.6% versus 28.5% in quarter 2 FY '25."
+        },
+        "pat": {
+          "value": 72,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR72 crores in quarter 2 financial year '26."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 23.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 23.3% on year-on-year."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 10
+    },
+    "118d5f20-34c8-4664-a9d5-4f1ea0db1d3e": {
+      "newsId": "118d5f20-34c8-4664-a9d5-4f1ea0db1d3e",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-11",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/28063c0f-9bfc-4112-95fa-ddc7be2889b9.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:16:02.119Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-11-11"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 18,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka and Kerala."
+        },
+        "bedCapacity": {
+          "value": 6114,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Bed Capacity of 8800+ Beds"
+        },
+        "operationalBeds": {
+          "value": 4695,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,695"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 53.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 53.5%"
+        },
+        "alos": {
+          "value": 3.58,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.58"
+        },
+        "ipVolume": {
+          "value": 64288,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 64,288"
+        },
+        "opVolume": {
+          "value": 592725,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 5,92,725"
+        },
+        "arpob": {
+          "value": 42016,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 42,016"
+        },
+        "arpp": {
+          "value": 150624,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs) 1,50,624"
+        },
+        "revenue": {
+          "value": 9649,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue of INR 9,649 Mns"
+        },
+        "ebitda": {
+          "value": 2082,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 2,082 Mns"
+        },
+        "ebitdaMargin": {
+          "value": 21.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin at 21.6%"
+        },
+        "pat": {
+          "value": 720,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 720 Mns"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 23.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 23.3% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, ambiguous figures for beds under development and new hospitals planned.",
+      "nonNullMetricCount": 14
+    },
+    "9003f00c-1978-4335-8dd1-21f61cb8dd68": {
+      "newsId": "9003f00c-1978-4335-8dd1-21f61cb8dd68",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-07",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/16f82e52-025a-4146-9ce9-41a005e7bc6e.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:16:35.792Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-11-07"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 18,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka and Kerala."
+        },
+        "bedCapacity": {
+          "value": 6114,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Overall Bed Capacity of 8800+ Beds"
+        },
+        "operationalBeds": {
+          "value": 4695,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,695"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 53.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 53.5%"
+        },
+        "alos": {
+          "value": 3.58,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.58"
+        },
+        "ipVolume": {
+          "value": 64288,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 64,288"
+        },
+        "opVolume": {
+          "value": 592725,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 5,92,725"
+        },
+        "arpob": {
+          "value": 42016,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 42,016"
+        },
+        "arpp": {
+          "value": 150624,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs) 1,50,624"
+        },
+        "revenue": {
+          "value": 9649,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue of INR 9,649 Mns"
+        },
+        "ebitda": {
+          "value": 2082,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 2,082 Mns"
+        },
+        "ebitdaMargin": {
+          "value": 21.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin at 21.6%"
+        },
+        "pat": {
+          "value": 720,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 720 Mns"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 23.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 23.3% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 14
+    },
+    "fd2d1a26-103a-4598-b87c-461f504d01c0": {
+      "newsId": "fd2d1a26-103a-4598-b87c-461f504d01c0",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-07",
+      "subject": "Results For The Quarter And Half Year Ended 30.09.2025",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5319c2c2-3a98-476a-9847-351730771892.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:16:48.998Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4300,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 4300"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 588,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period 588"
+        },
+        "netDebt": {
+          "value": 7233,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 7233"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not reported in the document.",
+      "nonNullMetricCount": 3
+    },
+    "1d6425a7-e410-4dd4-a1be-ed2252230760": {
+      "newsId": "1d6425a7-e410-4dd4-a1be-ed2252230760",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q3",
+      "date": "2025-11-07",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd0552bf-3624-45dc-b30b-829bcd5be7de.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:17:10.008Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 25 hospitals and over 8000 beds is spread across Telangana..."
+        },
+        "bedCapacity": {
+          "value": 8000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 25 hospitals and over 8000 beds..."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 64288,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume64,288"
+        },
+        "opVolume": {
+          "value": 592725,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume5,92,725"
+        },
+        "arpob": {
+          "value": 42016,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs)42,016"
+        },
+        "arpp": {
+          "value": 150624,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs)1,50,624"
+        },
+        "revenue": {
+          "value": 961,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 960.7"
+        },
+        "ebitda": {
+          "value": 201,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA (Pre-INDAS) of INR 201 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 20.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA % to Revenue from Operations20.5%"
+        },
+        "pat": {
+          "value": 72,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 72 Cr in Q2 FY26"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 23.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 23.6% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not disclosed in the document.",
+      "nonNullMetricCount": 11
+    },
+    "255480f0-eb69-4a7a-8ba7-0b29d396fb96": {
+      "newsId": "255480f0-eb69-4a7a-8ba7-0b29d396fb96",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-13",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8e3f020c-994f-4490-b23e-20e263534c23.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:17:46.717Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "we have 25 centers across 5 states"
+        },
+        "bedCapacity": {
+          "value": 8000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "bed capacity of 8,000"
+        },
+        "operationalBeds": {
+          "value": 100,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "we are at around 50%-55% occupancy for the month of July"
+        },
+        "bedsUnderDevelopment": {
+          "value": 800,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "we launched our 2 units at Bangalore, done the Puja in Mahadevpur and Electronic City with a bed capacity of nearly 800 beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "we should see good volume growth in the Telangana cluster. But since it's a mature cluster, we are not anticipating growth beyond the 5%, 6% kind of volume growth"
+        },
+        "occupancyRate": {
+          "value": 55,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "we are at around 50%-55% occupancy for the month of July"
+        },
+        "alos": {
+          "value": 3.4,
+          "unit": "days",
+          "confidence": "low",
+          "quote": "assuming that 3.4% is the ALOS that remains"
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 43000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB growth or this quarter at a company level, we saw a 11%-12% kind of an ARPOB growth"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 879,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total revenue of INR879 crores"
+        },
+        "ebitda": {
+          "value": 200,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR200 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 22.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 22.7%"
+        },
+        "pat": {
+          "value": 85,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR85 Cr in Q1 FY '26"
+        },
+        "netDebt": {
+          "value": 2020,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "net debt as on 30 June 2025 is INR2,020 crores"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 26.8% on year-on-year"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics are not explicitly stated in the document.",
+      "nonNullMetricCount": 14
+    },
+    "5ecf4fc3-f80f-42dc-8d9b-7bd98e05d6e3": {
+      "newsId": "5ecf4fc3-f80f-42dc-8d9b-7bd98e05d6e3",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-07",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7f985b27-3faf-4d73-8cd0-93b3fb2776df.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:18:01.235Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-08-07"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "No operational or financial metrics were extracted from the document.",
+      "nonNullMetricCount": 0
+    },
+    "31c3b94a-ac33-4a71-9597-3db541ff2361": {
+      "newsId": "31c3b94a-ac33-4a71-9597-3db541ff2361",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/159acfe2-4c3f-4efd-abcd-95ac4b8338a3.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:18:20.137Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 18,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka (Upcoming) and Kerala."
+        },
+        "bedCapacity": {
+          "value": 5499,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bed Capacity: 5,499"
+        },
+        "operationalBeds": {
+          "value": 4612,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds: 4,612"
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Kondapur (220) + 500 beds under construction"
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bangalore (Project-1)-450, Bangalore (Project-2)-350, Ongole-350"
+        },
+        "occupancyRate": {
+          "value": 48.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy: 48.8%"
+        },
+        "alos": {
+          "value": 3.56,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS: 3.56"
+        },
+        "ipVolume": {
+          "value": 57275,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP volume: 57,275"
+        },
+        "opVolume": {
+          "value": 502492,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP volume: 5,02,492"
+        },
+        "arpob": {
+          "value": 43011,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB: 43,011"
+        },
+        "arpp": {
+          "value": 153094,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP: 1,53,094"
+        },
+        "revenue": {
+          "value": 879,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total revenue of INR 879 Cr"
+        },
+        "ebitda": {
+          "value": 200,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 200 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 22.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 22.7%"
+        },
+        "pat": {
+          "value": 85,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 85 Cr"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 26.8% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "All currency conversions assumed; net debt and capex figures not provided in the document.",
+      "nonNullMetricCount": 16
+    },
+    "f575867a-6ac5-4591-a4d1-b3a6ddab205b": {
+      "newsId": "f575867a-6ac5-4591-a4d1-b3a6ddab205b",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-06",
+      "subject": "Results",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46337bd3-ed47-471f-8f38-cc2543e9824c.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:18:34.553Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "No operational or financial metrics were extracted from the document.",
+      "nonNullMetricCount": 0
+    },
+    "bccfe991-0773-4db0-b408-c6706f909521": {
+      "newsId": "bccfe991-0773-4db0-b408-c6706f909521",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q2",
+      "date": "2025-08-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b37d4d48-3815-42b4-b001-3789d57d215a.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:18:55.528Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS Hospitals is one of the largest corporate healthcare groups in India with hospitals in Telangana, Andhra Pradesh, and Maharashtra, providing multi-disciplinary integrated healthcare services."
+        },
+        "bedCapacity": {
+          "value": 8000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "over 8000 beds is spread across Telangana, Andhra Pradesh, and Maharashtra."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our 2 units of Bangalore will be commencing in Q2."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 57275,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 57,275"
+        },
+        "opVolume": {
+          "value": 502492,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 5,02,492"
+        },
+        "arpob": {
+          "value": 43011,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 43,011"
+        },
+        "arpp": {
+          "value": 153094,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP (Rs) 1,53,094"
+        },
+        "revenue": {
+          "value": 872,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue from Operations of INR 872 Cr"
+        },
+        "ebitda": {
+          "value": 194,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA (Pre-INDAS) of INR 194 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 22.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 22.7%"
+        },
+        "pat": {
+          "value": 85,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 85 Cr in Q1 FY26"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 26.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 26.6% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 12
+    },
+    "0668d893-84ed-47ab-ade9-b36c55baa9c1": {
+      "newsId": "0668d893-84ed-47ab-ade9-b36c55baa9c1",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY26-Q1",
+      "date": "2025-05-12",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd70421f-6cd1-4400-a840-fdd39d2a2733.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:19:33.698Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-05-12"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 15,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka (Upcoming) and Kerala."
+        },
+        "bedCapacity": {
+          "value": 5179,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bed Capacity 5,179"
+        },
+        "operationalBeds": {
+          "value": 4492,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,492"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Kondapur (200) + 500 beds under construction, Srikakulam (200) + 120 beds under construction, Rajahmundry (195) + 350 beds under construction (New), Ongole (350) + 50 beds under construction, Anantapur (250) + 250 beds under construction"
+        },
+        "newHospitalsPlanned": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Expansion plans... Bangalore (Project-1)-450, Bangalore (Project-2)-350, Mumbai (Thane)-300, Srikakulam-200, Ongole-50, Anantapur-250"
+        },
+        "occupancyRate": {
+          "value": 50.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy*50.1%"
+        },
+        "alos": {
+          "value": 3.66,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.66"
+        },
+        "ipVolume": {
+          "value": 53918,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volumes 53,918"
+        },
+        "opVolume": {
+          "value": 468797,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volumes 4,68,797"
+        },
+        "arpob": {
+          "value": 41469,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 41,469"
+        },
+        "arpp": {
+          "value": 149069,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP(Rs) 1,49,069"
+        },
+        "revenue": {
+          "value": 801,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total revenue of INR 801 Cr"
+        },
+        "ebitda": {
+          "value": 203,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 203 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 25.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 25.3%"
+        },
+        "pat": {
+          "value": 106,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 106 Cr"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 25.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 25.7% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 16
+    },
+    "204e3010-712b-46ba-a904-7946f3e93cf1": {
+      "newsId": "204e3010-712b-46ba-a904-7946f3e93cf1",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY26-Q1",
+      "date": "2025-05-12",
+      "subject": "Results-Financial Result For The Quarter And Year Ended 31.03.2025",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/38b298df-e3c5-4e43-b119-ecbe41abe8e5.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:20:11.853Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 938,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Profit for the period/year (7-6) 938"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 3459,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 3459"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 938,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (7-6) 938"
+        },
+        "netDebt": {
+          "value": 5771,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 5771"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "fe11eb27-ba16-4feb-aad6-c04a288a025c": {
+      "newsId": "fe11eb27-ba16-4feb-aad6-c04a288a025c",
+      "docType": "press-release",
+      "fiscalQuarter": "FY26-Q1",
+      "date": "2025-05-12",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f9d037c7-d12a-49ac-95af-cee1b7495c69.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:20:29.389Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY26",
+        "periodEnding": "2025-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 19,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 19 hospitals and over 5500 beds is spread across Telangana..."
+        },
+        "bedCapacity": {
+          "value": 5500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 19 hospitals and over 5500 beds..."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "we will be opening 2 units in Bangalore in H1 FY26."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 3
+    },
+    "e95a8527-73f1-4857-9113-d660cbc5fb26": {
+      "newsId": "e95a8527-73f1-4857-9113-d660cbc5fb26",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q4",
+      "date": "2025-02-17",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8f250ce-68a2-451c-9f08-19eadfba2073.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:20:47.015Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY25",
+        "periodEnding": "2025-02-17"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 18,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS Hospitals is one of the largest corporate healthcare groups in India with hospitals in Telangana, Andhra Pradesh, and Maharashtra, providing multi-disciplinary integrated healthcare services."
+        },
+        "bedCapacity": {
+          "value": 5500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 18 hospitals and over 5500 beds is spread across Telangana, Andhra Pradesh, and Maharashtra."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Our new units, under construction, include 2 hospitals in Bangalore and one in Mumbai."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Some metrics were not disclosed in the press release. Currency conversions assumed where applicable.",
+      "nonNullMetricCount": 3
+    },
+    "5133bf65-30b5-4e66-833a-ec5acaf8cb41": {
+      "newsId": "5133bf65-30b5-4e66-833a-ec5acaf8cb41",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY25-Q4",
+      "date": "2025-02-13",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/55f08080-dde1-4535-853a-09d070a8f29e.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:21:10.243Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY25",
+        "periodEnding": "2025-02-13"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 7900,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Gross revenue of INR 790 crores"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 26500,
+          "unit": "INR_per_day",
+          "confidence": "medium",
+          "quote": "Average revenue per operating bed grew by 25.2%"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 790,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross revenue of INR 790 crores"
+        },
+        "ebitda": {
+          "value": 205,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 205 crores"
+        },
+        "ebitdaMargin": {
+          "value": 25.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin is at 25.9%"
+        },
+        "pat": {
+          "value": 93,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 93 crores"
+        },
+        "netDebt": {
+          "value": 1550,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "outstanding debts are concerned, as on 31st December 2024 it is roughly INR 1,550 crores"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 29.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 29.7% year-on-year"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 8
+    },
+    "233e3d84-8e0e-4250-a116-33335e657d5a": {
+      "newsId": "233e3d84-8e0e-4250-a116-33335e657d5a",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q4",
+      "date": "2025-02-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5727a7eb-349e-4a22-838c-bf7425576635.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:21:33.017Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": "2025-02-06"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 12,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka (Upcoming) and Kerala."
+        },
+        "bedCapacity": {
+          "value": 4859,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bed Capacity 4,859"
+        },
+        "operationalBeds": {
+          "value": 4342,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,342"
+        },
+        "bedsUnderDevelopment": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Kondapur (200) + 500 beds under construction; Srikakulam (200) + 120 beds under construction; Rajahmundry (195) + 350 beds under construction (New); Ongole (350) + 50 beds under construction; Anantapur (250) + 250 beds under construction."
+        },
+        "newHospitalsPlanned": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Expansion plans... Bangalore (Project-1)-450; Bangalore (Project-2)-350; Mumbai (Thane)-300; Srikakulam-200; Ongole-350."
+        },
+        "occupancyRate": {
+          "value": 52.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy*61.3%62.3%52.2%61.6%56.8%50.7%"
+        },
+        "alos": {
+          "value": 3.75,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 4.11 4.14 3.68 4.18 3.67 3.75"
+        },
+        "ipVolume": {
+          "value": 54013,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 54,013"
+        },
+        "opVolume": {
+          "value": 470159,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 4,70,159"
+        },
+        "arpob": {
+          "value": 38472,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 38,472"
+        },
+        "arpp": {
+          "value": 144181,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP 1,44,181"
+        },
+        "revenue": {
+          "value": 7902,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue 7,902"
+        },
+        "ebitda": {
+          "value": 2050,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 2,050"
+        },
+        "ebitdaMargin": {
+          "value": 25.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 25.9%"
+        },
+        "pat": {
+          "value": 925,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 925"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 29.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 29.7% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed where necessary; some figures are estimates based on available data.",
+      "nonNullMetricCount": 16
+    },
+    "9db5b3ff-2353-4bae-8589-3d3948413c36": {
+      "newsId": "9db5b3ff-2353-4bae-8589-3d3948413c36",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q4",
+      "date": "2025-02-06",
+      "subject": "Quarterly Result_31St December, 2024",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2823f275-fa39-4946-ac41-d310becb3583.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:22:06.885Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY25",
+        "periodEnding": "2024-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 3475,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 3475"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 76,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (6) 76"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; many metrics not disclosed in the document.",
+      "nonNullMetricCount": 2
+    },
+    "00283519-db95-49da-98eb-9ae18bfc0730": {
+      "newsId": "00283519-db95-49da-98eb-9ae18bfc0730",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q4",
+      "date": "2025-02-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/791de078-0eb2-445d-9ffb-54d3b0d00a80.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:22:36.386Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": "2024-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 16,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS Hospitals is one of the largest corporate healthcare groups in India with hospitals in Telangana, Andhra Pradesh, and Maharashtra, providing multi-disciplinary integrated healthcare services."
+        },
+        "bedCapacity": {
+          "value": 5000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 16 hospitals and over 5000 beds is spread across Telangana, Andhra Pradesh, and Maharashtra."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Our new units, under construction, include 2 hospitals in Bangalore and one in Mumbai."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 54013,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volumes 54,013"
+        },
+        "opVolume": {
+          "value": 470159,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volumes 4,70,159"
+        },
+        "arpob": {
+          "value": 38472,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (Rs) 38,472"
+        },
+        "arpp": {
+          "value": 144181,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP(Rs) 1,44,181"
+        },
+        "revenue": {
+          "value": 772,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations grew by 27.5% on a YoY and degrew by 0.6% on a QoQ basis to INR 772 Cr"
+        },
+        "ebitda": {
+          "value": 205,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA of INR 205 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 25.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 25.9%"
+        },
+        "pat": {
+          "value": 93,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 93 Cr in Q3 FY25"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 29.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue of INR 790 Cr, a growth of 29.7% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 12
+    },
+    "753fa8d1-bb91-40f8-b448-f9de16000c02": {
+      "newsId": "753fa8d1-bb91-40f8-b448-f9de16000c02",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY25-Q3",
+      "date": "2024-11-15",
+      "subject": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cfa7e0d9-3d2e-4714-89b5-d4d78d4b4c84.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:23:20.834Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": "2024-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 20,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS has a presence in Guntur of Andhra Pradesh... We have taken total control of the said hospital."
+        },
+        "bedCapacity": {
+          "value": 4610,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "the total number of beds for the -- at the end of the quarter is 4,610"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 350,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "350-bed hospital in Thrissur, dedicated to advanced transplant services."
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We are looking at the addition of bed of the 3,000 numbers over a period of time."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 55741,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPO volume 55,741 grew by 9.1% and 12.2% year-on-year."
+        },
+        "opVolume": {
+          "value": 473989,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "4Q volume INR4,73,989 grew by 12.2% and 12.5% on year-on-year."
+        },
+        "arpob": {
+          "value": 38000,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB in the range of INR38,000, INR40,000."
+        },
+        "arpp": {
+          "value": 38000,
+          "unit": "INR_per_patient",
+          "confidence": "medium",
+          "quote": "Average revenue per patient grew by 9.7%."
+        },
+        "revenue": {
+          "value": 782,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross revenue of INR782 crores, a growth of 19.4% on year-on-year."
+        },
+        "ebitda": {
+          "value": 223,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR223 crores, a growth of 23.8% on a year-on-year."
+        },
+        "ebitdaMargin": {
+          "value": 28.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 28.5% versus 27.5% in quarter 2 FY '24."
+        },
+        "pat": {
+          "value": 120,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT INR120 crores in quarter 2 FY '25 against INR101 crores."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": 800,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "we have already incurred to the tune of INR800-odd crores on these projects."
+        },
+        "revenueGrowthYoy": {
+          "value": 19.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 19.4% on year-on-year."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 14
+    },
+    "a213ea8e-8249-4bc8-8ecd-9c0a23e9d98f": {
+      "newsId": "a213ea8e-8249-4bc8-8ecd-9c0a23e9d98f",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q3",
+      "date": "2024-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/270f2f5d-13d5-4cb6-a880-97d6e6b70a55.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:23:53.594Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": "2024-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 12,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Today KIMS is spread across Telangana, Andhra Pradesh, Maharashtra, Karnataka (Upcoming) and Kerala."
+        },
+        "bedCapacity": {
+          "value": 4610,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bed Capacity 4,610"
+        },
+        "operationalBeds": {
+          "value": 4038,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds 4,038"
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Kondapur (200) + 500 beds under construction"
+        },
+        "newHospitalsPlanned": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bangalore (Project-1)-415, Bangalore (Project-2)-250, Mumbai (Thane)-300, Srikakulam 200, Ongole 350"
+        },
+        "occupancyRate": {
+          "value": 49.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy 49.7%"
+        },
+        "alos": {
+          "value": 3.67,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.67"
+        },
+        "ipVolume": {
+          "value": 55741,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IP Volume 55,741"
+        },
+        "opVolume": {
+          "value": 473989,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OP Volume 4,73,989"
+        },
+        "arpob": {
+          "value": 38263,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 38,263"
+        },
+        "arpp": {
+          "value": 140316,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "ARPP 1,40,316"
+        },
+        "revenue": {
+          "value": 7823,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Gross revenue of INR 782 Cr"
+        },
+        "ebitda": {
+          "value": 2231,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA of INR 223 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 28.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 28.5%"
+        },
+        "pat": {
+          "value": 1210,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 121 Cr"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 19.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 19.4% on YoY"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 16
+    },
+    "a3df2c0a-2123-48c1-88c1-9b2f93d59d88": {
+      "newsId": "a3df2c0a-2123-48c1-88c1-9b2f93d59d88",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q3",
+      "date": "2024-11-09",
+      "subject": "Half-Year Ended 30 September 2024 Together With The Limited Review Reports As Reviewed By The Audit Committee.",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c7681dd5-8d5b-446a-b324-37d8a755c5a2.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:24:14.499Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": "2024-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 661,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Profit for the period/year (3-4) 722 607 661"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 3633,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 3633"
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 722,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (3-4) 722"
+        },
+        "netDebt": {
+          "value": 3716,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 3,716"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "3b39c89a-3820-4b04-bb4e-1b4d34498c6a": {
+      "newsId": "3b39c89a-3820-4b04-bb4e-1b4d34498c6a",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q3",
+      "date": "2024-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1794be33-34db-4497-8d12-459c771280b1.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:24:36.554Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY25",
+        "periodEnding": "2024-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 16,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 16 hospitals and over 5000 beds is spread across Telangana..."
+        },
+        "bedCapacity": {
+          "value": 5000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Our network of 16 hospitals and over 5000 beds..."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Our new units, under construction, include 2 hospitals in Bangalore and one in Mumbai."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 1210,
+          "unit": "admissions",
+          "confidence": "medium",
+          "quote": "PAT at INR 121 Cr in Q2 FY25 against INR 101 Cr and INR 95 Cr in Q2 FY24 and Q1 FY25 respectively."
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 782,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated Revenue of INR 782 Cr, a growth of 19.4% on YoY..."
+        },
+        "ebitda": {
+          "value": 223,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Consolidated EBITDA of INR 223 Cr, a growth of 23.8% on YoY..."
+        },
+        "ebitdaMargin": {
+          "value": 28.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin at 28.5% vs. 27.5% in Q2 FY24..."
+        },
+        "pat": {
+          "value": 121,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT at INR 121 Cr in Q2 FY25 against INR 101 Cr..."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 19.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Consolidated Revenue of INR 782 Cr, a growth of 19.4% on YoY..."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some figures are not explicitly stated in the document.",
+      "nonNullMetricCount": 9
+    },
+    "c95738c1-d962-480c-86be-7f6327c16a4a": {
+      "newsId": "c95738c1-d962-480c-86be-7f6327c16a4a",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q3",
+      "date": "2024-11-06",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c062d591-2bc0-4a38-9e4c-be6df8d0edba.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-28T11:24:54.157Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY25",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 16,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "KIMS Hospitals, currently has presence in the 5 states... with over 16 hospitals"
+        },
+        "bedCapacity": {
+          "value": 5000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "over 5000 plus beds"
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 3000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "to develop new medical facilities and acquire 3000 beds in the state over the next five years"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; many metrics not disclosed in the document.",
+      "nonNullMetricCount": 3
+    }
+  },
+  "lastExtractionAt": "2026-05-28T11:24:54.157Z",
+  "model": "gemini-2.5-flash-lite"
+}
