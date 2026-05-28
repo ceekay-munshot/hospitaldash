@@ -14,6 +14,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const PROVIDER = (process.env.LLM_PROVIDER || (OPENAI_API_KEY ? 'openai' : 'gemini')).toLowerCase();
 
 const MAX_PER_RUN = Number(process.env.MAX_EXTRACTIONS_PER_RUN || 40);
+const ONLY_SLUG = (process.env.ONLY_SLUG || '').trim();
 const PER_CALL_DELAY_MS = Number(process.env.GEMINI_CALL_DELAY_MS || 4500); // ~13 RPM, under 15 RPM limit
 const PRIORITY_TYPES = ['investor-presentation', 'quarterly-result', 'concall-transcript', 'press-release'];
 
@@ -303,7 +304,17 @@ async function run() {
     console.error(`  keys available: ${KEY_POOL.size()} (rotating round-robin; dead keys skipped)\n`);
   }
 
-  const companies = await loadCompanies();
+  let companies = await loadCompanies();
+  if (ONLY_SLUG) {
+    const filtered = companies.filter((c) => c.slug === ONLY_SLUG);
+    if (filtered.length === 0) {
+      console.error(`ERROR: ONLY_SLUG="${ONLY_SLUG}" not found in registry.`);
+      console.error(`       Valid slugs: ${companies.map((c) => c.slug).join(', ')}`);
+      process.exit(0);
+    }
+    companies = filtered;
+    console.error(`Filtered to single company: ${ONLY_SLUG}\n`);
+  }
   const budget = { remaining: MAX_PER_RUN };
   const summary = [];
 

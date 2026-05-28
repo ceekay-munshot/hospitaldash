@@ -23,6 +23,10 @@ on:
         description: 'Delay between calls in ms. Lower = faster but watch RPM.'
         required: false
         default: '2000'
+      only_slug:
+        description: 'Run only this company slug (e.g. aster-dm, kims, hcg, rainbow-childrens, jupiter-lifeline, yatharth). Leave blank for all.'
+        required: false
+        default: ''
   schedule:
     # 30 min after scrape (scrape is at 14:00 UTC)
     - cron: '30 14 * * *'
@@ -63,6 +67,7 @@ jobs:
           GEMINI_MODEL: ${{ github.event.inputs.model || 'gemini-2.5-flash-lite' }}
           MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '60' }}
           GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '2000' }}
+          ONLY_SLUG: ${{ github.event.inputs.only_slug || '' }}
         run: node scripts/extract-metrics.mjs
 
       # Rebuild merged metrics + sector dataset whenever extraction ran (even partially).
