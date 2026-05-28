@@ -4,9 +4,15 @@ import { dirname } from 'node:path';
 import { loadCompanies } from './lib/bse.mjs';
 import { downloadPdf } from './lib/pdf.mjs';
 import { callGeminiWithPdf, DEFAULT_MODEL, KeyPool } from './lib/gemini.mjs';
+import { callOpenAIWithPdf, DEFAULT_OPENAI_MODEL } from './lib/openai.mjs';
 
-const RAW_KEYS = process.env.GEMINI_API_KEY || '';
-const KEY_POOL = new KeyPool(RAW_KEYS);
+const RAW_GEMINI_KEYS = process.env.GEMINI_API_KEY || '';
+const KEY_POOL = new KeyPool(RAW_GEMINI_KEYS);
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
+
+// PROVIDER selects which LLM to use. Default: openai if its key set, else gemini.
+const PROVIDER = (process.env.LLM_PROVIDER || (OPENAI_API_KEY ? 'openai' : 'gemini')).toLowerCase();
+
 const MAX_PER_RUN = Number(process.env.MAX_EXTRACTIONS_PER_RUN || 40);
 const PER_CALL_DELAY_MS = Number(process.env.GEMINI_CALL_DELAY_MS || 4500); // ~13 RPM, under 15 RPM limit
 const PRIORITY_TYPES = ['investor-presentation', 'quarterly-result', 'concall-transcript', 'press-release'];
@@ -196,11 +202,22 @@ async function processCompany(company, budget) {
 
     try {
       const { buf: pdfBuf, sourcePath } = await downloadPdf(doc.pdfUrl);
-      const { parsed, finishReason, usage, model, keyIndex } = await callGeminiWithPdf({
-        pdfBuffer: pdfBuf,
-        prompt: buildPrompt(company, doc),
-        keyPool: KEY_POOL,
-      });
+      let parsed, finishReason, usage, model, keyIndex;
+      if (PROVIDER === 'openai') {
+        const r = await callOpenAIWithPdf({
+          pdfBuffer: pdfBuf,
+          prompt: buildPrompt(company, doc),
+          apiKey: OPENAI_API_KEY,
+        });
+        parsed = r.parsed; finishReason = r.finishReason; usage = r.usage; model = r.model;
+      } else {
+        const r = await callGeminiWithPdf({
+          pdfBuffer: pdfBuf,
+          prompt: buildPrompt(company, doc),
+          keyPool: KEY_POOL,
+        });
+        parsed = r.parsed; finishReason = r.finishReason; usage = r.usage; model = r.model; keyIndex = r.keyIndex;
+      }
       const norm = normalizeExtraction(parsed);
       const nonNull = Object.values(norm.metrics).filter((m) => m.value != null).length;
       existing.byNewsId[String(doc.newsId)] = {
@@ -247,8 +264,9 @@ async function processCompany(company, budget) {
       existing.model = DEFAULT_MODEL;
       await writeFile(outPath, JSON.stringify(existing, null, 2));
 
-      if (e.dailyQuotaExceeded) {
-        console.error('    ⛔ Gemini daily quota exhausted — aborting run, resume tomorrow');
+      if (e.dailyQuotaExceeded || e.insufficientQuota) {
+        const reason = e.dailyQuotaExceeded ? 'Gemini daily quota' : 'OpenAI insufficient quota / billing';
+        console.error(`    ⛔ ${reason} — aborting run`);
         budget.quotaExhausted = true;
         return { slug: company.slug, extracted, errors, totalCached: Object.keys(existing.byNewsId).length, pendingRemaining: pending.length - extracted - errors, quotaExhausted: true };
       }
@@ -269,13 +287,21 @@ async function processCompany(company, budget) {
 }
 
 async function run() {
-  if (KEY_POOL.size() === 0) {
-    console.error('ERROR: GEMINI_API_KEY env var not set. Add it to the workflow with `env: GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}` or export locally.');
-    console.error('       Multiple keys supported — comma-separate them in the same secret.');
-    process.exit(0);
+  if (PROVIDER === 'openai') {
+    if (!OPENAI_API_KEY) {
+      console.error('ERROR: provider=openai but OPENAI_API_KEY env var not set.');
+      process.exit(0);
+    }
+    console.error(`OpenAI extraction — model=${DEFAULT_OPENAI_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms\n`);
+  } else {
+    if (KEY_POOL.size() === 0) {
+      console.error('ERROR: provider=gemini but GEMINI_API_KEY env var not set.');
+      console.error('       Multiple keys supported — comma-separate them in the same secret.');
+      process.exit(0);
+    }
+    console.error(`Gemini extraction — model=${DEFAULT_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms`);
+    console.error(`  keys available: ${KEY_POOL.size()} (rotating round-robin; dead keys skipped)\n`);
   }
-  console.error(`Gemini extraction — model=${DEFAULT_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms`);
-  console.error(`  keys available: ${KEY_POOL.size()} (rotating round-robin; dead keys skipped)\n`);
 
   const companies = await loadCompanies();
   const budget = { remaining: MAX_PER_RUN };

@@ -1,20 +1,28 @@
-name: BSE metric extraction (Gemini)
+name: BSE metric extraction (OpenAI / Gemini)
 
 on:
   workflow_dispatch:
     inputs:
+      provider:
+        description: 'LLM provider. openai = paid (gpt-4o-mini, ~$0.003/PDF, generous limits). gemini = free tier (low quota).'
+        required: false
+        default: 'openai'
+        type: choice
+        options:
+          - openai
+          - gemini
       max_extractions:
-        description: 'Max PDFs to extract this run. 300 covers full backfill in one shot.'
+        description: 'Max PDFs to extract this run.'
         required: false
         default: '300'
       model:
-        description: 'Gemini model. flash-lite = 1000 RPD (use for backfill); flash = better quality, ~50 RPD.'
+        description: 'Model override (optional). For Gemini: gemini-2.5-flash-lite. For OpenAI: gpt-4o-mini.'
         required: false
-        default: 'gemini-2.5-flash-lite'
+        default: ''
       call_delay_ms:
         description: 'Delay between calls in ms. Lower = faster but watch RPM.'
         required: false
-        default: '4000'
+        default: '2000'
   schedule:
     # 30 min after scrape (scrape is at 14:00 UTC)
     - cron: '30 14 * * *'
@@ -40,12 +48,18 @@ jobs:
       - name: Pull latest (in case scrape just committed)
         run: git pull --rebase origin main || true
 
-      - name: Run Gemini extraction
+      - name: Install root deps (pdf-parse for OpenAI text extraction)
+        run: npm install --no-audit --no-fund
+
+      - name: Run extraction
         env:
+          LLM_PROVIDER: ${{ github.event.inputs.provider || 'openai' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ github.event.inputs.model || '' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ github.event.inputs.model || 'gemini-2.5-flash-lite' }}
           MAX_EXTRACTIONS_PER_RUN: ${{ github.event.inputs.max_extractions || '60' }}
-          GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '4000' }}
+          GEMINI_CALL_DELAY_MS: ${{ github.event.inputs.call_delay_ms || '2000' }}
         run: node scripts/extract-metrics.mjs
 
       # Rebuild merged metrics + sector dataset whenever extraction ran (even partially).
