@@ -37,7 +37,10 @@ concurrency:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # 180 min headroom — first backfill across 11 cos with deep history takes
+    # >90 min on OpenAI text-based extraction. Cron runs do near-zero work
+    # (cache hits), so this only kicks in for the rare big backfill day.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 
