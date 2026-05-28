@@ -1,0 +1,33 @@
+{
+  "_comment": "KIMS quarterly metric overrides — concall transcript values used because investor-presentation extractions picked annual/9M-YTD columns instead of quarterly. VERIFY the values below by opening each PDF and checking the single-quarter column.",
+
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports on Q4 FY26 (period ending Mar 2026)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0fbbe0a-35fc-4ed0-9ddf-da65222c638f.pdf",
+    "_what_to_check": "Open PDF → find 'Q4 FY26' column (NOT 'FY26' annual). Verify the 3 numbers below.",
+    "revenue":      { "value": 1084,  "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 concall transcript" },
+    "ebitda":       { "value": 216,   "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 19.9,  "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 concall transcript" },
+    "pat":          { "value": 33,    "note": "Q4 FY26 PAT, INR Cr",                       "source": "Q4 FY26 concall transcript" }
+  },
+
+  "FY26-Q3": {
+    "_quarter_meaning": "Filing FY26-Q3 reports on Q2 FY26 (period ending Sep 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/87852130-8394-44b2-9379-218416cf1976.pdf",
+    "_what_to_check": "Open PDF → find 'Q2 FY26' column (NOT 'H1 FY26' half-year YTD). Verify the 3 numbers below.",
+    "revenue":      { "value": 965,  "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
+    "ebitda":       { "value": 208,  "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 21.6, "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
+    "pat":          { "value": 72,   "note": "Q2 FY26 PAT, INR Cr",                       "source": "Q2 FY26 concall transcript" }
+  },
+
+  "FY25-Q4": {
+    "_quarter_meaning": "Filing FY25-Q4 reports on Q3 FY25 (period ending Dec 2024)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/55f08080-dde1-4535-853a-09d070a8f29e.pdf",
+    "_what_to_check": "Open PDF → find 'Q3 FY25' column (NOT '9M FY25' nine-month YTD). Verify the 3 numbers below.",
+    "revenue":      { "value": 790,  "note": "Q3 FY25 revenue from operations, INR Cr",  "source": "Q3 FY25 concall transcript" },
+    "ebitda":       { "value": 205,  "note": "Q3 FY25 EBITDA, INR Cr",                    "source": "Q3 FY25 concall transcript" },
+    "ebitdaMargin": { "value": 25.9, "note": "Q3 FY25 EBITDA margin %",                  "source": "Q3 FY25 concall transcript" },
+    "pat":          { "value": 93,   "note": "Q3 FY25 PAT, INR Cr",                       "source": "Q3 FY25 concall transcript" }
+  }
+}
