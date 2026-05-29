@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-29T13:19:02.687Z",
+  "lastBuiltAt": "2026-05-29T17:35:50.759Z",
   "latestQuote": {
-    "date": "2026-05-28",
-    "price": 1919.4,
-    "marketCapCr": 39225.01,
-    "marketCapFreeFloatCr": 13204.12,
-    "changePct": 1.49,
-    "volumeShares": 8655
+    "date": "2026-05-29",
+    "price": 1898.95,
+    "marketCapCr": 38807.09,
+    "marketCapFreeFloatCr": 13063.44,
+    "changePct": -1.07,
+    "volumeShares": 18000
   },
   "coverage": {
     "extractedDocs": 55,
@@ -261,8 +261,8 @@
         "bedUtilizationPct": 87.3,
         "bedsPerHospital": 273,
         "ebitdaPerBedQuarter": 989176,
-        "enterpriseValueCr": 41464.7,
-        "evPerBedLakhs": 760.7
+        "enterpriseValueCr": 41046.8,
+        "evPerBedLakhs": 753
       }
     },
     "FY26-Q4": {

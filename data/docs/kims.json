@@ -2,11 +2,12 @@
   "slug": "kims",
   "scripCode": "543308",
   "name": "Krishna Institute of Medical Sciences Ltd",
-  "generatedAt": "2026-05-28T17:38:32.477Z",
+  "generatedAt": "2026-05-29T17:35:50.616Z",
   "summary": {
-    "totalAnnouncements": 321,
+    "totalAnnouncements": 322,
     "totalAnnualReportsMaster": 4,
     "byDocType": {
+      "compliance": 19,
       "concall-transcript": 14,
       "analyst-meet-intimation": 74,
       "concall-audio": 8,
@@ -17,7 +18,6 @@
       "quarterly-result": 13,
       "board-meeting-intimation": 27,
       "agm-egm": 20,
-      "compliance": 18,
       "insider-trading": 20,
       "annual-report": 1,
       "esop": 1,
@@ -109,7 +109,7 @@
           }
         ]
       },
-      "lowPriorityCount": 12
+      "lowPriorityCount": 13
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1139,6 +1139,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "1fdfa6b4-8e7d-41b4-9874-b0cbb7ac47c9",
+      "date": "2026-05-29",
+      "subject": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+      "headline": "Annual Secretarial Compliance Report for the year ended 31st March, 2026",
+      "category": "Company Update",
+      "docType": "compliance",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2184266-ad05-42e6-8f93-8d8c50eaa91f.pdf",
+      "attachmentName": "b2184266-ad05-42e6-8f93-8d8c50eaa91f.pdf"
+    },
     {
       "newsId": "6fa275b4-75af-4b09-8f5f-d5fe212c00f4",
       "date": "2026-05-22",

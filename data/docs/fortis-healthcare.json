@@ -2,15 +2,16 @@
   "slug": "fortis-healthcare",
   "scripCode": "532843",
   "name": "Fortis Healthcare Ltd",
-  "generatedAt": "2026-05-28T17:38:32.427Z",
+  "generatedAt": "2026-05-29T17:35:50.571Z",
   "summary": {
-    "totalAnnouncements": 451,
+    "totalAnnouncements": 453,
     "totalAnnualReportsMaster": 17,
     "byDocType": {
+      "compliance": 30,
+      "concall-transcript": 15,
       "investor-meet-outcome": 4,
       "newspaper-advert": 34,
       "other": 167,
-      "compliance": 29,
       "investor-presentation": 18,
       "press-release": 17,
       "corp-action": 11,
@@ -20,7 +21,6 @@
       "esop": 2,
       "insider-trading": 17,
       "agm-egm": 42,
-      "concall-transcript": 14,
       "credit-rating": 4,
       "annual-report": 6,
       "concall-audio": 8,
@@ -38,6 +38,20 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "concall-transcript": [
+          {
+            "newsId": "8d8202a0-c734-4758-8d91-e8537894db90",
+            "date": "2026-05-29",
+            "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "headline": "Relevant disclosure attached",
+            "category": "Company Update",
+            "docType": "concall-transcript",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11cc6af4-e63e-4f6b-84b7-a6f3a478ec08.pdf",
+            "attachmentName": "11cc6af4-e63e-4f6b-84b7-a6f3a478ec08.pdf"
+          }
+        ],
         "investor-presentation": [
           {
             "newsId": "36590a21-4c99-48ec-908e-39bec5ef2049",
@@ -81,7 +95,7 @@
           }
         ]
       },
-      "lowPriorityCount": 19
+      "lowPriorityCount": 20
     },
     "FY26-Q4": {
       "label": "Q4 FY26",
@@ -1492,6 +1506,30 @@
     }
   ],
   "all": [
+    {
+      "newsId": "9f5d28af-dcd6-483d-b441-30cf8e2bf77b",
+      "date": "2026-05-29",
+      "subject": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+      "headline": "Annual Secretarial Compliance Report for the Financial Year ended March 31, 2026",
+      "category": "Company Update",
+      "docType": "compliance",
+      "priority": "low",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e21b71c6-e042-4fed-9b44-a3b4ce1f9670.pdf",
+      "attachmentName": "e21b71c6-e042-4fed-9b44-a3b4ce1f9670.pdf"
+    },
+    {
+      "newsId": "8d8202a0-c734-4758-8d91-e8537894db90",
+      "date": "2026-05-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "headline": "Relevant disclosure attached",
+      "category": "Company Update",
+      "docType": "concall-transcript",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11cc6af4-e63e-4f6b-84b7-a6f3a478ec08.pdf",
+      "attachmentName": "11cc6af4-e63e-4f6b-84b7-a6f3a478ec08.pdf"
+    },
     {
       "newsId": "f8f5be06-76fa-4639-8716-02f38ebf9398",
       "date": "2026-05-25",

@@ -2,11 +2,12 @@
   "slug": "max-healthcare",
   "scripCode": "543220",
   "name": "Max Healthcare Institute Ltd",
-  "generatedAt": "2026-05-28T17:38:32.415Z",
+  "generatedAt": "2026-05-29T17:35:50.559Z",
   "summary": {
-    "totalAnnouncements": 382,
+    "totalAnnouncements": 383,
     "totalAnnualReportsMaster": 6,
     "byDocType": {
+      "concall-transcript": 16,
       "analyst-meet-intimation": 29,
       "investor-presentation": 27,
       "other": 125,
@@ -20,7 +21,6 @@
       "board-meeting-outcome": 4,
       "compliance": 15,
       "insider-trading": 19,
-      "concall-transcript": 15,
       "credit-rating": 5,
       "annual-report": 3,
       "corp-action": 3,
@@ -37,6 +37,20 @@
       "calendar": "Apr–Jun 2026",
       "fiscalQuarter": "FY27-Q1",
       "priorityDocs": {
+        "concall-transcript": [
+          {
+            "newsId": "222d5607-c2c2-4033-a054-cff741523c82",
+            "date": "2026-05-29",
+            "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "headline": "Transcript of Earnings Call held on May 22, 2026",
+            "category": "Company Update",
+            "docType": "concall-transcript",
+            "priority": "high",
+            "fiscalQuarter": "FY27-Q1",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+            "attachmentName": "32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf"
+          }
+        ],
         "investor-presentation": [
           {
             "newsId": "508c62c9-6edd-4e45-a0f2-e5a428a28bd9",
@@ -1424,6 +1438,18 @@
     }
   ],
   "all": [
+    {
+      "newsId": "222d5607-c2c2-4033-a054-cff741523c82",
+      "date": "2026-05-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "headline": "Transcript of Earnings Call held on May 22, 2026",
+      "category": "Company Update",
+      "docType": "concall-transcript",
+      "priority": "high",
+      "fiscalQuarter": "FY27-Q1",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+      "attachmentName": "32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf"
+    },
     {
       "newsId": "75408654-2a47-4dc6-9d49-ea87b50c358a",
       "date": "2026-05-28",

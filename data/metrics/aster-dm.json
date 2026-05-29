@@ -5,15 +5,15 @@
   "shortName": "Aster DM",
   "sector": "Healthcare",
   "industry": "Hospital",
-  "ticker": null,
-  "isin": null,
-  "lastBuiltAt": "2026-05-29T13:19:02.699Z",
+  "ticker": "ASTERDM",
+  "isin": "INE914M01019",
+  "lastBuiltAt": "2026-05-29T17:35:50.773Z",
   "latestQuote": {
-    "date": "2026-05-28",
-    "price": 741.05,
-    "marketCapCr": 38395.36,
-    "marketCapFreeFloatCr": 19541.86,
-    "changePct": -2.23,
+    "date": "2026-05-29",
+    "price": 728.05,
+    "marketCapCr": 37721.8,
+    "marketCapFreeFloatCr": 19199.04,
+    "changePct": -1.75,
     "volumeShares": 22000
   },
   "coverage": {
@@ -536,8 +536,8 @@
         "bedsPerHospital": 272,
         "revenuePerBedQuarter": 2169205,
         "ebitdaPerBedQuarter": 447789,
-        "enterpriseValueCr": 38635.3,
-        "evPerBedLakhs": 709
+        "enterpriseValueCr": 37961.7,
+        "evPerBedLakhs": 696.7
       }
     },
     "FY26-Q4": {
