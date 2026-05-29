@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "JLHL",
   "isin": "INE682M01012",
-  "lastBuiltAt": "2026-05-29T06:14:39.872Z",
+  "lastBuiltAt": "2026-05-29T06:44:38.129Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1328.95,
@@ -17,12 +17,1253 @@
     "volumeShares": 1672
   },
   "coverage": {
-    "extractedDocs": 0,
-    "quartersWithData": 3,
-    "quarterRange": "FY24-Q2 → FY25-Q4",
+    "extractedDocs": 36,
+    "quartersWithData": 13,
+    "quarterRange": "FY24-Q1 → FY27-Q1",
     "classifiedTotalPriorityDocs": 36
   },
   "quarters": {
+    "FY27-Q1": {
+      "fiscalQuarter": "FY27-Q1",
+      "label": "Q1 FY27",
+      "calendar": "Apr–Jun 2026",
+      "from": "2026-04-01",
+      "to": "2026-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "edf2350d-2c28-4120-b09a-2f0c0c050c31",
+          "date": "2026-05-21",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8b3fdc7f-875d-4212-91e4-08b8612b9fc8.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+          "date": "2026-05-15",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "4ebad01d-7d22-4fe1-a596-f068eaf543aa",
+          "date": "2026-05-15",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4abfe49d-6176-4338-9bc3-b08a07c52e5d.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 7,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "With this we will have four hospitals in MMR, two in Pune and one in Indore",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2900,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Scaling Bed Capacity to 2,900",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operationalised: 200 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 700,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Phase-wise commissioning underway, with ~200 beds operational and fit-outs completed for an additional 100 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Pune II 500, Mira - Bhayandar 300",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 61.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 61.2%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.87,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.87",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 1022,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD 1,022.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 1076,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD 1,076.4",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "arpob": {
+          "value": 67700,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 67,700",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "arpp": {
+          "value": 751,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Earnings per equity share Basic (in\") 7.51",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "4ebad01d-7d22-4fe1-a596-f068eaf543aa",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4abfe49d-6176-4338-9bc3-b08a07c52e5d.pdf"
+          }
+        },
+        "revenue": {
+          "value": 371.73,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 371.7",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 89.27,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 89.27",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.0%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "pat": {
+          "value": 50.24,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 50.24",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "netDebt": {
+          "value": 500.93,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 500.93",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 425,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Phase I Capex ~ Rs 425 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 15.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total Income 387.8, YoY 15.1%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
+            "date": "2026-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8038610d-f31b-42b7-afe8-1f99be1d3d06.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 74346000,
+        "ebitdaPerBedYearly": 17854000,
+        "bedTurnoverYearly": 20.44,
+        "bedActivationPct": 6.9,
+        "enterpriseValueCr": 9214.3,
+        "evToEbitdaAnnualised": 25.8,
+        "peAnnualised": 43.36,
+        "evPerBedCr": 46.072,
+        "evPerBedLakhs": 4607.2,
+        "patMargin": 13.52,
+        "ebitdaTtmCr": 343,
+        "netDebtToEbitda": 1.46,
+        "revenueCagr3yr": 15.19
+      }
+    },
+    "FY26-Q4": {
+      "fiscalQuarter": "FY26-Q4",
+      "label": "Q4 FY26",
+      "calendar": "Jan–Mar 2026",
+      "from": "2026-01-01",
+      "to": "2026-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "af42a14e-835a-4a8a-8a5f-08d859e4c55c",
+          "date": "2026-02-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2b2e8c3-f4d9-4fab-a655-3de5894f7086.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+          "date": "2026-01-31",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "15247c90-710d-4961-a944-4fdf7e17d467",
+          "date": "2026-01-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fee6e792-8a1b-46b5-bebf-38bed7e99af5.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "b3f608b4-2492-4418-8121-77d01fcfba73",
+          "date": "2026-01-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/511b6db9-633c-4b66-b3bc-e2bea77ec738.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Existing Beds 1,048",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Beds Capacity ~2,500",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 300,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operationalised: 200 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 1150,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Addition of Beds ~1,452*",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Upcoming Hospitals",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 66.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 66.8%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.85,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.85",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 850,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD 851",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 908,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD 908",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "arpob": {
+          "value": 687.3,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 687.3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "revenue": {
+          "value": 349,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 349.0*",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 83.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 83.4",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 22.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 22.8%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "pat": {
+          "value": 42.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 42.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 425,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Phase I Capex ~ Rs 425 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 9.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue from Operations 349.0* 9.9%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
+            "date": "2026-01-31",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 46533333,
+        "ebitdaPerBedYearly": 11120000,
+        "bedTurnoverYearly": 11.33,
+        "bedActivationPct": 12,
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 26.12,
+        "peAnnualised": 51.26,
+        "evPerBedCr": 29.045,
+        "evPerBedLakhs": 2904.5,
+        "patMargin": 12.18,
+        "ebitdaTtmCr": 550.3
+      }
+    },
+    "FY26-Q3": {
+      "fiscalQuarter": "FY26-Q3",
+      "label": "Q3 FY26",
+      "calendar": "Oct–Dec 2025",
+      "from": "2025-10-01",
+      "to": "2025-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "investor-presentation",
+          "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+          "date": "2025-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "90e7a1e4-884b-412c-bef7-ff8fe6816713",
+          "date": "2025-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5cb049c6-7f93-40e4-9a4c-a50f8a23224c.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Existing Beds 1,061",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Beds Capacity ~2,500",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 1061,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Existing Beds 1,061",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 1440,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Addition of Beds ~1,440*",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Dombivli 200-220, Pune South (Bibwewadi) 200-220",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 62.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 62.2%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.84,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.84",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 5115,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD 511.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 929,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD 929",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB rounded off to the nearest hundred",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "revenue": {
+          "value": 376.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 376.8*",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 92.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 92.2",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.4%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "pat": {
+          "value": 57.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 57.4",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "netDebt": {
+          "value": 318.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Borrowings 318.9",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 11.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "11.7%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
+            "date": "2025-11-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81a32b59-a7f2-499b-8d50-e65f5a5eeb5f.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 14205467,
+        "ebitdaPerBedYearly": 3475966,
+        "bedTurnoverYearly": 19.28,
+        "bedActivationPct": 42.4,
+        "enterpriseValueCr": 9032.3,
+        "evToEbitdaAnnualised": 24.49,
+        "peAnnualised": 37.95,
+        "evPerBedCr": 8.513,
+        "evPerBedLakhs": 851.3,
+        "patMargin": 15.23,
+        "ebitdaTtmCr": 543.3,
+        "netDebtToEbitda": 0.59
+      }
+    },
+    "FY26-Q2": {
+      "fiscalQuarter": "FY26-Q2",
+      "label": "Q2 FY26",
+      "calendar": "Jul–Sep 2025",
+      "from": "2025-07-01",
+      "to": "2025-09-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "f539f8b6-54ad-4a2a-9f33-2f37f6af3780",
+          "date": "2025-11-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/684edcac-492d-44b3-a47a-97d8501818c5.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+          "date": "2025-08-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "550103e6-6c54-4552-b278-f8743df8edac",
+          "date": "2025-08-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/802ebea5-b2fe-41cf-ba95-18a660695b01.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Existing Beds 1,061",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Beds Capacity ~2,500",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 1061,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Existing Beds 1,061",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 1440,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Addition of Beds ~1,440*",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Dombivli 200-220, Pune II (Bibwewadi) 200-220",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 60.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 60.1%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.78,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.78",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 24580,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD and OPD revenue grew by 19.6% and 15.5% YoY",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 25910,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "IPD and OPD revenue grew by 19.6% and 15.5% YoY",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB rounded off to the nearest hundred",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "revenue": {
+          "value": 347.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Income Rs 347.6 crore",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 78.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA Rs 78.1 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 22.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 22.5%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "pat": {
+          "value": 43.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT Rs 43.9 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "netDebt": {
+          "value": 325,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The current consolidated debt stands at Rs. 325 crores.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "f539f8b6-54ad-4a2a-9f33-2f37f6af3780",
+            "date": "2025-11-13",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/684edcac-492d-44b3-a47a-97d8501818c5.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 40,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Project Capex for Q1 FY26 stood at ~Rs 40 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 20.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total Income 20.5 % YoY",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
+            "date": "2025-08-01",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e676352-da4e-4070-b530-ca573ea1a508.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 13104618,
+        "ebitdaPerBedYearly": 2944392,
+        "bedTurnoverYearly": 92.67,
+        "bedActivationPct": 42.4,
+        "enterpriseValueCr": 9038.4,
+        "evToEbitdaAnnualised": 28.93,
+        "peAnnualised": 49.62,
+        "evPerBedCr": 8.519,
+        "evPerBedLakhs": 851.9,
+        "patMargin": 12.63,
+        "ebitdaTtmCr": 637.7,
+        "netDebtToEbitda": 0.51
+      }
+    },
+    "FY26-Q1": {
+      "fiscalQuarter": "FY26-Q1",
+      "label": "Q1 FY26",
+      "calendar": "Apr–Jun 2025",
+      "from": "2025-04-01",
+      "to": "2025-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "cdf4a3e0-817a-487f-8948-72e06d6af35d",
+          "date": "2025-08-06",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/492e615d-8880-4cbb-bb35-944da307d708.pdf"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "3b2c452c-72c1-4350-80a4-871adc03e411",
+          "date": "2025-05-15",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6cae43f0-a009-4601-bd91-04cd41b70f82.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+          "date": "2025-05-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "2deada02-bee5-4dad-a849-26d872427703",
+          "date": "2025-05-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca2354bd-2c50-4c21-bc0e-84f939a89b00.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We now have visibility into a 2,500-bed network in our target region of Western India.",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2494,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total Bed Capacity: 2,494",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 1061,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Beds: 1,061",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Dombivli should get inaugurated and that should add about 250-odd beds to our capacity in Phase 1, which can be ramped up over the next couple of years.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "3b2c452c-72c1-4350-80a4-871adc03e411",
+            "date": "2025-05-15",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6cae43f0-a009-4601-bd91-04cd41b70f82.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The 500-bed Dombivli hospital is expected to launch as planned in Q1FY27.",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 65.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate: 65.3%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.89,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days): 3.89",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 926,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD Volume: 926.4",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 979,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Volume: 979.3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "arpob": {
+          "value": 60600,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB: Rs 60,600",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "arpp": {
+          "value": 65566,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Average Revenue Per Patient for the quarter was ₹65,566.",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "2deada02-bee5-4dad-a849-26d872427703",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca2354bd-2c50-4c21-bc0e-84f939a89b00.pdf"
+          }
+        },
+        "revenue": {
+          "value": 1261.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Income: 1,261.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 296.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA: 296.6",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin: 23.5%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "pat": {
+          "value": 193.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT: 193.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "netDebt": {
+          "value": 527,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Cash: Rs 527 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 85,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Dombivli Hospital incurred a capital expenditure of Rs. 85 cr in FY25",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 17.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total Income: 1,261.5, YoY: 17.5%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "99a3d82b-e30c-454d-9bea-67c8e2d996c9",
+            "date": "2025-05-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caae5b35-2744-4c02-8a37-1945c2555c6c.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 47558907,
+        "ebitdaPerBedYearly": 11181904,
+        "bedTurnoverYearly": 3.49,
+        "bedActivationPct": 42.5,
+        "enterpriseValueCr": 9240.4,
+        "evToEbitdaAnnualised": 7.79,
+        "peAnnualised": 11.26,
+        "evPerBedCr": 8.709,
+        "evPerBedLakhs": 870.9,
+        "patMargin": 15.34,
+        "ebitdaTtmCr": 636.1,
+        "netDebtToEbitda": 0.83
+      }
+    },
     "FY25-Q4": {
       "fiscalQuarter": "FY25-Q4",
       "label": "Q4 FY25",
@@ -36,11 +1277,1019 @@
           "date": "2025-03-31",
           "pdfUrl": null,
           "note": "derived-from-pdf quarterly result"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "b335d3a5-034e-48f8-a2c1-2f27d4d20ee3",
+          "date": "2025-02-11",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9930589a-7ef6-4b2a-972c-f89ec62c9c79.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+          "date": "2025-02-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "8f0adc49-ae9c-4f31-af2c-3a1c69e592e3",
+          "date": "2025-02-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93d682c0-7cfe-4eb8-83d5-aacb0caabd6d.pdf"
         }
       ],
-      "metrics": {},
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 6,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "This will mark our sixth hospital and the third in the MMR region.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "b335d3a5-034e-48f8-a2c1-2f27d4d20ee3",
+            "date": "2025-02-11",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9930589a-7ef6-4b2a-972c-f89ec62c9c79.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 2494,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "establishing a network of 2,500 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 1321,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 1321",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 122,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Currently operating 309, so it has a scope to add 122 more.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "b335d3a5-034e-48f8-a2c1-2f27d4d20ee3",
+            "date": "2025-02-11",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9930589a-7ef6-4b2a-972c-f89ec62c9c79.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "the company has received the necessary regulatory approvals to construct a new hospital at Bibvewadi, Pune.",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "8f0adc49-ae9c-4f31-af2c-3a1c69e592e3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93d682c0-7cfe-4eb8-83d5-aacb0caabd6d.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 66.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 66.7%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.88,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS 3.88",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 983,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD Volume 983",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 7275,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Volume 7275",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "arpob": {
+          "value": 687.3,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 687.3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "revenue": {
+          "value": 322,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Income 322.0",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 76.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 76.4",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.7%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "pat": {
+          "value": 52.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 52.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 400,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "estimated capital expenditure of Rs 400 crore",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 19.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total Income growing by 19.5% YoY",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "07e3895c-8b61-4bd7-8517-c93ebc6652f3",
+            "date": "2025-02-07",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b564934-5c39-40d9-a7bf-34e36668c7e7.pdf"
+          }
+        }
+      },
       "derived": {
-        "enterpriseValueCr": 8713.4
+        "revenuePerBedYearly": 9750189,
+        "ebitdaPerBedYearly": 2313399,
+        "bedTurnoverYearly": 2.98,
+        "bedActivationPct": 53,
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 28.51,
+        "peAnnualised": 41.49,
+        "evPerBedCr": 6.596,
+        "evPerBedLakhs": 659.6,
+        "patMargin": 16.3,
+        "ebitdaTtmCr": 404.9
+      }
+    },
+    "FY25-Q3": {
+      "fiscalQuarter": "FY25-Q3",
+      "label": "Q3 FY25",
+      "calendar": "Oct–Dec 2024",
+      "from": "2024-10-01",
+      "to": "2024-12-31",
+      "sourceExtractions": [
+        {
+          "docType": "quarterly-result",
+          "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+          "date": "2024-11-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+        }
+      ],
+      "metrics": {
+        "alos": {
+          "value": 21.55,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "Average Length of Stay: 21.55 days",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 87163,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient admissions for the period: 87,163",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 21975,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient visits for the period: 21,975",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "arpob": {
+          "value": 655.66,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed per day: ₹655.66",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "arpp": {
+          "value": 751.4,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Average Revenue Per Patient: ₹751.40",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "revenue": {
+          "value": 2150,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total operating revenue for the period: ₹2,150 crore",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 186.55,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA for the period: ₹186.55 crore",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 8.68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin percentage: 8.68%",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        },
+        "pat": {
+          "value": 129.64,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax for the period: ₹129.64 crore",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "e8134e1d-1b5e-4ceb-ab24-fd8254499626",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/473d0116-e479-4445-be7b-86474e3d0a04.pdf"
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 11.68,
+        "peAnnualised": 16.8,
+        "patMargin": 6.03,
+        "ebitdaTtmCr": 391.4
+      }
+    },
+    "FY25-Q2": {
+      "fiscalQuarter": "FY25-Q2",
+      "label": "Q2 FY25",
+      "calendar": "Jul–Sep 2024",
+      "from": "2024-07-01",
+      "to": "2024-09-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "86f7bae5-7adb-4a7b-a368-f81cdbd557eb",
+          "date": "2024-11-14",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d6c4e23e-64e1-4f34-9ae3-6a00b3bef567.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+          "date": "2024-11-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "1979e646-47eb-41c2-8b62-870e3a530a66",
+          "date": "2024-08-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94fc7d18-f9f6-4cd0-a07c-a3fed6f78ca4.pdf"
+        }
+      ],
+      "metrics": {
+        "bedCapacity": {
+          "value": 2200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "total bed capacity will increase to ~2,200 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 377,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating Beds 377",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 75,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "adding 75 new beds at our Indore hospital",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Pune is under regulatory clearances. We expect approvals in the next quarter and plan to start construction soon after.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "86f7bae5-7adb-4a7b-a368-f81cdbd557eb",
+            "date": "2024-11-14",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d6c4e23e-64e1-4f34-9ae3-6a00b3bef567.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 66.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Avg. Occupancy 66.7%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "alos": {
+          "value": 27.2,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 27.2",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 51000,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD Volume 51,000",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 57700,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Volume 57,700",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "arpob": {
+          "value": 66700,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 66,700",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "revenue": {
+          "value": 320,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Income 320.0",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 76.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 76.6",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.6%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "pat": {
+          "value": 51.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 51.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 22.7,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "22.7% YoY",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "97b7c9ca-e191-4f1c-95b4-2071b956ea88",
+            "date": "2024-11-08",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e3f8a1-e08c-4e55-bf40-3e9b751d3085.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 33952255,
+        "ebitdaPerBedYearly": 8127321,
+        "bedTurnoverYearly": 541.11,
+        "bedActivationPct": 17.1,
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 28.44,
+        "peAnnualised": 42.3,
+        "evPerBedCr": 23.112,
+        "evPerBedLakhs": 2311.2,
+        "patMargin": 16.09,
+        "ebitdaTtmCr": 266.8
+      }
+    },
+    "FY25-Q1": {
+      "fiscalQuarter": "FY25-Q1",
+      "label": "Q1 FY25",
+      "calendar": "Apr–Jun 2024",
+      "from": "2024-04-01",
+      "to": "2024-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "concall-transcript",
+          "newsId": "441590ca-3154-491c-9bd2-0b831d897be0",
+          "date": "2024-08-14",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f6d6d214-2493-48eb-a68a-66dcdfda9323.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+          "date": "2024-08-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "cee3a126-b082-4970-b2fc-5b1fa64e4483",
+          "date": "2024-05-17",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/531d3208-a647-458a-a6d1-e2b9d15fc011.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "5b60a498-8aa1-41f1-ad9e-c30eaeb3b962",
+          "date": "2024-05-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/60bb3ae7-dcab-41f2-9dd4-90aa22839b15.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "5c9313ef-3662-4c78-83b1-3f36bb2213f1",
+          "date": "2024-05-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7906d4ec-7dce-4d53-9f26-58d12f5d69c2.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "all three of our hospitals are now equipped with state-of-the-art robotic surgery systems.",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 132,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 132",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 132,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 132",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 75,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "In the process of adding 75 new beds in Indore Hospital, which are expected to be operational by Q1FY26",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Construction of Dombivli Hospital is progressing as per schedule",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 63.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average Occupancy Rate 63.9%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "alos": {
+          "value": 12.7,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 12.7",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 219.2,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "IPD 219.2",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 59.7,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD 59.7",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB 66,500",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "revenue": {
+          "value": 284.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 284.5",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 65.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 65.3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 22.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 22.6%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "pat": {
+          "value": 44.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 44.6",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        },
+        "netDebt": {
+          "value": -2.89,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Outstanding Qualified Borrowings at the end of the financial year (Rs. In Crores) NIL",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "5c9313ef-3662-4c78-83b1-3f36bb2213f1",
+            "date": "2024-05-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7906d4ec-7dce-4d53-9f26-58d12f5d69c2.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 18,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The total project cost is approx. ₹ 18 Cr.",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "5c9313ef-3662-4c78-83b1-3f36bb2213f1",
+            "date": "2024-05-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7906d4ec-7dce-4d53-9f26-58d12f5d69c2.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 18.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "revenue from operations increased by 18.2% on a YoY basis",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "a4186c9f-afbb-40ac-914c-42473916d06e",
+            "date": "2024-08-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b102f78-6833-488f-8979-9145f34a7896.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 86212121,
+        "ebitdaPerBedYearly": 19787879,
+        "bedTurnoverYearly": 6.64,
+        "bedActivationPct": 100,
+        "enterpriseValueCr": 8710.5,
+        "evToEbitdaAnnualised": 33.35,
+        "peAnnualised": 48.84,
+        "evPerBedCr": 65.989,
+        "evPerBedLakhs": 6598.9,
+        "patMargin": 15.68,
+        "ebitdaTtmCr": 755.9,
+        "netDebtToEbitda": 0
+      }
+    },
+    "FY24-Q4": {
+      "fiscalQuarter": "FY24-Q4",
+      "label": "Q4 FY24",
+      "calendar": "Jan–Mar 2024",
+      "from": "2024-01-01",
+      "to": "2024-03-31",
+      "sourceExtractions": [
+        {
+          "docType": "investor-presentation",
+          "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+          "date": "2024-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "fbce6c18-46ff-478e-ad0a-8514844a73e5",
+          "date": "2024-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/054c44d6-0db1-4edf-abf1-8f2a567c4b2f.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating Hospitals 3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 961,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Bed Capacity 961",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Dombivli Green Field Facility Construction Started in April’23 with a total capacity of 500 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 63.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy Rate 63.2%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.92,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.92",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 42235,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "PROFIT FOR THE PERIOD (A) 42235",
+          "source": {
+            "docType": "quarterly-result",
+            "newsId": "fbce6c18-46ff-478e-ad0a-8514844a73e5",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/054c44d6-0db1-4edf-abf1-8f2a567c4b2f.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 773,
+          "unit": "visits",
+          "confidence": "medium",
+          "quote": "OPD 773",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "arpob": {
+          "value": 53585,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (in Rs) 53,585",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "revenue": {
+          "value": 270.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 270.1",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 62.9,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 62.9",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.0%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "pat": {
+          "value": 43.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 43.7",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 20.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year, percentage 20.1%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "bc6eb446-619d-4afe-adb5-9159a3bead08",
+            "date": "2024-02-09",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2354d0f2-bbf2-4b27-9250-f441203da1e6.pdf"
+          }
+        }
+      },
+      "derived": {
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 34.63,
+        "peAnnualised": 49.85,
+        "patMargin": 16.18,
+        "ebitdaTtmCr": 743.6
       }
     },
     "FY24-Q3": {
@@ -56,11 +2305,224 @@
           "date": "2023-12-31",
           "pdfUrl": null,
           "note": "derived-from-pdf quarterly result"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "9c87c1bd-b4e9-4b64-b807-9f74e7748902",
+          "date": "2024-02-16",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d582aa0-f658-409d-a7df-a4062d880d59.pdf"
+        },
+        {
+          "docType": "investor-presentation",
+          "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+          "date": "2023-11-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "a2e5ed3e-dc63-41fd-8951-e30f118ab5ab",
+          "date": "2023-11-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d96d974f-f95b-4dd5-8869-c5317561a6e8.pdf"
+        },
+        {
+          "docType": "quarterly-result",
+          "newsId": "00b62eca-51ef-45d2-9062-95d663f9c0c4",
+          "date": "2023-10-06",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d6f1b6e3-d5f3-40a4-9773-ea67136a3228.pdf"
         }
       ],
-      "metrics": {},
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating Hospitals 3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Dombivli Green Field Facility Construction Started in April’23 with a total capacity of 500 beds",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 961,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 961",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 200,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "For Indore, we have close to 200 bed growth opportunities.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "9c87c1bd-b4e9-4b64-b807-9f74e7748902",
+            "date": "2024-02-16",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d582aa0-f658-409d-a7df-a4062d880d59.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "we are in the process of establishing a new 500 bed Quaternary Care Hospital in Dombivli.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "9c87c1bd-b4e9-4b64-b807-9f74e7748902",
+            "date": "2024-02-16",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d582aa0-f658-409d-a7df-a4062d880d59.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 62.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy Rate 62.3%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.89,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.89",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "arpob": {
+          "value": 53075,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (in Rs) 53,075",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "revenue": {
+          "value": 260.82,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 260.82",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 62,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 62.0",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 23.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 23.5%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "pat": {
+          "value": 33.73,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 33.73",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "netDebt": {
+          "value": -320,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Post IPO, the Company has net cash of Rs. ~320 cr",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        },
+        "capexAnnounced": {
+          "value": 100,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": "In FY25, we would probably spend about Rs. 100 crores on the Dombivli project.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "9c87c1bd-b4e9-4b64-b807-9f74e7748902",
+            "date": "2024-02-16",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d582aa0-f658-409d-a7df-a4062d880d59.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 20,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "delivering 20% YoY growth in revenues",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "b5711a27-96f5-431f-997a-f85ae7f0c9e0",
+            "date": "2023-11-10",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/059a5edd-0f17-4bd7-a06d-222d9ce327a8.pdf"
+          }
+        }
+      },
       "derived": {
-        "enterpriseValueCr": 8713.4
+        "revenuePerBedYearly": 10856191,
+        "ebitdaPerBedYearly": 2580645,
+        "bedActivationPct": 192.2,
+        "enterpriseValueCr": 8393.4,
+        "evToEbitdaAnnualised": 33.84,
+        "peAnnualised": 64.58,
+        "evPerBedCr": 8.734,
+        "evPerBedLakhs": 873.4,
+        "patMargin": 12.93
       }
     },
     "FY24-Q2": {
@@ -76,6 +2538,12 @@
           "date": "2023-09-30",
           "pdfUrl": null,
           "note": "derived-from-pdf quarterly result"
+        },
+        {
+          "docType": "concall-transcript",
+          "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+          "date": "2023-11-21",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
         }
       ],
       "metrics": {
@@ -126,13 +2594,372 @@
             "date": "2023-09-30",
             "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d6f1b6e3-d5f3-40a4-9773-ea67136a3228.pdf"
           }
+        },
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Jupiter started its first hospital in Thane in the Mumbai Metropolitan Region that is MMR in 2007, the second one was in Pune in 2017 and the third in Indore in late 2020.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 1180,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Thane and Pune hospitals are both around 375 beds each and were Greenfield projects, while the Indore Hospital was an acquisition that is planned for about 430 beds.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 231,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Indore Hospital was an acquisition that is planned for about 430 beds, but we are currently operating around 231.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We are constructing a 500 bed hospital in Dombivli.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "low",
+          "quote": "We would like to buy two pieces of land which is our thought for now, and build up two more hospitals of this size.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 62.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The average occupancy was 62.3% in H1 FY24 compared to 58.6% in H1 FY23.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.89,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "The ALOS stood at 3.89 days in the first half of this year.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 0,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": "",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 0,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": "",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "arpob": {
+          "value": 53075,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "The ARPOB for the first half was Rs. 53,075 at the console level.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "netDebt": {
+          "value": -320,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "the Company has become fully debt-free by repaying all our loans with the fresh proceeds from the IPO.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 18.4,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "an 18.4% growth year-on-year.",
+          "source": {
+            "docType": "concall-transcript",
+            "newsId": "1d25539f-4466-46dc-98f8-4c37ffa7648c",
+            "date": "2023-11-21",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ad45035-d24c-47e5-a63c-0b10b4c9c3ef.pdf"
+          }
         }
       },
       "derived": {
-        "enterpriseValueCr": 8713.4,
-        "evToEbitdaAnnualised": 3.85,
+        "revenuePerBedYearly": 359953247,
+        "ebitdaPerBedYearly": 97953247,
+        "bedTurnoverYearly": 0,
+        "bedActivationPct": 19.6,
+        "enterpriseValueCr": 8393.4,
+        "evToEbitdaAnnualised": 3.71,
         "peAnnualised": 7.16,
+        "evPerBedCr": 36.335,
+        "evPerBedLakhs": 3633.5,
         "patMargin": 14.64
+      }
+    },
+    "FY24-Q1": {
+      "fiscalQuarter": "FY24-Q1",
+      "label": "Q1 FY24",
+      "calendar": "Apr–Jun 2023",
+      "from": "2023-04-01",
+      "to": "2023-06-30",
+      "sourceExtractions": [
+        {
+          "docType": "investor-presentation",
+          "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+          "date": "2023-10-06",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+        }
+      ],
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operating Hospitals 3",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "bedCapacity": {
+          "value": 961,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 961",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "operationalBeds": {
+          "value": 961,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational Bed Capacity 961",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "bedsUnderDevelopment": {
+          "value": 500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "building a 500 bed hospital in Dombivli",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "occupancyRate": {
+          "value": 57.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Occupancy stood at 57.2%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "alos": {
+          "value": 3.85,
+          "unit": "days",
+          "confidence": "high",
+          "quote": "ALOS (in Days) 3.85",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "ipVolume": {
+          "value": 55000,
+          "unit": "admissions",
+          "confidence": "medium",
+          "quote": "IPD & OPD Volumes (‘000) 55,470",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "opVolume": {
+          "value": 55796,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD 55,796",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "arpob": {
+          "value": 196.81,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB (in Rs) 196.81",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "revenue": {
+          "value": 243.2,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from Operations 243.2",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "ebitda": {
+          "value": 53,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA 53.0",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "ebitdaMargin": {
+          "value": 21.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 21.8%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "pat": {
+          "value": 54,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT 54.0",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "netDebt": {
+          "value": 0,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Debt has been repaid in full",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        },
+        "revenueGrowthYoy": {
+          "value": 21.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue 243.2 200.6 21.3%",
+          "source": {
+            "docType": "investor-presentation",
+            "newsId": "87cd0919-a675-4cea-bbe3-e4c72a94d35c",
+            "date": "2023-10-06",
+            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dc13a13-36b5-4deb-a32a-a2ee1bfd743b.pdf"
+          }
+        }
+      },
+      "derived": {
+        "revenuePerBedYearly": 10122789,
+        "ebitdaPerBedYearly": 2206035,
+        "bedTurnoverYearly": 228.93,
+        "bedActivationPct": 100,
+        "enterpriseValueCr": 8713.4,
+        "evToEbitdaAnnualised": 41.1,
+        "peAnnualised": 40.34,
+        "evPerBedCr": 9.067,
+        "evPerBedLakhs": 906.7,
+        "patMargin": 22.2
       }
     }
   }
