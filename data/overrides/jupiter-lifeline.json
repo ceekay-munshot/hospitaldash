@@ -33,7 +33,7 @@
     "ebitda":          { "value": 85.4,   "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
     "ebitdaMargin":    { "value": 22.8,   "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
     "pat":             { "value": 57.4,   "note": "Q2 FY26 PAT, INR Cr",                       "source": "Q2 FY26 concall transcript" },
-    "arpob":           { "value": 67000,  "note": "Q2 FY26 ARPOB approximate (concall stored as 2203 — wrong scale)",  "source": "Estimated from quarterly trend" }
+    "arpob":           { "value": 66100,  "note": "H1 FY26 ARPOB from deck (Q2 not broken out — used H1 as proxy)",  "source": "Q2 FY26 concall transcript, H1 FY26 line" }
   },
 
   "FY26-Q2": {

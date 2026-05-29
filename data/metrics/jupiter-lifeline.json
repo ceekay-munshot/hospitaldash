@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "JLHL",
   "isin": "INE682M01012",
-  "lastBuiltAt": "2026-05-29T06:44:38.129Z",
+  "lastBuiltAt": "2026-05-29T07:25:26.468Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1328.95,
@@ -75,10 +75,15 @@
           }
         },
         "operationalBeds": {
-          "value": 200,
+          "value": 1061,
           "unit": "count",
           "confidence": "high",
-          "quote": "Operationalised: 200 beds",
+          "quote": "Jupiter network total",
+          "overridden": true,
+          "override": {
+            "note": "Network operational beds (Thane+Pune+Indore+Dombivli)",
+            "source": "Jupiter network total"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -162,7 +167,12 @@
           "value": 67700,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "ARPOB 67,700",
+          "quote": "Q4 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY26 ARPOB, INR/day",
+            "source": "Q4 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -183,10 +193,15 @@
           }
         },
         "revenue": {
-          "value": 371.73,
+          "value": 387.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue from Operations 371.7",
+          "quote": "Q4 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY26 revenue from operations, INR Cr",
+            "source": "Q4 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -195,10 +210,15 @@
           }
         },
         "ebitda": {
-          "value": 89.27,
+          "value": 89.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA 89.27",
+          "quote": "Q4 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY26 EBITDA, INR Cr",
+            "source": "Q4 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -210,7 +230,12 @@
           "value": 23,
           "unit": "%",
           "confidence": "high",
-          "quote": "EBITDA Margin 23.0%",
+          "quote": "Q4 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY26 EBITDA margin %",
+            "source": "Q4 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -219,10 +244,15 @@
           }
         },
         "pat": {
-          "value": 50.24,
+          "value": 50.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT 50.24",
+          "quote": "Q4 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY26 PAT, INR Cr",
+            "source": "Q4 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "4f7bdda2-0c14-41be-b74b-bf7fa5063337",
@@ -268,19 +298,19 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 74346000,
-        "ebitdaPerBedYearly": 17854000,
-        "bedTurnoverYearly": 20.44,
-        "bedActivationPct": 6.9,
+        "revenuePerBedYearly": 14620170,
+        "ebitdaPerBedYearly": 3362865,
+        "bedTurnoverYearly": 3.85,
+        "bedActivationPct": 36.6,
         "enterpriseValueCr": 9214.3,
-        "evToEbitdaAnnualised": 25.8,
-        "peAnnualised": 43.36,
-        "evPerBedCr": 46.072,
-        "evPerBedLakhs": 4607.2,
-        "patMargin": 13.52,
-        "ebitdaTtmCr": 343,
-        "netDebtToEbitda": 1.46,
-        "revenueCagr3yr": 15.19
+        "evToEbitdaAnnualised": 25.82,
+        "peAnnualised": 43.39,
+        "evPerBedCr": 8.685,
+        "evPerBedLakhs": 868.5,
+        "patMargin": 12.94,
+        "ebitdaTtmCr": 336.1,
+        "netDebtToEbitda": 1.49,
+        "revenueCagr3yr": 16.83
       }
     },
     "FY26-Q4": {
@@ -341,10 +371,15 @@
           }
         },
         "operationalBeds": {
-          "value": 300,
+          "value": 1061,
           "unit": "count",
           "confidence": "high",
-          "quote": "Operationalised: 200 beds",
+          "quote": "Jupiter network total",
+          "overridden": true,
+          "override": {
+            "note": "Network operational beds",
+            "source": "Jupiter network total"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -425,10 +460,15 @@
           }
         },
         "arpob": {
-          "value": 687.3,
+          "value": 68000,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "ARPOB 687.3",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 ARPOB, INR/day",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -437,10 +477,15 @@
           }
         },
         "revenue": {
-          "value": 349,
+          "value": 365.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue from Operations 349.0*",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 revenue from operations, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -452,7 +497,12 @@
           "value": 83.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA 83.4",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 EBITDA, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -464,7 +514,12 @@
           "value": 22.8,
           "unit": "%",
           "confidence": "high",
-          "quote": "EBITDA Margin 22.8%",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 EBITDA margin %",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -476,7 +531,12 @@
           "value": 42.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT 42.5",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 PAT, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "9fefe4b7-18b1-4310-aa12-ceff937402a7",
@@ -510,17 +570,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 46533333,
-        "ebitdaPerBedYearly": 11120000,
-        "bedTurnoverYearly": 11.33,
-        "bedActivationPct": 12,
+        "revenuePerBedYearly": 13771913,
+        "ebitdaPerBedYearly": 3144204,
+        "bedTurnoverYearly": 3.2,
+        "bedActivationPct": 42.4,
         "enterpriseValueCr": 8713.4,
         "evToEbitdaAnnualised": 26.12,
         "peAnnualised": 51.26,
-        "evPerBedCr": 29.045,
-        "evPerBedLakhs": 2904.5,
-        "patMargin": 12.18,
-        "ebitdaTtmCr": 550.3
+        "evPerBedCr": 8.212,
+        "evPerBedLakhs": 821.2,
+        "patMargin": 11.63,
+        "ebitdaTtmCr": 543.5
       }
     },
     "FY26-Q3": {
@@ -653,10 +713,15 @@
           }
         },
         "arpob": {
-          "value": 66500,
+          "value": 66100,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "ARPOB rounded off to the nearest hundred",
+          "quote": "Q2 FY26 concall transcript, H1 FY26 line",
+          "overridden": true,
+          "override": {
+            "note": "H1 FY26 ARPOB from deck (Q2 not broken out — used H1 as proxy)",
+            "source": "Q2 FY26 concall transcript, H1 FY26 line"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
@@ -665,10 +730,15 @@
           }
         },
         "revenue": {
-          "value": 376.8,
+          "value": 374.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue from Operations 376.8*",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 revenue from operations, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
@@ -677,10 +747,15 @@
           }
         },
         "ebitda": {
-          "value": 92.2,
+          "value": 85.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA 92.2",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 EBITDA, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
@@ -689,10 +764,15 @@
           }
         },
         "ebitdaMargin": {
-          "value": 23.4,
+          "value": 22.8,
           "unit": "%",
           "confidence": "high",
-          "quote": "EBITDA Margin 23.4%",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 EBITDA margin %",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
@@ -704,7 +784,12 @@
           "value": 57.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT 57.4",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 PAT, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "835e8329-a9b8-4611-88b1-229b08c22129",
@@ -738,17 +823,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 14205467,
-        "ebitdaPerBedYearly": 3475966,
+        "revenuePerBedYearly": 14114986,
+        "ebitdaPerBedYearly": 3219604,
         "bedTurnoverYearly": 19.28,
         "bedActivationPct": 42.4,
         "enterpriseValueCr": 9032.3,
-        "evToEbitdaAnnualised": 24.49,
+        "evToEbitdaAnnualised": 26.44,
         "peAnnualised": 37.95,
         "evPerBedCr": 8.513,
         "evPerBedLakhs": 851.3,
-        "patMargin": 15.23,
-        "ebitdaTtmCr": 543.3,
+        "patMargin": 15.33,
+        "ebitdaTtmCr": 536.5,
         "netDebtToEbitda": 0.59
       }
     },
@@ -888,10 +973,15 @@
           }
         },
         "arpob": {
-          "value": 66500,
+          "value": 67300,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "ARPOB rounded off to the nearest hundred",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 ARPOB, INR/day",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
@@ -903,7 +993,12 @@
           "value": 347.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Total Income Rs 347.6 crore",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 revenue from operations, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
@@ -915,7 +1010,12 @@
           "value": 78.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Rs 78.1 cr",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 EBITDA, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
@@ -927,7 +1027,12 @@
           "value": 22.5,
           "unit": "%",
           "confidence": "high",
-          "quote": "EBITDA Margin 22.5%",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 EBITDA margin %",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
@@ -939,7 +1044,12 @@
           "value": 43.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT Rs 43.9 cr",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 PAT, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a924f081-8da1-49dc-bbd5-eba26ccf4fce",
