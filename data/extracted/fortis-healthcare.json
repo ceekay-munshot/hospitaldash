@@ -8604,9 +8604,145 @@
       },
       "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
       "nonNullMetricCount": 11
+    },
+    "8d8202a0-c734-4758-8d91-e8537894db90": {
+      "newsId": "8d8202a0-c734-4758-8d91-e8537894db90",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11cc6af4-e63e-4f6b-84b7-a6f3a478ec08.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:54:02.023Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY27",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 3270,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "the number of occupied beds increased by 15% from 3,270 beds"
+        },
+        "bedsUnderDevelopment": {
+          "value": 1800,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "we plan to ramp up bed capacity further through brownfield expansion by adding around 1,800 beds"
+        },
+        "newHospitalsPlanned": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "we are having new towers coming up in Mohali and Shalimar Bagh"
+        },
+        "occupancyRate": {
+          "value": 68,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Our hospital occupancy in financial year '26 was 68%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB reached INR2.51 crores per annum"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2365,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "We reported a consolidated top line of INR2,365 crores"
+        },
+        "ebitda": {
+          "value": 446,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Operating EBITDA for the Hospital business in Q4 financial year '26 grew to INR446 crores"
+        },
+        "ebitdaMargin": {
+          "value": 22.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "operating EBITDA margins have improved from 20.5% in financial year '25 to 22.1% in financial year '26"
+        },
+        "pat": {
+          "value": 271,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "our consolidated profit after tax for the quarter increased 44.2% to INR271 crores"
+        },
+        "netDebt": {
+          "value": 2334,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "the company's net debt stands at INR2,334 crores"
+        },
+        "capexAnnounced": {
+          "value": 700,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "capital expenditure in financial year '26 stood at approximately INR700 crores"
+        },
+        "revenueGrowthYoy": {
+          "value": 17.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "a growth of 17.8% over quarter 4 of financial year '25"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics were not explicitly stated in the document.",
+      "nonNullMetricCount": 12
     }
   },
-  "lastExtractionAt": "2026-05-28T05:42:40.004Z",
+  "lastExtractionAt": "2026-05-29T17:54:02.023Z",
   "model": "gemini-2.5-flash-lite",
   "lastFixedAt": "2026-05-28T06:47:39.903Z"
 }

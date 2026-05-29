@@ -4666,9 +4666,3409 @@
       },
       "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
       "nonNullMetricCount": 16
+    },
+    "e8126523-63dd-44e6-8aa4-afdd2f70f9d5": {
+      "newsId": "e8126523-63dd-44e6-8aa4-afdd2f70f9d5",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q2",
+      "date": "2024-08-08",
+      "subject": "Results - Financial Results For June 30 2024",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bfacdd9a-5e69-498d-8b4f-34f49d9d8cba.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:54:35.596Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY25",
+        "periodEnding": "2024-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 12952,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient admissions for the period: 12,952"
+        },
+        "opVolume": {
+          "value": 52469,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient visits for the period: 52,469"
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed per day: ₹66,500"
+        },
+        "arpp": {
+          "value": 8700,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Average Revenue Per Patient: ₹8,700"
+        },
+        "revenue": {
+          "value": 29294,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations: ₹29,294 Cr"
+        },
+        "ebitda": {
+          "value": 1521,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA for the period: ₹1,521 Cr"
+        },
+        "ebitdaMargin": {
+          "value": 5.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin: 5.2%"
+        },
+        "pat": {
+          "value": 1172,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax for the period: ₹1,172 Cr"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 10.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year: 10.5%"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 9
+    },
+    "23984404-7f9a-4ea3-9816-b3ddf8bd1ccf": {
+      "newsId": "23984404-7f9a-4ea3-9816-b3ddf8bd1ccf",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q2",
+      "date": "2024-08-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bb721b9e-972f-4ef1-a183-3b4c9ac6497f.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:54:50.591Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY25",
+        "periodEnding": "2024-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG operates 22 comprehensive cancer centers across India and Africa."
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 1267,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Number of operational beds in Q1 FY25 stands at 1,267."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 61,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-Patient Bed Occupancy stood at 61%."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": 106,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Footfall stood at 106,000."
+        },
+        "arpob": {
+          "value": 44342,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB stood at Rs. 44,342."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 5256,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue Rs. 5,256 Mn."
+        },
+        "ebitda": {
+          "value": 929,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA Rs. 929 Mn."
+        },
+        "ebitdaMargin": {
+          "value": 17.3,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The EBITDA margin for Q1 was 17.3%."
+        },
+        "pat": {
+          "value": 121,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax Rs. 121 Mn."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 14,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue has increased by 14%."
+        },
+        "roce": {
+          "value": 14.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "RoCE for Established centers stood at 14.1%."
+        }
+      },
+      "notes": "Currency conversions assumed where applicable, some metrics not explicitly stated.",
+      "nonNullMetricCount": 11
+    },
+    "405bb8f5-30d1-449c-a810-b7f1b02833b4": {
+      "newsId": "405bb8f5-30d1-449c-a810-b7f1b02833b4",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-06-28",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8695fbcb-0e0d-4085-b247-01e8433bc223.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:55:05.691Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY25-Q1",
+        "periodEnding": "2024-06-28"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 196,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "196 operational beds facility (including 25 day care, ICU, and post operative beds)"
+        },
+        "operationalBeds": {
+          "value": 196,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "196 operational beds facility (including 25 day care, ICU, and post operative beds)"
+        },
+        "bedsUnderDevelopment": {
+          "value": 25,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "potential to add 25+ additional beds"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 1202,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "FY24 revenue of ~INR 1,202mm"
+        },
+        "ebitda": {
+          "value": 422,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "reported EBITDA of ~INR 422mm"
+        },
+        "ebitdaMargin": {
+          "value": 35.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA (% Margin) 422 (35.1%)"
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 6
+    },
+    "2fff8ae8-1955-42d9-9a0c-9910e61eddc2": {
+      "newsId": "2fff8ae8-1955-42d9-9a0c-9910e61eddc2",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-06-28",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0bca423e-c0f7-4681-ad70-3e5452382d70.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:55:26.691Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY25-Q1",
+        "periodEnding": "2024-06-28"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 21,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG has brought advanced cancer care to the doorstep of millions of people. HCG’s comprehensive cancer centers provide expertise and advanced technologies for the effective diagnosis and treatment of cancer under one roof."
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 196,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The hospital boasts 196 operational beds and features advanced medical infrastructure."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; many metrics not disclosed in the press release.",
+      "nonNullMetricCount": 2
+    },
+    "8627e955-8c84-443c-8605-8a14bbc7e751": {
+      "newsId": "8627e955-8c84-443c-8605-8a14bbc7e751",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-06-05",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70a51fa5-c12b-4a4a-93fa-643c1f84ffa5.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:55:51.153Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 125,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "We are currently in the process of establishing two hospitals with total 125 beds in North Bangalore and Whitefield area."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 61,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "The decline in capacity utilization from 65 to 61 is due to proactive expansion."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 495,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "We are very proud to report a strong performance during Q4 '24 with all-time high annual revenue which grew 12%."
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 42700,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB for the quarter stood at 42,700 as compared to 39,700."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 495,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our operating metrics, key indicators of our performance have shown substantial all-around improvement in this quarter."
+        },
+        "ebitda": {
+          "value": 94,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "On the EBITDA front, our EBITDA grew by 21% YoY and stood at 94 crores for the quarter."
+        },
+        "ebitdaMargin": {
+          "value": 19,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA growth of 21% translating to 19% EBITDA margin."
+        },
+        "pat": {
+          "value": 21.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for this quarter stood at 21.3 crores as compared to 8 crores in the previous year same quarter."
+        },
+        "netDebt": {
+          "value": 358,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "net debt excluding leases stood at 358 crores as on March 2024."
+        },
+        "capexAnnounced": {
+          "value": 187,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our CAPEX for the 12-month period stood at 187 crores."
+        },
+        "revenueGrowthYoy": {
+          "value": 12,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "We are very proud to report a strong performance during Q4 '24 with all-time high annual revenue which grew 12%."
+        },
+        "roce": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "For the Fiscal Year ‘24, ROCE performance for the company has been 10%."
+        }
+      },
+      "notes": "Currency conversions assumed where applicable, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 12
+    },
+    "7c05cf29-7599-4980-a663-d8531a3756c9": {
+      "newsId": "7c05cf29-7599-4980-a663-d8531a3756c9",
+      "docType": "press-release",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-05-30",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec401a24-a1dd-4681-ac1a-c0dfd0cf5f45.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:56:13.132Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG has brought advanced cancer care to the doors step of millions of people. HCG’s comprehensive cancer centers provide expertise..."
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 1258,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "N o  o f  O p e r a t i o n a l  b e d s   I N  Q 4  &  F Y 2 4  s t a n d s   a t  1 , 2 5 8"
+        },
+        "bedsUnderDevelopment": {
+          "value": 125,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "We are currently in the process of establishing two hospitals with 125 beds in North Bangalore..."
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "We are currently in the process of establishing two hospitals with 125 beds..."
+        },
+        "occupancyRate": {
+          "value": 56,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-P a t i e n t   B e d   O c c u p a n c y   ( % )  #  56%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": 104884,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Footfall (‘000) 104884"
+        },
+        "arpob": {
+          "value": 1386.73,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARP OB stood at Rs. 41,802 vs. Rs. 38,042 in Q4 FY23..."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4946,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "R E V E N U E R s . 4 , 9 4 6 M n . + 1 2 %"
+        },
+        "ebitda": {
+          "value": 941,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "A d j u s t e d   E B I T D A R s . 9 4 1 M n . + 2 1 %"
+        },
+        "ebitdaMargin": {
+          "value": 19,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "margins standing at 19.0%, an increase of 140 bps compared to the same period last year."
+        },
+        "pat": {
+          "value": 213,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "R s .   2 1 3   M n . *Adjusted  EBIDTA before ESOP cost..."
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 12,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "We are delighted to report that our revenues grew by 12% for Q4FY24 on Y-o-Y basis."
+        },
+        "roce": {
+          "value": 20.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "RoCE for Established centers stood at 20.6% vs. 20.9% in FY23."
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 13
+    },
+    "a3b0d771-9b95-4190-a5b5-baee1536e58b": {
+      "newsId": "a3b0d771-9b95-4190-a5b5-baee1536e58b",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-05-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:57:00.853Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 26,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total number of hospitals operated: 26"
+        },
+        "bedCapacity": {
+          "value": 1923,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Total bed capacity: 1,923"
+        },
+        "operationalBeds": {
+          "value": 1258,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Operational beds increased from 1,833 in Q4 FY23 to 1,923 in Q4 FY24."
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 64.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total AOR (occupancy rate): 64.2%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 10900,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Inpatient admissions for the period: 10,900"
+        },
+        "opVolume": {
+          "value": 41000,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "Outpatient visits for the period: 41,000"
+        },
+        "arpob": {
+          "value": 42741,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Total ARPOB: ₹42,741"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4946,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total operating revenue for the period: ₹4,946 crore"
+        },
+        "ebitda": {
+          "value": 941,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA for the period: ₹941 crore"
+        },
+        "ebitdaMargin": {
+          "value": 19,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin percentage: 19.0%"
+        },
+        "pat": {
+          "value": 246,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax for the period: ₹246 crore"
+        },
+        "netDebt": {
+          "value": 3580,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net debt at period end: ₹3,580 crore"
+        },
+        "capexAnnounced": {
+          "value": 1875,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Capex incurred till 31st March 2024: ₹1,875 crore"
+        },
+        "revenueGrowthYoy": {
+          "value": 13,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year: 13%"
+        },
+        "roce": {
+          "value": 20.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE: 20.6%"
+        }
+      },
+      "notes": "Currency conversions assumed; all figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 15
+    },
+    "82cb3abc-f402-412b-afbd-e6125b475303": {
+      "newsId": "82cb3abc-f402-412b-afbd-e6125b475303",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY25-Q1",
+      "date": "2024-05-29",
+      "subject": "Results For The Year Ended March 31, 2024",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73cd7de9-5cd4-4c8a-89cf-529cb6dc14ea.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:57:17.998Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY25",
+        "periodEnding": "2024-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 274.27,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations ₹274.27 crore"
+        },
+        "ebitda": {
+          "value": 19.69,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA ₹19.69 crore"
+        },
+        "ebitdaMargin": {
+          "value": 7.16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin 7.16%"
+        },
+        "pat": {
+          "value": -1.76,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit (loss) for the period ₹-1.76 crore"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; many metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "1fb59e6c-fa71-4ff5-8326-0ebf7eb3f373": {
+      "newsId": "1fb59e6c-fa71-4ff5-8326-0ebf7eb3f373",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-16",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71ce8ad1-4a64-4e85-b704-b3bc98b94f0c.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:57:35.615Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG with its network of our present 22 cancer centers"
+        },
+        "bedCapacity": {
+          "value": 2000,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Close to 2,000."
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 350,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Over the next 3 years, we will be adding about 350 beds."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "I take great pride in announcing a new 100-bedded hospital."
+        },
+        "occupancyRate": {
+          "value": 58,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "we are now seeing 58%."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 42800,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "the average revenue per occupied beds are of notable increase standing at INR42,800."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 470,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "culminating in a top line result of INR470 crores."
+        },
+        "ebitda": {
+          "value": 82.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "our Y-o-Y EBITDA witnessed a growth of 7%, reaching to INR82.6 crores."
+        },
+        "ebitdaMargin": {
+          "value": 17.6,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "we feel that the higher contribution margin coming from better service mix should help our gross margin improve."
+        },
+        "pat": {
+          "value": 5.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for this quarter stood at INR5.7 crores."
+        },
+        "netDebt": {
+          "value": 367,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net debt stood at INR367 crores as on December 2023."
+        },
+        "capexAnnounced": {
+          "value": 118,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our capex for 9 months of FY '24 stood at about INR118 crores."
+        },
+        "revenueGrowthYoy": {
+          "value": 11,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In reviewing our performance for the quarter, I'm pleased to report 11% year-on-year growth."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed where applicable, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 13
+    },
+    "9dbf2a68-9acb-4daf-8d0c-504c237f1eb8": {
+      "newsId": "9dbf2a68-9acb-4daf-8d0c-504c237f1eb8",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:58:12.836Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 3,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "1.22 comprehensive cancer centers, 3 multispecialty hospitals"
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": 1926,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Matured Centers Operational beds: 1394 + Emerging Centers Operational Beds: 532 = Total 1,926 Operational Beds"
+        },
+        "bedsUnderDevelopment": {
+          "value": 195,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "additional 195 beds available to be made operational"
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Planning State of Art, 100 bed stand-alone facility in the nearby location in North Bangalore"
+        },
+        "occupancyRate": {
+          "value": 59.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In Patient Bed Occupancy 59.8%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 864,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "PAT (Post IND-AS) 92 for Q3FY24"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 42788,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Total ARPOB (Rs.) 42,788"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4247,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue 4,247"
+        },
+        "ebitda": {
+          "value": 826,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA 826"
+        },
+        "ebitdaMargin": {
+          "value": 17.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Margin 17.6%"
+        },
+        "pat": {
+          "value": 57,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax 57"
+        },
+        "netDebt": {
+          "value": 31,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt 31"
+        },
+        "capexAnnounced": {
+          "value": 1180,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total CAPEX 1,179"
+        },
+        "revenueGrowthYoy": {
+          "value": 11,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year, percentage +11%"
+        },
+        "roce": {
+          "value": 18.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE ( % ) 18.5%"
+        }
+      },
+      "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 15
+    },
+    "ccde7ba0-5b63-4c19-9786-b79b1548229f": {
+      "newsId": "ccde7ba0-5b63-4c19-9786-b79b1548229f",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Results - Financial Results For The Quarter And Nine Months Ended December 31, 2023.",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:58:33.747Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q4 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 266.5,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 26,650"
+        },
+        "ebitda": {
+          "value": 14.95,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit before exceptional items and tax 1,495"
+        },
+        "ebitdaMargin": {
+          "value": 5.61,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 8.33,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period / year (7-8) 833"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "7dd312cc-e766-42f5-a381-556274da2fa1": {
+      "newsId": "7dd312cc-e766-42f5-a381-556274da2fa1",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q4",
+      "date": "2024-02-08",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f54907b1-d24c-4b00-844d-5676fdf0f807.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:59:08.902Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-12-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG, with its network of 22 Cancer Centers"
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 52,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-Patient Bed Occupancy ( % ) 52%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": 110913,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Footfall (‘000) 1109"
+        },
+        "arpob": {
+          "value": 42788,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB stood at Rs. 42,788"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4699,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "REVENUE Rs. 4,699 Mn"
+        },
+        "ebitda": {
+          "value": 826,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA Rs. 826 Mn"
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 57,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax Rs. 57 Mn"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 11,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "+ 11 %"
+        },
+        "roce": {
+          "value": 18.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "RoCE for Mature centers stood at 18.5%"
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated.",
+      "nonNullMetricCount": 9
+    },
+    "4f967ced-fa36-40c4-9a2e-1fcc35f7d2d2": {
+      "newsId": "4f967ced-fa36-40c4-9a2e-1fcc35f7d2d2",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-17",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8ff4653f-746a-4b36-a476-523104b11e5b.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:59:30.449Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY24",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 200,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "I think this is around 200 to 250 beds."
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 63.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall, average occupancy rate for the quarter stood at 63.6%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 42054,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARPOB stood at 42,054"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 487,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "our revenues for quarter 2 in FY '24 grew by 16% with a top line figure of 487 crores."
+        },
+        "ebitda": {
+          "value": 86.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA excluding ESOP grew by 14% Y-o-Y and stood at 86.4 crores."
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": 13.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for this quarter post Ind-AS stood at 13.6 crores."
+        },
+        "netDebt": {
+          "value": 310,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net debt excluding leases stood at 310 crores as at September 2023."
+        },
+        "capexAnnounced": {
+          "value": 64,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our CAPEX for H1 of Financial Year FY '24 stood at 64 crore."
+        },
+        "revenueGrowthYoy": {
+          "value": 16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Our revenues for quarter 2 in FY '24 grew by 16%."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 9
+    },
+    "251e4542-65c8-47d5-842b-fb16b709e53e": {
+      "newsId": "251e4542-65c8-47d5-842b-fb16b709e53e",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:59:51.255Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG NCHRI LLP operates and manages 115 bedded hospital in Nagpur"
+        },
+        "bedCapacity": {
+          "value": 1911,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Existing Centers Operational beds: 1335 + New Centers Operational Beds: 576 = Total 1,911 Operational Beds"
+        },
+        "operationalBeds": {
+          "value": 1335,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Existing Centers Operational beds: 1335 + New Centers Operational Beds: 576 = Total 1,911 Operational Beds"
+        },
+        "bedsUnderDevelopment": {
+          "value": 576,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Existing Centers Operational beds: 1335 + New Centers Operational Beds: 576 = Total 1,911 Operational Beds"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 61,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In Patient Bed Occupancy # 61%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 171,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "PAT Q2FY24 171"
+        },
+        "opVolume": {
+          "value": 136,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "PAT Q2FY24 136"
+        },
+        "arpob": {
+          "value": 42054,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "TOTAL ARPOB (Rs.) 42,054"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 48.69,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue from Operations 4,869.44"
+        },
+        "ebitda": {
+          "value": 86.44,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA Excluding ESOPS 864.47"
+        },
+        "ebitdaMargin": {
+          "value": 17.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Excluding ESOPS (%) 17.8%"
+        },
+        "pat": {
+          "value": 13.58,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax 135.77"
+        },
+        "netDebt": {
+          "value": 31.02,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "NET DEBT 31.02"
+        },
+        "capexAnnounced": {
+          "value": 63.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "TOTAL CAPEX 636"
+        },
+        "revenueGrowthYoy": {
+          "value": 16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue +16%"
+        },
+        "roce": {
+          "value": 21.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE (%) 21.2%"
+        }
+      },
+      "notes": "Currency conversions assumed; all figures are for Q2 FY24 unless specified.",
+      "nonNullMetricCount": 16
+    },
+    "c1f9a020-18c5-46ec-8415-6edc198c8f3d": {
+      "newsId": "c1f9a020-18c5-46ec-8415-6edc198c8f3d",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Results - Financial Results For Septmeber 30, 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/993fd5ad-af0b-49ba-b6a7-1a79ac1c6c3c.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:00:09.536Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY24",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 284.88,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total income 28,488"
+        },
+        "ebitda": {
+          "value": 18.28,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit before exceptional items and tax 1,828"
+        },
+        "ebitdaMargin": {
+          "value": 64.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin percentage"
+        },
+        "pat": {
+          "value": 13.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period 1,370"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "f71a5094-0f79-444c-bb96-38f51151e22d": {
+      "newsId": "f71a5094-0f79-444c-bb96-38f51151e22d",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-11-09",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14aa33bd-3f24-4716-9544-a176a70a4c8c.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:00:37.973Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY24",
+        "periodEnding": "2023-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 61,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-Patient Bed Occupancy ( % ) 61%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": 183196,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Footfall (‘000) 183"
+        },
+        "arpob": {
+          "value": 42054,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB stood at Rs.42,054"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 486,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our revenues witnessed a 16% growth and stood at Rs.486 crores."
+        },
+        "ebitda": {
+          "value": 86,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our EBITDA amounted to Rs.86 crores."
+        },
+        "ebitdaMargin": {
+          "value": 17.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "with margins standing at 17.8%."
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 16,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Our revenues witnessed a 16% growth on a year-on-year."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed where applicable; some metrics not disclosed in the document.",
+      "nonNullMetricCount": 7
+    },
+    "b55e6215-edb4-4f89-b86b-c544e417cd51": {
+      "newsId": "b55e6215-edb4-4f89-b86b-c544e417cd51",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q3",
+      "date": "2023-10-04",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5527c8d9-47de-4f2b-a50a-b482d74fed68.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:00:50.758Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q3",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 24,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG is now a network of 21 comprehensive cancer centers with 24 hospitals across India and Africa"
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 100,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG further plans to expand by adding 100 beds"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Most financial metrics were not disclosed in the press release. Bed counts and hospital counts were explicitly stated.",
+      "nonNullMetricCount": 2
+    },
+    "4dfa8097-3297-47fa-b7a3-a114f5a7fb9d": {
+      "newsId": "4dfa8097-3297-47fa-b7a3-a114f5a7fb9d",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-18",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdd59aa-00e0-4578-9779-d41bdbd0711f.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:01:10.486Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 66,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Onco-Bed occupancy stood at 66% for Q1 FY '24"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 39686,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Our ARPOB on company level stood at INR39,686"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 461,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "we recorded higher ever revenue for the 10th consecutive quarter of INR461 crores"
+        },
+        "ebitda": {
+          "value": 76.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "we recorded EBITDA, excluding ESOP, of INR76.4 crores for Q1 FY '24"
+        },
+        "ebitdaMargin": {
+          "value": 16.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin of 16.6%"
+        },
+        "pat": {
+          "value": 7.6,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for this quarter stood at INR7.6 crores"
+        },
+        "netDebt": {
+          "value": 217,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "the debt numbers as it stands today if you see what you have shown in the investor presentation. I'm talking about where that bank debt is about INR217 crores"
+        },
+        "capexAnnounced": {
+          "value": 110,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": "Total planned capex for Ahmedabad is INR85 crores, expected date of operations being Q1 FY '25 and for Bangalore COE is INR25 crores"
+        },
+        "revenueGrowthYoy": {
+          "value": 13,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "This growth was propelled by 22% year-on-year growth in our emerging center, highest ever quarterly revenues"
+        },
+        "roce": {
+          "value": 20.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "RoCE in our matures networks stood at 20.2% annualized for Q1 FY '24"
+        }
+      },
+      "notes": "Currency conversions assumed, ambiguous figures for some metrics.",
+      "nonNullMetricCount": 10
+    },
+    "f07f6a83-9055-4178-aab3-07809b8415fa": {
+      "newsId": "f07f6a83-9055-4178-aab3-07809b8415fa",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-10",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dfe4add8-e3c0-45ec-acdf-0f4aeac04984.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:01:46.411Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 12,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "1.22 comprehensive cancer centers, 3 multispecialty hospitals"
+        },
+        "bedCapacity": {
+          "value": 1847,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Existing Centers Operational beds: 1315 + New Centers Operational Beds: 532 = Total 1,847 Operational Beds"
+        },
+        "operationalBeds": {
+          "value": 1315,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "Existing Centers Operational beds: 1315 + New Centers Operational Beds: 532 = Total 1,847 Operational Beds"
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 66.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total AOR ( % ) 66.9%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 110,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Q1FY24 110"
+        },
+        "opVolume": {
+          "value": 4600,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 39686,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Total ARPOB ( Rs. ) 39,686"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 4606.8,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue from Operations 4,606.8"
+        },
+        "ebitda": {
+          "value": 764.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "EBITDA Excluding ESOPS 764.1"
+        },
+        "ebitdaMargin": {
+          "value": 16.6,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA Excluding ESOPS (%) 16.6%"
+        },
+        "pat": {
+          "value": 76.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax 76.1"
+        },
+        "netDebt": {
+          "value": 2167,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "NET DEBT 2,167"
+        },
+        "capexAnnounced": {
+          "value": 336,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "TOTAL CAPEX 336"
+        },
+        "revenueGrowthYoy": {
+          "value": 12.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Total Revenue from Operations 4,606.8, Y-o-Y 12.9%"
+        },
+        "roce": {
+          "value": 20.2,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE (%) 20.2%"
+        }
+      },
+      "notes": "Currency conversions assumed, figures are based on the latest quarterly report.",
+      "nonNullMetricCount": 15
+    },
+    "f1a6ce4e-22da-453b-807f-d2b3d762c8e9": {
+      "newsId": "f1a6ce4e-22da-453b-807f-d2b3d762c8e9",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-10",
+      "subject": "Results- Financial Results For The Quarter Ended June 30, 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e17d6388-99d1-4f1e-9e94-9f542e4ae421.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:02:18.163Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q2 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 271.52,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 27,152"
+        },
+        "ebitda": {
+          "value": 18.04,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit before exceptional item and tax (1-2) 1,804"
+        },
+        "ebitdaMargin": {
+          "value": 6.59,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Profit before tax (3+4) 1,804"
+        },
+        "pat": {
+          "value": 13.69,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period (5-6) 1,369"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not disclosed in the document.",
+      "nonNullMetricCount": 4
+    },
+    "e40bdaae-bfd9-4ad8-ab66-aff6f739926d": {
+      "newsId": "e40bdaae-bfd9-4ad8-ab66-aff6f739926d",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q2",
+      "date": "2023-08-10",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7bc699aa-7b22-40de-9b7a-0624a6e4b9a1.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:02:55.924Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-06-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 22,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "HCG’s comprehensive cancer centers across India and Africa"
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 100,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "Capacity expansion by 100 beds at a nearby location"
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "medium",
+          "quote": "successfully completing the acquisition of two centers situated in Indore and Nagpur"
+        },
+        "occupancyRate": {
+          "value": 66,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-Patient Bed Occupancy ( % ) 66%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": 1059214,
+          "unit": "visits",
+          "confidence": "high",
+          "quote": "OPD Footfall (‘000) 1059214%"
+        },
+        "arpob": {
+          "value": 39686,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "ARP OB stood at Rs. 39,686"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 461,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "our revenues witnessed a 13% year-on-year growth, reaching Rs. 461 crores"
+        },
+        "ebitda": {
+          "value": 76.4,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "our EBITDA (excluding ESOP) amounted to Rs. 76.4 crores"
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 13,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "+ 13 %"
+        },
+        "roce": {
+          "value": 20.2,
+          "unit": "%",
+          "confidence": "medium",
+          "quote": "RoCE for Mature centers stood at 20.2%"
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 10
+    },
+    "47ad6050-87f3-45f8-bfc6-e7a1ef84c684": {
+      "newsId": "47ad6050-87f3-45f8-bfc6-e7a1ef84c684",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-06-02",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab498ac1-68a8-4096-a261-e5db367bdafd.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:03:27.877Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 60,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Inpatient bed occupancy stood at 60% for FY '23 compared to 53% for FY '22."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 5100,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Total radiation patients treated stands at 5,100 in Q4 FY '23."
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 39800,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Our ARPOB on company level stood at INR39,800."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 442,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our consolidated revenues for Q4 FY '23 stood at INR442 crores."
+        },
+        "ebitda": {
+          "value": 83.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA for Q4 FY '23 stood at INR83.1 crores."
+        },
+        "ebitdaMargin": {
+          "value": 18.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA margin stood at 18.8% as compared to 18.5% in Q4 FY '22."
+        },
+        "pat": {
+          "value": 8.3,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "PAT for this quarter stood at INR8.3 crores."
+        },
+        "netDebt": {
+          "value": 198,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Our net debt position, excluding capital leases as on March 31, 2023, stood at INR198 crores."
+        },
+        "capexAnnounced": {
+          "value": 135,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "The current year capex is about INR135 crores."
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Our revenues for FY '23 stood at INR1,694 crores again registering a growth of 21% year-over-year."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Some metrics were not disclosed in the document. Currency conversions assumed where applicable.",
+      "nonNullMetricCount": 10
+    },
+    "93b76ada-ba4c-4481-bdc7-bd6d040a4444": {
+      "newsId": "93b76ada-ba4c-4481-bdc7-bd6d040a4444",
+      "docType": "investor-presentation",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:03:44.050Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": 1415,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "total in-patient bed capacity for oncology is 1,415 beds"
+        },
+        "operationalBeds": {
+          "value": 1228,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "operational beds is 1,228"
+        },
+        "bedsUnderDevelopment": {
+          "value": 214,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "additional 214 beds available to be made operational"
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 65.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "In-Patient Bed Occupancy: 65.1%"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 763,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "PAT for Q4 FY23 is 112 mn, with EBITDA of 831 mn"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 39864,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Total ARPOB: ₹39,864"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 441,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Revenue from Operations: ₹441 crore"
+        },
+        "ebitda": {
+          "value": 83.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA: ₹83.1 crore"
+        },
+        "ebitdaMargin": {
+          "value": 18.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Adjusted EBITDA Margin: 18.8%"
+        },
+        "pat": {
+          "value": 83.7,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit After Tax: ₹83.7 crore"
+        },
+        "netDebt": {
+          "value": 1980,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net Debt: ₹1980 crore"
+        },
+        "capexAnnounced": {
+          "value": 1257,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Capex: ₹1257 crore"
+        },
+        "revenueGrowthYoy": {
+          "value": 21,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year: +21%"
+        },
+        "roce": {
+          "value": 22.9,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "ROCE: 22.9%"
+        }
+      },
+      "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 14
+    },
+    "500d6772-8bc3-4c0f-b503-3f10f00352d1": {
+      "newsId": "500d6772-8bc3-4c0f-b503-3f10f00352d1",
+      "docType": "quarterly-result",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-25",
+      "subject": "Results- Financial Results For March 31, 2023",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:04:03.517Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "FY24-Q1",
+        "periodEnding": "2023-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": null,
+          "unit": "INR_per_day",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 258.19,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Revenue from operations 25,819"
+        },
+        "ebitda": {
+          "value": 109.1,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit before exceptional items and tax (1-2) 1,091"
+        },
+        "ebitdaMargin": {
+          "value": 4.23,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "EBITDA margin percentage"
+        },
+        "pat": {
+          "value": 4.18,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit for the period/year (5-6) 418"
+        },
+        "netDebt": {
+          "value": 112.72,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total outstanding dues of creditors other than micro enterprises and small enterprises 11,272"
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 17.5,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year, percentage"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Currency conversions assumed, some metrics not disclosed in the document.",
+      "nonNullMetricCount": 6
+    },
+    "68695fbb-6859-4c31-ace0-8541c28699c3": {
+      "newsId": "68695fbb-6859-4c31-ace0-8541c28699c3",
+      "docType": "press-release",
+      "fiscalQuarter": "FY24-Q1",
+      "date": "2023-05-25",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5352b2-c20e-40eb-a1c4-856011ca2a72.pdf",
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:04:21.295Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY24",
+        "periodEnding": null
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "newHospitalsPlanned": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "occupancyRate": {
+          "value": 65.1,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Overall AOR stood at 65.1% vs. 59.9% in Q4 FY22"
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 39864,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Overall ARPOB stood at Rs. 39,864 vs. Rs. 38,596 in Q4 FY22"
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitda": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ebitdaMargin": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "pat": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "No specific quarterly financial metrics were provided in the document. Currency conversions assumed where applicable.",
+      "nonNullMetricCount": 2
     }
   },
-  "lastExtractionAt": "2026-05-28T18:13:43.431Z",
+  "lastExtractionAt": "2026-05-29T18:04:21.296Z",
   "model": "gemini-2.5-flash-lite",
   "lastFixedAt": "2026-05-29T05:51:20.516Z"
 }

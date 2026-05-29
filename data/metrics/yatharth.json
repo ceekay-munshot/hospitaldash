@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": null,
   "isin": null,
-  "lastBuiltAt": "2026-05-29T17:35:50.811Z",
+  "lastBuiltAt": "2026-05-29T18:16:57.737Z",
   "latestQuote": {
     "date": "2026-05-29",
     "price": 798.4,
@@ -17,7 +17,7 @@
     "volumeShares": 35000
   },
   "coverage": {
-    "extractedDocs": 50,
+    "extractedDocs": 51,
     "quartersWithData": 13,
     "quarterRange": "FY24-Q1 → FY27-Q1",
     "classifiedTotalPriorityDocs": 51
@@ -675,16 +675,24 @@
       "to": "2025-12-31",
       "metrics": {
         "numberOfHospitals": {
-          "value": 6.5,
+          "value": 5,
           "unit": "count",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "high",
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "concall-transcript",
               "date": "2026-02-13",
               "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+              "value": 5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
               "value": 5,
               "confidence": "high",
               "periodMismatch": false
@@ -698,7 +706,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "sources disagree (5 … 8)"
+          "reason": "2 sources agree"
         },
         "bedCapacity": {
           "value": 2550,
@@ -716,6 +724,14 @@
               "periodMismatch": false
             },
             {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 1500,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
               "docType": "press-release",
               "date": "2026-02-05",
               "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4a6cb4a-ffa8-4194-a77b-8a93fdcd89ef.pdf",
@@ -727,9 +743,9 @@
           "reason": "2 sources agree"
         },
         "operationalBeds": {
-          "value": 150,
+          "value": 825,
           "unit": "count",
-          "confidence": "medium",
+          "confidence": "low",
           "status": "review",
           "clientSafe": false,
           "sources": [
@@ -740,16 +756,24 @@
               "value": 150,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 1500,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 1456 (×0.1)"
+          "reason": "sources disagree (150 … 1500)"
         },
         "bedsUnderDevelopment": {
-          "value": 3000,
+          "value": 1625,
           "unit": "count",
-          "confidence": "medium",
-          "status": "single-strong",
-          "clientSafe": true,
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
           "sources": [
             {
               "docType": "concall-transcript",
@@ -758,15 +782,23 @@
               "value": 3000,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 250,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "sources disagree (250 … 3000)"
         },
         "newHospitalsPlanned": {
-          "value": 3,
+          "value": 2.5,
           "unit": "count",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -776,9 +808,17 @@
               "value": 3,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 2,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources within tolerance"
         },
         "occupancyRate": {
           "value": 67,
@@ -817,13 +857,22 @@
           "reason": "single in-range source"
         },
         "ipVolume": {
-          "value": null,
+          "value": 54823,
           "unit": "admissions",
-          "confidence": "low",
+          "confidence": "medium",
           "status": "review",
           "clientSafe": false,
-          "sources": [],
-          "reason": "all candidates out of range or empty"
+          "sources": [
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 54823,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "outlier vs recent median 1540 (×35.6)"
         },
         "opVolume": {
           "value": null,
@@ -846,6 +895,14 @@
               "date": "2026-02-13",
               "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
               "value": 33744,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 66500,
               "confidence": "high",
               "periodMismatch": false
             },
@@ -977,6 +1034,14 @@
               "date": "2026-02-13",
               "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
               "value": 46,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+              "value": 20,
               "confidence": "high",
               "periodMismatch": false
             },

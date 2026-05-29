@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-29T17:35:50.726Z",
+  "lastBuiltAt": "2026-05-29T18:16:57.652Z",
   "latestQuote": {
     "date": "2026-05-29",
     "price": 964.25,
@@ -17,7 +17,7 @@
     "volumeShares": 327000
   },
   "coverage": {
-    "extractedDocs": 71,
+    "extractedDocs": 72,
     "quartersWithData": 13,
     "quarterRange": "FY24-Q1 → FY27-Q1",
     "classifiedTotalPriorityDocs": 72
@@ -48,12 +48,30 @@
           ],
           "reason": "single in-range source"
         },
-        "newHospitalsPlanned": {
-          "value": 9,
+        "bedsUnderDevelopment": {
+          "value": 700,
           "unit": "count",
           "confidence": "medium",
           "status": "single-strong",
           "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 700,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
+        },
+        "newHospitalsPlanned": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -62,15 +80,23 @@
               "value": 9,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 1,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "sources disagree (1 … 9)"
         },
         "occupancyRate": {
-          "value": 76,
+          "value": 75.5,
           "unit": "%",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -80,6 +106,32 @@
               "value": 76,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 75,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 77900,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
           "reason": "single in-range source"
@@ -87,8 +139,8 @@
         "revenue": {
           "value": 2664,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -98,15 +150,23 @@
               "value": 2664,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 2664,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources agree"
         },
         "ebitda": {
           "value": 682,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -116,15 +176,23 @@
               "value": 682,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 682,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources agree"
         },
         "ebitdaMargin": {
           "value": 26.8,
           "unit": "%",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -134,15 +202,23 @@
               "value": 26.8,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 26.8,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources agree"
         },
         "pat": {
           "value": 387,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -152,15 +228,23 @@
               "value": 387,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 387,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources agree"
         },
         "netDebt": {
           "value": 1908,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -170,15 +254,41 @@
               "value": 1908,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 1908,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
+        },
+        "capexAnnounced": {
+          "value": 1400,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 1400,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
           "reason": "single in-range source"
         },
         "revenueGrowthYoy": {
-          "value": 9,
+          "value": 9.5,
           "unit": "%",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "high",
+          "status": "corroborated",
           "clientSafe": true,
           "sources": [
             {
@@ -188,9 +298,17 @@
               "value": 9,
               "confidence": "high",
               "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-05-29",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+              "value": 10,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "2 sources within tolerance"
         },
         "roce": {
           "value": 23.1,

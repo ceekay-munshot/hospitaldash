@@ -9658,8 +9658,144 @@
       },
       "notes": "Currency conversions assumed; some metrics not explicitly stated in the document.",
       "nonNullMetricCount": 13
+    },
+    "222d5607-c2c2-4033-a054-cff741523c82": {
+      "newsId": "222d5607-c2c2-4033-a054-cff741523c82",
+      "docType": "concall-transcript",
+      "fiscalQuarter": "FY27-Q1",
+      "date": "2026-05-29",
+      "subject": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+      "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf",
+      "sourcePath": "AttachLive",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T17:53:18.774Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q1 FY27",
+        "periodEnding": "2026-03-31"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedCapacity": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "operationalBeds": {
+          "value": null,
+          "unit": "count",
+          "confidence": "low",
+          "quote": ""
+        },
+        "bedsUnderDevelopment": {
+          "value": 700,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "the Board has approved an investment of INR 1,400 crore for the construction of a 700-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "newHospitalsPlanned": {
+          "value": 1,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "the Board has approved an investment of INR 1,400 crore for the construction of a 700-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "occupancyRate": {
+          "value": 75,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Average occupancy for the Network continued to be more than 75%."
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": null,
+          "unit": "admissions",
+          "confidence": "low",
+          "quote": ""
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 77900,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed (ARPOB) for the quarter stood at INR 77,900."
+        },
+        "arpp": {
+          "value": null,
+          "unit": "INR_per_patient",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenue": {
+          "value": 2664,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network gross revenue stood at INR 2,664 crore."
+        },
+        "ebitda": {
+          "value": 682,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Network operating EBITDA stood at INR 682 crore."
+        },
+        "ebitdaMargin": {
+          "value": 26.8,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Network operating EBITDA margin was 26.8% for the quarter."
+        },
+        "pat": {
+          "value": 387,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after Tax (PAT) for the Network was INR 387 crore."
+        },
+        "netDebt": {
+          "value": 1908,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Net debt for the Network stood at INR 1,908 crore."
+        },
+        "capexAnnounced": {
+          "value": 1400,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "the Board has approved an investment of INR 1,400 crore for the construction of a 700-bed greenfield hospital at Shaheed Path, Lucknow."
+        },
+        "revenueGrowthYoy": {
+          "value": 10,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "the revenue increasing by 10%."
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "All currency conversions assumed; some metrics not explicitly stated in the document.",
+      "nonNullMetricCount": 11
     }
   },
-  "lastExtractionAt": "2026-05-28T05:10:00.160Z",
+  "lastExtractionAt": "2026-05-29T17:53:18.776Z",
   "model": "gemini-2.5-flash-lite"
 }

@@ -1414,10 +1414,134 @@
       "date": "2025-11-13",
       "subject": "Financial Results Of The Company For Second Quarter And Half Year Ended September 30, 2025.",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
-      "extractedAt": "2026-05-29T07:35:12.235Z",
-      "error": "not a PDF at AttachHis (got: \"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//E…\") [tried: AttachLive:html, AttachHis:html]",
-      "attemptCount": 1,
-      "metrics": null
+      "sourcePath": "AttachHis",
+      "model": "gpt-4o-mini-2024-07-18",
+      "extractedAt": "2026-05-29T18:16:57.574Z",
+      "finishReason": "stop",
+      "promptTokens": null,
+      "responseTokens": null,
+      "reportingPeriod": {
+        "fiscalQuarter": "Q3 FY26",
+        "periodEnding": "2025-09-30"
+      },
+      "metrics": {
+        "numberOfHospitals": {
+          "value": 5,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "During the current quarter, the Group has commenced commercial operations in the following Hospitals situated at: a. Model Town, New Delhi w.e.f. July 14, 2025, having 300 bedded capacity."
+        },
+        "bedCapacity": {
+          "value": 1500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The said entity has hospital with 150 operational beds (expandable upto 250 beds) and is situated at Agra, Uttar Pradesh."
+        },
+        "operationalBeds": {
+          "value": 1500,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The said entity has hospital with 150 operational beds (expandable upto 250 beds) and is situated at Agra, Uttar Pradesh."
+        },
+        "bedsUnderDevelopment": {
+          "value": 250,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "The said entity has hospital with 150 operational beds (expandable upto 250 beds) and is situated at Agra, Uttar Pradesh."
+        },
+        "newHospitalsPlanned": {
+          "value": 2,
+          "unit": "count",
+          "confidence": "high",
+          "quote": "During the current quarter, the Group has commenced commercial operations in the following Hospitals situated at: a. Model Town, New Delhi w.e.f. July 14, 2025, having 300 bedded capacity."
+        },
+        "occupancyRate": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        },
+        "alos": {
+          "value": null,
+          "unit": "days",
+          "confidence": "low",
+          "quote": ""
+        },
+        "ipVolume": {
+          "value": 54823,
+          "unit": "admissions",
+          "confidence": "high",
+          "quote": "Profit after tax for the period / year (V-VI) Profit after tax for the period / year attributable to: Owners of the Holding Company Non-controlling interests"
+        },
+        "opVolume": {
+          "value": null,
+          "unit": "visits",
+          "confidence": "low",
+          "quote": ""
+        },
+        "arpob": {
+          "value": 66500,
+          "unit": "INR_per_day",
+          "confidence": "high",
+          "quote": "Average Revenue Per Occupied Bed per day, in rupees"
+        },
+        "arpp": {
+          "value": 420.36,
+          "unit": "INR_per_patient",
+          "confidence": "high",
+          "quote": "Earnings per equity share of Rs. 10/- per share Basic Diluted"
+        },
+        "revenue": {
+          "value": 2743.31,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Total Income (1+11) Expenses Purchase of drugs, consumables and implants"
+        },
+        "ebitda": {
+          "value": 548.23,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit before tax (III - IV)"
+        },
+        "ebitdaMargin": {
+          "value": 20,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Profit before tax (III - IV)"
+        },
+        "pat": {
+          "value": 414.58,
+          "unit": "INR_crore",
+          "confidence": "high",
+          "quote": "Profit after tax for the period / year (V-VI)"
+        },
+        "netDebt": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "capexAnnounced": {
+          "value": null,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "quote": ""
+        },
+        "revenueGrowthYoy": {
+          "value": 20,
+          "unit": "%",
+          "confidence": "high",
+          "quote": "Revenue growth year-on-year, percentage"
+        },
+        "roce": {
+          "value": null,
+          "unit": "%",
+          "confidence": "low",
+          "quote": ""
+        }
+      },
+      "notes": "Data extracted from the quarterly results document dated November 13, 2025. Some metrics were not available in the document.",
+      "nonNullMetricCount": 13
     },
     "aa941192-846d-4575-a1b3-849eb8f274f9": {
       "newsId": "aa941192-846d-4575-a1b3-849eb8f274f9",
@@ -7012,7 +7136,7 @@
       "nonNullMetricCount": 9
     }
   },
-  "lastExtractionAt": "2026-05-29T07:53:07.437Z",
+  "lastExtractionAt": "2026-05-29T18:16:57.574Z",
   "model": "gemini-2.5-flash-lite",
   "lastFixedAt": "2026-05-29T08:11:17.308Z"
 }
