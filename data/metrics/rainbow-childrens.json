@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-05-29T08:20:17.334Z",
+  "lastBuiltAt": "2026-05-29T11:01:38.068Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1376.75,
@@ -29,50 +29,62 @@
       "calendar": "Apr–Jun 2026",
       "from": "2026-04-01",
       "to": "2026-06-30",
-      "sourceExtractions": [
-        {
-          "docType": "quarterly-result",
-          "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
-          "date": "2026-05-27",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-        },
-        {
-          "docType": "quarterly-result",
-          "newsId": "6cb9f5b7-e8d0-49d7-b42d-8de3cd881f3b",
-          "date": "2026-05-27",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf"
-        }
-      ],
       "metrics": {
         "revenue": {
           "value": 4080.64,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "4,080.64",
-          "source": {
-            "docType": "quarterly-result",
-            "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
-            "date": "2026-05-27",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
+              "value": 4080.64,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
+              "value": 4080.64,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "outlier vs recent median 407 (×10.0)"
         },
         "pat": {
           "value": 593.05,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "593.05",
-          "source": {
-            "docType": "quarterly-result",
-            "newsId": "dbcc983d-b546-4640-a340-58ee28fc02e5",
-            "date": "2026-05-27",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
+              "value": 593.05,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
+              "value": 593.05,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "outlier vs recent median 65 (×9.1)"
         }
       },
       "derived": {
-        "enterpriseValueCr": 13982.2,
-        "peAnnualised": 5.89,
-        "patMargin": 14.53
+        "enterpriseValueCr": 13982.2
       }
     },
     "FY26-Q4": {
@@ -81,259 +93,375 @@
       "calendar": "Jan–Mar 2026",
       "from": "2026-01-01",
       "to": "2026-03-31",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2026-03-31",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        },
-        {
-          "docType": "investor-presentation",
-          "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-          "date": "2026-05-23",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-        },
-        {
-          "docType": "press-release",
-          "newsId": "81e9834e-4c32-4382-9f56-7110504174ee",
-          "date": "2026-05-23",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf"
-        },
-        {
-          "docType": "quarterly-result",
-          "newsId": "7bb44038-f64b-4042-8461-3c71206e1a61",
-          "date": "2026-01-28",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
-        }
-      ],
       "metrics": {
-        "revenue": {
-          "value": 445.4,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q3 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q3 FY26 revenue from operations, INR Cr",
-            "source": "Q3 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2026-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 147,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q3 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q3 FY26 EBITDA, INR Cr",
-            "source": "Q3 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2026-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 33,
-          "unit": "%",
-          "confidence": "high",
-          "quote": "Q3 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q3 FY26 EBITDA margin %",
-            "source": "Q3 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2026-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
-        },
-        "pat": {
-          "value": 73.9,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q3 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q3 FY26 PAT, INR Cr",
-            "source": "Q3 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2026-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
-          }
-        },
         "numberOfHospitals": {
           "value": 24,
           "unit": "count",
           "confidence": "high",
-          "quote": "Rainbow network comprises of 24¹ hospitals and 5 clinics in 9 cities, with a total bed capacity of 2,4351 beds.",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 24,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 24,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedCapacity": {
           "value": 2435,
           "unit": "count",
           "confidence": "high",
-          "quote": "Capacity beds¹ 2,435",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 2435,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 2435,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
-          "value": 1758,
+          "value": 1782,
           "unit": "count",
           "confidence": "high",
-          "quote": "1,758",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 1758,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 1806,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedsUnderDevelopment": {
           "value": 580,
           "unit": "count",
-          "confidence": "high",
-          "quote": "580",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 580,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "newHospitalsPlanned": {
           "value": 2,
           "unit": "count",
           "confidence": "medium",
-          "quote": "The spoke hospitals in Electronic City (~90 Beds), HRBR¹ (~60 beds) & dedicated IVF centre at Mahadevapura¹ has commenced operations",
-          "source": {
-            "docType": "press-release",
-            "newsId": "81e9834e-4c32-4382-9f56-7110504174ee",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf"
-          }
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 2,
+              "confidence": "medium",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "occupancyRate": {
-          "value": 45.3,
+          "value": 45.78,
           "unit": "%",
           "confidence": "high",
-          "quote": "45.3%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 45.3,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 46.26,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "alos": {
           "value": 2.71,
           "unit": "days",
           "confidence": "high",
-          "quote": "2.71",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 2.71,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 2.71,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "ipVolume": {
-          "value": 27977,
+          "value": 27976,
           "unit": "admissions",
           "confidence": "high",
-          "quote": "27,977",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 27977,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 27975,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "opVolume": {
           "value": 424702,
           "unit": "visits",
           "confidence": "high",
-          "quote": "4,24,702",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 424702,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 424702,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "arpob": {
-          "value": 58057,
+          "value": 60260.5,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "58,057",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 58057,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 62464,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
+        },
+        "revenue": {
+          "value": 445.4,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 revenue from operations, INR Cr",
+              "source": "Q3 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitda": {
+          "value": 147,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 EBITDA, INR Cr",
+              "source": "Q3 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitdaMargin": {
+          "value": 33,
+          "unit": "%",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 EBITDA margin %",
+              "source": "Q3 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "pat": {
+          "value": 73.9,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 PAT, INR Cr",
+              "source": "Q3 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "capexAnnounced": {
-          "value": 580,
+          "value": 320.45,
           "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "580",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 580,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 60.9,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "sources disagree (60.9 … 580)"
         },
         "revenueGrowthYoy": {
-          "value": 24,
+          "value": 24.15,
           "unit": "%",
           "confidence": "high",
-          "quote": "24%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "5945795f-7314-448b-a6bb-bac41d0fbf54",
-            "date": "2026-05-23",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf",
+              "value": 24,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf",
+              "value": 24.3,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         }
       },
       "derived": {
-        "revenuePerBedYearly": 10134243,
-        "ebitdaPerBedYearly": 3344710,
-        "bedTurnoverYearly": 63.66,
-        "bedActivationPct": 72.2,
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 23.78,
-        "peAnnualised": 47.3,
-        "evPerBedCr": 7.953,
-        "evPerBedLakhs": 795.3,
         "patMargin": 16.59,
-        "ebitdaTtmCr": 514.1
+        "vacantBeds": 653,
+        "bedUtilizationPct": 73.2,
+        "bedsPerHospital": 74,
+        "revenuePerBedQuarter": 2499439,
+        "ebitdaPerBedQuarter": 824916,
+        "bedTurnoverQuarter": 15.7,
+        "revenueTtmCr": 1613.3,
+        "ebitdaTtmCr": 514.1,
+        "patTtmCr": 259.8
       }
     },
     "FY26-Q3": {
@@ -342,253 +470,371 @@
       "calendar": "Oct–Dec 2025",
       "from": "2025-10-01",
       "to": "2025-12-31",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2025-12-31",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        },
-        {
-          "docType": "concall-transcript",
-          "newsId": "c9c9200a-36dc-437e-92e0-29105d6bf79e",
-          "date": "2026-02-03",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf"
-        },
-        {
-          "docType": "investor-presentation",
-          "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-          "date": "2026-01-28",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-        },
-        {
-          "docType": "press-release",
-          "newsId": "b7880b50-bca0-436a-b0a2-9a9e70173a0e",
-          "date": "2026-01-28",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf"
-        },
-        {
-          "docType": "quarterly-result",
-          "newsId": "969213a9-2a41-433d-8890-133b3f51ca69",
-          "date": "2025-11-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8fc04d5d-f099-4deb-9bb2-66c87cdf0c45.pdf"
-        }
-      ],
       "metrics": {
-        "revenue": {
-          "value": 444.8,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q2 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q2 FY26 revenue from operations, INR Cr",
-            "source": "Q2 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 148.8,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q2 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q2 FY26 EBITDA, INR Cr",
-            "source": "Q2 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 33.5,
-          "unit": "%",
-          "confidence": "high",
-          "quote": "Q2 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q2 FY26 EBITDA margin %",
-            "source": "Q2 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
-          }
-        },
-        "pat": {
-          "value": 75.6,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q2 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q2 FY26 PAT, INR Cr",
-            "source": "Q2 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
-          }
-        },
         "numberOfHospitals": {
           "value": 23,
           "unit": "count",
-          "confidence": "high",
-          "quote": "Rainbow network comprises of 23¹ hospitals and 5 clinics in 9 cities, with a total bed capacity of 2,3751 beds.",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 23,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "bedCapacity": {
-          "value": 2375,
+          "value": 2330,
           "unit": "count",
           "confidence": "high",
-          "quote": "Capacity beds¹ 2,375",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 2375,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 2285,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 1758,
           "unit": "count",
-          "confidence": "high",
-          "quote": "Operational Beds²\n1,758",
-          "source": {
-            "docType": "press-release",
-            "newsId": "b7880b50-bca0-436a-b0a2-9a9e70173a0e",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 1758,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "newHospitalsPlanned": {
           "value": 3,
           "unit": "count",
-          "confidence": "low",
-          "quote": "The 60-bed spoke hospital in Hennur in Bengaluru city is in concluding stages... The construction has started at the regional hub hospital at Coimbatore of 130 beds... The greenfield regional hub hospital in Pune of 150 beds has received project plan approvals",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "c9c9200a-36dc-437e-92e0-29105d6bf79e",
-            "date": "2026-02-03",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 3,
+              "confidence": "low",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "occupancyRate": {
           "value": 47.2,
           "unit": "%",
           "confidence": "high",
-          "quote": "47.2%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 47.2,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 47.2,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 47.19,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         },
         "alos": {
           "value": 2.73,
           "unit": "days",
           "confidence": "high",
-          "quote": "2.73",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 2.73,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 2.7,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 2.73,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         },
         "ipVolume": {
-          "value": 25605,
+          "value": 26791,
           "unit": "admissions",
           "confidence": "high",
-          "quote": "25,605",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 25605,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 27977,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "opVolume": {
-          "value": 427595,
+          "value": 422468.5,
           "unit": "visits",
           "confidence": "high",
-          "quote": "4,27,595",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 427595,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 417342,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "arpob": {
           "value": 58362,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "58,362",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 58362,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 60000,
+              "confidence": "medium",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 58362,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
+        },
+        "revenue": {
+          "value": 444.8,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q2 FY26 revenue from operations, INR Cr",
+              "source": "Q2 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitda": {
+          "value": 148.8,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q2 FY26 EBITDA, INR Cr",
+              "source": "Q2 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitdaMargin": {
+          "value": 33.5,
+          "unit": "%",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q2 FY26 EBITDA margin %",
+              "source": "Q2 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "pat": {
+          "value": 75.6,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q2 FY26 PAT, INR Cr",
+              "source": "Q2 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "capexAnnounced": {
-          "value": 57,
+          "value": 56.945,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, company has invested INR57 crores in capital expenditures towards expanding and enhancing our services at existing and upcoming hospitals.",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "c9c9200a-36dc-437e-92e0-29105d6bf79e",
-            "date": "2026-02-03",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 57,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 56.89,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "revenueGrowthYoy": {
           "value": 11.9,
           "unit": "%",
           "confidence": "high",
-          "quote": "11.9%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "f566179d-6afd-4615-9515-a8d318a6d441",
-            "date": "2026-01-28",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf",
+              "value": 11.9,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+              "value": 12,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf",
+              "value": 11.9,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         }
       },
       "derived": {
-        "revenuePerBedYearly": 10120592,
-        "ebitdaPerBedYearly": 3385666,
-        "bedTurnoverYearly": 58.26,
-        "bedActivationPct": 74,
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 23.49,
-        "peAnnualised": 46.24,
-        "evPerBedCr": 7.953,
-        "evPerBedLakhs": 795.3,
         "patMargin": 17,
-        "ebitdaTtmCr": 867.7
+        "vacantBeds": 572,
+        "bedUtilizationPct": 75.5,
+        "bedsPerHospital": 76,
+        "revenuePerBedQuarter": 2530148,
+        "ebitdaPerBedQuarter": 846416,
+        "bedTurnoverQuarter": 15.24,
+        "revenueTtmCr": 4869
       }
     },
     "FY26-Q2": {
@@ -597,253 +843,378 @@
       "calendar": "Jul–Sep 2025",
       "from": "2025-07-01",
       "to": "2025-09-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2025-09-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        },
-        {
-          "docType": "concall-transcript",
-          "newsId": "7bea793c-4b99-467b-9402-e34439afb323",
-          "date": "2025-11-20",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf"
-        },
-        {
-          "docType": "investor-presentation",
-          "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-          "date": "2025-11-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-        },
-        {
-          "docType": "press-release",
-          "newsId": "65ecab15-ad39-416a-8eee-da83676c7944",
-          "date": "2025-11-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf"
-        },
-        {
-          "docType": "quarterly-result",
-          "newsId": "c9547421-2ac7-4769-ac6a-d611945e771a",
-          "date": "2025-07-26",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
-        }
-      ],
       "metrics": {
         "numberOfHospitals": {
           "value": 22,
           "unit": "count",
           "confidence": "high",
-          "quote": "Rainbow network comprises of 22¹ hospitals and 5 clinics in 9 cities, with a total bed capacity of 2,285",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 22,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 22,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedCapacity": {
           "value": 2285,
           "unit": "count",
           "confidence": "high",
-          "quote": "Capacity beds¹ 2,285",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 2285,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 2285,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 1621,
           "unit": "count",
           "confidence": "high",
-          "quote": "1,621",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 1621,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 1621,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "newHospitalsPlanned": {
           "value": 2,
           "unit": "count",
           "confidence": "medium",
-          "quote": "and are set to open two more hospitals in Bengaluru shortly.",
-          "source": {
-            "docType": "press-release",
-            "newsId": "65ecab15-ad39-416a-8eee-da83676c7944",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf"
-          }
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 2,
+              "confidence": "medium",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "occupancyRate": {
           "value": 52,
           "unit": "%",
           "confidence": "high",
-          "quote": "52.0%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 52,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-11-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf",
+              "value": 52,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 51.95,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         },
         "alos": {
           "value": 2.73,
           "unit": "days",
           "confidence": "high",
-          "quote": "2.73",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 2.73,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 2.73,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "ipVolume": {
           "value": 28380,
           "unit": "admissions",
           "confidence": "high",
-          "quote": "28,380",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 28380,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 28380,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "opVolume": {
           "value": 427595,
           "unit": "visits",
           "confidence": "high",
-          "quote": "4,27,595",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 427595,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 427595,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "arpob": {
           "value": 57396,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "57,396",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 57396,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 57396,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "revenue": {
           "value": 353,
           "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q1 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q1 FY26 revenue from operations, INR Cr",
-            "source": "Q1 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q1 FY26 revenue from operations, INR Cr",
+              "source": "Q1 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "ebitda": {
           "value": 103.6,
           "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q1 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q1 FY26 EBITDA, INR Cr",
-            "source": "Q1 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q1 FY26 EBITDA, INR Cr",
+              "source": "Q1 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "ebitdaMargin": {
           "value": 29.4,
           "unit": "%",
-          "confidence": "high",
-          "quote": "Q1 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q1 FY26 EBITDA margin %",
-            "source": "Q1 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q1 FY26 EBITDA margin %",
+              "source": "Q1 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "pat": {
           "value": 53.8,
           "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q1 FY26 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q1 FY26 PAT, INR Cr",
-            "source": "Q1 FY26 concall transcript"
-          },
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q1 FY26 PAT, INR Cr",
+              "source": "Q1 FY26 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "capexAnnounced": {
-          "value": 260.6,
+          "value": 150,
           "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "During the quarter, the company invested Rs. 260.6Cr in capital expenditures towards expanding and enhancing our services at existing / upcoming hospitals and acquisition of Guwahati and Warangal hospitals.",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "7bea793c-4b99-467b-9402-e34439afb323",
-            "date": "2025-11-20",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf"
-          }
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 150,
+              "confidence": "low",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-11-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf",
+              "value": 260.6,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 26.06,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "sources disagree (26.06 … 260.6)"
         },
         "revenueGrowthYoy": {
           "value": 6.5,
           "unit": "%",
           "confidence": "high",
-          "quote": "6.5%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
-            "date": "2025-11-13",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf",
+              "value": 6.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-11-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf",
+              "value": 6.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf",
+              "value": 6.5,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         }
       },
       "derived": {
-        "revenuePerBedYearly": 8710672,
-        "ebitdaPerBedYearly": 2556447,
-        "bedTurnoverYearly": 70.03,
-        "bedActivationPct": 70.9,
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 33.74,
-        "peAnnualised": 64.97,
-        "evPerBedCr": 8.626,
-        "evPerBedLakhs": 862.6,
         "patMargin": 15.24,
-        "ebitdaTtmCr": 1231
+        "vacantBeds": 664,
+        "bedUtilizationPct": 70.9,
+        "bedsPerHospital": 74,
+        "revenuePerBedQuarter": 2177668,
+        "ebitdaPerBedQuarter": 639112,
+        "bedTurnoverQuarter": 17.51
       }
     },
     "FY26-Q1": {
@@ -852,253 +1223,370 @@
       "calendar": "Apr–Jun 2025",
       "from": "2025-04-01",
       "to": "2025-06-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2025-06-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        },
-        {
-          "docType": "concall-transcript",
-          "newsId": "d2d8fa66-614c-4b71-aecc-9770d22d6388",
-          "date": "2025-08-04",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf"
-        },
-        {
-          "docType": "investor-presentation",
-          "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-          "date": "2025-07-26",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-        },
-        {
-          "docType": "press-release",
-          "newsId": "3cf5ce36-1c7e-4824-9e5b-a78a9301ddda",
-          "date": "2025-07-26",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf"
-        },
-        {
-          "docType": "quarterly-result",
-          "newsId": "33243811-8021-4f83-a87f-528288dd474e",
-          "date": "2025-05-24",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
-        }
-      ],
       "metrics": {
-        "revenue": {
-          "value": 370.1,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q4 FY25 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q4 FY25 revenue from operations, INR Cr",
-            "source": "Q4 FY25 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 114.7,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q4 FY25 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q4 FY25 EBITDA, INR Cr",
-            "source": "Q4 FY25 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 31,
-          "unit": "%",
-          "confidence": "high",
-          "quote": "Q4 FY25 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q4 FY25 EBITDA margin %",
-            "source": "Q4 FY25 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
-          }
-        },
-        "pat": {
-          "value": 56.5,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "quote": "Q4 FY25 concall transcript",
-          "overridden": true,
-          "override": {
-            "note": "Q4 FY25 PAT, INR Cr",
-            "source": "Q4 FY25 concall transcript"
-          },
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
-          }
-        },
         "numberOfHospitals": {
           "value": 20,
           "unit": "count",
           "confidence": "high",
-          "quote": "Rainbow is currently the country's largest pediatric hospital chain with 20¹ hospitals spread across 7 cities",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 20,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 20,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedCapacity": {
           "value": 2035,
           "unit": "count",
           "confidence": "high",
-          "quote": "Capacity\nbeds¹\n2,035",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 2035,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 2035,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 1523,
           "unit": "count",
           "confidence": "high",
-          "quote": "1,523\n1,523\n1,523",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 1523,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 1523,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "newHospitalsPlanned": {
           "value": 4,
           "unit": "count",
           "confidence": "medium",
-          "quote": "New hospitals on track in Rajahmundry, Bengaluru, Coimbatore, and NCR",
-          "source": {
-            "docType": "press-release",
-            "newsId": "3cf5ce36-1c7e-4824-9e5b-a78a9301ddda",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf"
-          }
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 4,
+              "confidence": "medium",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "occupancyRate": {
           "value": 40.2,
           "unit": "%",
           "confidence": "high",
-          "quote": "40.2%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 40.2,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-08-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf",
+              "value": 40.2,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 40.21,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         },
         "alos": {
           "value": 2.66,
           "unit": "days",
           "confidence": "high",
-          "quote": "2.66",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 2.66,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 2.66,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "ipVolume": {
           "value": 20992,
           "unit": "admissions",
           "confidence": "high",
-          "quote": "20,992",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 20992,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 20992,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "opVolume": {
           "value": 329331,
           "unit": "visits",
           "confidence": "high",
-          "quote": "329k+",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 329331,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 329331,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "arpob": {
-          "value": 56212,
+          "value": 59767.5,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "56,212",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 56212,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 63323,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources within tolerance"
+        },
+        "revenue": {
+          "value": 370.1,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY25 revenue from operations, INR Cr",
+              "source": "Q4 FY25 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitda": {
+          "value": 114.7,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY25 EBITDA, INR Cr",
+              "source": "Q4 FY25 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitdaMargin": {
+          "value": 31,
+          "unit": "%",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY25 EBITDA margin %",
+              "source": "Q4 FY25 concall transcript"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "pat": {
+          "value": 56.5,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY25 PAT, INR Cr",
+              "source": "Q4 FY25 concall transcript"
+            }
+          ],
+          "reason": "manual override"
         },
         "capexAnnounced": {
           "value": 41.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, the company has invested approximately INR41.5 crores in the capital expenditure.",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "d2d8fa66-614c-4b71-aecc-9770d22d6388",
-            "date": "2025-08-04",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2025-08-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf",
+              "value": 41.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 41.5,
+              "confidence": "medium",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "revenueGrowthYoy": {
-          "value": 6.9,
+          "value": 7,
           "unit": "%",
           "confidence": "high",
-          "quote": "6.9%",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "3341fa81-e891-475a-ae8d-c00f181af354",
-            "date": "2025-07-26",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf",
+              "value": 6.9,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-08-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf",
+              "value": 7,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf",
+              "value": 7,
+              "confidence": "medium",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         }
       },
       "derived": {
-        "revenuePerBedYearly": 9720289,
-        "ebitdaPerBedYearly": 3012475,
-        "bedTurnoverYearly": 55.13,
-        "bedActivationPct": 74.8,
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 30.48,
-        "peAnnualised": 61.87,
-        "evPerBedCr": 9.181,
-        "evPerBedLakhs": 918.1,
         "patMargin": 15.27,
-        "ebitdaTtmCr": 1634.5
+        "vacantBeds": 512,
+        "bedUtilizationPct": 74.8,
+        "bedsPerHospital": 76,
+        "revenuePerBedQuarter": 2430072,
+        "ebitdaPerBedQuarter": 753119,
+        "bedTurnoverQuarter": 13.78
       }
     },
     "FY25-Q4": {
@@ -1107,239 +1595,422 @@
       "calendar": "Jan–Mar 2025",
       "from": "2025-01-01",
       "to": "2025-03-31",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2025-03-31",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        },
-        {
-          "docType": "concall-transcript",
-          "newsId": "015c2519-1bda-4d1a-9125-ecfd54270a76",
-          "date": "2025-05-31",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf"
-        },
-        {
-          "docType": "investor-presentation",
-          "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-          "date": "2025-05-24",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-        },
-        {
-          "docType": "press-release",
-          "newsId": "d0b550cc-c953-41ec-862b-817bac013325",
-          "date": "2025-05-24",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf"
-        }
-      ],
       "metrics": {
-        "revenue": {
-          "value": 3539.95,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 500.63,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 14.14,
-          "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
-          }
-        },
-        "pat": {
-          "value": 1,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q4: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2025-03-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
-          }
-        },
         "numberOfHospitals": {
           "value": 19,
           "unit": "count",
           "confidence": "high",
-          "quote": "Rainbow network comprises of 19 hospitals and 5 clinics in 6 cities, with a total bed capacity of 1,935 beds.",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 19,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 19,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedCapacity": {
           "value": 1935,
           "unit": "count",
           "confidence": "high",
-          "quote": "Capacity beds 1,935",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 1935,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 1935,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 1523,
           "unit": "count",
           "confidence": "high",
-          "quote": "1,523 Q4 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 1523,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 1523,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "bedsUnderDevelopment": {
           "value": 250,
           "unit": "count",
-          "confidence": "high",
-          "quote": "FY:25-26 250",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 250,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "newHospitalsPlanned": {
-          "value": 3,
+          "value": 2.5,
           "unit": "count",
           "confidence": "high",
-          "quote": "• Our 100-bed regional hospital in Rajahmundry, Andhra Pradesh, is in the final stages and is expected to commence operations by the end of Q1 FY26.\n• Two new spoke hospitals in Bengaluru-Electronic City (90 beds) and Hennur (60 beds) are expected to begin operations by the end of Q2 FY26.\n• The 130-bed regional hub hospital in Coimbatore has commenced project work and is expected to take 20-24 mo",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "015c2519-1bda-4d1a-9125-ecfd54270a76",
-            "date": "2025-05-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 2,
+              "confidence": "low",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 3,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources within tolerance"
         },
         "occupancyRate": {
-          "value": 50.5,
+          "value": 46.5,
           "unit": "%",
           "confidence": "high",
-          "quote": "50.5% FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 50.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 46.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 46.5,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "alos": {
-          "value": 2.85,
+          "value": 2.81,
           "unit": "days",
           "confidence": "high",
-          "quote": "2.85 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 2.85,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 2.77,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "ipVolume": {
-          "value": 98395,
+          "value": 22975,
           "unit": "admissions",
-          "confidence": "high",
-          "quote": "98,395 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 22975,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "opVolume": {
-          "value": 1426733,
+          "value": 356901,
           "unit": "visits",
-          "confidence": "high",
-          "quote": "14,26,733 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 356901,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
         },
         "arpob": {
-          "value": 53962,
+          "value": 56009.5,
           "unit": "INR_per_day",
           "confidence": "high",
-          "quote": "53,962 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 53962,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 58057,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
+        },
+        "revenue": {
+          "value": 3701.1,
+          "unit": "INR_crore",
+          "confidence": "medium",
+          "status": "single-strong",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 3701.1,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "single in-range source"
+        },
+        "ebitda": {
+          "value": 631,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 114.7,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 1147.3,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "sources disagree (114.7 … 1147.3)"
+        },
+        "ebitdaMargin": {
+          "value": 31,
+          "unit": "%",
+          "confidence": "high",
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 31,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 31,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 31,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
+        },
+        "pat": {
+          "value": 311,
+          "unit": "INR_crore",
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 56.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 565.5,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "sources disagree (56.5 … 565.5)"
         },
         "capexAnnounced": {
           "value": 43.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, the company has invested approximately INR43.7 crores in the capital expenditure.",
-          "source": {
-            "docType": "concall-transcript",
-            "newsId": "015c2519-1bda-4d1a-9125-ecfd54270a76",
-            "date": "2025-05-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 43.7,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 43.7,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "2 sources agree"
         },
         "revenueGrowthYoy": {
           "value": 8.5,
           "unit": "%",
           "confidence": "high",
-          "quote": "8.5% Q4 FY25",
-          "source": {
-            "docType": "investor-presentation",
-            "newsId": "56ac31b8-ebe4-430d-b434-967024774a4f",
-            "date": "2025-05-24",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
-          }
+          "status": "corroborated",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf",
+              "value": 8.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+              "value": 8.5,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf",
+              "value": 8.5,
+              "confidence": "high",
+              "periodMismatch": false
+            }
+          ],
+          "reason": "3 sources agree"
         }
       },
       "derived": {
-        "revenuePerBedYearly": 92973079,
-        "ebitdaPerBedYearly": 13148523,
-        "bedTurnoverYearly": 258.42,
-        "bedActivationPct": 78.7,
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.98,
-        "peAnnualised": 3495.54,
-        "evPerBedCr": 9.181,
-        "evPerBedLakhs": 918.1,
-        "patMargin": 0.03,
-        "ebitdaTtmCr": 2031.6
+        "vacantBeds": 412,
+        "bedUtilizationPct": 78.7,
+        "bedsPerHospital": 80,
+        "revenuePerBedQuarter": 24301379,
+        "bedTurnoverQuarter": 15.09
       }
     },
     "FY25-Q3": {
@@ -1348,71 +2019,8 @@
       "calendar": "Oct–Dec 2024",
       "from": "2024-10-01",
       "to": "2024-12-31",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2024-12-31",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        }
-      ],
-      "metrics": {
-        "revenue": {
-          "value": 3980.82,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q3: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 512.04,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q3: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 12.86,
-          "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q3: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
-          }
-        },
-        "pat": {
-          "value": 19.69,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q3: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-12-31",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
-          }
-        }
-      },
-      "derived": {
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.83,
-        "peAnnualised": 177.53,
-        "patMargin": 0.49
-      }
+      "metrics": {},
+      "derived": {}
     },
     "FY25-Q2": {
       "fiscalQuarter": "FY25-Q2",
@@ -1420,57 +2028,8 @@
       "calendar": "Jul–Sep 2024",
       "from": "2024-07-01",
       "to": "2024-09-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2024-09-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        }
-      ],
-      "metrics": {
-        "revenue": {
-          "value": 4039.25,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-09-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/534a6906-a11e-4492-a2c4-b77bd0461426.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 507.12,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-09-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/534a6906-a11e-4492-a2c4-b77bd0461426.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 12.55,
-          "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q2: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-09-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/534a6906-a11e-4492-a2c4-b77bd0461426.pdf"
-          }
-        }
-      },
-      "derived": {
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.89
-      }
+      "metrics": {},
+      "derived": {}
     },
     "FY25-Q1": {
       "fiscalQuarter": "FY25-Q1",
@@ -1478,57 +2037,8 @@
       "calendar": "Apr–Jun 2024",
       "from": "2024-04-01",
       "to": "2024-06-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2024-06-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        }
-      ],
-      "metrics": {
-        "revenue": {
-          "value": 3150.23,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e615ae69-8745-49f7-be7c-958507173a95.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 511.77,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e615ae69-8745-49f7-be7c-958507173a95.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 16.25,
-          "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY25-Q1: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2024-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e615ae69-8745-49f7-be7c-958507173a95.pdf"
-          }
-        }
-      },
-      "derived": {
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.83
-      }
+      "metrics": {},
+      "derived": {}
     },
     "FY24-Q2": {
       "fiscalQuarter": "FY24-Q2",
@@ -1536,46 +2046,8 @@
       "calendar": "Jul–Sep 2023",
       "from": "2023-07-01",
       "to": "2023-09-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2023-09-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        }
-      ],
-      "metrics": {
-        "revenue": {
-          "value": 3186.65,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de1b3fdb-5b1e-4e7b-8431-7e0851158106.pdf"
-          }
-        },
-        "pat": {
-          "value": 17,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q2: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-09-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de1b3fdb-5b1e-4e7b-8431-7e0851158106.pdf"
-          }
-        }
-      },
-      "derived": {
-        "enterpriseValueCr": 13982.2,
-        "peAnnualised": 205.62,
-        "patMargin": 0.53
-      }
+      "metrics": {},
+      "derived": {}
     },
     "FY24-Q1": {
       "fiscalQuarter": "FY24-Q1",
@@ -1583,71 +2055,8 @@
       "calendar": "Apr–Jun 2023",
       "from": "2023-04-01",
       "to": "2023-06-30",
-      "sourceExtractions": [
-        {
-          "docType": "bse-financials-api",
-          "newsId": null,
-          "date": "2023-06-30",
-          "pdfUrl": null,
-          "note": "derived-from-pdf quarterly result"
-        }
-      ],
-      "metrics": {
-        "revenue": {
-          "value": 2703.5,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: Revenue from operations",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
-          }
-        },
-        "ebitda": {
-          "value": 406.77,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: EBITDA (derived: PBT + Depr + Finance cost)",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
-          }
-        },
-        "ebitdaMargin": {
-          "value": 15.05,
-          "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: EBITDA margin",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
-          }
-        },
-        "pat": {
-          "value": 17,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY24-Q1: Profit for the period",
-          "source": {
-            "docType": "bse-quarterly-result-api",
-            "newsId": null,
-            "date": "2023-06-30",
-            "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
-          }
-        }
-      },
-      "derived": {
-        "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 8.59,
-        "peAnnualised": 205.62,
-        "patMargin": 0.63
-      }
+      "metrics": {},
+      "derived": {}
     }
   }
 }

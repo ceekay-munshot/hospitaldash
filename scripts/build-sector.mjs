@@ -24,18 +24,22 @@ const HIGHER_IS_BETTER = new Set([
   'revenueGrowthYoy',
   'revenueCagr3yr',
   'roce',
-  'revenuePerBedYearly',
-  'ebitdaPerBedYearly',
+  'revenuePerBedQuarter',
+  'ebitdaPerBedQuarter',
+  'revenueTtmCr',
   'ebitdaTtmCr',
-  'bedTurnoverYearly',
-  'bedActivationPct',
+  'patTtmCr',
+  'bedTurnoverQuarter',
+  'bedUtilizationPct',
+  'bedsPerHospital',
 ]);
 const LOWER_IS_BETTER = new Set([
   'alos',
   'netDebt',
   'netDebtToEbitda',
-  'evToEbitdaAnnualised',
-  'peAnnualised',
+  'evToEbitda',
+  'peTtm',
+  'vacantBeds',
 ]);
 
 const METRIC_META = {
@@ -60,18 +64,21 @@ const METRIC_META = {
   revenueGrowthYoy: { label: 'Revenue YoY', unit: '%', section: 'profitability' },
   revenueCagr3yr: { label: 'Revenue CAGR (3yr)', unit: '%', section: 'profitability', derived: true },
   roce: { label: 'ROCE', unit: '%', section: 'profitability' },
-  // derived
-  revenuePerBedYearly: { label: 'Revenue / bed (annualised)', unit: 'INR/bed', section: 'profitability', derived: true },
-  ebitdaPerBedYearly: { label: 'EBITDA / bed (annualised)', unit: 'INR/bed', section: 'profitability', derived: true },
+  // derived — quarter-native (NOT annualised, per Simran's feedback)
+  vacantBeds: { label: 'Vacant beds', unit: 'count', section: 'network', derived: true },
+  bedUtilizationPct: { label: 'Bed utilization', unit: '%', section: 'network', derived: true },
+  bedsPerHospital: { label: 'Beds per hospital', unit: 'count', section: 'network', derived: true },
+  revenuePerBedQuarter: { label: 'Revenue / bed (quarter)', unit: 'INR/bed', section: 'profitability', derived: true },
+  ebitdaPerBedQuarter: { label: 'EBITDA / bed (quarter)', unit: 'INR/bed', section: 'profitability', derived: true },
+  bedTurnoverQuarter: { label: 'Bed turnover (quarter)', unit: 'admits/bed', section: 'operations', derived: true },
+  revenueTtmCr: { label: 'Revenue (TTM)', unit: 'INR Cr', section: 'financials', derived: true },
   ebitdaTtmCr: { label: 'EBITDA (TTM)', unit: 'INR Cr', section: 'financials', derived: true },
+  patTtmCr: { label: 'PAT (TTM)', unit: 'INR Cr', section: 'financials', derived: true },
   netDebtToEbitda: { label: 'Net debt / EBITDA', unit: 'x', section: 'balanceSheet', derived: true },
-  bedTurnoverYearly: { label: 'Bed turnover (annualised)', unit: 'admits/bed/yr', section: 'operations', derived: true },
-  bedActivationPct: { label: 'Bed activation', unit: '%', section: 'network', derived: true },
   enterpriseValueCr: { label: 'Enterprise value', unit: 'INR Cr', section: 'valuation', derived: true },
-  evToEbitdaAnnualised: { label: 'EV / EBITDA', unit: 'x', section: 'valuation', derived: true },
-  evPerBedCr: { label: 'EV / bed', unit: 'INR Cr/bed', section: 'valuation', derived: true },
+  evToEbitda: { label: 'EV / EBITDA (TTM)', unit: 'x', section: 'valuation', derived: true },
   evPerBedLakhs: { label: 'EV / bed', unit: '₹ lakh/bed', section: 'valuation', derived: true },
-  peAnnualised: { label: 'P/E (annualised)', unit: 'x', section: 'valuation', derived: true },
+  peTtm: { label: 'P/E (TTM)', unit: 'x', section: 'valuation', derived: true },
 };
 
 const METRIC_KEYS = Object.keys(METRIC_META);
@@ -89,9 +96,16 @@ async function loadJson(path) {
 function metricValueFor(quarterData, key) {
   if (!quarterData) return null;
   if (DERIVED_KEYS.includes(key)) {
+    // Derived metrics are computed only from client-safe inputs already.
     return quarterData.derived?.[key] ?? null;
   }
-  return quarterData.metrics?.[key]?.value ?? null;
+  const m = quarterData.metrics?.[key];
+  if (!m) return null;
+  // GATE: only surface values the validator deemed client-safe.
+  // Flagged / out-of-range / disagreeing values are withheld (shown as "—")
+  // until a verified override clears them.
+  if (m.clientSafe === false) return null;
+  return m.value ?? null;
 }
 
 function rankings(byCompanyForMetric, key) {
@@ -128,15 +142,20 @@ async function run() {
         const v = metricValueFor(qd, k);
         if (v != null) flat[k] = v;
       }
+      // Gather unique source PDFs from each metric's resolved sources.
+      const srcMap = new Map();
+      for (const k of Object.keys(qd.metrics || {})) {
+        for (const s of qd.metrics[k]?.sources || []) {
+          if (s.pdfUrl && !srcMap.has(s.pdfUrl)) {
+            srcMap.set(s.pdfUrl, { docType: s.docType, date: s.date, pdfUrl: s.pdfUrl });
+          }
+        }
+      }
       quarters[fq] = {
         label: qd.label,
         calendar: qd.calendar,
         metrics: flat,
-        sources: qd.sourceExtractions.map((s) => ({
-          docType: s.docType,
-          date: s.date,
-          pdfUrl: s.pdfUrl,
-        })),
+        sources: [...srcMap.values()],
       };
     }
     byCompany[company.slug] = {

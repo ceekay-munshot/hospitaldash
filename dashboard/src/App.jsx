@@ -7,17 +7,17 @@ import MetricDetailModal from './components/MetricDetailModal';
 // 6 sections matching Simran's framework
 const SECTIONS = [
   { id: 'network',         title: 'Network & infrastructure',  subtitle: 'Size and reach',
-    metrics: ['numberOfHospitals', 'bedCapacity', 'operationalBeds', 'bedActivationPct', 'bedsUnderDevelopment', 'newHospitalsPlanned'] },
+    metrics: ['numberOfHospitals', 'bedCapacity', 'operationalBeds', 'vacantBeds', 'bedUtilizationPct', 'bedsPerHospital', 'bedsUnderDevelopment', 'newHospitalsPlanned'] },
   { id: 'operations',      title: 'Operational efficiency',    subtitle: 'Productivity & throughput',
-    metrics: ['occupancyRate', 'alos', 'ipVolume', 'opVolume', 'bedTurnoverYearly'] },
+    metrics: ['occupancyRate', 'alos', 'ipVolume', 'opVolume', 'bedTurnoverQuarter'] },
   { id: 'revenueQuality',  title: 'Revenue quality',           subtitle: 'Pricing power per bed & patient',
-    metrics: ['arpob', 'arpp', 'revenuePerBedYearly', 'revenueGrowthYoy', 'revenueCagr3yr'] },
+    metrics: ['arpob', 'arpp', 'revenuePerBedQuarter', 'revenueGrowthYoy', 'revenueCagr3yr'] },
   { id: 'profitability',   title: 'Profitability & returns',   subtitle: 'Margin & capital efficiency',
-    metrics: ['revenue', 'ebitda', 'ebitdaTtmCr', 'ebitdaMargin', 'pat', 'patMargin', 'ebitdaPerBedYearly', 'roce'] },
+    metrics: ['revenue', 'revenueTtmCr', 'ebitda', 'ebitdaTtmCr', 'ebitdaMargin', 'pat', 'patTtmCr', 'patMargin', 'ebitdaPerBedQuarter', 'roce'] },
   { id: 'expansion',       title: 'Expansion & capital',       subtitle: 'Growth trajectory & leverage',
     metrics: ['capexAnnounced', 'netDebt', 'netDebtToEbitda'] },
   { id: 'valuation',       title: 'Valuation',                 subtitle: 'What the market pays',
-    metrics: ['enterpriseValueCr', 'evToEbitdaAnnualised', 'evPerBedLakhs', 'peAnnualised'] },
+    metrics: ['enterpriseValueCr', 'evToEbitda', 'evPerBedLakhs', 'peTtm'] },
 ];
 
 export default function App() {
