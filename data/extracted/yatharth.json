@@ -88,16 +88,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 3416,
+          "value": 341.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue Rs 3,416 mn"
+          "quote": "Revenue Rs 3,416 mn",
+          "originalValue": 3416,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 799,
+          "value": 79.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Rs 799 mn"
+          "quote": "EBITDA Rs 799 mn",
+          "originalValue": 799,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.4,
@@ -112,10 +116,12 @@
           "quote": "PAT Rs 447mn"
         },
         "netDebt": {
-          "value": -1160,
+          "value": -116,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash Rs 1,160 mn"
+          "quote": "Net Cash Rs 1,160 mn",
+          "originalValue": -1160,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -360,16 +366,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 3416,
+          "value": 341.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue reaches a record high to Rs 3,416 mn"
+          "quote": "Operating Revenue reaches a record high to Rs 3,416 mn",
+          "originalValue": 3416,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 799,
+          "value": 79.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA stood at record Rs 799 mn"
+          "quote": "EBITDA stood at record Rs 799 mn",
+          "originalValue": 799,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.4,
@@ -378,10 +388,12 @@
           "quote": "EBITDA Margin 23.4%"
         },
         "pat": {
-          "value": 447,
+          "value": 44.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT stood at Rs 447 mn"
+          "quote": "PAT stood at Rs 447 mn",
+          "originalValue": 447,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -632,16 +644,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 3205,
+          "value": 320.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we achieved a revenue of INR3,205 million."
+          "quote": "we achieved a revenue of INR3,205 million.",
+          "originalValue": 3205,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 742,
+          "value": 74.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we have achieved our highest-ever EBITDA at INR742 million."
+          "quote": "we have achieved our highest-ever EBITDA at INR742 million.",
+          "originalValue": 742,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 29.2,
@@ -650,10 +666,12 @@
           "quote": "our adjusted EBITDA margin stood strong at 29.2%."
         },
         "pat": {
-          "value": 431,
+          "value": 43.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net profit after tax stood at INR431 million."
+          "quote": "Net profit after tax stood at INR431 million.",
+          "originalValue": 431,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -200,
@@ -768,16 +786,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 3205,
+          "value": 320.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue Rs. 3,205 mn"
+          "quote": "Revenue Rs. 3,205 mn",
+          "originalValue": 3205,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 742,
+          "value": 74.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Rs. 742 mn"
+          "quote": "EBITDA Rs. 742 mn",
+          "originalValue": 742,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.2,
@@ -786,10 +808,12 @@
           "quote": "EBITDA Margin 23.2%"
         },
         "pat": {
-          "value": 431,
+          "value": 43.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT Rs. 431 mn"
+          "quote": "PAT Rs. 431 mn",
+          "originalValue": 431,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -1040,16 +1064,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 3205,
+          "value": 320.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at record Rs. 3,205 mn during the quarter"
+          "quote": "Operating Revenue at record Rs. 3,205 mn during the quarter",
+          "originalValue": 3205,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 742,
+          "value": 74.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA stood at record Rs. 742 mn, up 35% YoY"
+          "quote": "EBITDA stood at record Rs. 742 mn, up 35% YoY",
+          "originalValue": 742,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.2,
@@ -1058,10 +1086,12 @@
           "quote": "EBITDA Margin 23.2%"
         },
         "pat": {
-          "value": 431,
+          "value": 43.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 431 mn, up by 41% YoY"
+          "quote": "PAT at Rs. 431 mn, up by 41% YoY",
+          "originalValue": 431,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -1176,16 +1206,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2794,
+          "value": 279.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we recorded revenue of INR2,794 million."
+          "quote": "we recorded revenue of INR2,794 million.",
+          "originalValue": 2794,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA stood at a record level of INR645 million."
+          "quote": "EBITDA stood at a record level of INR645 million.",
+          "originalValue": 645,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.1,
@@ -1200,10 +1234,12 @@
           "quote": ""
         },
         "netDebt": {
-          "value": -3692,
+          "value": -369.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we have a strong net cash position of INR3,692 million."
+          "quote": "we have a strong net cash position of INR3,692 million.",
+          "originalValue": -3692,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -1312,16 +1348,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2794,
+          "value": 279.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue Rs. 2,794 mn"
+          "quote": "Revenue Rs. 2,794 mn",
+          "originalValue": 2794,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Rs. 645 mn"
+          "quote": "EBITDA Rs. 645 mn",
+          "originalValue": 645,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.1,
@@ -1330,16 +1370,20 @@
           "quote": "EBITDA Margin % 23.1%"
         },
         "pat": {
-          "value": 413,
+          "value": 41.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT Rs. 413 mn"
+          "quote": "PAT Rs. 413 mn",
+          "originalValue": 413,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -3692,
+          "value": -369.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash Rs. 3,692 mn"
+          "quote": "Net Cash Rs. 3,692 mn",
+          "originalValue": -3692,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -1460,16 +1504,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2794,
+          "value": 279.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at record Rs. 2,794 mn during the quarter"
+          "quote": "Operating Revenue at record Rs. 2,794 mn during the quarter",
+          "originalValue": 2794,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA stood at record Rs. 645 mn"
+          "quote": "EBITDA stood at record Rs. 645 mn",
+          "originalValue": 645,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 23.1,
@@ -1478,16 +1526,20 @@
           "quote": "EBITDA Margin 23.1%"
         },
         "pat": {
-          "value": 413,
+          "value": 41.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 413 mn"
+          "quote": "PAT at Rs. 413 mn",
+          "originalValue": 413,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -3692,
+          "value": -369.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash Position as on Sep-25 stood at Rs. 3,692 mn"
+          "quote": "Net Cash Position as on Sep-25 stood at Rs. 3,692 mn",
+          "originalValue": -3692,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -1732,16 +1784,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2578,
+          "value": 257.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During Q1 FY ‘26, we achieved a revenue of Rs. 2,578 million reflecting a 22% Y-o-Y."
+          "quote": "During Q1 FY ‘26, we achieved a revenue of Rs. 2,578 million reflecting a 22% Y-o-Y.",
+          "originalValue": 2578,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "On the profitability front, EBITDA rose 20% year-over-year to Rs. 645 million."
+          "quote": "On the profitability front, EBITDA rose 20% year-over-year to Rs. 645 million.",
+          "originalValue": 645,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25,
@@ -1750,10 +1806,12 @@
           "quote": "EBITDA margin improved by 41 bps sequentially and stood at 25%."
         },
         "pat": {
-          "value": 420,
+          "value": 42,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Despite higher depreciation due to ongoing expansion, our net profit has grown 38% year-over-year, reaching Rs. 420 million."
+          "quote": "Despite higher depreciation due to ongoing expansion, our net profit has grown 38% year-over-year, reaching Rs. 420 million.",
+          "originalValue": 420,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -300,
@@ -2140,16 +2198,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2578,
+          "value": 257.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 2,578 mn, up 22% YoY and 11% QoQ"
+          "quote": "Operating Revenue at Rs. 2,578 mn, up 22% YoY and 11% QoQ",
+          "originalValue": 2578,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 645 mn, up 20% YoY and 13% QoQ"
+          "quote": "EBITDA at Rs. 645 mn, up 20% YoY and 13% QoQ",
+          "originalValue": 645,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25,
@@ -2158,10 +2220,12 @@
           "quote": "EBITDA Margin 25.0%"
         },
         "pat": {
-          "value": 425,
+          "value": 42.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 425 mn, up by 40% YoY"
+          "quote": "PAT at Rs. 425 mn, up by 40% YoY",
+          "originalValue": 425,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2548,16 +2612,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2318,
+          "value": 231.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Yatharth Hospitals achieved a revenue of INR2,318 million."
+          "quote": "Yatharth Hospitals achieved a revenue of INR2,318 million.",
+          "originalValue": 2318,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 570,
+          "value": 57,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA for the quarter rose by 23% Y-o-Y to INR570 million."
+          "quote": "EBITDA for the quarter rose by 23% Y-o-Y to INR570 million.",
+          "originalValue": 570,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.6,
@@ -2566,16 +2634,20 @@
           "quote": "EBITDA margin stood at 24.6% compared to 26.2% last year."
         },
         "pat": {
-          "value": 387,
+          "value": 38.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Overall, our profit grew by 1% Y-o-Y at INR387 million."
+          "quote": "Overall, our profit grew by 1% Y-o-Y at INR387 million.",
+          "originalValue": 387,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -5032,
+          "value": -503.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our balance sheet continues to remain strong with a net cash position of INR5,032 million."
+          "quote": "Our balance sheet continues to remain strong with a net cash position of INR5,032 million.",
+          "originalValue": -5032,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 300,
@@ -3092,16 +3164,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2318,
+          "value": 231.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 2,318 mn, up 30% YoY"
+          "quote": "Operating Revenue at Rs. 2,318 mn, up 30% YoY",
+          "originalValue": 2318,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 570,
+          "value": 57,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 570 mn, up 23% YoY"
+          "quote": "EBITDA at Rs. 570 mn, up 23% YoY",
+          "originalValue": 570,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.6,
@@ -3110,16 +3186,20 @@
           "quote": "EBITDA margin at 24.6%"
         },
         "pat": {
-          "value": 387,
+          "value": 38.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 387 mn, up 1% YoY"
+          "quote": "PAT at Rs. 387 mn, up 1% YoY",
+          "originalValue": 387,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -5032,
+          "value": -503.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash position as on Mar-25 stood at Rs. 5,032 mn"
+          "quote": "Net Cash position as on Mar-25 stood at Rs. 5,032 mn",
+          "originalValue": -5032,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -3364,16 +3444,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2192,
+          "value": 219.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Yatharth Hospitals achieved a revenue of Rs. 2,192 million."
+          "quote": "Yatharth Hospitals achieved a revenue of Rs. 2,192 million.",
+          "originalValue": 2192,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 549,
+          "value": 54.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our EBITDA for the quarter improved by 18% YoY to Rs. 549 million."
+          "quote": "Our EBITDA for the quarter improved by 18% YoY to Rs. 549 million.",
+          "originalValue": 549,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -3382,16 +3466,20 @@
           "quote": "Our EBITDA margin this quarter were at 25.1%."
         },
         "pat": {
-          "value": 305,
+          "value": 30.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Overall, our profits grew by 3% YoY at Rs. 305 million."
+          "quote": "Overall, our profits grew by 3% YoY at Rs. 305 million.",
+          "originalValue": 305,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -5605,
+          "value": -560.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our balance sheet continues to remain strong with the net cash position of Rs. 5,605 million."
+          "quote": "Our balance sheet continues to remain strong with the net cash position of Rs. 5,605 million.",
+          "originalValue": -5605,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 220,
@@ -3654,16 +3742,20 @@
           "quote": "EBITDA margin at 25.1%."
         },
         "pat": {
-          "value": 30.5,
+          "value": 3.05,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 305 mn in Q3."
+          "quote": "PAT at Rs. 305 mn in Q3.",
+          "originalValue": 30.5,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -560.5,
+          "value": -56.05,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash position as on Dec-24 stood at Rs. 5,605 mn."
+          "quote": "Net Cash position as on Dec-24 stood at Rs. 5,605 mn.",
+          "originalValue": -560.5,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -4044,16 +4136,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2178,
+          "value": 217.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Yatharth Hospital has achieved a revenue of Rs.2,178 million."
+          "quote": "Yatharth Hospital has achieved a revenue of Rs.2,178 million.",
+          "originalValue": 2178,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 546,
+          "value": 54.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our EBITDA for this quarter improved by 20% YoY to Rs.546 million."
+          "quote": "Our EBITDA for this quarter improved by 20% YoY to Rs.546 million.",
+          "originalValue": 546,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -4062,10 +4158,12 @@
           "quote": "our EBITDA margin this quarter were at 25.1% compared to 26.6% last year."
         },
         "pat": {
-          "value": 310,
+          "value": 31,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Overall, our profit grew by 12% YoY and 2% QoQ at Rs.310 million."
+          "quote": "Overall, our profit grew by 12% YoY and 2% QoQ at Rs.310 million.",
+          "originalValue": 310,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4316,16 +4414,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2178,
+          "value": 217.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 2,178 mn in Q2."
+          "quote": "Operating Revenue at Rs. 2,178 mn in Q2.",
+          "originalValue": 2178,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 546,
+          "value": 54.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 546 mn in Q2."
+          "quote": "EBITDA at Rs. 546 mn in Q2.",
+          "originalValue": 546,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.1,
@@ -4334,16 +4436,20 @@
           "quote": "EBITDA Margin 25.1%."
         },
         "pat": {
-          "value": 310,
+          "value": 31,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax (PAT) 310 mn."
+          "quote": "Profit After Tax (PAT) 310 mn.",
+          "originalValue": 310,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -1541,
+          "value": -154.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash stood at Rs. 1,541 mn as on September 30, 2024."
+          "quote": "Net Cash stood at Rs. 1,541 mn as on September 30, 2024.",
+          "originalValue": -1541,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -4588,16 +4694,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2118,
+          "value": 211.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Yatharth Hospital achieved a revenue of INR 2,118 million."
+          "quote": "Yatharth Hospital achieved a revenue of INR 2,118 million.",
+          "originalValue": 2118,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 537,
+          "value": 53.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "our EBITDA for the quarter improved by 30% Y-o-Y to INR 537 million."
+          "quote": "our EBITDA for the quarter improved by 30% Y-o-Y to INR 537 million.",
+          "originalValue": 537,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -4606,10 +4716,12 @@
           "quote": "our EBITDA margin this quarter was at 25.3%."
         },
         "pat": {
-          "value": 304,
+          "value": 30.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "our profit after tax were up by 60% Y-o-Y at INR 304 million."
+          "quote": "our profit after tax were up by 60% Y-o-Y at INR 304 million.",
+          "originalValue": 304,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4860,16 +4972,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2118,
+          "value": 211.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 2,118 mn, up 37% YoY"
+          "quote": "Operating Revenue at Rs. 2,118 mn, up 37% YoY",
+          "originalValue": 2118,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 537,
+          "value": 53.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 537 mn, up 30% YoY"
+          "quote": "EBITDA at Rs. 537 mn, up 30% YoY",
+          "originalValue": 537,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -4878,10 +4994,12 @@
           "quote": "EBITDA margins at 25.3%"
         },
         "pat": {
-          "value": 304,
+          "value": 30.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 304 mn, up 60% YoY"
+          "quote": "PAT at Rs. 304 mn, up 60% YoY",
+          "originalValue": 304,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4996,16 +5114,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 2118,
+          "value": 211.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 2,118 mn, up 37% YoY"
+          "quote": "Operating Revenue at Rs. 2,118 mn, up 37% YoY",
+          "originalValue": 2118,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 537,
+          "value": 53.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 537 mn, up 30% YoY"
+          "quote": "EBITDA at Rs. 537 mn, up 30% YoY",
+          "originalValue": 537,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.3,
@@ -5014,10 +5136,12 @@
           "quote": "EBITDA margins at 25.3%"
         },
         "pat": {
-          "value": 304,
+          "value": 30.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 304 mn, up 60% YoY"
+          "quote": "PAT at Rs. 304 mn, up 60% YoY",
+          "originalValue": 304,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5132,16 +5256,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1777.5,
+          "value": 177.75,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, Yatharth Hospitals achieved a revenue of Rs. 1,777.5 million."
+          "quote": "During the quarter, Yatharth Hospitals achieved a revenue of Rs. 1,777.5 million.",
+          "originalValue": 1777.5,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 465,
+          "value": 46.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our Company reported EBITDA of Rs. 465 million for the quarter."
+          "quote": "Our Company reported EBITDA of Rs. 465 million for the quarter.",
+          "originalValue": 465,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.2,
@@ -5150,16 +5278,20 @@
           "quote": "Our margin stood at 26.2%."
         },
         "pat": {
-          "value": 383,
+          "value": 38.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our profit after tax exhibited remarkable growth of 121% Y-o-Y and 30% quarter-over-quarter to reach Rs. 383 million."
+          "quote": "Our profit after tax exhibited remarkable growth of 121% Y-o-Y and 30% quarter-over-quarter to reach Rs. 383 million.",
+          "originalValue": 383,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": 800,
+          "value": 80,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "During the quarter, we have secured a debt of approximately 800 million."
+          "quote": "During the quarter, we have secured a debt of approximately 800 million.",
+          "originalValue": 800,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 25,
@@ -5292,10 +5424,12 @@
           "quote": "Profit After Tax (PAT) 383"
         },
         "netDebt": {
-          "value": 1556,
+          "value": 155.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash Rs. 1,556 mn"
+          "quote": "Net Cash Rs. 1,556 mn",
+          "originalValue": 1556,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5404,16 +5538,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1778,
+          "value": 177.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue at Rs. 1,778 mn, up 24% YoY"
+          "quote": "Operating Revenue at Rs. 1,778 mn, up 24% YoY",
+          "originalValue": 1778,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 465,
+          "value": 46.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA at Rs. 465 mn, up 21% YoY"
+          "quote": "EBITDA at Rs. 465 mn, up 21% YoY",
+          "originalValue": 465,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.2,
@@ -5422,16 +5560,20 @@
           "quote": "EBITDA margins at 26.2%"
         },
         "pat": {
-          "value": 383,
+          "value": 38.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 383 mn, up 121% YoY"
+          "quote": "PAT at Rs. 383 mn, up 121% YoY",
+          "originalValue": 383,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -1556,
+          "value": -155.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net Cash of Rs. 1,556 mn on March 31, 2024"
+          "quote": "Net Cash of Rs. 1,556 mn on March 31, 2024",
+          "originalValue": -1556,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5540,16 +5682,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1670,
+          "value": 167,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our quarterly revenue stood at INR1668 million recording a robust growth of 21% year over year."
+          "quote": "Our quarterly revenue stood at INR1668 million recording a robust growth of 21% year over year.",
+          "originalValue": 1670,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 464,
+          "value": 46.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our company reported an EBITDA of INR464 million for the quarter up 29% year over year."
+          "quote": "Our company reported an EBITDA of INR464 million for the quarter up 29% year over year.",
+          "originalValue": 464,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.8,
@@ -5558,16 +5704,20 @@
           "quote": "Our EBITDA margin expanded by 160 basis points year over year to 27.8%."
         },
         "pat": {
-          "value": 295,
+          "value": 29.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our profits grow by 39% year over year to INR295 million."
+          "quote": "Our profits grow by 39% year over year to INR295 million.",
+          "originalValue": 295,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": 2814,
+          "value": 281.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our balance sheet continues to be a strong with net cap position up to 2,814 million."
+          "quote": "Our balance sheet continues to be a strong with net cap position up to 2,814 million.",
+          "originalValue": 2814,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5700,10 +5850,12 @@
           "quote": "Profit After Tax (PAT) 295"
         },
         "netDebt": {
-          "value": -2814,
+          "value": -281.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Net cash stood at INR 2,814 mn"
+          "quote": "Net cash stood at INR 2,814 mn",
+          "originalValue": -2814,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -5812,16 +5964,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1668,
+          "value": 166.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue is Rs. 1,668 mn, up 21% YoY"
+          "quote": "Operating Revenue is Rs. 1,668 mn, up 21% YoY",
+          "originalValue": 1668,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 464,
+          "value": 46.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA is Rs. 464 mn, up 29% YoY"
+          "quote": "EBITDA is Rs. 464 mn, up 29% YoY",
+          "originalValue": 464,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.8,
@@ -5830,10 +5986,12 @@
           "quote": "EBITDA margins expanded by 160 bps YoY to 27.8%"
         },
         "pat": {
-          "value": 295,
+          "value": 29.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT is Rs. 295 mn, up 39% YoY"
+          "quote": "PAT is Rs. 295 mn, up 39% YoY",
+          "originalValue": 295,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -2814,
@@ -5948,16 +6106,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1713,
+          "value": 171.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our revenue has experienced a remarkable 34% year-over-year growth, reaching ₹1,713 million."
+          "quote": "Our revenue has experienced a remarkable 34% year-over-year growth, reaching ₹1,713 million.",
+          "originalValue": 1713,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 456,
+          "value": 45.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our EBITDA for the quarter was ₹456 million, up by 36% year-over-year."
+          "quote": "Our EBITDA for the quarter was ₹456 million, up by 36% year-over-year.",
+          "originalValue": 456,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.6,
@@ -5966,16 +6128,20 @@
           "quote": "Our EBITDA margins for the quarter expanded by 40 basis points to 26.6%."
         },
         "pat": {
-          "value": 276,
+          "value": 27.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "we have been able to grow our profits considerably by 70% year-over-year and 45% quarter-over-quarter to ₹276 million during the quarter."
+          "quote": "we have been able to grow our profits considerably by 70% year-over-year and 45% quarter-over-quarter to ₹276 million during the quarter.",
+          "originalValue": 276,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -3109,
+          "value": -310.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "your company stands net debt free, with net cash position of ₹3,109 million."
+          "quote": "your company stands net debt free, with net cash position of ₹3,109 million.",
+          "originalValue": -3109,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": 800,
@@ -6084,16 +6250,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1713,
+          "value": 171.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our revenue has experienced a remarkable 34% year-over-year growth, reaching ₹1,713 million."
+          "quote": "Our revenue has experienced a remarkable 34% year-over-year growth, reaching ₹1,713 million.",
+          "originalValue": 1713,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 456,
+          "value": 45.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our EBITDA for the quarter was ₹456 million, up by 36% year-over-year."
+          "quote": "Our EBITDA for the quarter was ₹456 million, up by 36% year-over-year.",
+          "originalValue": 456,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.6,
@@ -6102,10 +6272,12 @@
           "quote": "Our EBITDA margins for the quarter expanded by 40 basis points to 26.6%."
         },
         "pat": {
-          "value": 276,
+          "value": 27.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "We have been able to grow our profits considerably by 70% year-over-year and 45% quarter-over-quarter to ₹276 million."
+          "quote": "We have been able to grow our profits considerably by 70% year-over-year and 45% quarter-over-quarter to ₹276 million.",
+          "originalValue": 276,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -3109,
@@ -6356,16 +6528,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1713,
+          "value": 171.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Operating Revenue is Rs. 1,713 mn, up 34% YoY and 11% QoQ."
+          "quote": "Operating Revenue is Rs. 1,713 mn, up 34% YoY and 11% QoQ.",
+          "originalValue": 1713,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 456,
+          "value": 45.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA is Rs. 456 mn, up 36% YoY and 10% QoQ."
+          "quote": "EBITDA is Rs. 456 mn, up 36% YoY and 10% QoQ.",
+          "originalValue": 456,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.6,
@@ -6374,16 +6550,20 @@
           "quote": "EBITDA Margin 26.6%."
         },
         "pat": {
-          "value": 276,
+          "value": 27.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT is Rs. 276 mn, up 70% YoY and 45% QoQ."
+          "quote": "PAT is Rs. 276 mn, up 70% YoY and 45% QoQ.",
+          "originalValue": 276,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
-          "value": -3109,
+          "value": -310.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Company turns net debt free; Net Cash as on September 30, 2023 is Rs. 3,109 mn."
+          "quote": "Company turns net debt free; Net Cash as on September 30, 2023 is Rs. 3,109 mn.",
+          "originalValue": -3109,
+          "unitFixApplied": "million → crore"
         },
         "capexAnnounced": {
           "value": null,
@@ -6492,16 +6672,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1545,
+          "value": 154.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "We have delivered a strong revenue growth of 39% Y-o-Y to Rs. 1,545 million during Q1."
+          "quote": "We have delivered a strong revenue growth of 39% Y-o-Y to Rs. 1,545 million during Q1.",
+          "originalValue": 1545,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 414,
+          "value": 41.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our EBITDA was Rs. 414 million, up 61% year-on-year."
+          "quote": "Our EBITDA was Rs. 414 million, up 61% year-on-year.",
+          "originalValue": 414,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.8,
@@ -6510,10 +6694,12 @@
           "quote": "EBITDA margin at 26.8%, expanding by 368bps year-on-year."
         },
         "pat": {
-          "value": 190,
+          "value": 19,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Our PAT was Rs. 190 million, up 73% year-on-year."
+          "quote": "Our PAT was Rs. 190 million, up 73% year-on-year.",
+          "originalValue": 190,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": -5,
@@ -6628,16 +6814,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 1545,
+          "value": 154.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue Rs. 1,545 mn"
+          "quote": "Revenue Rs. 1,545 mn",
+          "originalValue": 1545,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 414,
+          "value": 41.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA Rs. 414 mn"
+          "quote": "EBITDA Rs. 414 mn",
+          "originalValue": 414,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.8,
@@ -6646,10 +6836,12 @@
           "quote": "EBITDA Margin 26.8%"
         },
         "pat": {
-          "value": 190,
+          "value": 19,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT Rs. 190 mn"
+          "quote": "PAT Rs. 190 mn",
+          "originalValue": 190,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6770,10 +6962,12 @@
           "quote": "Revenue from Operations 1,545"
         },
         "ebitda": {
-          "value": 414,
+          "value": 41.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA was Rs. 414 mn"
+          "quote": "EBITDA was Rs. 414 mn",
+          "originalValue": 414,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 26.8,
@@ -6782,10 +6976,12 @@
           "quote": "EBITDA margin expanded by 368 bps YoY to 26.8%"
         },
         "pat": {
-          "value": 190,
+          "value": 19,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT was Rs. 190 mn"
+          "quote": "PAT was Rs. 190 mn",
+          "originalValue": 190,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -6817,5 +7013,6 @@
     }
   },
   "lastExtractionAt": "2026-05-29T07:53:07.437Z",
-  "model": "gemini-2.5-flash-lite"
+  "model": "gemini-2.5-flash-lite",
+  "lastFixedAt": "2026-05-29T08:11:17.308Z"
 }

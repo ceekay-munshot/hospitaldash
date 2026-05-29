@@ -3110,10 +3110,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 10,
+          "value": 0.1,
           "unit": "INR_crore",
           "confidence": "medium",
-          "quote": "In the current quarter or two we have probably spent about INR 10 lakhs, INR 15 lakhs per bed for the finishing of these beds."
+          "quote": "In the current quarter or two we have probably spent about INR 10 lakhs, INR 15 lakhs per bed for the finishing of these beds.",
+          "originalValue": 10,
+          "unitFixApplied": "lakh → crore"
         },
         "revenueGrowthYoy": {
           "value": 18.2,
@@ -4901,5 +4903,6 @@
     }
   },
   "lastExtractionAt": "2026-05-29T06:44:38.005Z",
-  "model": "gemini-2.5-flash-lite"
+  "model": "gemini-2.5-flash-lite",
+  "lastFixedAt": "2026-05-29T08:11:17.304Z"
 }

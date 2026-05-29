@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "YATHARTH",
   "isin": "INE0JO301016",
-  "lastBuiltAt": "2026-05-29T07:53:07.538Z",
+  "lastBuiltAt": "2026-05-29T08:11:17.612Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 813.55,
@@ -171,7 +171,7 @@
           }
         },
         "revenue": {
-          "value": 3416,
+          "value": 341.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Revenue Rs 3,416 mn",
@@ -183,7 +183,7 @@
           }
         },
         "ebitda": {
-          "value": 799,
+          "value": 79.9,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA Rs 799 mn",
@@ -219,7 +219,7 @@
           }
         },
         "netDebt": {
-          "value": -1160,
+          "value": -116,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash Rs 1,160 mn",
@@ -256,18 +256,18 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 53479452,
-        "ebitdaPerBedYearly": 12508806,
+        "revenuePerBedYearly": 5347945,
+        "ebitdaPerBedYearly": 1250881,
         "bedTurnoverYearly": 0.7,
         "bedActivationPct": 91.3,
-        "enterpriseValueCr": 6678.9,
-        "evToEbitdaAnnualised": 2.09,
+        "enterpriseValueCr": 7722.9,
+        "evToEbitdaAnnualised": 24.16,
         "peAnnualised": 4.38,
-        "evPerBedCr": 2.614,
-        "evPerBedLakhs": 261.4,
-        "patMargin": 13.09,
-        "ebitdaTtmCr": 2519.1,
-        "netDebtToEbitda": -0.46,
+        "evPerBedCr": 3.023,
+        "evPerBedLakhs": 302.3,
+        "patMargin": 130.85,
+        "ebitdaTtmCr": 1219.5,
+        "netDebtToEbitda": -0.1,
         "revenueCagr3yr": 30.28
       }
     },
@@ -485,7 +485,7 @@
         "evPerBedCr": 3.401,
         "evPerBedLakhs": 340.1,
         "patMargin": 14.46,
-        "ebitdaTtmCr": 2290.1
+        "ebitdaTtmCr": 1709.6
       }
     },
     "FY26-Q3": {
@@ -756,8 +756,8 @@
         "evPerBedCr": 50.926,
         "evPerBedLakhs": 5092.6,
         "patMargin": 0.63,
-        "ebitdaTtmCr": 3017.7,
-        "netDebtToEbitda": -0.07
+        "ebitdaTtmCr": 2437.2,
+        "netDebtToEbitda": -0.08
       }
     },
     "FY26-Q2": {
@@ -944,7 +944,7 @@
           }
         },
         "revenue": {
-          "value": 2794,
+          "value": 279.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Revenue Rs. 2,794 mn",
@@ -956,7 +956,7 @@
           }
         },
         "ebitda": {
-          "value": 645,
+          "value": 64.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA Rs. 645 mn",
@@ -980,7 +980,7 @@
           }
         },
         "pat": {
-          "value": 413,
+          "value": 41.3,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT Rs. 413 mn",
@@ -992,7 +992,7 @@
           }
         },
         "netDebt": {
-          "value": -3692,
+          "value": -369.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash Rs. 3,692 mn",
@@ -1041,18 +1041,18 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 48485900,
-        "ebitdaPerBedYearly": 11193059,
+        "revenuePerBedYearly": 4848590,
+        "ebitdaPerBedYearly": 1119306,
         "bedTurnoverYearly": 0.32,
         "bedActivationPct": 90.4,
-        "enterpriseValueCr": 4146.9,
-        "evToEbitdaAnnualised": 1.61,
-        "peAnnualised": 4.75,
-        "evPerBedCr": 1.799,
-        "evPerBedLakhs": 179.9,
+        "enterpriseValueCr": 7469.7,
+        "evToEbitdaAnnualised": 28.95,
+        "peAnnualised": 47.45,
+        "evPerBedCr": 3.241,
+        "evPerBedLakhs": 324.1,
         "patMargin": 14.78,
-        "ebitdaTtmCr": 3146.5,
-        "netDebtToEbitda": -1.17
+        "ebitdaTtmCr": 2566,
+        "netDebtToEbitda": -0.14
       }
     },
     "FY26-Q1": {
@@ -1967,8 +1967,8 @@
         "evPerBedCr": 37.047,
         "evPerBedLakhs": 3704.7,
         "patMargin": 14.23,
-        "ebitdaTtmCr": 1939,
-        "netDebtToEbitda": -0.79
+        "ebitdaTtmCr": 1521.4,
+        "netDebtToEbitda": -1.01
       }
     },
     "FY25-Q1": {
@@ -2185,7 +2185,7 @@
           }
         },
         "netDebt": {
-          "value": 1556,
+          "value": 155.6,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net Cash Rs. 1,556 mn",
@@ -2238,14 +2238,14 @@
         "ebitdaPerBedYearly": 11588785,
         "bedTurnoverYearly": 0.43,
         "bedActivationPct": 100,
-        "enterpriseValueCr": 9394.9,
-        "evToEbitdaAnnualised": 5.05,
+        "enterpriseValueCr": 7994.5,
+        "evToEbitdaAnnualised": 4.3,
         "peAnnualised": 5.12,
-        "evPerBedCr": 5.854,
-        "evPerBedLakhs": 585.4,
+        "evPerBedCr": 4.981,
+        "evPerBedLakhs": 498.1,
         "patMargin": 21.54,
-        "ebitdaTtmCr": 1849,
-        "netDebtToEbitda": 0.84
+        "ebitdaTtmCr": 1431.4,
+        "netDebtToEbitda": 0.11
       }
     },
     "FY24-Q4": {
@@ -2438,7 +2438,7 @@
           }
         },
         "netDebt": {
-          "value": -2814,
+          "value": -281.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Net cash stood at INR 2,814 mn",
@@ -2467,14 +2467,14 @@
         "ebitdaPerBedYearly": 45827160,
         "bedTurnoverYearly": 7.52,
         "bedActivationPct": 90,
-        "enterpriseValueCr": 5024.9,
-        "evToEbitdaAnnualised": 2.71,
+        "enterpriseValueCr": 7557.5,
+        "evToEbitdaAnnualised": 4.07,
         "peAnnualised": 6.64,
-        "evPerBedCr": 12.407,
-        "evPerBedLakhs": 1240.7,
+        "evPerBedCr": 18.661,
+        "evPerBedLakhs": 1866.1,
         "patMargin": 17.69,
-        "ebitdaTtmCr": 1798,
-        "netDebtToEbitda": -1.57
+        "ebitdaTtmCr": 1007.8,
+        "netDebtToEbitda": -0.28
       }
     },
     "FY24-Q3": {
@@ -2565,7 +2565,7 @@
           }
         },
         "revenue": {
-          "value": 1668,
+          "value": 166.8,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Operating Revenue is Rs. 1,668 mn, up 21% YoY",
@@ -2577,7 +2577,7 @@
           }
         },
         "ebitda": {
-          "value": 464,
+          "value": 46.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA is Rs. 464 mn, up 29% YoY",
@@ -2601,7 +2601,7 @@
           }
         },
         "pat": {
-          "value": 295,
+          "value": 29.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT is Rs. 295 mn, up 39% YoY",
@@ -2639,8 +2639,8 @@
       },
       "derived": {
         "enterpriseValueCr": 5024.9,
-        "evToEbitdaAnnualised": 2.71,
-        "peAnnualised": 6.64,
+        "evToEbitdaAnnualised": 27.07,
+        "peAnnualised": 66.43,
         "patMargin": 17.69
       }
     },
@@ -3007,7 +3007,7 @@
           }
         },
         "revenue": {
-          "value": 1545,
+          "value": 154.5,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "We have delivered a strong revenue growth of 39% Y-o-Y to Rs. 1,545 million during Q1.",
@@ -3019,7 +3019,7 @@
           }
         },
         "ebitda": {
-          "value": 414,
+          "value": 41.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Our EBITDA was Rs. 414 million, up 61% year-on-year.",
@@ -3043,7 +3043,7 @@
           }
         },
         "pat": {
-          "value": 190,
+          "value": 19,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Our PAT was Rs. 190 million, up 73% year-on-year.",
@@ -3093,8 +3093,8 @@
       },
       "derived": {
         "enterpriseValueCr": 7833.9,
-        "evToEbitdaAnnualised": 4.73,
-        "peAnnualised": 10.31,
+        "evToEbitdaAnnualised": 47.31,
+        "peAnnualised": 103.14,
         "patMargin": 12.3
       }
     }

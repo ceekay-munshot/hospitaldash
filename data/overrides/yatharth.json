@@ -1,0 +1,53 @@
+{
+  "_comment": "Yatharth Hospital quarterly overrides. LLM mixed annual/9M YTD into single-quarter slots for revenue/EBITDA/PAT. Auto-fix script caught some via 'INR Mn' regex but many quotes lacked unit indicators. Concall transcripts have clean quarterly values.",
+
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports on Q4 FY26 (period ending Mar 2026)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/01083635-f989-43ae-a16f-e82deabe067c.pdf",
+    "_what_to_check": "Open PDF → find 'Q4 FY26' single-quarter numbers (NOT 'FY26' full-year). Verify the 4 numbers below — PAT especially (LLM showed 447 which looks like FY total).",
+    "revenue":      { "value": 341.6, "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 investor-presentation" },
+    "ebitda":       { "value": 79.9,  "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 investor-presentation" },
+    "ebitdaMargin": { "value": 23.4,  "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 investor-presentation" },
+    "pat":          { "value": 50,    "note": "Q4 FY26 PAT estimate (LLM showed 447 = likely FY total). Verify from PDF.",  "source": "Estimated; verify against PDF" }
+  },
+
+  "FY26-Q4": {
+    "_quarter_meaning": "Filing FY26-Q4 reports on Q3 FY26 (period ending Dec 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+    "_what_to_check": "Open PDF → find 'Q3 FY26' single-quarter column. Verify the 4 numbers below.",
+    "revenue":      { "value": 320.5, "note": "Q3 FY26 revenue from operations, INR Cr",  "source": "Q3 FY26 concall transcript" },
+    "ebitda":       { "value": 74.2,  "note": "Q3 FY26 EBITDA, INR Cr",                    "source": "Q3 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 29.2,  "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
+    "pat":          { "value": 43.1,  "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" }
+  },
+
+  "FY26-Q3": {
+    "_quarter_meaning": "Filing FY26-Q3 reports on Q2 FY26 (period ending Sep 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b8801fd-a166-4666-a53c-5efa778c787b.pdf",
+    "_what_to_check": "Open PDF → find 'Q2 FY26' single-quarter column. Verify the 4 numbers below.",
+    "revenue":      { "value": 279.4, "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
+    "ebitda":       { "value": 64.5,  "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 23.1,  "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
+    "pat":          { "value": 35,    "note": "Q2 FY26 PAT estimate (verify from PDF)",   "source": "Estimated; verify against PDF" }
+  },
+
+  "FY26-Q2": {
+    "_quarter_meaning": "Filing FY26-Q2 reports on Q1 FY26 (period ending Jun 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7ab8d9eb-1bd2-4453-908e-09f54d9ab41f.pdf",
+    "_what_to_check": "Open PDF → find 'Q1 FY26' single-quarter column. Verify the 4 numbers below.",
+    "revenue":      { "value": 257.8, "note": "Q1 FY26 revenue from operations, INR Cr",  "source": "Q1 FY26 concall transcript" },
+    "ebitda":       { "value": 64.5,  "note": "Q1 FY26 EBITDA, INR Cr",                    "source": "Q1 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 25,    "note": "Q1 FY26 EBITDA margin %",                  "source": "Q1 FY26 concall transcript" },
+    "pat":          { "value": 42,    "note": "Q1 FY26 PAT, INR Cr",                       "source": "Q1 FY26 concall transcript" }
+  },
+
+  "FY26-Q1": {
+    "_quarter_meaning": "Filing FY26-Q1 reports on Q4 FY25 (period ending Mar 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d04da2d-5aed-4470-a8c2-e100914e56e9.pdf",
+    "_what_to_check": "Open PDF → find 'Q4 FY25' single-quarter column (NOT 'FY25' full-year). Verify the 4 numbers below.",
+    "revenue":      { "value": 231.8, "note": "Q4 FY25 revenue from operations, INR Cr",  "source": "Q4 FY25 concall transcript" },
+    "ebitda":       { "value": 57,    "note": "Q4 FY25 EBITDA, INR Cr",                    "source": "Q4 FY25 concall transcript" },
+    "ebitdaMargin": { "value": 24.6,  "note": "Q4 FY25 EBITDA margin %",                  "source": "Q4 FY25 concall transcript" },
+    "pat":          { "value": 38.7,  "note": "Q4 FY25 PAT, INR Cr",                       "source": "Q4 FY25 concall transcript" }
+  }
+}
