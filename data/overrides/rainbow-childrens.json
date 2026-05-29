@@ -1,0 +1,43 @@
+{
+  "_comment": "Rainbow Children's Medicare quarterly metric overrides — concall transcript values used because the LLM picked annual values for revenue/EBITDA/PAT from investor presentations and press releases. Operational metrics (ARPOB, occupancy, ALOS, beds) were correctly extracted and don't need override.",
+
+  "FY26-Q4": {
+    "_quarter_meaning": "Filing FY26-Q4 reports on Q3 FY26 (period ending Dec 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
+    "_what_to_check": "Open PDF → find 'Q3 FY26' single-quarter numbers (NOT '9M FY26' YTD). Verify the 4 numbers below.",
+    "revenue":      { "value": 445.4, "note": "Q3 FY26 revenue from operations, INR Cr",  "source": "Q3 FY26 concall transcript" },
+    "ebitda":       { "value": 147,   "note": "Q3 FY26 EBITDA, INR Cr",                    "source": "Q3 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 33,    "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
+    "pat":          { "value": 73.9,  "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" }
+  },
+
+  "FY26-Q3": {
+    "_quarter_meaning": "Filing FY26-Q3 reports on Q2 FY26 (period ending Sep 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf",
+    "_what_to_check": "Open PDF → find 'Q2 FY26' single-quarter numbers (NOT 'H1 FY26' half-year YTD). Verify the 4 numbers below.",
+    "revenue":      { "value": 444.8, "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
+    "ebitda":       { "value": 148.8, "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 33.5,  "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
+    "pat":          { "value": 75.6,  "note": "Q2 FY26 PAT, INR Cr",                       "source": "Q2 FY26 concall transcript" }
+  },
+
+  "FY26-Q2": {
+    "_quarter_meaning": "Filing FY26-Q2 reports on Q1 FY26 (period ending Jun 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0598f669-5989-41b4-95c5-53dc948bf14f.pdf",
+    "_what_to_check": "Open PDF → find 'Q1 FY26' single-quarter numbers. Verify the 4 numbers below.",
+    "revenue":      { "value": 353,   "note": "Q1 FY26 revenue from operations, INR Cr",  "source": "Q1 FY26 concall transcript" },
+    "ebitda":       { "value": 103.6, "note": "Q1 FY26 EBITDA, INR Cr",                    "source": "Q1 FY26 concall transcript" },
+    "ebitdaMargin": { "value": 29.4,  "note": "Q1 FY26 EBITDA margin %",                  "source": "Q1 FY26 concall transcript" },
+    "pat":          { "value": 53.8,  "note": "Q1 FY26 PAT, INR Cr",                       "source": "Q1 FY26 concall transcript" }
+  },
+
+  "FY26-Q1": {
+    "_quarter_meaning": "Filing FY26-Q1 reports on Q4 FY25 (period ending Mar 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
+    "_what_to_check": "Open PDF → find 'Q4 FY25' single-quarter numbers (NOT 'FY25' full-year). Verify the 4 numbers below.",
+    "revenue":      { "value": 370.1, "note": "Q4 FY25 revenue from operations, INR Cr",  "source": "Q4 FY25 concall transcript" },
+    "ebitda":       { "value": 114.7, "note": "Q4 FY25 EBITDA, INR Cr",                    "source": "Q4 FY25 concall transcript" },
+    "ebitdaMargin": { "value": 31,    "note": "Q4 FY25 EBITDA margin %",                  "source": "Q4 FY25 concall transcript" },
+    "pat":          { "value": 56.5,  "note": "Q4 FY25 PAT, INR Cr",                       "source": "Q4 FY25 concall transcript" }
+  }
+}
