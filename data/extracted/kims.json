@@ -5262,16 +5262,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 6376,
+          "value": 637.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Gross revenue at INR6,376 million an increase of 9.8% year-on-year"
+          "quote": "Gross revenue at INR6,376 million an increase of 9.8% year-on-year",
+          "originalValue": 6376,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1628,
+          "value": 162.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of INR1,628 million, a decline of 3.2% on year-on-year"
+          "quote": "EBITDA of INR1,628 million, a decline of 3.2% on year-on-year",
+          "originalValue": 1628,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.5,
@@ -5280,10 +5284,12 @@
           "quote": "The EBITDA margin Q4 FY '24 stood at 25.5%"
         },
         "pat": {
-          "value": 716,
+          "value": 71.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at INR716 million in Q4 FY '24 against INR987 million"
+          "quote": "PAT at INR716 million in Q4 FY '24 against INR987 million",
+          "originalValue": 716,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": 900,
@@ -5398,16 +5404,20 @@
           "quote": "ARPP 1,37,500"
         },
         "revenue": {
-          "value": 6376,
+          "value": 637.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Gross revenue at INR 6376 Mn"
+          "quote": "Gross revenue at INR 6376 Mn",
+          "originalValue": 6376,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1628,
+          "value": 162.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of INR 1628 Mn"
+          "quote": "EBITDA of INR 1628 Mn",
+          "originalValue": 1628,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 25.5,
@@ -5416,10 +5426,12 @@
           "quote": "EBITDA margin in Q4FY24 stood at 25.5%"
         },
         "pat": {
-          "value": 716,
+          "value": 71.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at INR 716 Mn in Q4 FY24"
+          "quote": "PAT at INR 716 Mn in Q4 FY24",
+          "originalValue": 716,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5688,10 +5700,12 @@
           "quote": "EBITDA margin in Q4FY24 stood at 25.5%"
         },
         "pat": {
-          "value": 71.6,
+          "value": 7.16,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at INR 716 Mn in Q4 FY24"
+          "quote": "PAT at INR 716 Mn in Q4 FY24",
+          "originalValue": 71.6,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -5942,16 +5956,20 @@
           "quote": "ARPP (Rs) 1,28,507"
         },
         "revenue": {
-          "value": 6091,
+          "value": 609.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Gross revenue at INR 6091 Mn"
+          "quote": "Gross revenue at INR 6091 Mn",
+          "originalValue": 6091,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1504,
+          "value": 150.4,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA of INR 1504 Mn"
+          "quote": "EBITDA of INR 1504 Mn",
+          "originalValue": 1504,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 24.7,
@@ -5960,10 +5978,12 @@
           "quote": "EBITDA margin at 24.7%"
         },
         "pat": {
-          "value": 767,
+          "value": 76.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at INR 767 Mn in Q3 FY24"
+          "quote": "PAT at INR 767 Mn in Q3 FY24",
+          "originalValue": 767,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -7166,10 +7186,12 @@
           "quote": "ARPP(Rs.) 1,21,232  1,24,187  1,25,141  1,27,916  1,31,363"
         },
         "revenue": {
-          "value": 6091,
+          "value": 609.1,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Gross revenue at Rs. 6,091 Mn, a growth of 21.6% on a YoY"
+          "quote": "Gross revenue at Rs. 6,091 Mn, a growth of 21.6% on a YoY",
+          "originalValue": 6091,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
           "value": 1548,
@@ -7184,10 +7206,12 @@
           "quote": "EBITDA % to Revenue from Operations 25.5% 27.1% 26.5%"
         },
         "pat": {
-          "value": 867,
+          "value": 86.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT at Rs. 867 Mn in Q1 FY24 against Rs. 792 Mn"
+          "quote": "PAT at Rs. 867 Mn in Q1 FY24 against Rs. 792 Mn",
+          "originalValue": 867,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -7710,16 +7734,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 575.92,
+          "value": 57.592,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated revenue from operations grew by 54.7% year-on-year basis to Rs.5759.2 million."
+          "quote": "Consolidated revenue from operations grew by 54.7% year-on-year basis to Rs.5759.2 million.",
+          "originalValue": 575.92,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 156.33,
+          "value": 15.633,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Consolidated EBITDA pre Ind-AS and other income grew by 38.8% to Rs.1563.3 million."
+          "quote": "Consolidated EBITDA pre Ind-AS and other income grew by 38.8% to Rs.1563.3 million.",
+          "originalValue": 156.33,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 27.1,
@@ -7728,10 +7756,12 @@
           "quote": "The consolidated EBITDA margin stands at 27.1%."
         },
         "pat": {
-          "value": 98.6,
+          "value": 9.86,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "The consolidated PAT grew by 18.4% to Rs.986 million."
+          "quote": "The consolidated PAT grew by 18.4% to Rs.986 million.",
+          "originalValue": 98.6,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": 300,
@@ -7764,5 +7794,5 @@
   },
   "lastExtractionAt": "2026-05-28T17:58:54.524Z",
   "model": "gemini-2.5-flash-lite",
-  "lastFixedAt": "2026-05-28T11:26:44.060Z"
+  "lastFixedAt": "2026-05-29T05:51:20.500Z"
 }

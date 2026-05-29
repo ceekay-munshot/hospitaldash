@@ -118,10 +118,12 @@
           "quote": ""
         },
         "capexAnnounced": {
-          "value": 90,
+          "value": 0.9,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "average cost is about INR45 lakh per bed. So that is about INR90-100 crore for 200 beds."
+          "quote": "average cost is about INR45 lakh per bed. So that is about INR90-100 crore for 200 beds.",
+          "originalValue": 90,
+          "unitFixApplied": "lakh → crore"
         },
         "revenueGrowthYoy": {
           "value": 11.3,
@@ -224,16 +226,20 @@
           "quote": "ARPP improved by ~3%"
         },
         "revenue": {
-          "value": 6523,
+          "value": 652.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "HCG delivered revenue of INR 6,523 Mn in Q4FY26"
+          "quote": "HCG delivered revenue of INR 6,523 Mn in Q4FY26",
+          "originalValue": 6523,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "HCG delivered Adjusted EBITDA of INR 1,252 Mn in Q4FY26"
+          "quote": "HCG delivered Adjusted EBITDA of INR 1,252 Mn in Q4FY26",
+          "originalValue": 1252,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 19.2,
@@ -366,10 +372,12 @@
           "quote": "Revenue from operations ₹34,847 lakhs"
         },
         "ebitda": {
-          "value": 38.57,
+          "value": 0.386,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA ₹3,857 lakhs"
+          "quote": "EBITDA ₹3,857 lakhs",
+          "originalValue": 38.57,
+          "unitFixApplied": "lakh → crore"
         },
         "ebitdaMargin": {
           "value": 11.06,
@@ -378,10 +386,12 @@
           "quote": "EBITDA margin of 11.06%"
         },
         "pat": {
-          "value": -4.75,
+          "value": -0.047,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit/(loss) for the period ₹(4,752) lakhs"
+          "quote": "Profit/(loss) for the period ₹(4,752) lakhs",
+          "originalValue": -4.75,
+          "unitFixApplied": "lakh → crore"
         },
         "netDebt": {
           "value": null,
@@ -1862,10 +1872,12 @@
           "quote": "Revenue from operations ₹67,014 Lakhs"
         },
         "ebitda": {
-          "value": 14.1,
+          "value": 0.141,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "EBITDA ₹14,100 Lakhs"
+          "quote": "EBITDA ₹14,100 Lakhs",
+          "originalValue": 14.1,
+          "unitFixApplied": "lakh → crore"
         },
         "ebitdaMargin": {
           "value": 21,
@@ -1874,10 +1886,12 @@
           "quote": "EBITDA margin 21%"
         },
         "pat": {
-          "value": 10.927,
+          "value": 0.109,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit for the period ₹10,927 Lakhs"
+          "quote": "Profit for the period ₹10,927 Lakhs",
+          "originalValue": 10.927,
+          "unitFixApplied": "lakh → crore"
         },
         "netDebt": {
           "value": null,
@@ -1992,16 +2006,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 6470,
+          "value": 647,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue stood at Rs. 6,470 mn a growth of 17% Y-o-Y"
+          "quote": "Revenue stood at Rs. 6,470 mn a growth of 17% Y-o-Y",
+          "originalValue": 6470,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1233,
+          "value": 123.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Adj. EBIDTA stood at Rs. 1,233 mn (18% Y-o-Y growth)"
+          "quote": "Adj. EBIDTA stood at Rs. 1,233 mn (18% Y-o-Y growth)",
+          "originalValue": 1233,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 19.1,
@@ -2010,10 +2028,12 @@
           "quote": "with 19.1% EBITDA margin for Q2FY26 compared to Rs. 1,042 mn with 18.8% EBITDA margin in Q2FY25."
         },
         "pat": {
-          "value": 163,
+          "value": 16.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT for the quarter stood at Rs. 163 mn compared to Rs. 180 mn."
+          "quote": "PAT for the quarter stood at Rs. 163 mn compared to Rs. 180 mn.",
+          "originalValue": 163,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2400,16 +2420,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 6132,
+          "value": 613.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue stood at Rs. 6,132 mn."
+          "quote": "Revenue stood at Rs. 6,132 mn.",
+          "originalValue": 6132,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1118,
+          "value": 111.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Adj. EBITDA stood at Rs. 1,118 mn"
+          "quote": "Adj. EBITDA stood at Rs. 1,118 mn",
+          "originalValue": 1118,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 18.2,
@@ -2418,10 +2442,12 @@
           "quote": "with 18.2 % EBITDA margin for Q 1 FY26"
         },
         "pat": {
-          "value": 47,
+          "value": 4.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT for the quarter stood at Rs. 47.3 mn"
+          "quote": "PAT for the quarter stood at Rs. 47.3 mn",
+          "originalValue": 47,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -2536,16 +2562,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 6132,
+          "value": 613.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Revenue stood at Rs. 6,132 mn a growth of 17% Y - o - Y"
+          "quote": "Revenue stood at Rs. 6,132 mn a growth of 17% Y - o - Y",
+          "originalValue": 6132,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1118,
+          "value": 111.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Adj. EBITDA stood at Rs. 1,118 mn (20% Y - o - Y growth)"
+          "quote": "Adj. EBITDA stood at Rs. 1,118 mn (20% Y - o - Y growth)",
+          "originalValue": 1118,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 18.2,
@@ -2554,10 +2584,12 @@
           "quote": "with 18.2 % EBITDA margin for Q 1 FY26"
         },
         "pat": {
-          "value": 47,
+          "value": 4.7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT for the quarter stood at Rs. 47.3 mn"
+          "quote": "PAT for the quarter stood at Rs. 47.3 mn",
+          "originalValue": 47,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -3642,10 +3674,12 @@
           "quote": ""
         },
         "pat": {
-          "value": 70,
+          "value": 7,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "PAT for Q3 FY25 stood at Rs. 70 Mn."
+          "quote": "PAT for Q3 FY25 stood at Rs. 70 Mn.",
+          "originalValue": 70,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4304,16 +4338,20 @@
           "quote": ""
         },
         "revenue": {
-          "value": 5535,
+          "value": 553.5,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "REVENUE Rs. 5,535 Mn"
+          "quote": "REVENUE Rs. 5,535 Mn",
+          "originalValue": 5535,
+          "unitFixApplied": "million → crore"
         },
         "ebitda": {
-          "value": 1042,
+          "value": 104.2,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Adjusted EBITDA Rs. 1,042 Mn"
+          "quote": "Adjusted EBITDA Rs. 1,042 Mn",
+          "originalValue": 1042,
+          "unitFixApplied": "million → crore"
         },
         "ebitdaMargin": {
           "value": 18.8,
@@ -4322,10 +4360,12 @@
           "quote": "EBITDA margins standing strong at 18.8%"
         },
         "pat": {
-          "value": 180,
+          "value": 18,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "Profit After Tax Rs. 180 Mn"
+          "quote": "Profit After Tax Rs. 180 Mn",
+          "originalValue": 180,
+          "unitFixApplied": "million → crore"
         },
         "netDebt": {
           "value": null,
@@ -4629,5 +4669,6 @@
     }
   },
   "lastExtractionAt": "2026-05-28T18:13:43.431Z",
-  "model": "gemini-2.5-flash-lite"
+  "model": "gemini-2.5-flash-lite",
+  "lastFixedAt": "2026-05-29T05:51:20.516Z"
 }

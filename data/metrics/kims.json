@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-29T05:50:25.207Z",
+  "lastBuiltAt": "2026-05-29T05:51:20.666Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 784.7,
@@ -2400,7 +2400,7 @@
           }
         },
         "revenue": {
-          "value": 6091,
+          "value": 609.1,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "Gross revenue at INR 6091 Mn",
@@ -2412,7 +2412,7 @@
           }
         },
         "ebitda": {
-          "value": 1504,
+          "value": 150.4,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "EBITDA of INR 1504 Mn",
@@ -2436,7 +2436,7 @@
           }
         },
         "pat": {
-          "value": 767,
+          "value": 76.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT at INR 767 Mn in Q3 FY24",
@@ -2485,13 +2485,13 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 68766582,
-        "ebitdaPerBedYearly": 16979960,
+        "revenuePerBedYearly": 6876658,
+        "ebitdaPerBedYearly": 1697996,
         "bedTurnoverYearly": 53.6,
         "bedActivationPct": 88.2,
         "enterpriseValueCr": 37497.9,
-        "evToEbitdaAnnualised": 6.23,
-        "peAnnualised": 10.23,
+        "evToEbitdaAnnualised": 62.33,
+        "peAnnualised": 102.34,
         "evPerBedCr": 10.584,
         "evPerBedLakhs": 1058.4,
         "patMargin": 12.59
@@ -2957,7 +2957,7 @@
           }
         },
         "pat": {
-          "value": 867,
+          "value": 86.7,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "PAT at Rs. 867 Mn in Q1 FY24 against Rs. 792 Mn",
@@ -3012,10 +3012,10 @@
         "bedActivationPct": 88.1,
         "enterpriseValueCr": 31698.9,
         "evToEbitdaAnnualised": 5.12,
-        "peAnnualised": 9.05,
+        "peAnnualised": 90.54,
         "evPerBedCr": 9.049,
         "evPerBedLakhs": 904.9,
-        "patMargin": 14.31
+        "patMargin": 1.43
       }
     }
   }

@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-05-29T05:50:25.214Z",
+  "lastBuiltAt": "2026-05-29T05:51:20.673Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 659.5,
@@ -141,7 +141,7 @@
           }
         },
         "revenue": {
-          "value": 6523,
+          "value": 652.3,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "HCG delivered revenue of INR 6,523 Mn in Q4FY26",
@@ -153,7 +153,7 @@
           }
         },
         "ebitda": {
-          "value": 1252,
+          "value": 125.2,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "HCG delivered Adjusted EBITDA of INR 1,252 Mn in Q4FY26",
@@ -201,7 +201,7 @@
           }
         },
         "capexAnnounced": {
-          "value": 90,
+          "value": 0.9,
           "unit": "INR_crore",
           "confidence": "high",
           "quote": "average cost is about INR45 lakh per bed. So that is about INR90-100 crore for 200 beds.",
@@ -239,11 +239,11 @@
       },
       "derived": {
         "enterpriseValueCr": 13233.5,
-        "evToEbitdaAnnualised": 2.64,
+        "evToEbitdaAnnualised": 26.42,
         "peAnnualised": 113.07,
-        "patMargin": 0.33,
-        "ebitdaTtmCr": 3479.3,
-        "netDebtToEbitda": 0.97
+        "patMargin": 3.34,
+        "ebitdaTtmCr": 2352.5,
+        "netDebtToEbitda": 1.44
       }
     },
     "FY26-Q4": {
