@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T05:59:38.365Z",
+  "generatedAt": "2026-05-29T06:07:28.489Z",
   "companies": [
     {
       "slug": "apollo-hospitals",
@@ -6696,9 +6696,9 @@
         "volumeShares": 6238
       },
       "coverage": {
-        "extractedDocs": 0,
-        "quartersWithData": 10,
-        "quarterRange": "FY24-Q1 → FY26-Q4",
+        "extractedDocs": 20,
+        "quartersWithData": 11,
+        "quarterRange": "FY24-Q1 → FY27-Q1",
         "classifiedTotalPriorityDocs": 48
       },
       "quarters": {
@@ -6802,14 +6802,32 @@
           "label": "Q4 FY25",
           "calendar": "Jan–Mar 2025",
           "metrics": {
+            "numberOfHospitals": 19,
+            "bedCapacity": 1935,
+            "operationalBeds": 1523,
+            "bedsUnderDevelopment": 250,
+            "newHospitalsPlanned": 3,
+            "occupancyRate": 50.5,
+            "alos": 2.85,
+            "ipVolume": 98395,
+            "opVolume": 1426733,
+            "arpob": 53962,
             "revenue": 3539.95,
             "ebitda": 500.63,
             "ebitdaMargin": 14.14,
             "pat": 1,
             "patMargin": 0.03,
+            "capexAnnounced": 43.7,
+            "revenueGrowthYoy": 8.5,
+            "revenuePerBedYearly": 92973079,
+            "ebitdaPerBedYearly": 13148523,
             "ebitdaTtmCr": 2031.6,
+            "bedTurnoverYearly": 258.42,
+            "bedActivationPct": 78.7,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.98,
+            "evPerBedCr": 9.181,
+            "evPerBedLakhs": 918.1,
             "peAnnualised": 3495.54
           },
           "sources": [
@@ -6817,6 +6835,21 @@
               "docType": "bse-financials-api",
               "date": "2025-03-31",
               "pdfUrl": null
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-05-31",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01e10600-be84-4086-835a-bc0aee61bdc6.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf"
             }
           ]
         },
@@ -6824,14 +6857,31 @@
           "label": "Q1 FY26",
           "calendar": "Apr–Jun 2025",
           "metrics": {
+            "numberOfHospitals": 20,
+            "bedCapacity": 2035,
+            "operationalBeds": 1523,
+            "newHospitalsPlanned": 4,
+            "occupancyRate": 40.2,
+            "alos": 2.66,
+            "ipVolume": 20992,
+            "opVolume": 329331,
+            "arpob": 56212,
             "revenue": 3529.29,
             "ebitda": 510.86,
             "ebitdaMargin": 14.47,
             "pat": 20,
             "patMargin": 0.57,
+            "capexAnnounced": 41.5,
+            "revenueGrowthYoy": 6.9,
+            "revenuePerBedYearly": 92693106,
+            "ebitdaPerBedYearly": 13417203,
             "ebitdaTtmCr": 2030.7,
+            "bedTurnoverYearly": 55.13,
+            "bedActivationPct": 74.8,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.84,
+            "evPerBedCr": 9.181,
+            "evPerBedLakhs": 918.1,
             "peAnnualised": 174.78
           },
           "sources": [
@@ -6839,6 +6889,26 @@
               "docType": "bse-financials-api",
               "date": "2025-06-30",
               "pdfUrl": null
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-08-04",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0598f669-5989-41b4-95c5-53dc948bf14f.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b162b8c-e023-45c6-bef1-64c795280197.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3384af9f-57b7-4765-8eae-a5bb020a6908.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-05-24",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1105eea-b434-4133-91ce-6c96dabb614b.pdf"
             }
           ]
         },
@@ -6846,13 +6916,58 @@
           "label": "Q2 FY26",
           "calendar": "Jul–Sep 2025",
           "metrics": {
-            "enterpriseValueCr": 13982.2
+            "numberOfHospitals": 22,
+            "bedCapacity": 2285,
+            "operationalBeds": 1621,
+            "newHospitalsPlanned": 2,
+            "occupancyRate": 52,
+            "alos": 2.73,
+            "ipVolume": 28380,
+            "opVolume": 427595,
+            "arpob": 57396,
+            "revenue": 4448,
+            "ebitda": 1488.7,
+            "ebitdaMargin": 33.5,
+            "pat": 756.2,
+            "patMargin": 17,
+            "capexAnnounced": 260.6,
+            "revenueGrowthYoy": 6.5,
+            "revenuePerBedYearly": 109759408,
+            "ebitdaPerBedYearly": 36735349,
+            "ebitdaTtmCr": 3012.2,
+            "bedTurnoverYearly": 70.03,
+            "bedActivationPct": 70.9,
+            "enterpriseValueCr": 13982.2,
+            "evToEbitdaAnnualised": 2.35,
+            "evPerBedCr": 8.626,
+            "evPerBedLakhs": 862.6,
+            "peAnnualised": 4.62
           },
           "sources": [
             {
               "docType": "bse-financials-api",
               "date": "2025-09-30",
               "pdfUrl": null
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2025-11-20",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/101ae4ea-97d3-4af1-b0a0-27de988dd09a.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce17402c-950c-4262-b4bf-a427640197f5.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-07-26",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6036cac7-ddd0-4af0-aac1-ad638f96d915.pdf"
             }
           ]
         },
@@ -6860,13 +6975,31 @@
           "label": "Q3 FY26",
           "calendar": "Oct–Dec 2025",
           "metrics": {
+            "numberOfHospitals": 23,
+            "bedCapacity": 2375,
+            "operationalBeds": 1758,
+            "newHospitalsPlanned": 3,
+            "occupancyRate": 47.2,
+            "alos": 2.73,
+            "ipVolume": 25605,
+            "opVolume": 427595,
+            "arpob": 58362,
             "revenue": 3943.52,
             "ebitda": 588.7,
             "ebitdaMargin": 14.93,
             "pat": 30.54,
             "patMargin": 0.77,
+            "capexAnnounced": 57,
+            "revenueGrowthYoy": 11.9,
+            "revenuePerBedYearly": 89727418,
+            "ebitdaPerBedYearly": 13394767,
+            "ebitdaTtmCr": 3088.9,
+            "bedTurnoverYearly": 58.26,
+            "bedActivationPct": 74,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 5.94,
+            "evPerBedCr": 7.953,
+            "evPerBedLakhs": 795.3,
             "peAnnualised": 114.46
           },
           "sources": [
@@ -6874,6 +7007,26 @@
               "docType": "bse-financials-api",
               "date": "2025-12-31",
               "pdfUrl": null
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-03",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf"
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/032ce313-d359-4e1a-9e74-6f03111689b4.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6bb7b4af-d775-484c-a330-3f5035291926.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2025-11-13",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8fc04d5d-f099-4deb-9bb2-66c87cdf0c45.pdf"
             }
           ]
         },
@@ -6881,13 +7034,32 @@
           "label": "Q4 FY26",
           "calendar": "Jan–Mar 2026",
           "metrics": {
+            "numberOfHospitals": 24,
+            "bedCapacity": 2435,
+            "operationalBeds": 1758,
+            "bedsUnderDevelopment": 580,
+            "newHospitalsPlanned": 2,
+            "occupancyRate": 45.3,
+            "alos": 2.71,
+            "ipVolume": 27977,
+            "opVolume": 424702,
+            "arpob": 58057,
             "revenue": 4080.64,
             "ebitda": 554.76,
             "ebitdaMargin": 13.59,
             "pat": 31,
             "patMargin": 0.76,
+            "capexAnnounced": 580,
+            "revenueGrowthYoy": 24,
+            "revenuePerBedYearly": 92847327,
+            "ebitdaPerBedYearly": 12622526,
+            "ebitdaTtmCr": 3143,
+            "bedTurnoverYearly": 63.66,
+            "bedActivationPct": 72.2,
             "enterpriseValueCr": 13982.2,
             "evToEbitdaAnnualised": 6.3,
+            "evPerBedCr": 7.953,
+            "evPerBedLakhs": 795.3,
             "peAnnualised": 112.76
           },
           "sources": [
@@ -6895,6 +7067,44 @@
               "docType": "bse-financials-api",
               "date": "2026-03-31",
               "pdfUrl": null
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e2d6456-83ef-4799-b053-94ffe50d1b7a.pdf"
+            },
+            {
+              "docType": "press-release",
+              "date": "2026-05-23",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/939eb843-bd97-4e49-9c38-b7b8c3fd95cd.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-01-28",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f3d0538-b000-48ba-99b2-c1341bb436b2.pdf"
+            }
+          ]
+        },
+        "FY27-Q1": {
+          "label": "Q1 FY27",
+          "calendar": "Apr–Jun 2026",
+          "metrics": {
+            "revenue": 4080.64,
+            "pat": 593.05,
+            "patMargin": 14.53,
+            "enterpriseValueCr": 13982.2,
+            "peAnnualised": 5.89
+          },
+          "sources": [
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf"
+            },
+            {
+              "docType": "quarterly-result",
+              "date": "2026-05-27",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf"
             }
           ]
         }
@@ -7141,7 +7351,8 @@
           "medanta": 5,
           "aster-dm": 19,
           "kims": 18,
-          "hcg": 22
+          "hcg": 22,
+          "rainbow-childrens": 19
         },
         "FY26-Q1": {
           "apollo-hospitals": 73,
@@ -7151,7 +7362,8 @@
           "narayana": 18,
           "aster-dm": 19,
           "kims": 18,
-          "hcg": 25
+          "hcg": 25,
+          "rainbow-childrens": 20
         },
         "FY26-Q2": {
           "apollo-hospitals": 73,
@@ -7161,7 +7373,8 @@
           "narayana": 18,
           "aster-dm": 19,
           "kims": 25,
-          "hcg": 25
+          "hcg": 25,
+          "rainbow-childrens": 22
         },
         "FY26-Q3": {
           "apollo-hospitals": 76,
@@ -7171,7 +7384,8 @@
           "narayana": 18,
           "aster-dm": 19,
           "kims": 18,
-          "hcg": 22
+          "hcg": 22,
+          "rainbow-childrens": 23
         },
         "FY26-Q4": {
           "apollo-hospitals": 78,
@@ -7181,7 +7395,8 @@
           "narayana": 55,
           "aster-dm": 39,
           "kims": 25,
-          "hcg": 25
+          "hcg": 25,
+          "rainbow-childrens": 24
         },
         "FY27-Q1": {
           "fortis-healthcare": 36,
@@ -7271,7 +7486,8 @@
           "medanta": 3042,
           "aster-dm": 5128,
           "kims": 5500,
-          "hcg": 2154
+          "hcg": 2154,
+          "rainbow-childrens": 1935
         },
         "FY26-Q1": {
           "apollo-hospitals": 10000,
@@ -7281,7 +7497,8 @@
           "narayana": 5262,
           "aster-dm": 5159,
           "kims": 5499,
-          "hcg": 2140
+          "hcg": 2140,
+          "rainbow-childrens": 2035
         },
         "FY26-Q2": {
           "apollo-hospitals": 10200,
@@ -7291,7 +7508,8 @@
           "narayana": 5257,
           "aster-dm": 5197,
           "kims": 8000,
-          "hcg": 2500
+          "hcg": 2500,
+          "rainbow-childrens": 2285
         },
         "FY26-Q3": {
           "apollo-hospitals": 10325,
@@ -7301,7 +7519,8 @@
           "narayana": 6245,
           "aster-dm": 5199,
           "kims": 6464,
-          "hcg": 2189
+          "hcg": 2189,
+          "rainbow-childrens": 2375
         },
         "FY26-Q4": {
           "apollo-hospitals": 10970,
@@ -7310,7 +7529,8 @@
           "medanta": 2665,
           "narayana": 6200,
           "aster-dm": 10620,
-          "hcg": 2500
+          "hcg": 2500,
+          "rainbow-childrens": 2435
         },
         "FY27-Q1": {
           "max-healthcare": 6000,
@@ -7393,7 +7613,8 @@
           "fortis-healthcare": 4700,
           "medanta": 2480,
           "aster-dm": 3766,
-          "hcg": 2154
+          "hcg": 2154,
+          "rainbow-childrens": 1523
         },
         "FY26-Q1": {
           "apollo-hospitals": 8030,
@@ -7402,7 +7623,8 @@
           "narayana": 5262,
           "aster-dm": 3769,
           "kims": 4612,
-          "hcg": 2140
+          "hcg": 2140,
+          "rainbow-childrens": 1523
         },
         "FY26-Q2": {
           "apollo-hospitals": 9483,
@@ -7412,7 +7634,8 @@
           "narayana": 5257,
           "aster-dm": 5197,
           "kims": 100,
-          "hcg": 2189
+          "hcg": 2189,
+          "rainbow-childrens": 1621
         },
         "FY26-Q3": {
           "apollo-hospitals": 9561,
@@ -7422,7 +7645,8 @@
           "narayana": 5306,
           "aster-dm": 5186,
           "kims": 4825,
-          "hcg": 2189
+          "hcg": 2189,
+          "rainbow-childrens": 1758
         },
         "FY26-Q4": {
           "apollo-hospitals": 9620,
@@ -7431,7 +7655,8 @@
           "medanta": 328,
           "narayana": 5900,
           "aster-dm": 6250,
-          "hcg": 2000
+          "hcg": 2000,
+          "rainbow-childrens": 1758
         },
         "FY27-Q1": {
           "fortis-healthcare": 6100,
@@ -7513,7 +7738,8 @@
           "apollo-hospitals": 3577,
           "max-healthcare": 3700,
           "medanta": 110,
-          "aster-dm": 1700
+          "aster-dm": 1700,
+          "rainbow-childrens": 250
         },
         "FY26-Q1": {
           "apollo-hospitals": 2000,
@@ -7550,7 +7776,8 @@
           "medanta": 400,
           "aster-dm": 4080,
           "kims": 75,
-          "hcg": 150
+          "hcg": 150,
+          "rainbow-childrens": 580
         },
         "FY27-Q1": {
           "fortis-healthcare": 1800,
@@ -7623,7 +7850,8 @@
           "apollo-hospitals": 1,
           "max-healthcare": 6,
           "medanta": 3,
-          "kims": 3
+          "kims": 3,
+          "rainbow-childrens": 3
         },
         "FY26-Q1": {
           "apollo-hospitals": 2,
@@ -7633,7 +7861,8 @@
           "narayana": 5,
           "aster-dm": 1,
           "kims": 3,
-          "hcg": 2
+          "hcg": 2,
+          "rainbow-childrens": 4
         },
         "FY26-Q2": {
           "apollo-hospitals": 2,
@@ -7641,7 +7870,8 @@
           "fortis-healthcare": 1,
           "medanta": 4,
           "aster-dm": 2600,
-          "kims": 2
+          "kims": 2,
+          "rainbow-childrens": 2
         },
         "FY26-Q3": {
           "apollo-hospitals": 8,
@@ -7650,7 +7880,8 @@
           "medanta": 4,
           "narayana": 5,
           "aster-dm": 3,
-          "hcg": 2
+          "hcg": 2,
+          "rainbow-childrens": 3
         },
         "FY26-Q4": {
           "apollo-hospitals": 11,
@@ -7659,7 +7890,8 @@
           "medanta": 1,
           "aster-dm": 2,
           "kims": 1,
-          "hcg": 1
+          "hcg": 1,
+          "rainbow-childrens": 2
         },
         "FY27-Q1": {
           "max-healthcare": 9,
@@ -7746,7 +7978,8 @@
           "medanta": 63.6,
           "narayana": 60,
           "aster-dm": 67,
-          "hcg": 62.1
+          "hcg": 62.1,
+          "rainbow-childrens": 50.5
         },
         "FY26-Q1": {
           "apollo-hospitals": 65,
@@ -7756,7 +7989,8 @@
           "narayana": 65,
           "aster-dm": 65,
           "kims": 48.8,
-          "hcg": 67
+          "hcg": 67,
+          "rainbow-childrens": 40.2
         },
         "FY26-Q2": {
           "apollo-hospitals": 69,
@@ -7765,7 +7999,8 @@
           "medanta": 63.2,
           "aster-dm": 59,
           "kims": 55,
-          "hcg": 67.1
+          "hcg": 67.1,
+          "rainbow-childrens": 52
         },
         "FY26-Q3": {
           "apollo-hospitals": 67,
@@ -7775,7 +8010,8 @@
           "narayana": 55,
           "aster-dm": 64,
           "kims": 49,
-          "hcg": 67
+          "hcg": 67,
+          "rainbow-childrens": 47.2
         },
         "FY26-Q4": {
           "apollo-hospitals": 68,
@@ -7783,7 +8019,8 @@
           "fortis-healthcare": 70,
           "medanta": 59,
           "aster-dm": 62,
-          "kims": 52.5
+          "kims": 52.5,
+          "rainbow-childrens": 45.3
         },
         "FY27-Q1": {
           "max-healthcare": 76,
@@ -7871,7 +8108,8 @@
           "max-healthcare": 4,
           "medanta": 3.23,
           "aster-dm": 3.2,
-          "hcg": 2.01
+          "hcg": 2.01,
+          "rainbow-childrens": 2.85
         },
         "FY26-Q1": {
           "max-healthcare": 4,
@@ -7879,7 +8117,8 @@
           "medanta": 3.17,
           "narayana": 4.8,
           "aster-dm": 3.1,
-          "kims": 3.56
+          "kims": 3.56,
+          "rainbow-childrens": 2.66
         },
         "FY26-Q2": {
           "apollo-hospitals": 3.14,
@@ -7888,7 +8127,8 @@
           "medanta": 3.03,
           "narayana": 4.3,
           "aster-dm": 3.1,
-          "kims": 3.4
+          "kims": 3.4,
+          "rainbow-childrens": 2.73
         },
         "FY26-Q3": {
           "apollo-hospitals": 3.16,
@@ -7897,14 +8137,16 @@
           "medanta": 3.02,
           "narayana": 4.9,
           "aster-dm": 3.1,
-          "kims": 3.54
+          "kims": 3.54,
+          "rainbow-childrens": 2.73
         },
         "FY26-Q4": {
           "apollo-hospitals": 3.19,
           "max-healthcare": 4.2,
           "fortis-healthcare": 4.29,
           "medanta": 3.02,
-          "aster-dm": 3.9
+          "aster-dm": 3.9,
+          "rainbow-childrens": 2.71
         },
         "FY27-Q1": {
           "fortis-healthcare": 4.26,
@@ -7990,7 +8232,8 @@
           "medanta": 44856,
           "aster-dm": 208920,
           "kims": 7900,
-          "hcg": 923
+          "hcg": 923,
+          "rainbow-childrens": 98395
         },
         "FY26-Q1": {
           "max-healthcare": 83257,
@@ -7999,7 +8242,8 @@
           "narayana": 584,
           "aster-dm": 159300,
           "kims": 57275,
-          "hcg": 1280
+          "hcg": 1280,
+          "rainbow-childrens": 20992
         },
         "FY26-Q2": {
           "apollo-hospitals": 162928,
@@ -8008,7 +8252,8 @@
           "medanta": 47150,
           "narayana": 617,
           "aster-dm": 65800,
-          "hcg": 1167
+          "hcg": 1167,
+          "rainbow-childrens": 28380
         },
         "FY26-Q3": {
           "apollo-hospitals": 157777,
@@ -8018,7 +8263,8 @@
           "narayana": 157200,
           "aster-dm": 181,
           "kims": 61139,
-          "hcg": 263
+          "hcg": 263,
+          "rainbow-childrens": 25605
         },
         "FY26-Q4": {
           "apollo-hospitals": 156728,
@@ -8027,7 +8273,8 @@
           "medanta": 9500,
           "aster-dm": 243,
           "kims": 61139,
-          "hcg": 221000
+          "hcg": 221000,
+          "rainbow-childrens": 27977
         },
         "FY27-Q1": {
           "fortis-healthcare": 3339,
@@ -8109,7 +8356,8 @@
           "max-healthcare": 850000,
           "medanta": 720305,
           "aster-dm": 2510000,
-          "hcg": 120110
+          "hcg": 120110,
+          "rainbow-childrens": 1426733
         },
         "FY26-Q1": {
           "max-healthcare": 940000,
@@ -8117,7 +8365,8 @@
           "narayana": 738,
           "aster-dm": 2.15,
           "kims": 502492,
-          "hcg": 4931
+          "hcg": 4931,
+          "rainbow-childrens": 329331
         },
         "FY26-Q2": {
           "apollo-hospitals": 618743,
@@ -8125,7 +8374,8 @@
           "medanta": 818815,
           "narayana": 664,
           "aster-dm": 0.82,
-          "hcg": 143
+          "hcg": 143,
+          "rainbow-childrens": 427595
         },
         "FY26-Q3": {
           "apollo-hospitals": 561427,
@@ -8133,14 +8383,16 @@
           "medanta": 861000,
           "narayana": 662000,
           "aster-dm": 932933,
-          "kims": 585491
+          "kims": 585491,
+          "rainbow-childrens": 427595
         },
         "FY26-Q4": {
           "max-healthcare": 923000,
           "medanta": 20000,
           "aster-dm": 2670,
           "kims": 585499,
-          "hcg": 2000
+          "hcg": 2000,
+          "rainbow-childrens": 424702
         },
         "FY27-Q1": {
           "medanta": 915420,
@@ -8231,7 +8483,8 @@
           "medanta": 61307,
           "aster-dm": 44200,
           "kims": 26500,
-          "hcg": 44284
+          "hcg": 44284,
+          "rainbow-childrens": 53962
         },
         "FY26-Q1": {
           "max-healthcare": 78000,
@@ -8240,7 +8493,8 @@
           "narayana": 176.67,
           "aster-dm": 47800,
           "kims": 43011,
-          "hcg": 66555
+          "hcg": 66555,
+          "rainbow-childrens": 56212
         },
         "FY26-Q2": {
           "max-healthcare": 77300,
@@ -8249,7 +8503,8 @@
           "narayana": 17500,
           "aster-dm": 50200,
           "kims": 43000,
-          "hcg": 44751
+          "hcg": 44751,
+          "rainbow-childrens": 57396
         },
         "FY26-Q3": {
           "apollo-hospitals": 64019.5,
@@ -8259,7 +8514,8 @@
           "narayana": 18100,
           "aster-dm": 118552,
           "kims": 46341,
-          "hcg": 44355
+          "hcg": 44355,
+          "rainbow-childrens": 58362
         },
         "FY26-Q4": {
           "apollo-hospitals": 64834.7,
@@ -8268,7 +8524,8 @@
           "medanta": 67361,
           "aster-dm": 133945,
           "kims": 66500,
-          "hcg": 83684
+          "hcg": 83684,
+          "rainbow-childrens": 58057
         },
         "FY27-Q1": {
           "fortis-healthcare": 70137,
@@ -8473,7 +8730,8 @@
           "narayana": 16832.17,
           "aster-dm": 681.81,
           "kims": 879,
-          "hcg": 6131.65
+          "hcg": 6131.65,
+          "rainbow-childrens": 4448
         },
         "FY26-Q3": {
           "apollo-hospitals": 6477.4,
@@ -8506,7 +8764,8 @@
           "narayana": 2593.8,
           "aster-dm": 1182,
           "kims": 1084,
-          "hcg": 652.3
+          "hcg": 652.3,
+          "rainbow-childrens": 4080.64
         }
       }
     },
@@ -8621,7 +8880,8 @@
           "narayana": 426.5,
           "aster-dm": 215,
           "kims": 200,
-          "hcg": 1118.09
+          "hcg": 1118.09,
+          "rainbow-childrens": 1488.7
         },
         "FY26-Q3": {
           "apollo-hospitals": 965.3,
@@ -8769,7 +9029,8 @@
           "narayana": 25.9,
           "aster-dm": 20,
           "kims": 22.7,
-          "hcg": 18.2
+          "hcg": 18.2,
+          "rainbow-childrens": 33.5
         },
         "FY26-Q3": {
           "apollo-hospitals": 14.9,
@@ -8918,7 +9179,8 @@
           "narayana": 258.3,
           "aster-dm": 0.19,
           "kims": 85,
-          "hcg": 47.31
+          "hcg": 47.31,
+          "rainbow-childrens": 756.2
         },
         "FY26-Q3": {
           "apollo-hospitals": 502.3,
@@ -8951,7 +9213,8 @@
           "narayana": 228,
           "aster-dm": 140,
           "kims": 33,
-          "hcg": 21.77
+          "hcg": 21.77,
+          "rainbow-childrens": 593.05
         }
       }
     },
@@ -9068,7 +9331,8 @@
           "narayana": 1.53,
           "aster-dm": 0.03,
           "kims": 9.67,
-          "hcg": 0.77
+          "hcg": 0.77,
+          "rainbow-childrens": 17
         },
         "FY26-Q3": {
           "apollo-hospitals": 7.75,
@@ -9101,7 +9365,8 @@
           "narayana": 8.79,
           "aster-dm": 11.84,
           "kims": 3.04,
-          "hcg": 3.34
+          "hcg": 3.34,
+          "rainbow-childrens": 14.53
         }
       }
     },
@@ -9302,7 +9567,8 @@
           "fortis-healthcare": 462,
           "medanta": 442,
           "aster-dm": 238,
-          "hcg": 1720
+          "hcg": 1720,
+          "rainbow-childrens": 43.7
         },
         "FY26-Q1": {
           "max-healthcare": 6434,
@@ -9310,7 +9576,8 @@
           "medanta": 644.9,
           "narayana": 668,
           "aster-dm": 2000,
-          "hcg": 2056
+          "hcg": 2056,
+          "rainbow-childrens": 41.5
         },
         "FY26-Q2": {
           "apollo-hospitals": 8300,
@@ -9318,7 +9585,8 @@
           "medanta": 195,
           "narayana": 420,
           "aster-dm": 80,
-          "hcg": 93.8
+          "hcg": 93.8,
+          "rainbow-childrens": 260.6
         },
         "FY26-Q3": {
           "apollo-hospitals": 8200,
@@ -9326,7 +9594,8 @@
           "fortis-healthcare": 410,
           "medanta": 624.6,
           "aster-dm": 125,
-          "hcg": 1564
+          "hcg": 1564,
+          "rainbow-childrens": 57
         },
         "FY26-Q4": {
           "apollo-hospitals": 8300,
@@ -9335,7 +9604,8 @@
           "medanta": 550,
           "aster-dm": 406,
           "kims": 500,
-          "hcg": 2227
+          "hcg": 2227,
+          "rainbow-childrens": 580
         },
         "FY27-Q1": {
           "medanta": 940,
@@ -9425,7 +9695,8 @@
           "medanta": 12.3,
           "aster-dm": 15,
           "kims": 29.7,
-          "hcg": 19
+          "hcg": 19,
+          "rainbow-childrens": 8.5
         },
         "FY26-Q1": {
           "apollo-hospitals": 15,
@@ -9435,7 +9706,8 @@
           "narayana": 15.4,
           "aster-dm": 2,
           "kims": 26.8,
-          "hcg": 16
+          "hcg": 16,
+          "rainbow-childrens": 6.9
         },
         "FY26-Q2": {
           "apollo-hospitals": 13,
@@ -9445,7 +9717,8 @@
           "narayana": 20.3,
           "aster-dm": 8,
           "kims": 26.8,
-          "hcg": 17
+          "hcg": 17,
+          "rainbow-childrens": 6.5
         },
         "FY26-Q3": {
           "apollo-hospitals": 17,
@@ -9455,7 +9728,8 @@
           "narayana": 61.2,
           "aster-dm": 10,
           "kims": 26.9,
-          "hcg": 16.9
+          "hcg": 16.9,
+          "rainbow-childrens": 11.9
         },
         "FY26-Q4": {
           "apollo-hospitals": 18,
@@ -9465,7 +9739,8 @@
           "narayana": 75.8,
           "aster-dm": 10,
           "kims": 2.2,
-          "hcg": 13
+          "hcg": 13,
+          "rainbow-childrens": 24
         },
         "FY27-Q1": {
           "max-healthcare": 9,
@@ -9654,7 +9929,8 @@
           "fortis-healthcare": 16410723,
           "medanta": 15475806,
           "aster-dm": 33329793,
-          "hcg": 10380687
+          "hcg": 10380687,
+          "rainbow-childrens": 92973079
         },
         "FY26-Q1": {
           "apollo-hospitals": 107990037,
@@ -9663,7 +9939,8 @@
           "narayana": 117309388,
           "aster-dm": 6506129,
           "kims": 7623591,
-          "hcg": 10934579
+          "hcg": 10934579,
+          "rainbow-childrens": 92693106
         },
         "FY26-Q2": {
           "apollo-hospitals": 26588632,
@@ -9673,7 +9950,8 @@
           "narayana": 128074339,
           "aster-dm": 5247720,
           "kims": 351600000,
-          "hcg": 112044769
+          "hcg": 112044769,
+          "rainbow-childrens": 109759408
         },
         "FY26-Q3": {
           "apollo-hospitals": 27099257,
@@ -9683,7 +9961,8 @@
           "narayana": 73032868,
           "aster-dm": 9232549,
           "kims": 8000000,
-          "hcg": 118228
+          "hcg": 118228,
+          "rainbow-childrens": 89727418
         },
         "FY26-Q4": {
           "apollo-hospitals": 27465696,
@@ -9692,7 +9971,8 @@
           "medanta": 11465427,
           "narayana": 656746,
           "aster-dm": 4192640,
-          "hcg": 12660000
+          "hcg": 12660000,
+          "rainbow-childrens": 92847327
         },
         "FY27-Q1": {
           "fortis-healthcare": 13265574,
@@ -9775,7 +10055,8 @@
           "fortis-healthcare": 3370298,
           "medanta": 4093548,
           "aster-dm": 6510887,
-          "hcg": 1714020
+          "hcg": 1714020,
+          "rainbow-childrens": 13148523
         },
         "FY26-Q1": {
           "apollo-hospitals": 9090909,
@@ -9784,7 +10065,8 @@
           "narayana": 274192,
           "aster-dm": 2048289,
           "kims": 1734605,
-          "hcg": 1998131
+          "hcg": 1998131,
+          "rainbow-childrens": 13417203
         },
         "FY26-Q2": {
           "apollo-hospitals": 3970052,
@@ -9794,7 +10076,8 @@
           "narayana": 3245197,
           "aster-dm": 1654801,
           "kims": 80000000,
-          "hcg": 20431064
+          "hcg": 20431064,
+          "rainbow-childrens": 36735349
         },
         "FY26-Q3": {
           "apollo-hospitals": 4038490,
@@ -9804,7 +10087,8 @@
           "narayana": 294308,
           "aster-dm": 2028538,
           "kims": 1724352,
-          "hcg": 22531
+          "hcg": 22531,
+          "rainbow-childrens": 13394767
         },
         "FY26-Q4": {
           "apollo-hospitals": 4203326,
@@ -9813,7 +10097,8 @@
           "medanta": 30414634,
           "narayana": 149559,
           "aster-dm": 4492800,
-          "hcg": 2220000
+          "hcg": 2220000,
+          "rainbow-childrens": 12622526
         },
         "FY27-Q1": {
           "fortis-healthcare": 2924590,
@@ -9897,7 +10182,8 @@
           "narayana": 953.3,
           "aster-dm": 2417,
           "kims": 2655,
-          "hcg": 1421.5
+          "hcg": 1421.5,
+          "rainbow-childrens": 3012.2
         },
         "FY26-Q3": {
           "apollo-hospitals": 4501.3,
@@ -9907,7 +10193,8 @@
           "narayana": 666.9,
           "aster-dm": 1284,
           "kims": 813,
-          "hcg": 1318.5
+          "hcg": 1318.5,
+          "rainbow-childrens": 3088.9
         },
         "FY26-Q4": {
           "apollo-hospitals": 4742.4,
@@ -9917,7 +10204,8 @@
           "narayana": 523.7,
           "aster-dm": 1373,
           "kims": 812,
-          "hcg": 1337.2
+          "hcg": 1337.2,
+          "rainbow-childrens": 3143
         },
         "FY27-Q1": {
           "max-healthcare": 2706,
@@ -10097,7 +10385,8 @@
           "fortis-healthcare": 21.58,
           "medanta": 72.35,
           "aster-dm": 221.9,
-          "hcg": 1.71
+          "hcg": 1.71,
+          "rainbow-childrens": 258.42
         },
         "FY26-Q1": {
           "fortis-healthcare": 2.05,
@@ -10105,7 +10394,8 @@
           "narayana": 0.44,
           "aster-dm": 169.06,
           "kims": 49.67,
-          "hcg": 2.39
+          "hcg": 2.39,
+          "rainbow-childrens": 55.13
         },
         "FY26-Q2": {
           "apollo-hospitals": 68.72,
@@ -10114,7 +10404,8 @@
           "medanta": 75.83,
           "narayana": 0.47,
           "aster-dm": 50.64,
-          "hcg": 2.13
+          "hcg": 2.13,
+          "rainbow-childrens": 70.03
         },
         "FY26-Q3": {
           "apollo-hospitals": 66.01,
@@ -10124,7 +10415,8 @@
           "narayana": 118.51,
           "aster-dm": 0.14,
           "kims": 50.69,
-          "hcg": 0.48
+          "hcg": 0.48,
+          "rainbow-childrens": 58.26
         },
         "FY26-Q4": {
           "apollo-hospitals": 65.17,
@@ -10132,7 +10424,8 @@
           "fortis-healthcare": 2.01,
           "medanta": 115.85,
           "aster-dm": 0.16,
-          "hcg": 442
+          "hcg": 442,
+          "rainbow-childrens": 63.66
         },
         "FY27-Q1": {
           "fortis-healthcare": 2.19,
@@ -10214,7 +10507,8 @@
           "fortis-healthcare": 100,
           "medanta": 81.5,
           "aster-dm": 73.4,
-          "hcg": 100
+          "hcg": 100,
+          "rainbow-childrens": 78.7
         },
         "FY26-Q1": {
           "apollo-hospitals": 80.3,
@@ -10223,7 +10517,8 @@
           "narayana": 100,
           "aster-dm": 73.1,
           "kims": 83.9,
-          "hcg": 100
+          "hcg": 100,
+          "rainbow-childrens": 74.8
         },
         "FY26-Q2": {
           "apollo-hospitals": 93,
@@ -10233,7 +10528,8 @@
           "narayana": 100,
           "aster-dm": 100,
           "kims": 1.3,
-          "hcg": 87.6
+          "hcg": 87.6,
+          "rainbow-childrens": 70.9
         },
         "FY26-Q3": {
           "apollo-hospitals": 92.6,
@@ -10243,7 +10539,8 @@
           "narayana": 85,
           "aster-dm": 99.7,
           "kims": 74.6,
-          "hcg": 100
+          "hcg": 100,
+          "rainbow-childrens": 74
         },
         "FY26-Q4": {
           "apollo-hospitals": 87.7,
@@ -10252,7 +10549,8 @@
           "medanta": 12.3,
           "narayana": 95.2,
           "aster-dm": 58.9,
-          "hcg": 80
+          "hcg": 80,
+          "rainbow-childrens": 72.2
         },
         "FY27-Q1": {
           "medanta": 74.7,
@@ -10416,7 +10714,8 @@
           "narayana": 41464.7,
           "aster-dm": 37769.4,
           "kims": 34398.9,
-          "hcg": 13233.5
+          "hcg": 13233.5,
+          "rainbow-childrens": 13982.2
         }
       }
     },
@@ -10532,7 +10831,8 @@
           "narayana": 23.14,
           "aster-dm": 45.39,
           "kims": 41.77,
-          "hcg": 3.61
+          "hcg": 3.61,
+          "rainbow-childrens": 2.35
         },
         "FY26-Q3": {
           "apollo-hospitals": 30.74,
@@ -10641,7 +10941,8 @@
           "fortis-healthcare": 15.432,
           "medanta": 13.109,
           "aster-dm": 10.195,
-          "hcg": 7.677
+          "hcg": 7.677,
+          "rainbow-childrens": 9.181
         },
         "FY26-Q1": {
           "apollo-hospitals": 14.819,
@@ -10650,7 +10951,8 @@
           "narayana": 7.52,
           "aster-dm": 10.357,
           "kims": 8.059,
-          "hcg": 7.553
+          "hcg": 7.553,
+          "rainbow-childrens": 9.181
         },
         "FY26-Q2": {
           "apollo-hospitals": 12.514,
@@ -10660,7 +10962,8 @@
           "narayana": 7.508,
           "aster-dm": 7.512,
           "kims": 334.189,
-          "hcg": 7.384
+          "hcg": 7.384,
+          "rainbow-childrens": 8.626
         },
         "FY26-Q3": {
           "apollo-hospitals": 12.415,
@@ -10670,7 +10973,8 @@
           "narayana": 7.813,
           "aster-dm": 7.527,
           "kims": 8.007,
-          "hcg": 7.801
+          "hcg": 7.801,
+          "rainbow-childrens": 7.953
         },
         "FY26-Q4": {
           "apollo-hospitals": 12.46,
@@ -10679,7 +10983,8 @@
           "medanta": 97.285,
           "narayana": 6.686,
           "aster-dm": 6.043,
-          "hcg": 5.309
+          "hcg": 5.309,
+          "rainbow-childrens": 7.953
         },
         "FY27-Q1": {
           "fortis-healthcare": 12.273,
@@ -10762,7 +11067,8 @@
           "fortis-healthcare": 1543.2,
           "medanta": 1310.9,
           "aster-dm": 1019.5,
-          "hcg": 767.7
+          "hcg": 767.7,
+          "rainbow-childrens": 918.1
         },
         "FY26-Q1": {
           "apollo-hospitals": 1481.9,
@@ -10771,7 +11077,8 @@
           "narayana": 752,
           "aster-dm": 1035.7,
           "kims": 805.9,
-          "hcg": 755.3
+          "hcg": 755.3,
+          "rainbow-childrens": 918.1
         },
         "FY26-Q2": {
           "apollo-hospitals": 1251.4,
@@ -10781,7 +11088,8 @@
           "narayana": 750.8,
           "aster-dm": 751.2,
           "kims": 33418.9,
-          "hcg": 738.4
+          "hcg": 738.4,
+          "rainbow-childrens": 862.6
         },
         "FY26-Q3": {
           "apollo-hospitals": 1241.5,
@@ -10791,7 +11099,8 @@
           "narayana": 781.3,
           "aster-dm": 752.7,
           "kims": 800.7,
-          "hcg": 780.1
+          "hcg": 780.1,
+          "rainbow-childrens": 795.3
         },
         "FY26-Q4": {
           "apollo-hospitals": 1246,
@@ -10800,7 +11109,8 @@
           "medanta": 9728.5,
           "narayana": 668.6,
           "aster-dm": 604.3,
-          "hcg": 530.9
+          "hcg": 530.9,
+          "rainbow-childrens": 795.3
         },
         "FY27-Q1": {
           "fortis-healthcare": 1227.3,
@@ -10924,7 +11234,8 @@
           "narayana": 37.96,
           "aster-dm": 50520.21,
           "kims": 92.35,
-          "hcg": 52.03
+          "hcg": 52.03,
+          "rainbow-childrens": 4.62
         },
         "FY26-Q3": {
           "apollo-hospitals": 59.23,
@@ -10955,7 +11266,8 @@
           "narayana": 43.01,
           "aster-dm": 68.56,
           "kims": 237.87,
-          "hcg": 113.07
+          "hcg": 113.07,
+          "rainbow-childrens": 5.89
         }
       }
     }
@@ -18705,14 +19017,19 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 19,
+          "rank": 5
+        },
+        {
           "slug": "kims",
           "value": 18,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "medanta",
           "value": 5,
-          "rank": 6
+          "rank": 7
         }
       ],
       "bedCapacity": [
@@ -18750,6 +19067,11 @@
           "slug": "hcg",
           "value": 2154,
           "rank": 7
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 1935,
+          "rank": 8
         }
       ],
       "operationalBeds": [
@@ -18782,6 +19104,11 @@
           "slug": "hcg",
           "value": 2154,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 1523,
+          "rank": 7
         }
       ],
       "bedsUnderDevelopment": [
@@ -18801,9 +19128,14 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 250,
+          "rank": 4
+        },
+        {
           "slug": "medanta",
           "value": 110,
-          "rank": 4
+          "rank": 5
         }
       ],
       "newHospitalsPlanned": [
@@ -18823,9 +19155,14 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 3,
+          "rank": 4
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 1,
-          "rank": 4
+          "rank": 5
         }
       ],
       "occupancyRate": [
@@ -18858,6 +19195,11 @@
           "slug": "narayana",
           "value": 60,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 50.5,
+          "rank": 7
         }
       ],
       "alos": [
@@ -18867,24 +19209,29 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 2.85,
+          "rank": 2
+        },
+        {
           "slug": "aster-dm",
           "value": 3.2,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "medanta",
           "value": 3.23,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 3.3,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "max-healthcare",
           "value": 4,
-          "rank": 5
+          "rank": 6
         }
       ],
       "ipVolume": [
@@ -18899,29 +19246,34 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 98395,
+          "rank": 3
+        },
+        {
           "slug": "max-healthcare",
           "value": 78685,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "medanta",
           "value": 44856,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 25353,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 7900,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 923,
-          "rank": 7
+          "rank": 8
         }
       ],
       "opVolume": [
@@ -18931,24 +19283,29 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 1426733,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 850000,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "medanta",
           "value": 720305,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 559817,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 120110,
-          "rank": 5
+          "rank": 6
         }
       ],
       "arpob": [
@@ -18968,19 +19325,24 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 53962,
+          "rank": 4
+        },
+        {
           "slug": "hcg",
           "value": 44284,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 44200,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 26500,
-          "rank": 6
+          "rank": 7
         }
       ],
       "arpp": [
@@ -19302,6 +19664,11 @@
           "slug": "aster-dm",
           "value": 238,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 43.7,
+          "rank": 7
         }
       ],
       "revenueGrowthYoy": [
@@ -19334,6 +19701,11 @@
           "slug": "medanta",
           "value": 12.3,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 8.5,
+          "rank": 7
         }
       ],
       "roce": [
@@ -19360,66 +19732,76 @@
       ],
       "revenuePerBedYearly": [
         {
+          "slug": "rainbow-childrens",
+          "value": 92973079,
+          "rank": 1
+        },
+        {
           "slug": "aster-dm",
           "value": 33329793,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "apollo-hospitals",
           "value": 23650666,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "max-healthcare",
           "value": 20876665,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 16410723,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "medanta",
           "value": 15475806,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 10380687,
-          "rank": 6
+          "rank": 7
         }
       ],
       "ebitdaPerBedYearly": [
         {
+          "slug": "rainbow-childrens",
+          "value": 13148523,
+          "rank": 1
+        },
+        {
           "slug": "aster-dm",
           "value": 6510887,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 5431887,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "medanta",
           "value": 4093548,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 3370298,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "apollo-hospitals",
           "value": 3255657,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 1714020,
-          "rank": 6
+          "rank": 7
         }
       ],
       "ebitdaTtmCr": [
@@ -19493,34 +19875,39 @@
       ],
       "bedTurnoverYearly": [
         {
+          "slug": "rainbow-childrens",
+          "value": 258.42,
+          "rank": 1
+        },
+        {
           "slug": "aster-dm",
           "value": 221.9,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "medanta",
           "value": 72.35,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "max-healthcare",
           "value": 67.63,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 61.93,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 21.58,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 1.71,
-          "rank": 6
+          "rank": 7
         }
       ],
       "bedActivationPct": [
@@ -19550,9 +19937,14 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 78.7,
+          "rank": 6
+        },
+        {
           "slug": "aster-dm",
           "value": 73.4,
-          "rank": 6
+          "rank": 7
         }
       ],
       "enterpriseValueCr": [
@@ -19691,9 +20083,14 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 9.181,
+          "rank": 6
+        },
+        {
           "slug": "hcg",
           "value": 7.677,
-          "rank": 6
+          "rank": 7
         }
       ],
       "evPerBedLakhs": [
@@ -19723,9 +20120,14 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 918.1,
+          "rank": 6
+        },
+        {
           "slug": "hcg",
           "value": 767.7,
-          "rank": 6
+          "rank": 7
         }
       ],
       "peAnnualised": [
@@ -19804,24 +20206,29 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 20,
+          "rank": 5
+        },
+        {
           "slug": "aster-dm",
           "value": 19,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 18,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 18,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "medanta",
           "value": 5,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedCapacity": [
@@ -19864,6 +20271,11 @@
           "slug": "hcg",
           "value": 2140,
           "rank": 8
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2035,
+          "rank": 9
         }
       ],
       "operationalBeds": [
@@ -19901,6 +20313,11 @@
           "slug": "hcg",
           "value": 2140,
           "rank": 7
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 1523,
+          "rank": 8
         }
       ],
       "bedsUnderDevelopment": [
@@ -19962,29 +20379,34 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 4,
+          "rank": 4
+        },
+        {
           "slug": "kims",
           "value": 3,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "apollo-hospitals",
           "value": 2,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 2,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "fortis-healthcare",
           "value": 1,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 1,
-          "rank": 8
+          "rank": 9
         }
       ],
       "occupancyRate": [
@@ -20027,38 +20449,48 @@
           "slug": "kims",
           "value": 48.8,
           "rank": 8
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 40.2,
+          "rank": 9
         }
       ],
       "alos": [
         {
+          "slug": "rainbow-childrens",
+          "value": 2.66,
+          "rank": 1
+        },
+        {
           "slug": "aster-dm",
           "value": 3.1,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "medanta",
           "value": 3.17,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "kims",
           "value": 3.56,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 4,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 4.09,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 4.8,
-          "rank": 6
+          "rank": 7
         }
       ],
       "ipVolume": [
@@ -20083,19 +20515,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 20992,
+          "rank": 5
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 2928,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 1280,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 584,
-          "rank": 7
+          "rank": 8
         }
       ],
       "opVolume": [
@@ -20115,19 +20552,24 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 329331,
+          "rank": 4
+        },
+        {
           "slug": "hcg",
           "value": 4931,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "narayana",
           "value": 738,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 2.15,
-          "rank": 6
+          "rank": 7
         }
       ],
       "arpob": [
@@ -20152,19 +20594,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 56212,
+          "rank": 5
+        },
+        {
           "slug": "aster-dm",
           "value": 47800,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 43011,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 176.67,
-          "rank": 7
+          "rank": 8
         }
       ],
       "arpp": [
@@ -20491,6 +20938,11 @@
           "slug": "fortis-healthcare",
           "value": 200,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 41.5,
+          "rank": 7
         }
       ],
       "revenueGrowthYoy": [
@@ -20530,9 +20982,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 6.9,
+          "rank": 8
+        },
+        {
           "slug": "aster-dm",
           "value": 2,
-          "rank": 8
+          "rank": 9
         }
       ],
       "roce": [
@@ -20569,24 +21026,29 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 92693106,
+          "rank": 4
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 15207018,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 10934579,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 7623591,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "aster-dm",
           "value": 6506129,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ebitdaPerBedYearly": [
@@ -20596,34 +21058,39 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 13417203,
+          "rank": 2
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 9090909,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "fortis-healthcare",
           "value": 3445614,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "aster-dm",
           "value": 2048289,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 1998131,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 1734605,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 274192,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ebitdaTtmCr": [
@@ -20722,24 +21189,29 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 55.13,
+          "rank": 3
+        },
+        {
           "slug": "kims",
           "value": 49.67,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "hcg",
           "value": 2.39,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 2.05,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 0.44,
-          "rank": 6
+          "rank": 7
         }
       ],
       "bedActivationPct": [
@@ -20774,9 +21246,14 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 74.8,
+          "rank": 7
+        },
+        {
           "slug": "aster-dm",
           "value": 73.1,
-          "rank": 7
+          "rank": 8
         }
       ],
       "enterpriseValueCr": [
@@ -20895,19 +21372,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 9.181,
+          "rank": 5
+        },
+        {
           "slug": "kims",
           "value": 8.059,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 7.553,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 7.52,
-          "rank": 7
+          "rank": 8
         }
       ],
       "evPerBedLakhs": [
@@ -20932,19 +21414,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 918.1,
+          "rank": 5
+        },
+        {
           "slug": "kims",
           "value": 805.9,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 755.3,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 752,
-          "rank": 7
+          "rank": 8
         }
       ],
       "peAnnualised": [
@@ -21018,24 +21505,29 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 22,
+          "rank": 5
+        },
+        {
           "slug": "max-healthcare",
           "value": 20,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 19,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 18,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "medanta",
           "value": 5,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedCapacity": [
@@ -21078,6 +21570,11 @@
           "slug": "hcg",
           "value": 2500,
           "rank": 8
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2285,
+          "rank": 9
         }
       ],
       "operationalBeds": [
@@ -21117,9 +21614,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 1621,
+          "rank": 8
+        },
+        {
           "slug": "kims",
           "value": 100,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedsUnderDevelopment": [
@@ -21181,14 +21683,19 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 2,
+          "rank": 5
+        },
+        {
           "slug": "max-healthcare",
           "value": 1,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 1,
-          "rank": 6
+          "rank": 7
         }
       ],
       "occupancyRate": [
@@ -21226,43 +21733,53 @@
           "slug": "kims",
           "value": 55,
           "rank": 7
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 52,
+          "rank": 8
         }
       ],
       "alos": [
         {
+          "slug": "rainbow-childrens",
+          "value": 2.73,
+          "rank": 1
+        },
+        {
           "slug": "medanta",
           "value": 3.03,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "aster-dm",
           "value": 3.1,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 3.14,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "kims",
           "value": 3.4,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "max-healthcare",
           "value": 4,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 4.18,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 4.3,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ipVolume": [
@@ -21287,19 +21804,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 28380,
+          "rank": 5
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 3318,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 1167,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 617,
-          "rank": 7
+          "rank": 8
         }
       ],
       "opVolume": [
@@ -21319,19 +21841,24 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 427595,
+          "rank": 4
+        },
+        {
           "slug": "narayana",
           "value": 664,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 143,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 0.82,
-          "rank": 6
+          "rank": 7
         }
       ],
       "arpob": [
@@ -21351,24 +21878,29 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 57396,
+          "rank": 4
+        },
+        {
           "slug": "aster-dm",
           "value": 50200,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 44751,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 43000,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 17500,
-          "rank": 7
+          "rank": 8
         }
       ],
       "arpp": [
@@ -21410,24 +21942,29 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 4448,
+          "rank": 5
+        },
+        {
           "slug": "max-healthcare",
           "value": 2692,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 1974,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 879,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 681.81,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitda": [
@@ -21437,123 +21974,138 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 1488.7,
+          "rank": 2
+        },
+        {
           "slug": "hcg",
           "value": 1118.09,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 941.2,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 694,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 452,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 426.5,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "aster-dm",
           "value": 215,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "kims",
           "value": 200,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitdaMargin": [
         {
+          "slug": "rainbow-childrens",
+          "value": 33.5,
+          "rank": 1
+        },
+        {
           "slug": "medanta",
           "value": 28.58,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 26.9,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "narayana",
           "value": 25.9,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 22.9,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "kims",
           "value": 22.7,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 20,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 18.2,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "apollo-hospitals",
           "value": 14.9,
-          "rank": 8
+          "rank": 9
         }
       ],
       "pat": [
         {
+          "slug": "rainbow-childrens",
+          "value": 756.2,
+          "rank": 1
+        },
+        {
           "slug": "max-healthcare",
           "value": 554,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "apollo-hospitals",
           "value": 477.2,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "fortis-healthcare",
           "value": 329,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "narayana",
           "value": 258.3,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "medanta",
           "value": 159,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 85,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 47.31,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 0.19,
-          "rank": 8
+          "rank": 9
         }
       ],
       "patMargin": [
@@ -21563,39 +22115,44 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 17,
+          "rank": 2
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 16.67,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "kims",
           "value": 9.67,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 7.57,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "medanta",
           "value": 1.72,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 1.53,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 0.77,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 0.03,
-          "rank": 8
+          "rank": 9
         }
       ],
       "netDebt": [
@@ -21652,19 +22209,24 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 260.6,
+          "rank": 4
+        },
+        {
           "slug": "medanta",
           "value": 195,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 93.8,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 80,
-          "rank": 6
+          "rank": 7
         }
       ],
       "revenueGrowthYoy": [
@@ -21707,6 +22269,11 @@
           "slug": "aster-dm",
           "value": 8,
           "rank": 8
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 6.5,
+          "rank": 9
         }
       ],
       "roce": [
@@ -21753,24 +22320,29 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 109759408,
+          "rank": 5
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 26588632,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "max-healthcare",
           "value": 22621849,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "fortis-healthcare",
           "value": 13613793,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 5247720,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitdaPerBedYearly": [
@@ -21785,34 +22357,39 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 36735349,
+          "rank": 3
+        },
+        {
           "slug": "hcg",
           "value": 20431064,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 5831933,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "apollo-hospitals",
           "value": 3970052,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 3245197,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "fortis-healthcare",
           "value": 3117241,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 1654801,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitdaTtmCr": [
@@ -21827,34 +22404,39 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 3012.2,
+          "rank": 3
+        },
+        {
           "slug": "kims",
           "value": 2655,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 2561,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 2417,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 1714,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 1421.5,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "narayana",
           "value": 953.3,
-          "rank": 8
+          "rank": 9
         }
       ],
       "netDebtToEbitda": [
@@ -21906,29 +22488,34 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 70.03,
+          "rank": 3
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 68.72,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "aster-dm",
           "value": 50.64,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 2.29,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 2.13,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 0.47,
-          "rank": 7
+          "rank": 8
         }
       ],
       "bedActivationPct": [
@@ -21968,9 +22555,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 70.9,
+          "rank": 8
+        },
+        {
           "slug": "kims",
           "value": 1.3,
-          "rank": 8
+          "rank": 9
         }
       ],
       "enterpriseValueCr": [
@@ -22022,44 +22614,49 @@
       ],
       "evToEbitdaAnnualised": [
         {
+          "slug": "rainbow-childrens",
+          "value": 2.35,
+          "rank": 1
+        },
+        {
           "slug": "medanta",
           "value": 3.07,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "hcg",
           "value": 3.61,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "narayana",
           "value": 23.14,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 31.52,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "max-healthcare",
           "value": 35.63,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 41.34,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 41.77,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 45.39,
-          "rank": 8
+          "rank": 9
         }
       ],
       "evPerBedCr": [
@@ -22089,19 +22686,24 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 8.626,
+          "rank": 6
+        },
+        {
           "slug": "aster-dm",
           "value": 7.512,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 7.508,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "hcg",
           "value": 7.384,
-          "rank": 8
+          "rank": 9
         }
       ],
       "evPerBedLakhs": [
@@ -22131,61 +22733,71 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 862.6,
+          "rank": 6
+        },
+        {
           "slug": "aster-dm",
           "value": 751.2,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 750.8,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "hcg",
           "value": 738.4,
-          "rank": 8
+          "rank": 9
         }
       ],
       "peAnnualised": [
         {
+          "slug": "rainbow-childrens",
+          "value": 4.62,
+          "rank": 1
+        },
+        {
           "slug": "narayana",
           "value": 37.96,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 43.71,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "medanta",
           "value": 51.12,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "hcg",
           "value": 52.03,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 55.11,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "apollo-hospitals",
           "value": 62.34,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 92.35,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 50520.21,
-          "rank": 8
+          "rank": 9
         }
       ]
     },
@@ -22202,34 +22814,39 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 23,
+          "rank": 3
+        },
+        {
           "slug": "hcg",
           "value": 22,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 20,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 19,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "narayana",
           "value": 18,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 18,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "medanta",
           "value": 6,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedCapacity": [
@@ -22269,9 +22886,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 2375,
+          "rank": 8
+        },
+        {
           "slug": "hcg",
           "value": 2189,
-          "rank": 8
+          "rank": 9
         }
       ],
       "operationalBeds": [
@@ -22311,9 +22933,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 1758,
+          "rank": 8
+        },
+        {
           "slug": "medanta",
           "value": 328,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedsUnderDevelopment": [
@@ -22380,14 +23007,19 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 3,
+          "rank": 6
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 2,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 2,
-          "rank": 7
+          "rank": 8
         }
       ],
       "occupancyRate": [
@@ -22430,43 +23062,53 @@
           "slug": "kims",
           "value": 49,
           "rank": 8
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 47.2,
+          "rank": 9
         }
       ],
       "alos": [
         {
+          "slug": "rainbow-childrens",
+          "value": 2.73,
+          "rank": 1
+        },
+        {
           "slug": "medanta",
           "value": 3.02,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "aster-dm",
           "value": 3.1,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 3.16,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "kims",
           "value": 3.54,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "max-healthcare",
           "value": 4.2,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 4.29,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 4.9,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ipVolume": [
@@ -22496,19 +23138,24 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 25605,
+          "rank": 6
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 3189,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 263,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 181,
-          "rank": 8
+          "rank": 9
         }
       ],
       "opVolume": [
@@ -22541,6 +23188,11 @@
           "slug": "apollo-hospitals",
           "value": 561427,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 427595,
+          "rank": 7
         }
       ],
       "arpob": [
@@ -22570,19 +23222,24 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 58362,
+          "rank": 6
+        },
+        {
           "slug": "kims",
           "value": 46341,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 44355,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "narayana",
           "value": 18100,
-          "rank": 8
+          "rank": 9
         }
       ],
       "arpp": [
@@ -22939,6 +23596,11 @@
           "slug": "aster-dm",
           "value": 125,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 57,
+          "rank": 7
         }
       ],
       "revenueGrowthYoy": [
@@ -22973,14 +23635,19 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 11.9,
+          "rank": 7
+        },
+        {
           "slug": "aster-dm",
           "value": 10,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "max-healthcare",
           "value": 9,
-          "rank": 8
+          "rank": 9
         }
       ],
       "roce": [
@@ -23012,39 +23679,44 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 89727418,
+          "rank": 2
+        },
+        {
           "slug": "narayana",
           "value": 73032868,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 27099257,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 21495982,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 12920000,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 9232549,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 8000000,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "hcg",
           "value": 118228,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitdaPerBedYearly": [
@@ -23054,39 +23726,44 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 13394767,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 5341026,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 4038490,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 2800000,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 2028538,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 1724352,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 294308,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "hcg",
           "value": 22531,
-          "rank": 8
+          "rank": 9
         }
       ],
       "ebitdaTtmCr": [
@@ -23101,34 +23778,39 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 3088.9,
+          "rank": 3
+        },
+        {
           "slug": "max-healthcare",
           "value": 2587,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 1759,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 1318.5,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 1284,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 813,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "narayana",
           "value": 666.9,
-          "rank": 8
+          "rank": 9
         }
       ],
       "netDebtToEbitda": [
@@ -23195,24 +23877,29 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 58.26,
+          "rank": 5
+        },
+        {
           "slug": "kims",
           "value": 50.69,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 2.13,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 0.48,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 0.14,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedActivationPct": [
@@ -23252,9 +23939,14 @@
           "rank": 7
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 74,
+          "rank": 8
+        },
+        {
           "slug": "medanta",
           "value": 9.2,
-          "rank": 8
+          "rank": 9
         }
       ],
       "enterpriseValueCr": [
@@ -23388,19 +24080,24 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 7.953,
+          "rank": 6
+        },
+        {
           "slug": "narayana",
           "value": 7.813,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 7.801,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 7.527,
-          "rank": 8
+          "rank": 9
         }
       ],
       "evPerBedLakhs": [
@@ -23430,19 +24127,24 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 795.3,
+          "rank": 6
+        },
+        {
           "slug": "narayana",
           "value": 781.3,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 780.1,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "aster-dm",
           "value": 752.7,
-          "rank": 8
+          "rank": 9
         }
       ],
       "peAnnualised": [
@@ -23526,14 +24228,19 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 24,
+          "rank": 7
+        },
+        {
           "slug": "max-healthcare",
           "value": 21,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "medanta",
           "value": 6,
-          "rank": 8
+          "rank": 9
         }
       ],
       "bedCapacity": [
@@ -23571,6 +24278,11 @@
           "slug": "hcg",
           "value": 2500,
           "rank": 7
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 2435,
+          "rank": 8
         }
       ],
       "operationalBeds": [
@@ -23605,9 +24317,14 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 1758,
+          "rank": 7
+        },
+        {
           "slug": "medanta",
           "value": 328,
-          "rank": 7
+          "rank": 8
         }
       ],
       "bedsUnderDevelopment": [
@@ -23627,24 +24344,29 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 580,
+          "rank": 4
+        },
+        {
           "slug": "medanta",
           "value": 400,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "max-healthcare",
           "value": 260,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 150,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 75,
-          "rank": 7
+          "rank": 8
         }
       ],
       "newHospitalsPlanned": [
@@ -23664,24 +24386,29 @@
           "rank": 3
         },
         {
-          "slug": "max-healthcare",
-          "value": 1,
+          "slug": "rainbow-childrens",
+          "value": 2,
           "rank": 4
         },
         {
-          "slug": "medanta",
+          "slug": "max-healthcare",
           "value": 1,
           "rank": 5
         },
         {
-          "slug": "kims",
+          "slug": "medanta",
           "value": 1,
           "rank": 6
         },
         {
-          "slug": "hcg",
+          "slug": "kims",
           "value": 1,
           "rank": 7
+        },
+        {
+          "slug": "hcg",
+          "value": 1,
+          "rank": 8
         }
       ],
       "occupancyRate": [
@@ -23714,33 +24441,43 @@
           "slug": "kims",
           "value": 52.5,
           "rank": 6
+        },
+        {
+          "slug": "rainbow-childrens",
+          "value": 45.3,
+          "rank": 7
         }
       ],
       "alos": [
         {
+          "slug": "rainbow-childrens",
+          "value": 2.71,
+          "rank": 1
+        },
+        {
           "slug": "medanta",
           "value": 3.02,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "apollo-hospitals",
           "value": 3.19,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "aster-dm",
           "value": 3.9,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "max-healthcare",
           "value": 4.2,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 4.29,
-          "rank": 5
+          "rank": 6
         }
       ],
       "ipVolume": [
@@ -23765,19 +24502,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 27977,
+          "rank": 5
+        },
+        {
           "slug": "medanta",
           "value": 9500,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 2970,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "aster-dm",
           "value": 243,
-          "rank": 7
+          "rank": 8
         }
       ],
       "opVolume": [
@@ -23792,19 +24534,24 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 424702,
+          "rank": 3
+        },
+        {
           "slug": "medanta",
           "value": 20000,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "aster-dm",
           "value": 2670,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 2000,
-          "rank": 5
+          "rank": 6
         }
       ],
       "arpob": [
@@ -23839,9 +24586,14 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 58057,
+          "rank": 7
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 24.9,
-          "rank": 7
+          "rank": 8
         }
       ],
       "arpp": [
@@ -24185,24 +24937,29 @@
           "rank": 3
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 580,
+          "rank": 4
+        },
+        {
           "slug": "medanta",
           "value": 550,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "kims",
           "value": 500,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 430,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "aster-dm",
           "value": 406,
-          "rank": 7
+          "rank": 8
         }
       ],
       "revenueGrowthYoy": [
@@ -24212,39 +24969,44 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 24,
+          "rank": 2
+        },
+        {
           "slug": "medanta",
           "value": 19,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "apollo-hospitals",
           "value": 18,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 17.5,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 13,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "max-healthcare",
           "value": 10,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "aster-dm",
           "value": 10,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "kims",
           "value": 2.2,
-          "rank": 8
+          "rank": 9
         }
       ],
       "revenueCagr3yr": [
@@ -24283,39 +25045,44 @@
       ],
       "revenuePerBedYearly": [
         {
+          "slug": "rainbow-childrens",
+          "value": 92847327,
+          "rank": 1
+        },
+        {
           "slug": "apollo-hospitals",
           "value": 27465696,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "max-healthcare",
           "value": 21457914,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "hcg",
           "value": 12660000,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "medanta",
           "value": 11465427,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "fortis-healthcare",
           "value": 4598576,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 4192640,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 656746,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ebitdaPerBedYearly": [
@@ -24325,34 +25092,39 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 12622526,
+          "rank": 2
+        },
+        {
           "slug": "max-healthcare",
           "value": 5493355,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "aster-dm",
           "value": 4492800,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "apollo-hospitals",
           "value": 4203326,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "hcg",
           "value": 2220000,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "fortis-healthcare",
           "value": 779525,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "narayana",
           "value": 149559,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ebitdaTtmCr": [
@@ -24367,34 +25139,39 @@
           "rank": 2
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 3143,
+          "rank": 3
+        },
+        {
           "slug": "max-healthcare",
           "value": 2637,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 1478,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 1373,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 1337.2,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 812,
-          "rank": 7
+          "rank": 8
         },
         {
           "slug": "narayana",
           "value": 523.7,
-          "rank": 8
+          "rank": 9
         }
       ],
       "netDebtToEbitda": [
@@ -24461,14 +25238,19 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 63.66,
+          "rank": 5
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 2.01,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 0.16,
-          "rank": 6
+          "rank": 7
         }
       ],
       "bedActivationPct": [
@@ -24498,14 +25280,19 @@
           "rank": 5
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 72.2,
+          "rank": 6
+        },
+        {
           "slug": "aster-dm",
           "value": 58.9,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "medanta",
           "value": 12.3,
-          "rank": 7
+          "rank": 8
         }
       ],
       "enterpriseValueCr": [
@@ -24634,19 +25421,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 7.953,
+          "rank": 5
+        },
+        {
           "slug": "narayana",
           "value": 6.686,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 6.043,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 5.309,
-          "rank": 7
+          "rank": 8
         }
       ],
       "evPerBedLakhs": [
@@ -24671,19 +25463,24 @@
           "rank": 4
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 795.3,
+          "rank": 5
+        },
+        {
           "slug": "narayana",
           "value": 668.6,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "aster-dm",
           "value": 604.3,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 530.9,
-          "rank": 7
+          "rank": 8
         }
       ],
       "peAnnualised": [
@@ -25044,39 +25841,44 @@
       ],
       "revenue": [
         {
+          "slug": "rainbow-childrens",
+          "value": 4080.64,
+          "rank": 1
+        },
+        {
           "slug": "max-healthcare",
           "value": 2664,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "narayana",
           "value": 2593.8,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "fortis-healthcare",
           "value": 2023,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "medanta",
           "value": 1195.8,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 1182,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 1084,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 652.3,
-          "rank": 7
+          "rank": 8
         }
       ],
       "ebitda": [
@@ -25155,39 +25957,44 @@
       ],
       "pat": [
         {
+          "slug": "rainbow-childrens",
+          "value": 593.05,
+          "rank": 1
+        },
+        {
           "slug": "max-healthcare",
           "value": 387,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "fortis-healthcare",
           "value": 271,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "narayana",
           "value": 228,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "medanta",
           "value": 141.7,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 140,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "kims",
           "value": 33,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "hcg",
           "value": 21.77,
-          "rank": 7
+          "rank": 8
         }
       ],
       "patMargin": [
@@ -25197,34 +26004,39 @@
           "rank": 1
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 14.53,
+          "rank": 2
+        },
+        {
           "slug": "fortis-healthcare",
           "value": 13.4,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "medanta",
           "value": 11.85,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "aster-dm",
           "value": 11.84,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "narayana",
           "value": 8.79,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 3.34,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 3.04,
-          "rank": 7
+          "rank": 8
         }
       ],
       "netDebt": [
@@ -25561,9 +26373,14 @@
           "rank": 6
         },
         {
+          "slug": "rainbow-childrens",
+          "value": 13982.2,
+          "rank": 7
+        },
+        {
           "slug": "hcg",
           "value": 13233.5,
-          "rank": 7
+          "rank": 8
         }
       ],
       "evToEbitdaAnnualised": [
@@ -25659,39 +26476,44 @@
       ],
       "peAnnualised": [
         {
+          "slug": "rainbow-childrens",
+          "value": 5.89,
+          "rank": 1
+        },
+        {
           "slug": "narayana",
           "value": 43.01,
-          "rank": 1
+          "rank": 2
         },
         {
           "slug": "medanta",
           "value": 57.36,
-          "rank": 2
+          "rank": 3
         },
         {
           "slug": "max-healthcare",
           "value": 62.57,
-          "rank": 3
+          "rank": 4
         },
         {
           "slug": "fortis-healthcare",
           "value": 66.91,
-          "rank": 4
+          "rank": 5
         },
         {
           "slug": "aster-dm",
           "value": 68.56,
-          "rank": 5
+          "rank": 6
         },
         {
           "slug": "hcg",
           "value": 113.07,
-          "rank": 6
+          "rank": 7
         },
         {
           "slug": "kims",
           "value": 237.87,
-          "rank": 7
+          "rank": 8
         }
       ]
     }
@@ -27395,74 +28217,74 @@
     },
     "FY25-Q4": {
       "numberOfHospitals": {
-        "n": 6,
+        "n": 7,
         "min": 5,
         "max": 73,
-        "mean": 27.33,
-        "median": 20.5
+        "mean": 26.14,
+        "median": 19
       },
       "bedCapacity": {
-        "n": 7,
-        "min": 2154,
+        "n": 8,
+        "min": 1935,
         "max": 10187,
-        "mean": 5115.86,
-        "median": 5100
+        "mean": 4718.25,
+        "median": 4900
       },
       "operationalBeds": {
-        "n": 6,
-        "min": 2154,
+        "n": 7,
+        "min": 1523,
         "max": 9458,
-        "mean": 4535.33,
-        "median": 4210
+        "mean": 4105,
+        "median": 3766
       },
       "bedsUnderDevelopment": {
-        "n": 4,
+        "n": 5,
         "min": 110,
         "max": 3700,
-        "mean": 2271.75,
-        "median": 2638.5
+        "mean": 1867.4,
+        "median": 1700
       },
       "newHospitalsPlanned": {
-        "n": 4,
+        "n": 5,
         "min": 1,
         "max": 6,
-        "mean": 3.25,
+        "mean": 3.2,
         "median": 3
       },
       "occupancyRate": {
-        "n": 6,
-        "min": 60,
+        "n": 7,
+        "min": 50.5,
         "max": 75,
-        "mean": 65.78,
-        "median": 65.3
+        "mean": 63.6,
+        "median": 63.6
       },
       "alos": {
-        "n": 5,
+        "n": 6,
         "min": 2.01,
         "max": 4,
-        "mean": 3.15,
-        "median": 3.23
+        "mean": 3.1,
+        "median": 3.21
       },
       "ipVolume": {
-        "n": 7,
+        "n": 8,
         "min": 923,
         "max": 208920,
-        "mean": 73295.86,
-        "median": 44856
+        "mean": 76433.25,
+        "median": 61770.5
       },
       "opVolume": {
-        "n": 5,
+        "n": 6,
         "min": 120110,
         "max": 2510000,
-        "mean": 952046.4,
-        "median": 720305
+        "mean": 1031160.83,
+        "median": 785152.5
       },
       "arpob": {
-        "n": 6,
+        "n": 7,
         "min": 26500,
         "max": 77100,
-        "mean": 52826.67,
-        "median": 52795.5
+        "mean": 52988.86,
+        "median": 53962
       },
       "arpp": {
         "n": 1,
@@ -27514,18 +28336,18 @@
         "median": 1563
       },
       "capexAnnounced": {
-        "n": 6,
-        "min": 238,
+        "n": 7,
+        "min": 43.7,
         "max": 7603,
-        "mean": 1809.17,
-        "median": 452
+        "mean": 1556.96,
+        "median": 442
       },
       "revenueGrowthYoy": {
-        "n": 6,
-        "min": 12.3,
+        "n": 7,
+        "min": 8.5,
         "max": 29.7,
-        "mean": 19.67,
-        "median": 17
+        "mean": 18.07,
+        "median": 15
       },
       "roce": {
         "n": 4,
@@ -27535,18 +28357,18 @@
         "median": 21.65
       },
       "revenuePerBedYearly": {
-        "n": 6,
+        "n": 7,
         "min": 10380687,
-        "max": 33329793,
-        "mean": 20020723.33,
-        "median": 18643694
+        "max": 92973079,
+        "mean": 30442488.43,
+        "median": 20876665
       },
       "ebitdaPerBedYearly": {
-        "n": 6,
+        "n": 7,
         "min": 1714020,
-        "max": 6510887,
-        "mean": 4062716.17,
-        "median": 3731923
+        "max": 13148523,
+        "mean": 5360688.57,
+        "median": 4093548
       },
       "ebitdaTtmCr": {
         "n": 9,
@@ -27563,18 +28385,18 @@
         "median": 0.64
       },
       "bedTurnoverYearly": {
-        "n": 6,
+        "n": 7,
         "min": 1.71,
-        "max": 221.9,
-        "mean": 74.52,
-        "median": 64.78
+        "max": 258.42,
+        "mean": 100.79,
+        "median": 67.63
       },
       "bedActivationPct": {
-        "n": 6,
+        "n": 7,
         "min": 73.4,
         "max": 100,
-        "mean": 89.83,
-        "median": 92.05
+        "mean": 88.24,
+        "median": 91.3
       },
       "enterpriseValueCr": {
         "n": 11,
@@ -27591,18 +28413,18 @@
         "median": 38.79
       },
       "evPerBedCr": {
-        "n": 6,
+        "n": 7,
         "min": 7.677,
         "max": 21.149,
-        "mean": 13.36,
-        "median": 12.84
+        "mean": 12.76,
+        "median": 12.58
       },
       "evPerBedLakhs": {
-        "n": 6,
+        "n": 7,
         "min": 767.7,
         "max": 2114.9,
-        "mean": 1335.72,
-        "median": 1284.5
+        "mean": 1276.06,
+        "median": 1258.1
       },
       "peAnnualised": {
         "n": 10,
@@ -27614,25 +28436,25 @@
     },
     "FY26-Q1": {
       "numberOfHospitals": {
-        "n": 8,
+        "n": 9,
         "min": 5,
         "max": 73,
-        "mean": 26.63,
-        "median": 20.5
+        "mean": 25.89,
+        "median": 20
       },
       "bedCapacity": {
-        "n": 8,
-        "min": 2140,
+        "n": 9,
+        "min": 2035,
         "max": 10000,
-        "mean": 5475.25,
-        "median": 5231
+        "mean": 5093,
+        "median": 5200
       },
       "operationalBeds": {
-        "n": 7,
-        "min": 2140,
+        "n": 8,
+        "min": 1523,
         "max": 8030,
-        "mean": 4570.43,
-        "median": 4612
+        "mean": 4189.5,
+        "median": 4190.5
       },
       "bedsUnderDevelopment": {
         "n": 8,
@@ -27642,46 +28464,46 @@
         "median": 575
       },
       "newHospitalsPlanned": {
-        "n": 8,
+        "n": 9,
         "min": 1,
         "max": 7,
-        "mean": 3.38,
-        "median": 2.5
+        "mean": 3.44,
+        "median": 3
       },
       "occupancyRate": {
-        "n": 8,
-        "min": 48.8,
+        "n": 9,
+        "min": 40.2,
         "max": 76,
-        "mean": 64.72,
+        "mean": 62,
         "median": 65
       },
       "alos": {
-        "n": 6,
-        "min": 3.1,
+        "n": 7,
+        "min": 2.66,
         "max": 4.8,
-        "mean": 3.79,
-        "median": 3.78
+        "mean": 3.63,
+        "median": 3.56
       },
       "ipVolume": {
-        "n": 7,
+        "n": 8,
         "min": 584,
         "max": 174219,
-        "mean": 68406.14,
-        "median": 57275
+        "mean": 62479.38,
+        "median": 39133.5
       },
       "opVolume": {
-        "n": 6,
+        "n": 7,
         "min": 2.15,
         "max": 2937400,
-        "mean": 730927.19,
-        "median": 253711.5
+        "mean": 673556.31,
+        "median": 329331
       },
       "arpob": {
-        "n": 7,
+        "n": 8,
         "min": 176.67,
         "max": 78000,
-        "mean": 52981.1,
-        "median": 62722
+        "mean": 53384.96,
+        "median": 59467
       },
       "arpp": {
         "n": 4,
@@ -27733,18 +28555,18 @@
         "median": 1755
       },
       "capexAnnounced": {
-        "n": 6,
-        "min": 200,
+        "n": 7,
+        "min": 41.5,
         "max": 6434,
-        "mean": 2000.48,
-        "median": 1334
+        "mean": 1720.63,
+        "median": 668
       },
       "revenueGrowthYoy": {
-        "n": 8,
+        "n": 9,
         "min": 2,
         "max": 27,
-        "mean": 16.43,
-        "median": 15.7
+        "mean": 15.37,
+        "median": 15.4
       },
       "roce": {
         "n": 3,
@@ -27754,18 +28576,18 @@
         "median": 19.5
       },
       "revenuePerBedYearly": {
-        "n": 7,
+        "n": 8,
         "min": 6506129,
         "max": 142283226,
-        "mean": 58264852.57,
-        "median": 15207018
+        "mean": 62568384.25,
+        "median": 53950062
       },
       "ebitdaPerBedYearly": {
-        "n": 7,
+        "n": 8,
         "min": 274192,
         "max": 40163226,
-        "mean": 8393566.57,
-        "median": 2048289
+        "mean": 9021521.13,
+        "median": 2746951.5
       },
       "ebitdaTtmCr": {
         "n": 9,
@@ -27782,18 +28604,18 @@
         "median": 0.72
       },
       "bedTurnoverYearly": {
-        "n": 6,
+        "n": 7,
         "min": 0.44,
         "max": 281,
-        "mean": 84.1,
-        "median": 26.03
+        "mean": 79.96,
+        "median": 49.67
       },
       "bedActivationPct": {
-        "n": 7,
+        "n": 8,
         "min": 73.1,
         "max": 100,
-        "mean": 84.97,
-        "median": 81.5
+        "mean": 83.7,
+        "median": 80.9
       },
       "enterpriseValueCr": {
         "n": 9,
@@ -27810,18 +28632,18 @@
         "median": 37.88
       },
       "evPerBedCr": {
-        "n": 7,
+        "n": 8,
         "min": 7.52,
         "max": 14.819,
-        "mean": 10.59,
-        "median": 10.36
+        "mean": 10.42,
+        "median": 9.77
       },
       "evPerBedLakhs": {
-        "n": 7,
+        "n": 8,
         "min": 752,
         "max": 1481.9,
-        "mean": 1059.16,
-        "median": 1035.7
+        "mean": 1041.53,
+        "median": 976.9
       },
       "peAnnualised": {
         "n": 9,
@@ -27833,25 +28655,25 @@
     },
     "FY26-Q2": {
       "numberOfHospitals": {
-        "n": 8,
+        "n": 9,
         "min": 5,
         "max": 73,
-        "mean": 27.25,
-        "median": 22.5
+        "mean": 26.67,
+        "median": 22
       },
       "bedCapacity": {
-        "n": 8,
-        "min": 2500,
+        "n": 9,
+        "min": 2285,
         "max": 10200,
-        "mean": 5877,
-        "median": 5228.5
+        "mean": 5477.89,
+        "median": 5200
       },
       "operationalBeds": {
-        "n": 8,
+        "n": 9,
         "min": 100,
         "max": 9483,
-        "mean": 4409.13,
-        "median": 4978.5
+        "mean": 4099.33,
+        "median": 4760
       },
       "bedsUnderDevelopment": {
         "n": 7,
@@ -27861,46 +28683,46 @@
         "median": 400
       },
       "newHospitalsPlanned": {
-        "n": 6,
+        "n": 7,
         "min": 1,
         "max": 2600,
-        "mean": 435,
+        "mean": 373.14,
         "median": 2
       },
       "occupancyRate": {
-        "n": 7,
-        "min": 55,
+        "n": 8,
+        "min": 52,
         "max": 77,
-        "mean": 65.9,
-        "median": 67.1
+        "mean": 64.16,
+        "median": 65.15
       },
       "alos": {
-        "n": 7,
-        "min": 3.03,
+        "n": 8,
+        "min": 2.73,
         "max": 4.3,
-        "mean": 3.59,
-        "median": 3.4
+        "mean": 3.48,
+        "median": 3.27
       },
       "ipVolume": {
-        "n": 7,
+        "n": 8,
         "min": 617,
         "max": 162928,
-        "mean": 52658.43,
-        "median": 47150
+        "mean": 49623.63,
+        "median": 37765
       },
       "opVolume": {
-        "n": 6,
+        "n": 7,
         "min": 0.82,
         "max": 1010000,
-        "mean": 408060.97,
-        "median": 309703.5
+        "mean": 410851.55,
+        "median": 427595
       },
       "arpob": {
-        "n": 7,
+        "n": 8,
         "min": 17500,
         "max": 77300,
-        "mean": 52586,
-        "median": 50200
+        "mean": 53187.25,
+        "median": 53798
       },
       "arpp": {
         "n": 3,
@@ -27910,39 +28732,39 @@
         "median": 125000
       },
       "revenue": {
-        "n": 8,
+        "n": 9,
         "min": 681.81,
         "max": 16832.17,
-        "mean": 5594.8,
-        "median": 4411.82
+        "mean": 5467.38,
+        "median": 4448
       },
       "ebitda": {
-        "n": 8,
+        "n": 9,
         "min": 200,
         "max": 2647.66,
-        "mean": 836.81,
-        "median": 573
+        "mean": 909.24,
+        "median": 694
       },
       "ebitdaMargin": {
-        "n": 8,
+        "n": 9,
         "min": 14.9,
-        "max": 28.58,
-        "mean": 22.51,
-        "median": 22.8
+        "max": 33.5,
+        "mean": 23.73,
+        "median": 22.9
       },
       "pat": {
-        "n": 8,
+        "n": 9,
         "min": 0.19,
-        "max": 554,
-        "mean": 238.75,
-        "median": 208.65
+        "max": 756.2,
+        "mean": 296.24,
+        "median": 258.3
       },
       "patMargin": {
-        "n": 8,
+        "n": 9,
         "min": 0.03,
         "max": 20.58,
-        "mean": 7.32,
-        "median": 4.65
+        "mean": 8.39,
+        "median": 7.57
       },
       "netDebt": {
         "n": 7,
@@ -27952,18 +28774,18 @@
         "median": 2020
       },
       "capexAnnounced": {
-        "n": 6,
+        "n": 7,
         "min": 80,
         "max": 8300,
-        "mean": 1590.8,
-        "median": 307.5
+        "mean": 1400.77,
+        "median": 260.6
       },
       "revenueGrowthYoy": {
-        "n": 8,
-        "min": 8,
+        "n": 9,
+        "min": 6.5,
         "max": 26.8,
-        "mean": 18.06,
-        "median": 19.2
+        "mean": 16.78,
+        "median": 19.1
       },
       "roce": {
         "n": 4,
@@ -27973,25 +28795,25 @@
         "median": 21.95
       },
       "revenuePerBedYearly": {
-        "n": 8,
+        "n": 9,
         "min": 5247720,
         "max": 351600000,
-        "mean": 101099299.88,
-        "median": 69316700.5
+        "mean": 102061534.11,
+        "median": 109759408
       },
       "ebitdaPerBedYearly": {
-        "n": 8,
+        "n": 9,
         "min": 1654801,
         "max": 80000000,
-        "mean": 20104285.63,
-        "median": 4900992.5
+        "mean": 21952181.56,
+        "median": 5831933
       },
       "ebitdaTtmCr": {
-        "n": 8,
+        "n": 9,
         "min": 953.3,
         "max": 7445,
-        "mean": 2933.04,
-        "median": 2489
+        "mean": 2941.83,
+        "median": 2561
       },
       "netDebtToEbitda": {
         "n": 7,
@@ -28001,18 +28823,18 @@
         "median": 0.76
       },
       "bedTurnoverYearly": {
-        "n": 7,
+        "n": 8,
         "min": 0.47,
         "max": 75.83,
-        "mean": 39.1,
-        "median": 50.64
+        "mean": 42.97,
+        "median": 59.68
       },
       "bedActivationPct": {
-        "n": 8,
+        "n": 9,
         "min": 1.3,
         "max": 100,
-        "mean": 78.86,
-        "median": 89.55
+        "mean": 77.98,
+        "median": 87.6
       },
       "enterpriseValueCr": {
         "n": 9,
@@ -28022,55 +28844,55 @@
         "median": 39037.4
       },
       "evToEbitdaAnnualised": {
-        "n": 8,
-        "min": 3.07,
+        "n": 9,
+        "min": 2.35,
         "max": 45.39,
-        "mean": 28.18,
-        "median": 33.58
+        "mean": 25.31,
+        "median": 31.52
       },
       "evPerBedCr": {
-        "n": 8,
+        "n": 9,
         "min": 7.384,
         "max": 334.189,
-        "mean": 51.98,
-        "median": 12.7
+        "mean": 47.16,
+        "median": 12.51
       },
       "evPerBedLakhs": {
-        "n": 8,
+        "n": 9,
         "min": 738.4,
         "max": 33418.9,
-        "mean": 5198.1,
-        "median": 1270.1
+        "mean": 4716.38,
+        "median": 1251.4
       },
       "peAnnualised": {
-        "n": 8,
-        "min": 37.96,
+        "n": 9,
+        "min": 4.62,
         "max": 50520.21,
-        "mean": 6364.35,
-        "median": 53.57
+        "mean": 5657.72,
+        "median": 52.03
       }
     },
     "FY26-Q3": {
       "numberOfHospitals": {
-        "n": 8,
+        "n": 9,
         "min": 6,
         "max": 76,
-        "mean": 26.88,
-        "median": 19.5
+        "mean": 26.44,
+        "median": 20
       },
       "bedCapacity": {
-        "n": 8,
+        "n": 9,
         "min": 2189,
         "max": 10325,
-        "mean": 5850.13,
-        "median": 5722.5
+        "mean": 5464,
+        "median": 5200
       },
       "operationalBeds": {
-        "n": 8,
+        "n": 9,
         "min": 328,
         "max": 9561,
-        "mean": 4781,
-        "median": 5019.5
+        "mean": 4445.11,
+        "median": 4853
       },
       "bedsUnderDevelopment": {
         "n": 7,
@@ -28080,46 +28902,46 @@
         "median": 550
       },
       "newHospitalsPlanned": {
-        "n": 7,
+        "n": 8,
         "min": 2,
         "max": 8,
-        "mean": 4.57,
-        "median": 4
+        "mean": 4.38,
+        "median": 3.5
       },
       "occupancyRate": {
-        "n": 8,
-        "min": 49,
+        "n": 9,
+        "min": 47.2,
         "max": 76,
-        "mean": 63,
-        "median": 65.5
+        "mean": 61.24,
+        "median": 64
       },
       "alos": {
-        "n": 7,
-        "min": 3.02,
+        "n": 8,
+        "min": 2.73,
         "max": 4.9,
-        "mean": 3.74,
-        "median": 3.54
+        "mean": 3.62,
+        "median": 3.35
       },
       "ipVolume": {
-        "n": 8,
+        "n": 9,
         "min": 181,
         "max": 157777,
-        "mean": 64125.5,
-        "median": 56207
+        "mean": 59845.44,
+        "median": 51275
       },
       "opVolume": {
-        "n": 6,
-        "min": 561427,
+        "n": 7,
+        "min": 427595,
         "max": 932933,
-        "mean": 750975.17,
-        "median": 761500
+        "mean": 704778,
+        "median": 662000
       },
       "arpob": {
-        "n": 8,
+        "n": 9,
         "min": 18100,
         "max": 118552,
-        "mean": 63358.19,
-        "median": 65690.25
+        "mean": 62803.06,
+        "median": 64019.5
       },
       "arpp": {
         "n": 4,
@@ -28171,18 +28993,18 @@
         "median": 2199.05
       },
       "capexAnnounced": {
-        "n": 6,
-        "min": 125,
+        "n": 7,
+        "min": 57,
         "max": 8200,
-        "mean": 3013.43,
-        "median": 1094.3
+        "mean": 2591.09,
+        "median": 624.6
       },
       "revenueGrowthYoy": {
-        "n": 8,
+        "n": 9,
         "min": 9,
         "max": 61.2,
-        "mean": 22.44,
-        "median": 18.05
+        "mean": 21.27,
+        "median": 17
       },
       "roce": {
         "n": 4,
@@ -28192,25 +29014,25 @@
         "median": 23.4
       },
       "revenuePerBedYearly": {
-        "n": 8,
+        "n": 9,
         "min": 118228,
         "max": 139365854,
-        "mean": 36408092.25,
-        "median": 17207991
+        "mean": 42332461.78,
+        "median": 21495982
       },
       "ebitdaPerBedYearly": {
-        "n": 8,
+        "n": 9,
         "min": 22531,
         "max": 30414634,
-        "mean": 5832984.88,
-        "median": 2414269
+        "mean": 6673182.89,
+        "median": 2800000
       },
       "ebitdaTtmCr": {
-        "n": 8,
+        "n": 9,
         "min": 666.9,
         "max": 5641,
-        "mean": 2321.34,
-        "median": 1538.75
+        "mean": 2406.62,
+        "median": 1759
       },
       "netDebtToEbitda": {
         "n": 8,
@@ -28220,18 +29042,18 @@
         "median": 1.15
       },
       "bedTurnoverYearly": {
-        "n": 8,
+        "n": 9,
         "min": 0.14,
         "max": 625.3,
-        "mean": 116.35,
-        "median": 58.35
+        "mean": 109.9,
+        "median": 58.26
       },
       "bedActivationPct": {
-        "n": 8,
+        "n": 9,
         "min": 9.2,
         "max": 100,
-        "mean": 79.16,
-        "median": 88.8
+        "mean": 78.59,
+        "median": 85
       },
       "enterpriseValueCr": {
         "n": 10,
@@ -28248,18 +29070,18 @@
         "median": 37.65
       },
       "evPerBedCr": {
-        "n": 8,
+        "n": 9,
         "min": 7.527,
         "max": 96.955,
-        "mean": 21.68,
-        "median": 10.21
+        "mean": 20.15,
+        "median": 8.01
       },
       "evPerBedLakhs": {
-        "n": 8,
+        "n": 9,
         "min": 752.7,
         "max": 9695.5,
-        "mean": 2167.94,
-        "median": 1021.1
+        "mean": 2015.42,
+        "median": 800.7
       },
       "peAnnualised": {
         "n": 9,
@@ -28271,74 +29093,74 @@
     },
     "FY26-Q4": {
       "numberOfHospitals": {
-        "n": 8,
+        "n": 9,
         "min": 6,
         "max": 78,
-        "mean": 35.38,
-        "median": 29.5
+        "mean": 34.11,
+        "median": 25
       },
       "bedCapacity": {
-        "n": 7,
-        "min": 2500,
+        "n": 8,
+        "min": 2435,
         "max": 10970,
-        "mean": 6650.71,
-        "median": 6200
+        "mean": 6123.75,
+        "median": 6100
       },
       "operationalBeds": {
-        "n": 7,
+        "n": 8,
         "min": 328,
         "max": 9620,
-        "mean": 4994.86,
-        "median": 5900
+        "mean": 4590.25,
+        "median": 5433
       },
       "bedsUnderDevelopment": {
-        "n": 7,
+        "n": 8,
         "min": 75,
         "max": 4080,
-        "mean": 1567.14,
-        "median": 400
+        "mean": 1443.75,
+        "median": 490
       },
       "newHospitalsPlanned": {
-        "n": 7,
+        "n": 8,
         "min": 1,
         "max": 11,
-        "mean": 2.86,
-        "median": 1
+        "mean": 2.75,
+        "median": 1.5
       },
       "occupancyRate": {
-        "n": 6,
-        "min": 52.5,
+        "n": 7,
+        "min": 45.3,
         "max": 75,
-        "mean": 64.42,
-        "median": 65
+        "mean": 61.69,
+        "median": 62
       },
       "alos": {
-        "n": 5,
-        "min": 3.02,
+        "n": 6,
+        "min": 2.71,
         "max": 4.29,
-        "mean": 3.72,
-        "median": 3.9
+        "mean": 3.55,
+        "median": 3.54
       },
       "ipVolume": {
-        "n": 7,
+        "n": 8,
         "min": 243,
         "max": 221000,
-        "mean": 76195.86,
-        "median": 61139
+        "mean": 70168.5,
+        "median": 44558
       },
       "opVolume": {
-        "n": 5,
+        "n": 6,
         "min": 2000,
         "max": 923000,
-        "mean": 306633.8,
-        "median": 20000
+        "mean": 326311.83,
+        "median": 222351
       },
       "arpob": {
-        "n": 7,
+        "n": 8,
         "min": 24.9,
         "max": 133945,
-        "mean": 70607.09,
-        "median": 67361
+        "mean": 69038.32,
+        "median": 66930.5
       },
       "arpp": {
         "n": 4,
@@ -28390,18 +29212,18 @@
         "median": 818.95
       },
       "capexAnnounced": {
-        "n": 7,
+        "n": 8,
         "min": 406,
         "max": 8300,
-        "mean": 1973.29,
-        "median": 550
+        "mean": 1799.13,
+        "median": 565
       },
       "revenueGrowthYoy": {
-        "n": 8,
+        "n": 9,
         "min": 2.2,
         "max": 75.8,
-        "mean": 20.69,
-        "median": 15.25
+        "mean": 21.06,
+        "median": 17.5
       },
       "revenueCagr3yr": {
         "n": 2,
@@ -28418,25 +29240,25 @@
         "median": 20.7
       },
       "revenuePerBedYearly": {
-        "n": 7,
+        "n": 8,
         "min": 656746,
-        "max": 27465696,
-        "mean": 11785285.57,
-        "median": 11465427
+        "max": 92847327,
+        "mean": 21918040.75,
+        "median": 12062713.5
       },
       "ebitdaPerBedYearly": {
-        "n": 7,
+        "n": 8,
         "min": 149559,
         "max": 30414634,
-        "mean": 6821885.57,
-        "median": 4203326
+        "mean": 7546965.63,
+        "median": 4348063
       },
       "ebitdaTtmCr": {
-        "n": 8,
+        "n": 9,
         "min": 523.7,
         "max": 5636.6,
-        "mean": 2317.49,
-        "median": 1425.5
+        "mean": 2409.21,
+        "median": 1478
       },
       "netDebtToEbitda": {
         "n": 8,
@@ -28446,18 +29268,18 @@
         "median": 0.51
       },
       "bedTurnoverYearly": {
-        "n": 6,
+        "n": 7,
         "min": 0.16,
         "max": 442,
-        "mean": 115.18,
-        "median": 65.53
+        "mean": 107.82,
+        "median": 65.17
       },
       "bedActivationPct": {
-        "n": 7,
+        "n": 8,
         "min": 12.3,
         "max": 95.2,
-        "mean": 70.64,
-        "median": 80
+        "mean": 70.84,
+        "median": 78.8
       },
       "enterpriseValueCr": {
         "n": 10,
@@ -28474,18 +29296,18 @@
         "median": 30.81
       },
       "evPerBedCr": {
-        "n": 7,
+        "n": 8,
         "min": 5.309,
         "max": 97.285,
-        "mean": 22.91,
-        "median": 12.46
+        "mean": 21.04,
+        "median": 10.21
       },
       "evPerBedLakhs": {
-        "n": 7,
+        "n": 8,
         "min": 530.9,
         "max": 9728.5,
-        "mean": 2291.36,
-        "median": 1246
+        "mean": 2104.35,
+        "median": 1020.65
       },
       "peAnnualised": {
         "n": 9,
@@ -28574,11 +29396,11 @@
         "median": 66389.5
       },
       "revenue": {
-        "n": 7,
+        "n": 8,
         "min": 652.3,
-        "max": 2664,
-        "mean": 1627.84,
-        "median": 1195.8
+        "max": 4080.64,
+        "mean": 1934.44,
+        "median": 1609.4
       },
       "ebitda": {
         "n": 7,
@@ -28595,17 +29417,17 @@
         "median": 20.8
       },
       "pat": {
-        "n": 7,
+        "n": 8,
         "min": 21.77,
-        "max": 387,
-        "mean": 174.64,
-        "median": 141.7
+        "max": 593.05,
+        "mean": 226.94,
+        "median": 184.85
       },
       "patMargin": {
-        "n": 7,
+        "n": 8,
         "min": 3.04,
         "max": 14.53,
-        "mean": 9.54,
+        "mean": 10.16,
         "median": 11.84
       },
       "netDebt": {
@@ -28686,11 +29508,11 @@
         "median": 81.2
       },
       "enterpriseValueCr": {
-        "n": 7,
+        "n": 8,
         "min": 13233.5,
         "max": 98760.4,
-        "mean": 47486.96,
-        "median": 37769.4
+        "mean": 43298.86,
+        "median": 36084.15
       },
       "evToEbitdaAnnualised": {
         "n": 7,
@@ -28714,11 +29536,11 @@
         "median": 760.7
       },
       "peAnnualised": {
-        "n": 7,
-        "min": 43.01,
+        "n": 8,
+        "min": 5.89,
         "max": 237.87,
-        "mean": 92.76,
-        "median": 66.91
+        "mean": 81.9,
+        "median": 64.74
       }
     }
   }
