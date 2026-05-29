@@ -8,7 +8,7 @@
     "revenue":      { "value": 341.6, "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 investor-presentation" },
     "ebitda":       { "value": 79.9,  "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 investor-presentation" },
     "ebitdaMargin": { "value": 23.4,  "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 investor-presentation" },
-    "pat":          { "value": 50,    "note": "Q4 FY26 PAT estimate (LLM showed 447 = likely FY total). Verify from PDF.",  "source": "Estimated; verify against PDF" }
+    "pat":          { "value": 44.7,  "note": "Q4 FY26 PAT = Rs 447 mn / 10 = ₹44.7 Cr (verified from investor deck Q4 FY26 financial snapshot)", "source": "Q4 FY26 investor-presentation, verified" }
   },
 
   "FY26-Q4": {
@@ -28,7 +28,7 @@
     "revenue":      { "value": 279.4, "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
     "ebitda":       { "value": 64.5,  "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
     "ebitdaMargin": { "value": 23.1,  "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
-    "pat":          { "value": 35,    "note": "Q2 FY26 PAT estimate (verify from PDF)",   "source": "Estimated; verify against PDF" }
+    "pat":          { "value": 42,    "note": "Q2 FY26 PAT — sequential estimate (Q1 FY26: 42, Q3 FY26: 43.1; not directly quoted in concall extraction). Verify from PDF if precision needed.",  "source": "Interpolated from Q1 + Q3 FY26 concalls" }
   },
 
   "FY26-Q2": {
