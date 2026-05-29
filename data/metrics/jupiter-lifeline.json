@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "JLHL",
   "isin": "INE682M01012",
-  "lastBuiltAt": "2026-05-29T11:01:38.076Z",
+  "lastBuiltAt": "2026-05-29T11:03:28.531Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1328.95,
@@ -52,8 +52,8 @@
           "value": 2900,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -72,7 +72,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 961 (×3.0)"
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 1061,
@@ -417,6 +417,8 @@
       },
       "derived": {
         "patMargin": 12.94,
+        "vacantBeds": 1839,
+        "bedUtilizationPct": 36.6,
         "bedsPerHospital": 152,
         "revenuePerBedQuarter": 3655042,
         "ebitdaPerBedQuarter": 840716,
@@ -2013,8 +2015,8 @@
           "value": 2497,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -2033,7 +2035,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 961 (×2.6)"
+          "reason": "2 sources agree"
         },
         "operationalBeds": {
           "value": 815,

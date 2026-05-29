@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-29T11:01:38.019Z",
+  "lastBuiltAt": "2026-05-29T11:03:28.474Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1919.4,
@@ -163,7 +163,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 137 (×18.9)"
+          "reason": "outlier vs recent median 183 (×14.2)"
         },
         "ebitda": {
           "value": 539.2,
@@ -205,8 +205,8 @@
           "value": 228,
           "unit": "INR_crore",
           "confidence": "medium",
-          "status": "review",
-          "clientSafe": false,
+          "status": "single-strong",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -217,7 +217,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 1908 (×0.1)"
+          "reason": "single in-range source"
         },
         "netDebt": {
           "value": 2239.7,
@@ -463,7 +463,8 @@
         "vacantBeds": 300,
         "bedUtilizationPct": 95.2,
         "bedsPerHospital": 107,
-        "revenuePerBedQuarter": 164186
+        "revenuePerBedQuarter": 164186,
+        "revenueTtmCr": 2106.5
       }
     },
     "FY26-Q3": {
@@ -1096,8 +1097,8 @@
           "value": 1643.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1124,7 +1125,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 137 (×12.0)"
+          "reason": "2 sources agree"
         },
         "ebitda": {
           "value": 426.5,
@@ -1198,8 +1199,8 @@
           "value": 258.3,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1226,7 +1227,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 1908 (×0.1)"
+          "reason": "2 sources agree"
         },
         "netDebt": {
           "value": 246.6,
@@ -1300,9 +1301,11 @@
         }
       },
       "derived": {
+        "patMargin": 15.71,
         "vacantBeds": 175,
         "bedUtilizationPct": 96.9,
         "bedsPerHospital": 300,
+        "revenuePerBedQuarter": 3042102,
         "ebitdaPerBedQuarter": 789303
       }
     },
@@ -1689,8 +1692,8 @@
           "value": 36.07,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1733,7 +1736,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 245 (×0.1)"
+          "reason": "3 sources agree"
         },
         "ebitdaMargin": {
           "value": 25,
@@ -1797,8 +1800,8 @@
           "value": 19.61,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1841,7 +1844,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 1908 (×0.0)"
+          "reason": "3 sources agree"
         },
         "netDebt": {
           "value": 343,
@@ -1995,10 +1998,12 @@
         }
       },
       "derived": {
+        "patMargin": 13.01,
         "vacantBeds": 0,
         "bedUtilizationPct": 100,
         "bedsPerHospital": 293,
-        "revenuePerBedQuarter": 285365
+        "revenuePerBedQuarter": 285365,
+        "ebitdaPerBedQuarter": 68289
       }
     },
     "FY25-Q4": {
@@ -2056,8 +2061,8 @@
           "value": 165.316,
           "unit": "INR_crore",
           "confidence": "medium",
-          "status": "single-strong",
-          "clientSafe": true,
+          "status": "review",
+          "clientSafe": false,
           "sources": [
             {
               "docType": "quarterly-result",
@@ -2068,7 +2073,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "single in-range source"
+          "reason": "outlier vs recent median 1755 (×0.1)"
         },
         "ebitdaMargin": {
           "value": 19.06,
@@ -2502,7 +2507,8 @@
         "vacantBeds": 986,
         "bedUtilizationPct": 83.4,
         "bedsPerHospital": 262,
-        "ebitdaPerBedQuarter": 654794
+        "ebitdaPerBedQuarter": 654794,
+        "ebitdaTtmCr": 6865.2
       }
     },
     "FY25-Q2": {
@@ -2754,8 +2760,8 @@
           "value": 3320,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -2782,7 +2788,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 290 (×11.4)"
+          "reason": "2 sources agree"
         },
         "ebitdaMargin": {
           "value": 23.7,
@@ -2943,6 +2949,7 @@
         "vacantBeds": 339.5,
         "bedUtilizationPct": 94.3,
         "bedsPerHospital": 298,
+        "ebitdaPerBedQuarter": 5860030,
         "bedTurnoverQuarter": 23.85
       }
     },
@@ -3309,8 +3316,8 @@
           "value": 3184,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -3353,7 +3360,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 290 (×11.0)"
+          "reason": "3 sources agree"
         },
         "ebitdaMargin": {
           "value": 24.65,
@@ -3569,7 +3576,8 @@
       "derived": {
         "vacantBeds": 246,
         "bedUtilizationPct": 95.7,
-        "bedsPerHospital": 306
+        "bedsPerHospital": 306,
+        "ebitdaPerBedQuarter": 5782782
       }
     },
     "FY24-Q4": {
@@ -3681,8 +3689,8 @@
           "value": 35.76,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "concall-transcript",
@@ -3701,7 +3709,7 @@
               "periodMismatch": true
             }
           ],
-          "reason": "outlier vs recent median 290 (×0.1)"
+          "reason": "2 sources within tolerance"
         },
         "ebitdaMargin": {
           "value": 24.799999999999997,

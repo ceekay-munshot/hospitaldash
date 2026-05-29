@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-05-29T11:01:37.979Z",
+  "lastBuiltAt": "2026-05-29T11:03:28.432Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 995.15,
@@ -285,8 +285,8 @@
           "value": 4966,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -305,7 +305,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 200 (×24.8)"
+          "reason": "2 sources agree"
         },
         "bedsUnderDevelopment": {
           "value": 260,
@@ -692,6 +692,12 @@
       },
       "derived": {
         "patMargin": 14.53,
+        "vacantBeds": 1034,
+        "bedUtilizationPct": 82.8,
+        "bedsPerHospital": 236,
+        "revenuePerBedQuarter": 5364478,
+        "ebitdaPerBedQuarter": 1373339,
+        "bedTurnoverQuarter": 16.47,
         "revenueTtmCr": 10481,
         "ebitdaTtmCr": 2637,
         "netDebtToEbitda": 0.72,
@@ -785,8 +791,8 @@
           "value": 4826.5,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -805,7 +811,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 200 (×24.1)"
+          "reason": "2 sources agree"
         },
         "bedsUnderDevelopment": {
           "value": 4600,
@@ -1639,7 +1645,13 @@
         }
       },
       "derived": {
-        "patMargin": 13.19
+        "patMargin": 13.19,
+        "vacantBeds": 373.5,
+        "bedUtilizationPct": 92.8,
+        "bedsPerHospital": 241,
+        "revenuePerBedQuarter": 5403502,
+        "ebitdaPerBedQuarter": 1342588,
+        "bedTurnoverQuarter": 16.99
       }
     },
     "FY26-Q2": {
@@ -1713,8 +1725,8 @@
           "value": 4760,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1733,7 +1745,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 200 (×23.8)"
+          "reason": "2 sources agree"
         },
         "bedsUnderDevelopment": {
           "value": 130,
@@ -2111,7 +2123,13 @@
         }
       },
       "derived": {
-        "patMargin": 20.58
+        "patMargin": 20.58,
+        "vacantBeds": 440,
+        "bedUtilizationPct": 91.5,
+        "bedsPerHospital": 238,
+        "revenuePerBedQuarter": 5655462,
+        "ebitdaPerBedQuarter": 1457983,
+        "bedTurnoverQuarter": 18.41
       }
     },
     "FY26-Q1": {

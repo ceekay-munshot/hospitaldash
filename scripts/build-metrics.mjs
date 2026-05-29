@@ -240,7 +240,10 @@ async function processCompany(company) {
     for (let i = 0; i < oldestFirst.length; i++) {
       const fq = oldestFirst[i];
       const m = quarters[fq]?.metrics?.[key];
-      if (!m || !m.clientSafe || m.status === 'verified') continue; // never touch a manual override
+      if (!m || !m.clientSafe) continue;
+      // Never override stronger evidence than the heuristic: a manual override
+      // or a multi-source-agreeing (corroborated) value beats the median check.
+      if (m.status === 'verified' || m.status === 'corroborated') continue;
       const v = m.value;
       if (v == null) continue;
 

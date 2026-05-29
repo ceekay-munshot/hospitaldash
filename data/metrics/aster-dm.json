@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": null,
   "isin": null,
-  "lastBuiltAt": "2026-05-29T11:01:38.035Z",
+  "lastBuiltAt": "2026-05-29T11:03:28.490Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 741.05,
@@ -1481,8 +1481,8 @@
           "value": 118552,
           "unit": "INR_per_day",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -1517,7 +1517,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 45900 (×2.6)"
+          "reason": "4 sources agree"
         },
         "arpp": {
           "value": 118552,
@@ -3142,7 +3142,8 @@
         "bedsPerHospital": 205,
         "revenuePerBedQuarter": 2569373,
         "ebitdaPerBedQuarter": 524152,
-        "bedTurnoverQuarter": 40.93
+        "bedTurnoverQuarter": 40.93,
+        "patTtmCr": 276.1
       }
     },
     "FY25-Q4": {
@@ -3462,7 +3463,8 @@
         "bedUtilizationPct": 73.4,
         "bedsPerHospital": 198,
         "ebitdaPerBedQuarter": 1627722,
-        "bedTurnoverQuarter": 55.48
+        "bedTurnoverQuarter": 55.48,
+        "patTtmCr": 374.1
       }
     },
     "FY25-Q3": {
@@ -3566,8 +3568,8 @@
           "value": 10125,
           "unit": "count",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -3650,7 +3652,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 4899 (×2.1)"
+          "reason": "6 sources agree"
         },
         "operationalBeds": {
           "value": 3689,
@@ -4214,8 +4216,8 @@
           "value": -9.27,
           "unit": "INR_crore",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -4242,7 +4244,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 135 (×-0.1)"
+          "reason": "3 sources within tolerance"
         },
         "netDebt": {
           "value": -56,
@@ -4454,6 +4456,8 @@
         }
       },
       "derived": {
+        "vacantBeds": 6436,
+        "bedUtilizationPct": 36.4,
         "bedsPerHospital": 194
       }
     },

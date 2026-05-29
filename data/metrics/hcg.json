@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-05-29T11:01:38.060Z",
+  "lastBuiltAt": "2026-05-29T11:03:28.513Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 659.5,
@@ -168,7 +168,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 44553 (×1.9)"
+          "reason": "outlier vs recent median 44751 (×1.9)"
         },
         "arpp": {
           "value": null,
@@ -593,8 +593,8 @@
           "value": 83784,
           "unit": "INR_per_day",
           "confidence": "high",
-          "status": "review",
-          "clientSafe": false,
+          "status": "corroborated",
+          "clientSafe": true,
           "sources": [
             {
               "docType": "investor-presentation",
@@ -613,7 +613,7 @@
               "periodMismatch": false
             }
           ],
-          "reason": "outlier vs recent median 44553 (×1.9)"
+          "reason": "2 sources within tolerance"
         },
         "arpp": {
           "value": 84000,
