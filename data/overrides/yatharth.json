@@ -8,7 +8,8 @@
     "revenue":      { "value": 341.6, "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 investor-presentation" },
     "ebitda":       { "value": 79.9,  "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 investor-presentation" },
     "ebitdaMargin": { "value": 23.4,  "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 investor-presentation" },
-    "pat":          { "value": 44.7,  "note": "Q4 FY26 PAT = Rs 447 mn / 10 = ₹44.7 Cr (verified from investor deck Q4 FY26 financial snapshot)", "source": "Q4 FY26 investor-presentation, verified" }
+    "pat":          { "value": 44.7,  "note": "Q4 FY26 PAT = Rs 447 mn / 10 = ₹44.7 Cr (verified from investor deck Q4 FY26 financial snapshot)", "source": "Q4 FY26 investor-presentation, verified" },
+    "bedCapacity":  { "value": 2800,  "note": "Q4 FY26 bed capacity (~2,800+; matches verified deck snapshot)", "source": "Q4 FY26 investor-presentation" }
   },
 
   "FY26-Q4": {
@@ -18,7 +19,8 @@
     "revenue":      { "value": 320.5, "note": "Q3 FY26 revenue from operations, INR Cr",  "source": "Q3 FY26 concall transcript" },
     "ebitda":       { "value": 74.2,  "note": "Q3 FY26 EBITDA, INR Cr",                    "source": "Q3 FY26 concall transcript" },
     "ebitdaMargin": { "value": 29.2,  "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
-    "pat":          { "value": 43.1,  "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" }
+    "pat":          { "value": 43.1,  "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" },
+    "operationalBeds": { "value": 2305, "note": "Q3 FY26 operational beds (discarded 150=one hospital, 2500=capacity)", "source": "Q3 FY26 investor-presentation" }
   },
 
   "FY26-Q3": {

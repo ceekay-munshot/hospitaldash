@@ -1,0 +1,10 @@
+{
+  "_comment": "Medanta (Global Health) overrides. Operational beds across 6-hospital network ~2,737; candidates included per-hospital (328/382) and total-capacity (3579/3597) values. Revenue quarterly ~1,143 Cr.",
+  "FY27-Q1": {
+    "operationalBeds": { "value": 2737, "note": "Q4 FY26 network operational beds (discarded 382=one hospital, 3579=capacity)", "source": "Q4 FY26 deck" }
+  },
+  "FY26-Q4": {
+    "operationalBeds": { "value": 2737, "note": "Q3 FY26 network operational beds (carried — stable QoQ; candidates 328/3597 were per-hospital/capacity)", "source": "consistent with Q4 FY26 deck" },
+    "revenue":         { "value": 1142.8, "note": "Q3 FY26 quarterly revenue INR Cr (discarded 94 as garbage)", "source": "Q3 FY26 concall" }
+  }
+}

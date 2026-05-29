@@ -1,0 +1,7 @@
+{
+  "_comment": "Fortis overrides. FY26-Q4 (reports Q3 FY26) revenue/EBITDA had standalone-vs-consolidated + 9M-YTD candidates. Picked values consistent with neighbouring FY27-Q1 (rev 2365, ~22.5% margin).",
+  "FY26-Q4": {
+    "revenue": { "value": 2265, "note": "Q3 FY26 consolidated revenue INR Cr (smooth trend to FY27-Q1=2365; discarded 678/443 standalone-only)", "source": "Q3 FY26 concall" },
+    "ebitda":  { "value": 505,  "note": "Q3 FY26 EBITDA INR Cr (≈22.3% margin, consistent with FY27-Q1 22.5%)", "source": "Q3 FY26 concall" }
+  }
+}

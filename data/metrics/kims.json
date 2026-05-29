@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-05-29T11:03:28.504Z",
+  "lastBuiltAt": "2026-05-29T13:19:02.942Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 784.7,
@@ -207,38 +207,19 @@
           "reason": "sources disagree (609724 … 2300360)"
         },
         "arpob": {
-          "value": 47132,
+          "value": 44644,
           "unit": "INR_per_day",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-16",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a088671-c9a5-4286-b3b5-33801f59fccd.pdf",
-              "value": 44644,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "concall-transcript",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0fbbe0a-35fc-4ed0-9ddf-da65222c638f.pdf",
-              "value": 75000,
-              "confidence": "medium",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-16",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f3da36b-ee6e-4abb-8426-5a4a91b9c917.pdf",
-              "value": 47132,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 ARPOB INR/day (discarded 75000 = different metric in concall)",
+              "source": "Q4 FY26 investor-presentation"
             }
           ],
-          "reason": "sources disagree (44644 … 75000)"
+          "reason": "manual override"
         },
         "arpp": {
           "value": 164779,

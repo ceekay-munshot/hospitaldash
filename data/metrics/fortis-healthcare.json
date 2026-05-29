@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "FORTIS",
   "isin": "INE061F01013",
-  "lastBuiltAt": "2026-05-29T11:03:28.448Z",
+  "lastBuiltAt": "2026-05-29T13:19:02.665Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 960.7,
@@ -441,6 +441,7 @@
         "revenuePerBedQuarter": 3876508,
         "ebitdaPerBedQuarter": 870492,
         "bedTurnoverQuarter": 0.55,
+        "revenueTtmCr": 8541.7,
         "enterpriseValueCr": 74862.8,
         "evPerBedLakhs": 1227.3
       }
@@ -680,80 +681,34 @@
           "reason": "all candidates out of range or empty"
         },
         "revenue": {
-          "value": 1308.145,
+          "value": 2265,
           "unit": "INR_crore",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-01-08",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/843f3f26-ee30-4760-aa3f-3b602bc394dc.pdf",
-              "value": 678.29,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "concall-transcript",
-              "date": "2026-02-20",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/76a1f65a-3975-401f-af1f-29858affadb7.pdf",
-              "value": 2265,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01413f3c-c861-489a-95e3-ab495b3f7cfd.pdf",
-              "value": 442.93,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0cb073de-16a8-45cf-9300-488ace036e69.pdf",
-              "value": 1938,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 consolidated revenue INR Cr (smooth trend to FY27-Q1=2365; discarded 678/443 standalone-only)",
+              "source": "Q3 FY26 concall"
             }
           ],
-          "reason": "sources disagree (442.93 … 2265)"
+          "reason": "manual override"
         },
         "ebitda": {
-          "value": 420,
+          "value": 505,
           "unit": "INR_crore",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "concall-transcript",
-              "date": "2026-02-20",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/76a1f65a-3975-401f-af1f-29858affadb7.pdf",
-              "value": 505,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01413f3c-c861-489a-95e3-ab495b3f7cfd.pdf",
-              "value": 114.98,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0cb073de-16a8-45cf-9300-488ace036e69.pdf",
-              "value": 420,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 EBITDA INR Cr (≈22.3% margin, consistent with FY27-Q1 22.5%)",
+              "source": "Q3 FY26 concall"
             }
           ],
-          "reason": "sources disagree (114.98 … 505)"
+          "reason": "manual override"
         },
         "ebitdaMargin": {
           "value": 22.3,
@@ -895,10 +850,14 @@
         }
       },
       "derived": {
+        "patMargin": 8.7,
         "vacantBeds": 1700,
         "bedUtilizationPct": 77.6,
         "bedsPerHospital": 169,
-        "bedTurnoverQuarter": 0.5
+        "revenuePerBedQuarter": 3838983,
+        "ebitdaPerBedQuarter": 855932,
+        "bedTurnoverQuarter": 0.5,
+        "revenueTtmCr": 7946.5
       }
     },
     "FY26-Q3": {

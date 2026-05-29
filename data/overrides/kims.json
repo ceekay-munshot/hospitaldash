@@ -8,7 +8,8 @@
     "revenue":      { "value": 1084,  "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 concall transcript" },
     "ebitda":       { "value": 216,   "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 concall transcript" },
     "ebitdaMargin": { "value": 19.9,  "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 concall transcript" },
-    "pat":          { "value": 33,    "note": "Q4 FY26 PAT, INR Cr",                       "source": "Q4 FY26 concall transcript" }
+    "pat":          { "value": 33,    "note": "Q4 FY26 PAT, INR Cr",                       "source": "Q4 FY26 concall transcript" },
+    "arpob":        { "value": 44644, "note": "Q4 FY26 ARPOB INR/day (discarded 75000 = different metric in concall)", "source": "Q4 FY26 investor-presentation" }
   },
 
   "FY26-Q3": {

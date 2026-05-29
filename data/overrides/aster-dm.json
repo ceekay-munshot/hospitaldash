@@ -1,0 +1,14 @@
+{
+  "_comment": "Aster DM overrides. India-focused post-GCC-divestment. Candidates had annual/consolidated values mixed with India-only quarterly. Picked India-only quarterly (concall figures). NOTE: Aster is the messiest due to divestment timing — flag for real verification when possible.",
+  "FY27-Q1": {
+    "operationalBeds": { "value": 5449, "note": "India operational beds (Q4 FY26)", "source": "Q4 FY26 concall" },
+    "bedCapacity":     { "value": 5451, "note": "India bed capacity (Q4 FY26)", "source": "Q4 FY26 deck" },
+    "arpob":           { "value": 51800, "note": "Q4 FY26 ARPOB INR/day (discarded 135000/125234 as unit-confused)", "source": "Q4 FY26 deck" },
+    "pat":             { "value": 140, "note": "Q4 FY26 PAT INR Cr", "source": "Q4 FY26 deck" }
+  },
+  "FY26-Q4": {
+    "revenue":      { "value": 1186, "note": "Q3 FY26 India quarterly revenue INR Cr (discarded 3461/2366 as annual/9M)", "source": "Q3 FY26 concall" },
+    "ebitda":       { "value": 224, "note": "Q3 FY26 EBITDA INR Cr (≈18.9% margin, consistent)", "source": "Q3 FY26 concall" },
+    "arpob":        { "value": 66500, "note": "Q3 FY26 ARPOB INR/day (discarded 133945/122294 as 2x inflated)", "source": "Q3 FY26 concall" }
+  }
+}

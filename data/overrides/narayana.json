@@ -1,0 +1,8 @@
+{
+  "_comment": "Narayana overrides. Narayana's LLM extractions are the most unreliable in the set — its decks report consolidated (incl. Cayman Islands Health City) vs India-only inconsistently, and financial candidates were garbage (EBITDA 22/5, PAT 75/2 — all far below the true ~250 Cr EBITDA / ~150 Cr PAT quarterly). Revenue candidate 2593.8 is likely consolidated-half-year, not a single quarter. These four cells are LEFT FLAGGED (shown as — on dashboard) pending a real source check — better blank than wrong. ARPOB 18,600 kept as it's plausible for Narayana's India value-care positioning but marked low confidence.",
+  "_FLAGGED_NEEDS_REAL_SOURCE": {
+    "FY27-Q1.revenue": "candidate 2593.8 likely H1/consolidated — true single-qtr ~1,400 Cr; needs deck check",
+    "FY26-Q4.ebitda": "candidates 22/5 are garbage — true ~250-280 Cr; needs deck check",
+    "FY26-Q4.pat": "candidates 75.7/2.3 likely standalone/garbage — true consolidated ~150-190 Cr; needs deck check"
+  }
+}

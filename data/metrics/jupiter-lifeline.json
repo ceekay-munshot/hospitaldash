@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "JLHL",
   "isin": "INE682M01012",
-  "lastBuiltAt": "2026-05-29T11:03:28.531Z",
+  "lastBuiltAt": "2026-05-29T13:19:03.091Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1328.95,
@@ -468,36 +468,17 @@
         "bedCapacity": {
           "value": 2500,
           "unit": "count",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-01-31",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/438b0112-d6c1-4a09-9b7e-c6b692b38d96.pdf",
-              "value": 2500,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "investor-presentation",
-              "date": "2026-01-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fee6e792-8a1b-46b5-bebf-38bed7e99af5.pdf",
-              "value": 2500,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "concall-transcript",
-              "date": "2026-02-05",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2b2e8c3-f4d9-4fab-a655-3de5894f7086.pdf",
-              "value": 500,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 network bed capacity (2 sources agree; discarded 500=one hospital)",
+              "source": "Q3 FY26 deck"
             }
           ],
-          "reason": "sources disagree (500 … 2500)"
+          "reason": "manual override"
         },
         "operationalBeds": {
           "value": 1061,
@@ -806,6 +787,8 @@
       },
       "derived": {
         "patMargin": 11.63,
+        "vacantBeds": 1439,
+        "bedUtilizationPct": 42.4,
         "bedsPerHospital": 1061,
         "revenuePerBedQuarter": 3442978,
         "ebitdaPerBedQuarter": 786051

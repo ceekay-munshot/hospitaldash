@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "YATHARTH",
   "isin": "INE0JO301016",
-  "lastBuiltAt": "2026-05-29T11:03:28.540Z",
+  "lastBuiltAt": "2026-05-29T13:19:03.099Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 813.55,
@@ -59,36 +59,17 @@
         "bedCapacity": {
           "value": 2800,
           "unit": "count",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-25",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/01083635-f989-43ae-a16f-e82deabe067c.pdf",
-              "value": 2800,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-05-25",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46f85f88-0d0d-44e5-ad3b-8cc68bb996e5.pdf",
-              "value": 1150,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/752c8245-ea85-4d5b-81ba-abdf178fdd12.pdf",
-              "value": 3250,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 bed capacity (~2,800+; matches verified deck snapshot)",
+              "source": "Q4 FY26 investor-presentation"
             }
           ],
-          "reason": "sources disagree (1150 … 3250)"
+          "reason": "manual override"
         },
         "operationalBeds": {
           "value": 2527.5,
@@ -390,6 +371,8 @@
       },
       "derived": {
         "patMargin": 13.09,
+        "vacantBeds": 272.5,
+        "bedUtilizationPct": 90.3,
         "bedsPerHospital": 316,
         "revenuePerBedQuarter": 1351533,
         "ebitdaPerBedQuarter": 316123,
@@ -457,36 +440,17 @@
         "operationalBeds": {
           "value": 2305,
           "unit": "count",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-02-05",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/05d3571a-e94f-4c8b-86a7-0430177111d4.pdf",
-              "value": 2305,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-02-05",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d54e637c-d0d9-4b1a-b5cf-4813c48097cd.pdf",
-              "value": 150,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-25",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73bbe9f9-4291-496e-9ff3-84c14c0d4180.pdf",
-              "value": 2500,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 operational beds (discarded 150=one hospital, 2500=capacity)",
+              "source": "Q3 FY26 investor-presentation"
             }
           ],
-          "reason": "sources disagree (150 … 2500)"
+          "reason": "manual override"
         },
         "newHospitalsPlanned": {
           "value": 1,
@@ -692,6 +656,12 @@
       },
       "derived": {
         "patMargin": 13.45,
+        "vacantBeds": 595,
+        "bedUtilizationPct": 79.5,
+        "bedsPerHospital": 288,
+        "revenuePerBedQuarter": 1390456,
+        "ebitdaPerBedQuarter": 321909,
+        "bedTurnoverQuarter": 0.69,
         "revenueTtmCr": 1089.5,
         "ebitdaTtmCr": 260.2,
         "patTtmCr": 165.8

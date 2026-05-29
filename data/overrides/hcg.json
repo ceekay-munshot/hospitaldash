@@ -1,6 +1,13 @@
 {
   "_comment": "HCG quarterly metric overrides — concall transcript values used because investor-presentation extractions stored numbers without 'INR Mn' unit indicator in quote, so auto-fix didn't catch them. Concall values are correct (already in INR Cr).",
 
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports on Q4 FY26 (period ending Mar 2026)",
+    "bedCapacity": { "value": 2605, "note": "Q4 FY26 bed capacity (discarded 132=one center)", "source": "Q4 FY26 deck" },
+    "ebitda":      { "value": 125.2, "note": "Q4 FY26 EBITDA INR Cr (discarded 0.386 garbage)", "source": "Q4 FY26 deck" },
+    "arpob":       { "value": 84461, "note": "Q4 FY26 ARPOB INR/day (oncology premium — single clean source)", "source": "Q4 FY26 deck" }
+  },
+
   "FY26-Q4": {
     "_quarter_meaning": "Filing FY26-Q4 reports on Q3 FY26 (period ending Dec 2025)",
     "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/17e2b542-4587-420a-b3a1-8d4d78004dcd.pdf",

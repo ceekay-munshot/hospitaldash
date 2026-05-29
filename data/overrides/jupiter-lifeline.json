@@ -22,7 +22,8 @@
     "ebitdaMargin":    { "value": 22.8,   "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
     "pat":             { "value": 42.5,   "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" },
     "arpob":           { "value": 68000,  "note": "Q3 FY26 ARPOB, INR/day",                    "source": "Q3 FY26 concall transcript" },
-    "operationalBeds": { "value": 1061,   "note": "Network operational beds",                  "source": "Jupiter network total" }
+    "operationalBeds": { "value": 1061,   "note": "Network operational beds",                  "source": "Jupiter network total" },
+    "bedCapacity":     { "value": 2500,   "note": "Q3 FY26 network bed capacity (2 sources agree; discarded 500=one hospital)", "source": "Q3 FY26 deck" }
   },
 
   "FY26-Q3": {
