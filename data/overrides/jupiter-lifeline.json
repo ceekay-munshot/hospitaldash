@@ -1,0 +1,49 @@
+{
+  "_comment": "Jupiter Life Line Hospitals quarterly overrides. Mix of issues: ARPOB sometimes captured at 100x scale, operational beds sometimes per-hospital (300) instead of network total (~1061), revenue/EBITDA/PAT mostly correct from concall extractions. Override the 4 latest quarters which dominate dashboard view.",
+
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports on Q4 FY26 (period ending Mar 2026)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b3fdc7f-875d-4212-91e4-08b8612b9fc8.pdf",
+    "_what_to_check": "Open PDF → find 'Q4 FY26' / 'Quarter ended March 2026' single-quarter numbers. Verify the 6 numbers below.",
+    "revenue":         { "value": 387.8,  "note": "Q4 FY26 revenue from operations, INR Cr",  "source": "Q4 FY26 concall transcript" },
+    "ebitda":          { "value": 89.2,   "note": "Q4 FY26 EBITDA, INR Cr",                    "source": "Q4 FY26 concall transcript" },
+    "ebitdaMargin":    { "value": 23,     "note": "Q4 FY26 EBITDA margin %",                  "source": "Q4 FY26 concall transcript" },
+    "pat":             { "value": 50.2,   "note": "Q4 FY26 PAT, INR Cr",                       "source": "Q4 FY26 concall transcript" },
+    "arpob":           { "value": 67700,  "note": "Q4 FY26 ARPOB, INR/day",                    "source": "Q4 FY26 concall transcript" },
+    "operationalBeds": { "value": 1061,   "note": "Network operational beds (Thane+Pune+Indore+Dombivli)", "source": "Jupiter network total" }
+  },
+
+  "FY26-Q4": {
+    "_quarter_meaning": "Filing FY26-Q4 reports on Q3 FY26 (period ending Dec 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b2b2e8c3-f4d9-4fab-a655-3de5894f7086.pdf",
+    "_what_to_check": "Open PDF → find 'Q3 FY26' single-quarter column (NOT '9M FY26'). Verify the 6 numbers below.",
+    "revenue":         { "value": 365.3,  "note": "Q3 FY26 revenue from operations, INR Cr",  "source": "Q3 FY26 concall transcript" },
+    "ebitda":          { "value": 83.4,   "note": "Q3 FY26 EBITDA, INR Cr",                    "source": "Q3 FY26 concall transcript" },
+    "ebitdaMargin":    { "value": 22.8,   "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
+    "pat":             { "value": 42.5,   "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" },
+    "arpob":           { "value": 68000,  "note": "Q3 FY26 ARPOB, INR/day",                    "source": "Q3 FY26 concall transcript" },
+    "operationalBeds": { "value": 1061,   "note": "Network operational beds",                  "source": "Jupiter network total" }
+  },
+
+  "FY26-Q3": {
+    "_quarter_meaning": "Filing FY26-Q3 reports on Q2 FY26 (period ending Sep 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/684edcac-492d-44b3-a47a-97d8501818c5.pdf",
+    "_what_to_check": "Open PDF → find 'Q2 FY26' single-quarter column. Verify the 5 numbers below.",
+    "revenue":         { "value": 374.4,  "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
+    "ebitda":          { "value": 85.4,   "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
+    "ebitdaMargin":    { "value": 22.8,   "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
+    "pat":             { "value": 57.4,   "note": "Q2 FY26 PAT, INR Cr",                       "source": "Q2 FY26 concall transcript" },
+    "arpob":           { "value": 67000,  "note": "Q2 FY26 ARPOB approximate (concall stored as 2203 — wrong scale)",  "source": "Estimated from quarterly trend" }
+  },
+
+  "FY26-Q2": {
+    "_quarter_meaning": "Filing FY26-Q2 reports on Q1 FY26 (period ending Jun 2025)",
+    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/492e615d-8880-4cbb-bb35-944da307d708.pdf",
+    "_what_to_check": "Open PDF → find 'Q1 FY26' single-quarter column. Verify the 5 numbers below.",
+    "revenue":         { "value": 347.6,  "note": "Q1 FY26 revenue from operations, INR Cr",  "source": "Q1 FY26 concall transcript" },
+    "ebitda":          { "value": 78.1,   "note": "Q1 FY26 EBITDA, INR Cr",                    "source": "Q1 FY26 concall transcript" },
+    "ebitdaMargin":    { "value": 22.5,   "note": "Q1 FY26 EBITDA margin %",                  "source": "Q1 FY26 concall transcript" },
+    "pat":             { "value": 43.9,   "note": "Q1 FY26 PAT, INR Cr",                       "source": "Q1 FY26 concall transcript" },
+    "arpob":           { "value": 67300,  "note": "Q1 FY26 ARPOB, INR/day",                    "source": "Q1 FY26 concall transcript" }
+  }
+}
