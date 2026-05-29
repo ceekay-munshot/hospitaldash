@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-05-29T06:07:28.422Z",
+  "lastBuiltAt": "2026-05-29T06:14:39.866Z",
   "latestQuote": {
     "date": "2026-05-28",
     "price": 1376.75,
@@ -110,10 +110,15 @@
       ],
       "metrics": {
         "revenue": {
-          "value": 4080.64,
+          "value": 445.4,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: Revenue from operations",
+          "confidence": "high",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 revenue from operations, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -122,10 +127,15 @@
           }
         },
         "ebitda": {
-          "value": 554.76,
+          "value": 147,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: EBITDA (derived: PBT + Depr + Finance cost)",
+          "confidence": "high",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 EBITDA, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -134,10 +144,15 @@
           }
         },
         "ebitdaMargin": {
-          "value": 13.59,
+          "value": 33,
           "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: EBITDA margin",
+          "confidence": "high",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 EBITDA margin %",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -146,10 +161,15 @@
           }
         },
         "pat": {
-          "value": 31,
+          "value": 73.9,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q4: Profit for the period",
+          "confidence": "high",
+          "quote": "Q3 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q3 FY26 PAT, INR Cr",
+            "source": "Q3 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -303,17 +323,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 92847327,
-        "ebitdaPerBedYearly": 12622526,
+        "revenuePerBedYearly": 10134243,
+        "ebitdaPerBedYearly": 3344710,
         "bedTurnoverYearly": 63.66,
         "bedActivationPct": 72.2,
         "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.3,
-        "peAnnualised": 112.76,
+        "evToEbitdaAnnualised": 23.78,
+        "peAnnualised": 47.3,
         "evPerBedCr": 7.953,
         "evPerBedLakhs": 795.3,
-        "patMargin": 0.76,
-        "ebitdaTtmCr": 3143
+        "patMargin": 16.59,
+        "ebitdaTtmCr": 514.1
       }
     },
     "FY26-Q3": {
@@ -357,10 +377,15 @@
       ],
       "metrics": {
         "revenue": {
-          "value": 3943.52,
+          "value": 444.8,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Revenue from operations",
+          "confidence": "high",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 revenue from operations, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -369,10 +394,15 @@
           }
         },
         "ebitda": {
-          "value": 588.7,
+          "value": 148.8,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: EBITDA (derived: PBT + Depr + Finance cost)",
+          "confidence": "high",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 EBITDA, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -381,10 +411,15 @@
           }
         },
         "ebitdaMargin": {
-          "value": 14.93,
+          "value": 33.5,
           "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: EBITDA margin",
+          "confidence": "high",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 EBITDA margin %",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -393,10 +428,15 @@
           }
         },
         "pat": {
-          "value": 30.54,
+          "value": 75.6,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q3: Profit for the period",
+          "confidence": "high",
+          "quote": "Q2 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q2 FY26 PAT, INR Cr",
+            "source": "Q2 FY26 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -538,17 +578,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 89727418,
-        "ebitdaPerBedYearly": 13394767,
+        "revenuePerBedYearly": 10120592,
+        "ebitdaPerBedYearly": 3385666,
         "bedTurnoverYearly": 58.26,
         "bedActivationPct": 74,
         "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 5.94,
-        "peAnnualised": 114.46,
+        "evToEbitdaAnnualised": 23.49,
+        "peAnnualised": 46.24,
         "evPerBedCr": 7.953,
         "evPerBedLakhs": 795.3,
-        "patMargin": 0.77,
-        "ebitdaTtmCr": 3088.9
+        "patMargin": 17,
+        "ebitdaTtmCr": 867.7
       }
     },
     "FY26-Q2": {
@@ -700,10 +740,15 @@
           }
         },
         "revenue": {
-          "value": 4448,
+          "value": 353,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "4,448.0",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 revenue from operations, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
@@ -712,10 +757,15 @@
           }
         },
         "ebitda": {
-          "value": 1488.7,
+          "value": 103.6,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "1,488.7",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 EBITDA, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
@@ -724,10 +774,15 @@
           }
         },
         "ebitdaMargin": {
-          "value": 33.5,
+          "value": 29.4,
           "unit": "%",
           "confidence": "high",
-          "quote": "33.5%",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 EBITDA margin %",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
@@ -736,10 +791,15 @@
           }
         },
         "pat": {
-          "value": 756.2,
+          "value": 53.8,
           "unit": "INR_crore",
           "confidence": "high",
-          "quote": "756.2",
+          "quote": "Q1 FY26 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q1 FY26 PAT, INR Cr",
+            "source": "Q1 FY26 concall transcript"
+          },
           "source": {
             "docType": "investor-presentation",
             "newsId": "a36bcc55-7883-4a1a-9fd9-e7c24a634fe5",
@@ -773,17 +833,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 109759408,
-        "ebitdaPerBedYearly": 36735349,
+        "revenuePerBedYearly": 8710672,
+        "ebitdaPerBedYearly": 2556447,
         "bedTurnoverYearly": 70.03,
         "bedActivationPct": 70.9,
         "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 2.35,
-        "peAnnualised": 4.62,
+        "evToEbitdaAnnualised": 33.74,
+        "peAnnualised": 64.97,
         "evPerBedCr": 8.626,
         "evPerBedLakhs": 862.6,
-        "patMargin": 17,
-        "ebitdaTtmCr": 3012.2
+        "patMargin": 15.24,
+        "ebitdaTtmCr": 1231
       }
     },
     "FY26-Q1": {
@@ -827,10 +887,15 @@
       ],
       "metrics": {
         "revenue": {
-          "value": 3529.29,
+          "value": 370.1,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: Revenue from operations",
+          "confidence": "high",
+          "quote": "Q4 FY25 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY25 revenue from operations, INR Cr",
+            "source": "Q4 FY25 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -839,10 +904,15 @@
           }
         },
         "ebitda": {
-          "value": 510.86,
+          "value": 114.7,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: EBITDA (derived: PBT + Depr + Finance cost)",
+          "confidence": "high",
+          "quote": "Q4 FY25 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY25 EBITDA, INR Cr",
+            "source": "Q4 FY25 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -851,10 +921,15 @@
           }
         },
         "ebitdaMargin": {
-          "value": 14.47,
+          "value": 31,
           "unit": "%",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: EBITDA margin",
+          "confidence": "high",
+          "quote": "Q4 FY25 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY25 EBITDA margin %",
+            "source": "Q4 FY25 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -863,10 +938,15 @@
           }
         },
         "pat": {
-          "value": 20,
+          "value": 56.5,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "quote": "BSE structured filing (derived-from-pdf) for FY26-Q1: Profit for the period",
+          "confidence": "high",
+          "quote": "Q4 FY25 concall transcript",
+          "overridden": true,
+          "override": {
+            "note": "Q4 FY25 PAT, INR Cr",
+            "source": "Q4 FY25 concall transcript"
+          },
           "source": {
             "docType": "bse-quarterly-result-api",
             "newsId": null,
@@ -1008,17 +1088,17 @@
         }
       },
       "derived": {
-        "revenuePerBedYearly": 92693106,
-        "ebitdaPerBedYearly": 13417203,
+        "revenuePerBedYearly": 9720289,
+        "ebitdaPerBedYearly": 3012475,
         "bedTurnoverYearly": 55.13,
         "bedActivationPct": 74.8,
         "enterpriseValueCr": 13982.2,
-        "evToEbitdaAnnualised": 6.84,
-        "peAnnualised": 174.78,
+        "evToEbitdaAnnualised": 30.48,
+        "peAnnualised": 61.87,
         "evPerBedCr": 9.181,
         "evPerBedLakhs": 918.1,
-        "patMargin": 0.57,
-        "ebitdaTtmCr": 2030.7
+        "patMargin": 15.27,
+        "ebitdaTtmCr": 1634.5
       }
     },
     "FY25-Q4": {
