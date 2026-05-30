@@ -232,9 +232,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-05-30",
+      "price": 929.9,
+      "open": 960.7,
+      "high": 967,
+      "low": 920.4,
+      "prevClose": 960.7,
+      "change": -30.8,
+      "changePct": -3.21,
+      "volumeShares": 87000,
+      "turnoverInr": 83600000,
+      "twoWeekAvgVolumeShares": 43000,
+      "weightedAvgPrice": 956.3,
+      "marketCapFullCr": 70203.56,
+      "marketCapFreeFloatCr": 48318.58,
+      "circuitLimits": "87,462.00/836.95",
+      "faceValue": 10,
+      "isin": "INE061F01013",
+      "ticker": "FORTIS",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 200",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-05-29T17:34:30.566Z",
+  "lastFetchedAt": "2026-05-30T15:06:33.959Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -256,7 +289,7 @@
         "EquityScrips": "532843"
       },
       "Header": {
-        "Noticecnt": "16",
+        "Noticecnt": "6",
         "PrevClose": "960.70",
         "Open": "960.70",
         "High": "967.00",

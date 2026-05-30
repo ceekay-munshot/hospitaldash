@@ -2,17 +2,17 @@
   "scripCode": "543308",
   "slug": "kims",
   "name": "KIMS",
-  "fetchedAt": "2026-05-29T17:33:28.906Z",
+  "fetchedAt": "2026-05-30T15:06:22.650Z",
   "window": {
-    "from": "20260228",
-    "to": "20260529",
+    "from": "20260301",
+    "to": "20260530",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260228&strScrip=543308&strSearch=P&strToDate=20260529&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260301&strScrip=543308&strSearch=P&strToDate=20260530&strType=C",
       "count": 322,
       "countFresh": 26,
       "chunks": 1,
@@ -9039,14 +9039,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260228&TDate=20260529&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543308&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260301&TDate=20260530&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543308&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260228&todate=20260529&scripcode=543308",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260301&todate=20260530&scripcode=543308",
       "count": 0,
       "tag": "confirmed",
       "data": []
