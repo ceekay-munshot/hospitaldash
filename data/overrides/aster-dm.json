@@ -1,14 +1,22 @@
 {
-  "_comment": "Aster DM overrides. India-focused post-GCC-divestment. Candidates had annual/consolidated values mixed with India-only quarterly. Picked India-only quarterly (concall figures). NOTE: Aster is the messiest due to divestment timing — flag for real verification when possible.",
+  "_comment": "Aster DM overrides — VERIFIED from user-provided Q4 FY26 operational metrics page screenshot. India-only post-GCC divestment.",
   "FY27-Q1": {
-    "operationalBeds": { "value": 5449, "note": "India operational beds (Q4 FY26)", "source": "Q4 FY26 concall" },
-    "bedCapacity":     { "value": 5451, "note": "India bed capacity (Q4 FY26)", "source": "Q4 FY26 deck" },
-    "arpob":           { "value": 51800, "note": "Q4 FY26 ARPOB INR/day (discarded 135000/125234 as unit-confused)", "source": "Q4 FY26 deck" },
-    "pat":             { "value": 140, "note": "Q4 FY26 PAT INR Cr", "source": "Q4 FY26 deck" }
+    "_quarter_meaning": "Filing FY27-Q1 reports Q4 FY26",
+    "_source_screenshot": "User-shared Q4 FY26 operational metrics table (5,449 total capacity / 3,939 census operational beds / ARPOB ₹54,300)",
+    "bedCapacity":     { "value": 5449,   "note": "Q4 FY26 Total Capacity Beds (Kerala+Karnataka+Maharashtra+AP+Telangana)", "source": "Q4 FY26 deck operational metrics, VERIFIED" },
+    "operationalBeds": { "value": 3939,   "note": "Q4 FY26 Operational Beds (Census) — primary; excludes 1,289 non-census",  "source": "Q4 FY26 deck, VERIFIED" },
+    "arpob":           { "value": 54300,  "note": "Q4 FY26 ARPOB INR/day — TOTAL network",       "source": "Q4 FY26 deck, VERIFIED" },
+    "arpp":            { "value": 125234, "note": "Q4 FY26 ARPP IP INR/patient — TOTAL network", "source": "Q4 FY26 deck, VERIFIED" },
+    "occupancyRate":   { "value": 59,     "note": "Q4 FY26 Occupancy % — TOTAL",                  "source": "Q4 FY26 deck, VERIFIED" },
+    "alos":            { "value": 3.1,    "note": "Q4 FY26 ALOS days — TOTAL",                    "source": "Q4 FY26 deck, VERIFIED" },
+    "ipVolume":        { "value": 68231,  "note": "Q4 FY26 In-patient visits — TOTAL",            "source": "Q4 FY26 deck, VERIFIED" },
+    "opVolume":        { "value": 910000, "note": "Q4 FY26 Outpatient Visits 0.91 mn = 910,000",  "source": "Q4 FY26 deck, VERIFIED" },
+    "pat":             { "value": 140,    "note": "Q4 FY26 PAT INR Cr",                            "source": "Q4 FY26 deck" }
   },
   "FY26-Q4": {
-    "revenue":      { "value": 1186, "note": "Q3 FY26 India quarterly revenue INR Cr (discarded 3461/2366 as annual/9M)", "source": "Q3 FY26 concall" },
-    "ebitda":       { "value": 224, "note": "Q3 FY26 EBITDA INR Cr (≈18.9% margin, consistent)", "source": "Q3 FY26 concall" },
-    "arpob":        { "value": 66500, "note": "Q3 FY26 ARPOB INR/day (discarded 133945/122294 as 2x inflated)", "source": "Q3 FY26 concall" }
+    "_quarter_meaning": "Filing FY26-Q4 reports Q3 FY26",
+    "_note_arpob": "Aster Q3 FY26 deck only published 9M FY26 ARPOB (51,100), not single-quarter — left blank intentionally per user check.",
+    "revenue": { "value": 1186, "note": "Q3 FY26 India quarterly revenue INR Cr", "source": "Q3 FY26 concall, VERIFIED" },
+    "ebitda":  { "value": 224,  "note": "Q3 FY26 EBITDA INR Cr (~18.9% margin)",   "source": "Q3 FY26 concall, VERIFIED" }
   }
 }
