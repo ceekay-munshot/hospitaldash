@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "ASTERDM",
   "isin": "INE914M01019",
-  "lastBuiltAt": "2026-05-30T15:07:52.031Z",
+  "lastBuiltAt": "2026-05-30T15:47:16.951Z",
   "latestQuote": {
     "date": "2026-05-30",
     "price": 728.05,
@@ -73,21 +73,6 @@
           "reason": "4 sources agree"
         },
         "bedCapacity": {
-          "value": 5451,
-          "unit": "count",
-          "confidence": "verified",
-          "status": "verified",
-          "clientSafe": true,
-          "sources": [
-            {
-              "docType": "manual-override",
-              "note": "India bed capacity (Q4 FY26)",
-              "source": "Q4 FY26 deck"
-            }
-          ],
-          "reason": "manual override"
-        },
-        "operationalBeds": {
           "value": 5449,
           "unit": "count",
           "confidence": "verified",
@@ -96,8 +81,23 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "India operational beds (Q4 FY26)",
-              "source": "Q4 FY26 concall"
+              "note": "Q4 FY26 Total Capacity Beds (Kerala+Karnataka+Maharashtra+AP+Telangana)",
+              "source": "Q4 FY26 deck operational metrics, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "operationalBeds": {
+          "value": 3939,
+          "unit": "count",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 Operational Beds (Census) — primary; excludes 1,289 non-census",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
           "reason": "manual override"
@@ -171,103 +171,67 @@
           "reason": "2 sources within tolerance"
         },
         "occupancyRate": {
-          "value": 60.5,
+          "value": 59,
           "unit": "%",
-          "confidence": "high",
-          "status": "corroborated",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-04-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf",
-              "value": 61,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "concall-transcript",
-              "date": "2026-05-08",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf",
-              "value": 60,
-              "confidence": "medium",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 Occupancy % — TOTAL",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
-          "reason": "2 sources agree"
+          "reason": "manual override"
         },
         "alos": {
-          "value": 3.9,
+          "value": 3.1,
           "unit": "days",
-          "confidence": "high",
-          "status": "corroborated",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-04-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf",
-              "value": 3.1,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "concall-transcript",
-              "date": "2026-05-08",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf",
-              "value": 3.9,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-04-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c2aee8f4-a4ce-4bbc-a36a-2367f8cc05f4.pdf",
-              "value": 3.94,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 ALOS days — TOTAL",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
-          "reason": "2 sources agree"
+          "reason": "manual override"
         },
         "ipVolume": {
           "value": 68231,
           "unit": "admissions",
-          "confidence": "medium",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-04-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf",
-              "value": 68231,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 In-patient visits — TOTAL",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
-          "reason": "outlier vs recent median 208920 (×0.3)"
+          "reason": "manual override"
         },
         "opVolume": {
-          "value": 880000,
+          "value": 910000,
           "unit": "visits",
-          "confidence": "medium",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "concall-transcript",
-              "date": "2026-05-08",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf",
-              "value": 880000,
-              "confidence": "medium",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 Outpatient Visits 0.91 mn = 910,000",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
-          "reason": "outlier vs recent median 2510000 (×0.4)"
+          "reason": "manual override"
         },
         "arpob": {
-          "value": 51800,
+          "value": 54300,
           "unit": "INR_per_day",
           "confidence": "verified",
           "status": "verified",
@@ -275,29 +239,26 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q4 FY26 ARPOB INR/day (discarded 135000/125234 as unit-confused)",
-              "source": "Q4 FY26 deck"
+              "note": "Q4 FY26 ARPOB INR/day — TOTAL network",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
           "reason": "manual override"
         },
         "arpp": {
-          "value": 129779,
+          "value": 125234,
           "unit": "INR_per_patient",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-04-30",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf",
-              "value": 129779,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 ARPP IP INR/patient — TOTAL network",
+              "source": "Q4 FY26 deck, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "revenue": {
           "value": 1182,
@@ -531,13 +492,14 @@
       },
       "derived": {
         "patMargin": 11.84,
-        "vacantBeds": 2,
-        "bedUtilizationPct": 100,
-        "bedsPerHospital": 272,
-        "revenuePerBedQuarter": 2169205,
-        "ebitdaPerBedQuarter": 447789,
+        "vacantBeds": 1510,
+        "bedUtilizationPct": 72.3,
+        "bedsPerHospital": 197,
+        "revenuePerBedQuarter": 3000762,
+        "ebitdaPerBedQuarter": 619447,
+        "bedTurnoverQuarter": 17.32,
         "enterpriseValueCr": 37961.7,
-        "evPerBedLakhs": 696.7
+        "evPerBedLakhs": 963.7
       }
     },
     "FY26-Q4": {
@@ -830,19 +792,38 @@
           "reason": "outlier vs recent median 2510000 (×0.4)"
         },
         "arpob": {
-          "value": 66500,
+          "value": 122294,
           "unit": "INR_per_day",
-          "confidence": "verified",
-          "status": "verified",
-          "clientSafe": true,
+          "confidence": "low",
+          "status": "review",
+          "clientSafe": false,
           "sources": [
             {
-              "docType": "manual-override",
-              "note": "Q3 FY26 ARPOB INR/day (discarded 133945/122294 as 2x inflated)",
-              "source": "Q3 FY26 concall"
+              "docType": "investor-presentation",
+              "date": "2026-02-05",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00c944b6-a342-449a-ba3a-324c9b3da7c0.pdf",
+              "value": 133945,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "investor-presentation",
+              "date": "2026-01-30",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f1ce99a-22b5-49bb-973b-c9ff36eaad02.pdf",
+              "value": 122294,
+              "confidence": "high",
+              "periodMismatch": false
+            },
+            {
+              "docType": "concall-transcript",
+              "date": "2026-02-09",
+              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caa879ae-8f7c-4280-8e22-e09387565d78.pdf",
+              "value": 66500,
+              "confidence": "high",
+              "periodMismatch": false
             }
           ],
-          "reason": "manual override"
+          "reason": "sources disagree (66500 … 133945)"
         },
         "arpp": {
           "value": 84647,
@@ -879,8 +860,8 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 India quarterly revenue INR Cr (discarded 3461/2366 as annual/9M)",
-              "source": "Q3 FY26 concall"
+              "note": "Q3 FY26 India quarterly revenue INR Cr",
+              "source": "Q3 FY26 concall, VERIFIED"
             }
           ],
           "reason": "manual override"
@@ -894,8 +875,8 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 EBITDA INR Cr (≈18.9% margin, consistent)",
-              "source": "Q3 FY26 concall"
+              "note": "Q3 FY26 EBITDA INR Cr (~18.9% margin)",
+              "source": "Q3 FY26 concall, VERIFIED"
             }
           ],
           "reason": "manual override"
