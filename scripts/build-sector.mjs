@@ -158,6 +158,49 @@ async function run() {
         sources: [...srcMap.values()],
       };
     }
+    // Flatten periodViews (FY + TTM) the same way as quarters
+    function flattenPeriodView(pv) {
+      const flat = {};
+      for (const k of METRIC_KEYS) {
+        // For period views, look at both metrics and derived
+        let v = pv?.metrics?.[k]?.value;
+        if (v == null && DERIVED_KEYS.includes(k)) v = pv?.derived?.[k];
+        // Period-aliased derived names (build-metrics emits per-period naming)
+        if (v == null) {
+          const aliases = {
+            patMargin: 'patMargin',
+            revenuePerBedQuarter: 'revenuePerBed',
+            ebitdaPerBedQuarter: 'revenuePerBed', // legacy key
+            bedTurnoverQuarter: 'bedTurnover',
+            revenueTtmCr: 'revenue', // TTM view's revenue IS the TTM
+            ebitdaTtmCr: 'ebitda',
+            patTtmCr: 'pat',
+          };
+          const a = aliases[k];
+          if (a) v = pv?.derived?.[a];
+        }
+        if (v != null) flat[k] = v;
+      }
+      return flat;
+    }
+
+    const fyViews = {};
+    for (const [fyKey, pv] of Object.entries(metrics.periodViews?.fy || {})) {
+      fyViews[fyKey] = {
+        label: pv.label,
+        complete: pv.complete,
+        quartersUsed: pv.quartersUsed?.length || 0,
+        metrics: flattenPeriodView(pv),
+      };
+    }
+    const ttmViews = {};
+    for (const [endQ, pv] of Object.entries(metrics.periodViews?.ttm || {})) {
+      ttmViews[endQ] = {
+        label: pv.label,
+        metrics: flattenPeriodView(pv),
+      };
+    }
+
     byCompany[company.slug] = {
       slug: company.slug,
       name: company.name,
@@ -169,6 +212,11 @@ async function run() {
       latestQuote: metrics.latestQuote,
       coverage: metrics.coverage,
       quarters,
+      // Period-aware views — the period selector reads from these
+      periodViews: { fy: fyViews, ttm: ttmViews },
+      latestQuarter: metrics.latestQuarter,
+      latestCompleteFy: metrics.latestCompleteFy,
+      latestTtm: metrics.latestTtm,
     };
   }
 

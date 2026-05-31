@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T08:31:31.134Z",
+  "generatedAt": "2026-05-31T10:01:53.957Z",
   "companies": [
     {
       "slug": "apollo-hospitals",
@@ -1019,7 +1019,367 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY23": {
+            "label": "FY23 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 59,
+              "bedCapacity": 9395,
+              "operationalBeds": 8908.5,
+              "bedsUnderDevelopment": 2000,
+              "occupancyRate": 64,
+              "alos": 3.41,
+              "ipVolume": 133991,
+              "opVolume": 1879171,
+              "arpob": 53232,
+              "revenue": 4302.2,
+              "ebitda": 488.2,
+              "ebitdaMargin": 11.35,
+              "pat": 144.51,
+              "patMargin": 3.36,
+              "netDebt": 1721.94,
+              "revenuePerBedQuarter": 4829320,
+              "ebitdaPerBedQuarter": 4829320,
+              "bedTurnoverQuarter": 15.04
+            }
+          },
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10000,
+              "operationalBeds": 7945,
+              "occupancyRate": 65,
+              "alos": 3.39,
+              "ipVolume": 569988,
+              "opVolume": 1889160,
+              "arpob": 59523,
+              "arpp": 144965,
+              "revenue": 19059.3,
+              "ebitda": 1268.3,
+              "ebitdaMargin": 6.65,
+              "pat": 900.95,
+              "patMargin": 4.73,
+              "capexAnnounced": 4414,
+              "revenuePerBedQuarter": 23989050,
+              "ebitdaPerBedQuarter": 23989050,
+              "bedTurnoverQuarter": 71.74
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10187,
+              "operationalBeds": 9458,
+              "bedsUnderDevelopment": 3577,
+              "occupancyRate": 67,
+              "alos": 3.3,
+              "ipVolume": 604250,
+              "opVolume": 2218308,
+              "arpob": 63569,
+              "arpp": 171358,
+              "revenue": 21793.8,
+              "ebitda": 3022.65,
+              "ebitdaMargin": 13.87,
+              "pat": 1445.8,
+              "patMargin": 6.63,
+              "netDebt": -10.9,
+              "capexAnnounced": 9535,
+              "revenuePerBedQuarter": 23042715,
+              "ebitdaPerBedQuarter": 23042715,
+              "bedTurnoverQuarter": 63.89
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 77,
+              "bedCapacity": 10685,
+              "operationalBeds": 9620,
+              "bedsUnderDevelopment": 2805,
+              "newHospitalsPlanned": 11,
+              "occupancyRate": 68,
+              "alos": 3.19,
+              "ipVolume": 477433,
+              "opVolume": 1180170,
+              "arpob": 64834.7,
+              "arpp": 187208,
+              "revenue": 25228.4,
+              "ebitda": 3769.4,
+              "ebitdaMargin": 14.94,
+              "pat": 1941.7,
+              "patMargin": 7.7,
+              "netDebt": 865.9,
+              "capexAnnounced": 16500,
+              "revenuePerBedQuarter": 26224948,
+              "ebitdaPerBedQuarter": 26224948,
+              "bedTurnoverQuarter": 49.63
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q3": {
+            "label": "TTM @ FY24-Q3",
+            "metrics": {
+              "numberOfHospitals": 62,
+              "bedCapacity": 9734.5,
+              "operationalBeds": 7911,
+              "bedsUnderDevelopment": 2860,
+              "occupancyRate": 65.5,
+              "alos": 3.3,
+              "ipVolume": 561857,
+              "opVolume": 3308808,
+              "arpob": 56368,
+              "revenue": 18417.6,
+              "ebitda": 1116,
+              "ebitdaMargin": 6.06,
+              "pat": 789.36,
+              "patMargin": 4.29,
+              "netDebt": 1551.8,
+              "capexAnnounced": 979,
+              "revenuePerBedQuarter": 23281001,
+              "ebitdaPerBedQuarter": 23281001,
+              "bedTurnoverQuarter": 71.02
+            }
+          },
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10000,
+              "operationalBeds": 7945,
+              "occupancyRate": 65,
+              "alos": 3.39,
+              "ipVolume": 569988,
+              "opVolume": 1889160,
+              "arpob": 59523,
+              "arpp": 144965,
+              "revenue": 19059.3,
+              "ebitda": 1268.3,
+              "ebitdaMargin": 6.65,
+              "pat": 900.95,
+              "patMargin": 4.73,
+              "capexAnnounced": 4414,
+              "revenuePerBedQuarter": 23989050,
+              "ebitdaPerBedQuarter": 23989050,
+              "bedTurnoverQuarter": 71.74
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10000,
+              "operationalBeds": 7942,
+              "bedsUnderDevelopment": 2860,
+              "newHospitalsPlanned": 8,
+              "occupancyRate": 68,
+              "alos": 3.34,
+              "ipVolume": 583004,
+              "opVolume": 1952216,
+              "arpob": 59073,
+              "arpp": 158250,
+              "revenue": 19727.1,
+              "ebitda": 1943.4,
+              "ebitdaMargin": 9.85,
+              "pat": 1039.5,
+              "patMargin": 5.27,
+              "netDebt": 1456.5,
+              "capexAnnounced": 7213.5,
+              "revenuePerBedQuarter": 24838957,
+              "ebitdaPerBedQuarter": 24838957,
+              "bedTurnoverQuarter": 73.41
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10069,
+              "operationalBeds": 7994,
+              "occupancyRate": 73,
+              "alos": 3.35,
+              "ipVolume": 593775,
+              "opVolume": 2013560,
+              "arpob": 59011,
+              "arpp": 159379,
+              "revenue": 20469.1,
+              "ebitda": 2131.6,
+              "ebitdaMargin": 10.41,
+              "pat": 1185.45,
+              "patMargin": 5.79,
+              "netDebt": 263.82,
+              "capexAnnounced": 6870,
+              "revenuePerBedQuarter": 25605579,
+              "ebitdaPerBedQuarter": 25605579,
+              "bedTurnoverQuarter": 74.28
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10000,
+              "operationalBeds": 8679.5,
+              "bedsUnderDevelopment": 3194.5,
+              "newHospitalsPlanned": 11,
+              "occupancyRate": 68,
+              "alos": 3.29,
+              "ipVolume": 599938,
+              "opVolume": 2118014,
+              "arpob": 60839,
+              "arpp": 162957,
+              "revenue": 21145.5,
+              "ebitda": 2893.35,
+              "ebitdaMargin": 13.68,
+              "pat": 1312.3,
+              "patMargin": 6.21,
+              "netDebt": -137.4,
+              "capexAnnounced": 12970,
+              "revenuePerBedQuarter": 24362578,
+              "ebitdaPerBedQuarter": 24362578,
+              "bedTurnoverQuarter": 69.12
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10187,
+              "operationalBeds": 9458,
+              "bedsUnderDevelopment": 3577,
+              "occupancyRate": 67,
+              "alos": 3.3,
+              "ipVolume": 604250,
+              "opVolume": 2218308,
+              "arpob": 63569,
+              "arpp": 171358,
+              "revenue": 21793.8,
+              "ebitda": 3022.65,
+              "ebitdaMargin": 13.87,
+              "pat": 1445.8,
+              "patMargin": 6.63,
+              "netDebt": -10.9,
+              "capexAnnounced": 9535,
+              "revenuePerBedQuarter": 23042715,
+              "ebitdaPerBedQuarter": 23042715,
+              "bedTurnoverQuarter": 63.89
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10000,
+              "operationalBeds": 8030,
+              "bedsUnderDevelopment": 2000,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 65,
+              "ipVolume": 457388,
+              "opVolume": 1696558,
+              "revenue": 22550.2,
+              "ebitda": 3199.55,
+              "ebitdaMargin": 14.19,
+              "pat": 1573.65,
+              "patMargin": 6.98,
+              "capexAnnounced": 6100,
+              "revenuePerBedQuarter": 28082441,
+              "ebitdaPerBedQuarter": 28082441,
+              "bedTurnoverQuarter": 56.96
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 73,
+              "bedCapacity": 10200,
+              "operationalBeds": 9483,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 69,
+              "alos": 3.14,
+              "ipVolume": 460348,
+              "opVolume": 1740212,
+              "arpp": 173318,
+              "revenue": 23264.7,
+              "ebitda": 3324.75,
+              "ebitdaMargin": 14.29,
+              "pat": 1671.95,
+              "patMargin": 7.19,
+              "netDebt": -332.6,
+              "capexAnnounced": 6100,
+              "revenuePerBedQuarter": 24533059,
+              "ebitdaPerBedQuarter": 24533059,
+              "bedTurnoverQuarter": 48.54
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 76,
+              "bedCapacity": 10325,
+              "operationalBeds": 9561,
+              "bedsUnderDevelopment": 3630,
+              "newHospitalsPlanned": 8,
+              "occupancyRate": 67,
+              "alos": 3.16,
+              "ipVolume": 467139,
+              "opVolume": 1739987,
+              "arpob": 64019.5,
+              "arpp": 180917,
+              "revenue": 24215.1,
+              "ebitda": 3528.3,
+              "ebitdaMargin": 14.57,
+              "pat": 1802.1,
+              "patMargin": 7.44,
+              "netDebt": -299.6,
+              "capexAnnounced": 8200,
+              "revenuePerBedQuarter": 25326953,
+              "ebitdaPerBedQuarter": 25326953,
+              "bedTurnoverQuarter": 48.86
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 77,
+              "bedCapacity": 10685,
+              "operationalBeds": 9620,
+              "bedsUnderDevelopment": 2805,
+              "newHospitalsPlanned": 11,
+              "occupancyRate": 68,
+              "alos": 3.19,
+              "ipVolume": 477433,
+              "opVolume": 1180170,
+              "arpob": 64834.7,
+              "arpp": 187208,
+              "revenue": 25228.4,
+              "ebitda": 3769.4,
+              "ebitdaMargin": 14.94,
+              "pat": 1941.7,
+              "patMargin": 7.7,
+              "netDebt": 865.9,
+              "capexAnnounced": 16500,
+              "revenuePerBedQuarter": 26224948,
+              "ebitdaPerBedQuarter": 26224948,
+              "bedTurnoverQuarter": 49.63
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY26-Q4",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY26-Q4"
     },
     "max-healthcare": {
       "slug": "max-healthcare",
@@ -1728,7 +2088,332 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 4000,
+              "operationalBeds": 200,
+              "bedsUnderDevelopment": 140,
+              "newHospitalsPlanned": 4,
+              "occupancyRate": 75,
+              "alos": 4.2,
+              "ipVolume": 59413,
+              "opVolume": 1880000,
+              "arpob": 78100,
+              "revenue": 5325,
+              "ebitda": 1907,
+              "ebitdaMargin": 35.81,
+              "pat": 1278,
+              "patMargin": 24,
+              "netDebt": 22,
+              "capexAnnounced": 266,
+              "revenuePerBedQuarter": 266250000,
+              "ebitdaPerBedQuarter": 266250000,
+              "bedTurnoverQuarter": 297.06
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "bedCapacity": 5100,
+              "bedsUnderDevelopment": 3800,
+              "newHospitalsPlanned": 6,
+              "occupancyRate": 75,
+              "alos": 4,
+              "ipVolume": 230794,
+              "opVolume": 3185000,
+              "arpob": 77100,
+              "revenue": 4609,
+              "ebitda": 1687,
+              "ebitdaMargin": 36.6,
+              "pat": 1034,
+              "patMargin": 22.43,
+              "netDebt": 1576,
+              "capexAnnounced": 607
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 21,
+              "bedCapacity": 6000,
+              "operationalBeds": 4966,
+              "bedsUnderDevelopment": 260,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 75,
+              "alos": 4.2,
+              "ipVolume": 334657,
+              "opVolume": 3776000,
+              "arpob": 77900,
+              "revenue": 10481,
+              "ebitda": 2637,
+              "ebitdaMargin": 25.16,
+              "pat": 1630,
+              "patMargin": 15.55,
+              "netDebt": 1908,
+              "capexAnnounced": 1835,
+              "revenuePerBedQuarter": 21105518,
+              "ebitdaPerBedQuarter": 21105518,
+              "bedTurnoverQuarter": 67.39
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "bedCapacity": 6000,
+              "bedsUnderDevelopment": 700,
+              "occupancyRate": 75.5,
+              "arpob": 77900,
+              "revenue": 2664,
+              "ebitda": 682,
+              "ebitdaMargin": 25.6,
+              "pat": 387,
+              "patMargin": 14.53,
+              "netDebt": 1908,
+              "capexAnnounced": 1400
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 4000,
+              "operationalBeds": 200,
+              "bedsUnderDevelopment": 140,
+              "newHospitalsPlanned": 4,
+              "occupancyRate": 75,
+              "alos": 4.2,
+              "ipVolume": 59413,
+              "opVolume": 1880000,
+              "arpob": 78100,
+              "revenue": 5325,
+              "ebitda": 1907,
+              "ebitdaMargin": 35.81,
+              "pat": 1278,
+              "patMargin": 24,
+              "netDebt": 22,
+              "capexAnnounced": 266,
+              "revenuePerBedQuarter": 266250000,
+              "ebitdaPerBedQuarter": 266250000,
+              "bedTurnoverQuarter": 297.06
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "operationalBeds": 94,
+              "bedsUnderDevelopment": 680,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 75,
+              "alos": 4,
+              "ipVolume": 58153,
+              "opVolume": 2605000,
+              "arpob": 77100,
+              "revenue": 3606,
+              "ebitda": 1970,
+              "ebitdaMargin": 54.63,
+              "pat": 1282,
+              "patMargin": 35.55,
+              "netDebt": -22,
+              "capexAnnounced": 266,
+              "revenuePerBedQuarter": 383617021,
+              "ebitdaPerBedQuarter": 383617021,
+              "bedTurnoverQuarter": 618.65
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 5000,
+              "bedsUnderDevelopment": 250,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 81,
+              "alos": 4.1,
+              "ipVolume": 129687,
+              "opVolume": 2736000,
+              "arpob": 76100,
+              "revenue": 4007,
+              "ebitda": 2039,
+              "ebitdaMargin": 50.89,
+              "pat": 1293,
+              "patMargin": 32.27,
+              "netDebt": 313,
+              "capexAnnounced": 393
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 5000,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 75,
+              "alos": 4,
+              "ipVolume": 210262,
+              "opVolume": 2974000,
+              "arpob": 75900,
+              "revenue": 4609,
+              "ebitda": 2190,
+              "ebitdaMargin": 47.52,
+              "pat": 1345,
+              "patMargin": 29.18,
+              "netDebt": 1608,
+              "capexAnnounced": 393
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "bedCapacity": 5100,
+              "bedsUnderDevelopment": 3800,
+              "newHospitalsPlanned": 6,
+              "occupancyRate": 75,
+              "alos": 4,
+              "ipVolume": 230794,
+              "opVolume": 3185000,
+              "arpob": 77100,
+              "revenue": 4609,
+              "ebitda": 1687,
+              "ebitdaMargin": 36.6,
+              "pat": 1034,
+              "patMargin": 22.43,
+              "netDebt": 1576,
+              "capexAnnounced": 607
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 5200,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 76,
+              "alos": 4,
+              "ipVolume": 314051,
+              "opVolume": 3400000,
+              "arpob": 78000,
+              "revenue": 7126,
+              "ebitda": 1801,
+              "ebitdaMargin": 25.27,
+              "pat": 1084,
+              "patMargin": 15.21,
+              "netDebt": 1755,
+              "capexAnnounced": 1042
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5200,
+              "operationalBeds": 4760,
+              "bedsUnderDevelopment": 130,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 77,
+              "alos": 4,
+              "ipVolume": 330146,
+              "opVolume": 3630000,
+              "arpob": 77300,
+              "revenue": 7590,
+              "ebitda": 1929,
+              "ebitdaMargin": 25.42,
+              "pat": 1289,
+              "patMargin": 16.98,
+              "netDebt": 2067,
+              "capexAnnounced": 825,
+              "revenuePerBedQuarter": 15945378,
+              "ebitdaPerBedQuarter": 15945378,
+              "bedTurnoverQuarter": 69.36
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5200,
+              "operationalBeds": 4826.5,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 76,
+              "alos": 4.2,
+              "ipVolume": 331551,
+              "opVolume": 3703000,
+              "arpob": 77900,
+              "revenue": 7817,
+              "ebitda": 1955,
+              "ebitdaMargin": 25.01,
+              "pat": 1243,
+              "patMargin": 15.9,
+              "netDebt": 2166,
+              "capexAnnounced": 825,
+              "revenuePerBedQuarter": 16196001,
+              "ebitdaPerBedQuarter": 16196001,
+              "bedTurnoverQuarter": 68.69
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 21,
+              "bedCapacity": 6000,
+              "operationalBeds": 4966,
+              "bedsUnderDevelopment": 260,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 75,
+              "alos": 4.2,
+              "ipVolume": 334657,
+              "opVolume": 3776000,
+              "arpob": 77900,
+              "revenue": 10481,
+              "ebitda": 2637,
+              "ebitdaMargin": 25.16,
+              "pat": 1630,
+              "patMargin": 15.55,
+              "netDebt": 1908,
+              "capexAnnounced": 1835,
+              "revenuePerBedQuarter": 21105518,
+              "ebitdaPerBedQuarter": 21105518,
+              "bedTurnoverQuarter": 67.39
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "bedCapacity": 6000,
+              "bedsUnderDevelopment": 700,
+              "occupancyRate": 75.5,
+              "ipVolume": 251400,
+              "opVolume": 2836000,
+              "arpob": 77900,
+              "revenue": 10628,
+              "ebitda": 2706,
+              "ebitdaMargin": 25.46,
+              "pat": 1672,
+              "patMargin": 15.73,
+              "netDebt": 1908,
+              "capexAnnounced": 2800
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "fortis-healthcare": {
       "slug": "fortis-healthcare",
@@ -2398,7 +3083,312 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "bedsUnderDevelopment": 2200,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64,
+              "ipVolume": 39775,
+              "revenue": 4714.1,
+              "ebitda": 781.18,
+              "ebitdaMargin": 16.57,
+              "pat": 575.25,
+              "patMargin": 12.2,
+              "netDebt": 518,
+              "capexAnnounced": 300
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 27,
+              "bedCapacity": 4700,
+              "operationalBeds": 4700,
+              "ipVolume": 30858,
+              "revenue": 5102.5,
+              "ebitda": 1017,
+              "ebitdaMargin": 19.93,
+              "pat": 678.3,
+              "patMargin": 13.29,
+              "capexAnnounced": 1662,
+              "revenuePerBedQuarter": 10856383,
+              "ebitdaPerBedQuarter": 10856383,
+              "bedTurnoverQuarter": 6.57
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 35,
+              "bedCapacity": 7600,
+              "operationalBeds": 5900,
+              "occupancyRate": 67,
+              "alos": 4.29,
+              "ipVolume": 14285,
+              "arpob": 70137,
+              "revenue": 7946.5,
+              "ebitda": 1346,
+              "ebitdaMargin": 16.94,
+              "pat": 741,
+              "patMargin": 9.32,
+              "netDebt": 2547,
+              "capexAnnounced": 840,
+              "revenuePerBedQuarter": 13468644,
+              "ebitdaPerBedQuarter": 13468644,
+              "bedTurnoverQuarter": 2.42
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 36,
+              "operationalBeds": 6100,
+              "bedsUnderDevelopment": 1800,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 68,
+              "alos": 4.26,
+              "ipVolume": 3339,
+              "arpob": 70137,
+              "revenue": 2364.84,
+              "ebitda": 488.5,
+              "ebitdaMargin": 20.66,
+              "pat": 271,
+              "patMargin": 11.46,
+              "netDebt": 2334,
+              "capexAnnounced": 700,
+              "revenuePerBedQuarter": 3876787,
+              "ebitdaPerBedQuarter": 3876787,
+              "bedTurnoverQuarter": 0.55
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "bedsUnderDevelopment": 2200,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64,
+              "ipVolume": 39775,
+              "revenue": 4714.1,
+              "ebitda": 781.18,
+              "ebitdaMargin": 16.57,
+              "pat": 575.25,
+              "patMargin": 12.2,
+              "netDebt": 518,
+              "capexAnnounced": 300
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 28,
+              "bedCapacity": 6000,
+              "operationalBeds": 4500,
+              "bedsUnderDevelopment": 700,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 67,
+              "alos": 4.285,
+              "ipVolume": 42490,
+              "arpob": 66027,
+              "revenue": 4879.5,
+              "ebitda": 861.78,
+              "ebitdaMargin": 17.66,
+              "pat": 452,
+              "patMargin": 9.26,
+              "netDebt": 264,
+              "capexAnnounced": 1200,
+              "revenuePerBedQuarter": 10843333,
+              "ebitdaPerBedQuarter": 10843333,
+              "bedTurnoverQuarter": 9.44
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 28,
+              "bedCapacity": 4700,
+              "operationalBeds": 2939,
+              "bedsUnderDevelopment": 700,
+              "occupancyRate": 72,
+              "alos": 4.2,
+              "ipVolume": 42490,
+              "arpob": 64932,
+              "revenue": 6534.5,
+              "ebitda": 1216.78,
+              "ebitdaMargin": 18.62,
+              "pat": 461,
+              "patMargin": 7.05,
+              "netDebt": 281,
+              "capexAnnounced": 1200,
+              "revenuePerBedQuarter": 22233753,
+              "ebitdaPerBedQuarter": 22233753,
+              "bedTurnoverQuarter": 14.46
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 27,
+              "bedCapacity": 4775,
+              "operationalBeds": 2790,
+              "bedsUnderDevelopment": 400,
+              "occupancyRate": 67,
+              "alos": 4.2,
+              "ipVolume": 22506,
+              "arpob": 66811.5,
+              "revenue": 6782.5,
+              "ebitda": 1307.78,
+              "ebitdaMargin": 19.28,
+              "pat": 558,
+              "patMargin": 8.23,
+              "netDebt": 644,
+              "capexAnnounced": 1200,
+              "revenuePerBedQuarter": 24310036,
+              "ebitdaPerBedQuarter": 24310036,
+              "bedTurnoverQuarter": 8.07
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 27,
+              "bedCapacity": 4700,
+              "operationalBeds": 4700,
+              "ipVolume": 30858,
+              "revenue": 5102.5,
+              "ebitda": 1017,
+              "ebitdaMargin": 19.93,
+              "pat": 678.3,
+              "patMargin": 13.29,
+              "capexAnnounced": 1662,
+              "revenuePerBedQuarter": 10856383,
+              "ebitdaPerBedQuarter": 10856383,
+              "bedTurnoverQuarter": 6.57
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 30,
+              "bedsUnderDevelopment": 450,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 69,
+              "alos": 4.154999999999999,
+              "ipVolume": 28143,
+              "arpob": 70685,
+              "revenue": 5352.5,
+              "ebitda": 1119,
+              "ebitdaMargin": 20.91,
+              "pat": 893.3,
+              "patMargin": 16.69,
+              "netDebt": 1716.095,
+              "capexAnnounced": 462
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 33,
+              "bedCapacity": 5700,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 71,
+              "alos": 4.18,
+              "ipVolume": 28143,
+              "arpob": 68767,
+              "revenue": 5671.5,
+              "ebitda": 1216,
+              "ebitdaMargin": 21.44,
+              "pat": 1029.3,
+              "patMargin": 18.15,
+              "netDebt": 2219,
+              "capexAnnounced": 462
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 33,
+              "bedCapacity": 7600,
+              "operationalBeds": 5800,
+              "occupancyRate": 69,
+              "alos": 4.29,
+              "ipVolume": 36668,
+              "arpob": 70137,
+              "revenue": 5681.5,
+              "ebitda": 841,
+              "ebitdaMargin": 14.8,
+              "pat": 798.3,
+              "patMargin": 14.05,
+              "netDebt": 2219,
+              "capexAnnounced": 872,
+              "revenuePerBedQuarter": 9795690,
+              "ebitdaPerBedQuarter": 9795690,
+              "bedTurnoverQuarter": 6.32
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 35,
+              "bedCapacity": 7600,
+              "operationalBeds": 5900,
+              "occupancyRate": 67,
+              "alos": 4.29,
+              "ipVolume": 14285,
+              "arpob": 70137,
+              "revenue": 7946.5,
+              "ebitda": 1346,
+              "ebitdaMargin": 16.94,
+              "pat": 741,
+              "patMargin": 9.32,
+              "netDebt": 2547,
+              "capexAnnounced": 840,
+              "revenuePerBedQuarter": 13468644,
+              "ebitdaPerBedQuarter": 13468644,
+              "bedTurnoverQuarter": 2.42
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 36,
+              "operationalBeds": 6100,
+              "bedsUnderDevelopment": 1800,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 68,
+              "alos": 4.26,
+              "ipVolume": 17624,
+              "arpob": 70137,
+              "revenue": 8541.83,
+              "ebitda": 1445.5,
+              "ebitdaMargin": 16.92,
+              "pat": 797,
+              "patMargin": 9.33,
+              "netDebt": 2334,
+              "capexAnnounced": 1540,
+              "revenuePerBedQuarter": 14003000,
+              "ebitdaPerBedQuarter": 14003000,
+              "bedTurnoverQuarter": 2.89
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "medanta": {
       "slug": "medanta",
@@ -3085,7 +4075,373 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY23": {
+            "label": "FY23 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {}
+          },
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2725,
+              "operationalBeds": 2223,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64,
+              "alos": 3.3,
+              "ipVolume": 95806,
+              "opVolume": 2044603.5,
+              "arpob": 60571,
+              "revenue": 879.95,
+              "ebitda": 23.4,
+              "ebitdaMargin": 2.66,
+              "pat": 125.95,
+              "patMargin": 14.31,
+              "capexAnnounced": 5127.6,
+              "revenuePerBedQuarter": 3958390,
+              "ebitdaPerBedQuarter": 3958390,
+              "bedTurnoverQuarter": 43.1
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 3021,
+              "operationalBeds": 2480,
+              "bedsUnderDevelopment": 110,
+              "occupancyRate": 63.8,
+              "alos": 3.23,
+              "ipVolume": 44856,
+              "opVolume": 1469651,
+              "arpob": 61307,
+              "revenue": 1841.03,
+              "ebitda": 462,
+              "ebitdaMargin": 25.09,
+              "pat": 130.81,
+              "patMargin": 7.11,
+              "capexAnnounced": 300,
+              "revenuePerBedQuarter": 7423508,
+              "ebitdaPerBedQuarter": 7423508,
+              "bedTurnoverQuarter": 18.09
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 3131,
+              "operationalBeds": 2737,
+              "bedsUnderDevelopment": 448,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 3.02,
+              "ipVolume": 42901,
+              "arpob": 67361,
+              "revenue": 3148.04,
+              "ebitda": 1001.7,
+              "ebitdaMargin": 31.82,
+              "pat": 442.55,
+              "patMargin": 14.06,
+              "netDebt": -600,
+              "capexAnnounced": 2724.9,
+              "revenuePerBedQuarter": 11501790,
+              "ebitdaPerBedQuarter": 11501790,
+              "bedTurnoverQuarter": 15.67
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 3606,
+              "operationalBeds": 2737,
+              "bedsUnderDevelopment": 400,
+              "occupancyRate": 61,
+              "alos": 3.02,
+              "ipVolume": 52762,
+              "opVolume": 915420,
+              "arpob": 66687,
+              "revenue": 1195.8,
+              "ebitda": 290.6,
+              "ebitdaMargin": 24.3,
+              "pat": 141.7,
+              "patMargin": 11.85,
+              "netDebt": 0,
+              "revenuePerBedQuarter": 4369017,
+              "ebitdaPerBedQuarter": 4369017,
+              "bedTurnoverQuarter": 19.28
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q3": {
+            "label": "TTM @ FY24-Q3",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2725,
+              "occupancyRate": 64,
+              "ipVolume": 74506,
+              "opVolume": 1382169.5,
+              "arpob": 63535.5,
+              "arpp": 70000,
+              "revenue": 879.95,
+              "ebitda": 23.4,
+              "ebitdaMargin": 2.66,
+              "pat": 125.95,
+              "patMargin": 14.31,
+              "netDebt": 10000,
+              "capexAnnounced": 5127.6
+            }
+          },
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2725,
+              "operationalBeds": 2223,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64,
+              "alos": 3.3,
+              "ipVolume": 95806,
+              "opVolume": 2044603.5,
+              "arpob": 60571,
+              "revenue": 879.95,
+              "ebitda": 23.4,
+              "ebitdaMargin": 2.66,
+              "pat": 125.95,
+              "patMargin": 14.31,
+              "capexAnnounced": 5127.6,
+              "revenuePerBedQuarter": 3958390,
+              "ebitdaPerBedQuarter": 3958390,
+              "bedTurnoverQuarter": 43.1
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2823,
+              "operationalBeds": 2231,
+              "bedsUnderDevelopment": 500,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 3.23,
+              "ipVolume": 62806,
+              "opVolume": 1474162,
+              "arpob": 63063,
+              "revenue": 1762.95,
+              "ebitda": 231.6,
+              "ebitdaMargin": 13.14,
+              "pat": 125.95,
+              "patMargin": 7.14,
+              "netDebt": 386,
+              "capexAnnounced": 5127.6,
+              "revenuePerBedQuarter": 7902062,
+              "ebitdaPerBedQuarter": 7902062,
+              "bedTurnoverQuarter": 28.15
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2949,
+              "operationalBeds": 2354,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64.3,
+              "alos": 3.05,
+              "ipVolume": 21300,
+              "opVolume": 1495780,
+              "arpob": 62140,
+              "revenue": 968.45,
+              "ebitda": 231.6,
+              "ebitdaMargin": 23.91,
+              "pat": 12.35,
+              "patMargin": 1.28,
+              "netDebt": -718.6,
+              "capexAnnounced": 5250,
+              "revenuePerBedQuarter": 4114061,
+              "ebitdaPerBedQuarter": 4114061,
+              "bedTurnoverQuarter": 9.05
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 3008,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 64,
+              "alos": 3.2,
+              "ipVolume": 21300,
+              "opVolume": 1411780,
+              "arpob": 61723.5,
+              "arpp": 120000,
+              "revenue": 1841.03,
+              "ebitda": 208.2,
+              "ebitdaMargin": 11.31,
+              "pat": 130.81,
+              "patMargin": 7.11,
+              "netDebt": -718.6,
+              "capexAnnounced": 250
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 3021,
+              "operationalBeds": 2480,
+              "bedsUnderDevelopment": 110,
+              "occupancyRate": 63.8,
+              "alos": 3.23,
+              "ipVolume": 44856,
+              "opVolume": 1469651,
+              "arpob": 61307,
+              "revenue": 1841.03,
+              "ebitda": 462,
+              "ebitdaMargin": 25.09,
+              "pat": 130.81,
+              "patMargin": 7.11,
+              "capexAnnounced": 300,
+              "revenuePerBedQuarter": 7423508,
+              "ebitdaPerBedQuarter": 7423508,
+              "bedTurnoverQuarter": 18.09
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 3042,
+              "operationalBeds": 2480,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 62,
+              "alos": 3.1799999999999997,
+              "ipVolume": 87757,
+              "opVolume": 1469651,
+              "arpob": 63629,
+              "revenue": 1911.97,
+              "ebitda": 501.4,
+              "ebitdaMargin": 26.22,
+              "pat": 232.21,
+              "patMargin": 12.15,
+              "netDebt": -812.3,
+              "capexAnnounced": 944.9,
+              "revenuePerBedQuarter": 7709556,
+              "ebitdaPerBedQuarter": 7709556,
+              "bedTurnoverQuarter": 35.39
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 5.5,
+              "bedCapacity": 3248.5,
+              "operationalBeds": 2961,
+              "occupancyRate": 63.2,
+              "alos": 3.0149999999999997,
+              "ipVolume": 87757,
+              "opVolume": 720305,
+              "arpob": 66584,
+              "revenue": 2963.27,
+              "ebitda": 756.7,
+              "ebitdaMargin": 25.54,
+              "pat": 390.91,
+              "patMargin": 13.19,
+              "capexAnnounced": 2224.9,
+              "revenuePerBedQuarter": 10007666,
+              "ebitdaPerBedQuarter": 10007666,
+              "bedTurnoverQuarter": 29.64
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 3435,
+              "bedsUnderDevelopment": 550,
+              "newHospitalsPlanned": 4,
+              "occupancyRate": 61.5,
+              "alos": 3.02,
+              "ipVolume": 87757,
+              "opVolume": 720305,
+              "arpob": 66465.5,
+              "revenue": 2005.24,
+              "ebitda": 1006.1,
+              "ebitdaMargin": 50.17,
+              "pat": 355.1,
+              "patMargin": 17.71,
+              "netDebt": -389.51,
+              "capexAnnounced": 2224.9
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 3131,
+              "operationalBeds": 2737,
+              "bedsUnderDevelopment": 448,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 3.02,
+              "ipVolume": 42901,
+              "arpob": 67361,
+              "revenue": 3148.04,
+              "ebitda": 1001.7,
+              "ebitdaMargin": 31.82,
+              "pat": 442.55,
+              "patMargin": 14.06,
+              "netDebt": -600,
+              "capexAnnounced": 2724.9,
+              "revenuePerBedQuarter": 11501790,
+              "ebitdaPerBedQuarter": 11501790,
+              "bedTurnoverQuarter": 15.67
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 3606,
+              "operationalBeds": 2737,
+              "bedsUnderDevelopment": 400,
+              "occupancyRate": 61,
+              "alos": 3.02,
+              "ipVolume": 52762,
+              "opVolume": 915420,
+              "arpob": 66687,
+              "revenue": 3389.9,
+              "ebitda": 1044.7,
+              "ebitdaMargin": 30.82,
+              "pat": 482.85,
+              "patMargin": 14.24,
+              "netDebt": 0,
+              "capexAnnounced": 2080,
+              "revenuePerBedQuarter": 12385459,
+              "ebitdaPerBedQuarter": 12385459,
+              "bedTurnoverQuarter": 19.28
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "narayana": {
       "slug": "narayana",
@@ -3648,7 +5004,312 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY23": {
+            "label": "FY23 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "arpob": 135000,
+              "revenue": 1221.6,
+              "ebitda": 290.4,
+              "ebitdaMargin": 23.77,
+              "capexAnnounced": 150
+            }
+          },
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "occupancyRate": 60,
+              "alos": 9,
+              "ipVolume": 70763,
+              "opVolume": 618757,
+              "arpob": 134000,
+              "arpp": 131000,
+              "revenue": 209.35,
+              "ebitda": 390.84,
+              "ebitdaMargin": 186.69,
+              "netDebt": -330,
+              "capexAnnounced": 504
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "occupancyRate": 60,
+              "ipVolume": 135100,
+              "opVolume": 65000,
+              "ebitda": 6829.4,
+              "pat": 4089.1,
+              "capexAnnounced": 28530
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 55,
+              "bedCapacity": 6200,
+              "operationalBeds": 5900,
+              "alos": 4.4,
+              "ipVolume": 157200,
+              "arpob": 49589,
+              "revenue": 4160.85,
+              "ebitda": 852.97,
+              "ebitdaMargin": 20.5,
+              "pat": 406.01,
+              "patMargin": 9.76,
+              "netDebt": 2232.1,
+              "capexAnnounced": 979,
+              "revenuePerBedQuarter": 7052288,
+              "ebitdaPerBedQuarter": 7052288,
+              "bedTurnoverQuarter": 26.64
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 35,
+              "bedCapacity": 5945,
+              "operationalBeds": 5945,
+              "alos": 4.4,
+              "arpob": 50959,
+              "revenue": 2593.8,
+              "ebitda": 539.2,
+              "ebitdaMargin": 20.79,
+              "pat": 228,
+              "patMargin": 8.79,
+              "netDebt": 2239.7,
+              "revenuePerBedQuarter": 4362994,
+              "ebitdaPerBedQuarter": 4362994
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q3": {
+            "label": "TTM @ FY24-Q3",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5667.5,
+              "alos": 4.4,
+              "ipVolume": 70763,
+              "opVolume": 618757,
+              "revenue": 1306.8,
+              "ebitda": 645.48,
+              "ebitdaMargin": 49.39,
+              "netDebt": 228.665,
+              "capexAnnounced": 654
+            }
+          },
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "occupancyRate": 60,
+              "alos": 9,
+              "ipVolume": 70763,
+              "opVolume": 618757,
+              "arpob": 134000,
+              "arpp": 131000,
+              "revenue": 209.35,
+              "ebitda": 390.84,
+              "ebitdaMargin": 186.69,
+              "netDebt": -330,
+              "capexAnnounced": 504
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5752,
+              "operationalBeds": 5506,
+              "bedsUnderDevelopment": 350,
+              "occupancyRate": 65,
+              "alos": 4.4,
+              "ipVolume": 68500,
+              "opVolume": 683757,
+              "revenue": 209.35,
+              "ebitda": 3546.26,
+              "ebitdaMargin": 1693.94,
+              "pat": 1908,
+              "patMargin": 911.39,
+              "capexAnnounced": 28394,
+              "revenuePerBedQuarter": 380222,
+              "ebitdaPerBedQuarter": 380222,
+              "bedTurnoverQuarter": 12.44
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 6005,
+              "operationalBeds": 5665.5,
+              "occupancyRate": 64.5,
+              "alos": 4.3,
+              "ipVolume": 135100,
+              "opVolume": 70757,
+              "arpp": 104000,
+              "revenue": 209.35,
+              "ebitda": 6539.76,
+              "ebitdaMargin": 3123.84,
+              "pat": 3896,
+              "patMargin": 1861,
+              "netDebt": 2684,
+              "capexAnnounced": 28530,
+              "revenuePerBedQuarter": 369517,
+              "ebitdaPerBedQuarter": 369517,
+              "bedTurnoverQuarter": 23.85
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 5955.5,
+              "operationalBeds": 4969.5,
+              "bedsUnderDevelopment": 600,
+              "newHospitalsPlanned": 5,
+              "alos": 4.3,
+              "ipVolume": 135100,
+              "opVolume": 65000,
+              "revenue": 124.15,
+              "ebitda": 6865.16,
+              "ebitdaMargin": 5529.73,
+              "pat": 4089.1,
+              "patMargin": 3293.68,
+              "capexAnnounced": 28530,
+              "revenuePerBedQuarter": 249824,
+              "ebitdaPerBedQuarter": 249824,
+              "bedTurnoverQuarter": 27.19
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "occupancyRate": 60,
+              "ipVolume": 135100,
+              "opVolume": 65000,
+              "ebitda": 6829.4,
+              "pat": 4089.1,
+              "capexAnnounced": 28530
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5282,
+              "operationalBeds": 5282,
+              "bedsUnderDevelopment": 52,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 65,
+              "alos": 4.65,
+              "ipVolume": 135100,
+              "revenue": 150.73,
+              "ebitda": 3681.47,
+              "ebitdaMargin": 2442.43,
+              "pat": 2200.71,
+              "patMargin": 1460.03,
+              "netDebt": 343,
+              "capexAnnounced": 1089,
+              "revenuePerBedQuarter": 285365,
+              "ebitdaPerBedQuarter": 285365,
+              "bedTurnoverQuarter": 25.58
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5578.5,
+              "operationalBeds": 5403.5,
+              "bedsUnderDevelopment": 400,
+              "alos": 4.3,
+              "revenue": 1794.53,
+              "ebitda": 787.97,
+              "ebitdaMargin": 43.91,
+              "pat": 471.01,
+              "patMargin": 26.25,
+              "netDebt": 246.6,
+              "capexAnnounced": 979,
+              "revenuePerBedQuarter": 3321051,
+              "ebitdaPerBedQuarter": 3321051
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "bedCapacity": 6200,
+              "newHospitalsPlanned": 5,
+              "occupancyRate": 55,
+              "alos": 4.9,
+              "ipVolume": 157200,
+              "arpp": 44400,
+              "revenue": 2009.65,
+              "ebitda": 462.57,
+              "ebitdaMargin": 23.02,
+              "pat": 277.91,
+              "patMargin": 13.83,
+              "capexAnnounced": 979
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 55,
+              "bedCapacity": 6200,
+              "operationalBeds": 5900,
+              "alos": 4.4,
+              "ipVolume": 157200,
+              "arpob": 49589,
+              "revenue": 4160.85,
+              "ebitda": 852.97,
+              "ebitdaMargin": 20.5,
+              "pat": 406.01,
+              "patMargin": 9.76,
+              "netDebt": 2232.1,
+              "capexAnnounced": 979,
+              "revenuePerBedQuarter": 7052288,
+              "ebitdaPerBedQuarter": 7052288,
+              "bedTurnoverQuarter": 26.64
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 35,
+              "bedCapacity": 5945,
+              "operationalBeds": 5945,
+              "alos": 4.4,
+              "ipVolume": 157200,
+              "arpob": 50959,
+              "revenue": 6603.92,
+              "ebitda": 1356.1,
+              "ebitdaMargin": 20.53,
+              "pat": 614.4,
+              "patMargin": 9.3,
+              "netDebt": 2239.7,
+              "capexAnnounced": 420,
+              "revenuePerBedQuarter": 11108360,
+              "ebitdaPerBedQuarter": 11108360,
+              "bedTurnoverQuarter": 26.44
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "aster-dm": {
       "slug": "aster-dm",
@@ -4416,7 +6077,372 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY23": {
+            "label": "FY23 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {}
+          },
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "bedCapacity": 6000,
+              "operationalBeds": 4305.5,
+              "newHospitalsPlanned": 8,
+              "occupancyRate": 64,
+              "alos": 3.4,
+              "revenue": 3215,
+              "ebitda": 390.5,
+              "ebitdaMargin": 12.15,
+              "pat": 270,
+              "patMargin": 8.4,
+              "capexAnnounced": 1239.5,
+              "revenuePerBedQuarter": 7467193,
+              "ebitdaPerBedQuarter": 7467193
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 5128,
+              "operationalBeds": 3766,
+              "bedsUnderDevelopment": 1700,
+              "occupancyRate": 67,
+              "alos": 3.2,
+              "ipVolume": 463120,
+              "opVolume": 6340000,
+              "arpob": 44200,
+              "revenue": 1002,
+              "ebitda": 790,
+              "ebitdaMargin": 78.84,
+              "pat": 374.06,
+              "patMargin": 37.33,
+              "capexAnnounced": 914.5,
+              "revenuePerBedQuarter": 2660648,
+              "ebitdaPerBedQuarter": 2660648,
+              "bedTurnoverQuarter": 122.97
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5645,
+              "operationalBeds": 5850.5,
+              "bedsUnderDevelopment": 4040,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 62,
+              "alos": 3.9,
+              "ipVolume": 159300,
+              "revenue": 2186,
+              "ebitda": 428,
+              "ebitdaMargin": 19.58,
+              "pat": 297,
+              "patMargin": 13.59,
+              "netDebt": -624,
+              "capexAnnounced": 531,
+              "revenuePerBedQuarter": 3736433,
+              "ebitdaPerBedQuarter": 3736433,
+              "bedTurnoverQuarter": 27.23
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5449,
+              "operationalBeds": 3939,
+              "bedsUnderDevelopment": 4445,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 3.1,
+              "ipVolume": 68231,
+              "opVolume": 910000,
+              "arpob": 54300,
+              "arpp": 125234,
+              "revenue": 1182,
+              "ebitda": 244,
+              "ebitdaMargin": 20.64,
+              "pat": 140,
+              "patMargin": 11.84,
+              "netDebt": 239.94,
+              "capexAnnounced": 96,
+              "revenuePerBedQuarter": 3000762,
+              "ebitdaPerBedQuarter": 3000762,
+              "bedTurnoverQuarter": 17.32
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q3": {
+            "label": "TTM @ FY24-Q3",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 4855,
+              "operationalBeds": 4087.5,
+              "bedsUnderDevelopment": 1475,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 67,
+              "alos": 3.4,
+              "arpob": 39000,
+              "revenue": 3215,
+              "ebitda": 390.5,
+              "ebitdaMargin": 12.15,
+              "pat": 270,
+              "patMargin": 8.4,
+              "netDebt": 615,
+              "capexAnnounced": 389.5,
+              "revenuePerBedQuarter": 7865443,
+              "ebitdaPerBedQuarter": 7865443
+            }
+          },
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "bedCapacity": 6000,
+              "operationalBeds": 4305.5,
+              "newHospitalsPlanned": 8,
+              "occupancyRate": 64,
+              "alos": 3.4,
+              "revenue": 3215,
+              "ebitda": 390.5,
+              "ebitdaMargin": 12.15,
+              "pat": 270,
+              "patMargin": 8.4,
+              "capexAnnounced": 1239.5,
+              "revenuePerBedQuarter": 7467193,
+              "ebitdaPerBedQuarter": 7467193
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 4867,
+              "operationalBeds": 3702,
+              "bedsUnderDevelopment": 1700,
+              "occupancyRate": 68,
+              "alos": 3.4,
+              "ipVolume": 254200,
+              "opVolume": 3050000,
+              "ebitda": 390.5,
+              "pat": 287,
+              "capexAnnounced": 1351.5,
+              "bedTurnoverQuarter": 68.67
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 4931.5,
+              "operationalBeds": 3816,
+              "bedsUnderDevelopment": 1700,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 67,
+              "alos": 3.2,
+              "ipVolume": 254200,
+              "opVolume": 3830000,
+              "arpob": 44200,
+              "revenue": 1002,
+              "ebitda": 177,
+              "ebitdaMargin": 17.66,
+              "pat": 361,
+              "patMargin": 36.03,
+              "netDebt": -1041,
+              "capexAnnounced": 1327,
+              "revenuePerBedQuarter": 2625786,
+              "ebitdaPerBedQuarter": 2625786,
+              "bedTurnoverQuarter": 66.61
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 10125,
+              "operationalBeds": 3689,
+              "bedsUnderDevelopment": 1800,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 65,
+              "alos": 3.2,
+              "ipVolume": 254200,
+              "opVolume": 3830000,
+              "arpob": 39100,
+              "revenue": 1002,
+              "ebitda": 177,
+              "ebitdaMargin": 17.66,
+              "pat": 252.73,
+              "patMargin": 25.22,
+              "netDebt": -56,
+              "capexAnnounced": 1526.5,
+              "revenuePerBedQuarter": 2716183,
+              "ebitdaPerBedQuarter": 2716183,
+              "bedTurnoverQuarter": 68.91
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 5128,
+              "operationalBeds": 3766,
+              "bedsUnderDevelopment": 1700,
+              "occupancyRate": 67,
+              "alos": 3.2,
+              "ipVolume": 463120,
+              "opVolume": 6340000,
+              "arpob": 44200,
+              "revenue": 1002,
+              "ebitda": 790,
+              "ebitdaMargin": 78.84,
+              "pat": 374.06,
+              "patMargin": 37.33,
+              "capexAnnounced": 914.5,
+              "revenuePerBedQuarter": 2660648,
+              "ebitdaPerBedQuarter": 2660648,
+              "bedTurnoverQuarter": 122.97
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 5178,
+              "operationalBeds": 3892,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 63.5,
+              "alos": 3.1,
+              "ipVolume": 368220,
+              "opVolume": 3290000,
+              "arpob": 50000,
+              "arpp": 99003,
+              "revenue": 2002,
+              "ebitda": 994,
+              "ebitdaMargin": 49.65,
+              "pat": 276.06,
+              "patMargin": 13.79,
+              "netDebt": -739,
+              "capexAnnounced": 522.5,
+              "revenuePerBedQuarter": 5143885,
+              "ebitdaPerBedQuarter": 5143885,
+              "bedTurnoverQuarter": 94.61
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5198,
+              "operationalBeds": 5197,
+              "occupancyRate": 61.5,
+              "alos": 3.2,
+              "ipVolume": 368220,
+              "opVolume": 2510000,
+              "arpob": 47600,
+              "arpp": 125000,
+              "revenue": 1000,
+              "ebitda": 817,
+              "ebitdaMargin": 81.7,
+              "pat": 202.06,
+              "patMargin": 20.21,
+              "netDebt": 639,
+              "capexAnnounced": 437.5,
+              "revenuePerBedQuarter": 1924187,
+              "ebitdaPerBedQuarter": 1924187,
+              "bedTurnoverQuarter": 70.85
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 5199,
+              "operationalBeds": 5186,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 64,
+              "alos": 3.1,
+              "ipVolume": 368220,
+              "opVolume": 2510000,
+              "arpob": 118552,
+              "arpp": 118552,
+              "revenue": 1000,
+              "ebitda": 817,
+              "ebitdaMargin": 81.7,
+              "pat": 321.32,
+              "patMargin": 32.13,
+              "capexAnnounced": 363,
+              "revenuePerBedQuarter": 1928268,
+              "ebitdaPerBedQuarter": 1928268,
+              "bedTurnoverQuarter": 71
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5645,
+              "operationalBeds": 5850.5,
+              "bedsUnderDevelopment": 4040,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 62,
+              "alos": 3.9,
+              "ipVolume": 159300,
+              "revenue": 2186,
+              "ebitda": 428,
+              "ebitdaMargin": 19.58,
+              "pat": 297,
+              "patMargin": 13.59,
+              "netDebt": -624,
+              "capexAnnounced": 531,
+              "revenuePerBedQuarter": 3736433,
+              "ebitdaPerBedQuarter": 3736433,
+              "bedTurnoverQuarter": 27.23
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 5449,
+              "operationalBeds": 3939,
+              "bedsUnderDevelopment": 4445,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 3.1,
+              "ipVolume": 68231,
+              "opVolume": 910000,
+              "arpob": 54300,
+              "arpp": 125234,
+              "revenue": 2368,
+              "ebitda": 468,
+              "ebitdaMargin": 19.76,
+              "pat": 347,
+              "patMargin": 14.65,
+              "netDebt": 239.94,
+              "capexAnnounced": 627,
+              "revenuePerBedQuarter": 6011678,
+              "ebitdaPerBedQuarter": 6011678,
+              "bedTurnoverQuarter": 17.32
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "kims": {
       "slug": "kims",
@@ -5003,7 +7029,303 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "ipVolume": 144799,
+              "opVolume": 1187407,
+              "revenue": 1873,
+              "ebitda": 330.2,
+              "ebitdaMargin": 17.63,
+              "pat": 111.11,
+              "patMargin": 5.93,
+              "capexAnnounced": 750
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5500,
+              "newHospitalsPlanned": 3,
+              "ipVolume": 54877,
+              "opVolume": 1297502,
+              "arpob": 26500,
+              "revenue": 2165.1,
+              "ebitda": 571.3,
+              "ebitdaMargin": 26.39,
+              "pat": 259.7,
+              "patMargin": 11.99,
+              "netDebt": 1550,
+              "capexAnnounced": 1450
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedsUnderDevelopment": 75,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 52.5,
+              "ipVolume": 182702,
+              "opVolume": 1680716,
+              "arpob": 66500,
+              "revenue": 3722.5,
+              "ebitda": 812,
+              "ebitdaMargin": 21.81,
+              "pat": 209,
+              "patMargin": 5.61,
+              "netDebt": 2850,
+              "capexAnnounced": 500
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 26,
+              "bedCapacity": 6882,
+              "operationalBeds": 4852,
+              "bedsUnderDevelopment": 1300,
+              "occupancyRate": 55.5,
+              "alos": 3.57,
+              "arpob": 44644,
+              "arpp": 164779,
+              "revenue": 1084,
+              "ebitda": 216,
+              "ebitdaMargin": 19.93,
+              "pat": 33,
+              "patMargin": 3.04,
+              "netDebt": 3000,
+              "revenuePerBedQuarter": 2234130,
+              "ebitdaPerBedQuarter": 2234130
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "ipVolume": 144799,
+              "opVolume": 1187407,
+              "revenue": 1873,
+              "ebitda": 330.2,
+              "ebitdaMargin": 17.63,
+              "pat": 111.11,
+              "patMargin": 5.93,
+              "capexAnnounced": 750
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 12,
+              "bedCapacity": 3975,
+              "operationalBeds": 3503,
+              "bedsUnderDevelopment": 320,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 50.599999999999994,
+              "alos": 3.815,
+              "ipVolume": 98594,
+              "opVolume": 1210448,
+              "arpob": 36364,
+              "arpp": 138449,
+              "revenue": 1901.6,
+              "ebitda": 493,
+              "ebitdaMargin": 25.93,
+              "pat": 172.85,
+              "patMargin": 9.09,
+              "netDebt": 900,
+              "capexAnnounced": 1150,
+              "revenuePerBedQuarter": 5428490,
+              "ebitdaPerBedQuarter": 5428490,
+              "bedTurnoverQuarter": 28.15
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 12,
+              "bedCapacity": 3975,
+              "bedsUnderDevelopment": 161,
+              "occupancyRate": 52,
+              "alos": 3.62,
+              "ipVolume": 47479,
+              "opVolume": 1217428,
+              "arpob": 38000,
+              "revenue": 1984.1,
+              "ebitda": 516.5,
+              "ebitdaMargin": 26.03,
+              "pat": 267.95,
+              "patMargin": 13.5,
+              "netDebt": 1150,
+              "capexAnnounced": 1150
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "bedCapacity": 4859,
+              "operationalBeds": 4190,
+              "occupancyRate": 50.95,
+              "alos": 3.71,
+              "ipVolume": 54877,
+              "opVolume": 1297502,
+              "arpob": 38367.5,
+              "arpp": 142248.5,
+              "revenue": 1375.1,
+              "ebitda": 366.3,
+              "ebitdaMargin": 26.64,
+              "pat": 166.7,
+              "patMargin": 12.12,
+              "netDebt": 3716,
+              "capexAnnounced": 1450,
+              "revenuePerBedQuarter": 3281862,
+              "ebitdaPerBedQuarter": 3281862,
+              "bedTurnoverQuarter": 13.1
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 5500,
+              "newHospitalsPlanned": 3,
+              "ipVolume": 54877,
+              "opVolume": 1297502,
+              "arpob": 26500,
+              "revenue": 2165.1,
+              "ebitda": 571.3,
+              "ebitdaMargin": 26.39,
+              "pat": 259.7,
+              "patMargin": 11.99,
+              "netDebt": 1550,
+              "capexAnnounced": 1450
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 18.5,
+              "bedCapacity": 5499.5,
+              "operationalBeds": 4552,
+              "occupancyRate": 49.45,
+              "alos": 3.6100000000000003,
+              "ipVolume": 112152,
+              "opVolume": 1394566,
+              "arpob": 43011,
+              "arpp": 153094,
+              "revenue": 2403,
+              "ebitda": 608.5,
+              "ebitdaMargin": 25.32,
+              "pat": 188.1,
+              "patMargin": 7.83,
+              "netDebt": 5771,
+              "capexAnnounced": 800,
+              "revenuePerBedQuarter": 5278998,
+              "ebitdaPerBedQuarter": 5278998,
+              "bedTurnoverQuarter": 24.64
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedCapacity": 8000,
+              "bedsUnderDevelopment": 800,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 55,
+              "alos": 3.4,
+              "ipVolume": 112152,
+              "opVolume": 974566,
+              "arpob": 43000,
+              "revenue": 2544.5,
+              "ebitda": 605,
+              "ebitdaMargin": 23.78,
+              "pat": 178,
+              "patMargin": 7,
+              "netDebt": 2020,
+              "capexAnnounced": 800
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 18,
+              "bedCapacity": 6464,
+              "occupancyRate": 53.5,
+              "alos": 3.58,
+              "ipVolume": 121563,
+              "opVolume": 1095217,
+              "arpob": 42016,
+              "arpp": 150624,
+              "revenue": 3509.5,
+              "ebitda": 813,
+              "ebitdaMargin": 23.17,
+              "pat": 250,
+              "patMargin": 7.12,
+              "netDebt": 7233
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedsUnderDevelopment": 75,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 52.5,
+              "ipVolume": 182702,
+              "opVolume": 1680716,
+              "arpob": 66500,
+              "revenue": 3722.5,
+              "ebitda": 812,
+              "ebitdaMargin": 21.81,
+              "pat": 209,
+              "patMargin": 5.61,
+              "netDebt": 2850,
+              "capexAnnounced": 500
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 26,
+              "bedCapacity": 6882,
+              "operationalBeds": 4852,
+              "bedsUnderDevelopment": 1300,
+              "occupancyRate": 55.5,
+              "alos": 3.57,
+              "ipVolume": 125427,
+              "opVolume": 1178224,
+              "arpob": 44644,
+              "arpp": 164779,
+              "revenue": 3931,
+              "ebitda": 828,
+              "ebitdaMargin": 21.06,
+              "pat": 242,
+              "patMargin": 6.16,
+              "netDebt": 3000,
+              "capexAnnounced": 500,
+              "revenuePerBedQuarter": 8101814,
+              "ebitdaPerBedQuarter": 8101814,
+              "bedTurnoverQuarter": 25.85
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "hcg": {
       "slug": "hcg",
@@ -5636,7 +7958,332 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY23": {
+            "label": "FY23 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {}
+          },
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 2000,
+              "bedsUnderDevelopment": 350,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 58,
+              "ipVolume": 5100,
+              "opVolume": 1353323,
+              "arpob": 42800,
+              "revenue": 928.5,
+              "ebitda": 169.3,
+              "ebitdaMargin": 18.23,
+              "pat": 20.7,
+              "patMargin": 2.23,
+              "netDebt": 367,
+              "capexAnnounced": 454
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 23.5,
+              "bedCapacity": 2327,
+              "operationalBeds": 2154,
+              "occupancyRate": 55,
+              "alos": 2.01,
+              "ipVolume": 23852,
+              "opVolume": 120110,
+              "arpob": 44284,
+              "revenue": 1666,
+              "ebitda": 300.7,
+              "ebitdaMargin": 18.05,
+              "pat": 90.73,
+              "patMargin": 5.45,
+              "capexAnnounced": 1372,
+              "revenuePerBedQuarter": 7734448,
+              "ebitdaPerBedQuarter": 7734448,
+              "bedTurnoverQuarter": 11.07
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedCapacity": 2500,
+              "operationalBeds": 2000,
+              "bedsUnderDevelopment": 135,
+              "opVolume": 301000,
+              "arpob": 83784,
+              "arpp": 84000,
+              "revenue": 1218,
+              "ebitda": 217.9,
+              "ebitdaMargin": 17.89,
+              "pat": 23.46,
+              "patMargin": 1.93,
+              "netDebt": 772,
+              "capexAnnounced": 368.8,
+              "revenuePerBedQuarter": 6090000,
+              "ebitdaPerBedQuarter": 6090000
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedCapacity": 2605,
+              "occupancyRate": 63,
+              "arpob": 84461,
+              "revenue": 652,
+              "ebitda": 125.2,
+              "ebitdaMargin": 19.2,
+              "pat": 10.86,
+              "patMargin": 1.67,
+              "netDebt": 3387
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q3": {
+            "label": "TTM @ FY24-Q3",
+            "metrics": {
+              "bedCapacity": 1911,
+              "operationalBeds": 1630.5,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59.8,
+              "ipVolume": 5100,
+              "opVolume": 1353323,
+              "arpob": 42788,
+              "revenue": 928.5,
+              "ebitda": 169.3,
+              "ebitdaMargin": 18.23,
+              "pat": 13.69,
+              "patMargin": 1.47,
+              "netDebt": 31.009999999999998,
+              "capexAnnounced": 336,
+              "revenuePerBedQuarter": 5694572,
+              "ebitdaPerBedQuarter": 5694572,
+              "bedTurnoverQuarter": 3.13
+            }
+          },
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 2000,
+              "bedsUnderDevelopment": 350,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 58,
+              "ipVolume": 5100,
+              "opVolume": 1353323,
+              "arpob": 42800,
+              "revenue": 928.5,
+              "ebitda": 169.3,
+              "ebitdaMargin": 18.23,
+              "pat": 20.7,
+              "patMargin": 2.23,
+              "netDebt": 367,
+              "capexAnnounced": 454
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 200,
+              "bedsUnderDevelopment": 125,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 61,
+              "alos": 1.98,
+              "ipVolume": 10900,
+              "opVolume": 294109,
+              "arpob": 42741,
+              "revenue": 486.5,
+              "ebitda": 86.2,
+              "ebitdaMargin": 17.72,
+              "pat": 42,
+              "patMargin": 8.63,
+              "capexAnnounced": 454
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 20.5,
+              "bedCapacity": 2004.5,
+              "bedsUnderDevelopment": 125,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 61,
+              "alos": 1.99,
+              "ipVolume": 23852,
+              "opVolume": 110913,
+              "arpob": 45188,
+              "revenue": 553.5,
+              "ebitda": 104.2,
+              "ebitdaMargin": 18.83,
+              "pat": 46.52,
+              "patMargin": 8.4,
+              "netDebt": 4134,
+              "capexAnnounced": 118
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 26,
+              "bedCapacity": 2200,
+              "operationalBeds": 1972,
+              "occupancyRate": 70,
+              "alos": 2,
+              "ipVolume": 23852,
+              "arpob": 69300,
+              "revenue": 1107,
+              "ebitda": 208.4,
+              "ebitdaMargin": 18.83,
+              "pat": 64.72,
+              "patMargin": 5.85,
+              "capexAnnounced": 1490,
+              "revenuePerBedQuarter": 5613590,
+              "ebitdaPerBedQuarter": 5613590,
+              "bedTurnoverQuarter": 12.1
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 23.5,
+              "bedCapacity": 2327,
+              "operationalBeds": 2154,
+              "occupancyRate": 55,
+              "alos": 2.01,
+              "ipVolume": 23852,
+              "opVolume": 120110,
+              "arpob": 44284,
+              "revenue": 1666,
+              "ebitda": 300.7,
+              "ebitdaMargin": 18.05,
+              "pat": 90.73,
+              "patMargin": 5.45,
+              "capexAnnounced": 1372,
+              "revenuePerBedQuarter": 7734448,
+              "ebitdaPerBedQuarter": 7734448,
+              "bedTurnoverQuarter": 11.07
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "operationalBeds": 1489.5,
+              "bedsUnderDevelopment": 650,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 62,
+              "ipVolume": 12952,
+              "opVolume": 287110,
+              "arpob": 44751,
+              "revenue": 2251,
+              "ebitda": 407.6,
+              "ebitdaMargin": 18.11,
+              "pat": 76.43,
+              "patMargin": 3.4,
+              "capexAnnounced": 1372,
+              "revenuePerBedQuarter": 15112454,
+              "ebitdaPerBedQuarter": 15112454,
+              "bedTurnoverQuarter": 8.7
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 23.5,
+              "bedCapacity": 2500,
+              "operationalBeds": 1849,
+              "occupancyRate": 66.55,
+              "opVolume": 421110,
+              "arpob": 44751,
+              "revenue": 1697.5,
+              "ebitda": 303.4,
+              "ebitdaMargin": 17.87,
+              "pat": 58.23,
+              "patMargin": 3.43,
+              "netDebt": 6317,
+              "capexAnnounced": 1465.8,
+              "revenuePerBedQuarter": 9180638,
+              "ebitdaPerBedQuarter": 9180638
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 23.5,
+              "bedCapacity": 2344.5,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 67,
+              "opVolume": 421110,
+              "arpob": 44355,
+              "revenue": 1144,
+              "ebitda": 199.2,
+              "ebitdaMargin": 17.41,
+              "pat": 40.03,
+              "patMargin": 3.5,
+              "netDebt": 7231,
+              "capexAnnounced": 93.8
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedCapacity": 2500,
+              "operationalBeds": 2000,
+              "bedsUnderDevelopment": 135,
+              "opVolume": 301000,
+              "arpob": 83784,
+              "arpp": 84000,
+              "revenue": 1218,
+              "ebitda": 217.9,
+              "ebitdaMargin": 17.89,
+              "pat": 23.46,
+              "patMargin": 1.93,
+              "netDebt": 772,
+              "capexAnnounced": 368.8,
+              "revenuePerBedQuarter": 6090000,
+              "ebitdaPerBedQuarter": 6090000
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 25,
+              "bedCapacity": 2605,
+              "occupancyRate": 63,
+              "opVolume": 134000,
+              "arpob": 84461,
+              "revenue": 1285,
+              "ebitda": 236.2,
+              "ebitdaMargin": 18.38,
+              "pat": 27.32,
+              "patMargin": 2.13,
+              "netDebt": 3387,
+              "capexAnnounced": 368.8
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "rainbow-childrens": {
       "slug": "rainbow-childrens",
@@ -6240,7 +8887,347 @@
           },
           "sources": []
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "operationalBeds": 1555,
+              "bedsUnderDevelopment": 280,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 50.8,
+              "alos": 2.605,
+              "ipVolume": 50393,
+              "opVolume": 932075,
+              "arpob": 55768,
+              "revenue": 9362.73,
+              "ebitda": 877,
+              "ebitdaMargin": 9.37,
+              "pat": 1652.01,
+              "patMargin": 17.64,
+              "netDebt": -495,
+              "capexAnnounced": 2477,
+              "revenuePerBedQuarter": 60210482,
+              "ebitdaPerBedQuarter": 60210482,
+              "bedTurnoverQuarter": 32.41
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 1935,
+              "operationalBeds": 1523,
+              "bedsUnderDevelopment": 250,
+              "newHospitalsPlanned": 2.5,
+              "occupancyRate": 46.5,
+              "alos": 2.81,
+              "opVolume": 667891,
+              "arpob": 56009.5,
+              "revenue": 11123.96,
+              "ebitda": 3751.5,
+              "ebitdaMargin": 33.72,
+              "pat": 1086.4,
+              "patMargin": 9.77,
+              "capexAnnounced": 122.32,
+              "revenuePerBedQuarter": 73039790,
+              "ebitdaPerBedQuarter": 73039790
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 24,
+              "bedCapacity": 2435,
+              "operationalBeds": 1782,
+              "bedsUnderDevelopment": 580,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 45.78,
+              "alos": 2.71,
+              "ipVolume": 104139,
+              "opVolume": 1604096.5,
+              "arpob": 60260.5,
+              "revenue": 1613.35,
+              "ebitda": 514.08,
+              "ebitdaMargin": 31.86,
+              "pat": 259.8,
+              "patMargin": 16.1,
+              "capexAnnounced": 98.44,
+              "revenuePerBedQuarter": 9053591,
+              "ebitdaPerBedQuarter": 9053591,
+              "bedTurnoverQuarter": 58.44
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "bedCapacity": 2375,
+              "operationalBeds": 1806,
+              "occupancyRate": 45.3,
+              "alos": 2.71,
+              "ipVolume": 27165,
+              "opVolume": 424702,
+              "arpob": 62464,
+              "revenue": 459.9,
+              "ebitda": 144.7,
+              "ebitdaMargin": 31.46,
+              "pat": 78.2,
+              "patMargin": 17,
+              "revenuePerBedQuarter": 2546512,
+              "ebitdaPerBedQuarter": 2546512,
+              "bedTurnoverQuarter": 15.04
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "operationalBeds": 1555,
+              "bedsUnderDevelopment": 280,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 50.8,
+              "alos": 2.605,
+              "ipVolume": 50393,
+              "opVolume": 932075,
+              "arpob": 55768,
+              "revenue": 9362.73,
+              "ebitda": 877,
+              "ebitdaMargin": 9.37,
+              "pat": 1652.01,
+              "patMargin": 17.64,
+              "netDebt": -495,
+              "capexAnnounced": 2477,
+              "revenuePerBedQuarter": 60210482,
+              "ebitdaPerBedQuarter": 60210482,
+              "bedTurnoverQuarter": 32.41
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 1935,
+              "operationalBeds": 1589,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 45.15,
+              "alos": 2.73,
+              "ipVolume": 50393,
+              "opVolume": 966042,
+              "arpob": 55848.5,
+              "arpp": 107000,
+              "revenue": 9793.22,
+              "ebitda": 937.1,
+              "ebitdaMargin": 9.57,
+              "pat": 1634.11,
+              "patMargin": 16.69,
+              "netDebt": -516.95,
+              "capexAnnounced": 660.7,
+              "revenuePerBedQuarter": 61631340,
+              "ebitdaPerBedQuarter": 61631340,
+              "bedTurnoverQuarter": 31.71
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 1935,
+              "operationalBeds": 1589,
+              "bedsUnderDevelopment": 300,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 59.9,
+              "alos": 2.94,
+              "ipVolume": 27015,
+              "opVolume": 628136,
+              "arpob": 49770,
+              "revenue": 9793.22,
+              "ebitda": 2407.9,
+              "ebitdaMargin": 24.59,
+              "pat": 1634.11,
+              "patMargin": 16.69,
+              "netDebt": -580,
+              "capexAnnounced": 660.7,
+              "revenuePerBedQuarter": 61631340,
+              "ebitdaPerBedQuarter": 61631340,
+              "bedTurnoverQuarter": 17
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 1935,
+              "operationalBeds": 1589,
+              "bedsUnderDevelopment": 400,
+              "newHospitalsPlanned": 2.5,
+              "occupancyRate": 53.2,
+              "alos": 2.91,
+              "ipVolume": 4127,
+              "opVolume": 628136,
+              "arpob": 53404,
+              "revenue": 10500.9,
+              "ebitda": 3751.5,
+              "ebitdaMargin": 35.73,
+              "pat": 1697.81,
+              "patMargin": 16.17,
+              "netDebt": -667,
+              "capexAnnounced": 78.62,
+              "revenuePerBedQuarter": 66084959,
+              "ebitdaPerBedQuarter": 66084959,
+              "bedTurnoverQuarter": 2.6
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 19,
+              "bedCapacity": 1935,
+              "operationalBeds": 1523,
+              "bedsUnderDevelopment": 250,
+              "newHospitalsPlanned": 2.5,
+              "occupancyRate": 46.5,
+              "alos": 2.81,
+              "opVolume": 667891,
+              "arpob": 56009.5,
+              "revenue": 11123.96,
+              "ebitda": 3751.5,
+              "ebitdaMargin": 33.72,
+              "pat": 1086.4,
+              "patMargin": 9.77,
+              "capexAnnounced": 122.32,
+              "revenuePerBedQuarter": 73039790,
+              "ebitdaPerBedQuarter": 73039790
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "numberOfHospitals": 20,
+              "bedCapacity": 2035,
+              "operationalBeds": 1523,
+              "newHospitalsPlanned": 4,
+              "occupancyRate": 40.2,
+              "alos": 2.66,
+              "ipVolume": 20992,
+              "opVolume": 686232,
+              "arpob": 59767.5,
+              "revenue": 8191.86,
+              "ebitda": 2929.1,
+              "ebitdaMargin": 35.76,
+              "pat": 745.9,
+              "patMargin": 9.11,
+              "capexAnnounced": 107.12,
+              "revenuePerBedQuarter": 53787656,
+              "ebitdaPerBedQuarter": 53787656,
+              "bedTurnoverQuarter": 13.78
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 22,
+              "bedCapacity": 2285,
+              "operationalBeds": 1621,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 52,
+              "alos": 2.73,
+              "ipVolume": 49372,
+              "opVolume": 1113827,
+              "arpob": 57396,
+              "revenue": 8544.86,
+              "ebitda": 1561.9,
+              "ebitdaMargin": 18.28,
+              "pat": 799.7,
+              "patMargin": 9.36,
+              "capexAnnounced": 107.12,
+              "revenuePerBedQuarter": 52713510,
+              "ebitdaPerBedQuarter": 52713510,
+              "bedTurnoverQuarter": 30.46
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 23,
+              "bedCapacity": 2330,
+              "operationalBeds": 1758,
+              "newHospitalsPlanned": 3,
+              "occupancyRate": 47.2,
+              "alos": 2.73,
+              "ipVolume": 76163,
+              "opVolume": 1536295.5,
+              "arpob": 58362,
+              "revenue": 5008.86,
+              "ebitda": 367.1,
+              "ebitdaMargin": 7.33,
+              "pat": 185.9,
+              "patMargin": 3.71,
+              "capexAnnounced": 142.15,
+              "revenuePerBedQuarter": 28491809,
+              "ebitdaPerBedQuarter": 28491809,
+              "bedTurnoverQuarter": 43.32
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 24,
+              "bedCapacity": 2435,
+              "operationalBeds": 1782,
+              "bedsUnderDevelopment": 580,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 45.78,
+              "alos": 2.71,
+              "ipVolume": 104139,
+              "opVolume": 1604096.5,
+              "arpob": 60260.5,
+              "revenue": 1613.35,
+              "ebitda": 514.08,
+              "ebitdaMargin": 31.86,
+              "pat": 259.8,
+              "patMargin": 16.1,
+              "capexAnnounced": 98.44,
+              "revenuePerBedQuarter": 9053591,
+              "ebitdaPerBedQuarter": 9053591,
+              "bedTurnoverQuarter": 58.44
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "bedCapacity": 2375,
+              "operationalBeds": 1806,
+              "occupancyRate": 45.3,
+              "alos": 2.71,
+              "ipVolume": 110312,
+              "opVolume": 1699467.5,
+              "arpob": 62464,
+              "revenue": 1703.15,
+              "ebitda": 544.08,
+              "ebitdaMargin": 31.95,
+              "pat": 281.5,
+              "patMargin": 16.53,
+              "capexAnnounced": 56.95,
+              "revenuePerBedQuarter": 9430509,
+              "ebitdaPerBedQuarter": 9430509,
+              "bedTurnoverQuarter": 61.08
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "jupiter-lifeline": {
       "slug": "jupiter-lifeline",
@@ -6731,7 +9718,302 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 3,
+              "bedCapacity": 961,
+              "bedsUnderDevelopment": 500,
+              "occupancyRate": 63.2,
+              "alos": 3.92,
+              "ipVolume": 97235,
+              "opVolume": 55796,
+              "arpob": 53585,
+              "revenue": 781,
+              "ebitda": 177.45,
+              "ebitdaMargin": 22.72,
+              "pat": 87.7,
+              "patMargin": 11.23
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 2497,
+              "bedsUnderDevelopment": 122,
+              "occupancyRate": 66.2,
+              "alos": 3.88,
+              "ipVolume": 189293,
+              "opVolume": 112571,
+              "arpob": 61750,
+              "revenue": 937.6,
+              "ebitda": 218.3,
+              "ebitdaMargin": 23.28,
+              "pat": 278.94,
+              "patMargin": 29.75,
+              "capexAnnounced": 400
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 1,
+              "bedCapacity": 2500,
+              "operationalBeds": 1061,
+              "occupancyRate": 61.9,
+              "alos": 3.85,
+              "ipVolume": 24580,
+              "opVolume": 25910,
+              "arpob": 68000,
+              "revenue": 1087.3,
+              "ebitda": 246.9,
+              "ebitdaMargin": 22.71,
+              "pat": 143.8,
+              "patMargin": 13.23,
+              "capexAnnounced": 535,
+              "revenuePerBedQuarter": 10247879,
+              "ebitdaPerBedQuarter": 10247879,
+              "bedTurnoverQuarter": 23.17
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 7,
+              "bedCapacity": 2900,
+              "operationalBeds": 1061,
+              "occupancyRate": 61.2,
+              "alos": 3.87,
+              "arpob": 67700,
+              "revenue": 387.8,
+              "ebitda": 89.2,
+              "ebitdaMargin": 23,
+              "pat": 50.2,
+              "patMargin": 12.94,
+              "netDebt": 500.93,
+              "revenuePerBedQuarter": 3655042,
+              "ebitdaPerBedQuarter": 3655042
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 3,
+              "bedCapacity": 961,
+              "bedsUnderDevelopment": 500,
+              "occupancyRate": 63.2,
+              "alos": 3.92,
+              "ipVolume": 97235,
+              "opVolume": 55796,
+              "arpob": 53585,
+              "revenue": 781,
+              "ebitda": 177.45,
+              "ebitdaMargin": 22.72,
+              "pat": 87.7,
+              "patMargin": 11.23
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 3,
+              "bedCapacity": 961,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 63.8,
+              "alos": 3.93,
+              "ipVolume": 93365,
+              "opVolume": 54871,
+              "arpob": 59700,
+              "revenue": 829.2,
+              "ebitda": 189.75,
+              "ebitdaMargin": 22.88,
+              "pat": 79,
+              "patMargin": 9.53,
+              "netDebt": -2.89
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 66.95,
+              "alos": 3.85,
+              "ipVolume": 144365,
+              "opVolume": 112571,
+              "arpob": 66700,
+              "revenue": 889.2,
+              "ebitda": 204.35,
+              "ebitdaMargin": 22.98,
+              "pat": 96.8,
+              "patMargin": 10.89
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "ipVolume": 231528,
+              "opVolume": 112571,
+              "revenue": 615.6,
+              "ebitda": 141.9,
+              "ebitdaMargin": 23.05,
+              "pat": 226.44,
+              "patMargin": 36.78
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 6,
+              "bedCapacity": 2497,
+              "bedsUnderDevelopment": 122,
+              "occupancyRate": 66.2,
+              "alos": 3.88,
+              "ipVolume": 189293,
+              "opVolume": 112571,
+              "arpob": 61750,
+              "revenue": 937.6,
+              "ebitda": 218.3,
+              "ebitdaMargin": 23.28,
+              "pat": 278.94,
+              "patMargin": 29.75,
+              "capexAnnounced": 400
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "operationalBeds": 1061,
+              "bedsUnderDevelopment": 500,
+              "occupancyRate": 65.3,
+              "alos": 3.89,
+              "ipVolume": 138163,
+              "opVolume": 57700,
+              "arpob": 65509.5,
+              "arpp": 65566,
+              "revenue": 646.2,
+              "ebitda": 153,
+              "ebitdaMargin": 23.68,
+              "pat": 233.64,
+              "patMargin": 36.16,
+              "netDebt": 126,
+              "capexAnnounced": 400,
+              "revenuePerBedQuarter": 6090481,
+              "ebitdaPerBedQuarter": 6090481,
+              "bedTurnoverQuarter": 130.22
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "numberOfHospitals": 1,
+              "operationalBeds": 1061,
+              "bedsUnderDevelopment": 1440,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 62.3,
+              "alos": 3.8099999999999996,
+              "ipVolume": 111743,
+              "opVolume": 25910,
+              "arpob": 67300,
+              "revenue": 669.6,
+              "ebitda": 154.5,
+              "ebitdaMargin": 23.07,
+              "pat": 226.04,
+              "patMargin": 33.76,
+              "netDebt": 325,
+              "capexAnnounced": 510,
+              "revenuePerBedQuarter": 6311027,
+              "ebitdaPerBedQuarter": 6311027,
+              "bedTurnoverQuarter": 105.32
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 1,
+              "operationalBeds": 1061,
+              "bedsUnderDevelopment": 1440,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 62.2,
+              "alos": 3.84,
+              "ipVolume": 24580,
+              "opVolume": 25910,
+              "arpob": 66100,
+              "revenue": 1044,
+              "ebitda": 239.9,
+              "ebitdaMargin": 22.98,
+              "pat": 153.8,
+              "patMargin": 14.73,
+              "netDebt": 318.9,
+              "capexAnnounced": 510,
+              "revenuePerBedQuarter": 9839774,
+              "ebitdaPerBedQuarter": 9839774,
+              "bedTurnoverQuarter": 23.17
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 1,
+              "bedCapacity": 2500,
+              "operationalBeds": 1061,
+              "occupancyRate": 61.9,
+              "alos": 3.85,
+              "ipVolume": 24580,
+              "opVolume": 25910,
+              "arpob": 68000,
+              "revenue": 1087.3,
+              "ebitda": 246.9,
+              "ebitdaMargin": 22.71,
+              "pat": 143.8,
+              "patMargin": 13.23,
+              "capexAnnounced": 535,
+              "revenuePerBedQuarter": 10247879,
+              "ebitdaPerBedQuarter": 10247879,
+              "bedTurnoverQuarter": 23.17
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 7,
+              "bedCapacity": 2900,
+              "operationalBeds": 1061,
+              "occupancyRate": 61.2,
+              "alos": 3.87,
+              "ipVolume": 24580,
+              "opVolume": 25910,
+              "arpob": 67700,
+              "revenue": 1475.1,
+              "ebitda": 336.1,
+              "ebitdaMargin": 22.78,
+              "pat": 194,
+              "patMargin": 13.15,
+              "netDebt": 500.93,
+              "capexAnnounced": 535,
+              "revenuePerBedQuarter": 13902922,
+              "ebitdaPerBedQuarter": 13902922,
+              "bedTurnoverQuarter": 23.17
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     },
     "yatharth": {
       "slug": "yatharth",
@@ -7306,7 +10588,311 @@
             }
           ]
         }
-      }
+      },
+      "periodViews": {
+        "fy": {
+          "FY24": {
+            "label": "FY24",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 4.5,
+              "bedsUnderDevelopment": 295,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 52,
+              "alos": 4.66,
+              "ipVolume": 2499,
+              "arpob": 29309,
+              "revenue": 338.1,
+              "ebitda": 133.4,
+              "ebitdaMargin": 39.46,
+              "pat": 76.1,
+              "patMargin": 22.51,
+              "netDebt": 0,
+              "capexAnnounced": 932
+            }
+          },
+          "FY25": {
+            "label": "FY25",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2300,
+              "newHospitalsPlanned": 2,
+              "ipVolume": 3616.5,
+              "opVolume": 17000,
+              "revenue": 211.8,
+              "ebitda": 53.7,
+              "ebitdaMargin": 25.35,
+              "capexAnnounced": 245
+            }
+          },
+          "FY26": {
+            "label": "FY26",
+            "complete": true,
+            "quartersUsed": 4,
+            "metrics": {
+              "numberOfHospitals": 8,
+              "bedCapacity": 2900,
+              "operationalBeds": 2305,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 67,
+              "alos": 4.32,
+              "ipVolume": 1581.5,
+              "opVolume": 12000,
+              "arpob": 33513.5,
+              "revenue": 1089.5,
+              "ebitda": 260.2,
+              "ebitdaMargin": 23.88,
+              "pat": 165.8,
+              "patMargin": 15.22,
+              "capexAnnounced": 2080,
+              "revenuePerBedQuarter": 4726681,
+              "ebitdaPerBedQuarter": 4726681,
+              "bedTurnoverQuarter": 0.69
+            }
+          },
+          "FY27": {
+            "label": "FY27 (1Q)",
+            "complete": false,
+            "quartersUsed": 1,
+            "metrics": {
+              "numberOfHospitals": 8,
+              "bedCapacity": 2800,
+              "operationalBeds": 2527.5,
+              "bedsUnderDevelopment": 250,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 71,
+              "alos": 4.17,
+              "arpob": 33283,
+              "revenue": 341.6,
+              "ebitda": 79.9,
+              "ebitdaMargin": 23.39,
+              "pat": 44.7,
+              "patMargin": 13.09,
+              "netDebt": 936.445,
+              "capexAnnounced": 100,
+              "revenuePerBedQuarter": 1351533,
+              "ebitdaPerBedQuarter": 1351533
+            }
+          }
+        },
+        "ttm": {
+          "FY24-Q4": {
+            "label": "TTM @ FY24-Q4",
+            "metrics": {
+              "numberOfHospitals": 4.5,
+              "bedsUnderDevelopment": 295,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 52,
+              "alos": 4.66,
+              "ipVolume": 2499,
+              "arpob": 29309,
+              "revenue": 338.1,
+              "ebitda": 133.4,
+              "ebitdaMargin": 39.46,
+              "pat": 76.1,
+              "patMargin": 22.51,
+              "netDebt": 0,
+              "capexAnnounced": 932
+            }
+          },
+          "FY25-Q1": {
+            "label": "TTM @ FY25-Q1",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 1605,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 59,
+              "alos": 5.220000000000001,
+              "ipVolume": 1359,
+              "opVolume": 5000,
+              "arpob": 29908.5,
+              "revenue": 549.9,
+              "ebitda": 145.7,
+              "ebitdaMargin": 26.5,
+              "pat": 57.1,
+              "patMargin": 10.38,
+              "netDebt": 80,
+              "capexAnnounced": 825
+            }
+          },
+          "FY25-Q2": {
+            "label": "TTM @ FY25-Q2",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "operationalBeds": 170,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 61,
+              "alos": 4.425,
+              "ipVolume": 1895,
+              "opVolume": 5000,
+              "arpob": 30619,
+              "revenue": 378.6,
+              "ebitda": 100.1,
+              "ebitdaMargin": 26.44,
+              "pat": 29.5,
+              "patMargin": 7.79,
+              "netDebt": -847.55,
+              "capexAnnounced": 245,
+              "revenuePerBedQuarter": 22270588,
+              "ebitdaPerBedQuarter": 22270588,
+              "bedTurnoverQuarter": 11.15
+            }
+          },
+          "FY25-Q3": {
+            "label": "TTM @ FY25-Q3",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2000,
+              "bedsUnderDevelopment": 700,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 61,
+              "alos": 4.3,
+              "ipVolume": 3616.5,
+              "opVolume": 17000,
+              "arpob": 30652,
+              "revenue": 211.8,
+              "ebitda": 53.7,
+              "ebitdaMargin": 25.35,
+              "netDebt": -308.275,
+              "capexAnnounced": 245
+            }
+          },
+          "FY25-Q4": {
+            "label": "TTM @ FY25-Q4",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2300,
+              "newHospitalsPlanned": 2,
+              "ipVolume": 3616.5,
+              "opVolume": 17000,
+              "revenue": 211.8,
+              "ebitda": 53.7,
+              "ebitdaMargin": 25.35,
+              "capexAnnounced": 245
+            }
+          },
+          "FY26-Q1": {
+            "label": "TTM @ FY26-Q1",
+            "metrics": {
+              "bedCapacity": 2300,
+              "operationalBeds": 1455.5,
+              "bedsUnderDevelopment": 700,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 61,
+              "alos": 4.33,
+              "ipVolume": 3616.5,
+              "opVolume": 12000,
+              "arpob": 30829,
+              "revenue": 231.8,
+              "ebitda": 57,
+              "ebitdaMargin": 24.59,
+              "pat": 38.7,
+              "patMargin": 16.7,
+              "netDebt": -2767.6,
+              "capexAnnounced": 520,
+              "revenuePerBedQuarter": 1592580,
+              "ebitdaPerBedQuarter": 1592580,
+              "bedTurnoverQuarter": 2.48
+            }
+          },
+          "FY26-Q2": {
+            "label": "TTM @ FY26-Q2",
+            "metrics": {
+              "bedCapacity": 2300,
+              "operationalBeds": 2305,
+              "newHospitalsPlanned": 2,
+              "occupancyRate": 66,
+              "alos": 4.05,
+              "ipVolume": 1721.5,
+              "opVolume": 24000,
+              "arpob": 32015,
+              "revenue": 489.6,
+              "ebitda": 121.5,
+              "ebitdaMargin": 24.82,
+              "pat": 80.7,
+              "patMargin": 16.48,
+              "netDebt": -369.2,
+              "capexAnnounced": 580,
+              "revenuePerBedQuarter": 2124078,
+              "ebitdaPerBedQuarter": 2124078,
+              "bedTurnoverQuarter": 0.75
+            }
+          },
+          "FY26-Q3": {
+            "label": "TTM @ FY26-Q3",
+            "metrics": {
+              "numberOfHospitals": 5,
+              "bedCapacity": 2550,
+              "newHospitalsPlanned": 2.5,
+              "occupancyRate": 67,
+              "alos": 4,
+              "opVolume": 12000,
+              "arpob": 33744,
+              "revenue": 769,
+              "ebitda": 186,
+              "ebitdaMargin": 24.19,
+              "pat": 122.7,
+              "patMargin": 15.96,
+              "netDebt": -200,
+              "capexAnnounced": 2080
+            }
+          },
+          "FY26-Q4": {
+            "label": "TTM @ FY26-Q4",
+            "metrics": {
+              "numberOfHospitals": 8,
+              "bedCapacity": 2900,
+              "operationalBeds": 2305,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 67,
+              "alos": 4.32,
+              "ipVolume": 1581.5,
+              "opVolume": 12000,
+              "arpob": 33513.5,
+              "revenue": 1089.5,
+              "ebitda": 260.2,
+              "ebitdaMargin": 23.88,
+              "pat": 165.8,
+              "patMargin": 15.22,
+              "capexAnnounced": 2080,
+              "revenuePerBedQuarter": 4726681,
+              "ebitdaPerBedQuarter": 4726681,
+              "bedTurnoverQuarter": 0.69
+            }
+          },
+          "FY27-Q1": {
+            "label": "TTM @ FY27-Q1",
+            "metrics": {
+              "numberOfHospitals": 8,
+              "bedCapacity": 2800,
+              "operationalBeds": 2527.5,
+              "bedsUnderDevelopment": 250,
+              "newHospitalsPlanned": 1,
+              "occupancyRate": 71,
+              "alos": 4.17,
+              "ipVolume": 1581.5,
+              "opVolume": 12000,
+              "arpob": 33283,
+              "revenue": 1199.3,
+              "ebitda": 283.1,
+              "ebitdaMargin": 23.61,
+              "pat": 171.8,
+              "patMargin": 14.33,
+              "netDebt": 936.445,
+              "capexAnnounced": 1880,
+              "revenuePerBedQuarter": 4745005,
+              "ebitdaPerBedQuarter": 4745005,
+              "bedTurnoverQuarter": 0.63
+            }
+          }
+        }
+      },
+      "latestQuarter": "FY27-Q1",
+      "latestCompleteFy": "FY26",
+      "latestTtm": "FY27-Q1"
     }
   },
   "byMetric": {

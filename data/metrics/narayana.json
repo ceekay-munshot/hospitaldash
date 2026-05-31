@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-31T08:31:30.988Z",
+  "lastBuiltAt": "2026-05-31T10:01:17.449Z",
   "latestQuote": {
     "date": "2026-05-30",
     "price": 1898.95,
@@ -5074,5 +5074,1946 @@
       },
       "derived": {}
     }
-  }
+  },
+  "periodViews": {
+    "fy": {
+      "FY23": {
+        "metrics": {
+          "revenue": {
+            "value": 1221.6,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "ebitda": {
+            "value": 290.4,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "capexAnnounced": {
+            "value": 150,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "arpob": {
+            "value": 135000,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY23-Q4"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 23.77,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {},
+        "label": "FY23 (1Q)",
+        "complete": false,
+        "quartersUsed": [
+          "FY23-Q4"
+        ]
+      },
+      "FY24": {
+        "metrics": {
+          "revenue": {
+            "value": 209.35,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 390.84,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 70763,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 618757,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 504,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "occupancyRate": {
+            "value": 60,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "arpob": {
+            "value": 134000,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "arpp": {
+            "value": 131000,
+            "unit": "INR_per_patient",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "alos": {
+            "value": 9,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "netDebt": {
+            "value": -330,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 186.69,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {},
+        "label": "FY24",
+        "complete": true,
+        "quartersUsed": [
+          "FY24-Q1",
+          "FY24-Q2",
+          "FY24-Q3",
+          "FY24-Q4"
+        ]
+      },
+      "FY25": {
+        "metrics": {
+          "ebitda": {
+            "value": 6829.4,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 4089.1,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 135100,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 65000,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 28530,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "occupancyRate": {
+            "value": 60,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q4"
+            }
+          }
+        },
+        "derived": {},
+        "label": "FY25",
+        "complete": true,
+        "quartersUsed": [
+          "FY25-Q1",
+          "FY25-Q2",
+          "FY25-Q3",
+          "FY25-Q4"
+        ]
+      },
+      "FY26": {
+        "metrics": {
+          "revenue": {
+            "value": 4160.85,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 852.97,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 406.01,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 157200,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 979,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 55,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "bedCapacity": {
+            "value": 6200,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "operationalBeds": {
+            "value": 5900,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "arpob": {
+            "value": 49589,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "netDebt": {
+            "value": 2232.1,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 20.5,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 9.76,
+          "revenuePerBed": 7052288,
+          "ebitdaPerBed": 1445712,
+          "bedTurnover": 26.64
+        },
+        "label": "FY26",
+        "complete": true,
+        "quartersUsed": [
+          "FY26-Q1",
+          "FY26-Q2",
+          "FY26-Q3",
+          "FY26-Q4"
+        ]
+      },
+      "FY27": {
+        "metrics": {
+          "revenue": {
+            "value": 2593.8,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "ebitda": {
+            "value": 539.2,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "pat": {
+            "value": 228,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 1
+            }
+          },
+          "numberOfHospitals": {
+            "value": 35,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "bedCapacity": {
+            "value": 5945,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "operationalBeds": {
+            "value": 5945,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "arpob": {
+            "value": 50959,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "netDebt": {
+            "value": 2239.7,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 20.79,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 8.79,
+          "revenuePerBed": 4362994,
+          "ebitdaPerBed": 906981
+        },
+        "label": "FY27 (1Q)",
+        "complete": false,
+        "quartersUsed": [
+          "FY27-Q1"
+        ]
+      }
+    },
+    "ttm": {
+      "FY24-Q3": {
+        "metrics": {
+          "revenue": {
+            "value": 1306.8,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 645.48,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 70763,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 618757,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 654,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 18,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q3"
+            }
+          },
+          "bedCapacity": {
+            "value": 5667.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q3"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q3"
+            }
+          },
+          "netDebt": {
+            "value": 228.665,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q3"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 49.39,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {},
+        "label": "TTM @ FY24-Q3",
+        "quartersUsed": [
+          "FY23-Q4",
+          "FY24-Q1",
+          "FY24-Q2",
+          "FY24-Q3"
+        ]
+      },
+      "FY24-Q4": {
+        "metrics": {
+          "revenue": {
+            "value": 209.35,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 390.84,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 70763,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 618757,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 504,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "occupancyRate": {
+            "value": 60,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "arpob": {
+            "value": 134000,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "arpp": {
+            "value": 131000,
+            "unit": "INR_per_patient",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "alos": {
+            "value": 9,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "netDebt": {
+            "value": -330,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY24-Q4"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 186.69,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {},
+        "label": "TTM @ FY24-Q4",
+        "quartersUsed": [
+          "FY24-Q1",
+          "FY24-Q2",
+          "FY24-Q3",
+          "FY24-Q4"
+        ]
+      },
+      "FY25-Q1": {
+        "metrics": {
+          "revenue": {
+            "value": 209.35,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 3546.26,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 1908,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 68500,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 683757,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 28394,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 18,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "bedCapacity": {
+            "value": 5752,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "operationalBeds": {
+            "value": 5506,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "bedsUnderDevelopment": {
+            "value": 350,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "occupancyRate": {
+            "value": 65,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q1"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 1693.94,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 911.39,
+          "revenuePerBed": 380222,
+          "ebitdaPerBed": 6440719,
+          "bedTurnover": 12.44
+        },
+        "label": "TTM @ FY25-Q1",
+        "quartersUsed": [
+          "FY24-Q2",
+          "FY24-Q3",
+          "FY24-Q4",
+          "FY25-Q1"
+        ]
+      },
+      "FY25-Q2": {
+        "metrics": {
+          "revenue": {
+            "value": 209.35,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 6539.76,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 3896,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 135100,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 70757,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 28530,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 19,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "bedCapacity": {
+            "value": 6005,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "operationalBeds": {
+            "value": 5665.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "occupancyRate": {
+            "value": 64.5,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "arpp": {
+            "value": 104000,
+            "unit": "INR_per_patient",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "alos": {
+            "value": 4.3,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "netDebt": {
+            "value": 2684,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q2"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 3123.84,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 1861,
+          "revenuePerBed": 369517,
+          "ebitdaPerBed": 11543129,
+          "bedTurnover": 23.85
+        },
+        "label": "TTM @ FY25-Q2",
+        "quartersUsed": [
+          "FY24-Q3",
+          "FY24-Q4",
+          "FY25-Q1",
+          "FY25-Q2"
+        ]
+      },
+      "FY25-Q3": {
+        "metrics": {
+          "revenue": {
+            "value": 124.15,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 6865.16,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 4089.1,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 135100,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 65000,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 28530,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 19,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "bedCapacity": {
+            "value": 5955.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "operationalBeds": {
+            "value": 4969.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "bedsUnderDevelopment": {
+            "value": 600,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "newHospitalsPlanned": {
+            "value": 5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "alos": {
+            "value": 4.3,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q3"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 5529.73,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 3293.68,
+          "revenuePerBed": 249824,
+          "ebitdaPerBed": 13814589,
+          "bedTurnover": 27.19
+        },
+        "label": "TTM @ FY25-Q3",
+        "quartersUsed": [
+          "FY24-Q4",
+          "FY25-Q1",
+          "FY25-Q2",
+          "FY25-Q3"
+        ]
+      },
+      "FY25-Q4": {
+        "metrics": {
+          "ebitda": {
+            "value": 6829.4,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 4089.1,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 135100,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "opVolume": {
+            "value": 65000,
+            "unit": "visits",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 28530,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "occupancyRate": {
+            "value": 60,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY25-Q4"
+            }
+          }
+        },
+        "derived": {},
+        "label": "TTM @ FY25-Q4",
+        "quartersUsed": [
+          "FY25-Q1",
+          "FY25-Q2",
+          "FY25-Q3",
+          "FY25-Q4"
+        ]
+      },
+      "FY26-Q1": {
+        "metrics": {
+          "revenue": {
+            "value": 150.73,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 3681.47,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 2200.71,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 135100,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 1089,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 18,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "bedCapacity": {
+            "value": 5282,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "operationalBeds": {
+            "value": 5282,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "bedsUnderDevelopment": {
+            "value": 52,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "newHospitalsPlanned": {
+            "value": 1,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "occupancyRate": {
+            "value": 65,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "alos": {
+            "value": 4.65,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "netDebt": {
+            "value": 343,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q1"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 2442.43,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 1460.03,
+          "revenuePerBed": 285365,
+          "ebitdaPerBed": 6969841,
+          "bedTurnover": 25.58
+        },
+        "label": "TTM @ FY26-Q1",
+        "quartersUsed": [
+          "FY25-Q2",
+          "FY25-Q3",
+          "FY25-Q4",
+          "FY26-Q1"
+        ]
+      },
+      "FY26-Q2": {
+        "metrics": {
+          "revenue": {
+            "value": 1794.53,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 787.97,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 471.01,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 979,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 18,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "bedCapacity": {
+            "value": 5578.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "operationalBeds": {
+            "value": 5403.5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "bedsUnderDevelopment": {
+            "value": 400,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "alos": {
+            "value": 4.3,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "netDebt": {
+            "value": 246.6,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q2"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 43.91,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 26.25,
+          "revenuePerBed": 3321051,
+          "ebitdaPerBed": 1458259
+        },
+        "label": "TTM @ FY26-Q2",
+        "quartersUsed": [
+          "FY25-Q3",
+          "FY25-Q4",
+          "FY26-Q1",
+          "FY26-Q2"
+        ]
+      },
+      "FY26-Q3": {
+        "metrics": {
+          "revenue": {
+            "value": 2009.65,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 462.57,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 277.91,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 157200,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 979,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "bedCapacity": {
+            "value": 6200,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q3"
+            }
+          },
+          "newHospitalsPlanned": {
+            "value": 5,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q3"
+            }
+          },
+          "occupancyRate": {
+            "value": 55,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q3"
+            }
+          },
+          "arpp": {
+            "value": 44400,
+            "unit": "INR_per_patient",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q3"
+            }
+          },
+          "alos": {
+            "value": 4.9,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q3"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 23.02,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 13.83
+        },
+        "label": "TTM @ FY26-Q3",
+        "quartersUsed": [
+          "FY25-Q4",
+          "FY26-Q1",
+          "FY26-Q2",
+          "FY26-Q3"
+        ]
+      },
+      "FY26-Q4": {
+        "metrics": {
+          "revenue": {
+            "value": 4160.85,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 852.97,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 406.01,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 157200,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 979,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 55,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "bedCapacity": {
+            "value": 6200,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "operationalBeds": {
+            "value": 5900,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "arpob": {
+            "value": 49589,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "netDebt": {
+            "value": 2232.1,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY26-Q4"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 20.5,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 9.76,
+          "revenuePerBed": 7052288,
+          "ebitdaPerBed": 1445712,
+          "bedTurnover": 26.64
+        },
+        "label": "TTM @ FY26-Q4",
+        "quartersUsed": [
+          "FY26-Q1",
+          "FY26-Q2",
+          "FY26-Q3",
+          "FY26-Q4"
+        ]
+      },
+      "FY27-Q1": {
+        "metrics": {
+          "revenue": {
+            "value": 6603.92,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ebitda": {
+            "value": 1356.1,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "pat": {
+            "value": 614.4,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "ipVolume": {
+            "value": 157200,
+            "unit": "admissions",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "capexAnnounced": {
+            "value": 420,
+            "unit": "INR_crore",
+            "confidence": "medium",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-aggregate",
+              "quarters": 4
+            }
+          },
+          "numberOfHospitals": {
+            "value": 35,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "bedCapacity": {
+            "value": 5945,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "operationalBeds": {
+            "value": 5945,
+            "unit": "count",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "arpob": {
+            "value": 50959,
+            "unit": "INR_per_day",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "alos": {
+            "value": 4.4,
+            "unit": "days",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "netDebt": {
+            "value": 2239.7,
+            "unit": "INR_crore",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-end",
+              "endingQuarter": "FY27-Q1"
+            }
+          },
+          "ebitdaMargin": {
+            "value": 20.53,
+            "unit": "%",
+            "confidence": "high",
+            "clientSafe": true,
+            "source": {
+              "docType": "period-derived"
+            }
+          }
+        },
+        "derived": {
+          "patMargin": 9.3,
+          "revenuePerBed": 11108360,
+          "ebitdaPerBed": 2281077,
+          "bedTurnover": 26.44
+        },
+        "label": "TTM @ FY27-Q1",
+        "quartersUsed": [
+          "FY26-Q2",
+          "FY26-Q3",
+          "FY26-Q4",
+          "FY27-Q1"
+        ]
+      }
+    }
+  },
+  "latestQuarter": "FY27-Q1",
+  "latestCompleteFy": "FY26",
+  "latestTtm": "FY27-Q1"
 }

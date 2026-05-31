@@ -3,6 +3,8 @@ import { loadSectorData } from './lib/data';
 import CompanyHeader from './components/CompanyHeader';
 import Section from './components/Section';
 import MetricDetailModal from './components/MetricDetailModal';
+import PeriodSelector from './components/PeriodSelector';
+import { defaultPeriod } from './lib/period';
 
 // 6 sections matching Simran's framework
 const SECTIONS = [
@@ -25,6 +27,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [slug, setSlug] = useState(null);
   const [selectedMetric, setSelectedMetric] = useState(null);
+  const [period, setPeriod] = useState(null);
 
   useEffect(() => {
     loadSectorData()
@@ -41,6 +44,11 @@ export default function App() {
   }, []);
 
   const company = data && slug ? data.byCompany[slug] : null;
+
+  // Reset period to that company's latest quarter when switching companies
+  useEffect(() => {
+    if (company) setPeriod(defaultPeriod(company));
+  }, [slug, data]);
   const buildDate = useMemo(() => (data ? new Date(data.generatedAt).toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' }) : ''), [data]);
 
   if (error) {
@@ -104,15 +112,19 @@ export default function App() {
       <CompanyHeader company={company} />
 
       {company && Object.keys(company.quarters || {}).length > 0 ? (
-        SECTIONS.map((s) => (
-          <Section
-            key={s.id}
-            {...s}
-            sectorData={data}
-            companySlug={slug}
-            onSelectMetric={setSelectedMetric}
-          />
-        ))
+        <>
+          <PeriodSelector company={company} selected={period} onChange={setPeriod} />
+          {SECTIONS.map((s) => (
+            <Section
+              key={s.id}
+              {...s}
+              sectorData={data}
+              companySlug={slug}
+              period={period}
+              onSelectMetric={setSelectedMetric}
+            />
+          ))}
+        </>
       ) : (
         <div className="empty">
           No extracted metrics yet for {company?.name || 'this company'}. Run the Gemini extraction workflow to populate.

@@ -367,6 +367,123 @@ async function processCompany(company) {
   const sortedFqs = [...byQuarter.keys()].sort((a, b) => compareQuarters(b, a));
   const orderedQuarters = Object.fromEntries(sortedFqs.map((fq) => [fq, quarters[fq]]));
 
+  // ── Period aggregations: FY rollups + period-aware views ────────────
+  // Stock metrics = point-in-time (use period-end value, not summed).
+  // Flow metrics = period totals (sum quarters within period).
+  // Ratio metrics = recompute from period's flow values.
+  const FLOW = ['revenue', 'ebitda', 'pat', 'ipVolume', 'opVolume', 'capexAnnounced'];
+  const STOCK = ['numberOfHospitals', 'bedCapacity', 'operationalBeds', 'bedsUnderDevelopment',
+                 'newHospitalsPlanned', 'occupancyRate', 'arpob', 'arpp', 'alos', 'netDebt'];
+
+  // Parse fiscal year from quarter key like FY26-Q3 → 26
+  const fyOf = (fq) => {
+    const m = /^FY(\d{2})-Q[1-4]$/.exec(fq);
+    return m ? Number(m[1]) : null;
+  };
+  const qNumOf = (fq) => {
+    const m = /^FY(\d{2})-Q([1-4])$/.exec(fq);
+    return m ? Number(m[2]) : null;
+  };
+
+  // Group quarters by FY
+  const fyBuckets = new Map();
+  for (const fq of oldestFirst) {
+    const fy = fyOf(fq);
+    if (fy == null) continue;
+    if (!fyBuckets.has(fy)) fyBuckets.set(fy, []);
+    fyBuckets.get(fy).push(fq);
+  }
+
+  // Build a "period view" for a set of quarters within a period
+  // periodEndFq = the LAST quarter in the period (for stock metrics)
+  function buildPeriodView(quartersInPeriod, periodEndFq) {
+    const view = { metrics: {}, derived: {} };
+    if (!quartersInPeriod.length) return view;
+
+    // Flow metrics: sum across quarters
+    for (const key of FLOW) {
+      const vals = quartersInPeriod.map((fq) => safeVal(fq, key)).filter((v) => v != null);
+      if (vals.length) {
+        view.metrics[key] = {
+          value: Number(vals.reduce((s, v) => s + v, 0).toFixed(2)),
+          unit: METRIC_UNIT[key] || '',
+          confidence: vals.length === quartersInPeriod.length ? 'high' : 'medium',
+          clientSafe: true,
+          source: { docType: 'period-aggregate', quarters: quartersInPeriod.length },
+        };
+      }
+    }
+
+    // Stock metrics: take the period-end value
+    for (const key of STOCK) {
+      const v = safeVal(periodEndFq, key);
+      if (v != null) {
+        view.metrics[key] = {
+          value: v,
+          unit: METRIC_UNIT[key] || '',
+          confidence: 'high',
+          clientSafe: true,
+          source: { docType: 'period-end', endingQuarter: periodEndFq },
+        };
+      }
+    }
+
+    // Ratio metrics: recompute from flow values in the period
+    const revenue = view.metrics.revenue?.value;
+    const ebitda = view.metrics.ebitda?.value;
+    const pat = view.metrics.pat?.value;
+    if (ebitda != null && revenue) {
+      view.metrics.ebitdaMargin = {
+        value: Number(((ebitda / revenue) * 100).toFixed(2)),
+        unit: '%', confidence: 'high', clientSafe: true,
+        source: { docType: 'period-derived' },
+      };
+    }
+    if (pat != null && revenue) {
+      view.derived.patMargin = Number(((pat / revenue) * 100).toFixed(2));
+    }
+
+    // Per-bed metrics scoped to period (no annualization needed — it IS the period)
+    const opBeds = view.metrics.operationalBeds?.value;
+    if (revenue != null && opBeds) {
+      view.derived.revenuePerBed = Math.round((revenue * 1e7) / opBeds);
+    }
+    if (ebitda != null && opBeds) {
+      view.derived.ebitdaPerBed = Math.round((ebitda * 1e7) / opBeds);
+    }
+    // Bed turnover scoped to period (admissions in this period per operational bed)
+    const ipVol = view.metrics.ipVolume?.value;
+    if (ipVol != null && opBeds) {
+      view.derived.bedTurnover = Number((ipVol / opBeds).toFixed(2));
+    }
+
+    return view;
+  }
+
+  // Build FY views — only for FYs where we have all 4 quarters (or current partial FY).
+  const fyViews = {};
+  for (const [fy, qs] of fyBuckets.entries()) {
+    const sortedQs = [...qs].sort(compareQuarters);
+    const periodEnd = sortedQs[sortedQs.length - 1];
+    const fyKey = `FY${String(fy).padStart(2, '0')}`;
+    const view = buildPeriodView(sortedQs, periodEnd);
+    view.label = sortedQs.length === 4 ? fyKey : `${fyKey} (${sortedQs.length}Q)`;
+    view.complete = sortedQs.length === 4;
+    view.quartersUsed = sortedQs;
+    fyViews[fyKey] = view;
+  }
+
+  // Build TTM views — trailing 4 quarters ending at each quarter
+  const ttmViews = {};
+  for (let i = 0; i < oldestFirst.length; i++) {
+    if (i < 3) continue; // need 4 quarters
+    const win = oldestFirst.slice(i - 3, i + 1);
+    const view = buildPeriodView(win, oldestFirst[i]);
+    view.label = `TTM @ ${oldestFirst[i]}`;
+    view.quartersUsed = win;
+    ttmViews[oldestFirst[i]] = view;
+  }
+
   const out = {
     slug,
     scripCode: company.scripCode,
@@ -400,6 +517,14 @@ async function processCompany(company) {
         : null,
     },
     quarters: orderedQuarters,
+    // NEW: period-aware views. Frontend toggles between these.
+    periodViews: {
+      fy: fyViews,        // { 'FY26': { metrics, derived, label, complete }, 'FY25': {...} }
+      ttm: ttmViews,      // { 'FY27-Q1': { metrics, derived, label }, ... }
+    },
+    latestQuarter: sortedFqs[0] || null,
+    latestCompleteFy: Object.keys(fyViews).filter((k) => fyViews[k].complete).sort().pop() || null,
+    latestTtm: oldestFirst[oldestFirst.length - 1] || null,
   };
 
   const path = `data/metrics/${slug}.json`;

@@ -134,6 +134,50 @@ a:hover { text-decoration: underline; }
   color: white;
 }
 
+/* ── Period selector (Simran's #1 ask) ────────────────────── */
+.period-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 16px;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.period-label {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.period-pills {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.period-pill {
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 500;
+  border-radius: 999px;
+  background: var(--bg-subtle);
+  border: 0.5px solid transparent;
+  color: var(--text-secondary);
+  transition: all 120ms ease;
+  cursor: pointer;
+}
+.period-pill:hover {
+  background: var(--bg-card);
+  border-color: var(--border);
+  color: var(--text);
+}
+.period-pill.active {
+  background: var(--positive);
+  color: white;
+  border-color: var(--positive);
+}
+
 /* ── Company header card ───────────────────────────────── */
 .coheader {
   background: var(--bg-card);
