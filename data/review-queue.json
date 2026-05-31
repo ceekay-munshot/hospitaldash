@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-29T13:19:03.182Z",
-  "total": 369,
+  "generatedAt": "2026-05-31T08:20:36.996Z",
+  "total": 417,
   "byPriority": {
-    "P0": 4,
-    "P1": 38,
-    "P2": 148,
-    "P3": 179
+    "P0": 1,
+    "P1": 37,
+    "P2": 169,
+    "P3": 210
   },
   "byStatus": {
-    "outlier": 40,
-    "review": 329
+    "review": 377,
+    "outlier": 40
   },
   "legend": {
     "P0": "Core metric (revenue/ebitda/margin/pat/arpob/occupancy/alos/beds/hospitals) in latest 2 quarters — FIX BEFORE CLIENT",
@@ -20,120 +20,34 @@
   "note": "Fill the correct value into data/overrides/<company>.json to clear an item. Source PDFs are in each item's candidates[].pdfUrl.",
   "items": [
     {
-      "company": "narayana",
-      "fiscalQuarter": "FY27-Q1",
-      "metric": "revenue",
-      "status": "outlier",
-      "reason": "outlier vs recent median 183 (×14.2)",
-      "pickedValue": 2593.8,
-      "candidates": [
-        {
-          "value": 2593.8,
-          "docType": "investor-presentation",
-          "date": "2026-05-22",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf"
-        }
-      ],
-      "priority": "P0"
-    },
-    {
-      "company": "narayana",
-      "fiscalQuarter": "FY27-Q1",
+      "company": "aster-dm",
+      "fiscalQuarter": "FY26-Q4",
       "metric": "arpob",
-      "status": "outlier",
-      "reason": "outlier vs recent median 134500 (×0.1)",
-      "pickedValue": 18600,
-      "candidates": [
-        {
-          "value": 18600,
-          "docType": "investor-presentation",
-          "date": "2026-05-22",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf"
-        }
-      ],
-      "priority": "P0"
-    },
-    {
-      "company": "narayana",
-      "fiscalQuarter": "FY26-Q4",
-      "metric": "ebitda",
       "status": "review",
-      "reason": "sources disagree (5.394 … 22.06)",
-      "pickedValue": 13.727,
+      "reason": "sources disagree (66500 … 133945)",
+      "pickedValue": 122294,
       "candidates": [
         {
-          "value": 22.06,
-          "docType": "quarterly-result",
-          "date": "2026-02-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf"
+          "value": 133945,
+          "docType": "investor-presentation",
+          "date": "2026-02-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00c944b6-a342-449a-ba3a-324c9b3da7c0.pdf"
         },
         {
-          "value": 5.394,
-          "docType": "press-release",
-          "date": "2026-05-22",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf"
-        }
-      ],
-      "rejected": [],
-      "priority": "P0"
-    },
-    {
-      "company": "narayana",
-      "fiscalQuarter": "FY26-Q4",
-      "metric": "pat",
-      "status": "review",
-      "reason": "sources disagree (2.283 … 75.74)",
-      "pickedValue": 39.0115,
-      "candidates": [
-        {
-          "value": 75.74,
-          "docType": "quarterly-result",
-          "date": "2026-02-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf"
+          "value": 122294,
+          "docType": "investor-presentation",
+          "date": "2026-01-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f1ce99a-22b5-49bb-973b-c9ff36eaad02.pdf"
         },
         {
-          "value": 2.283,
-          "docType": "press-release",
-          "date": "2026-05-22",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf"
-        }
-      ],
-      "rejected": [],
-      "priority": "P0"
-    },
-    {
-      "company": "aster-dm",
-      "fiscalQuarter": "FY27-Q1",
-      "metric": "ipVolume",
-      "status": "outlier",
-      "reason": "outlier vs recent median 208920 (×0.3)",
-      "pickedValue": 68231,
-      "candidates": [
-        {
-          "value": 68231,
-          "docType": "investor-presentation",
-          "date": "2026-04-30",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ace7e196-b0e8-4a27-93f9-9479f755ae29.pdf"
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "company": "aster-dm",
-      "fiscalQuarter": "FY27-Q1",
-      "metric": "opVolume",
-      "status": "outlier",
-      "reason": "outlier vs recent median 2510000 (×0.4)",
-      "pickedValue": 880000,
-      "candidates": [
-        {
-          "value": 880000,
+          "value": 66500,
           "docType": "concall-transcript",
-          "date": "2026-05-08",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/199c44ba-0dff-413b-84de-872f67a011a0.pdf"
+          "date": "2026-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/caa879ae-8f7c-4280-8e22-e09387565d78.pdf"
         }
       ],
-      "priority": "P1"
+      "rejected": [],
+      "priority": "P0"
     },
     {
       "company": "hcg",
@@ -209,7 +123,7 @@
       "fiscalQuarter": "FY27-Q1",
       "metric": "ipVolume",
       "status": "outlier",
-      "reason": "outlier vs recent median 1280 (×230.5)",
+      "reason": "outlier vs recent median 10900 (×27.1)",
       "pickedValue": 295000,
       "candidates": [
         {
@@ -414,6 +328,30 @@
           "docType": "press-release",
           "date": "2026-05-16",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f3da36b-ee6e-4abb-8426-5a4a91b9c917.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P1"
+    },
+    {
+      "company": "max-healthcare",
+      "fiscalQuarter": "FY27-Q1",
+      "metric": "newHospitalsPlanned",
+      "status": "review",
+      "reason": "sources disagree (1 … 9)",
+      "pickedValue": 5,
+      "candidates": [
+        {
+          "value": 9,
+          "docType": "investor-presentation",
+          "date": "2026-05-26",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/49477928-7f1d-4f60-a0b8-0b5f70111e4d.pdf"
+        },
+        {
+          "value": 1,
+          "docType": "concall-transcript",
+          "date": "2026-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/32d9c73a-07ea-42f8-bffa-14ed214222b7.pdf"
         }
       ],
       "rejected": [],
@@ -1493,42 +1431,25 @@
     {
       "company": "yatharth",
       "fiscalQuarter": "FY26-Q3",
-      "metric": "numberOfHospitals",
-      "status": "review",
-      "reason": "sources disagree (5 … 8)",
-      "pickedValue": 6.5,
-      "candidates": [
-        {
-          "value": 5,
-          "docType": "concall-transcript",
-          "date": "2026-02-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf"
-        },
-        {
-          "value": 8,
-          "docType": "press-release",
-          "date": "2026-02-05",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4a6cb4a-ffa8-4194-a77b-8a93fdcd89ef.pdf"
-        }
-      ],
-      "rejected": [],
-      "priority": "P2"
-    },
-    {
-      "company": "yatharth",
-      "fiscalQuarter": "FY26-Q3",
       "metric": "operationalBeds",
-      "status": "outlier",
-      "reason": "outlier vs recent median 1456 (×0.1)",
-      "pickedValue": 150,
+      "status": "review",
+      "reason": "sources disagree (150 … 1500)",
+      "pickedValue": 825,
       "candidates": [
         {
           "value": 150,
           "docType": "concall-transcript",
           "date": "2026-02-13",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf"
+        },
+        {
+          "value": 1500,
+          "docType": "quarterly-result",
+          "date": "2025-11-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf"
         }
       ],
+      "rejected": [],
       "priority": "P2"
     },
     {
@@ -2565,14 +2486,20 @@
       "fiscalQuarter": "FY25-Q4",
       "metric": "pat",
       "status": "review",
-      "reason": "sources disagree (56.5 … 565.5)",
-      "pickedValue": 311,
+      "reason": "sources disagree (56.5 … 689.41)",
+      "pickedValue": 565.5,
       "candidates": [
         {
           "value": 56.5,
           "docType": "concall-transcript",
           "date": "2025-05-31",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf"
+        },
+        {
+          "value": 689.41,
+          "docType": "quarterly-result",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
         },
         {
           "value": 565.5,
@@ -3155,7 +3082,7 @@
       "metric": "operationalBeds",
       "status": "review",
       "reason": "sources disagree (118 … 1932)",
-      "pickedValue": 1318,
+      "pickedValue": 1292.5,
       "candidates": [
         {
           "value": 1932,
@@ -3174,6 +3101,12 @@
           "docType": "press-release",
           "date": "2024-11-09",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec22608f-8d0c-447d-9935-aed56f10df49.pdf"
+        },
+        {
+          "value": 1267,
+          "docType": "press-release",
+          "date": "2024-08-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bb721b9e-972f-4ef1-a183-3b4c9ac6497f.pdf"
         }
       ],
       "rejected": [],
@@ -3348,6 +3281,78 @@
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1b5ca41-f65f-4fc9-a1d6-8c56600600fd.pdf"
         }
       ],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "revenue",
+      "status": "review",
+      "reason": "sources disagree (417.5 … 4174.6)",
+      "pickedValue": 3662.415,
+      "candidates": [
+        {
+          "value": 4174.6,
+          "docType": "investor-presentation",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54a60e73-780b-436a-847a-f348c52d3310.pdf"
+        },
+        {
+          "value": 417.5,
+          "docType": "concall-transcript",
+          "date": "2024-11-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/be44ff22-0967-45e4-b0d4-dc34cd56f9ac.pdf"
+        },
+        {
+          "value": 3150.23,
+          "docType": "quarterly-result",
+          "date": "2024-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e615ae69-8745-49f7-be7c-958507173a95.pdf"
+        },
+        {
+          "value": 4174.6,
+          "docType": "press-release",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d33d212-fb5d-4749-b8b9-496975cd914e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "pat",
+      "status": "review",
+      "reason": "sources disagree (79 … 790.1)",
+      "pickedValue": 588.635,
+      "candidates": [
+        {
+          "value": 790,
+          "docType": "investor-presentation",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54a60e73-780b-436a-847a-f348c52d3310.pdf"
+        },
+        {
+          "value": 79,
+          "docType": "concall-transcript",
+          "date": "2024-11-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/be44ff22-0967-45e4-b0d4-dc34cd56f9ac.pdf"
+        },
+        {
+          "value": 387.27,
+          "docType": "quarterly-result",
+          "date": "2024-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e615ae69-8745-49f7-be7c-958507173a95.pdf"
+        },
+        {
+          "value": 790.1,
+          "docType": "press-release",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d33d212-fb5d-4749-b8b9-496975cd914e.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P2"
     },
     {
@@ -3651,6 +3656,120 @@
           "docType": "press-release",
           "date": "2024-08-06",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b940e511-69fe-48a4-af45-8d89b93e88c1.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "operationalBeds",
+      "status": "review",
+      "reason": "sources disagree (196 … 1258)",
+      "pickedValue": 727,
+      "candidates": [
+        {
+          "value": 196,
+          "docType": "investor-presentation",
+          "date": "2024-06-28",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8695fbcb-0e0d-4085-b247-01e8433bc223.pdf"
+        },
+        {
+          "value": 1258,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 196,
+          "docType": "press-release",
+          "date": "2024-06-28",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0bca423e-c0f7-4681-ad70-3e5452382d70.pdf"
+        },
+        {
+          "value": 1258,
+          "docType": "press-release",
+          "date": "2024-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec401a24-a1dd-4681-ac1a-c0dfd0cf5f45.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "revenue",
+      "status": "review",
+      "reason": "sources disagree (274.27 … 4946)",
+      "pickedValue": 2720.5,
+      "candidates": [
+        {
+          "value": 4946,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 495,
+          "docType": "concall-transcript",
+          "date": "2024-06-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70a51fa5-c12b-4a4a-93fa-643c1f84ffa5.pdf"
+        },
+        {
+          "value": 274.27,
+          "docType": "quarterly-result",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73cd7de9-5cd4-4c8a-89cf-529cb6dc14ea.pdf"
+        },
+        {
+          "value": 4946,
+          "docType": "press-release",
+          "date": "2024-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec401a24-a1dd-4681-ac1a-c0dfd0cf5f45.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (19.69 … 941)",
+      "pickedValue": 422,
+      "candidates": [
+        {
+          "value": 422,
+          "docType": "investor-presentation",
+          "date": "2024-06-28",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8695fbcb-0e0d-4085-b247-01e8433bc223.pdf"
+        },
+        {
+          "value": 941,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 94,
+          "docType": "concall-transcript",
+          "date": "2024-06-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70a51fa5-c12b-4a4a-93fa-643c1f84ffa5.pdf"
+        },
+        {
+          "value": 19.69,
+          "docType": "quarterly-result",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73cd7de9-5cd4-4c8a-89cf-529cb6dc14ea.pdf"
+        },
+        {
+          "value": 941,
+          "docType": "press-release",
+          "date": "2024-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec401a24-a1dd-4681-ac1a-c0dfd0cf5f45.pdf"
         }
       ],
       "rejected": [],
@@ -4113,6 +4232,78 @@
       "priority": "P2"
     },
     {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "revenue",
+      "status": "review",
+      "reason": "sources disagree (266.5 … 470)",
+      "pickedValue": 368.25,
+      "candidates": [
+        {
+          "value": 470,
+          "docType": "concall-transcript",
+          "date": "2024-02-16",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71ce8ad1-4a64-4e85-b704-b3bc98b94f0c.pdf"
+        },
+        {
+          "value": 266.5,
+          "docType": "quarterly-result",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (14.95 … 82.6)",
+      "pickedValue": 48.775,
+      "candidates": [
+        {
+          "value": 82.6,
+          "docType": "concall-transcript",
+          "date": "2024-02-16",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71ce8ad1-4a64-4e85-b704-b3bc98b94f0c.pdf"
+        },
+        {
+          "value": 14.95,
+          "docType": "quarterly-result",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "ebitdaMargin",
+      "status": "review",
+      "reason": "sources disagree (5.61 … 17.6)",
+      "pickedValue": 11.605,
+      "candidates": [
+        {
+          "value": 17.6,
+          "docType": "concall-transcript",
+          "date": "2024-02-16",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71ce8ad1-4a64-4e85-b704-b3bc98b94f0c.pdf"
+        },
+        {
+          "value": 5.61,
+          "docType": "quarterly-result",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7526a0d2-6140-4cfa-8ce2-ac1234aa6377.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
       "company": "jupiter-lifeline",
       "fiscalQuarter": "FY24-Q4",
       "metric": "revenue",
@@ -4287,6 +4478,78 @@
           "docType": "quarterly-result",
           "date": "2024-02-08",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8a8babed-4eb7-4cd5-b21a-cf870bed99e8.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "numberOfHospitals",
+      "status": "review",
+      "reason": "sources disagree (8 … 17)",
+      "pickedValue": 12.5,
+      "candidates": [
+        {
+          "value": 17,
+          "docType": "investor-presentation",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18d31887-135a-4af6-b1e8-4371ef83f841.pdf"
+        },
+        {
+          "value": 8,
+          "docType": "concall-transcript",
+          "date": "2024-02-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75783663-7887-4e27-95c5-30f2b258b8b3.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "bedCapacity",
+      "status": "review",
+      "reason": "sources disagree (890 … 1715)",
+      "pickedValue": 1302.5,
+      "candidates": [
+        {
+          "value": 1715,
+          "docType": "investor-presentation",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18d31887-135a-4af6-b1e8-4371ef83f841.pdf"
+        },
+        {
+          "value": 890,
+          "docType": "concall-transcript",
+          "date": "2024-02-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75783663-7887-4e27-95c5-30f2b258b8b3.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (118.1 … 1180.78)",
+      "pickedValue": 649.4399999999999,
+      "candidates": [
+        {
+          "value": 1180.78,
+          "docType": "investor-presentation",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18d31887-135a-4af6-b1e8-4371ef83f841.pdf"
+        },
+        {
+          "value": 118.1,
+          "docType": "concall-transcript",
+          "date": "2024-02-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75783663-7887-4e27-95c5-30f2b258b8b3.pdf"
         }
       ],
       "rejected": [],
@@ -4566,6 +4829,144 @@
       "priority": "P2"
     },
     {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "numberOfHospitals",
+      "status": "review",
+      "reason": "sources disagree (1 … 24)",
+      "pickedValue": 12.5,
+      "candidates": [
+        {
+          "value": 3,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 1,
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf"
+        },
+        {
+          "value": 22,
+          "docType": "press-release",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f54907b1-d24c-4b00-844d-5676fdf0f807.pdf"
+        },
+        {
+          "value": 24,
+          "docType": "press-release",
+          "date": "2023-10-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5527c8d9-47de-4f2b-a50a-b482d74fed68.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "revenue",
+      "status": "review",
+      "reason": "sources disagree (284.88 … 4699)",
+      "pickedValue": 4247,
+      "candidates": [
+        {
+          "value": 4247,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 284.88,
+          "docType": "quarterly-result",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/993fd5ad-af0b-49ba-b6a7-1a79ac1c6c3c.pdf"
+        },
+        {
+          "value": 4699,
+          "docType": "press-release",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f54907b1-d24c-4b00-844d-5676fdf0f807.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (18.28 … 826)",
+      "pickedValue": 456.22,
+      "candidates": [
+        {
+          "value": 826,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 86.44,
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf"
+        },
+        {
+          "value": 18.28,
+          "docType": "quarterly-result",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/993fd5ad-af0b-49ba-b6a7-1a79ac1c6c3c.pdf"
+        },
+        {
+          "value": 826,
+          "docType": "press-release",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f54907b1-d24c-4b00-844d-5676fdf0f807.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "pat",
+      "status": "review",
+      "reason": "sources disagree (13.58 … 57)",
+      "pickedValue": 35.35,
+      "candidates": [
+        {
+          "value": 57,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 13.58,
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf"
+        },
+        {
+          "value": 13.7,
+          "docType": "quarterly-result",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/993fd5ad-af0b-49ba-b6a7-1a79ac1c6c3c.pdf"
+        },
+        {
+          "value": 57,
+          "docType": "press-release",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f54907b1-d24c-4b00-844d-5676fdf0f807.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
       "company": "jupiter-lifeline",
       "fiscalQuarter": "FY24-Q3",
       "metric": "pat",
@@ -4700,6 +5101,30 @@
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9539ffd2-76cd-4012-9420-e4aa9f4fb615.pdf"
         }
       ],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (11.76 … 1180.8)",
+      "pickedValue": 596.28,
+      "candidates": [
+        {
+          "value": 11.76,
+          "docType": "investor-presentation",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4434b0db-4d82-47af-897b-4a7d9b7caf13.pdf"
+        },
+        {
+          "value": 1180.8,
+          "docType": "press-release",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43200898-109a-4900-adae-03472af330af.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P2"
     },
     {
@@ -4931,6 +5356,36 @@
       "priority": "P2"
     },
     {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "ebitdaMargin",
+      "status": "review",
+      "reason": "sources disagree (6.59 … 17.8)",
+      "pickedValue": 16.6,
+      "candidates": [
+        {
+          "value": 16.6,
+          "docType": "investor-presentation",
+          "date": "2023-08-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dfe4add8-e3c0-45ec-acdf-0f4aeac04984.pdf"
+        },
+        {
+          "value": 6.59,
+          "docType": "quarterly-result",
+          "date": "2023-08-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e17d6388-99d1-4f1e-9e94-9f542e4ae421.pdf"
+        },
+        {
+          "value": 17.8,
+          "docType": "press-release",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14aa33bd-3f24-4716-9544-a176a70a4c8c.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
       "company": "kims",
       "fiscalQuarter": "FY24-Q2",
       "metric": "operationalBeds",
@@ -5081,6 +5536,90 @@
       "priority": "P2"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "revenue",
+      "status": "review",
+      "reason": "sources disagree (332.7 … 3326.8)",
+      "pickedValue": 2703.5,
+      "candidates": [
+        {
+          "value": 332.7,
+          "docType": "concall-transcript",
+          "date": "2023-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26b6aa71-792b-47c9-b335-16573ebe2f01.pdf"
+        },
+        {
+          "value": 2703.5,
+          "docType": "quarterly-result",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
+        },
+        {
+          "value": 3326.8,
+          "docType": "press-release",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93285dd8-2aa3-450b-8913-615ba654b70e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "ebitda",
+      "status": "review",
+      "reason": "sources disagree (117.6 … 1175.6)",
+      "pickedValue": 646.5999999999999,
+      "candidates": [
+        {
+          "value": 117.6,
+          "docType": "concall-transcript",
+          "date": "2023-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26b6aa71-792b-47c9-b335-16573ebe2f01.pdf"
+        },
+        {
+          "value": 1175.6,
+          "docType": "press-release",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93285dd8-2aa3-450b-8913-615ba654b70e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "pat",
+      "status": "review",
+      "reason": "sources disagree (63.2 … 631.6)",
+      "pickedValue": 393.29,
+      "candidates": [
+        {
+          "value": 63.2,
+          "docType": "concall-transcript",
+          "date": "2023-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26b6aa71-792b-47c9-b335-16573ebe2f01.pdf"
+        },
+        {
+          "value": 393.29,
+          "docType": "quarterly-result",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d94ea10c-7f5d-4bd5-aa04-1f2aaeda100d.pdf"
+        },
+        {
+          "value": 631.6,
+          "docType": "press-release",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93285dd8-2aa3-450b-8913-615ba654b70e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
       "company": "yatharth",
       "fiscalQuarter": "FY24-Q2",
       "metric": "operationalBeds",
@@ -5213,6 +5752,78 @@
           "docType": "press-release",
           "date": "2023-05-25",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a05dd0e9-e223-416f-af6e-565cf09982fc.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "ebitdaMargin",
+      "status": "review",
+      "reason": "sources disagree (4.23 … 18.8)",
+      "pickedValue": 17.700000000000003,
+      "candidates": [
+        {
+          "value": 18.8,
+          "docType": "investor-presentation",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf"
+        },
+        {
+          "value": 16.6,
+          "docType": "concall-transcript",
+          "date": "2023-08-18",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdd59aa-00e0-4578-9779-d41bdbd0711f.pdf"
+        },
+        {
+          "value": 18.8,
+          "docType": "concall-transcript",
+          "date": "2023-06-02",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab498ac1-68a8-4096-a261-e5db367bdafd.pdf"
+        },
+        {
+          "value": 4.23,
+          "docType": "quarterly-result",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P2"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "pat",
+      "status": "review",
+      "reason": "sources disagree (4.18 … 83.7)",
+      "pickedValue": 7.95,
+      "candidates": [
+        {
+          "value": 83.7,
+          "docType": "investor-presentation",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf"
+        },
+        {
+          "value": 7.6,
+          "docType": "concall-transcript",
+          "date": "2023-08-18",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdd59aa-00e0-4578-9779-d41bdbd0711f.pdf"
+        },
+        {
+          "value": 8.3,
+          "docType": "concall-transcript",
+          "date": "2023-06-02",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab498ac1-68a8-4096-a261-e5db367bdafd.pdf"
+        },
+        {
+          "value": 4.18,
+          "docType": "quarterly-result",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf"
         }
       ],
       "rejected": [],
@@ -5977,22 +6588,25 @@
     {
       "company": "yatharth",
       "fiscalQuarter": "FY26-Q3",
-      "metric": "ipVolume",
+      "metric": "bedsUnderDevelopment",
       "status": "review",
-      "reason": "all candidates out of range or empty",
-      "pickedValue": null,
-      "candidates": [],
-      "rejected": [
+      "reason": "sources disagree (250 … 3000)",
+      "pickedValue": 1625,
+      "candidates": [
         {
-          "value": 0,
-          "confidence": "low",
-          "quote": "",
+          "value": 3000,
           "docType": "concall-transcript",
           "date": "2026-02-13",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
-          "rejectReason": "out-of-range"
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf"
+        },
+        {
+          "value": 250,
+          "docType": "quarterly-result",
+          "date": "2025-11-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf"
         }
       ],
+      "rejected": [],
       "priority": "P3"
     },
     {
@@ -6033,6 +6647,32 @@
           "date": "2026-02-13",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
           "rejectReason": "out-of-range"
+        },
+        {
+          "value": 420.36,
+          "confidence": "high",
+          "quote": "Earnings per equity share of Rs. 10/- per share Basic Diluted",
+          "docType": "quarterly-result",
+          "date": "2025-11-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
+          "rejectReason": "out-of-range"
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "company": "yatharth",
+      "fiscalQuarter": "FY26-Q3",
+      "metric": "ipVolume",
+      "status": "outlier",
+      "reason": "outlier vs recent median 1540 (×35.6)",
+      "pickedValue": 54823,
+      "candidates": [
+        {
+          "value": 54823,
+          "docType": "quarterly-result",
+          "date": "2025-11-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf"
         }
       ],
       "priority": "P3"
@@ -6250,6 +6890,23 @@
           "docType": "press-release",
           "date": "2025-11-11",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf98cd9b-c1dc-476d-af40-ad965f608cb3.pdf"
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY26-Q2",
+      "metric": "ipVolume",
+      "status": "outlier",
+      "reason": "outlier vs recent median 10900 (×0.1)",
+      "pickedValue": 1167,
+      "candidates": [
+        {
+          "value": 1167,
+          "docType": "investor-presentation",
+          "date": "2025-08-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4091bc49-4ef8-483b-8033-988cb7567173.pdf"
         }
       ],
       "priority": "P3"
@@ -6736,6 +7393,23 @@
         }
       ],
       "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY26-Q1",
+      "metric": "ipVolume",
+      "status": "outlier",
+      "reason": "outlier vs recent median 10900 (×0.1)",
+      "pickedValue": 1280,
+      "candidates": [
+        {
+          "value": 1280,
+          "docType": "investor-presentation",
+          "date": "2025-05-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a5fa4ecd-3b95-4221-9a19-60f8be54c52c.pdf"
+        }
+      ],
       "priority": "P3"
     },
     {
@@ -7458,6 +8132,30 @@
       "priority": "P3"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q4",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "sources disagree (22975 … 68941)",
+      "pickedValue": 45958,
+      "candidates": [
+        {
+          "value": 68941,
+          "docType": "quarterly-result",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26598283-9dac-456b-bda1-f8088d5af42c.pdf"
+        },
+        {
+          "value": 22975,
+          "docType": "press-release",
+          "date": "2025-05-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c3d68a8-c0b8-4abf-a1ee-d0d2e27b269c.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "aster-dm",
       "fiscalQuarter": "FY25-Q3",
       "metric": "ipVolume",
@@ -7626,6 +8324,40 @@
         }
       ],
       "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q3",
+      "metric": "ipVolume",
+      "status": "outlier",
+      "reason": "outlier vs recent median 10900 (×0.3)",
+      "pickedValue": 3090,
+      "candidates": [
+        {
+          "value": 3090,
+          "docType": "quarterly-result",
+          "date": "2024-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d975144-eb30-44fc-adac-2dca29eca636.pdf"
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q3",
+      "metric": "opVolume",
+      "status": "outlier",
+      "reason": "outlier vs recent median 183196 (×0.1)",
+      "pickedValue": 12300,
+      "candidates": [
+        {
+          "value": 12300,
+          "docType": "quarterly-result",
+          "date": "2024-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5d975144-eb30-44fc-adac-2dca29eca636.pdf"
+        }
+      ],
       "priority": "P3"
     },
     {
@@ -7960,6 +8692,60 @@
       "priority": "P3"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q3",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "sources disagree (1552 … 25605)",
+      "pickedValue": 4600,
+      "candidates": [
+        {
+          "value": 4600,
+          "docType": "investor-presentation",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/644542b5-b3a3-4dd1-af12-0917a4759872.pdf"
+        },
+        {
+          "value": 1552,
+          "docType": "quarterly-result",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/534a6906-a11e-4492-a2c4-b77bd0461426.pdf"
+        },
+        {
+          "value": 25605,
+          "docType": "press-release",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc299b11-67b7-4540-8334-16231cd3b2f3.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q3",
+      "metric": "opVolume",
+      "status": "review",
+      "reason": "sources disagree (75600 … 354249)",
+      "pickedValue": 214924.5,
+      "candidates": [
+        {
+          "value": 75600,
+          "docType": "investor-presentation",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/644542b5-b3a3-4dd1-af12-0917a4759872.pdf"
+        },
+        {
+          "value": 354249,
+          "docType": "press-release",
+          "date": "2025-02-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc299b11-67b7-4540-8334-16231cd3b2f3.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "yatharth",
       "fiscalQuarter": "FY25-Q3",
       "metric": "capexAnnounced",
@@ -8117,19 +8903,43 @@
     {
       "company": "hcg",
       "fiscalQuarter": "FY25-Q2",
-      "metric": "ipVolume",
+      "metric": "opVolume",
+      "status": "review",
+      "reason": "sources disagree (52469 … 109000)",
+      "pickedValue": 80734.5,
+      "candidates": [
+        {
+          "value": 52469,
+          "docType": "quarterly-result",
+          "date": "2024-08-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bfacdd9a-5e69-498d-8b4f-34f49d9d8cba.pdf"
+        },
+        {
+          "value": 109000,
+          "docType": "press-release",
+          "date": "2024-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec22608f-8d0c-447d-9935-aed56f10df49.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "arpp",
       "status": "review",
       "reason": "all candidates out of range or empty",
       "pickedValue": null,
       "candidates": [],
       "rejected": [
         {
-          "value": 121,
-          "confidence": "low",
-          "quote": "",
-          "docType": "investor-presentation",
+          "value": 8700,
+          "confidence": "high",
+          "quote": "Average Revenue Per Patient: ₹8,700",
+          "docType": "quarterly-result",
           "date": "2024-08-08",
-          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/90665031-7593-4486-bb84-cd4e3da30502.pdf",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bfacdd9a-5e69-498d-8b4f-34f49d9d8cba.pdf",
           "rejectReason": "out-of-range"
         }
       ],
@@ -8350,6 +9160,84 @@
       "priority": "P3"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "sources disagree (1471 … 404593)",
+      "pickedValue": 28526,
+      "candidates": [
+        {
+          "value": 404593,
+          "docType": "investor-presentation",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54a60e73-780b-436a-847a-f348c52d3310.pdf"
+        },
+        {
+          "value": 1471,
+          "docType": "concall-transcript",
+          "date": "2024-11-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/be44ff22-0967-45e4-b0d4-dc34cd56f9ac.pdf"
+        },
+        {
+          "value": 28526,
+          "docType": "press-release",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d33d212-fb5d-4749-b8b9-496975cd914e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "opVolume",
+      "status": "review",
+      "reason": "sources disagree (404593 … 715583)",
+      "pickedValue": 560088,
+      "candidates": [
+        {
+          "value": 715583,
+          "docType": "investor-presentation",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54a60e73-780b-436a-847a-f348c52d3310.pdf"
+        },
+        {
+          "value": 404593,
+          "docType": "press-release",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d33d212-fb5d-4749-b8b9-496975cd914e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q2",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (23.4 … 234)",
+      "pickedValue": 128.7,
+      "candidates": [
+        {
+          "value": 23.4,
+          "docType": "concall-transcript",
+          "date": "2024-11-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/be44ff22-0967-45e4-b0d4-dc34cd56f9ac.pdf"
+        },
+        {
+          "value": 234,
+          "docType": "press-release",
+          "date": "2024-10-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6d33d212-fb5d-4749-b8b9-496975cd914e.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "yatharth",
       "fiscalQuarter": "FY25-Q2",
       "metric": "bedsUnderDevelopment",
@@ -8473,6 +9361,84 @@
           "rejectReason": "out-of-range"
         }
       ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "opVolume",
+      "status": "review",
+      "reason": "sources disagree (41000 … 104884)",
+      "pickedValue": 72942,
+      "candidates": [
+        {
+          "value": 41000,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 104884,
+          "docType": "press-release",
+          "date": "2024-05-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec401a24-a1dd-4681-ac1a-c0dfd0cf5f45.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "netDebt",
+      "status": "review",
+      "reason": "sources disagree (358 … 3580)",
+      "pickedValue": 1969,
+      "candidates": [
+        {
+          "value": 3580,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 358,
+          "docType": "concall-transcript",
+          "date": "2024-06-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70a51fa5-c12b-4a4a-93fa-643c1f84ffa5.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (80 … 1875)",
+      "pickedValue": 187,
+      "candidates": [
+        {
+          "value": 1875,
+          "docType": "investor-presentation",
+          "date": "2024-05-29",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2889a359-1233-4fb1-a960-e9bf181eb652.pdf"
+        },
+        {
+          "value": 80,
+          "docType": "concall-transcript",
+          "date": "2024-08-19",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddb1bcb4-d3d2-4235-ab80-1388fda7be94.pdf"
+        },
+        {
+          "value": 187,
+          "docType": "concall-transcript",
+          "date": "2024-06-05",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70a51fa5-c12b-4a4a-93fa-643c1f84ffa5.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P3"
     },
     {
@@ -8860,6 +9826,108 @@
       "priority": "P3"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "bedsUnderDevelopment",
+      "status": "review",
+      "reason": "sources disagree (160 … 290)",
+      "pickedValue": 225,
+      "candidates": [
+        {
+          "value": 160,
+          "docType": "concall-transcript",
+          "date": "2024-05-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a7be92a5-6115-463c-843d-cf0c37e7bb01.pdf"
+        },
+        {
+          "value": 290,
+          "docType": "concall-transcript",
+          "date": "2024-08-21",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d662cb3-c445-44eb-a922-7fd8ad879a1d.pdf"
+        },
+        {
+          "value": 290,
+          "docType": "press-release",
+          "date": "2024-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7cdb283-fe6d-4847-8c1a-240e213b10b6.pdf"
+        },
+        {
+          "value": 160,
+          "docType": "press-release",
+          "date": "2024-05-19",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/493bb38f-17aa-4461-8c60-65aeec491cba.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "sources disagree (1000 … 22147)",
+      "pickedValue": 4077,
+      "candidates": [
+        {
+          "value": 4077,
+          "docType": "investor-presentation",
+          "date": "2024-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ac4f39a-5363-4553-8d04-223e444b3d96.pdf"
+        },
+        {
+          "value": 1000,
+          "docType": "concall-transcript",
+          "date": "2024-08-21",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d662cb3-c445-44eb-a922-7fd8ad879a1d.pdf"
+        },
+        {
+          "value": 1000,
+          "docType": "concall-transcript",
+          "date": "2024-05-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a7be92a5-6115-463c-843d-cf0c37e7bb01.pdf"
+        },
+        {
+          "value": 21289,
+          "docType": "press-release",
+          "date": "2024-08-13",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7cdb283-fe6d-4847-8c1a-240e213b10b6.pdf"
+        },
+        {
+          "value": 22147,
+          "docType": "press-release",
+          "date": "2024-05-19",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/493bb38f-17aa-4461-8c60-65aeec491cba.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY25-Q1",
+      "metric": "roce",
+      "status": "review",
+      "reason": "sources disagree (5.2 … 29.6)",
+      "pickedValue": 17.400000000000002,
+      "candidates": [
+        {
+          "value": 5.2,
+          "docType": "concall-transcript",
+          "date": "2024-08-21",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d662cb3-c445-44eb-a922-7fd8ad879a1d.pdf"
+        },
+        {
+          "value": 29.6,
+          "docType": "concall-transcript",
+          "date": "2024-05-27",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a7be92a5-6115-463c-843d-cf0c37e7bb01.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "yatharth",
       "fiscalQuarter": "FY25-Q1",
       "metric": "bedsUnderDevelopment",
@@ -9226,6 +10294,30 @@
       "priority": "P3"
     },
     {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q4",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (60 … 1761.4)",
+      "pickedValue": 910.7,
+      "candidates": [
+        {
+          "value": 60,
+          "docType": "concall-transcript",
+          "date": "2024-02-01",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75783663-7887-4e27-95c5-30f2b258b8b3.pdf"
+        },
+        {
+          "value": 1761.4,
+          "docType": "quarterly-result",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b6317c27-c8b8-4774-8a19-284f9637fdd4.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "yatharth",
       "fiscalQuarter": "FY24-Q4",
       "metric": "ipVolume",
@@ -9532,6 +10624,90 @@
       "priority": "P3"
     },
     {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "bedsUnderDevelopment",
+      "status": "review",
+      "reason": "sources disagree (100 … 576)",
+      "pickedValue": 195,
+      "candidates": [
+        {
+          "value": 195,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 576,
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf"
+        },
+        {
+          "value": 100,
+          "docType": "press-release",
+          "date": "2023-10-04",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5527c8d9-47de-4f2b-a50a-b482d74fed68.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "all candidates out of range or empty",
+      "pickedValue": null,
+      "candidates": [],
+      "rejected": [
+        {
+          "value": 864,
+          "confidence": "high",
+          "quote": "PAT (Post IND-AS) 92 for Q3FY24",
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf",
+          "rejectReason": "out-of-range"
+        },
+        {
+          "value": 171,
+          "confidence": "high",
+          "quote": "PAT Q2FY24 171",
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf",
+          "rejectReason": "out-of-range"
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (63.6 … 1180)",
+      "pickedValue": 621.8,
+      "candidates": [
+        {
+          "value": 1180,
+          "docType": "investor-presentation",
+          "date": "2024-02-08",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/065a9386-0579-4516-8907-7de8a483a651.pdf"
+        },
+        {
+          "value": 63.6,
+          "docType": "investor-presentation",
+          "date": "2023-11-09",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdabfe5-b82d-4137-bab9-6565ea295972.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "jupiter-lifeline",
       "fiscalQuarter": "FY24-Q3",
       "metric": "capexAnnounced",
@@ -9694,6 +10870,54 @@
           "rejectReason": "out-of-range"
         }
       ],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "opVolume",
+      "status": "review",
+      "reason": "sources disagree (317146 … 592092)",
+      "pickedValue": 454619,
+      "candidates": [
+        {
+          "value": 592092,
+          "docType": "investor-presentation",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4434b0db-4d82-47af-897b-4a7d9b7caf13.pdf"
+        },
+        {
+          "value": 317146,
+          "docType": "press-release",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43200898-109a-4900-adae-03472af330af.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q3",
+      "metric": "revenueGrowthYoy",
+      "status": "review",
+      "reason": "sources disagree (9.6 … 26.3)",
+      "pickedValue": 17.95,
+      "candidates": [
+        {
+          "value": 26.3,
+          "docType": "investor-presentation",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4434b0db-4d82-47af-897b-4a7d9b7caf13.pdf"
+        },
+        {
+          "value": 9.6,
+          "docType": "press-release",
+          "date": "2024-01-24",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43200898-109a-4900-adae-03472af330af.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P3"
     },
     {
@@ -9907,6 +11131,51 @@
       "priority": "P3"
     },
     {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "all candidates out of range or empty",
+      "pickedValue": null,
+      "candidates": [],
+      "rejected": [
+        {
+          "value": 110,
+          "confidence": "high",
+          "quote": "Q1FY24 110",
+          "docType": "investor-presentation",
+          "date": "2023-08-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dfe4add8-e3c0-45ec-acdf-0f4aeac04984.pdf",
+          "rejectReason": "out-of-range"
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "netDebt",
+      "status": "review",
+      "reason": "sources disagree (310 … 2167)",
+      "pickedValue": 1238.5,
+      "candidates": [
+        {
+          "value": 2167,
+          "docType": "investor-presentation",
+          "date": "2023-08-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dfe4add8-e3c0-45ec-acdf-0f4aeac04984.pdf"
+        },
+        {
+          "value": 310,
+          "docType": "concall-transcript",
+          "date": "2023-11-17",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8ff4653f-746a-4b36-a476-523104b11e5b.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
       "company": "jupiter-lifeline",
       "fiscalQuarter": "FY24-Q2",
       "metric": "ipVolume",
@@ -9997,6 +11266,36 @@
           "docType": "press-release",
           "date": "2023-11-13",
           "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/28127ce4-e57a-482d-8158-cbb97836aa72.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q2",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (55 … 555)",
+      "pickedValue": 187,
+      "candidates": [
+        {
+          "value": 55,
+          "docType": "concall-transcript",
+          "date": "2023-11-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26b6aa71-792b-47c9-b335-16573ebe2f01.pdf"
+        },
+        {
+          "value": 187,
+          "docType": "concall-transcript",
+          "date": "2023-08-16",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75039b73-5ac4-4796-ae05-7eb517580f7a.pdf"
+        },
+        {
+          "value": 555,
+          "docType": "press-release",
+          "date": "2023-10-30",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/93285dd8-2aa3-450b-8913-615ba654b70e.pdf"
         }
       ],
       "rejected": [],
@@ -10132,6 +11431,96 @@
           "rejectReason": "out-of-range"
         }
       ],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "bedsUnderDevelopment",
+      "status": "review",
+      "reason": "sources disagree (100 … 214)",
+      "pickedValue": 157,
+      "candidates": [
+        {
+          "value": 214,
+          "docType": "investor-presentation",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf"
+        },
+        {
+          "value": 100,
+          "docType": "press-release",
+          "date": "2023-08-10",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7bc699aa-7b22-40de-9b7a-0624a6e4b9a1.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "netDebt",
+      "status": "review",
+      "reason": "sources disagree (112.72 … 1980)",
+      "pickedValue": 207.5,
+      "candidates": [
+        {
+          "value": 1980,
+          "docType": "investor-presentation",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf"
+        },
+        {
+          "value": 217,
+          "docType": "concall-transcript",
+          "date": "2023-08-18",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdd59aa-00e0-4578-9779-d41bdbd0711f.pdf"
+        },
+        {
+          "value": 198,
+          "docType": "concall-transcript",
+          "date": "2023-06-02",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab498ac1-68a8-4096-a261-e5db367bdafd.pdf"
+        },
+        {
+          "value": 112.72,
+          "docType": "quarterly-result",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0c5a2245-7e78-45f1-af26-9f69a9b2add8.pdf"
+        }
+      ],
+      "rejected": [],
+      "priority": "P3"
+    },
+    {
+      "company": "hcg",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "capexAnnounced",
+      "status": "review",
+      "reason": "sources disagree (110 … 1257)",
+      "pickedValue": 135,
+      "candidates": [
+        {
+          "value": 1257,
+          "docType": "investor-presentation",
+          "date": "2023-05-25",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23fe1daa-e906-450b-8420-4f093ed36b18.pdf"
+        },
+        {
+          "value": 135,
+          "docType": "concall-transcript",
+          "date": "2023-06-02",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab498ac1-68a8-4096-a261-e5db367bdafd.pdf"
+        },
+        {
+          "value": 110,
+          "docType": "concall-transcript",
+          "date": "2023-08-18",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4cdd59aa-00e0-4578-9779-d41bdbd0711f.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P3"
     },
     {
@@ -10303,6 +11692,30 @@
           "rejectReason": "out-of-range"
         }
       ],
+      "priority": "P3"
+    },
+    {
+      "company": "rainbow-childrens",
+      "fiscalQuarter": "FY24-Q1",
+      "metric": "ipVolume",
+      "status": "review",
+      "reason": "sources disagree (3699 … 19323)",
+      "pickedValue": 11511,
+      "candidates": [
+        {
+          "value": 3699,
+          "docType": "investor-presentation",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37f1f5ec-b0b3-4e82-b121-23f0368e8ef1.pdf"
+        },
+        {
+          "value": 19323,
+          "docType": "press-release",
+          "date": "2023-08-07",
+          "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f8698f4-32a3-44e2-93b6-6d1e5605333a.pdf"
+        }
+      ],
+      "rejected": [],
       "priority": "P3"
     },
     {

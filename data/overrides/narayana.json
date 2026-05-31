@@ -1,8 +1,32 @@
 {
-  "_comment": "Narayana overrides. Narayana's LLM extractions are the most unreliable in the set — its decks report consolidated (incl. Cayman Islands Health City) vs India-only inconsistently, and financial candidates were garbage (EBITDA 22/5, PAT 75/2 — all far below the true ~250 Cr EBITDA / ~150 Cr PAT quarterly). Revenue candidate 2593.8 is likely consolidated-half-year, not a single quarter. These four cells are LEFT FLAGGED (shown as — on dashboard) pending a real source check — better blank than wrong. ARPOB 18,600 kept as it's plausible for Narayana's India value-care positioning but marked low confidence.",
-  "_FLAGGED_NEEDS_REAL_SOURCE": {
-    "FY27-Q1.revenue": "candidate 2593.8 likely H1/consolidated — true single-qtr ~1,400 Cr; needs deck check",
-    "FY26-Q4.ebitda": "candidates 22/5 are garbage — true ~250-280 Cr; needs deck check",
-    "FY26-Q4.pat": "candidates 75.7/2.3 likely standalone/garbage — true consolidated ~150-190 Cr; needs deck check"
+  "_comment": "Narayana Hrudayalaya overrides. VERIFIED from user-uploaded Q4 FY26 and Q3 FY26 investor decks + Q3 FY26 concall transcript. CRITICAL INSIGHT: Narayana reports ARPOB as ₹Mn per ANNUM (not INR/day like other cos). Conversion: ₹Mn/year × 1e6 ÷ 365 = INR/day. Also Narayana's consolidated revenue (incl. UK from Nov 2025, Cayman) ≠ India-only revenue. Using consolidated to match how the company reports headline numbers. The +75.8% YoY Q4 FY26 growth is REAL (FY26 was a major expansion year incl. UK acquisition consolidated 6 Nov 2025).",
+
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports Q4 FY26 (Mar 2026)",
+    "_source_pdfs": "Narayana Q4 FY26 investor presentation (filed 22 May 2026)",
+    "revenue":        { "value": 2593.8, "note": "Q4 FY26 consolidated operating revenue ₹25,938 Mn = ₹2,593.8 Cr (+75.8% YoY, +20.6% QoQ)", "source": "Q4 FY26 deck p.5, VERIFIED" },
+    "ebitda":         { "value": 539.2,  "note": "Q4 FY26 consolidated EBITDA ₹5,392 Mn = ₹539.2 Cr",                                          "source": "Q4 FY26 deck p.5, VERIFIED" },
+    "ebitdaMargin":   { "value": 20.8,   "note": "Q4 FY26 EBITDA margin %",                                                                     "source": "Q4 FY26 deck p.5, VERIFIED" },
+    "pat":            { "value": 228,    "note": "Q4 FY26 consolidated PAT ₹2,280 Mn = ₹228 Cr",                                                "source": "Q4 FY26 deck p.5, VERIFIED" },
+    "patMargin":      { "value": 8.8,    "note": "Q4 FY26 PAT margin %",                                                                        "source": "Q4 FY26 deck p.5, VERIFIED" },
+    "arpob":          { "value": 50959,  "note": "Q4 FY26 ARPOB = ₹18.6 Mn/annum ÷ 365 = ₹50,959/day. Narayana reports as Mn/year not INR/day.", "source": "Q4 FY26 deck p.11, VERIFIED" },
+    "alos":           { "value": 4.4,    "note": "Q4 FY26 ALOS (India Hospitals)",                                                              "source": "Q4 FY26 deck p.11, VERIFIED" },
+    "operationalBeds":{ "value": 5945,   "note": "Q4 FY26 total network operational beds (India 5,451 + Cayman 164 + UK 330)",                  "source": "Q4 FY26 deck p.4, VERIFIED" },
+    "bedCapacity":    { "value": 5945,   "note": "Same as operational — Narayana doesn't disclose separate non-operational capacity",            "source": "Q4 FY26 deck p.4, VERIFIED" },
+    "numberOfHospitals": { "value": 35, "note": "20 India hospitals/heart centres + 2 Cayman + 13 UK = 35 hospital facilities",                  "source": "Q4 FY26 deck p.4, VERIFIED" },
+    "netDebt":        { "value": 2239.7, "note": "Q4 FY26 net debt ₹22,397 Mn = ₹2,239.7 Cr",                                                    "source": "Q4 FY26 deck p.5, VERIFIED" }
+  },
+
+  "FY26-Q4": {
+    "_quarter_meaning": "Filing FY26-Q4 reports Q3 FY26 (Dec 2025) — first quarter w/ UK consolidated from 6 Nov 2025",
+    "_source_pdfs": "Narayana Q3 FY26 investor presentation (filed 13 Feb 2026)",
+    "revenue":        { "value": 2151.2, "note": "Q3 FY26 consolidated operating revenue ₹21,512 Mn = ₹2,151.2 Cr (+61.2% YoY, +30.9% QoQ; UK consolidated from 6 Nov 2025)", "source": "Q3 FY26 deck p.5, VERIFIED" },
+    "ebitda":         { "value": 390.4,  "note": "Q3 FY26 consolidated EBITDA ₹3,904 Mn = ₹390.4 Cr",                                                                          "source": "Q3 FY26 deck p.5, VERIFIED" },
+    "ebitdaMargin":   { "value": 18.2,   "note": "Q3 FY26 EBITDA margin %",                                                                                                    "source": "Q3 FY26 deck p.5, VERIFIED" },
+    "pat":            { "value": 128.1,  "note": "Q3 FY26 consolidated PAT ₹1,281 Mn = ₹128.1 Cr",                                                                              "source": "Q3 FY26 deck p.5, VERIFIED" },
+    "patMargin":      { "value": 6.0,    "note": "Q3 FY26 PAT margin %",                                                                                                       "source": "Q3 FY26 deck p.5, VERIFIED" },
+    "arpob":          { "value": 49589,  "note": "Q3 FY26 ARPOB = ₹18.1 Mn/annum ÷ 365 = ₹49,589/day",                                                                          "source": "Q3 FY26 deck p.8, VERIFIED" },
+    "alos":           { "value": 4.4,    "note": "Q3 FY26 ALOS (India Hospitals)",                                                                                              "source": "Q3 FY26 deck p.8, VERIFIED" },
+    "netDebt":        { "value": 2232.1, "note": "Q3 FY26 net debt ₹22,321 Mn = ₹2,232.1 Cr",                                                                                   "source": "Q3 FY26 deck p.5, VERIFIED" }
   }
 }

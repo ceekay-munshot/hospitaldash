@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "NH",
   "isin": "INE410P01011",
-  "lastBuiltAt": "2026-05-30T15:07:52.018Z",
+  "lastBuiltAt": "2026-05-31T08:20:36.462Z",
   "latestQuote": {
     "date": "2026-05-30",
     "price": 1898.95,
@@ -31,76 +31,64 @@
       "to": "2026-06-30",
       "metrics": {
         "numberOfHospitals": {
-          "value": 20,
+          "value": 35,
           "unit": "count",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 20,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "20 India hospitals/heart centres + 2 Cayman + 13 UK = 35 hospital facilities",
+              "source": "Q4 FY26 deck p.4, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "bedCapacity": {
-          "value": 6244,
+          "value": 5945,
           "unit": "count",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 6244,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Same as operational — Narayana doesn't disclose separate non-operational capacity",
+              "source": "Q4 FY26 deck p.4, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "operationalBeds": {
-          "value": 5451,
+          "value": 5945,
           "unit": "count",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 5451,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 total network operational beds (India 5,451 + Cayman 164 + UK 330)",
+              "source": "Q4 FY26 deck p.4, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "alos": {
-          "value": 4.9,
+          "value": 4.4,
           "unit": "days",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 4.9,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 ALOS (India Hospitals)",
+              "source": "Q4 FY26 deck p.11, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "ipVolume": {
           "value": null,
@@ -121,22 +109,19 @@
           "reason": "all candidates out of range or empty"
         },
         "arpob": {
-          "value": 18600,
+          "value": 50959,
           "unit": "INR_per_day",
-          "confidence": "medium",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 18600,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 ARPOB = ₹18.6 Mn/annum ÷ 365 = ₹50,959/day. Narayana reports as Mn/year not INR/day.",
+              "source": "Q4 FY26 deck p.11, VERIFIED"
             }
           ],
-          "reason": "outlier vs recent median 134500 (×0.1)"
+          "reason": "manual override"
         },
         "arpp": {
           "value": null,
@@ -150,92 +135,77 @@
         "revenue": {
           "value": 2593.8,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 2593.8,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 consolidated operating revenue ₹25,938 Mn = ₹2,593.8 Cr (+75.8% YoY, +20.6% QoQ)",
+              "source": "Q4 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "outlier vs recent median 183 (×14.2)"
+          "reason": "manual override"
         },
         "ebitda": {
           "value": 539.2,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 539.2,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 consolidated EBITDA ₹5,392 Mn = ₹539.2 Cr",
+              "source": "Q4 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "ebitdaMargin": {
           "value": 20.8,
           "unit": "%",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 20.8,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 EBITDA margin %",
+              "source": "Q4 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "pat": {
           "value": 228,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 228,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 consolidated PAT ₹2,280 Mn = ₹228 Cr",
+              "source": "Q4 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "netDebt": {
           "value": 2239.7,
           "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "investor-presentation",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/963dd6b8-4d61-4fbf-b3b1-38476be0de8d.pdf",
-              "value": 2239.7,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 net debt ₹22,397 Mn = ₹2,239.7 Cr",
+              "source": "Q4 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
         },
         "revenueGrowthYoy": {
           "value": 75.8,
@@ -257,12 +227,15 @@
         }
       },
       "derived": {
-        "vacantBeds": 793,
-        "bedUtilizationPct": 87.3,
-        "bedsPerHospital": 273,
-        "ebitdaPerBedQuarter": 989176,
+        "patMargin": 8.79,
+        "vacantBeds": 0,
+        "bedUtilizationPct": 100,
+        "bedsPerHospital": 170,
+        "revenuePerBedQuarter": 4362994,
+        "ebitdaPerBedQuarter": 906981,
+        "revenueTtmCr": 6603.9,
         "enterpriseValueCr": 41046.8,
-        "evPerBedLakhs": 753
+        "evPerBedLakhs": 690.4
       }
     },
     "FY26-Q4": {
@@ -326,119 +299,110 @@
           ],
           "reason": "single in-range source"
         },
-        "revenue": {
-          "value": 96.87,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+        "alos": {
+          "value": 4.4,
+          "unit": "days",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf",
-              "value": 96.87,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 ALOS (India Hospitals)",
+              "source": "Q3 FY26 deck p.8, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
+        },
+        "arpob": {
+          "value": 49589,
+          "unit": "INR_per_day",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 ARPOB = ₹18.1 Mn/annum ÷ 365 = ₹49,589/day",
+              "source": "Q3 FY26 deck p.8, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "revenue": {
+          "value": 2151.2,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 consolidated operating revenue ₹21,512 Mn = ₹2,151.2 Cr (+61.2% YoY, +30.9% QoQ; UK consolidated from 6 Nov 2025)",
+              "source": "Q3 FY26 deck p.5, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
         },
         "ebitda": {
-          "value": 13.727,
+          "value": 390.4,
           "unit": "INR_crore",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
           "sources": [
             {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf",
-              "value": 22.06,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf",
-              "value": 5.394,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 consolidated EBITDA ₹3,904 Mn = ₹390.4 Cr",
+              "source": "Q3 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "sources disagree (5.394 … 22.06)"
+          "reason": "manual override"
         },
         "ebitdaMargin": {
-          "value": 21.814999999999998,
+          "value": 18.2,
           "unit": "%",
-          "confidence": "high",
-          "status": "corroborated",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf",
-              "value": 22.83,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf",
-              "value": 20.8,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 EBITDA margin %",
+              "source": "Q3 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "2 sources agree"
+          "reason": "manual override"
         },
         "pat": {
-          "value": 39.0115,
+          "value": 128.1,
           "unit": "INR_crore",
-          "confidence": "low",
-          "status": "review",
-          "clientSafe": false,
-          "sources": [
-            {
-              "docType": "quarterly-result",
-              "date": "2026-02-13",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a32cbd2-df73-4f53-b4a4-2b9603fd7556.pdf",
-              "value": 75.74,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "press-release",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf",
-              "value": 2.283,
-              "confidence": "high",
-              "periodMismatch": false
-            }
-          ],
-          "reason": "sources disagree (2.283 … 75.74)"
-        },
-        "netDebt": {
-          "value": 223.97,
-          "unit": "INR_crore",
-          "confidence": "medium",
-          "status": "single-strong",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "press-release",
-              "date": "2026-05-22",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6e477cbb-8ff9-42af-b6cd-67c399c421a5.pdf",
-              "value": 223.97,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q3 FY26 consolidated PAT ₹1,281 Mn = ₹128.1 Cr",
+              "source": "Q3 FY26 deck p.5, VERIFIED"
             }
           ],
-          "reason": "single in-range source"
+          "reason": "manual override"
+        },
+        "netDebt": {
+          "value": 2232.1,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q3 FY26 net debt ₹22,321 Mn = ₹2,232.1 Cr",
+              "source": "Q3 FY26 deck p.5, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
         },
         "revenueGrowthYoy": {
           "value": 75.8,
@@ -460,11 +424,13 @@
         }
       },
       "derived": {
+        "patMargin": 5.95,
         "vacantBeds": 300,
         "bedUtilizationPct": 95.2,
         "bedsPerHospital": 107,
-        "revenuePerBedQuarter": 164186,
-        "revenueTtmCr": 2106.5
+        "revenuePerBedQuarter": 3646102,
+        "ebitdaPerBedQuarter": 661695,
+        "revenueTtmCr": 4160.9
       }
     },
     "FY26-Q3": {
