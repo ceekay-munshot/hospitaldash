@@ -1,20 +1,34 @@
 {
-  "_comment": "Rainbow Children's Medicare quarterly metric overrides — concall transcript values used because the LLM picked annual values for revenue/EBITDA/PAT from investor presentations and press releases. Operational metrics (ARPOB, occupancy, ALOS, beds) were correctly extracted and don't need override.",
+  "_comment": "Rainbow Children's Medicare overrides. VERIFIED from Q4 FY26 + Q3 FY26 + Q2 FY26 investor decks + concall transcripts (uploaded). FY27-Q1 slot (Q4 FY26 reporting) was completely missing on dashboard before — now fully populated from Q4 FY26 deck filed May 23, 2026.",
+
+  "FY27-Q1": {
+    "_quarter_meaning": "Filing FY27-Q1 reports Q4 FY26 (Jan-Mar 2026)",
+    "_source_pdf": "Rainbow Q4 FY26 Earnings Presentation, filed 23 May 2026 (e55bce6a-...)",
+    "revenue":         { "value": 459.9,  "note": "Q4 FY26 Revenue from operations ₹4,599 Mn = ₹459.9 Cr (+24% YoY, +3.2% QoQ)",      "source": "Q4 FY26 deck P&L p.22, VERIFIED" },
+    "ebitda":          { "value": 144.7,  "note": "Q4 FY26 EBITDA (Post Ind AS 116, excl other income) ₹1,447 Mn = ₹144.7 Cr (+26% YoY)", "source": "Q4 FY26 deck p.20, VERIFIED" },
+    "ebitdaMargin":    { "value": 31.5,   "note": "Q4 FY26 EBITDA margin 31.5%",                                                          "source": "Q4 FY26 deck p.20, VERIFIED" },
+    "pat":             { "value": 78.2,   "note": "Q4 FY26 Profit ₹782 Mn = ₹78.2 Cr (incl. ₹12.95 Cr deferred tax credit from Rosewalk)", "source": "Q4 FY26 deck P&L, VERIFIED" },
+    "patMargin":       { "value": 17.0,   "note": "Q4 FY26 PAT margin 17.0% (incl. deferred tax credit)",                                "source": "Q4 FY26 deck p.20, VERIFIED" },
+    "operationalBeds": { "value": 1806,   "note": "Q4 FY26 operational beds",                                                             "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "bedCapacity":     { "value": 2375,   "note": "Q4 FY26 capacity beds (+23% YoY)",                                                     "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "occupancyRate":   { "value": 45.3,   "note": "Q4 FY26 network occupancy",                                                            "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "arpob":           { "value": 62464,  "note": "Q4 FY26 ARPOB INR/day (+8% YoY)",                                                      "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "alos":            { "value": 2.71,   "note": "Q4 FY26 ALOS days (pediatric — naturally short)",                                      "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "ipVolume":        { "value": 27165,  "note": "Q4 FY26 IP Discharges (+18% YoY)",                                                     "source": "Q4 FY26 deck p.18, VERIFIED" },
+    "opVolume":        { "value": 424702, "note": "Q4 FY26 OP Consultations (+19% YoY)",                                                  "source": "Q4 FY26 deck p.18, VERIFIED" }
+  },
 
   "FY26-Q4": {
-    "_quarter_meaning": "Filing FY26-Q4 reports on Q3 FY26 (period ending Dec 2025)",
+    "_quarter_meaning": "Filing FY26-Q4 reports Q3 FY26 (Oct-Dec 2025)",
     "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/54d134c3-7f93-472b-989b-7a62cbe023d9.pdf",
-    "_what_to_check": "Open PDF → find 'Q3 FY26' single-quarter numbers (NOT '9M FY26' YTD). Verify the 4 numbers below.",
-    "revenue":      { "value": 445.4, "note": "Q3 FY26 revenue from operations, INR Cr",  "source": "Q3 FY26 concall transcript" },
-    "ebitda":       { "value": 147,   "note": "Q3 FY26 EBITDA, INR Cr",                    "source": "Q3 FY26 concall transcript" },
-    "ebitdaMargin": { "value": 33,    "note": "Q3 FY26 EBITDA margin %",                  "source": "Q3 FY26 concall transcript" },
-    "pat":          { "value": 73.9,  "note": "Q3 FY26 PAT, INR Cr",                       "source": "Q3 FY26 concall transcript" }
+    "revenue":      { "value": 445.45, "note": "Q3 FY26 revenue ₹4,454.5 Mn (corrected from earlier 445.4 — exact from deck P&L)", "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED" },
+    "ebitda":       { "value": 146.98, "note": "Q3 FY26 EBITDA ₹1,469.8 Mn", "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED" },
+    "ebitdaMargin": { "value": 33,     "note": "Q3 FY26 EBITDA margin 33%", "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED" },
+    "pat":          { "value": 73.9,   "note": "Q3 FY26 PAT ₹739 Mn", "source": "Q3 FY26 concall transcript, VERIFIED" }
   },
 
   "FY26-Q3": {
-    "_quarter_meaning": "Filing FY26-Q3 reports on Q2 FY26 (period ending Sep 2025)",
-    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/94b5944b-a643-4e16-a1f0-3f204d44c318.pdf",
-    "_what_to_check": "Open PDF → find 'Q2 FY26' single-quarter numbers (NOT 'H1 FY26' half-year YTD). Verify the 4 numbers below.",
+    "_quarter_meaning": "Filing FY26-Q3 reports Q2 FY26 (Jul-Sep 2025)",
     "revenue":      { "value": 444.8, "note": "Q2 FY26 revenue from operations, INR Cr",  "source": "Q2 FY26 concall transcript" },
     "ebitda":       { "value": 148.8, "note": "Q2 FY26 EBITDA, INR Cr",                    "source": "Q2 FY26 concall transcript" },
     "ebitdaMargin": { "value": 33.5,  "note": "Q2 FY26 EBITDA margin %",                  "source": "Q2 FY26 concall transcript" },
@@ -22,9 +36,6 @@
   },
 
   "FY26-Q2": {
-    "_quarter_meaning": "Filing FY26-Q2 reports on Q1 FY26 (period ending Jun 2025)",
-    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0598f669-5989-41b4-95c5-53dc948bf14f.pdf",
-    "_what_to_check": "Open PDF → find 'Q1 FY26' single-quarter numbers. Verify the 4 numbers below.",
     "revenue":      { "value": 353,   "note": "Q1 FY26 revenue from operations, INR Cr",  "source": "Q1 FY26 concall transcript" },
     "ebitda":       { "value": 103.6, "note": "Q1 FY26 EBITDA, INR Cr",                    "source": "Q1 FY26 concall transcript" },
     "ebitdaMargin": { "value": 29.4,  "note": "Q1 FY26 EBITDA margin %",                  "source": "Q1 FY26 concall transcript" },
@@ -32,9 +43,6 @@
   },
 
   "FY26-Q1": {
-    "_quarter_meaning": "Filing FY26-Q1 reports on Q4 FY25 (period ending Mar 2025)",
-    "_verify_from_pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/70f0bace-eab0-4682-8a92-2d3f2cfe89b7.pdf",
-    "_what_to_check": "Open PDF → find 'Q4 FY25' single-quarter numbers (NOT 'FY25' full-year). Verify the 4 numbers below.",
     "revenue":      { "value": 370.1, "note": "Q4 FY25 revenue from operations, INR Cr",  "source": "Q4 FY25 concall transcript" },
     "ebitda":       { "value": 114.7, "note": "Q4 FY25 EBITDA, INR Cr",                    "source": "Q4 FY25 concall transcript" },
     "ebitdaMargin": { "value": 31,    "note": "Q4 FY25 EBITDA margin %",                  "source": "Q4 FY25 concall transcript" },

@@ -7,7 +7,7 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-05-31T08:21:02.002Z",
+  "lastBuiltAt": "2026-05-31T08:31:31.024Z",
   "latestQuote": {
     "date": "2026-05-30",
     "price": 1384.65,
@@ -30,65 +30,186 @@
       "from": "2026-04-01",
       "to": "2026-06-30",
       "metrics": {
-        "revenue": {
-          "value": 4080.64,
-          "unit": "INR_crore",
-          "confidence": "high",
-          "status": "corroborated",
+        "bedCapacity": {
+          "value": 2375,
+          "unit": "count",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "quarterly-result",
-              "date": "2026-05-27",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
-              "value": 4080.64,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-05-27",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
-              "value": 4080.64,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 capacity beds (+23% YoY)",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
             }
           ],
-          "reason": "2 sources within tolerance"
+          "reason": "manual override"
+        },
+        "operationalBeds": {
+          "value": 1806,
+          "unit": "count",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 operational beds",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "occupancyRate": {
+          "value": 45.3,
+          "unit": "%",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 network occupancy",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "alos": {
+          "value": 2.71,
+          "unit": "days",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 ALOS days (pediatric — naturally short)",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ipVolume": {
+          "value": 27165,
+          "unit": "admissions",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 IP Discharges (+18% YoY)",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "opVolume": {
+          "value": 424702,
+          "unit": "visits",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 OP Consultations (+19% YoY)",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "arpob": {
+          "value": 62464,
+          "unit": "INR_per_day",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 ARPOB INR/day (+8% YoY)",
+              "source": "Q4 FY26 deck p.18, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "revenue": {
+          "value": 459.9,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 Revenue from operations ₹4,599 Mn = ₹459.9 Cr (+24% YoY, +3.2% QoQ)",
+              "source": "Q4 FY26 deck P&L p.22, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitda": {
+          "value": 144.7,
+          "unit": "INR_crore",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 EBITDA (Post Ind AS 116, excl other income) ₹1,447 Mn = ₹144.7 Cr (+26% YoY)",
+              "source": "Q4 FY26 deck p.20, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
+        },
+        "ebitdaMargin": {
+          "value": 31.5,
+          "unit": "%",
+          "confidence": "verified",
+          "status": "verified",
+          "clientSafe": true,
+          "sources": [
+            {
+              "docType": "manual-override",
+              "note": "Q4 FY26 EBITDA margin 31.5%",
+              "source": "Q4 FY26 deck p.20, VERIFIED"
+            }
+          ],
+          "reason": "manual override"
         },
         "pat": {
-          "value": 593.05,
+          "value": 78.2,
           "unit": "INR_crore",
-          "confidence": "high",
-          "status": "corroborated",
+          "confidence": "verified",
+          "status": "verified",
           "clientSafe": true,
           "sources": [
             {
-              "docType": "quarterly-result",
-              "date": "2026-05-27",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f5d6c739-6297-44c1-8c2f-e4b6e53354df.pdf",
-              "value": 593.05,
-              "confidence": "high",
-              "periodMismatch": false
-            },
-            {
-              "docType": "quarterly-result",
-              "date": "2026-05-27",
-              "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a62ae854-24f8-4100-ba8f-b9a95af71f48.pdf",
-              "value": 593.05,
-              "confidence": "high",
-              "periodMismatch": false
+              "docType": "manual-override",
+              "note": "Q4 FY26 Profit ₹782 Mn = ₹78.2 Cr (incl. ₹12.95 Cr deferred tax credit from Rosewalk)",
+              "source": "Q4 FY26 deck P&L, VERIFIED"
             }
           ],
-          "reason": "2 sources within tolerance"
+          "reason": "manual override"
         }
       },
       "derived": {
-        "patMargin": 14.53,
-        "revenueTtmCr": 5323.8,
-        "patTtmCr": 796.3,
+        "patMargin": 17,
+        "vacantBeds": 569,
+        "bedUtilizationPct": 76,
+        "revenuePerBedQuarter": 2546512,
+        "ebitdaPerBedQuarter": 801218,
+        "bedTurnoverQuarter": 15.04,
+        "revenueTtmCr": 1703.2,
+        "ebitdaTtmCr": 544.1,
+        "patTtmCr": 281.5,
         "enterpriseValueCr": 14062.4,
-        "peTtm": 17.66
+        "evToEbitda": 25.85,
+        "peTtm": 49.96,
+        "evPerBedLakhs": 778.6
       }
     },
     "FY26-Q4": {
@@ -343,7 +464,7 @@
           "reason": "2 sources agree"
         },
         "revenue": {
-          "value": 445.4,
+          "value": 445.45,
           "unit": "INR_crore",
           "confidence": "verified",
           "status": "verified",
@@ -351,14 +472,14 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 revenue from operations, INR Cr",
-              "source": "Q3 FY26 concall transcript"
+              "note": "Q3 FY26 revenue ₹4,454.5 Mn (corrected from earlier 445.4 — exact from deck P&L)",
+              "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED"
             }
           ],
           "reason": "manual override"
         },
         "ebitda": {
-          "value": 147,
+          "value": 146.98,
           "unit": "INR_crore",
           "confidence": "verified",
           "status": "verified",
@@ -366,8 +487,8 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 EBITDA, INR Cr",
-              "source": "Q3 FY26 concall transcript"
+              "note": "Q3 FY26 EBITDA ₹1,469.8 Mn",
+              "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED"
             }
           ],
           "reason": "manual override"
@@ -381,8 +502,8 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 EBITDA margin %",
-              "source": "Q3 FY26 concall transcript"
+              "note": "Q3 FY26 EBITDA margin 33%",
+              "source": "Q4 FY26 deck shows Q3 FY26 comp, VERIFIED"
             }
           ],
           "reason": "manual override"
@@ -396,8 +517,8 @@
           "sources": [
             {
               "docType": "manual-override",
-              "note": "Q3 FY26 PAT, INR Cr",
-              "source": "Q3 FY26 concall transcript"
+              "note": "Q3 FY26 PAT ₹739 Mn",
+              "source": "Q3 FY26 concall transcript, VERIFIED"
             }
           ],
           "reason": "manual override"
@@ -460,10 +581,10 @@
         "vacantBeds": 653,
         "bedUtilizationPct": 73.2,
         "bedsPerHospital": 74,
-        "revenuePerBedQuarter": 2499439,
-        "ebitdaPerBedQuarter": 824916,
+        "revenuePerBedQuarter": 2499719,
+        "ebitdaPerBedQuarter": 824804,
         "bedTurnoverQuarter": 15.7,
-        "revenueTtmCr": 1613.3,
+        "revenueTtmCr": 1613.4,
         "ebitdaTtmCr": 514.1,
         "patTtmCr": 259.8
       }
