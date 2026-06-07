@@ -2,17 +2,17 @@
   "scripCode": "543950",
   "slug": "yatharth",
   "name": "Yatharth",
-  "fetchedAt": "2026-06-06T15:15:23.324Z",
+  "fetchedAt": "2026-06-07T15:24:04.653Z",
   "window": {
-    "from": "20260308",
-    "to": "20260606",
+    "from": "20260309",
+    "to": "20260607",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260308&strScrip=543950&strSearch=P&strToDate=20260606&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260309&strScrip=543950&strSearch=P&strToDate=20260607&strType=C",
       "count": 288,
       "countFresh": 0,
       "chunks": 1,
@@ -8086,14 +8086,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260308&TDate=20260606&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543950&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260309&TDate=20260607&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543950&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260308&todate=20260606&scripcode=543950",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260309&todate=20260607&scripcode=543950",
       "count": 0,
       "tag": "confirmed",
       "data": []
