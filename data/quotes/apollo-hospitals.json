@@ -694,9 +694,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-13",
+      "price": 8496.45,
+      "open": 8558.95,
+      "high": 8558.95,
+      "low": 8436.1,
+      "prevClose": 8495.95,
+      "change": 0.5,
+      "changePct": 0.01,
+      "volumeShares": 9258,
+      "turnoverInr": 78700000,
+      "twoWeekAvgVolumeShares": 13000,
+      "weightedAvgPrice": 8496.79,
+      "marketCapFullCr": 122165.91,
+      "marketCapFreeFloatCr": 87159.03,
+      "circuitLimits": "9,258.00/7,646.85",
+      "faceValue": 5,
+      "isin": "INE437A01024",
+      "ticker": "APOLLOHOSP",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 100",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-12T16:44:25.135Z",
+  "lastFetchedAt": "2026-06-13T15:42:42.147Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -718,7 +751,7 @@
         "EquityScrips": "508869"
       },
       "Header": {
-        "Noticecnt": "3",
+        "Noticecnt": "2",
         "PrevClose": "8495.95",
         "Open": "8558.95",
         "High": "8558.95",
