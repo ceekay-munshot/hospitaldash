@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "YATHARTH",
   "isin": "INE0JO301016",
-  "lastBuiltAt": "2026-06-15T18:50:22.941Z",
+  "lastBuiltAt": "2026-06-16T18:28:26.825Z",
   "latestQuote": {
-    "date": "2026-06-15",
-    "price": 829.85,
-    "marketCapCr": 7995.97,
-    "marketCapFreeFloatCr": 3534.41,
-    "changePct": -1.17,
-    "volumeShares": 14000.000000000002
+    "date": "2026-06-16",
+    "price": 827.15,
+    "marketCapCr": 7969.95,
+    "marketCapFreeFloatCr": 3522.91,
+    "changePct": -0.33,
+    "volumeShares": 12000
   },
   "coverage": {
     "extractedDocs": 51,
@@ -380,10 +380,10 @@
         "ebitdaTtmCr": 283.1,
         "netDebtToEbitda": 3.31,
         "patTtmCr": 171.8,
-        "enterpriseValueCr": 8932.4,
-        "evToEbitda": 31.55,
-        "peTtm": 46.54,
-        "evPerBedLakhs": 353.4
+        "enterpriseValueCr": 8906.4,
+        "evToEbitda": 31.46,
+        "peTtm": 46.39,
+        "evPerBedLakhs": 352.4
       }
     },
     "FY26-Q4": {
