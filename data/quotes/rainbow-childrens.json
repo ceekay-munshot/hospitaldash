@@ -892,9 +892,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-20",
+      "price": 1477,
+      "open": 1447.05,
+      "high": 1492.6,
+      "low": 1427.7,
+      "prevClose": 1449.75,
+      "change": 27.25,
+      "changePct": 1.88,
+      "volumeShares": 5352,
+      "turnoverInr": 7830000,
+      "twoWeekAvgVolumeShares": 7705,
+      "weightedAvgPrice": 1463.02,
+      "marketCapFullCr": 15000.29,
+      "marketCapFreeFloatCr": 7503.19,
+      "circuitLimits": "5,352.00/1,181.60",
+      "faceValue": 10,
+      "isin": "INE961O01016",
+      "ticker": "RAINBOW",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-19T16:32:09.395Z",
+  "lastFetchedAt": "2026-06-20T15:48:21.648Z",
   "latestRaw": {
     "header": {
       "CurrRate": {

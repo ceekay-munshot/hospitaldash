@@ -892,9 +892,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-20",
+      "price": 809,
+      "open": 795.65,
+      "high": 818.45,
+      "low": 787,
+      "prevClose": 788.05,
+      "change": 20.95,
+      "changePct": 2.66,
+      "volumeShares": 38000,
+      "turnoverInr": 30700000,
+      "twoWeekAvgVolumeShares": 53000,
+      "weightedAvgPrice": 800.67,
+      "marketCapFullCr": 41915.99,
+      "marketCapFreeFloatCr": 21333.73,
+      "circuitLimits": "38,357.00/647.20",
+      "faceValue": 10,
+      "isin": "INE914M01019",
+      "ticker": "ASTERDM",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-19T16:32:04.327Z",
+  "lastFetchedAt": "2026-06-20T15:48:17.590Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -916,7 +949,7 @@
         "EquityScrips": "540975"
       },
       "Header": {
-        "Noticecnt": "4",
+        "Noticecnt": "3",
         "PrevClose": "788.05",
         "Open": "795.65",
         "High": "818.45",
