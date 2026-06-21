@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 1877.75,
+      "open": 1868,
+      "high": 1887,
+      "low": 1859.05,
+      "prevClose": 1867.9,
+      "change": 9.85,
+      "changePct": 0.53,
+      "volumeShares": 9950,
+      "turnoverInr": 18600000,
+      "twoWeekAvgVolumeShares": 15000,
+      "weightedAvgPrice": 1872.18,
+      "marketCapFullCr": 38373.85,
+      "marketCapFreeFloatCr": 12917.6,
+      "circuitLimits": "9,950.00/1,502.20",
+      "faceValue": 10,
+      "isin": "INE410P01011",
+      "ticker": "NH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:16.259Z",
+  "lastFetchedAt": "2026-06-21T15:51:15.142Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Narayana Hrudayalaya Ltd",
-        "ShortN": "nh",
-        "SeriesN": "Narayana Hrudayalaya Ltd",
-        "SEOUrlEQ": "/stock-share-price/narayana-hrudayalaya-ltd/nh/539551/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/539551/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "539551"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "0",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

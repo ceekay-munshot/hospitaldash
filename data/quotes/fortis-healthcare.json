@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 962.95,
+      "open": 958,
+      "high": 966,
+      "low": 954,
+      "prevClose": 958.8,
+      "change": 4.15,
+      "changePct": 0.43,
+      "volumeShares": 72000,
+      "turnoverInr": 69400000,
+      "twoWeekAvgVolumeShares": 124000,
+      "weightedAvgPrice": 961.24,
+      "marketCapFullCr": 72698.69,
+      "marketCapFreeFloatCr": 50035.89,
+      "circuitLimits": "72,241.00/866.70",
+      "faceValue": 10,
+      "isin": "INE061F01013",
+      "ticker": "FORTIS",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 200",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:13.596Z",
+  "lastFetchedAt": "2026-06-21T15:51:09.764Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Fortis Healthcare Ltd",
-        "ShortN": "fortis",
-        "SeriesN": "Fortis Healthcare Ltd",
-        "SEOUrlEQ": "/stock-share-price/fortis-healthcare-ltd/fortis/532843/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/532843/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "532843"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "2",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

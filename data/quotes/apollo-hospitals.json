@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 8496.8,
+      "open": 8356.75,
+      "high": 8523.1,
+      "low": 8356.75,
+      "prevClose": 8412.3,
+      "change": 84.5,
+      "changePct": 1,
+      "volumeShares": 11000,
+      "turnoverInr": 95000000,
+      "twoWeekAvgVolumeShares": 10000,
+      "weightedAvgPrice": 8472.2,
+      "marketCapFullCr": 122170.95,
+      "marketCapFreeFloatCr": 87162.62,
+      "circuitLimits": "11,211.00/7,647.15",
+      "faceValue": 5,
+      "isin": "INE437A01024",
+      "ticker": "APOLLOHOSP",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 100",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:10.992Z",
+  "lastFetchedAt": "2026-06-21T15:51:04.023Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Apollo Hospitals Enterprise Ltd",
-        "ShortN": "apollohosp",
-        "SeriesN": "Apollo Hospitals Enterprise Ltd",
-        "SEOUrlEQ": "/stock-share-price/apollo-hospitals-enterprise-ltd/apollohosp/508869/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/508869/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "508869"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "2",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 809,
+      "open": 795.65,
+      "high": 818.45,
+      "low": 787,
+      "prevClose": 788.05,
+      "change": 20.95,
+      "changePct": 2.66,
+      "volumeShares": 38000,
+      "turnoverInr": 30700000,
+      "twoWeekAvgVolumeShares": 53000,
+      "weightedAvgPrice": 800.67,
+      "marketCapFullCr": 41915.99,
+      "marketCapFreeFloatCr": 21333.73,
+      "circuitLimits": "38,357.00/647.20",
+      "faceValue": 10,
+      "isin": "INE914M01019",
+      "ticker": "ASTERDM",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:17.590Z",
+  "lastFetchedAt": "2026-06-21T15:51:17.166Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Aster DM Healthcare Ltd",
-        "ShortN": "asterdm",
-        "SeriesN": "Aster DM Healthcare Ltd",
-        "SEOUrlEQ": "/stock-share-price/aster-dm-healthcare-ltd/asterdm/540975/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/540975/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "540975"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "3",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

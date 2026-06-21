@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 1096.05,
+      "open": 1071.6,
+      "high": 1102,
+      "low": 1071.6,
+      "prevClose": 1091,
+      "change": 5.05,
+      "changePct": 0.46,
+      "volumeShares": 101000,
+      "turnoverInr": 109800000,
+      "twoWeekAvgVolumeShares": 164000,
+      "weightedAvgPrice": 1088.97,
+      "marketCapFullCr": 106672.39,
+      "marketCapFreeFloatCr": 80691.79,
+      "circuitLimits": "1,00,848.00/986.45",
+      "faceValue": 10,
+      "isin": "INE027H01010",
+      "ticker": "MAXHEALTH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 100",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:12.246Z",
+  "lastFetchedAt": "2026-06-21T15:51:07.441Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Max Healthcare Institute Ltd",
-        "ShortN": "maxhealth",
-        "SeriesN": "Max Healthcare Institute Ltd",
-        "SEOUrlEQ": "/stock-share-price/max-healthcare-institute-ltd/maxhealth/543220/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/543220/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "543220"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "1",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

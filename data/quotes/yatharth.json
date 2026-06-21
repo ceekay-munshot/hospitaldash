@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 840.9,
+      "open": 852,
+      "high": 852,
+      "low": 836,
+      "prevClose": 844.15,
+      "change": -3.25,
+      "changePct": -0.39,
+      "volumeShares": 234000,
+      "turnoverInr": 198000000,
+      "twoWeekAvgVolumeShares": 37000,
+      "weightedAvgPrice": 844.95,
+      "marketCapFullCr": 8102.44,
+      "marketCapFreeFloatCr": 3581.47,
+      "circuitLimits": "2,34,365.00/672.75",
+      "faceValue": 10,
+      "isin": "INE0JO301016",
+      "ticker": "YATHARTH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 1000",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:24.317Z",
+  "lastFetchedAt": "2026-06-21T15:51:31.456Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Yatharth Hospital & Trauma Care Services Ltd",
-        "ShortN": "yatharth",
-        "SeriesN": "Yatharth Hospital & Trauma Care Services Ltd",
-        "SEOUrlEQ": "/stock-share-price/yatharth-hospital-&-trauma-care-services-ltd/yatharth/543950/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/543950/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "543950"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "3",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

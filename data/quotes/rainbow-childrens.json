@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 1477,
+      "open": 1447.05,
+      "high": 1492.6,
+      "low": 1427.7,
+      "prevClose": 1449.75,
+      "change": 27.25,
+      "changePct": 1.88,
+      "volumeShares": 5352,
+      "turnoverInr": 7830000,
+      "twoWeekAvgVolumeShares": 7705,
+      "weightedAvgPrice": 1463.02,
+      "marketCapFullCr": 15000.29,
+      "marketCapFreeFloatCr": 7503.19,
+      "circuitLimits": "5,352.00/1,181.60",
+      "faceValue": 10,
+      "isin": "INE961O01016",
+      "ticker": "RAINBOW",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:21.648Z",
+  "lastFetchedAt": "2026-06-21T15:51:26.904Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Rainbow Children's Medicare Ltd",
-        "ShortN": "rainbow",
-        "SeriesN": "Rainbow Children's Medicare Ltd",
-        "SEOUrlEQ": "/stock-share-price/rainbow-children's-medicare-ltd/rainbow/543524/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/543524/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "543524"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "1",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",

@@ -925,9 +925,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-21",
+      "price": 1342.25,
+      "open": 1335.4,
+      "high": 1349,
+      "low": 1324.6,
+      "prevClose": 1343.2,
+      "change": -0.95,
+      "changePct": -0.07,
+      "volumeShares": 1583,
+      "turnoverInr": 2117000,
+      "twoWeekAvgVolumeShares": 850,
+      "weightedAvgPrice": 1337.07,
+      "marketCapFullCr": 8800.6,
+      "marketCapFreeFloatCr": 5037.51,
+      "circuitLimits": "1,583.00/1,073.80",
+      "faceValue": 10,
+      "isin": "INE682M01012",
+      "ticker": "JLHL",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 1000",
+      "settlementType": "T+1",
+      "eps": null,
+      "pe": null,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-20T15:48:23.061Z",
+  "lastFetchedAt": "2026-06-21T15:51:29.181Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -939,14 +972,14 @@
         "IssueChgPC": ""
       },
       "Cmpname": {
-        "FullN": "Jupiter Life Line Hospitals Ltd",
-        "ShortN": "jlhl",
-        "SeriesN": "Jupiter Life Line Hospitals Ltd",
-        "SEOUrlEQ": "/stock-share-price/jupiter-life-line-hospitals-ltd/jlhl/543980/",
-        "SEOUrlDR": "/stock-share-price/future-options/derivatives/543980/",
-        "IsNotPropernFIT": "0",
-        "Category": "Listed",
-        "EquityScrips": "543980"
+        "FullN": null,
+        "ShortN": null,
+        "SeriesN": null,
+        "SEOUrlEQ": null,
+        "SEOUrlDR": null,
+        "IsNotPropernFIT": null,
+        "Category": null,
+        "EquityScrips": null
       },
       "Header": {
         "Noticecnt": "2",
@@ -968,7 +1001,7 @@
         "GSMURL": "",
         "GSMText": "",
         "Invit": "0",
-        "Ason": "19 Jun 26 | 16:00",
+        "Ason": "-",
         "NAVRate": "",
         "NAVdttm": "",
         "ASMText": "",
