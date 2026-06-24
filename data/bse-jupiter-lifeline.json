@@ -2,17 +2,17 @@
   "scripCode": "543980",
   "slug": "jupiter-lifeline",
   "name": "Jupiter",
-  "fetchedAt": "2026-06-23T16:27:02.669Z",
+  "fetchedAt": "2026-06-24T16:22:00.180Z",
   "window": {
-    "from": "20260325",
-    "to": "20260623",
+    "from": "20260326",
+    "to": "20260624",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260325&strScrip=543980&strSearch=P&strToDate=20260623&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260326&strScrip=543980&strSearch=P&strToDate=20260624&strType=C",
       "count": 230,
       "countFresh": 0,
       "chunks": 1,
@@ -6461,7 +6461,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260325&TDate=20260623&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260326&TDate=20260624&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543980&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -6483,7 +6483,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260325&todate=20260623&scripcode=543980",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260326&todate=20260624&scripcode=543980",
       "count": 0,
       "tag": "confirmed",
       "data": []
@@ -6491,9 +6491,19 @@
     "annualReports": {
       "ok": true,
       "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnualReport/w?scripcode=543980",
-      "count": 3,
+      "count": 5,
       "tag": "confirmed",
       "data": [
+        {
+          "year": "2026",
+          "file_name": "13ce8d30-7809-46f4-b6e8-29b617b84147.pdf.pdf",
+          "dt_tm": "2026-06-24T10:55:17.557"
+        },
+        {
+          "year": "2026",
+          "file_name": "a177d6f4-6e35-4b5c-90c9-9783f74f949a.pdf.pdf",
+          "dt_tm": "2026-06-24T10:56:28.723"
+        },
         {
           "year": "2025",
           "file_name": "e32a47dd-3f2a-4d61-838b-8eb4dcc21626.pdf.pdf",
