@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "RAINBOW",
   "isin": "INE961O01016",
-  "lastBuiltAt": "2026-06-24T16:37:40.279Z",
+  "lastBuiltAt": "2026-06-25T16:25:43.052Z",
   "latestQuote": {
-    "date": "2026-06-24",
-    "price": 1434.05,
-    "marketCapCr": 14564.09,
-    "marketCapFreeFloatCr": 7285,
-    "changePct": -0.56,
-    "volumeShares": 6263
+    "date": "2026-06-25",
+    "price": 1434.35,
+    "marketCapCr": 14567.14,
+    "marketCapFreeFloatCr": 7286.53,
+    "changePct": 0.02,
+    "volumeShares": 1856
   },
   "coverage": {
     "extractedDocs": 48,
@@ -206,10 +206,10 @@
         "revenueTtmCr": 1703.2,
         "ebitdaTtmCr": 544.1,
         "patTtmCr": 281.5,
-        "enterpriseValueCr": 14564.1,
+        "enterpriseValueCr": 14567.1,
         "evToEbitda": 26.77,
-        "peTtm": 51.74,
-        "evPerBedLakhs": 806.4
+        "peTtm": 51.75,
+        "evPerBedLakhs": 806.6
       }
     },
     "FY26-Q4": {
