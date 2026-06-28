@@ -1156,9 +1156,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-28",
+      "price": 836.9,
+      "open": 869.6,
+      "high": 869.6,
+      "low": 835.5,
+      "prevClose": 856.6,
+      "change": -19.7,
+      "changePct": -2.3,
+      "volumeShares": 11000,
+      "turnoverInr": 8946000,
+      "twoWeekAvgVolumeShares": 44000,
+      "weightedAvgPrice": 843.6,
+      "marketCapFullCr": 8063.9,
+      "marketCapFreeFloatCr": 3564.44,
+      "circuitLimits": "10,604.00/669.55",
+      "faceValue": 10,
+      "isin": "INE0JO301016",
+      "ticker": "YATHARTH",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 1000",
+      "settlementType": "T+1",
+      "eps": 30.79,
+      "pe": 27.18,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-27T15:15:34.443Z",
+  "lastFetchedAt": "2026-06-28T15:17:57.265Z",
   "latestRaw": {
     "header": {
       "CurrRate": {

@@ -1156,9 +1156,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-06-28",
+      "price": 1372.85,
+      "open": 1360,
+      "high": 1388.95,
+      "low": 1360,
+      "prevClose": 1372.25,
+      "change": 0.6,
+      "changePct": 0.04,
+      "volumeShares": 814,
+      "turnoverInr": 1118000,
+      "twoWeekAvgVolumeShares": 1145,
+      "weightedAvgPrice": 1373.44,
+      "marketCapFullCr": 9001.23,
+      "marketCapFreeFloatCr": 5152.35,
+      "circuitLimits": "814.00/1,098.30",
+      "faceValue": 10,
+      "isin": "INE682M01012",
+      "ticker": "JLHL",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 1000",
+      "settlementType": "T+1",
+      "eps": 44.63,
+      "pe": 30.76,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-06-27T15:15:33.339Z",
+  "lastFetchedAt": "2026-06-28T15:17:54.545Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
