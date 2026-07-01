@@ -2,17 +2,17 @@
   "scripCode": "543524",
   "slug": "rainbow-childrens",
   "name": "Rainbow",
-  "fetchedAt": "2026-06-30T16:22:45.710Z",
+  "fetchedAt": "2026-07-01T16:26:31.450Z",
   "window": {
-    "from": "20260401",
-    "to": "20260630",
+    "from": "20260402",
+    "to": "20260701",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260401&strScrip=543524&strSearch=P&strToDate=20260630&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260402&strScrip=543524&strSearch=P&strToDate=20260701&strType=C",
       "count": 278,
       "countFresh": 0,
       "chunks": 1,
@@ -7806,14 +7806,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260401&TDate=20260630&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260402&TDate=20260701&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260401&todate=20260630&scripcode=543524",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260402&todate=20260701&scripcode=543524",
       "count": 0,
       "tag": "confirmed",
       "data": []

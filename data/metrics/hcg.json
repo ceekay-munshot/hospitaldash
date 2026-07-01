@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "HCG",
   "isin": "INE075I01017",
-  "lastBuiltAt": "2026-06-30T16:36:35.778Z",
+  "lastBuiltAt": "2026-07-01T16:36:53.183Z",
   "latestQuote": {
-    "date": "2026-06-30",
-    "price": 631.2,
-    "marketCapCr": 9423.96,
-    "marketCapFreeFloatCr": 3327.89,
-    "changePct": 6.08,
-    "volumeShares": 16000
+    "date": "2026-07-01",
+    "price": 633.15,
+    "marketCapCr": 9453.07,
+    "marketCapFreeFloatCr": 3338.17,
+    "changePct": 0.31,
+    "volumeShares": 8435
   },
   "coverage": {
     "extractedDocs": 59,
@@ -373,7 +373,7 @@
       },
       "derived": {
         "patMargin": 1.67,
-        "enterpriseValueCr": 12811
+        "enterpriseValueCr": 12840.1
       }
     },
     "FY26-Q4": {
