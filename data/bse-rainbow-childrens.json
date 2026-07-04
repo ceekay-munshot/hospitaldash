@@ -2,17 +2,17 @@
   "scripCode": "543524",
   "slug": "rainbow-childrens",
   "name": "Rainbow",
-  "fetchedAt": "2026-07-03T15:52:27.285Z",
+  "fetchedAt": "2026-07-04T15:04:50.228Z",
   "window": {
-    "from": "20260404",
-    "to": "20260703",
+    "from": "20260405",
+    "to": "20260704",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260404&strScrip=543524&strSearch=P&strToDate=20260703&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260405&strScrip=543524&strSearch=P&strToDate=20260704&strType=C",
       "count": 278,
       "countFresh": 0,
       "chunks": 1,
@@ -7806,14 +7806,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260404&TDate=20260703&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260405&TDate=20260704&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260404&todate=20260703&scripcode=543524",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260405&todate=20260704&scripcode=543524",
       "count": 0,
       "tag": "confirmed",
       "data": []
@@ -7821,9 +7821,14 @@
     "annualReports": {
       "ok": true,
       "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnualReport/w?scripcode=543524",
-      "count": 4,
+      "count": 5,
       "tag": "confirmed",
       "data": [
+        {
+          "year": "2026",
+          "file_name": "f768a857-d043-405e-9fa0-da47ed96aabf.pdf.pdf",
+          "dt_tm": "2026-07-04T16:51:23"
+        },
         {
           "year": "2025",
           "file_name": "327a28a5-24ea-4672-81e7-85631103aabc.pdf.pdf",
