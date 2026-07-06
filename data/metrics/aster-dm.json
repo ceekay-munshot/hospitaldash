@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "ASTERDM",
   "isin": "INE914M01019",
-  "lastBuiltAt": "2026-07-05T15:47:14.066Z",
+  "lastBuiltAt": "2026-07-06T16:53:06.744Z",
   "latestQuote": {
-    "date": "2026-07-05",
-    "price": 792.7,
-    "marketCapCr": 41071.45,
-    "marketCapFreeFloatCr": 20014.08,
-    "changePct": 0.27,
-    "volumeShares": 236000
+    "date": "2026-07-06",
+    "price": 790.55,
+    "marketCapCr": 40960.06,
+    "marketCapFreeFloatCr": 19959.8,
+    "changePct": -0.27,
+    "volumeShares": 9442
   },
   "coverage": {
     "extractedDocs": 83,
@@ -498,8 +498,8 @@
         "revenuePerBedQuarter": 3000762,
         "ebitdaPerBedQuarter": 619447,
         "bedTurnoverQuarter": 17.32,
-        "enterpriseValueCr": 41311.4,
-        "evPerBedLakhs": 1048.8
+        "enterpriseValueCr": 41200,
+        "evPerBedLakhs": 1046
       }
     },
     "FY26-Q4": {
