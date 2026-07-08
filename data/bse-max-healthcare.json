@@ -2,17 +2,17 @@
   "scripCode": "543220",
   "slug": "max-healthcare",
   "name": "Max",
-  "fetchedAt": "2026-07-07T16:29:56.535Z",
+  "fetchedAt": "2026-07-08T16:01:34.937Z",
   "window": {
-    "from": "20260408",
-    "to": "20260707",
+    "from": "20260409",
+    "to": "20260708",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260408&strScrip=543220&strSearch=P&strToDate=20260707&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260409&strScrip=543220&strSearch=P&strToDate=20260708&strType=C",
       "count": 383,
       "countFresh": 0,
       "chunks": 1,
@@ -10747,7 +10747,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260408&TDate=20260707&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543220&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260409&TDate=20260708&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543220&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -10769,7 +10769,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260408&todate=20260707&scripcode=543220",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260409&todate=20260708&scripcode=543220",
       "count": 0,
       "tag": "confirmed",
       "data": []
@@ -10777,9 +10777,14 @@
     "annualReports": {
       "ok": true,
       "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnualReport/w?scripcode=543220",
-      "count": 6,
+      "count": 7,
       "tag": "confirmed",
       "data": [
+        {
+          "year": "2026",
+          "file_name": "ff687278-4b63-403b-ab82-e9ae0259eead.pdf.pdf",
+          "dt_tm": "2026-07-08T19:45:40.14"
+        },
         {
           "year": "2025",
           "file_name": "da4ae2d4-5de6-4ad5-8d07-0d20a2f16f5e.pdf.pdf",
