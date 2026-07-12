@@ -2,17 +2,17 @@
   "scripCode": "543654",
   "slug": "medanta",
   "name": "Medanta",
-  "fetchedAt": "2026-07-11T14:52:27.716Z",
+  "fetchedAt": "2026-07-12T14:55:15.613Z",
   "window": {
-    "from": "20260412",
-    "to": "20260711",
+    "from": "20260413",
+    "to": "20260712",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260412&strScrip=543654&strSearch=P&strToDate=20260711&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260413&strScrip=543654&strSearch=P&strToDate=20260712&strType=C",
       "count": 493,
       "countFresh": 0,
       "chunks": 1,
@@ -13826,14 +13826,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260412&TDate=20260711&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543654&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260413&TDate=20260712&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543654&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260412&todate=20260711&scripcode=543654",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260413&todate=20260712&scripcode=543654",
       "count": 0,
       "tag": "confirmed",
       "data": []
