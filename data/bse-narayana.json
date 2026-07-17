@@ -2,17 +2,17 @@
   "scripCode": "539551",
   "slug": "narayana",
   "name": "Narayana",
-  "fetchedAt": "2026-07-16T15:38:01.513Z",
+  "fetchedAt": "2026-07-17T15:12:26.726Z",
   "window": {
-    "from": "20260417",
-    "to": "20260716",
+    "from": "20260418",
+    "to": "20260717",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260417&strScrip=539551&strSearch=P&strToDate=20260716&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260418&strScrip=539551&strSearch=P&strToDate=20260717&strType=C",
       "count": 383,
       "countFresh": 0,
       "chunks": 1,
@@ -10745,14 +10745,29 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260417&TDate=20260716&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
-      "count": 0,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260418&TDate=20260717&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
+      "count": 1,
       "tag": "confirmed",
-      "data": []
+      "data": [
+        {
+          "scrip_code": 539551,
+          "short_name": "NH",
+          "Ex_date": "17 Jul 2026",
+          "Purpose": "Final Dividend - Rs. - 4.5000",
+          "RD_Date": "17 Jul 2026",
+          "BCRD_FROM": "",
+          "BCRD_TO": "",
+          "ND_START_DATE": "17 Jul 2026",
+          "ND_END_DATE": "17 Jul 2026",
+          "payment_date": "",
+          "exdate": "20260717",
+          "long_name": "Narayana Hrudayalaya Ltd"
+        }
+      ]
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260417&todate=20260716&scripcode=539551",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260418&todate=20260717&scripcode=539551",
       "count": 0,
       "tag": "confirmed",
       "data": []
