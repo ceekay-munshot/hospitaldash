@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "MEDANTA",
   "isin": "INE474Q01031",
-  "lastBuiltAt": "2026-07-28T16:18:15.713Z",
+  "lastBuiltAt": "2026-07-29T15:50:09.100Z",
   "latestQuote": {
-    "date": "2026-07-28",
-    "price": 1398.05,
-    "marketCapCr": 37589.62,
-    "marketCapFreeFloatCr": 11938.2,
-    "changePct": -0.67,
-    "volumeShares": 17000
+    "date": "2026-07-29",
+    "price": 1432.6,
+    "marketCapCr": 38518.57,
+    "marketCapFreeFloatCr": 12233.23,
+    "changePct": 2.47,
+    "volumeShares": 14000.000000000002
   },
   "coverage": {
     "extractedDocs": 63,
@@ -643,10 +643,10 @@
         "ebitdaTtmCr": 1044.7,
         "netDebtToEbitda": 0,
         "patTtmCr": 482.9,
-        "enterpriseValueCr": 37589.6,
-        "evToEbitda": 35.98,
-        "peTtm": 77.84,
-        "evPerBedLakhs": 1373.4
+        "enterpriseValueCr": 38518.6,
+        "evToEbitda": 36.87,
+        "peTtm": 79.77,
+        "evPerBedLakhs": 1407.3
       }
     },
     "FY26-Q4": {
