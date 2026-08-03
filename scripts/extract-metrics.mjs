@@ -5,12 +5,15 @@ import { loadCompanies } from './lib/bse.mjs';
 import { downloadPdf } from './lib/pdf.mjs';
 import { callGeminiWithPdf, DEFAULT_MODEL, KeyPool } from './lib/gemini.mjs';
 import { callOpenAIWithPdf, DEFAULT_OPENAI_MODEL } from './lib/openai.mjs';
+import { callClaudeWithPdf, DEFAULT_BEDROCK_MODEL_ID } from './lib/claude.mjs';
 
 const RAW_GEMINI_KEYS = process.env.GEMINI_API_KEY || '';
 const KEY_POOL = new KeyPool(RAW_GEMINI_KEYS);
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
+const BEDROCK_API_KEY = process.env.temp_claude_token || process.env.BEDROCK_API_KEY || '';
 
 // PROVIDER selects which LLM to use. Default: openai if its key set, else gemini.
+// Set LLM_PROVIDER=claude to use Claude via AWS Bedrock instead (see lib/claude.mjs).
 const PROVIDER = (process.env.LLM_PROVIDER || (OPENAI_API_KEY ? 'openai' : 'gemini')).toLowerCase();
 
 const MAX_PER_RUN = Number(process.env.MAX_EXTRACTIONS_PER_RUN || 40);
@@ -211,6 +214,13 @@ async function processCompany(company, budget) {
           apiKey: OPENAI_API_KEY,
         });
         parsed = r.parsed; finishReason = r.finishReason; usage = r.usage; model = r.model;
+      } else if (PROVIDER === 'claude') {
+        const r = await callClaudeWithPdf({
+          pdfBuffer: pdfBuf,
+          prompt: buildPrompt(company, doc),
+          apiKey: BEDROCK_API_KEY,
+        });
+        parsed = r.parsed; finishReason = r.finishReason; usage = r.usage; model = r.model;
       } else {
         const r = await callGeminiWithPdf({
           pdfBuffer: pdfBuf,
@@ -266,7 +276,9 @@ async function processCompany(company, budget) {
       await writeFile(outPath, JSON.stringify(existing, null, 2));
 
       if (e.dailyQuotaExceeded || e.insufficientQuota) {
-        const reason = e.dailyQuotaExceeded ? 'Gemini daily quota' : 'OpenAI insufficient quota / billing';
+        const reason = e.dailyQuotaExceeded
+          ? 'Gemini daily quota'
+          : PROVIDER === 'claude' ? 'Claude/Bedrock access denied' : 'OpenAI insufficient quota / billing';
         console.error(`    ⛔ ${reason} — aborting run`);
         budget.quotaExhausted = true;
         return { slug: company.slug, extracted, errors, totalCached: Object.keys(existing.byNewsId).length, pendingRemaining: pending.length - extracted - errors, quotaExhausted: true };
@@ -294,6 +306,12 @@ async function run() {
       process.exit(0);
     }
     console.error(`OpenAI extraction — model=${DEFAULT_OPENAI_MODEL}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms\n`);
+  } else if (PROVIDER === 'claude') {
+    if (!BEDROCK_API_KEY) {
+      console.error('ERROR: provider=claude but temp_claude_token/BEDROCK_API_KEY env var not set.');
+      process.exit(0);
+    }
+    console.error(`Claude/Bedrock extraction — model=${DEFAULT_BEDROCK_MODEL_ID}, budget=${MAX_PER_RUN} extractions, delay=${PER_CALL_DELAY_MS}ms\n`);
   } else {
     if (KEY_POOL.size() === 0) {
       console.error('ERROR: provider=gemini but GEMINI_API_KEY env var not set.');
