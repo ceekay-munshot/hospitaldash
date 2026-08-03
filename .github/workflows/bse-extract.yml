@@ -61,7 +61,7 @@ jobs:
 
       - name: Run extraction
         env:
-          LLM_PROVIDER: ${{ github.event.inputs.provider || 'openai' }}
+          LLM_PROVIDER: ${{ github.event.inputs.provider || 'claude' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ github.event.inputs.model || '' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
