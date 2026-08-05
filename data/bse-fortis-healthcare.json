@@ -2,17 +2,17 @@
   "scripCode": "532843",
   "slug": "fortis-healthcare",
   "name": "Fortis",
-  "fetchedAt": "2026-08-04T16:11:00.290Z",
+  "fetchedAt": "2026-08-05T16:02:34.189Z",
   "window": {
-    "from": "20260506",
-    "to": "20260804",
+    "from": "20260507",
+    "to": "20260805",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260506&strScrip=532843&strSearch=P&strToDate=20260804&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260507&strScrip=532843&strSearch=P&strToDate=20260805&strType=C",
       "count": 453,
       "countFresh": 0,
       "chunks": 1,
@@ -12707,7 +12707,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260506&TDate=20260804&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=532843&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260507&TDate=20260805&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=532843&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -12729,7 +12729,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260506&todate=20260804&scripcode=532843",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260507&todate=20260805&scripcode=532843",
       "count": 0,
       "tag": "confirmed",
       "data": []
