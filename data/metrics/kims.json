@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "KIMS",
   "isin": "INE967H01025",
-  "lastBuiltAt": "2026-08-05T16:15:07.498Z",
+  "lastBuiltAt": "2026-08-07T14:53:14.594Z",
   "latestQuote": {
-    "date": "2026-08-05",
-    "price": 806.5,
-    "marketCapCr": 33873.52,
-    "marketCapFreeFloatCr": 20849.19,
-    "changePct": 1.63,
-    "volumeShares": 23000
+    "date": "2026-08-07",
+    "price": 811,
+    "marketCapCr": 34062.53,
+    "marketCapFreeFloatCr": 20965.52,
+    "changePct": 0.39,
+    "volumeShares": 889000
   },
   "coverage": {
     "extractedDocs": 57,
@@ -371,10 +371,10 @@
         "ebitdaTtmCr": 828,
         "netDebtToEbitda": 3.62,
         "patTtmCr": 242,
-        "enterpriseValueCr": 36873.5,
-        "evToEbitda": 44.53,
-        "peTtm": 139.97,
-        "evPerBedLakhs": 760
+        "enterpriseValueCr": 37062.5,
+        "evToEbitda": 44.76,
+        "peTtm": 140.75,
+        "evPerBedLakhs": 763.9
       }
     },
     "FY26-Q4": {

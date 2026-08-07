@@ -2,17 +2,17 @@
   "scripCode": "540975",
   "slug": "aster-dm",
   "name": "Aster DM",
-  "fetchedAt": "2026-08-05T16:05:54.751Z",
+  "fetchedAt": "2026-08-07T14:51:14.418Z",
   "window": {
-    "from": "20260507",
-    "to": "20260805",
+    "from": "20260509",
+    "to": "20260807",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260507&strScrip=540975&strSearch=P&strToDate=20260805&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260509&strScrip=540975&strSearch=P&strToDate=20260807&strType=C",
       "count": 439,
       "countFresh": 0,
       "chunks": 1,
@@ -12310,25 +12310,17 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260507&TDate=20260805&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=540975&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260509&TDate=20260807&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=540975&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260507&todate=20260805&scripcode=540975",
-      "count": 1,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260509&todate=20260807&scripcode=540975",
+      "count": 0,
       "tag": "confirmed",
-      "data": [
-        {
-          "scrip_Code": "540975",
-          "short_name": "ASTERDM",
-          "Long_Name": "Aster DM Quality Care Ltd",
-          "meeting_date": "05 Aug 2026",
-          "URL": "https://www.bseindia.com/stock-share-price/aster-dm-quality-care-ltd/asterdm/540975/"
-        }
-      ]
+      "data": []
     },
     "annualReports": {
       "ok": true,
