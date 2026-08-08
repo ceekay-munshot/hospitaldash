@@ -2476,9 +2476,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-08-08",
+      "price": 1455,
+      "open": 1454.65,
+      "high": 1484,
+      "low": 1446.3,
+      "prevClose": 1440.1,
+      "change": 14.9,
+      "changePct": 1.03,
+      "volumeShares": 11000,
+      "turnoverInr": 16399999.999999998,
+      "twoWeekAvgVolumeShares": 44000,
+      "weightedAvgPrice": 1463.87,
+      "marketCapFullCr": 39120.84,
+      "marketCapFreeFloatCr": 12424.51,
+      "circuitLimits": "11,199.00/1,164.00",
+      "faceValue": 2,
+      "isin": "INE474Q01031",
+      "ticker": "MEDANTA",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": 30,
+      "pe": 48.5,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-08-07T14:51:40.434Z",
+  "lastFetchedAt": "2026-08-08T14:31:05.760Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -2500,7 +2533,7 @@
         "EquityScrips": "543654"
       },
       "Header": {
-        "Noticecnt": "8",
+        "Noticecnt": "4",
         "PrevClose": "1440.10",
         "Open": "1454.65",
         "High": "1484.00",
