@@ -2,17 +2,17 @@
   "scripCode": "543950",
   "slug": "yatharth",
   "name": "Yatharth",
-  "fetchedAt": "2026-08-09T14:33:09.694Z",
+  "fetchedAt": "2026-08-10T14:57:10.925Z",
   "window": {
-    "from": "20260511",
-    "to": "20260809",
+    "from": "20260512",
+    "to": "20260810",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260511&strScrip=543950&strSearch=P&strToDate=20260809&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260512&strScrip=543950&strSearch=P&strToDate=20260810&strType=C",
       "count": 288,
       "countFresh": 0,
       "chunks": 1,
@@ -8086,17 +8086,25 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260511&TDate=20260809&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543950&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260512&TDate=20260810&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543950&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260511&todate=20260809&scripcode=543950",
-      "count": 0,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260512&todate=20260810&scripcode=543950",
+      "count": 1,
       "tag": "confirmed",
-      "data": []
+      "data": [
+        {
+          "scrip_Code": "543950",
+          "short_name": "YATHARTH",
+          "Long_Name": "Yatharth Hospital & Trauma Care Services Ltd",
+          "meeting_date": "10 Aug 2026",
+          "URL": "https://www.bseindia.com/stock-share-price/yatharth-hospital--trauma-care-services-ltd/yatharth/543950/"
+        }
+      ]
     },
     "annualReports": {
       "ok": true,
