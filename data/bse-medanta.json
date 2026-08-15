@@ -2,17 +2,17 @@
   "scripCode": "543654",
   "slug": "medanta",
   "name": "Medanta",
-  "fetchedAt": "2026-08-14T14:49:57.595Z",
+  "fetchedAt": "2026-08-15T14:21:59.490Z",
   "window": {
-    "from": "20260516",
-    "to": "20260814",
+    "from": "20260517",
+    "to": "20260815",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260516&strScrip=543654&strSearch=P&strToDate=20260814&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260517&strScrip=543654&strSearch=P&strToDate=20260815&strType=C",
       "count": 493,
       "countFresh": 0,
       "chunks": 1,
@@ -13825,10 +13825,11 @@
       ]
     },
     "corpActions": {
-      "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260516&TDate=20260814&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543654&segment=0&strSearch=S",
+      "ok": false,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260517&TDate=20260815&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543654&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
+      "error": "Received HTML instead of JSON — wrong endpoint path",
       "data": [
         {
           "scrip_code": 543654,
@@ -13848,7 +13849,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260516&todate=20260814&scripcode=543654",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260517&todate=20260815&scripcode=543654",
       "count": 0,
       "tag": "confirmed",
       "data": []
