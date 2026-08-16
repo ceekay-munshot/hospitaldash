@@ -2740,9 +2740,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-08-16",
+      "price": 809.1,
+      "open": 804.85,
+      "high": 825.6,
+      "low": 804.05,
+      "prevClose": 806.85,
+      "change": 2.25,
+      "changePct": 0.28,
+      "volumeShares": 16000,
+      "turnoverInr": 13300000,
+      "twoWeekAvgVolumeShares": 210000,
+      "weightedAvgPrice": 810.11,
+      "marketCapFullCr": 33982.72,
+      "marketCapFreeFloatCr": 20916.4,
+      "circuitLimits": "16,416.00/647.30",
+      "faceValue": 2,
+      "isin": "INE967H01025",
+      "ticker": "KIMS",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 500",
+      "settlementType": "T+1",
+      "eps": 14.89,
+      "pe": 54.35,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-08-15T14:23:15.002Z",
+  "lastFetchedAt": "2026-08-16T14:21:28.972Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -2764,7 +2797,7 @@
         "EquityScrips": "543308"
       },
       "Header": {
-        "Noticecnt": "3",
+        "Noticecnt": "2",
         "PrevClose": "806.85",
         "Open": "804.85",
         "High": "825.60",

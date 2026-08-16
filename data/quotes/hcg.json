@@ -2740,9 +2740,42 @@
       "roe": null,
       "operatingMargin": null,
       "netMargin": null
+    },
+    {
+      "date": "2026-08-16",
+      "price": 713.9,
+      "open": 730.2,
+      "high": 730.2,
+      "low": 710.05,
+      "prevClose": 721.4,
+      "change": -7.5,
+      "changePct": -1.04,
+      "volumeShares": 106000,
+      "turnoverInr": 76300000,
+      "twoWeekAvgVolumeShares": 46000,
+      "weightedAvgPrice": 719.95,
+      "marketCapFullCr": 10658.68,
+      "marketCapFreeFloatCr": 3763.91,
+      "circuitLimits": "1,05,941.00/571.15",
+      "faceValue": 10,
+      "isin": "INE075I01017",
+      "ticker": "HCG",
+      "industry": "Hospital",
+      "industryGroup": "Healthcare Services",
+      "industrySubgroup": "Hospital",
+      "sector": "Healthcare",
+      "bseGroup": "A",
+      "bseIndex": "BSE 1000",
+      "settlementType": "T+1",
+      "eps": 2.1,
+      "pe": 340.1,
+      "pb": null,
+      "roe": null,
+      "operatingMargin": null,
+      "netMargin": null
     }
   ],
-  "lastFetchedAt": "2026-08-15T14:23:16.134Z",
+  "lastFetchedAt": "2026-08-16T14:21:29.788Z",
   "latestRaw": {
     "header": {
       "CurrRate": {
@@ -2764,7 +2797,7 @@
         "EquityScrips": "539787"
       },
       "Header": {
-        "Noticecnt": "4",
+        "Noticecnt": "3",
         "PrevClose": "721.40",
         "Open": "730.20",
         "High": "730.20",
