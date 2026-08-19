@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "JLHL",
   "isin": "INE682M01020",
-  "lastBuiltAt": "2026-08-18T15:01:43.552Z",
+  "lastBuiltAt": "2026-08-19T14:33:43.764Z",
   "latestQuote": {
-    "date": "2026-08-18",
-    "price": 318.2,
-    "marketCapCr": 10431.55,
-    "marketCapFreeFloatCr": 6066.54,
-    "changePct": 0.84,
-    "volumeShares": 12000
+    "date": "2026-08-19",
+    "price": 321.3,
+    "marketCapCr": 10533.18,
+    "marketCapFreeFloatCr": 6125.65,
+    "changePct": 0.97,
+    "volumeShares": 1005000.0000000001
   },
   "coverage": {
     "extractedDocs": 36,
@@ -426,10 +426,10 @@
         "ebitdaTtmCr": 336.1,
         "netDebtToEbitda": 1.49,
         "patTtmCr": 194,
-        "enterpriseValueCr": 10932.5,
-        "evToEbitda": 32.53,
-        "peTtm": 53.77,
-        "evPerBedLakhs": 1030.4
+        "enterpriseValueCr": 11034.1,
+        "evToEbitda": 32.83,
+        "peTtm": 54.29,
+        "evPerBedLakhs": 1040
       }
     },
     "FY26-Q4": {

@@ -2,17 +2,17 @@
   "scripCode": "508869",
   "slug": "apollo-hospitals",
   "name": "Apollo",
-  "fetchedAt": "2026-08-18T14:31:38.787Z",
+  "fetchedAt": "2026-08-19T14:31:50.339Z",
   "window": {
-    "from": "20260520",
-    "to": "20260818",
+    "from": "20260521",
+    "to": "20260819",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260520&strScrip=508869&strSearch=P&strToDate=20260818&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260521&strScrip=508869&strSearch=P&strToDate=20260819&strType=C",
       "count": 397,
       "countFresh": 0,
       "chunks": 1,
@@ -11138,7 +11138,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260520&TDate=20260818&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260521&TDate=20260819&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -11160,7 +11160,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260520&todate=20260818&scripcode=508869",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260521&todate=20260819&scripcode=508869",
       "count": 0,
       "tag": "confirmed",
       "data": []
