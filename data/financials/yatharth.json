@@ -173,9 +173,25 @@
       "newsId": "91d46ef7-500e-4fe0-9593-b0c1929cc3ba",
       "filingDate": "2025-11-13",
       "period": "FY26-Q2",
+      "periodEnding": "2025-09-30",
       "pdfUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b025f4bb-b50f-443f-8287-762a4b9be1d7.pdf",
-      "error": "not a PDF at AttachHis (got: \"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//E…\") [tried: AttachLive:html, AttachHis:html]",
-      "parsedAt": "2026-08-20T14:36:26.597Z"
+      "revenue": null,
+      "otherIncome": null,
+      "totalIncome": null,
+      "totalExpenses": null,
+      "depreciation": null,
+      "financeCost": null,
+      "pbt": null,
+      "tax": null,
+      "pat": null,
+      "eps": null,
+      "ebitda": null,
+      "ebitdaMargin": null,
+      "patMargin": null,
+      "pdfScale": 1,
+      "matchedPhrases": {},
+      "textPreview": " YH/SE/62/2025-26 November 13, 2025 The Listing Department National Stock Exchange of India Limited Exchange Plaza, 5th Floor, Plot No. C/1 G Block, Bandra-Kurla Complex, Bandra (E) Mumbai – 400 051, India Symbol: YATHARTH ISIN: INE0JO301016 Dept. of Listing Operations BSE Limited",
+      "parsedAt": "2026-08-21T14:35:16.066Z"
     },
     "b0fdce48-5b81-41b7-b6cd-632437e813da": {
       "newsId": "b0fdce48-5b81-41b7-b6cd-632437e813da",
@@ -199,7 +215,7 @@
       "pdfScale": 1,
       "matchedPhrases": {},
       "textPreview": " YH/SE/29/2025-26 August 05, 2025 The Listing Department National Stock Exchange of India Limited Exchange Plaza, 5th Floor, Plot No. C/1 G Block, Bandra-Kurla Complex, Bandra (E) Mumbai – 400 051, India Symbol: YATHARTH ISIN: INE0JO301016 Dept. of Listing Operations BSE Limited, ",
-      "parsedAt": "2026-08-20T14:36:27.320Z"
+      "parsedAt": "2026-08-21T14:35:17.371Z"
     },
     "c7e7a8c7-10a1-47e7-9f1e-d30986f0c2e0": {
       "newsId": "c7e7a8c7-10a1-47e7-9f1e-d30986f0c2e0",
@@ -234,5 +250,5 @@
       "parsedAt": "2026-05-25T18:32:17.911Z"
     }
   },
-  "lastBuiltAt": "2026-08-20T14:36:27.320Z"
+  "lastBuiltAt": "2026-08-21T14:35:17.371Z"
 }
