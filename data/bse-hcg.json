@@ -2,17 +2,17 @@
   "scripCode": "539787",
   "slug": "hcg",
   "name": "HCG",
-  "fetchedAt": "2026-08-22T14:20:28.656Z",
+  "fetchedAt": "2026-08-23T14:21:23.068Z",
   "window": {
-    "from": "20260524",
-    "to": "20260822",
+    "from": "20260525",
+    "to": "20260823",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260524&strScrip=539787&strSearch=P&strToDate=20260822&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260525&strScrip=539787&strSearch=P&strToDate=20260823&strType=C",
       "count": 339,
       "countFresh": 0,
       "chunks": 1,
@@ -9513,14 +9513,14 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260524&TDate=20260822&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539787&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260525&TDate=20260823&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539787&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
       "data": []
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260524&todate=20260822&scripcode=539787",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260525&todate=20260823&scripcode=539787",
       "count": 0,
       "tag": "confirmed",
       "data": []
