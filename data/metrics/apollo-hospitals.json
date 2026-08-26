@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "APOLLOHOSP",
   "isin": "INE437A01024",
-  "lastBuiltAt": "2026-08-25T15:21:14.042Z",
+  "lastBuiltAt": "2026-08-26T14:43:57.263Z",
   "latestQuote": {
-    "date": "2026-08-25",
-    "price": 8878,
-    "marketCapCr": 127652.02,
-    "marketCapFreeFloatCr": 91082.91,
-    "changePct": 2.05,
-    "volumeShares": 15000
+    "date": "2026-08-26",
+    "price": 8790,
+    "marketCapCr": 126386.71,
+    "marketCapFreeFloatCr": 90180.08,
+    "changePct": -0.99,
+    "volumeShares": 5252
   },
   "coverage": {
     "extractedDocs": 41,
@@ -383,10 +383,10 @@
         "ebitdaTtmCr": 3769.4,
         "netDebtToEbitda": 0.23,
         "patTtmCr": 1941.7,
-        "enterpriseValueCr": 128517.9,
-        "evToEbitda": 34.1,
-        "peTtm": 65.74,
-        "evPerBedLakhs": 1335.9
+        "enterpriseValueCr": 127252.6,
+        "evToEbitda": 33.76,
+        "peTtm": 65.09,
+        "evPerBedLakhs": 1322.8
       }
     },
     "FY26-Q3": {

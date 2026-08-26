@@ -2,17 +2,17 @@
   "scripCode": "539551",
   "slug": "narayana",
   "name": "Narayana",
-  "fetchedAt": "2026-08-25T14:43:00.833Z",
+  "fetchedAt": "2026-08-26T14:42:21.284Z",
   "window": {
-    "from": "20260527",
-    "to": "20260825",
+    "from": "20260528",
+    "to": "20260826",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260527&strScrip=539551&strSearch=P&strToDate=20260825&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260528&strScrip=539551&strSearch=P&strToDate=20260826&strType=C",
       "count": 383,
       "countFresh": 0,
       "chunks": 1,
@@ -10745,7 +10745,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260527&TDate=20260825&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260528&TDate=20260826&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -10767,7 +10767,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260527&todate=20260825&scripcode=539551",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260528&todate=20260826&scripcode=539551",
       "count": 0,
       "tag": "confirmed",
       "data": []
