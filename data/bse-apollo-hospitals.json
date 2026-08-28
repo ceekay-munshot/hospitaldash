@@ -2,17 +2,17 @@
   "scripCode": "508869",
   "slug": "apollo-hospitals",
   "name": "Apollo",
-  "fetchedAt": "2026-08-27T23:37:13.015Z",
+  "fetchedAt": "2026-08-28T23:24:06.065Z",
   "window": {
-    "from": "20260529",
-    "to": "20260827",
+    "from": "20260530",
+    "to": "20260828",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260529&strScrip=508869&strSearch=P&strToDate=20260827&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260530&strScrip=508869&strSearch=P&strToDate=20260828&strType=C",
       "count": 397,
       "countFresh": 0,
       "chunks": 1,
@@ -11138,7 +11138,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260529&TDate=20260827&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260530&TDate=20260828&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -11160,7 +11160,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260529&todate=20260827&scripcode=508869",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260530&todate=20260828&scripcode=508869",
       "count": 0,
       "tag": "confirmed",
       "data": []
@@ -11168,13 +11168,18 @@
     "annualReports": {
       "ok": true,
       "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnualReport/w?scripcode=508869",
-      "count": 16,
+      "count": 17,
       "tag": "confirmed",
       "data": [
         {
           "year": "2026",
           "file_name": "f9b40997-8116-48ba-949a-ca2e7775e3c2.pdf.pdf",
           "dt_tm": "2026-08-01T12:50:47.43"
+        },
+        {
+          "year": "2026",
+          "file_name": "df740957-5277-4434-9808-189da93447aa.pdf.pdf",
+          "dt_tm": "2026-08-28T15:25:34.007"
         },
         {
           "year": "2025",
