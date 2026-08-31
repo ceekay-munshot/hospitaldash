@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "FORTIS",
   "isin": "INE061F01013",
-  "lastBuiltAt": "2026-08-30T18:08:44.172Z",
+  "lastBuiltAt": "2026-08-31T19:51:50.996Z",
   "latestQuote": {
-    "date": "2026-08-30",
-    "price": 930,
-    "marketCapCr": 70211.11,
-    "marketCapFreeFloatCr": 48323.92,
-    "changePct": 1.51,
-    "volumeShares": 68000
+    "date": "2026-08-31",
+    "price": 908,
+    "marketCapCr": 68550.2,
+    "marketCapFreeFloatCr": 47180.77,
+    "changePct": -2.37,
+    "volumeShares": 276000
   },
   "coverage": {
     "extractedDocs": 64,
@@ -548,8 +548,8 @@
         "ebitdaPerBedQuarter": 800820,
         "bedTurnoverQuarter": 0.55,
         "revenueTtmCr": 8541.8,
-        "enterpriseValueCr": 72545.1,
-        "evPerBedLakhs": 1189.3
+        "enterpriseValueCr": 70884.2,
+        "evPerBedLakhs": 1162
       }
     },
     "FY26-Q4": {
