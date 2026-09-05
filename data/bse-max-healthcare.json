@@ -2,17 +2,17 @@
   "scripCode": "543220",
   "slug": "max-healthcare",
   "name": "Max",
-  "fetchedAt": "2026-09-04T17:22:32.265Z",
+  "fetchedAt": "2026-09-05T16:33:15.662Z",
   "window": {
-    "from": "20260606",
-    "to": "20260904",
+    "from": "20260607",
+    "to": "20260905",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260606&strScrip=543220&strSearch=P&strToDate=20260904&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260607&strScrip=543220&strSearch=P&strToDate=20260905&strType=C",
       "count": 383,
       "countFresh": 0,
       "chunks": 1,
@@ -10747,7 +10747,7 @@
     },
     "corpActions": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260606&TDate=20260904&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543220&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260607&TDate=20260905&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543220&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "data": [
@@ -10769,7 +10769,7 @@
     },
     "boardMeetings": {
       "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260606&todate=20260904&scripcode=543220",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260607&todate=20260905&scripcode=543220",
       "count": 0,
       "tag": "confirmed",
       "data": []
