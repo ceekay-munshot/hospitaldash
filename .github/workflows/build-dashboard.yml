@@ -8,6 +8,9 @@ on:
     branches: [main]
     paths:
       - 'data/sector.json'
+      - 'data/docs/**'
+      - 'data/quotes/**'
+      - 'shared/**'
       - 'dashboard/src/**'
       - 'dashboard/index.html'
       - 'dashboard/package.json'

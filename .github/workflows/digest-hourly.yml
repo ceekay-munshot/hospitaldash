@@ -1,0 +1,42 @@
+name: Hourly email digests
+
+# Fires every hour at :05 UTC. The Worker's per-subscriber, once-per-day IST
+# guard makes this idempotent — a late run or a double run is harmless.
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: digest-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST /api/run-digests
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          DIGEST_KEY: ${{ secrets.DIGEST_KEY }}
+        run: |
+          if [ -z "$SITE_URL" ] || [ -z "$DIGEST_KEY" ]; then
+            echo "SITE_URL variable or DIGEST_KEY secret not set — skipping."
+            echo "Set repo variable SITE_URL (e.g. https://hospitaldash.<subdomain>.workers.dev)"
+            echo "and secret DIGEST_KEY (matching the Worker secret) to enable digests."
+            exit 0
+          fi
+          code=$(curl -sS -o /tmp/resp.json -w '%{http_code}' -X POST "$SITE_URL/api/run-digests" \
+            -H "x-digest-key: $DIGEST_KEY" \
+            -H 'content-type: application/json' \
+            -d '{}') || true
+          echo "HTTP $code"
+          cat /tmp/resp.json 2>/dev/null || true
+          echo
+          if [ "$code" != "200" ]; then
+            echo "::error::run-digests returned $code (expected 200)"
+            exit 1
+          fi

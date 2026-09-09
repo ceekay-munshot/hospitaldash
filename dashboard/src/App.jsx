@@ -4,6 +4,7 @@ import CompanyHeader from './components/CompanyHeader';
 import Section from './components/Section';
 import MetricDetailModal from './components/MetricDetailModal';
 import PeriodSelector from './components/PeriodSelector';
+import BriefPanel from './components/BriefPanel';
 import { defaultPeriod } from './lib/period';
 
 // 6 sections matching Simran's framework
@@ -28,6 +29,7 @@ export default function App() {
   const [slug, setSlug] = useState(null);
   const [selectedMetric, setSelectedMetric] = useState(null);
   const [period, setPeriod] = useState(null);
+  const [briefOpen, setBriefOpen] = useState(() => typeof window !== 'undefined' && window.location.hash === '#brief');
 
   useEffect(() => {
     loadSectorData()
@@ -73,11 +75,20 @@ export default function App() {
         <h1>
           Hospital Sector Dashboard <span>· India</span>
         </h1>
-        <div className="meta">
-          <span><strong>{data.companies.length}</strong> companies tracked</span>
-          <span><strong>{cosWithData.length}</strong> with extracted data</span>
-          <span><strong>{data.quarters.length}</strong> quarters</span>
-          <span>Built {buildDate}</span>
+        <div className="topbar-right">
+          <div className="meta">
+            <span><strong>{data.companies.length}</strong> companies tracked</span>
+            <span><strong>{cosWithData.length}</strong> with extracted data</span>
+            <span><strong>{data.quarters.length}</strong> quarters</span>
+            <span>Built {buildDate}</span>
+          </div>
+          <button className="brief-btn" onClick={() => setBriefOpen(true)} title="Subscribe to an email brief">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" stroke="currentColor" strokeWidth="1.8" />
+              <path d="M3 6l9 6 9-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            Brief
+          </button>
         </div>
       </div>
 
@@ -139,6 +150,8 @@ export default function App() {
         sectorData={data}
         companySlug={slug}
       />
+
+      <BriefPanel open={briefOpen} onClose={() => setBriefOpen(false)} />
 
       <footer>
         <div>

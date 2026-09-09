@@ -1,18 +1,46 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hospitaldash",
+  "main": "worker/index.js",
   "compatibility_date": "2026-05-24",
   "observability": {
     "enabled": true
   },
   "assets": {
     "directory": "./dashboard/dist",
-    "not_found_handling": "single-page-application"
+    // Let the Worker read static files (incl. /digest-feed.json) and serve them.
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    // Run the Worker FIRST for /api/* so the SPA not-found fallback doesn't
+    // swallow the API routes. Everything else is served straight from assets.
+    "run_worker_first": [
+      "/api/*"
+    ]
   },
   "compatibility_flags": [
     "nodejs_compat"
   ],
   "build": {
     "command": "cd dashboard && npm install --no-audit --no-fund && npm run build"
-  }
+  },
+
+  // ── Email digest ─────────────────────────────────────────────────────────
+  // The digest degrades gracefully until these are set (see SETUP-DIGEST.md):
+  //
+  // 1) Create the KV namespace, then uncomment + paste its id:
+  //      npx wrangler kv namespace create DIGEST_KV
+  // "kv_namespaces": [
+  //   { "binding": "DIGEST_KV", "id": "PASTE_KV_NAMESPACE_ID_HERE" }
+  // ],
+  //
+  // 2) Secrets (never commit these — set via `wrangler secret put` or the
+  //    Cloudflare dashboard → Settings → Variables and Secrets):
+  //      MUNS_TOKEN    Bearer token for https://devde.muns.io/email/send/raw
+  //      DIGEST_KEY    shared secret the hourly GitHub Action sends as x-digest-key
+  //
+  // 3) Optional plain vars (safe to set here or as dashboard vars):
+  //      SITE_URL        canonical site origin for links (else request origin)
+  //      BRAND_LOGO_URL  masthead logo (else the "MUNSHOT" wordmark)
+  //      SEND_EMPTY      "true" to email even on days with nothing new
+  "vars": {}
 }

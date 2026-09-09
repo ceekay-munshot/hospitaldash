@@ -11,7 +11,9 @@
     "financials": "node scripts/scrape-bse-financials.mjs",
     "extract": "node scripts/extract-metrics.mjs",
     "build-metrics": "node scripts/build-metrics.mjs",
-    "build-sector": "node scripts/build-sector.mjs"
+    "build-sector": "node scripts/build-sector.mjs",
+    "preview-email": "node scripts/preview-email.mjs",
+    "digest:selftest": "node scripts/selftest-digest.mjs"
   },
   "dependencies": {
     "pdf-parse": "^1.1.4"
