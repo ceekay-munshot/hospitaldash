@@ -7,14 +7,14 @@
   "industry": "Hospital",
   "ticker": "MAXHEALTH",
   "isin": "INE027H01010",
-  "lastBuiltAt": "2026-09-21T19:39:24.311Z",
+  "lastBuiltAt": "2026-09-22T17:58:31.398Z",
   "latestQuote": {
-    "date": "2026-09-21",
-    "price": 1064.5,
-    "marketCapCr": 103608.88,
-    "marketCapFreeFloatCr": 78374.83,
-    "changePct": 0.9,
-    "volumeShares": 55000.00000000001
+    "date": "2026-09-22",
+    "price": 1058.95,
+    "marketCapCr": 103068.69,
+    "marketCapFreeFloatCr": 77966.21,
+    "changePct": -0.52,
+    "volumeShares": 186000
   },
   "coverage": {
     "extractedDocs": 72,
@@ -335,9 +335,9 @@
         "ebitdaTtmCr": 2706,
         "netDebtToEbitda": 0.71,
         "patTtmCr": 1672,
-        "enterpriseValueCr": 105516.9,
-        "evToEbitda": 38.99,
-        "peTtm": 61.97
+        "enterpriseValueCr": 104976.7,
+        "evToEbitda": 38.79,
+        "peTtm": 61.64
       }
     },
     "FY26-Q4": {
