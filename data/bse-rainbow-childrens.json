@@ -2,17 +2,17 @@
   "scripCode": "543524",
   "slug": "rainbow-childrens",
   "name": "Rainbow",
-  "fetchedAt": "2026-10-10T18:29:31.017Z",
+  "fetchedAt": "2026-10-11T18:53:02.484Z",
   "window": {
-    "from": "20260712",
-    "to": "20261010",
+    "from": "20260713",
+    "to": "20261011",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260712&strScrip=543524&strSearch=P&strToDate=20261010&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260713&strScrip=543524&strSearch=P&strToDate=20261011&strType=C",
       "count": 278,
       "tag": "confirmed",
       "error": "exhausted retries",
@@ -7804,7 +7804,7 @@
     },
     "corpActions": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260712&TDate=20261010&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260713&TDate=20261011&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=543524&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "error": "exhausted retries",
@@ -7827,7 +7827,7 @@
     },
     "boardMeetings": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260712&todate=20261010&scripcode=543524",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260713&todate=20261011&scripcode=543524",
       "count": 0,
       "tag": "confirmed",
       "error": "exhausted retries",
