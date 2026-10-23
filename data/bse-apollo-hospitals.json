@@ -2,17 +2,17 @@
   "scripCode": "508869",
   "slug": "apollo-hospitals",
   "name": "Apollo",
-  "fetchedAt": "2026-10-17T16:50:56.424Z",
+  "fetchedAt": "2026-10-23T18:05:26.595Z",
   "window": {
-    "from": "20260719",
-    "to": "20261017",
+    "from": "20260725",
+    "to": "20261023",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260719&strScrip=508869&strSearch=P&strToDate=20261017&strType=C",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260725&strScrip=508869&strSearch=P&strToDate=20261023&strType=C",
       "count": 397,
       "tag": "confirmed",
       "error": "exhausted retries",
@@ -11136,7 +11136,7 @@
     },
     "corpActions": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260719&TDate=20261017&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260725&TDate=20261023&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=508869&segment=0&strSearch=S",
       "count": 1,
       "tag": "confirmed",
       "error": "exhausted retries",
@@ -11159,7 +11159,7 @@
     },
     "boardMeetings": {
       "ok": false,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260719&todate=20261017&scripcode=508869",
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260725&todate=20261023&scripcode=508869",
       "count": 0,
       "tag": "confirmed",
       "error": "exhausted retries",
