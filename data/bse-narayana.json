@@ -2,22 +2,20 @@
   "scripCode": "539551",
   "slug": "narayana",
   "name": "Narayana",
-  "fetchedAt": "2026-10-27T19:13:50.573Z",
+  "fetchedAt": "2026-10-30T19:07:25.949Z",
   "window": {
-    "from": "20260729",
-    "to": "20261027",
+    "from": "20260801",
+    "to": "20261030",
     "days": 90,
     "chunkDays": 180
   },
   "categories": {
     "announcements": {
-      "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260729&strScrip=539551&strSearch=P&strToDate=20261027&strType=C",
+      "ok": false,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnGetData/w?pageno=1&strCat=-1&strPrevDate=20260801&strScrip=539551&strSearch=P&strToDate=20261030&strType=C",
       "count": 383,
-      "countFresh": 0,
-      "chunks": 1,
-      "pages": 1,
       "tag": "confirmed",
+      "error": "exhausted retries",
       "data": [
         {
           "NEWSID": "ede35be0-7460-4e65-8682-9cbbcf655ef7",
@@ -10744,24 +10742,27 @@
       ]
     },
     "corpActions": {
-      "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260729&TDate=20261027&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
+      "ok": false,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/DefaultData/w?Fdate=20260801&TDate=20261030&Purposecode=&ddlcategorys=E&ddlindustrys=&scripcode=539551&segment=0&strSearch=S",
       "count": 0,
       "tag": "confirmed",
+      "error": "exhausted retries",
       "data": []
     },
     "boardMeetings": {
-      "ok": true,
-      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260729&todate=20261027&scripcode=539551",
+      "ok": false,
+      "url": "https://api.bseindia.com/BseIndiaAPI/api/Corpforthresults/w?fromdate=20260801&todate=20261030&scripcode=539551",
       "count": 0,
       "tag": "confirmed",
+      "error": "exhausted retries",
       "data": []
     },
     "annualReports": {
-      "ok": true,
+      "ok": false,
       "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnualReport/w?scripcode=539551",
       "count": 13,
       "tag": "confirmed",
+      "error": "exhausted retries",
       "data": [
         {
           "year": "2026",
@@ -10831,7 +10832,7 @@
       ]
     },
     "results": {
-      "ok": true,
+      "ok": false,
       "tag": "derived",
       "source": "announcements",
       "count": 14,
